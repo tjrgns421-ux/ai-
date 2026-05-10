@@ -1,0 +1,16 @@
+{
+  "entities": {
+    "PortfolioData": {
+      "title": "PortfolioData",
+      "description": "The user's portfolio data",
+      "type": "object",
+      "properties": {}
+    }
+  },
+  "firestore": {
+    "/portfolio/{documentId}": {
+      "schema": "PortfolioData",
+      "description": "Stores portfolio metadata"
+    }
+  }
+}
