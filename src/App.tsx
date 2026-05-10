@@ -82,6 +82,7 @@ const INITIAL_DATA = {
   profile_img: "https://picsum.photos/seed/profile/400/440",
   p1_title: "뷰티 브랜드 AI 쇼츠 매거진 시리즈",
   p1_subtitle: "조회수 100만 뷰 달성 · AI 비주얼 스토리텔링",
+  p1_tags: "AI 쇼츠 시리즈, 조회수 100만, 초현실 비주얼",
   p1_video: "https://www.youtube.com/shorts/5v2Vq27m1iU",
   p1_tools: "Midjourney, Runway Gen-2, Premiere Pro",
   p1_problem_title: "시각적 피로도",
@@ -96,6 +97,7 @@ const INITIAL_DATA = {
     "사람들이 숏폼에서 기대하는 것은 단순한 정보가 아니라 '경험'입니다. AI를 통해 현실에서 불가능한 시각적 경험을 제공했을 때 바이럴이 시작된다는 것을 확인했습니다.",
   p2_title: "퍼포먼스 향상 프로모션 쇼츠 영상",
   p2_subtitle: "전환율 15% 상승 · 극적인 훅(Hook) 기획",
+  p2_tags: "퍼포먼스 마케팅, 전환율 15% 상승, A/B 테스트",
   p2_video: "https://www.youtube.com/shorts/3Pz2bT7M4U4",
   p2_tools: "ChatGPT, ElevenLabs, CapCut",
   p2_problem_title: "낮은 초반 주목도",
@@ -111,6 +113,7 @@ const INITIAL_DATA = {
     "숏폼 광고는 미학보다 시선 강탈이 먼저여야 함을 배웠습니다. 아무리 좋은 콘텐츠도 초반 3초를 잡지 못하면 존재하지 않는 것과 같습니다.",
   p3_title: "B2B SaaS 홍보용 정보성 숏폼",
   p3_subtitle: "어려운 기능을 15초 만에 설명하는 튜토리얼 쇼츠",
+  p3_tags: "정보성 쇼츠, 밈 활용, 공유수 5배",
   p3_video: "https://www.youtube.com/shorts/d2X4r1I_IJU",
   p3_tools: "Vrew, After Effects, Notion",
   p3_problem_title: "설명의 지루함",
@@ -139,6 +142,15 @@ const INITIAL_DATA = {
     "📦 배송 정보: 출근 가능 지역 및 시작일은 이메일로 문의해주세요. 빠른 응답을 약속드립니다.",
   contact_btn1: "장바구니",
   contact_btn2: "바로 구매 →",
+  p1_duration: "1주일",
+  p2_duration: "2주일",
+  p3_duration: "3일",
+  p1_contrib_label: "기획 및 제작",
+  p1_contrib_pct: "100%",
+  p2_contrib_label: "기획 및 카피라이팅",
+  p2_contrib_pct: "100%",
+  p3_contrib_label: "영상 템플릿 기획",
+  p3_contrib_pct: "100%",
 };
 
 export default function App() {
@@ -491,9 +503,11 @@ export default function App() {
             </div>
           </div>
           <div className="project-tags">
-            <span className="ptag">AI 쇼츠 시리즈</span>
-            <span className="ptag">조회수 100만</span>
-            <span className="ptag">초현실 비주얼</span>
+            {data.p1_tags?.split(",").map((tag: string, idx: number) => (
+              <span key={idx} className="ptag">
+                {tag.trim()}
+              </span>
+            ))}
           </div>
 
           <div className="shorts-container">
@@ -542,6 +556,11 @@ export default function App() {
               <div className="contrib-section">
                 <div className="contrib-header">
                   <div className="contrib-title">사용 기술 및 기여도</div>
+                  {data.p1_duration && (
+                    <div className="text-sm font-medium text-gray-500">
+                      제작 소요 시간: {data.p1_duration}
+                    </div>
+                  )}
                 </div>
                 {data.p1_tools && (
                   <div style={{ marginBottom: "16px" }}>
@@ -558,11 +577,18 @@ export default function App() {
                 )}
                 <div className="contrib-item">
                   <div className="contrib-row">
-                    <span className="contrib-label">기획 및 제작</span>
-                    <span className="contrib-pct">100%</span>
+                    <span className="contrib-label">
+                      {data.p1_contrib_label || "기획 및 제작"}
+                    </span>
+                    <span className="contrib-pct">
+                      {data.p1_contrib_pct || "100%"}
+                    </span>
                   </div>
                   <div className="gauge-bg">
-                    <div className="gauge-fill" style={{ width: "100%" }}></div>
+                    <div
+                      className="gauge-fill"
+                      style={{ width: data.p1_contrib_pct || "100%" }}
+                    ></div>
                   </div>
                 </div>
               </div>
@@ -587,9 +613,11 @@ export default function App() {
             </div>
           </div>
           <div className="project-tags">
-            <span className="ptag">퍼포먼스 마케팅</span>
-            <span className="ptag">전환율 15% 상승</span>
-            <span className="ptag">A/B 테스트</span>
+            {data.p2_tags?.split(",").map((tag: string, idx: number) => (
+              <span key={idx} className="ptag">
+                {tag.trim()}
+              </span>
+            ))}
           </div>
 
           <div className="shorts-container">
@@ -638,6 +666,11 @@ export default function App() {
               <div className="contrib-section">
                 <div className="contrib-header">
                   <div className="contrib-title">사용 기술 및 기여도</div>
+                  {data.p2_duration && (
+                    <div className="text-sm font-medium text-gray-500">
+                      제작 소요 시간: {data.p2_duration}
+                    </div>
+                  )}
                 </div>
                 {data.p2_tools && (
                   <div style={{ marginBottom: "16px" }}>
@@ -654,11 +687,18 @@ export default function App() {
                 )}
                 <div className="contrib-item">
                   <div className="contrib-row">
-                    <span className="contrib-label">기획 및 카피라이팅</span>
-                    <span className="contrib-pct">100%</span>
+                    <span className="contrib-label">
+                      {data.p2_contrib_label || "기획 및 카피라이팅"}
+                    </span>
+                    <span className="contrib-pct">
+                      {data.p2_contrib_pct || "100%"}
+                    </span>
                   </div>
                   <div className="gauge-bg">
-                    <div className="gauge-fill" style={{ width: "100%" }}></div>
+                    <div
+                      className="gauge-fill"
+                      style={{ width: data.p2_contrib_pct || "100%" }}
+                    ></div>
                   </div>
                 </div>
               </div>
@@ -683,9 +723,11 @@ export default function App() {
             </div>
           </div>
           <div className="project-tags">
-            <span className="ptag">정보성 쇼츠</span>
-            <span className="ptag">밈 활용</span>
-            <span className="ptag">공유수 5배</span>
+            {data.p3_tags?.split(",").map((tag: string, idx: number) => (
+              <span key={idx} className="ptag">
+                {tag.trim()}
+              </span>
+            ))}
           </div>
 
           <div className="title-img-wrap">
@@ -721,6 +763,11 @@ export default function App() {
           <div className="contrib-section">
             <div className="contrib-header">
               <div className="contrib-title">사용 기술 및 기여도</div>
+              {data.p3_duration && (
+                <div className="text-sm font-medium text-gray-500">
+                  제작 소요 시간: {data.p3_duration}
+                </div>
+              )}
             </div>
             {data.p3_tools && (
               <div style={{ marginBottom: "16px" }}>
@@ -735,11 +782,18 @@ export default function App() {
             )}
             <div className="contrib-item">
               <div className="contrib-row">
-                <span className="contrib-label">영상 템플릿 기획</span>
-                <span className="contrib-pct">100%</span>
+                <span className="contrib-label">
+                  {data.p3_contrib_label || "영상 템플릿 기획"}
+                </span>
+                <span className="contrib-pct">
+                  {data.p3_contrib_pct || "100%"}
+                </span>
               </div>
               <div className="gauge-bg">
-                <div className="gauge-fill" style={{ width: "100%" }}></div>
+                <div
+                  className="gauge-fill"
+                  style={{ width: data.p3_contrib_pct || "100%" }}
+                ></div>
               </div>
             </div>
           </div>
@@ -1162,6 +1216,20 @@ export default function App() {
                           className="p-2 border rounded font-normal"
                         />
                       </label>
+                      <label className="flex flex-col gap-1 text-sm font-bold text-gray-600">
+                        태그 (쉼표로 구분)
+                        <input
+                          type="text"
+                          value={editData.p1_tags || ""}
+                          onChange={(e) =>
+                            setEditData({
+                              ...editData,
+                              p1_tags: e.target.value,
+                            })
+                          }
+                          className="p-2 border rounded font-normal"
+                        />
+                      </label>
                       <div className="grid grid-cols-2 gap-4">
                         <label className="flex flex-col gap-1 text-sm font-bold text-gray-600">
                           Problem 제목
@@ -1274,6 +1342,21 @@ export default function App() {
                         />
                       </label>
                       <label className="flex flex-col gap-1 text-sm font-bold text-gray-600">
+                        제작 소요 시간
+                        <input
+                          type="text"
+                          value={editData.p1_duration || ""}
+                          onChange={(e) =>
+                            setEditData({
+                              ...editData,
+                              p1_duration: e.target.value,
+                            })
+                          }
+                          className="p-2 border rounded font-normal"
+                          placeholder="예: 1주일"
+                        />
+                      </label>
+                      <label className="flex flex-col gap-1 text-sm font-bold text-gray-600">
                         사용한 기술 / 기여도 (쉼표로 구분)
                         <input
                           type="text"
@@ -1288,6 +1371,38 @@ export default function App() {
                           placeholder="예: Midjourney, Premiere Pro"
                         />
                       </label>
+                      <div className="grid grid-cols-2 gap-4">
+                        <label className="flex flex-col gap-1 text-sm font-bold text-gray-600">
+                          기여 역할
+                          <input
+                            type="text"
+                            value={editData.p1_contrib_label || ""}
+                            onChange={(e) =>
+                              setEditData({
+                                ...editData,
+                                p1_contrib_label: e.target.value,
+                              })
+                            }
+                            className="p-2 border rounded font-normal"
+                            placeholder="예: 기획 및 제작"
+                          />
+                        </label>
+                        <label className="flex flex-col gap-1 text-sm font-bold text-gray-600">
+                          기여도 (%)
+                          <input
+                            type="text"
+                            value={editData.p1_contrib_pct || ""}
+                            onChange={(e) =>
+                              setEditData({
+                                ...editData,
+                                p1_contrib_pct: e.target.value,
+                              })
+                            }
+                            className="p-2 border rounded font-normal"
+                            placeholder="예: 100%"
+                          />
+                        </label>
+                      </div>
                     </div>
                   </div>
 
@@ -1300,7 +1415,7 @@ export default function App() {
                         제목
                         <input
                           type="text"
-                          value={editData.p2_title}
+                          value={editData.p2_title || ""}
                           onChange={(e) =>
                             setEditData({
                               ...editData,
@@ -1308,6 +1423,49 @@ export default function App() {
                             })
                           }
                           className="p-2 border rounded font-normal"
+                        />
+                      </label>
+                      <label className="flex flex-col gap-1 text-sm font-bold text-gray-600">
+                        부제목
+                        <input
+                          type="text"
+                          value={editData.p2_subtitle || ""}
+                          onChange={(e) =>
+                            setEditData({
+                              ...editData,
+                              p2_subtitle: e.target.value,
+                            })
+                          }
+                          className="p-2 border rounded font-normal"
+                        />
+                      </label>
+                      <label className="flex flex-col gap-1 text-sm font-bold text-gray-600">
+                        태그 (쉼표로 구분)
+                        <input
+                          type="text"
+                          value={editData.p2_tags || ""}
+                          onChange={(e) =>
+                            setEditData({
+                              ...editData,
+                              p2_tags: e.target.value,
+                            })
+                          }
+                          className="p-2 border rounded font-normal"
+                        />
+                      </label>
+                      <label className="flex flex-col gap-1 text-sm font-bold text-gray-600">
+                        제작 소요 시간
+                        <input
+                          type="text"
+                          value={editData.p2_duration || ""}
+                          onChange={(e) =>
+                            setEditData({
+                              ...editData,
+                              p2_duration: e.target.value,
+                            })
+                          }
+                          className="p-2 border rounded font-normal"
+                          placeholder="예: 2주일"
                         />
                       </label>
                       <label className="flex flex-col gap-1 text-sm font-bold text-gray-600">
@@ -1325,6 +1483,38 @@ export default function App() {
                           placeholder="예: Midjourney, ChatGPT"
                         />
                       </label>
+                      <div className="grid grid-cols-2 gap-4">
+                        <label className="flex flex-col gap-1 text-sm font-bold text-gray-600">
+                          기여 역할
+                          <input
+                            type="text"
+                            value={editData.p2_contrib_label || ""}
+                            onChange={(e) =>
+                              setEditData({
+                                ...editData,
+                                p2_contrib_label: e.target.value,
+                              })
+                            }
+                            className="p-2 border rounded font-normal"
+                            placeholder="예: 기획 및 카피라이팅"
+                          />
+                        </label>
+                        <label className="flex flex-col gap-1 text-sm font-bold text-gray-600">
+                          기여도 (%)
+                          <input
+                            type="text"
+                            value={editData.p2_contrib_pct || ""}
+                            onChange={(e) =>
+                              setEditData({
+                                ...editData,
+                                p2_contrib_pct: e.target.value,
+                              })
+                            }
+                            className="p-2 border rounded font-normal"
+                            placeholder="예: 100%"
+                          />
+                        </label>
+                      </div>
                       <div className="grid grid-cols-2 gap-4">
                         <label className="flex flex-col gap-1 text-sm font-bold text-gray-600">
                           Problem 제목
@@ -1448,7 +1638,7 @@ export default function App() {
                         제목
                         <input
                           type="text"
-                          value={editData.p3_title}
+                          value={editData.p3_title || ""}
                           onChange={(e) =>
                             setEditData({
                               ...editData,
@@ -1456,6 +1646,49 @@ export default function App() {
                             })
                           }
                           className="p-2 border rounded font-normal"
+                        />
+                      </label>
+                      <label className="flex flex-col gap-1 text-sm font-bold text-gray-600">
+                        부제목
+                        <input
+                          type="text"
+                          value={editData.p3_subtitle || ""}
+                          onChange={(e) =>
+                            setEditData({
+                              ...editData,
+                              p3_subtitle: e.target.value,
+                            })
+                          }
+                          className="p-2 border rounded font-normal"
+                        />
+                      </label>
+                      <label className="flex flex-col gap-1 text-sm font-bold text-gray-600">
+                        태그 (쉼표로 구분)
+                        <input
+                          type="text"
+                          value={editData.p3_tags || ""}
+                          onChange={(e) =>
+                            setEditData({
+                              ...editData,
+                              p3_tags: e.target.value,
+                            })
+                          }
+                          className="p-2 border rounded font-normal"
+                        />
+                      </label>
+                      <label className="flex flex-col gap-1 text-sm font-bold text-gray-600">
+                        제작 소요 시간
+                        <input
+                          type="text"
+                          value={editData.p3_duration || ""}
+                          onChange={(e) =>
+                            setEditData({
+                              ...editData,
+                              p3_duration: e.target.value,
+                            })
+                          }
+                          className="p-2 border rounded font-normal"
+                          placeholder="예: 3일"
                         />
                       </label>
                       <label className="flex flex-col gap-1 text-sm font-bold text-gray-600">
@@ -1473,6 +1706,38 @@ export default function App() {
                           placeholder="예: Figma, Notion"
                         />
                       </label>
+                      <div className="grid grid-cols-2 gap-4">
+                        <label className="flex flex-col gap-1 text-sm font-bold text-gray-600">
+                          기여 역할
+                          <input
+                            type="text"
+                            value={editData.p3_contrib_label || ""}
+                            onChange={(e) =>
+                              setEditData({
+                                ...editData,
+                                p3_contrib_label: e.target.value,
+                              })
+                            }
+                            className="p-2 border rounded font-normal"
+                            placeholder="예: 영상 템플릿 기획"
+                          />
+                        </label>
+                        <label className="flex flex-col gap-1 text-sm font-bold text-gray-600">
+                          기여도 (%)
+                          <input
+                            type="text"
+                            value={editData.p3_contrib_pct || ""}
+                            onChange={(e) =>
+                              setEditData({
+                                ...editData,
+                                p3_contrib_pct: e.target.value,
+                              })
+                            }
+                            className="p-2 border rounded font-normal"
+                            placeholder="예: 100%"
+                          />
+                        </label>
+                      </div>
                       <div className="grid grid-cols-2 gap-4">
                         <label className="flex flex-col gap-1 text-sm font-bold text-gray-600">
                           Problem 제목
