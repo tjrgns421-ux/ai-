@@ -84,6 +84,9 @@ const INITIAL_DATA = {
   p1_subtitle: "조회수 100만 뷰 달성 · AI 비주얼 스토리텔링",
   p1_tags: "AI 쇼츠 시리즈, 조회수 100만, 초현실 비주얼",
   p1_video: "https://www.youtube.com/shorts/5v2Vq27m1iU",
+  p1_stillcut: "https://picsum.photos/seed/p1/400/300",
+  p1_prompt:
+    "/imagine prompt: neon glowing jellyfish floating above a futuristic city skyline, cinematic lighting, 8k --ar 9:16 --v 6",
   p1_tools: "Midjourney, Runway Gen-2, Premiere Pro",
   p1_problem_title: "시각적 피로도",
   p1_problem_desc:
@@ -99,6 +102,9 @@ const INITIAL_DATA = {
   p2_subtitle: "전환율 15% 상승 · 극적인 훅(Hook) 기획",
   p2_tags: "퍼포먼스 마케팅, 전환율 15% 상승, A/B 테스트",
   p2_video: "https://www.youtube.com/shorts/3Pz2bT7M4U4",
+  p2_stillcut: "https://picsum.photos/seed/p2/400/300",
+  p2_prompt:
+    "Create a highly engaging opening hook showing a shocked expression of a digital avatar, bold typography, vibrant colors.",
   p2_tools: "ChatGPT, ElevenLabs, CapCut",
   p2_problem_title: "낮은 초반 주목도",
   p2_problem_desc:
@@ -115,6 +121,9 @@ const INITIAL_DATA = {
   p3_subtitle: "어려운 기능을 15초 만에 설명하는 튜토리얼 쇼츠",
   p3_tags: "정보성 쇼츠, 밈 활용, 공유수 5배",
   p3_video: "https://www.youtube.com/shorts/d2X4r1I_IJU",
+  p3_stillcut: "https://picsum.photos/seed/p3/400/300",
+  p3_prompt:
+    "A humorous IT professional looking confused at a complex dashboard, split screen, meme style layout.",
   p3_tools: "Vrew, After Effects, Notion",
   p3_problem_title: "설명의 지루함",
   p3_problem_desc:
@@ -511,7 +520,23 @@ export default function App() {
           </div>
 
           <div className="shorts-container">
-            {renderShortVideo(data.p1_video, "쇼츠 영상 1")}
+            <div className="flex flex-col gap-5 w-full max-w-[320px] mx-auto">
+              {renderShortVideo(data.p1_video, "쇼츠 영상 1")}
+
+              {data.p1_stillcut && data.p1_prompt && (
+                <div className="prompt-section stacked">
+                  <img
+                    src={data.p1_stillcut}
+                    alt="Stillcut"
+                    className="prompt-image vertical"
+                  />
+                  <div className="prompt-content" style={{ width: "100%" }}>
+                    <div className="prompt-label">AI Generation Prompt</div>
+                    <div className="prompt-text">{data.p1_prompt}</div>
+                  </div>
+                </div>
+              )}
+            </div>
 
             <div className="short-info-wrap">
               <div
@@ -621,7 +646,23 @@ export default function App() {
           </div>
 
           <div className="shorts-container">
-            {renderShortVideo(data.p2_video, "쇼츠 영상 2")}
+            <div className="flex flex-col gap-5 w-full max-w-[320px] mx-auto">
+              {renderShortVideo(data.p2_video, "쇼츠 영상 2")}
+
+              {data.p2_stillcut && data.p2_prompt && (
+                <div className="prompt-section stacked">
+                  <img
+                    src={data.p2_stillcut}
+                    alt="Stillcut"
+                    className="prompt-image vertical"
+                  />
+                  <div className="prompt-content" style={{ width: "100%" }}>
+                    <div className="prompt-label">AI Generation Prompt</div>
+                    <div className="prompt-text">{data.p2_prompt}</div>
+                  </div>
+                </div>
+              )}
+            </div>
 
             <div className="short-info-wrap">
               <div
@@ -735,6 +776,20 @@ export default function App() {
               {renderVideo(data.p3_video, "일반 영상 3")}
             </div>
           </div>
+
+          {data.p3_stillcut && data.p3_prompt && (
+            <div className="prompt-section">
+              <img
+                src={data.p3_stillcut}
+                alt="Stillcut"
+                className="prompt-image horizontal"
+              />
+              <div className="prompt-content">
+                <div className="prompt-label">AI Generation Prompt</div>
+                <div className="prompt-text">{data.p3_prompt}</div>
+              </div>
+            </div>
+          )}
 
           <div className="psr-grid">
             <div className="psr-block">
@@ -1342,6 +1397,30 @@ export default function App() {
                         />
                       </label>
                       <label className="flex flex-col gap-1 text-sm font-bold text-gray-600">
+                        스틸컷 이미지
+                        <input
+                          type="file"
+                          accept="image/*"
+                          onChange={(e) => handleFileChange(e, "p1_stillcut")}
+                          className="font-normal"
+                        />
+                      </label>
+                      <label className="flex flex-col gap-1 text-sm font-bold text-gray-600">
+                        AI 프롬프트
+                        <textarea
+                          value={editData.p1_prompt || ""}
+                          onChange={(e) =>
+                            setEditData({
+                              ...editData,
+                              p1_prompt: e.target.value,
+                            })
+                          }
+                          className="p-2 border rounded font-normal"
+                          placeholder="예: /imagine prompt: neon glowing jellyfish..."
+                          rows={2}
+                        />
+                      </label>
+                      <label className="flex flex-col gap-1 text-sm font-bold text-gray-600">
                         제작 소요 시간
                         <input
                           type="text"
@@ -1626,6 +1705,30 @@ export default function App() {
                           placeholder="https://www.youtube.com/shorts/..."
                         />
                       </label>
+                      <label className="flex flex-col gap-1 text-sm font-bold text-gray-600">
+                        스틸컷 이미지
+                        <input
+                          type="file"
+                          accept="image/*"
+                          onChange={(e) => handleFileChange(e, "p2_stillcut")}
+                          className="font-normal"
+                        />
+                      </label>
+                      <label className="flex flex-col gap-1 text-sm font-bold text-gray-600">
+                        AI 프롬프트
+                        <textarea
+                          value={editData.p2_prompt || ""}
+                          onChange={(e) =>
+                            setEditData({
+                              ...editData,
+                              p2_prompt: e.target.value,
+                            })
+                          }
+                          className="p-2 border rounded font-normal"
+                          placeholder="예: /imagine prompt: neon glowing jellyfish..."
+                          rows={2}
+                        />
+                      </label>
                     </div>
                   </div>
 
@@ -1847,6 +1950,30 @@ export default function App() {
                           }
                           className="px-3 py-2 border rounded-lg font-normal"
                           placeholder="https://www.youtube.com/watch?v=..."
+                        />
+                      </label>
+                      <label className="flex flex-col gap-1 text-sm font-bold text-gray-600">
+                        스틸컷 이미지
+                        <input
+                          type="file"
+                          accept="image/*"
+                          onChange={(e) => handleFileChange(e, "p3_stillcut")}
+                          className="px-3 py-2 border rounded-lg font-normal"
+                        />
+                      </label>
+                      <label className="flex flex-col gap-1 text-sm font-bold text-gray-600">
+                        AI 프롬프트
+                        <textarea
+                          value={editData.p3_prompt || ""}
+                          onChange={(e) =>
+                            setEditData({
+                              ...editData,
+                              p3_prompt: e.target.value,
+                            })
+                          }
+                          className="px-3 py-2 border rounded-lg font-normal"
+                          placeholder="예: /imagine prompt: neon glowing jellyfish..."
+                          rows={2}
                         />
                       </label>
                     </div>
