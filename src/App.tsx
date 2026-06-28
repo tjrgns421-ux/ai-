@@ -160,6 +160,17 @@ const INITIAL_DATA = {
   p2_contrib_pct: "100%",
   p3_contrib_label: "영상 템플릿 기획",
   p3_contrib_pct: "100%",
+
+  p4_title: "커스텀 영상 생성 파이프라인 (ComfyUI)",
+  p4_subtitle: "AI 워크플로우를 활용한 다중 비디오 렌더링",
+  p4_tags: "ComfyUI, AI Video, Pipeline",
+  p4_image: "",
+  p4_video1: "https://www.youtube.com/watch?v=ScMzIvxBSi4",
+  p4_desc1: "ComfyUI를 활용하여 여러 프롬프트를 동시에 처리합니다.",
+  p4_video2: "https://www.youtube.com/watch?v=ScMzIvxBSi4",
+  p4_desc2: "고품질 16:9 영상을 생성하는 자동화 파이프라인.",
+  p4_video3: "https://www.youtube.com/watch?v=ScMzIvxBSi4",
+  p4_desc3: "효율적인 비디오 생성 워크플로우를 구축했습니다.",
 };
 
 export default function App() {
@@ -856,6 +867,59 @@ export default function App() {
           <div className="insight-box">
             <div className="insight-label">INSIGHT</div>
             <span>{data.p3_insight}</span>
+          </div>
+        </div>
+
+        <div className="project-divider"></div>
+
+        {/* PROJECT 04 */}
+        <div className="project-detail">
+          <div className="project-header">
+            <div className="project-num-big">04</div>
+            <div className="project-title-area">
+              <div className="project-title-big">{data.p4_title}</div>
+              <div className="project-subtitle">{data.p4_subtitle}</div>
+            </div>
+          </div>
+          <div className="project-tags">
+            {data.p4_tags?.split(",").map((tag: string, idx: number) => (
+              <span key={idx} className="ptag">
+                {tag.trim()}
+              </span>
+            ))}
+          </div>
+
+          <div style={{ marginBottom: "40px", width: "100%", aspectRatio: "16 / 9", overflow: "hidden", borderRadius: "12px", background: "#f0f0f0", display: "flex", alignItems: "center", justifyContent: "center" }}>
+            {data.p4_image ? (
+              <img
+                src={data.p4_image}
+                alt="Project 4 이미지"
+                style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
+              />
+            ) : (
+              <div style={{ color: "#888", fontSize: "16px", fontWeight: 600 }}>16:9 이미지 등록 공간</div>
+            )}
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+            <div className="flex flex-col gap-2">
+              <div className="video-wrap" style={{ marginBottom: 0 }}>
+                {renderVideo(data.p4_video1, "영상 1")}
+              </div>
+              {data.p4_desc1 && <div className="text-sm text-gray-600">{data.p4_desc1}</div>}
+            </div>
+            <div className="flex flex-col gap-2">
+              <div className="video-wrap" style={{ marginBottom: 0 }}>
+                {renderVideo(data.p4_video2, "영상 2")}
+              </div>
+              {data.p4_desc2 && <div className="text-sm text-gray-600">{data.p4_desc2}</div>}
+            </div>
+            <div className="flex flex-col gap-2">
+              <div className="video-wrap" style={{ marginBottom: 0 }}>
+                {renderVideo(data.p4_video3, "영상 3")}
+              </div>
+              {data.p4_desc3 && <div className="text-sm text-gray-600">{data.p4_desc3}</div>}
+            </div>
           </div>
         </div>
 
@@ -1976,6 +2040,154 @@ export default function App() {
                           rows={2}
                         />
                       </label>
+                    </div>
+                  </div>
+
+                  <div className="flex flex-col gap-4">
+                    <h3 className="font-bold text-lg border-b pb-2">
+                      프로젝트 4
+                    </h3>
+                    <div className="grid grid-cols-1 gap-4">
+                      <label className="flex flex-col gap-1 text-sm font-bold text-gray-600">
+                        제목
+                        <input
+                          type="text"
+                          value={editData.p4_title || ""}
+                          onChange={(e) =>
+                            setEditData({
+                              ...editData,
+                              p4_title: e.target.value,
+                            })
+                          }
+                          className="p-2 border rounded font-normal"
+                        />
+                      </label>
+                      <label className="flex flex-col gap-1 text-sm font-bold text-gray-600">
+                        부제목
+                        <input
+                          type="text"
+                          value={editData.p4_subtitle || ""}
+                          onChange={(e) =>
+                            setEditData({
+                              ...editData,
+                              p4_subtitle: e.target.value,
+                            })
+                          }
+                          className="p-2 border rounded font-normal"
+                        />
+                      </label>
+                      <label className="flex flex-col gap-1 text-sm font-bold text-gray-600">
+                        태그 (쉼표로 구분)
+                        <input
+                          type="text"
+                          value={editData.p4_tags || ""}
+                          onChange={(e) =>
+                            setEditData({
+                              ...editData,
+                              p4_tags: e.target.value,
+                            })
+                          }
+                          className="p-2 border rounded font-normal"
+                        />
+                      </label>
+                      <label className="flex flex-col gap-1 text-sm font-bold text-gray-600">
+                        스틸컷 이미지
+                        <input
+                          type="file"
+                          accept="image/*"
+                          onChange={(e) => handleFileChange(e, "p4_image")}
+                          className="px-3 py-2 border rounded-lg font-normal"
+                        />
+                      </label>
+                      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                        <div className="flex flex-col gap-4">
+                          <label className="flex flex-col gap-1 text-sm font-bold text-gray-600">
+                            영상 1 링크
+                            <input
+                              type="text"
+                              value={editData.p4_video1 || ""}
+                              onChange={(e) =>
+                                setEditData({
+                                  ...editData,
+                                  p4_video1: e.target.value,
+                                })
+                              }
+                              className="p-2 border rounded font-normal"
+                            />
+                          </label>
+                          <label className="flex flex-col gap-1 text-sm font-bold text-gray-600">
+                            영상 1 설명
+                            <textarea
+                              value={editData.p4_desc1 || ""}
+                              onChange={(e) =>
+                                setEditData({
+                                  ...editData,
+                                  p4_desc1: e.target.value,
+                                })
+                              }
+                              className="p-2 border rounded font-normal h-24"
+                            />
+                          </label>
+                        </div>
+                        <div className="flex flex-col gap-4">
+                          <label className="flex flex-col gap-1 text-sm font-bold text-gray-600">
+                            영상 2 링크
+                            <input
+                              type="text"
+                              value={editData.p4_video2 || ""}
+                              onChange={(e) =>
+                                setEditData({
+                                  ...editData,
+                                  p4_video2: e.target.value,
+                                })
+                              }
+                              className="p-2 border rounded font-normal"
+                            />
+                          </label>
+                          <label className="flex flex-col gap-1 text-sm font-bold text-gray-600">
+                            영상 2 설명
+                            <textarea
+                              value={editData.p4_desc2 || ""}
+                              onChange={(e) =>
+                                setEditData({
+                                  ...editData,
+                                  p4_desc2: e.target.value,
+                                })
+                              }
+                              className="p-2 border rounded font-normal h-24"
+                            />
+                          </label>
+                        </div>
+                        <div className="flex flex-col gap-4">
+                          <label className="flex flex-col gap-1 text-sm font-bold text-gray-600">
+                            영상 3 링크
+                            <input
+                              type="text"
+                              value={editData.p4_video3 || ""}
+                              onChange={(e) =>
+                                setEditData({
+                                  ...editData,
+                                  p4_video3: e.target.value,
+                                })
+                              }
+                              className="p-2 border rounded font-normal"
+                            />
+                          </label>
+                          <label className="flex flex-col gap-1 text-sm font-bold text-gray-600">
+                            영상 3 설명
+                            <textarea
+                              value={editData.p4_desc3 || ""}
+                              onChange={(e) =>
+                                setEditData({
+                                  ...editData,
+                                  p4_desc3: e.target.value,
+                                })
+                              }
+                              className="p-2 border rounded font-normal h-24"
+                            />
+                          </label>
+                        </div>
+                      </div>
                     </div>
                   </div>
 
