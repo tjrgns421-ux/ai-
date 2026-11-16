@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<!-- 화풍 세상: 클레이 3D (연구 중 2026-11-07) — 말랑한 찰흙 마을, 클로드 별은 찰흙 덩어리로 통통 튄다. three.js, __seek(t) 0~1.6초 -->
+<link rel="stylesheet" href="../world.css">
+<style>
+  body { background: linear-gradient(#9fd6ff 0%, #cfeaff 45%, #ffeedd 75%); }
+  .hud .name { font-family: Pretendard; font-weight: 900; color: #fff; text-shadow: 0 6px 0 #e7895f, 0 12px 24px rgba(120,60,30,.25); }
+  .hud .dots { color: #b65a37; background: rgba(255,255,255,.85); box-shadow: 0 6px 16px rgba(80,60,40,.12); }
+</style></head>
+<body>
+<div id="stage"></div>
+<div class="hud"><div class="name">클레이 3D</div><div class="dots"><b>10/10</b><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div></div>
+<script type="module">
+import * as THREE from "../vendor/three.module.min.js";
+import { rayPolygon, rng, ease } from "../star.js";
+const W = 1080, H = 1920;
+const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true, preserveDrawingBuffer: true });
+renderer.setSize(W, H); renderer.setPixelRatio(1);
+renderer.shadowMap.enabled = true; renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+renderer.toneMapping = THREE.ACESFilmicToneMapping; renderer.toneMappingExposure = 1.05;
+document.getElementById("stage").appendChild(renderer.domElement);
+const scene = new THREE.Scene();
+const cam = new THREE.PerspectiveCamera(40, W / H, 0.1, 200);
+cam.position.set(0, 5.5, 24); cam.lookAt(0, 3.2, 0);
+
+// 찰흙 결: 손자국 같은 얼룩을 울퉁불퉁 지도로
+const bump = (() => {
+  const cv = document.createElement("canvas"); cv.width = cv.height = 512; const p = cv.getContext("2d"), r = rng(5);
+  p.fillStyle = "#808080"; p.fillRect(0, 0, 512, 512);
+  for (let k = 0; k < 260; k++) { const x = r() * 512, y = r() * 512, s = 6 + r() * 40, v = 110 + r() * 40; const gr = p.createRadialGradient(x, y, 0, x, y, s); gr.addColorStop(0, `rgba(${v},${v},${v},.5)`); gr.addColorStop(1, "rgba(128,128,128,0)"); p.fillStyle = gr; p.beginPath(); p.arc(x, y, s, 0, 7); p.fill(); }
+  p.strokeStyle = "rgba(150,150,150,.25)"; for (let k = 0; k < 40; k++) { p.lineWidth = 1 + r() * 2; p.beginPath(); p.arc(r() * 512, r() * 512, 10 + r() * 30, r() * 6, r() * 6 + 2); p.stroke(); }
+  const t = new THREE.CanvasTexture(cv); t.wrapS = t.wrapT = THREE.RepeatWrapping; t.repeat.set(3, 3); return t;
+})();
+const clay = (color, rough = 0.82) => new THREE.MeshStandardMaterial({ color, roughness: rough, metalness: 0, bumpMap: bump, bumpScale: 8 });
+const add = (geo, mat, x, y, z, s = [1, 1, 1]) => { const m = new THREE.Mesh(geo, mat); m.position.set(x, y, z); m.scale.set(...s); m.castShadow = m.receiveShadow = true; scene.add(m); return m; };
+const rounded = (w, h, d, r) => { const s = new THREE.Shape(); const x = -w / 2 + r, y = -h / 2 + r, ww = w - 2 * r, hh = h - 2 * r; s.moveTo(x, y - r); s.lineTo(x + ww, y - r); s.quadraticCurveTo(x + ww + r, y - r, x + ww + r, y); s.lineTo(x + ww + r, y + hh); s.quadraticCurveTo(x + ww + r, y + hh + r, x + ww, y + hh + r); s.lineTo(x, y + hh + r); s.quadraticCurveTo(x - r, y + hh + r, x - r, y + hh); s.lineTo(x - r, y); s.quadraticCurveTo(x - r, y - r, x, y - r); const g = new THREE.ExtrudeGeometry(s, { depth: d - 2 * r * 0.8, bevelEnabled: true, bevelSize: r * 0.8, bevelThickness: r * 0.8, bevelSegments: 6, curveSegments: 8 }); g.center(); return g; };
+const roofGeo = (w, h, d) => { const s = new THREE.Shape(); s.moveTo(-w / 2, 0); s.lineTo(0, h); s.lineTo(w / 2, 0); s.closePath(); const g = new THREE.ExtrudeGeometry(s, { depth: d, bevelEnabled: true, bevelSize: 0.12, bevelThickness: 0.12, bevelSegments: 5 }); g.center(); return g; };
+
+// 빛
+scene.add(new THREE.HemisphereLight(0xffffff, 0xbfe3b4, 1.5));
+const sun = new THREE.DirectionalLight(0xfff1e0, 2.6); sun.position.set(6, 12, 9); sun.castShadow = true;
+Object.assign(sun.shadow.camera, { left: -14, right: 14, top: 14, bottom: -6, near: 1, far: 40 }); sun.shadow.mapSize.set(2048, 2048); sun.shadow.bias = -0.0005; sun.shadow.radius = 4;
+scene.add(sun);
+
+// 땅·언덕
+add(new THREE.CylinderGeometry(40, 40, 1, 64), clay(0x8fd17f), 0, -0.5, -10);
+const hill = new THREE.SphereGeometry(1, 48, 32);
+for (const [x, z, sx, sy, c] of [[-7, -6, 7, 2.6, 0x7cc46e], [6, -8, 8, 3.4, 0x86cc78], [0, -14, 12, 4.5, 0x9ad68a], [-12, -3, 5, 2, 0x8fd17f], [11, -2, 5, 1.6, 0x7cc46e]]) add(hill, clay(c), x, 0, z, [sx, sy, sx * 0.7]);
+
+// 집·나무·구름
+const house = (x, z, wall, roof, s = 1, rot = 0) => {
+  const gp = new THREE.Group(); gp.position.set(x, 0, z); gp.rotation.y = rot; gp.scale.setScalar(s); scene.add(gp);
+  const b = new THREE.Mesh(rounded(2, 1.8, 1.8, 0.25), clay(wall)); b.position.y = 0.9; const r = new THREE.Mesh(roofGeo(2.5, 1.2, 1.9), clay(roof)); r.position.y = 2.25;
+  const door = new THREE.Mesh(rounded(0.55, 0.9, 0.2, 0.12), clay(0x9a6a48)); door.position.set(0, 0.5, 0.92);
+  const win = new THREE.Mesh(rounded(0.45, 0.45, 0.16, 0.1), clay(0x8fc8ff, 0.4)); win.position.set(0.55, 1.25, 0.93);
+  for (const m of [b, r, door, win]) { m.castShadow = m.receiveShadow = true; gp.add(m); }
+};
+house(-3.3, -1, 0xfff3e6, 0xff8a6b, 1.15, 0.35); house(3.3, -2.2, 0xffd9dc, 0x6fa8ff, 1, -0.4); house(0.2, -7, 0xfff0c8, 0xff9d5c, 0.95, 0.1);
+const tree = (x, z, s) => { add(new THREE.CylinderGeometry(0.18, 0.26, 1.2, 12), clay(0xa8754f), x, 0.6 * s, z, [s, s, s]); add(new THREE.SphereGeometry(0.9, 32, 24), clay(0x5fbf6a), x, 1.75 * s, z, [s, s * 1.05, s]); };
+tree(-4.8, 2.2, 1.1); tree(1.6, -4, 1); tree(4.7, 1.6, 1.15); tree(-1.6, -3.6, 0.8); tree(-5, -6, 1.2); tree(5.5, -7, 1.3);
+const cloud = (x, y, z, s) => { for (const [dx, dy, r] of [[0, 0, 0.9], [0.9, -0.15, 0.7], [-0.9, -0.2, 0.65], [0.4, 0.35, 0.6]]) { const m = add(new THREE.SphereGeometry(r, 32, 24), clay(0xffffff, 0.9), x + dx * s, y + dy * s, z, [s, s * 0.85, s]); m.castShadow = false; } };
+cloud(-3.6, 7.6, -6, 1.1); cloud(3.9, 8.6, -9, 1.0);
+
+// 클로드 별(찰흙)
+const pts = rayPolygon({ hub: 0.34, root: 0.22, tip: 0.15, round: 8 });
+const shape = new THREE.Shape(pts.map(([x, y]) => new THREE.Vector2(x, -y)));
+const starGeo = new THREE.ExtrudeGeometry(shape, { depth: 0.18, bevelEnabled: true, bevelSize: 0.07, bevelThickness: 0.14, bevelSegments: 8, curveSegments: 6 }); starGeo.center();
+const star = new THREE.Mesh(starGeo, clay(0xde7356, 0.75)); star.castShadow = true; scene.add(star);
+const STAR_R = 1.65; star.scale.setScalar(STAR_R);
+const blob = new THREE.Mesh(new THREE.CircleGeometry(1, 48), new THREE.MeshBasicMaterial({ color: 0x3d6b33, transparent: true, opacity: 0.22 })); blob.rotation.x = -Math.PI / 2; blob.position.y = 0.02; scene.add(blob);
+
+window.__seek = async (t) => {
+  // 왼쪽에서 들어와 두 번 통통 튀고 가운데에 선다
+  const x = -2.6 + ease.out(ease.clamp(t / 1.3)) * 2.6;
+  const hopT = (t * 1.6) % 1, hop = Math.sin(hopT * Math.PI), land = 1 - Math.min(1, hopT * 6) + Math.max(0, hopT * 6 - 5);
+  const y = 2.0 + hop * 2.2;
+  const squash = 1 - 0.18 * Math.max(0, 1 - hop * 4) * (hop < 0.25 ? 1 : 0);
+  star.position.set(x, y * squash, 2.5);
+  star.scale.set(STAR_R * (2 - squash), STAR_R * squash, STAR_R);
+  star.rotation.set(0.18, -0.35 + Math.sin(t * 2) * 0.15, -t * 2.2);
+  blob.position.set(x, 0.03, 2.5); blob.scale.setScalar(1.6 - hop * 0.6); blob.material.opacity = 0.28 - hop * 0.12;
+  renderer.render(scene, cam);
+};
+window.__seek(0.9);
+</script></body></html>

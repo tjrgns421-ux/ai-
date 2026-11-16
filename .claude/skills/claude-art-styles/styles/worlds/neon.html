@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<!-- 화풍 세상: 네온 (연구 중 2026-11-07) — 비 오는 밤 한국 골목, 한글 네온 간판·전깃줄·젖은 바닥 반사. 클로드 별은 주황 네온관으로 지직거리며 켜진다. __seek(t) 0~1.6초 -->
+<link rel="stylesheet" href="../world.css">
+<style>
+  .hud .name { font-family: Pretendard; font-weight: 800; color: #fff4ee; text-shadow: 0 0 6px #ff9a6e, 0 0 18px #ff6a3c, 0 0 42px #ff4a1c; letter-spacing: 4px; }
+  .hud .dots { color: #ffd2bf; background: rgba(16,8,28,.62); border: 2px solid rgba(255,140,100,.45); box-shadow: 0 0 18px rgba(255,110,60,.25); }
+</style></head>
+<body>
+<div id="stage"><canvas id="c" width="1080" height="1920"></canvas></div>
+<div class="hud"><div class="name">네온</div><div class="dots"><b>4/10</b><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+<script type="module">
+import { PROFILE, rng, ease } from "../star.js";
+const W = 1080, H = 1920;
+const c = document.getElementById("c"), g = c.getContext("2d");
+const snap = document.createElement("canvas"); snap.width = W; snap.height = H; const sg = snap.getContext("2d");
+const rf = document.createElement("canvas"); rf.width = W; rf.height = H; const rg = rf.getContext("2d");
+
+// 골목 짜임: 끝(먼 벽) x 380~700, y 700~1150. 바닥 선 y 1150 → 앞 가장자리 y 1420
+const FAR = { l: 380, r: 700, t: 700, b: 1150 }, NEAR_Y = 1420;
+const lerp = (a, b, u) => a + (b - a) * u;
+
+// 벽(한 번만 그려 둔다): 어두운 벽돌 줄 + 창문 몇 개 + 에어컨 실외기
+const walls = document.createElement("canvas"); walls.width = W; walls.height = H;
+{
+  const p = walls.getContext("2d"), r = rng(31);
+  // 하늘 틈
+  const sky = p.createLinearGradient(0, 0, 0, FAR.t); sky.addColorStop(0, "#07061a"); sky.addColorStop(1, "#2a1640");
+  p.fillStyle = sky; p.fillRect(0, 0, W, H);
+  // 먼 벽(골목 끝 건물)
+  const fw = p.createLinearGradient(0, FAR.t, 0, FAR.b); fw.addColorStop(0, "#1a1430"); fw.addColorStop(1, "#2b1d3c");
+  p.fillStyle = fw; p.fillRect(FAR.l, FAR.t - 120, FAR.r - FAR.l, FAR.b - FAR.t + 120);
+  for (let k = 0; k < 8; k++) { const x = FAR.l + 14 + r() * 290, y = FAR.t - 100 + r() * 360; p.fillStyle = r() < 0.5 ? "rgba(255,200,140,.55)" : "rgba(120,170,255,.35)"; p.fillRect(x, y, 10 + r() * 10, 14 + r() * 8); }
+  const wall = (side) => {
+    const ex = side < 0 ? 0 : W, fx = side < 0 ? FAR.l : FAR.r;
+    p.beginPath(); p.moveTo(ex, -40); p.lineTo(fx, FAR.t - 120); p.lineTo(fx, FAR.b); p.lineTo(ex, NEAR_Y + 40); p.closePath();
+    const gr = p.createLinearGradient(ex, 0, fx, 0); gr.addColorStop(0, "#15111f"); gr.addColorStop(1, "#231a33"); p.fillStyle = gr; p.fill();
+    p.save(); p.clip();
+    // 벽돌 줄(원근)
+    p.strokeStyle = "rgba(0,0,0,.35)"; p.lineWidth = 2;
+    for (let k = 0; k <= 40; k++) { const u = k / 40; p.beginPath(); p.moveTo(ex, lerp(-40, NEAR_Y + 40, u)); p.lineTo(fx, lerp(FAR.t - 120, FAR.b, u)); p.stroke(); }
+    // 창문(원근 사다리꼴) 몇 개
+    for (const [u0, u1, v0, v1, lit] of [[0.08, 0.3, 0.3, 0.38, 1], [0.45, 0.62, 0.34, 0.4, 0]]) {
+      const P = (u, v) => [lerp(ex, fx, u), lerp(lerp(-40, FAR.t - 120, u), lerp(NEAR_Y + 40, FAR.b, u), v)];
+      const a = P(u0, v0), b = P(u1, v0), cc = P(u1, v1), d = P(u0, v1);
+      p.beginPath(); p.moveTo(...a); p.lineTo(...b); p.lineTo(...cc); p.lineTo(...d); p.closePath();
+      p.fillStyle = lit ? "rgba(255,170,110,.22)" : "rgba(30,26,50,1)"; p.fill(); p.strokeStyle = "rgba(0,0,0,.6)"; p.lineWidth = 4; p.stroke();
+    }
+    p.restore();
+  };
+  wall(-1); wall(1);
+  // 바닥(젖은 아스팔트)
+  p.beginPath(); p.moveTo(0, NEAR_Y + 40); p.lineTo(FAR.l, FAR.b); p.lineTo(FAR.r, FAR.b); p.lineTo(W, NEAR_Y + 40); p.lineTo(W, H); p.lineTo(0, H); p.closePath();
+  p.fillStyle = "#0b0a14"; p.fill();
+}
+
+// 네온 글자·관
+function tube(draw, color, on = 1, width = 10) {
+  if (on <= 0) return;
+  g.save(); g.lineJoin = "round"; g.lineCap = "round";
+  g.globalAlpha = on; g.shadowColor = color; g.shadowBlur = 46; g.strokeStyle = color; g.lineWidth = width * 1.7; draw(); g.stroke();
+  g.shadowBlur = 18; g.lineWidth = width; draw(); g.stroke();
+  g.shadowBlur = 0; g.strokeStyle = "rgba(255,255,255,.9)"; g.lineWidth = width * 0.34; draw(); g.stroke();
+  g.restore();
+}
+function neonText(txt, x, y, size, color, on = 1, font = "Pretendard", weight = 800) {
+  if (on <= 0) return;
+  g.save(); g.font = `${weight} ${size}px ${font}`; g.textAlign = "center"; g.textBaseline = "middle"; g.lineJoin = "round";
+  g.globalAlpha = on; g.shadowColor = color; g.shadowBlur = 36; g.strokeStyle = color; g.lineWidth = size * 0.11; g.strokeText(txt, x, y);
+  g.shadowBlur = 12; g.lineWidth = size * 0.07; g.strokeText(txt, x, y);
+  g.shadowBlur = 0; g.strokeStyle = "rgba(255,255,255,.92)"; g.lineWidth = size * 0.022; g.strokeText(txt, x, y);
+  g.restore();
+}
+const box = (x, y, w, h, r) => () => { g.beginPath(); g.roundRect(x, y, w, h, r); };
+
+// 간판: 날개 간판(골목을 향함)은 정면, 멀수록 작게
+const flick = (t, seed, rate = 0.08) => { const k = Math.floor(t * 24), r = rng(seed * 997 + k)(); return r < rate ? 0.15 : 1; };
+function signs(t) {
+  // 왼쪽 가까이: 세로 "노래방" (분홍)
+  g.fillStyle = "rgba(14,8,24,.92)"; g.beginPath(); g.roundRect(64, 470, 132, 400, 18); g.fill();
+  tube(box(64, 470, 132, 400, 18), "#ff3fa4", 1, 7);
+  ["노", "래", "방"].forEach((ch, i) => neonText(ch, 130, 548 + i * 122, 96, "#ff4fb0"));
+  // 왼쪽 가운데: 세로 "분식" (노랑, '분'이 지직)
+  g.fillStyle = "rgba(14,10,20,.9)"; g.beginPath(); g.roundRect(222, 560, 82, 210, 12); g.fill();
+  tube(box(222, 560, 82, 210, 12), "#ffd43a", 1, 5);
+  neonText("분", 263, 620, 60, "#ffd84a", flick(t, 3, 0.35)); neonText("식", 263, 710, 60, "#ffd84a");
+  // 왼쪽 아래: 가로 "호프" (초록)
+  g.fillStyle = "rgba(10,16,14,.9)"; g.beginPath(); g.roundRect(70, 960, 210, 110, 16); g.fill();
+  tube(box(70, 960, 210, 110, 16), "#4dff8a", 1, 6); neonText("호프", 175, 1016, 74, "#5cff95");
+  // 오른쪽 가까이: 세로 "24시" (하늘)
+  g.fillStyle = "rgba(8,14,26,.92)"; g.beginPath(); g.roundRect(784, 500, 118, 330, 18); g.fill();
+  tube(box(784, 500, 118, 330, 18), "#3ff0ff", 1, 7);
+  neonText("24", 843, 600, 92, "#4ff2ff", 1, "Pretendard", 900); neonText("시", 843, 735, 92, "#4ff2ff");
+  // 오른쪽 아래: "PC방" (보라)
+  g.fillStyle = "rgba(14,10,26,.9)"; g.beginPath(); g.roundRect(752, 930, 150, 92, 14); g.fill();
+  tube(box(752, 930, 150, 92, 14), "#b47bff", flick(t, 9, 0.06), 5); neonText("PC방", 827, 977, 52, "#c08cff", flick(t, 9, 0.06));
+  // 먼 간판(골목 끝, 작게)
+  neonText("약국", 430, 1080, 30, "#4ff2ff", 0.8); neonText("떡볶이", 640, 1100, 26, "#ff4fb0", 0.8);
+  neonText("OPEN", 560, 1128, 22, "#ffd84a", 0.7);
+}
+
+// 전깃줄(한국 골목 느낌) — 위쪽에 늘어진 선
+function wires() {
+  g.save(); g.strokeStyle = "rgba(0,0,0,.85)"; g.lineWidth = 3;
+  for (const [y0, y1, sag] of [[420, 470, 70], [450, 520, 90], [500, 560, 60], [600, 640, 50]]) { g.beginPath(); g.moveTo(-10, y0); g.quadraticCurveTo(W / 2, (y0 + y1) / 2 + sag, W + 10, y1); g.stroke(); }
+  g.restore();
+}
+
+// 클로드 별 네온관
+// 로고 윤곽(중심에서 잰 반지름)을 살짝 다듬어 한 줄 관으로 — 방사형이라 선이 꼬이지 않는다
+const STAR = (() => { const n = PROFILE.length, sm = PROFILE.map((_, i) => Math.max(0.3, (PROFILE[(i - 1 + n) % n] + 2 * PROFILE[i] + PROFILE[(i + 1) % n]) / 4)); return sm.map((v, i) => { const a = (i * 2 * Math.PI) / n; return [Math.cos(a) * v, Math.sin(a) * v]; }); })();
+function starOn(t) {
+  // 켜질 때 지직: 꺼짐 → 반짝 → 꺼짐 → 흐림 → 꺼짐 → 켜짐
+  const seq = [[0.06, 0], [0.1, 1], [0.16, 0], [0.22, 0.45], [0.26, 0]];
+  for (const [end, v] of seq) if (t < end) return v;
+  return 1;
+}
+function star(t) {
+  const on = starOn(t), cx = 500 + t * 55, cy = 840 + Math.sin(t * 2) * 8, R = 230, rot = -0.1 + t * 0.12;
+  // 벽에 번진 주황 빛
+  if (on > 0) { const halo = g.createRadialGradient(cx, cy, 40, cx, cy, 560); halo.addColorStop(0, `rgba(255,120,70,${0.42 * on})`); halo.addColorStop(1, "rgba(255,120,70,0)"); g.fillStyle = halo; g.fillRect(0, 0, W, H); }
+  const path = () => { g.beginPath(); STAR.forEach(([x, y], i) => { const xr = x * Math.cos(rot) - y * Math.sin(rot), yr = x * Math.sin(rot) + y * Math.cos(rot); i ? g.lineTo(cx + xr * R, cy + yr * R) : g.moveTo(cx + xr * R, cy + yr * R); }); g.closePath(); };
+  // 꺼진 관(유리) — 늘 보인다
+  g.save(); g.strokeStyle = "rgba(120,70,60,.55)"; g.lineWidth = 9; g.lineJoin = "round"; path(); g.stroke(); g.restore();
+  if (on > 0) { g.save(); g.globalAlpha = 0.12 * on; g.fillStyle = "#ff7a45"; path(); g.fill(); g.restore(); }
+  tube(path, "#ff7a45", on, 12);
+  // 가운데 작은 점(관 고정쇠)
+  // 켜지는 순간 불꽃
+  if (t > 0.08 && t < 0.3) { const r = rng(Math.floor(t * 30) + 5); g.save(); g.strokeStyle = "rgba(255,230,200,.9)"; g.lineWidth = 3; g.shadowColor = "#ffb27a"; g.shadowBlur = 12; for (let k = 0; k < 7; k++) { const a = r() * 6.28, d = R * (0.6 + r() * 0.5), l = 18 + r() * 30; g.beginPath(); g.moveTo(cx + Math.cos(a) * d, cy + Math.sin(a) * d); g.lineTo(cx + Math.cos(a) * (d + l), cy + Math.sin(a) * (d + l)); g.stroke(); } g.restore(); }
+}
+
+// 비
+const RAIN = (() => { const r = rng(77); return Array.from({ length: 260 }, () => ({ x: r() * (W + 200) - 100, y: r() * (H + 300), l: 26 + r() * 60, s: 2000 + r() * 900, a: 0.12 + r() * 0.28, w: 1 + r() * 1.6 })); })();
+function rain(t) {
+  g.save(); g.lineCap = "round";
+  for (const d of RAIN) { const y = ((d.y + t * d.s) % (H + 300)) - 150, x = d.x - (y / H) * 60; g.strokeStyle = `rgba(190,210,255,${d.a})`; g.lineWidth = d.w; g.beginPath(); g.moveTo(x, y); g.lineTo(x - d.l * 0.14, y + d.l); g.stroke(); }
+  g.restore();
+}
+
+// 젖은 바닥: 위 장면을 거꾸로 비추고 물결로 흔든다
+function reflection(t) {
+  sg.clearRect(0, 0, W, H); sg.drawImage(c, 0, 0);
+  g.save();
+  g.beginPath(); g.moveTo(0, NEAR_Y + 40); g.lineTo(FAR.l, FAR.b); g.lineTo(FAR.r, FAR.b); g.lineTo(W, NEAR_Y + 40); g.lineTo(W, H); g.lineTo(0, H); g.closePath(); g.clip();
+  g.fillStyle = "#0b0a14"; g.fillRect(0, FAR.b, W, H - FAR.b);
+  // 한 번 뒤집어 흐린 뒤(무거운 흐림은 한 번만), 줄마다 조금씩 옆으로 흔들어 붙인다
+  const axis = FAR.b, r = rng(3);
+  rg.setTransform(1, 0, 0, 1, 0, 0); rg.clearRect(0, 0, W, H); rg.filter = "blur(4px)";
+  rg.setTransform(1, 0, 0, -1 / 0.9, 0, axis + axis / 0.9); rg.drawImage(snap, 0, 0); rg.setTransform(1, 0, 0, 1, 0, 0); rg.filter = "none";
+  g.globalAlpha = 0.42;
+  for (let y = axis; y < H; y += 6) { const wob = Math.sin(y * 0.09 + t * 7) * 6 + Math.sin(y * 0.031 - t * 4) * 4; g.drawImage(rf, 0, y, W, 6, wob, y, W, 6); }
+  g.globalAlpha = 1;
+  // 물웅덩이 결: 어두운 가로 띠
+  for (let k = 0; k < 40; k++) { const y = axis + 10 + r() * 420, x = r() * W, w = 80 + r() * 300; g.fillStyle = `rgba(5,4,12,${0.25 + r() * 0.35})`; g.fillRect(x, y, w, 3 + r() * 6); }
+  // 빗방울 동그라미
+  for (let k = 0; k < 14; k++) { const r2 = rng(k * 13 + 1), ph = (t * 1.6 + r2()) % 1, x = r2() * W, y = axis + 30 + r2() * 360; g.strokeStyle = `rgba(200,210,255,${0.35 * (1 - ph)})`; g.lineWidth = 2; g.beginPath(); g.ellipse(x, y, 8 + ph * 46, (8 + ph * 46) * 0.22, 0, 0, 7); g.stroke(); }
+  g.restore();
+}
+
+window.__seek = async (t) => {
+  g.filter = "none"; g.globalAlpha = 1; g.shadowBlur = 0;
+  g.drawImage(walls, 0, 0);
+  wires();
+  signs(t);
+  star(t);
+  reflection(t);
+  rain(t);
+  // 아래·가장자리 어둡게
+  const v = g.createRadialGradient(W / 2, 880, 400, W / 2, 900, 1250); v.addColorStop(0, "rgba(0,0,0,0)"); v.addColorStop(1, "rgba(0,0,0,.55)"); g.fillStyle = v; g.fillRect(0, 0, W, H);
+};
+await document.fonts.ready;
+window.__seek(1.0);
+</script></body></html>

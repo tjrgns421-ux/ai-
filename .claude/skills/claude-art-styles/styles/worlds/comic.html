@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<!-- 화풍 세상: 미국 만화 (연구 중 2026-11-07) — 크림색 종이 위 굵은 칸, 하늘색 집중선 + 망점, 클로드 별은 굵은 외곽선 + 망점 그림자로 휙 날아 들어오고 "슈웅!" 의성어. __seek(t) 0~1.6초 -->
+<link rel="stylesheet" href="../world.css">
+<style>
+  .hud .name { font-family: BlackHan; font-size: 104px; color: #ffe04a; -webkit-text-stroke: 5px #111; paint-order: stroke fill; text-shadow: 7px 7px 0 #e8402e; transform: rotate(-3deg); }
+  .hud .dots { color: #111; background: #fff; border: 4px solid #111; box-shadow: 5px 5px 0 #111; }
+</style></head>
+<body>
+<div id="stage"><canvas id="c" width="1080" height="1920"></canvas></div>
+<div class="hud"><div class="name">미국 만화</div><div class="dots"><b>6/10</b><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i><i></i><i></i></div></div>
+<script type="module">
+import { rayPolygon, rng, ease } from "../star.js";
+const W = 1080, H = 1920;
+const c = document.getElementById("c"), g = c.getContext("2d");
+const P = { l: 46, t: 430, r: 1034, b: 1312 }; // 큰 칸
+const BC = { x: 560, y: 860 };                 // 집중선 중심
+
+// 망점: 45° 격자, 점 크기는 함수로
+function halftone(ctx, x0, y0, x1, y1, step, radius, color) {
+  ctx.fillStyle = color; const cs = Math.SQRT1_2, cx = (x0 + x1) / 2, cy = (y0 + y1) / 2, span = Math.hypot(x1 - x0, y1 - y0) / 2 + step;
+  for (let i = -span; i <= span; i += step) for (let j = -span; j <= span; j += step) {
+    const x = cx + (i - j) * cs, y = cy + (i + j) * cs; if (x < x0 || x > x1 || y < y0 || y > y1) continue;
+    const r = radius(x, y); if (r < 0.6) continue; ctx.beginPath(); ctx.arc(x, y, r, 0, 7); ctx.fill();
+  }
+}
+
+// 바탕(한 번만): 종이 + 큰 칸(집중선·망점) + 아래 칸 일부
+const bg = document.createElement("canvas"); bg.width = W; bg.height = H;
+{
+  const p = bg.getContext("2d"), r = rng(17);
+  p.fillStyle = "#f5ead0"; p.fillRect(0, 0, W, H);
+  halftone(p, 0, 0, W, H, 18, () => 1.6, "rgba(190,150,90,.22)");
+  // 큰 칸 안
+  p.save(); p.beginPath(); p.rect(P.l, P.t, P.r - P.l, P.b - P.t); p.clip();
+  p.fillStyle = "#8fd3ff"; p.fillRect(P.l, P.t, P.r - P.l, P.b - P.t);
+  // 집중선: 쐐기 번갈아
+  const N = 44;
+  for (let k = 0; k < N; k++) {
+    const a0 = (k / N) * Math.PI * 2 + (r() - 0.5) * 0.03, a1 = a0 + (Math.PI * 2 / N) * (0.35 + r() * 0.3);
+    p.fillStyle = k % 2 ? "#5bb8f5" : "#bfe6ff"; p.beginPath(); p.moveTo(BC.x, BC.y); p.arc(BC.x, BC.y, 1600, a0, a1); p.closePath(); p.fill();
+  }
+  // 가장자리로 갈수록 커지는 망점(남색)
+  halftone(p, P.l, P.t, P.r, P.b, 15, (x, y) => { const d = Math.hypot(x - BC.x, (y - BC.y) * 0.8) / 620; return Math.max(0, (d - 0.35) * 7.5); }, "#1d4fa0");
+  // 가운데는 밝게(별 자리)
+  const glow = p.createRadialGradient(BC.x, BC.y, 60, BC.x, BC.y, 380); glow.addColorStop(0, "rgba(255,255,240,.95)"); glow.addColorStop(1, "rgba(255,255,240,0)");
+  p.fillStyle = glow; p.fillRect(P.l, P.t, P.r - P.l, P.b - P.t);
+  p.restore();
+  // 칸 테두리
+  p.lineWidth = 12; p.strokeStyle = "#111"; p.strokeRect(P.l, P.t, P.r - P.l, P.b - P.t);
+  // 아래 칸 두 개(가림 영역이라 살짝만)
+  p.fillStyle = "#ffd54a"; p.fillRect(46, 1350, 470, 600); halftone(p, 46, 1350, 516, 1920, 14, () => 3.2, "#e8402e");
+  p.fillStyle = "#fff"; p.fillRect(556, 1350, 478, 600);
+  p.lineWidth = 12; p.strokeRect(46, 1350, 470, 620); p.strokeRect(556, 1350, 478, 620);
+}
+
+const STAR = rayPolygon({ hub: 0.4, root: 0.3, tip: 0.21, round: 6 });
+const starPath = (cx, cy, R, rot) => { g.beginPath(); STAR.forEach(([x, y], i) => { const xr = x * Math.cos(rot) - y * Math.sin(rot), yr = x * Math.sin(rot) + y * Math.cos(rot); i ? g.lineTo(cx + xr * R, cy + yr * R) : g.moveTo(cx + xr * R, cy + yr * R); }); g.closePath(); };
+
+// 속도선: 별 뒤(왼쪽)로 굵기가 변하는 검은 줄
+function speedLines(cx, cy, R, t, k) {
+  const r = rng(41); g.save(); g.fillStyle = "#111";
+  for (let i = 0; i < 16; i++) {
+    const y = cy + (r() - 0.5) * R * 1.9, len = (180 + r() * 380) * k, x1 = cx - R * (0.35 + r() * 0.5), th = 4 + r() * 10;
+    if (len < 10) continue;
+    g.beginPath(); g.moveTo(x1, y - th / 2); g.lineTo(x1 - len, y - 1); g.lineTo(x1 - len, y + 1); g.lineTo(x1, y + th / 2); g.closePath(); g.fill();
+  }
+  g.restore();
+}
+
+function star(t) {
+  // 왼쪽에서 휙 → 살짝 넘쳤다가 제자리 → 천천히 오른쪽
+  const enter = ease.clamp(t / 0.32), back = 1 + 2.4 * Math.pow(enter - 1, 3) + 1.4 * Math.pow(enter - 1, 2);
+  const cx = -260 + (530 + 260) * back + Math.max(0, t - 0.32) * 55, cy = 860 + (1 - enter) * 40, R = 230;
+  const rot = -0.5 * (1 - enter) + t * 0.15;
+  const speed = t < 0.32 ? 1 : Math.max(0.35, 1 - (t - 0.32) * 0.6);
+  speedLines(cx, cy, R, t, speed);
+  // 잔상(외곽선만 두 겹)
+  if (t < 0.5) { g.save(); g.strokeStyle = `rgba(17,17,17,${0.35 * (1 - t / 0.5)})`; g.lineWidth = 6; g.lineJoin = "round"; for (const d of [110, 60]) { starPath(cx - d, cy, R, rot - 0.08); g.stroke(); } g.restore(); }
+  // 망점 그림자
+  g.save(); starPath(cx + 26, cy + 26, R, rot); g.clip();
+  halftone(g, cx - R * 1.3, cy - R * 1.3, cx + R * 1.4, cy + R * 1.4, 11, () => 4.2, "#7a2412"); g.restore();
+  // 몸통 + 굵은 외곽선
+  g.save(); starPath(cx, cy, R, rot); g.fillStyle = "#de7356"; g.fill();
+  g.clip(); // 아래쪽 어둡게(만화식 2단 명암)
+  g.fillStyle = "#c45a36"; g.beginPath(); g.ellipse(cx + R * 0.6, cy + R * 0.75, R * 0.9, R * 0.5, -0.6, 0, 7); g.fill();
+  halftone(g, cx - R, cy - R, cx + R * 1.2, cy + R * 1.2, 10, (x, y) => ((x - cx) + (y - cy) > R * 0.55 ? 2.4 : 0), "rgba(120,30,15,.55)");
+  g.restore();
+  g.save(); g.lineJoin = "round"; g.lineWidth = 13; g.strokeStyle = "#111"; starPath(cx, cy, R, rot); g.stroke(); g.restore();
+  // 하이라이트(흰 줄)
+  g.save(); g.strokeStyle = "#fff"; g.lineCap = "round"; g.lineWidth = 11;
+  g.beginPath(); g.arc(cx - R * 0.05, cy - R * 0.05, R * 0.22, Math.PI * 1.05, Math.PI * 1.45); g.stroke();
+  g.lineWidth = 9; g.beginPath(); g.arc(cx - R * 0.05, cy - R * 0.05, R * 0.22, Math.PI * 1.55, Math.PI * 1.62); g.stroke(); g.restore();
+  return { cx, cy };
+}
+
+// "슈웅!" 의성어: 겹친 입체 글자, 들어오는 순간 튀어나옴
+function sfx(t) {
+  const k = ease.clamp((t - 0.22) / 0.22); if (k <= 0) return;
+  const s = 0.55 + 0.45 * (1 + 2.2 * Math.pow(k - 1, 3) + 1.2 * Math.pow(k - 1, 2));
+  g.save(); g.translate(330, 1170); g.rotate(-0.16); g.scale(s, s);
+  g.font = "190px BlackHan"; g.textAlign = "center"; g.textBaseline = "middle"; g.lineJoin = "round";
+  for (let d = 18; d > 0; d -= 3) { g.fillStyle = "#e8402e"; g.fillText("슈웅!", d, d); }
+  g.lineWidth = 16; g.strokeStyle = "#111"; g.strokeText("슈웅!", 18, 18); g.fillStyle = "#e8402e"; g.fillText("슈웅!", 18, 18);
+  g.lineWidth = 16; g.strokeText("슈웅!", 0, 0);
+  const gr = g.createLinearGradient(0, -80, 0, 80); gr.addColorStop(0, "#ffffff"); gr.addColorStop(1, "#ffe04a"); g.fillStyle = gr; g.fillText("슈웅!", 0, 0);
+  g.restore();
+}
+
+// 설명 상자(만화 칸 위쪽 왼편)
+function caption(t) {
+  const k = ease.out(ease.clamp(t / 0.15));
+  g.save(); g.globalAlpha = k; g.translate(0, (1 - k) * -10);
+  g.fillStyle = "#ffe36e"; g.fillRect(70, 452, 360, 82); g.lineWidth = 6; g.strokeStyle = "#111"; g.strokeRect(70, 452, 360, 82);
+  g.fillStyle = "#111"; g.font = "800 40px Pretendard"; g.textBaseline = "middle"; g.fillText("그때, 클로드가—", 92, 494);
+  g.restore();
+}
+
+window.__seek = async (t) => {
+  g.drawImage(bg, 0, 0);
+  g.save(); g.beginPath(); g.rect(P.l + 6, P.t + 6, P.r - P.l - 12, P.b - P.t - 12); g.clip();
+  star(t); sfx(t);
+  g.restore();
+  g.lineWidth = 12; g.strokeStyle = "#111"; g.strokeRect(P.l, P.t, P.r - P.l, P.b - P.t);
+  caption(t);
+};
+await document.fonts.ready;
+window.__seek(1.0);
+</script></body></html>

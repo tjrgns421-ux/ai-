@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<!-- 화풍 세상: 플랫 (연구 중 2026-11-07) — 그라데이션 없는 면 색·둥근 도형으로 그린 제주(한라산·오름·바다·돌담·귤나무), 클로드 별은 면 + 진한 그림자 면으로 튕기며 등장. __seek(t) 0~1.6초 -->
+<link rel="stylesheet" href="../world.css">
+<style>
+  .hud .name { font-family: Pretendard; font-weight: 900; color: #1f3b4d; letter-spacing: -2px; }
+  .hud .dots { color: #1f3b4d; background: #fff; }
+</style></head>
+<body>
+<div id="stage"><canvas id="c" width="1080" height="1920"></canvas></div>
+<div class="hud"><div class="name">플랫</div><div class="dots"><b>8/10</b><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div></div>
+<script type="module">
+import { rayPolygon, rng, ease } from "../star.js";
+const W = 1080, H = 1920;
+const c = document.getElementById("c"), g = c.getContext("2d");
+const C = { sky: "#cfe9f1", sky2: "#bfe1ec", halla: "#8fb3c9", halla2: "#7aa1b9", snow: "#f4f8fa", oreum: "#7cc39a", oreum2: "#5eab80", sea: "#2aa3b8", sea2: "#1f8ca3", foam: "#e9f7f8", sand: "#f2dfb8", field: "#9fd37f", field2: "#86c56a", stone: "#3b3f4a", stone2: "#2c2f38", leaf: "#2f8f5b", leaf2: "#257a4c", trunk: "#7a5236", tang: "#f39a2b", star: "#DE7356", star2: "#B8543A", white: "#ffffff" };
+const backOut = (x, c1 = 1.4) => { const c3 = c1 + 1; return 1 + c3 * Math.pow(x - 1, 3) + c1 * Math.pow(x - 1, 2); };
+const STAR = rayPolygon({ hub: 0.36, root: 0.27, tip: 0.18, round: 6 });
+
+function rr(x, y, w, h, r) { g.beginPath(); g.roundRect(x, y, w, h, r); }
+function blob(cx, cy, rx, ry, fill) { g.fillStyle = fill; g.beginPath(); g.ellipse(cx, cy, rx, ry, 0, 0, Math.PI * 2); g.fill(); }
+
+function sky(t) {
+  g.fillStyle = C.sky; g.fillRect(0, 0, W, H);
+  // 큰 둥근 띠 두 개(하늘 결) — 면 색만
+  g.fillStyle = C.sky2; g.beginPath(); g.arc(W * 0.5, 1180, 900, Math.PI, 0); g.fill();
+  // 갈매기 세 마리(둥근 V)
+  g.strokeStyle = "#1f3b4d"; g.lineWidth = 7; g.lineCap = "round"; g.lineJoin = "round";
+  for (const [bx, by, s, ph] of [[180, 560, 1, 0], [270, 610, 0.75, 1.2], [830, 520, 0.85, 2.2]]) {
+    const x = bx + t * 40 * s, y = by - Math.sin(t * 3 + ph) * 6, f = Math.sin(t * 8 + ph) * 6 * s;
+    g.beginPath(); g.moveTo(x - 26 * s, y - 8 * s + f); g.quadraticCurveTo(x - 12 * s, y - 18 * s, x, y); g.quadraticCurveTo(x + 12 * s, y - 18 * s, x + 26 * s, y - 8 * s + f); g.stroke();
+  }
+}
+
+function halla() {
+  // 한라산: 낮고 넓은 둥근 산 + 꼭대기 백록담 눈 (왼쪽, 별과 겹치지 않게)
+  const X = (v) => v - 250; // 가운데를 왼쪽으로
+  g.fillStyle = C.halla; g.beginPath(); g.moveTo(X(-160), 1080);
+  g.bezierCurveTo(X(120), 990, X(300), 830, X(480), 790); g.lineTo(X(600), 790); g.bezierCurveTo(X(780), 830, X(960), 990, X(1240), 1080); g.closePath(); g.fill();
+  g.fillStyle = C.halla2; g.beginPath(); g.moveTo(X(545), 792); g.lineTo(X(600), 790); g.bezierCurveTo(X(780), 830, X(960), 990, X(1240), 1080); g.lineTo(X(700), 1080); g.closePath(); g.fill();
+  g.fillStyle = C.snow; g.beginPath(); g.moveTo(X(455), 800); g.quadraticCurveTo(X(540), 775, X(625), 797); g.lineTo(X(660), 818); g.quadraticCurveTo(X(600), 812, X(575), 830); g.quadraticCurveTo(X(545), 812, X(510), 826); g.quadraticCurveTo(X(480), 812, X(430), 822); g.closePath(); g.fill();
+}
+
+function oreums() {
+  // 오름: 둥근 언덕, 오른쪽 면은 한 단계 진하게
+  for (const [cx, base, w, h, sh] of [[40, 1095, 170, 100, 1], [880, 1095, 280, 190, 1], [600, 1088, 160, 80, 1]]) {
+    g.fillStyle = C.oreum; g.beginPath(); g.moveTo(cx - w, base); g.bezierCurveTo(cx - w * 0.55, base - h * 1.25, cx + w * 0.55, base - h * 1.25, cx + w, base); g.closePath(); g.fill();
+    g.save(); g.clip(); g.fillStyle = C.oreum2; g.fillRect(cx + w * 0.08, base - h * 1.3, w, h * 1.3); g.restore();
+    // 분화구 자국
+    g.fillStyle = C.oreum2; g.beginPath(); g.ellipse(cx, base - h * 0.93, w * 0.18, h * 0.07, 0, 0, Math.PI * 2); g.fill();
+  }
+}
+
+function sea(t) {
+  g.fillStyle = C.sea; g.fillRect(0, 1080, W, 200);
+  g.fillStyle = C.sea2; g.fillRect(0, 1180, W, 100);
+  // 둥근 물결 줄(왼쪽으로 흐름)
+  g.strokeStyle = C.foam; g.lineWidth = 8; g.lineCap = "round";
+  for (const [y, len, gap, sp] of [[1115, 70, 260, 50], [1150, 110, 330, 80], [1215, 90, 290, 110]]) {
+    const off = (t * sp) % gap;
+    for (let x = -gap + off; x < W + gap; x += gap) { g.beginPath(); g.moveTo(x, y); g.lineTo(x + len, y); g.stroke(); }
+  }
+  // 등대(빨강·흰 줄) — 오른쪽 바다 바위 위, 가림 오른쪽 줄 바깥(x<900)
+  const lx = 760, ly = 1180;
+  blob(lx, ly + 10, 70, 22, C.stone);
+  g.fillStyle = C.white; rr(lx - 24, ly - 150, 48, 160, 12); g.fill();
+  g.fillStyle = C.star2; rr(lx - 24, ly - 110, 48, 34, 6); g.fill(); rr(lx - 24, ly - 40, 48, 34, 6); g.fill();
+  g.fillStyle = "#1f3b4d"; rr(lx - 30, ly - 186, 60, 40, 14); g.fill();
+  g.fillStyle = "#ffd36b"; rr(lx - 16, ly - 178, 32, 24, 8); g.fill();
+}
+
+function land() {
+  g.fillStyle = C.sand; g.beginPath(); g.moveTo(0, 1250); g.quadraticCurveTo(540, 1215, W, 1255); g.lineTo(W, H); g.lineTo(0, H); g.fill();
+  g.fillStyle = C.field; g.beginPath(); g.moveTo(0, 1290); g.quadraticCurveTo(540, 1255, W, 1295); g.lineTo(W, H); g.lineTo(0, H); g.fill();
+  g.fillStyle = C.field2; g.fillRect(0, 1420, W, H - 1420);
+  // 돌담: 둥근 검은 돌을 두 줄로
+  const r = rng(3);
+  for (let row = 0; row < 2; row++) for (let x = -20; x < W + 40; x += 62) {
+    const w = 52 + r() * 18, h = 34 + r() * 10, y = 1330 + row * 36 - (row ? 0 : 0), xx = x + (row ? 30 : 0) + (r() - 0.5) * 6;
+    g.fillStyle = row ? C.stone2 : C.stone; rr(xx, y, w, h, 16); g.fill();
+    g.fillStyle = "#565b68"; rr(xx + 8, y + 6, w * 0.35, 7, 4); g.fill();
+  }
+}
+
+function tangerine(x, y, s, sway) {
+  g.save(); g.translate(x, y); g.rotate(sway); g.scale(s, s);
+  g.fillStyle = C.trunk; rr(-12, 0, 24, 120, 10); g.fill();
+  blob(0, -40, 120, 100, C.leaf);
+  g.save(); g.beginPath(); g.ellipse(0, -40, 120, 100, 0, 0, Math.PI * 2); g.clip(); g.fillStyle = C.leaf2; g.fillRect(20, -150, 140, 220); g.restore();
+  for (const [dx, dy] of [[-60, -70], [-10, -100], [45, -60], [70, -10], [-70, 0], [5, -20], [-30, 30], [40, 25]]) { blob(dx, dy, 17, 16, C.tang); blob(dx - 5, dy - 5, 5, 4, "#ffd08a"); }
+  g.restore();
+}
+
+function star(t) {
+  const p = ease.clamp((t - 0.05) / 0.5), s = p <= 0 ? 0 : backOut(p, 1.7);
+  if (s <= 0) return;
+  const cx = 540, cy = 830 + Math.sin(t * 2.4) * 10 * ease.clamp((t - 0.55) / 0.3), R = 235 * s, rot = (1 - ease.out(p)) * -0.9 + t * 0.12;
+  const path = (dx, dy) => { g.beginPath(); STAR.forEach(([x, y], i) => { const a = Math.atan2(y, x) + rot, d = Math.hypot(x, y); const X = cx + dx + Math.cos(a) * d * R, Y = cy + dy + Math.sin(a) * d * R; i ? g.lineTo(X, Y) : g.moveTo(X, Y); }); g.closePath(); };
+  // 바닥 그림자 면 → 진한 옆면 → 앞면
+  g.fillStyle = "rgba(31,59,77,.12)"; g.beginPath(); g.ellipse(cx + 20, 1060, 160 * s, 18 * s, 0, 0, Math.PI * 2); g.fill();
+  g.fillStyle = C.star2; path(14, 16); g.fill();
+  g.fillStyle = C.star; path(0, 0); g.fill();
+  // 반짝이(네 갈래 면)
+  const tw = (ph) => Math.max(0, Math.sin(t * 6 + ph));
+  for (const [x, y, sz, ph] of [[310, 640, 34, 0], [770, 700, 26, 1.7], [720, 1000, 22, 3.1], [330, 980, 18, 4.4]]) {
+    const k = sz * tw(ph) * ease.clamp((t - 0.35) / 0.2); if (k < 1) continue;
+    g.fillStyle = C.white; g.beginPath(); g.moveTo(x, y - k); g.quadraticCurveTo(x, y, x + k, y); g.quadraticCurveTo(x, y, x, y + k); g.quadraticCurveTo(x, y, x - k, y); g.quadraticCurveTo(x, y, x, y - k); g.fill();
+  }
+}
+
+window.__seek = async (t) => {
+  g.setTransform(1, 0, 0, 1, 0, 0);
+  sky(t); halla(); oreums(); sea(t); land();
+  tangerine(120, 1250, 1.05, Math.sin(t * 2) * 0.02);
+  tangerine(330, 1290, 0.8, Math.sin(t * 2 + 1) * 0.02);
+  star(t);
+};
+await document.fonts.ready;
+window.__seek(0.9);
+</script></body></html>

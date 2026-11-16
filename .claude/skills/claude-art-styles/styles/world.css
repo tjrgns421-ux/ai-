@@ -1,0 +1,13 @@
+/* 화풍 세상 공통 틀 — 1080×1920, 위 200px·아래 600px·오른쪽 170px(y 480 아래)는 인스타 가림 자리 */
+@font-face { font-family: Pretendard; src: url(../../fonts/PretendardVariable.ttf); font-weight: 100 900; }
+@font-face { font-family: Hahmlet; src: url(../../fonts/HahmletVariable.ttf); font-weight: 100 900; }
+@font-face { font-family: BlackHan; src: url(../../fonts/BlackHanSans-Regular.ttf); }
+html, body { margin: 0; width: 1080px; height: 1920px; overflow: hidden; background: #000; }
+#stage { position: absolute; inset: 0; }
+#stage canvas { position: absolute; inset: 0; width: 1080px; height: 1920px; }
+.hud { position: absolute; left: 0; right: 0; top: 230px; display: flex; flex-direction: column; align-items: center; gap: 18px; pointer-events: none; }
+.hud .name { font-size: 92px; line-height: 1; letter-spacing: -1px; }
+.hud .dots { display: flex; align-items: center; gap: 10px; padding: 10px 22px; border-radius: 999px; font: 700 26px Pretendard; }
+.hud .dots i { width: 12px; height: 12px; border-radius: 50%; background: currentColor; opacity: .28; display: block; }
+.hud .dots i.on { opacity: 1; }
+.hud .dots b { margin-right: 8px; font-weight: 800; }

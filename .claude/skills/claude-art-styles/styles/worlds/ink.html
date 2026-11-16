@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<!-- 화풍 세상: 수묵화 (연구 중 2026-11-07) — 한지 바탕 + 먹 번짐 산 + 소나무, 클로드 별은 주묵(붉은 먹) 붓질로 그려진다. __seek(t) 0~1.6초 -->
+<link rel="stylesheet" href="../world.css">
+<style>
+  .hud .name { font-family: Hahmlet; font-weight: 800; color: #1d1a17; letter-spacing: 6px; }
+  .hud .dots { color: #2a2622; background: rgba(239,230,212,.7); }
+</style></head>
+<body>
+<div id="stage"><canvas id="c" width="1080" height="1920"></canvas></div>
+<div class="hud"><div class="name">수묵화</div><div class="dots"><b>3/10</b><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+<script type="module">
+import { rays, rng, ease } from "../star.js";
+const W = 1080, H = 1920;
+const c = document.getElementById("c"), g = c.getContext("2d");
+
+// 한지: 한 번만 만들어 둔다(잡티 + 닥섬유)
+const paper = document.createElement("canvas"); paper.width = W; paper.height = H;
+{
+  const p = paper.getContext("2d"), r = rng(7);
+  p.fillStyle = "#efe6d3"; p.fillRect(0, 0, W, H);
+  const img = p.getImageData(0, 0, W, H), d = img.data;
+  for (let i = 0; i < d.length; i += 4) { const n = (r() - 0.5) * 14; d[i] += n; d[i + 1] += n; d[i + 2] += n * 0.8; }
+  p.putImageData(img, 0, 0);
+  p.strokeStyle = "rgba(120,100,70,.10)"; p.lineWidth = 1;
+  for (let k = 0; k < 900; k++) { const x = r() * W, y = r() * H, a = r() * Math.PI, l = 8 + r() * 40; p.beginPath(); p.moveTo(x, y); p.quadraticCurveTo(x + Math.cos(a) * l * 0.5 + (r() - .5) * 8, y + Math.sin(a) * l * 0.5 + (r() - .5) * 8, x + Math.cos(a) * l, y + Math.sin(a) * l); p.stroke(); }
+  const v = p.createRadialGradient(W / 2, H * 0.42, 300, W / 2, H * 0.45, 1200); v.addColorStop(0, "rgba(0,0,0,0)"); v.addColorStop(1, "rgba(70,50,20,.22)");
+  p.fillStyle = v; p.fillRect(0, 0, W, H);
+}
+
+// 산 능선: 무작위 매듭을 부드럽게 잇는다
+// 산: 손으로 정한 봉우리 [x, 높이, 폭, 뾰족함] + 작은 굴곡
+function ridgeFn(peaks, seed) {
+  const n1 = rng(seed), wav = Array.from({ length: 6 }, () => [n1() * 6.28, 9 + n1() * 40, 0.015 + n1() * 0.03]);
+  return (x) => { let y = 20; for (const [px, h, w, k] of peaks) y = Math.max(y, h * Math.exp(-Math.pow(Math.abs(x - px) / w, k))); let n = 0; for (const [ph, f, a] of wav) n += Math.sin(x / f + ph) * a; return y * (1 + n); };
+}
+const layers = [
+  { peaks: [[880, 640, 170, 0.9], [1180, 430, 210, 1], [300, 400, 210, 1.1], [-60, 320, 170, 1]], seed: 3, base: 1150, ink: 0.2, blur: 8, speed: -10, fade: 320, line: 0 },
+  { peaks: [[640, 330, 140, 0.85], [990, 250, 170, 1], [140, 270, 150, 1], [420, 170, 120, 1.2]], seed: 12, base: 1270, ink: 0.36, blur: 2, speed: -26, fade: 260, line: 0.5 },
+  { peaks: [[220, 210, 230, 1.2], [760, 180, 210, 1.1], [1120, 200, 200, 1.1]], seed: 27, base: 1500, ink: 0.6, blur: 0, speed: -50, fade: 240, line: 0.8 },
+].map((L) => ({ ...L, f: ridgeFn(L.peaks, L.seed) }));
+
+function mountains(t) {
+  for (const L of layers) {
+    const off = t * L.speed;
+    g.save(); g.filter = `blur(${L.blur}px)`;
+    g.beginPath(); g.moveTo(-20, H);
+    for (let x = -20; x <= W + 20; x += 6) g.lineTo(x, L.base - L.f(x + off));
+    g.lineTo(W + 20, H); g.closePath();
+    const top = L.base - Math.max(...L.peaks.map((q) => q[1]));
+    const gr = g.createLinearGradient(0, top, 0, L.base + L.fade);
+    gr.addColorStop(0, `rgba(28,24,20,${L.ink})`); gr.addColorStop(0.45, `rgba(28,24,20,${L.ink * 0.55})`); gr.addColorStop(1, "rgba(28,24,20,0)");
+    g.fillStyle = gr; g.fill();
+    // 능선 윤곽: 굵기가 변하는 먹선
+    if (L.line) { g.filter = "none"; const r = rng(L.seed + 100); g.lineCap = "round";
+      for (let x = -20; x <= W + 20; x += 6) { const y0 = L.base - L.f(x + off), y1 = L.base - L.f(x + 9 + off); 
+        g.strokeStyle = `rgba(20,17,14,${L.line * (0.4 + r() * 0.5)})`; g.lineWidth = 2 + r() * 5; g.beginPath(); g.moveTo(x, y0); g.lineTo(x + 9, y1); g.stroke(); } }
+    g.restore();
+  }
+  // 안개 띠
+  const m = g.createLinearGradient(0, 1080, 0, 1300); m.addColorStop(0, "rgba(239,230,211,0)"); m.addColorStop(0.5, "rgba(239,230,211,.75)"); m.addColorStop(1, "rgba(239,230,211,0)");
+  g.fillStyle = m; g.fillRect(0, 1080, W, 220);
+}
+
+// 붓질 한 획: 털 여러 가닥, 끝으로 갈수록 갈필(마른 붓). path(u) → [x,y] (u 0~1)
+function brushPath(path, len, w0, w1, prog, rgb, seed, wet = 0.9, dryFrom = 0.55) {
+  if (prog <= 0) return;
+  const r = rng(seed), B = 34, steps = Math.max(10, Math.round(len / 4));
+  const P = Array.from({ length: steps + 1 }, (_, s) => path(s / steps));
+  for (let b = 0; b < B; b++) {
+    const off = b / (B - 1) - 0.5, end = (1 - Math.pow(Math.abs(off) * 2, 3) * (0.15 + r() * 0.25)) * prog;
+    const a = wet * (0.5 + r() * 0.45), jit = (r() - 0.5) * 2.5, dryAt = dryFrom + r() * (1 - dryFrom) * 0.8;
+    g.strokeStyle = `rgba(${rgb},${a})`; g.lineCap = "round";
+    let pen = false; g.beginPath();
+    for (let s = 0; s <= steps; s++) {
+      const u = s / steps; if (u > end) break;
+      const q = P[Math.min(steps, s + 1)], o = P[Math.max(0, s - 1)], tx = q[0] - o[0], ty = q[1] - o[1], tl = Math.hypot(tx, ty) || 1;
+      const nx = -ty / tl, ny = tx / tl, w = w0 + (w1 - w0) * u, wob = Math.sin(u * 7 + b * 1.7) * 1.2 + jit;
+      const x = P[s][0] + nx * (off * w + wob), y = P[s][1] + ny * (off * w + wob);
+      if (u > dryAt && r() < (u - dryAt) * 2.2) { if (pen) { g.stroke(); g.beginPath(); pen = false; } continue; }
+      g.lineWidth = Math.max(1.4, (w / B) * 2.4);
+      if (!pen) { g.moveTo(x, y); pen = true; } else g.lineTo(x, y);
+    }
+    if (pen) g.stroke();
+  }
+}
+function brush(x0, y0, x1, y1, w0, w1, prog, rgb, seed, wet, dryFrom) {
+  brushPath((u) => [x0 + (x1 - x0) * u, y0 + (y1 - y0) * u], Math.hypot(x1 - x0, y1 - y0), w0, w1, prog, rgb, seed, wet, dryFrom);
+}
+const bez = (p0, p1, p2, p3) => (u) => { const v = 1 - u; return [v*v*v*p0[0] + 3*v*v*u*p1[0] + 3*v*u*u*p2[0] + u*u*u*p3[0], v*v*v*p0[1] + 3*v*v*u*p1[1] + 3*v*u*u*p2[1] + u*u*u*p3[1]]; };
+
+const STAR = rays();
+function star(t) {
+  const cx = 560 + t * 50, cy = 840 + Math.sin(t * 2.2) * 14, R = 250, rot = -0.25 + t * 0.35;
+  // 가운데 번짐(젖은 먹)
+  const hub = ease.out(ease.clamp(t / 0.18));
+  if (hub > 0) {
+    g.save(); g.filter = "blur(6px)"; g.fillStyle = `rgba(196,82,52,${0.55 * hub})`;
+    g.beginPath(); g.arc(cx, cy, R * 0.34 * hub, 0, Math.PI * 2); g.fill(); g.restore();
+  }
+  STAR.forEach((ry, k) => {
+    const a = ry.a + rot, p = ease.out(ease.clamp((t - 0.04 - k * 0.028) / 0.26));
+    const x0 = cx + Math.cos(a) * R * 0.05, y0 = cy + Math.sin(a) * R * 0.05;
+    const x1 = cx + Math.cos(a) * R * ry.len, y1 = cy + Math.sin(a) * R * ry.len;
+    brush(x0, y0, x1, y1, R * 0.24, R * 0.13, p, "196,80,50", 50 + k, 1, 0.78);
+    brush(x0, y0, x1, y1, R * 0.12, R * 0.05, p * 0.92, "130,40,24", 80 + k, 0.45, 0.6);
+  });
+}
+
+function pineTree(t) {
+  const sway = Math.sin(t * 1.4) * 0.01;
+  g.save(); g.translate(150, 1520); g.rotate(sway);
+  // 줄기: 굽은 획 여러 개
+  brushPath(bez([0, 40], [110, -260], [-90, -470], [150, -760]), 900, 70, 26, 1, "30,25,20", 200, 0.95, 0.7);
+  brushPath(bez([10, 30], [100, -250], [-70, -480], [140, -750]), 900, 30, 10, 1, "12,10,8", 201, 0.6, 0.5);
+  // 가지와 솔잎 덩이
+  const r = rng(9);
+  const clumps = [[150, -760, 1.1], [260, -700, 0.9], [20, -560, 0.8], [190, -560, 0.85], [-40, -760, 0.7], [330, -800, 0.6]];
+  for (const [x, y, s] of clumps) {
+    brush(70, y + 40, x, y, 14, 8, 1, "30,25,20", 300 + x, 0.9);
+    for (let n = 0; n < 70; n++) {
+      const a = Math.PI + (r() - 0.5) * 2.6 + (r() < 0.5 ? 0 : Math.PI), l = (30 + r() * 70) * s;
+      const ax = x + (r() - 0.5) * 120 * s, ay = y + (r() - 0.5) * 34 * s;
+      g.strokeStyle = `rgba(22,30,22,${0.35 + r() * 0.45})`; g.lineWidth = 2 + r() * 2.5;
+      g.beginPath(); g.moveTo(ax, ay); g.lineTo(ax + Math.cos(a) * l * 0.6, ay - Math.abs(Math.sin(a)) * l * 0.35 - 6); g.stroke();
+    }
+    g.save(); g.filter = "blur(8px)"; g.fillStyle = "rgba(30,40,30,.18)"; g.beginPath(); g.ellipse(x, y, 110 * s, 34 * s, 0, 0, Math.PI * 2); g.fill(); g.restore();
+  }
+  g.restore();
+}
+
+function birds(t) {
+  g.strokeStyle = "rgba(25,20,18,.75)"; g.lineCap = "round";
+  for (const [bx, by, s, ph] of [[760, 1000, 1, 0], [830, 960, 0.75, 1.3], [700, 1060, 0.6, 2.1]]) {
+    const x = bx - t * 60 * s, y = by - t * 10, fl = Math.sin(t * 9 + ph) * 8 * s;
+    g.lineWidth = 3.5 * s; g.beginPath(); g.moveTo(x - 22 * s, y - fl); g.quadraticCurveTo(x - 8 * s, y - 10 * s, x, y); g.quadraticCurveTo(x + 8 * s, y - 10 * s, x + 22 * s, y - fl); g.stroke();
+  }
+}
+
+function seal() {
+  const x = 770, y = 1110, s = 110;
+  g.save(); g.fillStyle = "#b8322a"; g.globalAlpha = 0.9; g.fillRect(x, y, s * 0.62, s * 1.5);
+  g.globalCompositeOperation = "destination-out"; const r = rng(4);
+  for (let k = 0; k < 140; k++) g.fillRect(x + r() * s * 0.62, y + r() * s * 1.5, 2 + r() * 3, 1 + r() * 2);
+  g.restore();
+  g.save(); g.fillStyle = "#f3e9d6"; g.font = "800 40px Hahmlet"; g.textAlign = "center";
+  ["클", "로", "드"].forEach((ch, i) => g.fillText(ch, x + s * 0.31, y + 50 + i * 46)); g.restore();
+}
+
+window.__seek = async (t) => {
+  g.filter = "none"; g.globalAlpha = 1; g.globalCompositeOperation = "source-over";
+  g.drawImage(paper, 0, 0);
+  mountains(t);
+  birds(t);
+  pineTree(t);
+  star(t);
+  seal();
+};
+await document.fonts.ready;
+window.__seek(0.9);
+</script></body></html>

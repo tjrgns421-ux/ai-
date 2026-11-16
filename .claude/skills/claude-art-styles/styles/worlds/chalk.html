@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<!-- 화풍 세상: 칠판 (연구 중 2026-11-07) — 초록 칠판·지운 자국·분필 가루, 분필로 그려지는 동네(집·전봇대·나무)와 해, 클로드 별은 주황 분필 윤곽 → 빗금 칠, 옆에 분필 손글씨 메모. __seek(t) 0~1.6초 -->
+<link rel="stylesheet" href="../world.css">
+<style>
+  @font-face { font-family: Pen; src: url(../../../fonts/NanumPenScript-Regular.ttf); }
+  .hud .name { font-family: Pen; font-size: 128px; color: #f4f1e6; letter-spacing: 2px; text-shadow: 0 0 2px rgba(255,255,255,.5); }
+  .hud .dots { color: #f4f1e6; background: rgba(255,255,255,.08); border: 2px dashed rgba(244,241,230,.45); }
+</style></head>
+<body>
+<div id="stage"><canvas id="c" width="1080" height="1920"></canvas></div>
+<div class="hud"><div class="name">칠판</div><div class="dots"><b>2/10</b><i class="on"></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+<script type="module">
+import { rayPolygon, rng, ease } from "../star.js";
+const W = 1080, H = 1920;
+const c = document.getElementById("c"), g = c.getContext("2d");
+const mk = () => { const cv = document.createElement("canvas"); cv.width = W; cv.height = H; return [cv, cv.getContext("2d")]; };
+
+// 칠판 바탕: 초록 + 얼룩 + 지운 자국 + 가루 (한 번만)
+const [board, b] = mk();
+{
+  const r = rng(11);
+  b.fillStyle = "#2d4b3c"; b.fillRect(0, 0, W, H);
+  for (let k = 0; k < 40; k++) { const x = r() * W, y = r() * H, s = 80 + r() * 260; const gr = b.createRadialGradient(x, y, 0, x, y, s); const l = r() < 0.5; gr.addColorStop(0, l ? "rgba(120,160,135,.10)" : "rgba(10,25,18,.12)"); gr.addColorStop(1, "rgba(0,0,0,0)"); b.fillStyle = gr; b.fillRect(x - s, y - s, s * 2, s * 2); }
+  // 지운 자국: 넓고 흐린 호
+  b.save(); b.filter = "blur(14px)"; b.lineCap = "round";
+  for (let k = 0; k < 9; k++) { b.strokeStyle = `rgba(200,220,205,${0.018 + r() * 0.025})`; b.lineWidth = 60 + r() * 120; b.beginPath(); const x = r() * W, y = 300 + r() * 1300; b.arc(x, y, 160 + r() * 260, r() * 6, r() * 6 + 1.6 + r()); b.stroke(); }
+  b.restore();
+  const img = b.getImageData(0, 0, W, H), d = img.data;
+  for (let i = 0; i < d.length; i += 4) { const n = (r() - 0.5) * 10; d[i] += n; d[i + 1] += n; d[i + 2] += n; if (r() < 0.004) { d[i] += 60; d[i + 1] += 60; d[i + 2] += 55; } }
+  b.putImageData(img, 0, 0);
+  const v = b.createRadialGradient(W / 2, H * 0.45, 400, W / 2, H * 0.45, 1250); v.addColorStop(0, "rgba(0,0,0,0)"); v.addColorStop(1, "rgba(0,0,0,.35)"); b.fillStyle = v; b.fillRect(0, 0, W, H);
+  // 아래 분필 받침(가림 자리라 장식만)
+  b.fillStyle = "#6b4a2e"; b.fillRect(0, 1770, W, 150); b.fillStyle = "#83603f"; b.fillRect(0, 1770, W, 18);
+}
+// 분필 결: 그린 층에서 작은 구멍을 지운다(늘 같은 무늬)
+const [grain, gn] = mk();
+{ const r = rng(5); gn.fillStyle = "#000"; for (let k = 0; k < 90000; k++) { const s = 1 + r() * 2.2; gn.globalAlpha = 0.25 + r() * 0.75; gn.fillRect(r() * W, r() * H, s, s * (0.6 + r())); } }
+const [layer, L] = mk();
+
+// 분필 선: 점 목록을 따라 prog만큼, 선 가장자리를 살짝 떨게
+function chalk(pts, prog, col, wd, seed = 1) {
+  if (prog <= 0 || pts.length < 2) return;
+  const r = rng(seed), seg = []; let tot = 0;
+  for (let i = 1; i < pts.length; i++) { const l = Math.hypot(pts[i][0] - pts[i - 1][0], pts[i][1] - pts[i - 1][1]); seg.push(l); tot += l; }
+  let left = tot * Math.min(1, prog);
+  L.strokeStyle = col; L.lineCap = "round"; L.lineJoin = "round";
+  for (let pass = 0; pass < 2; pass++) {
+    let rem = left; L.lineWidth = pass ? wd * 0.45 : wd; L.globalAlpha = pass ? 0.5 : 0.92;
+    L.beginPath(); L.moveTo(pts[0][0] + (r() - .5) * 2, pts[0][1] + (r() - .5) * 2);
+    for (let i = 1; i < pts.length && rem > 0; i++) {
+      const f = Math.min(1, rem / seg[i - 1]); rem -= seg[i - 1];
+      const x = pts[i - 1][0] + (pts[i][0] - pts[i - 1][0]) * f, y = pts[i - 1][1] + (pts[i][1] - pts[i - 1][1]) * f;
+      L.lineTo(x + (r() - .5) * (pass ? 4 : 2), y + (r() - .5) * (pass ? 4 : 2));
+    }
+    L.stroke();
+  }
+  L.globalAlpha = 1;
+}
+// 곡선 → 점 목록
+const line = (x0, y0, x1, y1, n = 12) => Array.from({ length: n + 1 }, (_, i) => [x0 + (x1 - x0) * i / n, y0 + (y1 - y0) * i / n]);
+const arc = (cx, cy, rr, a0, a1, n = 40, sy = 1) => Array.from({ length: n + 1 }, (_, i) => { const a = a0 + (a1 - a0) * i / n; return [cx + Math.cos(a) * rr, cy + Math.sin(a) * rr * sy]; });
+const poly = (...p) => p;
+
+const WHITE = "#f4f1e6", YEL = "#f6dc7a", PINK = "#f2a3a6", BLUE = "#a9d4f0", ORANGE = "#f08a62";
+const P = (t, a, d) => ease.out(ease.clamp((t - a) / d)); // a초부터 d초 동안 0→1
+
+function town(t) {
+  // 땅 선(살짝 굽은)
+  chalk(Array.from({ length: 41 }, (_, i) => [i * 28 - 10, 1250 + Math.sin(i * 0.7) * 5]), P(t, 0, 0.35), WHITE, 7, 2);
+  // 집 1 (왼쪽, 한옥 지붕 곡선)
+  const h1 = P(t, 0.05, 0.45);
+  chalk(poly([110, 1250], [110, 1075], [320, 1075], [320, 1250]), h1, WHITE, 7, 3);
+  chalk([...arc(215, 1150, 165, Math.PI * 1.08, Math.PI * 1.92, 24, 0.55)].map(([x, y]) => [x, y - 20]), P(t, 0.15, 0.35), PINK, 9, 4); // 처마 곡선
+  chalk(poly([80, 1082], [350, 1082]), P(t, 0.2, 0.3), PINK, 7, 5);
+  chalk(poly([190, 1250], [190, 1170], [240, 1170], [240, 1250]), P(t, 0.3, 0.3), WHITE, 6, 6); // 문
+  chalk(poly([132, 1110], [172, 1110], [172, 1150], [132, 1150], [132, 1110]), P(t, 0.35, 0.25), BLUE, 5, 7);
+  chalk(poly([152, 1110], [152, 1150]), P(t, 0.45, 0.15), BLUE, 4, 8);
+  // 집 2 (오른쪽, 네모 집 + 창)
+  chalk(poly([690, 1250], [690, 1110], [880, 1110], [880, 1250]), P(t, 0.1, 0.4), WHITE, 7, 9);
+  chalk(poly([670, 1115], [785, 1035], [900, 1115]), P(t, 0.2, 0.35), YEL, 8, 10);
+  chalk(poly([720, 1145], [770, 1145], [770, 1195], [720, 1195], [720, 1145]), P(t, 0.35, 0.25), BLUE, 5, 11);
+  chalk(poly([805, 1250], [805, 1175], [850, 1175], [850, 1250]), P(t, 0.4, 0.25), WHITE, 6, 12);
+  // 전봇대 + 전선
+  chalk(poly([600, 1250], [600, 1000]), P(t, 0.15, 0.3), WHITE, 8, 13);
+  chalk(poly([565, 1025], [635, 1025]), P(t, 0.35, 0.15), WHITE, 6, 14);
+  chalk(Array.from({ length: 21 }, (_, i) => { const x = 330 + i * 13.5; const u = i / 20; return [x, 1100 - (1 - 4 * (u - 0.5) ** 2) * -35 - 75 * u]; }), P(t, 0.45, 0.4), WHITE, 3, 15);
+  chalk(Array.from({ length: 21 }, (_, i) => { const x = 600 + i * 4.5; const u = i / 20; return [x, 1025 + Math.sin(u * Math.PI) * 25 + 85 * u]; }), P(t, 0.5, 0.3), WHITE, 3, 16);
+  // 나무(둥근 낙서)
+  chalk(poly([450, 1250], [450, 1175]), P(t, 0.2, 0.2), WHITE, 7, 17);
+  chalk(Array.from({ length: 60 }, (_, i) => { const a = i / 59 * Math.PI * 4.2; const rr = 52 + Math.sin(a * 2.3) * 10 - i * 0.25; return [450 + Math.cos(a) * rr, 1125 + Math.sin(a) * rr * 0.9]; }), P(t, 0.3, 0.5), "#9fd89a", 6, 18);
+}
+
+function sun(t) {
+  const cx = 820, cy = 600, p = P(t, 0.1, 0.5);
+  chalk(arc(cx, cy, 62, -1.8, -1.8 + Math.PI * 2.05 * p, 40), 1, YEL, 8, 20);
+  for (let k = 0; k < 10; k++) { const a = k / 10 * Math.PI * 2 + 0.2; chalk(line(cx + Math.cos(a) * 82, cy + Math.sin(a) * 82, cx + Math.cos(a) * 118, cy + Math.sin(a) * 118, 3), P(t, 0.35 + k * 0.03, 0.12), YEL, 6, 30 + k); }
+  // 구름
+  chalk([...arc(150, 720, 36, Math.PI, Math.PI * 2, 14), ...arc(216, 698, 44, Math.PI, Math.PI * 2, 16), ...arc(284, 724, 32, Math.PI, Math.PI * 2, 12), [316, 724], [114, 720]], P(t, 0.25, 0.5), WHITE, 6, 40);
+}
+
+const SHAPE = rayPolygon({ hub: 0.36, root: 0.25, tip: 0.17, round: 4 });
+function star(t) {
+  const R = 205, cx = 500 + ease.inOut(ease.clamp(t / 1.6)) * 70, cy = 790, rot = -0.1 + t * 0.12;
+  const pts = SHAPE.map(([x, y]) => { const ca = Math.cos(rot), sa = Math.sin(rot); return [cx + (x * ca - y * sa) * R, cy + (x * sa + y * ca) * R]; });
+  pts.push(pts[0]);
+  // 빗금 칠(윤곽 안쪽만)
+  const hp = P(t, 0.45, 0.45);
+  if (hp > 0) {
+    L.save(); L.beginPath(); pts.forEach(([x, y], i) => (i ? L.lineTo(x, y) : L.moveTo(x, y))); L.clip();
+    const n = 34, r = rng(60);
+    for (let k = 0; k < n * hp; k++) { const o = -R * 1.2 + k * (R * 2.4 / n); L.strokeStyle = ORANGE; L.globalAlpha = 0.55 + r() * 0.3; L.lineWidth = 9 + r() * 6; L.beginPath(); L.moveTo(cx + o - R, cy - R + (r() - .5) * 8); L.lineTo(cx + o + R, cy + R + (r() - .5) * 8); L.stroke(); }
+    L.restore(); L.globalAlpha = 1;
+  }
+  chalk(pts, P(t, 0.02, 0.55), ORANGE, 10, 61);
+  chalk(pts, P(t, 0.08, 0.55), "#ffc2a6", 3, 62); // 밝은 겹선
+  // 움직임 선
+  for (let k = 0; k < 3; k++) chalk(line(cx - R - 40 - k * 10, cy - 60 + k * 60, cx - R - 150 - k * 30, cy - 60 + k * 60, 4), P(t, 0.55 + k * 0.05, 0.2), WHITE, 5, 70 + k);
+}
+
+function memo(t) {
+  const p = P(t, 0.6, 0.45);
+  if (p <= 0) return;
+  L.save(); L.beginPath(); L.rect(0, 380, 120 + 520 * p, 260); L.clip();
+  L.fillStyle = WHITE; L.font = "96px Pen"; L.textBaseline = "alphabetic";
+  L.fillText("클로드 별", 92, 500);
+  L.fillStyle = YEL; L.font = "72px Pen"; L.fillText("광선 12개!", 112, 578);
+  L.restore();
+  chalk(line(92, 518, 92 + 330 * p, 514, 10), 1, WHITE, 4, 80); // 밑줄
+  // 화살표: 메모 → 별
+  const ap = P(t, 0.9, 0.35);
+  const arr = Array.from({ length: 16 }, (_, i) => { const u = i / 15; return [400 + u * 40 + Math.sin(u * Math.PI) * 40, 540 + u * 70]; });
+  chalk(arr, ap, WHITE, 5, 81);
+  if (ap >= 1) { chalk(poly([418, 598], [440, 610], [452, 584]), 1, WHITE, 5, 82); }
+}
+
+window.__seek = async (t) => {
+  g.drawImage(board, 0, 0);
+  L.clearRect(0, 0, W, H);
+  L.save(); L.translate(-t * 14, 0);
+  sun(t); town(t); star(t); memo(t);
+  L.restore();
+  L.globalCompositeOperation = "destination-out"; L.drawImage(grain, 0, 0); L.globalCompositeOperation = "source-over";
+  // 분필 번짐(살짝 흐린 사본을 아래에)
+  g.save(); g.globalAlpha = 0.35; g.filter = "blur(3px)"; g.drawImage(layer, 0, 0); g.restore();
+  g.drawImage(layer, 0, 0);
+};
+await document.fonts.ready;
+window.__seek(0.9);
+</script></body></html>

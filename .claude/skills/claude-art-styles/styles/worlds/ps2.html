@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<!-- 화풍 세상: 플스2 (연구 중 2026-11-07) — 낮은 해상도·각진 3D·안개·바둑판 바닥, 클로드 별은 게임 아이템처럼 빙글 돈다. three.js, __seek(t) 0~1.6초 -->
+<link rel="stylesheet" href="../world.css">
+<style>
+  body { background: #000; }
+  #stage canvas { image-rendering: pixelated; }
+  .hud .name { font-family: BlackHan; font-size: 104px; font-style: italic; transform: skewX(-8deg); color: transparent; background: linear-gradient(#ffffff 0%, #c9d4ff 45%, #6c78c9 52%, #e9eeff 100%); -webkit-background-clip: text; background-clip: text; -webkit-text-stroke: 3px #1d2150; filter: drop-shadow(0 6px 0 #1d2150); }
+  .hud .dots { color: #e8ecff; background: rgba(20,22,60,.55); border: 2px solid rgba(200,210,255,.35); }
+</style></head>
+<body>
+<div id="stage"></div>
+<div class="hud"><div class="name">플스2</div><div class="dots"><b>5/10</b><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i></div></div>
+<script type="module">
+import * as THREE from "../vendor/three.module.min.js";
+import { rayPolygon, rng, ease } from "../star.js";
+const W = 1080, H = 1920, LOW = 3; // 3분의 1 해상도로 그려 크게 늘린다(각진 계단)
+const renderer = new THREE.WebGLRenderer({ antialias: false, preserveDrawingBuffer: true });
+renderer.setPixelRatio(1); renderer.setSize(W / LOW, H / LOW, false);
+renderer.domElement.style.width = W + "px"; renderer.domElement.style.height = H + "px";
+document.getElementById("stage").appendChild(renderer.domElement);
+const scene = new THREE.Scene();
+const FOG = 0x5d5fa8; scene.fog = new THREE.Fog(FOG, 14, 70);
+const cam = new THREE.PerspectiveCamera(58, W / H, 0.1, 200);
+
+// 하늘: 큰 공 안쪽에 세로 그라데이션(꼭짓점 색)
+{
+  const g = new THREE.SphereGeometry(120, 16, 12), c = [], top = new THREE.Color(0x1b1d4f), mid = new THREE.Color(0x6a62b8), low = new THREE.Color(0xd99ab0);
+  const p = g.attributes.position;
+  for (let i = 0; i < p.count; i++) { const y = p.getY(i) / 120; const col = y > 0.15 ? mid.clone().lerp(top, Math.min(1, (y - 0.15) / 0.6)) : low.clone().lerp(mid, Math.max(0, (y + 0.1) / 0.25)); c.push(col.r, col.g, col.b); }
+  g.setAttribute("color", new THREE.Float32BufferAttribute(c, 3));
+  scene.add(new THREE.Mesh(g, new THREE.MeshBasicMaterial({ vertexColors: true, side: THREE.BackSide, fog: false })));
+}
+const tex = (w, h, draw, rep = [1, 1]) => { const cv = document.createElement("canvas"); cv.width = w; cv.height = h; draw(cv.getContext("2d"), w, h); const t = new THREE.CanvasTexture(cv); t.magFilter = THREE.NearestFilter; t.minFilter = THREE.NearestFilter; t.wrapS = t.wrapT = THREE.RepeatWrapping; t.repeat.set(...rep); t.colorSpace = THREE.SRGBColorSpace; return t; };
+
+// 바둑판 바닥
+const floor = new THREE.Mesh(new THREE.PlaneGeometry(400, 400), new THREE.MeshLambertMaterial({ map: tex(2, 2, (p) => { p.fillStyle = "#4b4f8f"; p.fillRect(0, 0, 2, 2); p.fillStyle = "#5c61a6"; p.fillRect(0, 0, 1, 1); p.fillRect(1, 1, 1, 1); }, [100, 100]) }));
+floor.rotation.x = -Math.PI / 2; scene.add(floor);
+
+// 빌딩: 창문 무늬(일부 켜짐)
+const r = rng(12);
+const winTex = (lit) => tex(16, 32, (p) => { p.fillStyle = "#3a3c66"; p.fillRect(0, 0, 16, 32); for (let y = 2; y < 32; y += 4) for (let x = 2; x < 16; x += 4) { p.fillStyle = r() < lit ? "#ffd27a" : "#262848"; p.fillRect(x, y, 2, 2); } });
+const bColors = [0x8a7fb0, 0x7a8fb8, 0xa08aa8, 0x6f7fa8, 0x9a9ac0];
+for (let i = 0; i < 46; i++) {
+  const side = i % 2 ? 1 : -1, z = -i * 3.2 + (r() - 0.5) * 1.2, x = side * (8.5 + r() * 8), w = 2.5 + r() * 3, d = 2.5 + r() * 3, h = 4 + r() * 16;
+  const t = winTex(0.35); t.repeat.set(Math.round(w / 1.2), Math.round(h / 2.4));
+  const m = new THREE.Mesh(new THREE.BoxGeometry(w, h, d), new THREE.MeshLambertMaterial({ color: bColors[i % 5], map: t, emissive: 0x111122 }));
+  m.position.set(x, h / 2, z); scene.add(m);
+  if (r() < 0.35) { const ant = new THREE.Mesh(new THREE.CylinderGeometry(0.06, 0.06, 2.5, 4), new THREE.MeshLambertMaterial({ color: 0xcccccc })); ant.position.set(x, h + 1.2, z); scene.add(ant); }
+}
+// 각진 산
+for (let i = 0; i < 9; i++) { const m = new THREE.Mesh(new THREE.ConeGeometry(14 + r() * 12, 14 + r() * 16, 5), new THREE.MeshLambertMaterial({ color: 0x7c86c4, flatShading: true })); m.position.set((i - 4) * 22 + (r() - 0.5) * 8, 6, -110 - r() * 10); m.rotation.y = r(); scene.add(m); }
+// 지는 해(팔각, 지평선)
+const moon = new THREE.Mesh(new THREE.CircleGeometry(7, 8), new THREE.MeshBasicMaterial({ color: 0xffb08a, fog: false })); moon.position.set(13, 22, -100); // 해는 제목과 겹쳐 뺌(2026-11-07)
+
+// 빛
+scene.add(new THREE.HemisphereLight(0xc8c8ff, 0x403a70, 1.6));
+const dl = new THREE.DirectionalLight(0xffe2c4, 2.2); dl.position.set(-5, 10, 6); scene.add(dl);
+
+// 클로드 별: 각진 두께, 게임 아이템처럼 회전
+const pts = rayPolygon({ hub: 0.34, root: 0.22, tip: 0.13 });
+const sg = new THREE.ExtrudeGeometry(new THREE.Shape(pts.map(([x, y]) => new THREE.Vector2(x, -y))), { depth: 0.28, bevelEnabled: true, bevelSize: 0.05, bevelThickness: 0.08, bevelSegments: 1, curveSegments: 1 }); sg.center();
+const star = new THREE.Mesh(sg, new THREE.MeshPhongMaterial({ color: 0xde7356, flatShading: true, shininess: 60, specular: 0x664433, emissive: 0x3a1408 }));
+star.scale.setScalar(1.0); scene.add(star);
+const shadow = new THREE.Mesh(new THREE.CircleGeometry(1, 8), new THREE.MeshBasicMaterial({ color: 0x1b1d4f, transparent: true, opacity: 0.45 })); shadow.rotation.x = -Math.PI / 2; scene.add(shadow);
+// 반짝이(마름모 4개가 별 둘레를 돈다)
+const sparks = Array.from({ length: 4 }, () => { const s = new THREE.Mesh(new THREE.OctahedronGeometry(0.12, 0), new THREE.MeshBasicMaterial({ color: 0xfff3c0 })); scene.add(s); return s; });
+
+window.__seek = async (t) => {
+  const z = 6 - t * 9; // 거리를 따라 앞으로
+  cam.position.set(Math.sin(t * 0.8) * 0.4, 4.4, z + 8); cam.lookAt(0, 2.2, z - 6);
+  const bob = Math.sin(t * 4) * 0.25;
+  star.position.set(0, 3.1 + bob, z);
+  star.rotation.set(0.1, t * 4.2, 0);
+  shadow.position.set(0, 0.02, z); shadow.scale.setScalar(1.1 - bob * 0.4);
+  sparks.forEach((s, i) => { const a = t * 3 + (i * Math.PI) / 2; s.position.set(Math.cos(a) * 1.6, 3.1 + bob + Math.sin(a * 2) * 0.4, z + Math.sin(a) * 1.6); s.rotation.y = t * 6; });
+  renderer.render(scene, cam);
+};
+window.__seek(0.9);
+</script></body></html>
