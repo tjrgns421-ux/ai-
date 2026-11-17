@@ -95,7 +95,7 @@ beat, CTA ≤ ~5 s with a concrete offer and a **2-character comment keyword**
 
 ## 6. Characters
 
-- **Host = our own original mascot: the ">_" prompt terminal buddy**
+- **Host = our own original mascot "프프" (Peupeu), the ">_" prompt terminal buddy**
   (`video/src/mascot/Prompt.tsx`, variant `terminal`): lime rounded-screen head,
   dark screen whose face is the glowing `>_` (face = logo), antenna, stubby
   limbs. Expressions swap the screen glyphs (`prompt` >_, `happy` ^_^,

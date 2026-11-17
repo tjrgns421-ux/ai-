@@ -4,7 +4,8 @@ import { AbsoluteFill, useCurrentFrame, useVideoConfig } from "remotion";
 import { RoundedBoxGeometry } from "three/examples/jsm/geometries/RoundedBoxGeometry.js";
 import { useFonts } from "../StyleFrames";
 
-// ">_" prompt mascot — two takes on the same symbol.
+// "프프" — the channel's ">_" prompt mascot. Two takes on the same symbol;
+// the chosen one is `terminal`.
 //  terminal: rounded screen head, the face IS the glowing ">_" (logo = face)
 //  glyph:    puffy ">" body riding a "_" bar (silhouette reads ">_")
 
