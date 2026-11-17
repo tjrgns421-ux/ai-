@@ -95,7 +95,11 @@ beat, CTA ≤ ~5 s with a concrete offer and a **2-character comment keyword**
 
 ## 6. Characters
 
-- **Host = our own original mascot** (concepts in `video/src/mascot/`). It
+- **Host = our own original mascot: the ">_" prompt terminal buddy**
+  (`video/src/mascot/Prompt.tsx`, variant `terminal`): lime rounded-screen head,
+  dark screen whose face is the glowing `>_` (face = logo), antenna, stubby
+  limbs. Expressions swap the screen glyphs (`prompt` >_, `happy` ^_^,
+  `shock` O_O); signature motion: the `_` cursor blinks. It
   appears in every episode, on covers and as the channel's face.
 - **Claude's official character (Anthropic's mascot) = cameo only.** Use it
   briefly, as a symbol, only in beats that are specifically about Claude
