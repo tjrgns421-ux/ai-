@@ -65,3 +65,22 @@ The problem is usually not the topic but the **order of the sentences**.
 
 Show the user the draft with the checklist result, and before/after lines
 where a rule changed something.
+
+## 4. Title & cover (curiosity formula)
+
+Reference the user liked: "무료로 풀려 논란인 화제의 3가지 AI 도구" over an
+opened-padlock image with repo cards (names + star counts) partly shown.
+
+Formula — combine 3–5 of these, all of them **true**:
+- **Gain**: 무료, 시간 절약, 바로 쓰는
+- **Event verb**: 풀려, 공개된, 바뀐 (something changed/unlocked)
+- **Tension / surprise**: 논란인, 같은 AI인데, ~하면 망하는 이유
+  ("논란" only when there really is one)
+- **Social proof**: 화제의, real numbers (stars, users, views)
+- **Number**: 3가지, 딱 3줄
+- **Topic**: AI 도구, AI 글쓰기
+
+Cover: one visual metaphor that *is* the title (padlock = 풀려), plus real
+proof objects (names, counts) shown but not explained, so viewers swipe/watch.
+
+Give 3–4 title options, mark any that stretch the truth, recommend one.
