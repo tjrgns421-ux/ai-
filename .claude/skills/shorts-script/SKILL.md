@@ -134,3 +134,27 @@ Verification before writing (no exceptions):
 Verified to exist (2026-11-17): anthropics/skills, remotion-dev/skills,
 obra/superpowers, nextlevelbuilder/ui-ux-pro-max-skill, pbakaus/impeccable,
 heygen-com/hyperframes, lemomo-ai/lemo-opuscar, higgsfield-ai/cli.
+
+## 8. Channel positioning (decided 2026-11-17)
+
+Why people comment and save: they want to make content — and money — with AI
+(Instagram, YouTube, blogs). There is plenty of "look what AI can make"
+content. **This channel fills the gaps in it**: the points where people get
+stuck ("이건 좀 어려운데") or wish it were easier ("이렇게 해주면 편할 텐데").
+
+- Promise: **"이걸로 더 편하게 할 수 있다"** — easier, not richer. No
+  income claims or hype; real process and real numbers only, dated.
+- Format per episode: **gap** (where common AI content leaves people stuck)
+  → **easiest fix** (GitHub skill as the main tool; prompt as the fallback
+  where a skill can't be used, e.g. phone / web only) → **ready-to-use
+  resource** in the DM.
+- Audience: beginners who want to make content with ChatGPT / Claude.
+  Hook = call-out + loss/promise ("릴스 만드는 분, 아직도 ○○하세요?").
+- Gap sources: (1) questions in comments of popular AI-tool reels/shorts
+  ("설치 어떻게 해요", "에러 나요", "무료예요", "폰으로 돼요"); (2) where we
+  got stuck ourselves while building this channel with AI.
+- Pick a gap when: many people hit it + we can actually solve it + there is
+  a resource to hand over.
+- Check platform rules when relevant (AI-content labels, YouTube's limits on
+  mass-produced/inauthentic content, TTS commercial-use terms) and state them
+  accurately.
