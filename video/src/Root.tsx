@@ -4,12 +4,24 @@ import { Logo } from "./HelloWorld/Logo";
 import { Title } from "./HelloWorld/Title";
 import { StyleFrame } from "./StyleFrames";
 import { Ep01Opening, OPENING_DURATION } from "./ep01/Opening";
+import { MascotSheet } from "./mascot/Mascots";
 
 // Each <Composition> is an entry in the sidebar!
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Folder name="Mascot">
+        <Composition
+          id="MascotSheet"
+          component={MascotSheet}
+          durationInFrames={60}
+          fps={30}
+          width={1080}
+          height={1920}
+          defaultProps={{ concept: "cursor" as const, mood: "happy" as const }}
+        />
+      </Folder>
       <Folder name="Ep01">
         <Composition
           id="Ep01Opening"
