@@ -158,3 +158,19 @@ stuck ("이건 좀 어려운데") or wish it were easier ("이렇게 해주면 �
 - Check platform rules when relevant (AI-content labels, YouTube's limits on
   mass-produced/inauthentic content, TTS commercial-use terms) and state them
   accurately.
+
+## 9. Lessons from ep02
+
+- **The proof must show what the narration says.** ep02's first cut said
+  "한글이 엉뚱한 폰트로 잡혀요" over an image where Korean looked fine (the
+  environment had a Chinese font with Hangul). The user caught it. Before
+  rendering, look at each proof image next to its line and ask: would a
+  viewer see the problem without the narration?
+- **Don't generalize from one environment.** A problem seen in the cloud
+  container may not exist on Mac/Windows. Say only the condition you
+  verified ("한글 폰트 없는 서버에선"), or drop the claim.
+- **Prefer a gap that matches the hook.** Hook "블로그 글감" → gap "it makes a
+  newspaper, not blog ideas" → fix "a blog-idea page". The strongest fix is
+  one the original tool never meant to do, so it's an add-on, not a takedown.
+- **Build the proof by running the resource for real** (ep02: real news via
+  RSS → the prompt's blog-idea step → a real Morning Paper render).
