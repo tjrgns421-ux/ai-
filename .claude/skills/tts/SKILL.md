@@ -36,19 +36,34 @@ Script: `python3 .claude/skills/tts/scripts/tts.py <command>`
 Korean voices: `ko-KR-SunHiNeural` (female, bright), `ko-KR-InJoonNeural`
 (male, calm), `ko-KR-HyunsuMultilingualNeural` (male, multilingual).
 
-## 2. Make narration
+## 2. Check script length, then make narration
+
+Pace, length and caption style come from the user's reference shorts
+(`references/benchmark.md`): **6.6 syllables/s, ~38 s of speech ≈ 250
+syllables, no deliberate pauses, hook at 0 s**.
 
 ```bash
+python3 .claude/skills/tts/scripts/tts.py budget --file script.txt   # fits ~38 s?
 python3 .claude/skills/tts/scripts/tts.py speak --file script.txt --out tts-out --name ep01
-python3 .claude/skills/tts/scripts/tts.py speak "짧은 문장" --rate +15%
+python3 .claude/skills/tts/scripts/tts.py speak --file script.txt --captions dialogue
 ```
 
-Per-call `--voice/--rate/--pitch/--volume` override the saved settings.
+- Run `budget` first; if it says too long/short, edit the script (cut or add
+  the number of syllables it reports) before making audio.
+- `speak` auto-calibrates speed: it synthesizes, measures syllables/s, and
+  re-synthesizes at the corrected rate (up to 2 times, ±3%). The report shows
+  `rate`, `syllables_per_sec` and a `length_note` if the result is off target.
+  Passing `--rate` disables calibration; `--no-calibrate` too.
+- Caption presets: `punch` (default, 1–2 words, ≤8 syllables, ~0.7 s) or
+  `dialogue` (one clause, ≤12 syllables, ~1.2 s). Script punctuation and line
+  breaks are respected as caption breaks.
+
+Per-call `--voice/--pitch/--volume` override the saved settings.
 
 Output in `--out` (default `tts-out/`, git-ignored):
 - `<name>.mp3` — the narration
 - `<name>.words.json` — `[{text, start, end}]` in seconds, per word
-- `<name>.srt` — caption lines (≤16 chars, for vertical video; `--max-chars` to change)
+- `<name>.srt` — caption lines per the preset (`--max-syl` to override)
 - `<name>.captions.json` — Remotion `Caption[]` (`@remotion/captions`), per word
 
 ## Script tips

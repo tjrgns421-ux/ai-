@@ -2,5 +2,8 @@
  "voice": "ko-KR-HyunsuMultilingualNeural",
  "rate": "+15%",
  "pitch": "+0Hz",
- "volume": "+0%"
+ "volume": "+0%",
+ "target_sps": 6.6,
+ "target_duration": 38.0,
+ "caption_preset": "punch"
 }

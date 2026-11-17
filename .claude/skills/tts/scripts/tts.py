@@ -39,7 +39,37 @@ PREVIEW_TEXT = {
     "en": "Hi there. Today I'll show you three ways to make Claude ten times smarter.",
     "ja": "こんにちは。今日はクロードを十倍賢く使う方法を三つ紹介します。",
 }
-DEFAULTS = {"voice": "ko-KR-SunHiNeural", "rate": "+0%", "pitch": "+0Hz", "volume": "+0%"}
+DEFAULTS = {"voice": "ko-KR-SunHiNeural", "rate": "+0%", "pitch": "+0Hz", "volume": "+0%",
+            # Benchmarks measured from reference shorts (see references/benchmark.md)
+            "target_sps": 6.6,          # Korean syllables per second of speech
+            "target_duration": 38.0,    # seconds of speech for a ~40 s short
+            "caption_preset": "punch"}
+
+# Caption presets measured from the two reference shorts.
+#   punch    : 1–2 words per caption, avg 4.5 / max 8 syllables, ~0.7 s each
+#   dialogue : one clause per caption, avg 7 / max 12 syllables, ~1.2 s each
+CAPTION_PRESETS = {
+    "punch": {"max_syl": 8, "soft_syl": 4, "max_gap": 0.3},
+    "dialogue": {"max_syl": 12, "soft_syl": 99, "max_gap": 0.35},
+}
+
+
+def syllables(text):
+    """Spoken-syllable estimate: Hangul syllables + ~1 per 3 Latin letters + digits."""
+    import math
+    import re
+    hangul = len(re.findall(r"[가-힣]", text))
+    latin = sum(math.ceil(len(w) / 3) for w in re.findall(r"[A-Za-z]+", text))
+    digits = len(re.findall(r"[0-9]", text))
+    return hangul + latin + digits
+
+
+def pct(x):
+    return f"{'+' if x >= 0 else ''}{int(round(x))}%"
+
+
+def rate_num(r):
+    return float(str(r).strip().rstrip("%"))
 
 
 def project_root():
@@ -182,20 +212,50 @@ def srt_time(t):
     return f"{h:02d}:{m:02d}:{s:02d},{ms:03d}"
 
 
-def group_lines(words, max_chars=16, max_gap=0.35):
-    """Group words into short caption lines (good for vertical shorts)."""
+PUNCT = ".?!,。？！、…~"
+
+
+def attach_punct(words, script):
+    """Word boundaries come without punctuation; copy it (and line breaks) back
+    from the script so captions can break at clause and beat ends."""
+    pos = 0
+    for w in words:
+        i = script.find(w["text"], pos)
+        if i < 0:
+            continue
+        j = i + len(w["text"])
+        tail = ""
+        while j < len(script) and (script[j] in PUNCT or script[j] in "\"'”’)"):
+            tail += script[j]
+            j += 1
+        k = j
+        while k < len(script) and script[k] in " \t":
+            k += 1
+        w["display"] = w["text"] + tail
+        w["break"] = bool(tail.strip("\"'”’)")) or (k < len(script) and script[k] == "\n")
+        pos = j
+    return words
+
+
+def group_lines(words, preset="punch", max_syl=None):
+    """Group words into caption lines using a measured preset (see CAPTION_PRESETS)."""
+    p = dict(CAPTION_PRESETS.get(preset, CAPTION_PRESETS["punch"]))
+    if max_syl:
+        p["max_syl"] = max_syl
     lines, cur = [], []
     for w in words:
-        text_len = sum(len(x["text"]) + 1 for x in cur) + len(w["text"])
+        cur_syl = sum(syllables(x["text"]) for x in cur)
         gap = w["start"] - cur[-1]["end"] if cur else 0
-        ends_sentence = cur and cur[-1]["text"][-1:] in ".?!。？！"
-        if cur and (text_len > max_chars or gap > max_gap or ends_sentence):
+        prev = cur[-1].get("display", cur[-1]["text"]) if cur else ""
+        ends_clause = bool(cur) and (cur[-1].get("break") or prev[-1:] in PUNCT)
+        if cur and (cur_syl + syllables(w["text"]) > p["max_syl"] or gap > p["max_gap"]
+                    or ends_clause or cur_syl >= p["soft_syl"]):
             lines.append(cur)
             cur = []
         cur.append(w)
     if cur:
         lines.append(cur)
-    return [{"text": " ".join(x["text"] for x in l), "start": l[0]["start"], "end": l[-1]["end"]}
+    return [{"text": " ".join(x.get("display", x["text"]) for x in l), "start": l[0]["start"], "end": l[-1]["end"]}
             for l in lines]
 
 
@@ -216,18 +276,46 @@ def cmd_speak(a):
     rate = a.rate or cfg["rate"]
     pitch = a.pitch or cfg["pitch"]
     volume = a.volume or cfg["volume"]
+    target_sps = a.target_sps or cfg.get("target_sps")
+    preset = a.captions or cfg.get("caption_preset", "punch")
     out = Path(a.out or "tts-out")
     out.mkdir(parents=True, exist_ok=True)
     name = a.name or "narration"
     mp3 = out / f"{name}.mp3"
-    try:
-        words = asyncio.run(synth(text, voice, rate, pitch, volume, mp3))
-    except Exception as e:
-        if mp3.exists():
-            mp3.unlink()
-        net_fail(e)
+    syl = syllables(text)
 
-    lines = group_lines(words, a.max_chars)
+    def run_once(r):
+        try:
+            return asyncio.run(synth(text, voice, r, pitch, volume, mp3))
+        except Exception as e:
+            if mp3.exists():
+                mp3.unlink()
+            net_fail(e)
+
+    def measured_sps(ws):
+        span = (ws[-1]["end"] - ws[0]["start"]) if ws else 0
+        return syl / span if span > 0 else None
+
+    words = run_once(rate)
+    sps = measured_sps(words)
+    # Calibrate speed to the target syllables/sec (rate scales speed linearly):
+    # speed ∝ (1 + rate/100), so new = (1 + old/100) * target/measured - 1.
+    calibrated = False
+    if target_sps and not a.rate and not a.no_calibrate and sps:
+        for _ in range(2):
+            if abs(sps - target_sps) / target_sps <= 0.03:
+                break
+            new = (1 + rate_num(rate) / 100) * (target_sps / sps) * 100 - 100
+            new = max(-50, min(100, new))
+            if pct(new) == rate:
+                break
+            rate = pct(new)
+            words = run_once(rate)
+            sps = measured_sps(words)
+            calibrated = True
+
+    words = attach_punct(words, text)
+    lines = group_lines(words, preset, a.max_syl)
     (out / f"{name}.words.json").write_text(
         json.dumps(words, ensure_ascii=False, indent=1), encoding="utf-8")
     (out / f"{name}.srt").write_text("\n".join(
@@ -247,11 +335,38 @@ def cmd_speak(a):
         dur = round(float(r.stdout.strip()), 2)
     except Exception:
         pass
-    print(json.dumps({"audio": str(mp3.resolve()), "duration_sec": dur, "voice": voice,
-                      "rate": rate, "pitch": pitch, "volume": volume,
-                      "words": len(words), "caption_lines": len(lines),
+    report = {"audio": str(mp3.resolve()), "duration_sec": dur, "voice": voice,
+              "rate": rate, "calibrated": calibrated, "pitch": pitch, "volume": volume,
+              "syllables": syl, "syllables_per_sec": round(sps, 2) if sps else None,
+              "target_sps": target_sps, "caption_preset": preset,
+              "words": len(words), "caption_lines": len(lines)}
+    tgt = cfg.get("target_duration")
+    if tgt and dur and abs(dur - tgt) / tgt > 0.1:
+        report["length_note"] = (f"{dur}s vs target {tgt}s: about "
+                                 f"{int(round(tgt * (target_sps or 6.6)))} syllables fits the target")
+    print(json.dumps({**report,
                       "files": [str((out / f"{name}{s}").resolve()) for s in
                                 (".words.json", ".srt", ".captions.json")]},
+                     ensure_ascii=False, indent=1))
+
+
+def cmd_budget(a):
+    text = Path(a.file).read_text(encoding="utf-8") if a.file else (a.text or sys.stdin.read())
+    cfg = load_config()
+    sps = cfg.get("target_sps", 6.6)
+    target = a.target or cfg.get("target_duration", 38.0)
+    syl = syllables(text)
+    est = syl / sps
+    need = int(round(target * sps))
+    lines = [l for l in text.splitlines() if l.strip()]
+    print(json.dumps({"syllables": syl, "target_sps": sps,
+                      "estimated_sec": round(est, 1), "target_sec": target,
+                      "syllables_for_target": need, "diff_syllables": syl - need,
+                      "verdict": "ok" if abs(syl - need) <= need * 0.05 else
+                      ("too long: cut ~%d syllables" % (syl - need) if syl > need
+                       else "too short: add ~%d syllables" % (need - syl)),
+                      "per_line": [{"line": l[:30], "syllables": syllables(l),
+                                    "sec": round(syllables(l) / sps, 1)} for l in lines]},
                      ensure_ascii=False, indent=1))
 
 
@@ -295,9 +410,19 @@ def main():
     sp.add_argument("--volume")
     sp.add_argument("--out")
     sp.add_argument("--name")
-    sp.add_argument("--max-chars", type=int, default=16,
-                    help="max characters per caption line (default 16, for vertical video)")
+    sp.add_argument("--captions", choices=list(CAPTION_PRESETS),
+                    help="caption preset: punch (1-2 words) or dialogue (one clause)")
+    sp.add_argument("--max-syl", type=int, help="override max syllables per caption")
+    sp.add_argument("--target-sps", type=float,
+                    help="target syllables/sec for auto speed calibration (default from config)")
+    sp.add_argument("--no-calibrate", action="store_true")
     sp.set_defaults(fn=cmd_speak)
+
+    b = sub.add_parser("budget", help="check a script's length before making audio")
+    b.add_argument("text", nargs="?")
+    b.add_argument("--file")
+    b.add_argument("--target", type=float, help="target seconds (default from config)")
+    b.set_defaults(fn=cmd_budget)
 
     a = p.parse_args()
     a.fn(a)
