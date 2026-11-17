@@ -19,9 +19,9 @@ import words from "../../public/ep01/narration.words.json";
 // atmospheric light, grain, depth, 3D cards, impact moments and SFX.
 // Timing follows the real narration (tts skill, calibrated to 6.6 syllables/sec).
 
-const FPS = 30;
+export const FPS = 30;
 const SPS = 6.6;
-const C = { ink: "#0A0B0D", white: "#F5F5F2", lime: "#D7FF3A", red: "#FF3B30", gray: "#8A8F98" };
+export const C = { ink: "#0A0B0D", white: "#F5F5F2", lime: "#D7FF3A", red: "#FF3B30", gray: "#8A8F98" };
 
 const syl = (s: string) => {
   const ai = (s.match(/AI/g) || []).length * 4;
@@ -31,7 +31,7 @@ const syl = (s: string) => {
 
 type Chunk = { text: string; color?: string };
 type Line = { scene: SceneId; chunks: Chunk[] };
-type SceneId = "hook" | "reason" | "example" | "tell" | "three";
+type SceneId = "hook" | "reason" | "example" | "tell" | "three" | "tip1" | "proof" | "tip2" | "rehook" | "tip3" | "cta";
 
 const LINES: Line[] = [
   { scene: "hook", chunks: [{ text: "AI한테" }, { text: "'글 써줘' 하는 순간," }, { text: "그 글은" }, { text: "망했어요.", color: C.red }] },
@@ -39,6 +39,19 @@ const LINES: Line[] = [
   { scene: "example", chunks: [{ text: "카페 홍보글이면," }, { text: "'따뜻한 공간,'", color: "#FF8A80" }, { text: "'특별한 커피.'", color: "#FF8A80" }, { text: "이런 거요." }] },
   { scene: "tell", chunks: [{ text: "바로 티 나죠.", color: C.red }] },
   { scene: "three", chunks: [{ text: "그래서 딱" }, { text: "세 가지만", color: C.lime }, { text: "바꿔 볼게요." }] },
+  // ---- rest of ep01 (used by Ep01Full) ----
+  { scene: "tip1", chunks: [{ text: "첫째," }, { text: "재료 세 줄.", color: C.lime }] },
+  { scene: "tip1", chunks: [{ text: "누가 읽는지," }, { text: "왜 쓰는지," }, { text: "내 경험 한 줄.", color: C.lime }] },
+  { scene: "proof", chunks: [{ text: "같은 카페 글인데," }, { text: "이것만 넣어도" }, { text: "이렇게 달라져요.", color: C.lime }] },
+  { scene: "tip2", chunks: [{ text: "둘째," }, { text: "금지어 리스트.", color: C.lime }] },
+  { scene: "tip2", chunks: [{ text: "'물론이죠',", color: "#FF8A80" }, { text: "'다양한'.", color: "#FF8A80" }, { text: "이런 말은" }, { text: "빼라고 하세요." }] },
+  { scene: "rehook", chunks: [{ text: "그런데" }, { text: "아직 어색해요." }] },
+  { scene: "rehook", chunks: [{ text: "진짜 사람 같아지는 건" }, { text: "세 번째예요.", color: C.red }] },
+  { scene: "tip3", chunks: [{ text: "셋째," }, { text: "말투 복사.", color: C.lime }] },
+  { scene: "tip3", chunks: [{ text: "내가 쓴 글" }, { text: "두세 개를 주고," }, { text: "이 말투로" }, { text: "쓰라고 하세요." }] },
+  { scene: "tip3", chunks: [{ text: "이제" }, { text: "내가 쓴 글처럼" }, { text: "읽혀요.", color: C.lime }] },
+  { scene: "cta", chunks: [{ text: "세 개 다 넣은" }, { text: "프롬프트," }, { text: "금지어 서른 개까지.", color: C.lime }] },
+  { scene: "cta", chunks: [{ text: "댓글에" }, { text: "'복붙',", color: C.lime }, { text: "남기면" }, { text: "디엠으로 드려요." }] },
 ];
 
 // Timeline in frames, from the real narration's word timings (tts skill output:
@@ -79,12 +92,12 @@ const buildTimeline = () => {
     });
     return { ...l, start: tchunks[0].start, end: tchunks[tchunks.length - 1].end, tchunks };
   });
-  const last = lines[lines.length - 1].end;
-  return { lines, total: last + 30, voiceEnd: last + 4 };
+  const openEnd = lines[4].end;
+  return { lines, total: openEnd + 30, voiceEnd: openEnd + 4, fullEnd: lines[lines.length - 1].end };
 };
 export const TIMELINE = buildTimeline();
 export const OPENING_DURATION = TIMELINE.total;
-const L = TIMELINE.lines;
+export const L = TIMELINE.lines;
 
 // Scenes: example + tell share one scene (the "tell" is a beat on the same bubble).
 const SCENES = [
@@ -94,12 +107,12 @@ const SCENES = [
   { id: "three", start: L[4].start, end: OPENING_DURATION },
 ] as const;
 
-const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
-const outExpo = Easing.bezier(0.16, 1, 0.3, 1);
+export const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
+export const outExpo = Easing.bezier(0.16, 1, 0.3, 1);
 
 // ---------- shared layers ----------
 
-const Atmosphere: React.FC<{ tint: string; tint2?: string; strength?: number }> = ({ tint, tint2 = tint, strength = 1 }) => {
+export const Atmosphere: React.FC<{ tint: string; tint2?: string; strength?: number }> = ({ tint, tint2 = tint, strength = 1 }) => {
   const f = useCurrentFrame();
   const x = 50 + Math.sin(f / 45) * 6;
   const y = 36 + Math.cos(f / 60) * 4;
@@ -114,7 +127,7 @@ const Atmosphere: React.FC<{ tint: string; tint2?: string; strength?: number }> 
   );
 };
 
-const Dust: React.FC = () => {
+export const Dust: React.FC = () => {
   const f = useCurrentFrame();
   return (
     <AbsoluteFill style={{ pointerEvents: "none" }}>
@@ -144,7 +157,7 @@ const Dust: React.FC = () => {
   );
 };
 
-const Grain: React.FC = () => {
+export const Grain: React.FC = () => {
   const f = useCurrentFrame();
   return (
     <AbsoluteFill
@@ -159,7 +172,7 @@ const Grain: React.FC = () => {
   );
 };
 
-const Vignette: React.FC = () => (
+export const Vignette: React.FC = () => (
   <AbsoluteFill style={{ background: "radial-gradient(ellipse 80% 70% at 50% 45%, transparent 50%, rgba(0,0,0,0.7) 100%)" }} />
 );
 
@@ -170,7 +183,7 @@ const CutFlash: React.FC = () => {
 };
 
 // Transition wrapper: push-in blur on enter, zoom-through blur on exit.
-const SceneWrap: React.FC<{ dur: number; noIn?: boolean; children: React.ReactNode }> = ({ dur, noIn, children }) => {
+export const SceneWrap: React.FC<{ dur: number; noIn?: boolean; children: React.ReactNode }> = ({ dur, noIn, children }) => {
   const f = useCurrentFrame();
   const inT = noIn ? 1 : interpolate(f, [0, 8], [0, 1], { ...clamp, easing: outExpo });
   const outT = interpolate(f, [dur - 1, dur + 6], [0, 1], { ...clamp, easing: Easing.in(Easing.cubic) });
@@ -187,7 +200,7 @@ const SceneWrap: React.FC<{ dur: number; noIn?: boolean; children: React.ReactNo
   );
 };
 
-const Captions: React.FC = () => {
+export const Captions: React.FC = () => {
   const f = useCurrentFrame();
   const chunks = L.flatMap((l) => l.tchunks);
   const cur = chunks.find((c) => f >= c.start && f < c.end + 2) ?? (f >= chunks[chunks.length - 1].start ? chunks[chunks.length - 1] : null);
@@ -215,13 +228,13 @@ const Captions: React.FC = () => {
   );
 };
 
-const Sfx: React.FC<{ at: number; src: string; volume?: number }> = ({ at, src, volume = 1 }) => (
+export const Sfx: React.FC<{ at: number; src: string; volume?: number }> = ({ at, src, volume = 1 }) => (
   <Sequence from={Math.max(0, at)} durationInFrames={30} layout="none">
     <Html5Audio src={staticFile(`sfx/${src}.wav`)} volume={volume} />
   </Sequence>
 );
 
-const glass: React.CSSProperties = {
+export const glass: React.CSSProperties = {
   background: "linear-gradient(170deg, rgba(255,255,255,0.13), rgba(255,255,255,0.035))",
   border: "1.5px solid rgba(255,255,255,0.2)",
   boxShadow: "0 40px 120px rgba(0,0,0,0.55), inset 0 1.5px 0 rgba(255,255,255,0.28)",
@@ -230,7 +243,7 @@ const glass: React.CSSProperties = {
 
 // ---------- 프프 (channel mascot) ----------
 
-const Peupeu: React.FC<{ left: number; top: number; w?: number; h?: number; pose: PeupeuPose; appear: number }> = ({ left, top, w = 600, h = 520, pose, appear }) => (
+export const Peupeu: React.FC<{ left: number; top: number; w?: number; h?: number; pose: PeupeuPose; appear: number }> = ({ left, top, w = 600, h = 520, pose, appear }) => (
   <div
     style={{
       position: "absolute",
@@ -248,7 +261,7 @@ const Peupeu: React.FC<{ left: number; top: number; w?: number; h?: number; pose
 );
 
 // squash / stretch / arc for a jump starting at frame k=0
-const jumpPose = (k: number, height: number) => {
+export const jumpPose = (k: number, height: number) => {
   if (k < 0) return { jump: 0, sx: 1, sy: 1, air: false };
   const t = (k - 3) / 12;
   const air = t > 0 && t < 1;
@@ -297,7 +310,7 @@ const PeupeuInHook: React.FC<{ stamp: number; send: number }> = ({ stamp, send }
   );
 };
 
-const Hook: React.FC<{ dur: number }> = ({ dur }) => {
+export const Hook: React.FC<{ dur: number }> = ({ dur }) => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
   const { send, stamp } = hookT();
@@ -448,7 +461,7 @@ const Hook: React.FC<{ dur: number }> = ({ dur }) => {
 
 const CLICHES = ["따뜻한 공간에서", "특별한 경험을", "다양한 혜택", "최고의 품질로", "당신을 위한", "새로운 시작", "특별한 커피", "편안한 휴식", "행복한 순간", "정성을 다해", "일상의 여유", "소중한 시간"];
 
-const Reason: React.FC = () => {
+export const Reason: React.FC = () => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
   const pick = L[1].tchunks[3].start - L[1].start;
@@ -530,7 +543,7 @@ const Wave: React.FC<{ progress: number }> = ({ progress }) => (
   </svg>
 );
 
-const Example: React.FC = () => {
+export const Example: React.FC = () => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
   const base = L[2].start;
@@ -649,7 +662,7 @@ const PeupeuInThree: React.FC<{ glow: number }> = ({ glow }) => {
 };
 
 
-const Three: React.FC = () => {
+export const Three: React.FC = () => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
   const glow = L[4].tchunks[1].start - L[4].start;

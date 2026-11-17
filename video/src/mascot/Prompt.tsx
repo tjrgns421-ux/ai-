@@ -10,7 +10,7 @@ import { useFonts } from "../StyleFrames";
 //  glyph:    puffy ">" body riding a "_" bar (silhouette reads ">_")
 
 export type PromptVariant = "terminal" | "glyph";
-export type PromptFace = "prompt" | "happy" | "shock";
+export type PromptFace = "prompt" | "happy" | "shock" | "meh";
 
 const LIME = "#CFEF2E";
 const GLOW = "#D7FF3A";
@@ -135,6 +135,13 @@ export const TerminalBuddy: React.FC<{ face: PromptFace; blink: boolean; wave?: 
             </Glow>
           ))}
           <Bar w={0.1} thick={0.045} pos={[0, 0.1, z]} on />
+        </>
+      )}
+      {face === "meh" && (
+        <>
+          <Bar w={0.16} thick={0.045} pos={[-0.27, 0.36, z]} on />
+          <Bar w={0.16} thick={0.045} pos={[0.27, 0.36, z]} on />
+          <Bar w={0.12} thick={0.04} pos={[0.04, 0.1, z]} on />
         </>
       )}
       <Cheeks y={0.12} x={0.45} z={z + 0.005} />
