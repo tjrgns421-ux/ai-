@@ -55,11 +55,15 @@ CAPTION_PRESETS = {
 
 
 def syllables(text):
-    """Spoken-syllable estimate: Hangul syllables + ~1 per 3 Latin letters + digits."""
+    """Spoken-syllable estimate: Hangul syllables + Latin words + digits.
+    All-caps acronyms are spelled out (AI → 에이아이 = 4, ~2 per letter);
+    other Latin words ~1 syllable per 3 letters."""
     import math
     import re
     hangul = len(re.findall(r"[가-힣]", text))
-    latin = sum(math.ceil(len(w) / 3) for w in re.findall(r"[A-Za-z]+", text))
+    latin = 0
+    for w in re.findall(r"[A-Za-z]+", text):
+        latin += 2 * len(w) if (w.isupper() and len(w) <= 5) else math.ceil(len(w) / 3)
     digits = len(re.findall(r"[0-9]", text))
     return hangul + latin + digits
 
