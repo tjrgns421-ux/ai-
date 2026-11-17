@@ -17,7 +17,7 @@ const FONTS: [string, string, string][] = [
   ["GowunBatang", "GowunBatang-Bold.woff2", "700"],
 ];
 
-const useFonts = () => {
+export const useFonts = () => {
   const [handle] = useState(() => delayRender("fonts"));
   useEffect(() => {
     Promise.all(
