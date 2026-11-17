@@ -2,12 +2,24 @@ import { Composition, Folder } from "remotion";
 import { HelloWorld } from "./HelloWorld";
 import { Logo } from "./HelloWorld/Logo";
 import { Title } from "./HelloWorld/Title";
+import { StyleFrame } from "./StyleFrames";
 
 // Each <Composition> is an entry in the sidebar!
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Folder name="Ep01">
+        <Composition
+          id="StyleFrame"
+          component={StyleFrame}
+          durationInFrames={1}
+          fps={30}
+          width={1080}
+          height={1920}
+          defaultProps={{ look: "editorial" as const, scene: "hook" as const }}
+        />
+      </Folder>
       <Folder name="Elements">
         <Composition
           id="Logo"

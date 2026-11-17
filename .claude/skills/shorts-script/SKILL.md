@@ -84,3 +84,11 @@ Cover: one visual metaphor that *is* the title (padlock = 풀려), plus real
 proof objects (names, counts) shown but not explained, so viewers swipe/watch.
 
 Give 3–4 title options, mark any that stretch the truth, recommend one.
+
+## 5. Approved house style
+
+`shorts/ep01-ai-writing/script.txt` is the approved model script: provocative
+but true hook, named tips (재료 세 줄 / 금지어 리스트 / 말투 복사), strongest
+tip last with a re-hook before it, short lines mixed in, a before/after proof
+beat, CTA ≤ ~5 s with a concrete offer and a **2-character comment keyword**
+(e.g. '복붙') for the DM.

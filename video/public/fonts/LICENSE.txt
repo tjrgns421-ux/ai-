@@ -1,0 +1,2 @@
+Fonts in this folder are under the SIL Open Font License 1.1:
+Pretendard (orioncactus), Black Han Sans, Nanum Pen Script, Gowun Batang (Google Fonts via Fontsource).
