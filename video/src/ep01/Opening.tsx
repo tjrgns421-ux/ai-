@@ -13,10 +13,11 @@ import {
 } from "remotion";
 import { useFonts } from "../StyleFrames";
 import { PeupeuStage, PeupeuPose } from "../mascot/Prompt";
+import words from "../../public/ep01/narration.words.json";
 
 // ep01 opening (script lines 1–5) as motion graphics at the reference shorts' level:
 // atmospheric light, grain, depth, 3D cards, impact moments and SFX.
-// Timing follows the measured narration pace (6.6 syllables/sec).
+// Timing follows the real narration (tts skill, calibrated to 6.6 syllables/sec).
 
 const FPS = 30;
 const SPS = 6.6;
@@ -40,27 +41,46 @@ const LINES: Line[] = [
   { scene: "three", chunks: [{ text: "그래서 딱" }, { text: "세 가지만", color: C.lime }, { text: "바꿔 볼게요." }] },
 ];
 
-// Timeline in frames: each line lasts syllables / SPS, chunks split by syllables.
-const GAP = 0.1;
+// Timeline in frames, from the real narration's word timings (tts skill output:
+// public/ep01/narration.words.json). Each caption chunk starts at its first word.
+// Falls back to the measured pace (SPS) if a chunk cannot be matched.
+type Word = { text: string; start: number; end: number };
+const WORDS = words as Word[];
+const norm = (x: string) => x.replace(/[^가-힣A-Za-z0-9]/g, "");
 type TChunk = Chunk & { start: number; end: number };
 type TLine = Line & { start: number; end: number; tchunks: TChunk[] };
 const buildTimeline = () => {
+  let big = "";
+  const owner: number[] = [];
+  WORDS.forEach((w, i) => {
+    for (const ch of norm(w.text)) {
+      big += ch;
+      owner.push(i);
+    }
+  });
+  let p = 0;
   let t = 0;
   const lines: TLine[] = LINES.map((l) => {
-    const total = l.chunks.reduce((a, c) => a + syl(c.text), 0);
-    const dur = total / SPS;
-    let ct = t;
     const tchunks = l.chunks.map((c) => {
-      const d = (syl(c.text) / total) * dur;
-      const r = { ...c, start: Math.round(ct * FPS), end: Math.round((ct + d) * FPS) };
-      ct += d;
-      return r;
+      const n = norm(c.text);
+      const at = big.indexOf(n, p);
+      let a: number;
+      let b: number;
+      if (at >= 0) {
+        a = WORDS[owner[at]].start;
+        b = WORDS[owner[at + n.length - 1]].end;
+        p = at + n.length;
+      } else {
+        a = t;
+        b = t + syl(c.text) / SPS;
+      }
+      t = b;
+      return { ...c, start: Math.round(a * FPS), end: Math.round(b * FPS) };
     });
-    const r = { ...l, start: Math.round(t * FPS), end: Math.round((t + dur) * FPS), tchunks };
-    t += dur + GAP;
-    return r;
+    return { ...l, start: tchunks[0].start, end: tchunks[tchunks.length - 1].end, tchunks };
   });
-  return { lines, total: Math.round((t + 1.0) * FPS) };
+  const last = lines[lines.length - 1].end;
+  return { lines, total: last + 30, voiceEnd: last + 4 };
 };
 export const TIMELINE = buildTimeline();
 export const OPENING_DURATION = TIMELINE.total;
@@ -712,11 +732,11 @@ export const Ep01Opening: React.FC = () => {
       {SCENES.slice(1).map((s) => (
         <Sfx key={s.id} at={s.start - 4} src="whoosh" volume={0.4} />
       ))}
+      <Html5Audio src={staticFile("ep01/narration.mp3")} volume={(f) => interpolate(f, [TIMELINE.voiceEnd - 3, TIMELINE.voiceEnd], [1, 0], clamp)} />
       <CutFlash />
       <Dust />
       <Grain />
       <Vignette />
-      <div style={{ position: "absolute", top: 96, left: 80, fontFamily: "Pretendard", fontWeight: 700, fontSize: 30, letterSpacing: 3, color: "rgba(255,255,255,0.45)" }}>EP.01 · AI 글쓰기</div>
       <Captions />
     </AbsoluteFill>
   );

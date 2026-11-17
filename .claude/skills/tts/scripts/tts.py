@@ -43,7 +43,10 @@ DEFAULTS = {"voice": "ko-KR-SunHiNeural", "rate": "+0%", "pitch": "+0Hz", "volum
             # Benchmarks measured from reference shorts (see references/benchmark.md)
             "target_sps": 6.6,          # Korean syllables per second of speech
             "target_duration": 38.0,    # seconds of speech for a ~40 s short
-            "caption_preset": "punch"}
+            "caption_preset": "punch",
+            # Reference shorts have no pauses >= 0.25 s (editors cut silences):
+            # pauses between words are trimmed to this many seconds.
+            "max_pause": 0.12}
 
 # Caption presets measured from the two reference shorts.
 #   punch    : 1–2 words per caption, avg 4.5 / max 8 syllables, ~0.7 s each
@@ -263,6 +266,43 @@ def group_lines(words, preset="punch", max_syl=None):
             for l in lines]
 
 
+def tighten_audio(mp3, words, max_gap, lead=0.05, tail=0.35):
+    """Cut silences between words down to max_gap (like a jump-cut edit).
+    Returns words with shifted timings. Cuts happen in the middle of each gap."""
+    if not words:
+        return words
+    keep = []  # (start, end) in original time
+    cur = max(0.0, words[0]["start"] - lead)
+    for i in range(1, len(words)):
+        g0, g1 = words[i - 1]["end"], words[i]["start"]
+        if g1 - g0 > max_gap:
+            mid = (g0 + g1) / 2
+            keep.append((cur, mid - max_gap / 2))
+            cur = mid + max_gap / 2
+    keep.append((cur, words[-1]["end"] + tail))
+
+    def shift(t):
+        out, acc = 0.0, 0.0
+        for a, b in keep:
+            if t < a:
+                return acc
+            if t <= b:
+                return acc + (t - a)
+            acc += b - a
+        return acc
+
+    tmp = Path(str(mp3) + ".tmp.mp3")
+    parts = "".join(f"[0:a]atrim={a:.3f}:{b:.3f},asetpts=PTS-STARTPTS[s{i}];" for i, (a, b) in enumerate(keep))
+    cat = "".join(f"[s{i}]" for i in range(len(keep))) + f"concat=n={len(keep)}:v=0:a=1[o]"
+    r = subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(mp3), "-filter_complex", parts + cat,
+                        "-map", "[o]", "-c:a", "libmp3lame", "-q:a", "2", str(tmp)], capture_output=True, text=True)
+    if r.returncode != 0:
+        print(f"[tts] tighten skipped: {r.stderr.strip()[-200:]}", file=sys.stderr)
+        return words
+    tmp.replace(mp3)
+    return [{**w, "start": round(shift(w["start"]), 3), "end": round(shift(w["end"]), 3)} for w in words]
+
+
 def cmd_speak(a):
     if a.file:
         text = Path(a.file).read_text(encoding="utf-8").strip()
@@ -288,13 +328,16 @@ def cmd_speak(a):
     mp3 = out / f"{name}.mp3"
     syl = syllables(text)
 
+    max_pause = None if a.no_tighten else (a.max_pause if a.max_pause is not None else cfg.get("max_pause"))
+
     def run_once(r):
         try:
-            return asyncio.run(synth(text, voice, r, pitch, volume, mp3))
+            ws = asyncio.run(synth(text, voice, r, pitch, volume, mp3))
         except Exception as e:
             if mp3.exists():
                 mp3.unlink()
             net_fail(e)
+        return tighten_audio(mp3, ws, max_pause) if max_pause else ws
 
     def measured_sps(ws):
         span = (ws[-1]["end"] - ws[0]["start"]) if ws else 0
@@ -339,7 +382,9 @@ def cmd_speak(a):
         dur = round(float(r.stdout.strip()), 2)
     except Exception:
         pass
+    speech = sum(w["end"] - w["start"] for w in words) or None
     report = {"audio": str(mp3.resolve()), "duration_sec": dur, "voice": voice,
+              "max_pause": max_pause, "articulation_sps": round(syl / speech, 2) if speech else None,
               "rate": rate, "calibrated": calibrated, "pitch": pitch, "volume": volume,
               "syllables": syl, "syllables_per_sec": round(sps, 2) if sps else None,
               "target_sps": target_sps, "caption_preset": preset,
@@ -420,6 +465,8 @@ def main():
     sp.add_argument("--target-sps", type=float,
                     help="target syllables/sec for auto speed calibration (default from config)")
     sp.add_argument("--no-calibrate", action="store_true")
+    sp.add_argument("--max-pause", type=float, help="trim pauses to this many seconds (default from config, 0.12)")
+    sp.add_argument("--no-tighten", action="store_true", help="keep the voice's natural pauses")
     sp.set_defaults(fn=cmd_speak)
 
     b = sub.add_parser("budget", help="check a script's length before making audio")

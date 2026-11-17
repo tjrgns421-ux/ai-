@@ -54,6 +54,10 @@ python3 .claude/skills/tts/scripts/tts.py speak --file script.txt --captions dia
   re-synthesizes at the corrected rate (up to 2 times, ±3%). The report shows
   `rate`, `syllables_per_sec` and a `length_note` if the result is off target.
   Passing `--rate` disables calibration; `--no-calibrate` too.
+- Pause trimming (default on): the voice's pauses are cut to `max_pause`
+  (0.12 s, in `tts.config.json`) like an editor's jump cuts, *before* speed
+  calibration — so the voice needs less speed-up and sounds more natural
+  (ep01: +56% instead of +71%). `--max-pause 0.2` or `--no-tighten` to change.
 - Caption presets: `punch` (default, 1–2 words, ≤8 syllables, ~0.7 s) or
   `dialogue` (one clause, ≤12 syllables, ~1.2 s). Script punctuation and line
   breaks are respected as caption breaks.
@@ -67,6 +71,12 @@ Output in `--out` (default `tts-out/`, git-ignored):
 - `<name>.captions.json` — Remotion `Caption[]` (`@remotion/captions`), per word
 
 ## Script tips
+
+- **Verify key words by ear-proxy:** run the mp3 through Whisper (the
+  `video-watch` skill's model) and check that keywords — especially a CTA
+  comment keyword — are transcribed correctly. ep01: "복붙" was heard as
+  "복부" until a comma followed it ("댓글에 복붙, 남기면…"). A short pause
+  after a word ending in a final consonant makes it come through.
 
 - Write numbers and English the way they should be read, e.g. `/compact` →
   "슬래시 컴팩트", `67` → "육칠" if that is how it should sound.
