@@ -92,3 +92,16 @@ but true hook, named tips (재료 세 줄 / 금지어 리스트 / 말투 복사)
 tip last with a re-hook before it, short lines mixed in, a before/after proof
 beat, CTA ≤ ~5 s with a concrete offer and a **2-character comment keyword**
 (e.g. '복붙') for the DM.
+
+## 6. Characters
+
+- **Host = our own original mascot** (concepts in `video/src/mascot/`). It
+  appears in every episode, on covers and as the channel's face.
+- **Claude's official character (Anthropic's mascot) = cameo only.** Use it
+  briefly, as a symbol, only in beats that are specifically about Claude
+  (e.g. "Claude가 이렇게 답해요"). Never as the host, logo, profile image,
+  cover/thumbnail main visual or merchandise, and never in a way that
+  suggests the channel is official.
+- Put "Anthropic과 무관한 개인 채널입니다" in the video description whenever
+  the cameo appears.
+- When writing the scene plan, mark cameo beats with `[Claude 카메오]`.
