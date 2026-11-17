@@ -5,8 +5,9 @@ import { Atmosphere, C, Dust, Grain, Peupeu, SceneWrap, Sfx, Vignette, clamp, gl
 import { Line, NarrationCaptions, Word, buildTimeline } from "../lib/narration";
 import words from "../../public/ep02/narration.words.json";
 
-// ep02 — Morning Paper (dmthepm/morning-paper, MIT) for bloggers, plus the
-// Korean-font fix we verified. Proof images are real renders (public/ep02/).
+// ep02 — Morning Paper (dmthepm/morning-paper, MIT) for bloggers. The gap: it
+// makes a newspaper, not blog ideas; our prompt adds a daily blog-idea page.
+// Proof images are real Morning Paper renders made from real news (public/ep02/).
 
 // Official Naver Blog logo file, placed by the user. null → neutral text badge.
 const BLOG_LOGO: string | null = null; // e.g. "brand/naver-blog.png"
@@ -16,14 +17,14 @@ const LINES: Line[] = [
   { scene: "intro", chunks: [{ text: "모닝 페이퍼.", color: C.lime }] },
   { scene: "intro", chunks: [{ text: "깃허브 무료 스킬인데," }, { text: "매일 아침" }, { text: "신문 한 장을 찍어 줘요." }] },
   { scene: "intro", chunks: [{ text: "보는 채널만" }, { text: "적어 두면," }, { text: "겹치는 건 합치고" }, { text: "중요한 것만 골라 줘요.", color: C.lime }] },
-  { scene: "problem", chunks: [{ text: "그런데" }, { text: "한국에서 그대로 깔면," }, { text: "문제가 있어요.", color: C.red }] },
-  { scene: "problem", chunks: [{ text: "기본 폰트가" }, { text: "영문뿐이라," }, { text: "한글이 엉뚱한 폰트로" }, { text: "잡혀요.", color: C.red }] },
-  { scene: "problem", chunks: [{ text: "제목도" }, { text: "이렇게 흐려지고요." }] },
-  { scene: "rehook", chunks: [{ text: "한글 폰트만 깔면" }, { text: "될 것 같죠?" }] },
-  { scene: "rehook", chunks: [{ text: "그것만으론" }, { text: "안 바뀌어요.", color: C.red }, { text: "우선순위까지" }, { text: "바꿔야 해요.", color: C.lime }] },
-  { scene: "cloud", chunks: [{ text: "게다가 클라우드에선" }, { text: "이 설정을" }, { text: "매일 다시 해 줘야 하고요." }] },
-  { scene: "fix", chunks: [{ text: "그래서 이걸 전부" }, { text: "알아서 해 주는" }, { text: "프롬프트를 만들었어요.", color: C.lime }] },
-  { scene: "fix", chunks: [{ text: "붙여 넣기만 하면," }, { text: "내일 아침부터" }, { text: "글감이 신문으로 와요.", color: C.lime }] },
+  { scene: "gap", chunks: [{ text: "그런데" }, { text: "이건 신문이지," }, { text: "블로그 글감은 아니에요.", color: C.red }] },
+  { scene: "gap", chunks: [{ text: "뭘 쓸지는," }, { text: "결국 또 골라야 하죠." }] },
+  { scene: "gap", chunks: [{ text: "신문 다 읽고 나서," }, { text: "또 고민이 시작되는 거예요." }] },
+  { scene: "add", chunks: [{ text: "그래서" }, { text: "한 단계를 더 붙였어요.", color: C.lime }] },
+  { scene: "add", chunks: [{ text: "신문에서 오늘 쓸" }, { text: "글감 세 개를 고르고," }] },
+  { scene: "add", chunks: [{ text: "내 블로그 주제에 맞춰," }, { text: "제목 후보랑" }, { text: "근거 기사 링크까지", color: C.lime }, { text: "달아 줘요." }] },
+  { scene: "offpc", chunks: [{ text: "컴퓨터를 꺼 둬도" }, { text: "돌아가게," }, { text: "필요한 설정도" }, { text: "같이 넣었고요." }] },
+  { scene: "promise", chunks: [{ text: "붙여 넣기만 하면," }, { text: "내일 아침부터" }, { text: "글감이 신문으로 와요.", color: C.lime }] },
   { scene: "cta", chunks: [{ text: "댓글에" }, { text: "글감,", color: C.lime }, { text: "남기면" }, { text: "디엠으로 드려요." }] },
 ];
 
@@ -35,10 +36,10 @@ export const EP02_DURATION = TL.end + TAIL;
 const S = {
   hook: [0, L[1].start],
   intro: [L[1].start, L[4].start],
-  problem: [L[4].start, L[7].start],
-  rehook: [L[7].start, L[9].start],
-  cloud: [L[9].start, L[10].start],
-  fix: [L[10].start, L[12].start],
+  gap: [L[4].start, L[7].start],
+  add: [L[7].start, L[10].start],
+  offpc: [L[10].start, L[11].start],
+  promise: [L[11].start, L[12].start],
   cta: [L[12].start, EP02_DURATION],
 } as const;
 type Sc = readonly [number, number];
@@ -138,22 +139,6 @@ const Hook: React.FC = () => {
 
 const SOURCES = ["긱뉴스", "AI타임스", "블로터", "유튜브 · AI 채널", "뉴스레터 2개"];
 
-const MiniPaper: React.FC<{ items: number; title?: string }> = ({ items, title = "나의 아침 신문" }) => (
-  <div style={{ background: PAPER, borderRadius: 10, padding: "34px 40px", boxShadow: "0 50px 120px rgba(0,0,0,0.6)" }}>
-    <div style={{ fontFamily: "GowunBatang", fontWeight: 700, fontSize: 64, color: "#1d1a16", textAlign: "center", borderBottom: "4px double #1d1a16", paddingBottom: 12 }}>{title}</div>
-    <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "16px 28px", marginTop: 22 }}>
-      {new Array(items).fill(0).map((_, i) => (
-        <div key={i}>
-          <div style={{ fontFamily: "Pretendard", fontWeight: 900, fontSize: 30, color: "#1d1a16" }}>{i + 1}. {["AI 툴 새 기능", "릴스 알고리즘", "검색 트렌드", "크리에이터 수익", "블로그 SEO", "SNS 정책", "주간 화제"][i % 7]}</div>
-          {[0, 1].map((k) => (
-            <div key={k} style={{ height: 10, borderRadius: 5, background: "#C9C0AE", marginTop: 10, width: `${90 - ((i * 13 + k * 21) % 35)}%` }} />
-          ))}
-        </div>
-      ))}
-    </div>
-  </div>
-);
-
 const Intro: React.FC = () => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
@@ -180,9 +165,9 @@ const Intro: React.FC = () => {
       </div>
       {/* one paper */}
       {f >= paperAt - 2 && (
-        <div style={{ position: "absolute", left: 140, top: 300, width: 800, opacity: interpolate(paper, [0, 0.3], [0, 1], clamp) * paperOut, translate: `0px ${interpolate(paper, [0, 1], [200, 0])}px`, rotate: `${interpolate(paper, [0, 1], [-8, -2])}deg` }}>
-          <MiniPaper items={6} />
-          <div style={{ position: "absolute", right: -20, top: -50, fontFamily: "Pretendard", fontWeight: 900, fontSize: 40, color: "#111", background: C.lime, borderRadius: 99, padding: "10px 26px", rotate: "6deg" }}>매일 아침 6시</div>
+        <div style={{ position: "absolute", left: 70, top: 330, width: 940, opacity: interpolate(paper, [0, 0.3], [0, 1], clamp) * paperOut, translate: `0px ${interpolate(paper, [0, 1], [200, 0])}px`, rotate: `${interpolate(paper, [0, 1], [-6, -1.5])}deg` }}>
+          <Shot src="ep02/paper-news.png" tag="실제 결과 · 오늘 뉴스" tagColor="#3a8f00" glow={lime(0.25)} />
+          <div style={{ position: "absolute", right: -10, top: -60, fontFamily: "Pretendard", fontWeight: 900, fontSize: 40, color: "#111", background: C.lime, borderRadius: 99, padding: "10px 26px", rotate: "6deg" }}>매일 아침 6시</div>
         </div>
       )}
       {/* sources → merge → final */}
@@ -202,8 +187,8 @@ const Intro: React.FC = () => {
         </div>
       )}
       {f >= finalAt && (
-        <div style={{ position: "absolute", left: 140, top: 300, width: 800, opacity: interpolate(fin, [0, 0.3], [0, 1], clamp), scale: String(interpolate(fin, [0, 1], [0.7, 1])) }}>
-          <MiniPaper items={6} />
+        <div style={{ position: "absolute", left: 70, top: 330, width: 940, opacity: interpolate(fin, [0, 0.3], [0, 1], clamp), scale: String(interpolate(fin, [0, 1], [0.7, 1])) }}>
+          <Shot src="ep02/paper-news.png" tag="실제 결과 · 오늘 뉴스" tagColor="#3a8f00" glow={lime(0.25)} />
           <div style={{ position: "absolute", left: -20, top: -50, fontFamily: "Pretendard", fontWeight: 900, fontSize: 40, color: "#111", background: C.lime, borderRadius: 99, padding: "10px 26px", rotate: "-5deg" }}>중요한 것만</div>
         </div>
       )}
@@ -218,7 +203,7 @@ const Intro: React.FC = () => {
   );
 };
 
-// ---------- problem: real "before" render ----------
+// ---------- real render frame ----------
 
 const Shot: React.FC<{ src: string; tag: string; tagColor: string; glow: string }> = ({ src, tag, tagColor, glow }) => (
   <div style={{ position: "relative", borderRadius: 18, overflow: "hidden", boxShadow: `0 0 70px ${glow}, 0 50px 120px rgba(0,0,0,0.6)`, background: "#fff" }}>
@@ -227,238 +212,195 @@ const Shot: React.FC<{ src: string; tag: string; tagColor: string; glow: string 
   </div>
 );
 
-const Problem: React.FC = () => {
+
+// ---------- gap: a newspaper is not a blog idea ----------
+
+const Gap: React.FC = () => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
-  const sc = S.problem;
-  const shotAt = at(5, 0, sc);
-  const fontsAt = at(5, 1, sc);
-  const wrongAt = at(5, 2, sc);
-  const zoomAt = at(6, 1, sc);
-  const s = pop(f, fps, shotAt, { damping: 14, stiffness: 150 });
-  const z = interpolate(f - zoomAt, [0, 12], [0, 1], { ...clamp, easing: outExpo });
-  const pp = pop(f, fps, 3, { damping: 11, stiffness: 170 });
-  const shake = f < 12 ? (1 - f / 12) * 14 : 0;
+  const sc = S.gap;
+  const noAt = at(4, 2, sc);
+  const edAt = at(5, 0, sc);
+  const ppAt = at(6, 0, sc);
+  const p = pop(f, fps, 1, { damping: 14, stiffness: 150 });
+  const no = pop(f, fps, noAt, { damping: 9, stiffness: 260, mass: 0.6 });
+  const ed = pop(f, fps, edAt, { damping: 14, stiffness: 160 });
+  const pp = pop(f, fps, ppAt, { damping: 11, stiffness: 170 });
+  const shrink = interpolate(f - edAt, [0, 12], [0, 1], { ...clamp, easing: outExpo });
   return (
-    <AbsoluteFill style={{ translate: `${(random(`px${f}`) - 0.5) * shake}px 0px` }}>
-      <Atmosphere tint="rgba(190,30,25,0.5)" tint2="rgba(110,10,10,0.5)" />
-      {f < shotAt + 4 && (
-        <div style={{ opacity: interpolate(f, [shotAt - 4, shotAt + 4], [1, 0], clamp) }}>
-          <Peupeu left={190} top={420} w={700} h={720} appear={pp} pose={{ face: "shock", sweat: interpolate(f, [8, 16], [0, 1], clamp), wave: 1.4, leftLift: 0.9, rotY: -0.1, scale: 1.5 }} />
-        </div>
-      )}
-      {f >= shotAt && (
-        <div style={{ position: "absolute", left: 70, top: 260, width: 940, opacity: interpolate(s, [0, 0.3], [0, 1], clamp), translate: `0px ${interpolate(s, [0, 1], [120, 0])}px`, transformOrigin: "50% 12%", scale: String(1 + z * 0.3) }}>
-          <Shot src="ep02/paper-before.png" tag="기본 상태 (실제 결과)" tagColor={C.red} glow={red(0.3)} />
-          {f >= wrongAt && (
-            <div style={{ position: "absolute", left: 30, top: 50, width: 400, height: 110, border: `7px solid ${C.red}`, borderRadius: 60, opacity: interpolate(f - wrongAt, [0, 4], [0, 1], clamp), scale: String(interpolate(f - wrongAt, [0, 6], [1.4, 1], clamp)) }} />
-          )}
-        </div>
-      )}
-      {f >= fontsAt && (
-        <div style={{ position: "absolute", left: 90, top: 820, width: 900, display: "flex", flexDirection: "column", gap: 18, opacity: interpolate(f - fontsAt, [0, 6], [0, 1], clamp) * (1 - z) }}>
-          <div style={{ fontFamily: "Pretendard", fontWeight: 700, fontSize: 32, color: "rgba(255,255,255,0.6)" }}>내장 폰트 3종</div>
-          <div style={{ display: "flex", gap: 14, flexWrap: "wrap" }}>
-            {["TeX Gyre Pagella", "Arimo", "Courier Prime"].map((n) => (
-              <div key={n} style={{ ...glass, borderRadius: 999, padding: "14px 26px", fontFamily: "Pretendard", fontWeight: 900, fontSize: 34, color: C.white }}>
-                {n} <span style={{ color: C.red }}>EN</span>
-              </div>
+    <AbsoluteFill>
+      <Atmosphere tint="rgba(110,110,125,0.35)" tint2="rgba(40,40,50,0.4)" />
+      <AbsoluteFill style={{ opacity: interpolate(f - noAt, [0, 6], [0, 0.8], clamp) * (1 - shrink * 0.6) }}>
+        <Atmosphere tint="rgba(190,30,25,0.45)" tint2="rgba(110,10,10,0.45)" />
+      </AbsoluteFill>
+      <div style={{ position: "absolute", left: 70, top: 330, width: 940, opacity: interpolate(p, [0, 0.3], [0, 1], clamp) * (1 - shrink * 0.75), scale: String(1 - shrink * 0.45), translate: `${-shrink * 60}px ${-shrink * 130}px`, transformOrigin: "50% 0%" }}>
+        <Shot src="ep02/paper-news.png" tag="신문" tagColor="#555" glow={lime(0.1)} />
+        {f >= noAt && (
+          <div style={{ position: "absolute", right: 30, top: 30, background: C.red, color: "#fff", fontFamily: "Pretendard", fontWeight: 900, fontSize: 56, borderRadius: 999, padding: "12px 36px", rotate: "8deg", scale: String(interpolate(no, [0, 1], [2.2, 1])), boxShadow: `0 18px 50px ${red(0.5)}` }}>
+            글감 ✕
+          </div>
+        )}
+      </div>
+      {f >= edAt && (
+        <div style={{ position: "absolute", left: 90, top: 560, width: 900, opacity: interpolate(ed, [0, 0.3], [0, 1], clamp), translate: `0px ${interpolate(ed, [0, 1], [140, 0])}px` }}>
+          <div style={{ background: "#fbfbfb", borderRadius: 26, padding: "34px 40px", boxShadow: "0 50px 120px rgba(0,0,0,0.6)" }}>
+            <div style={{ fontFamily: "Pretendard", fontWeight: 900, fontSize: 30, color: "#03C75A", marginBottom: 20 }}>새 글 쓰기</div>
+            <div style={{ fontFamily: "Pretendard", fontWeight: 700, fontSize: 54, color: "#b5b5b5", borderBottom: "2px solid #eee", paddingBottom: 16 }}>
+              제목을 입력하세요<span style={{ color: "#111", opacity: f % 16 < 9 ? 1 : 0 }}>|</span>
+            </div>
+            {[0, 1, 2].map((k) => (
+              <div key={k} style={{ height: 16, borderRadius: 8, background: "#eee", marginTop: 26, width: `${88 - k * 22}%` }} />
             ))}
           </div>
-          {f >= wrongAt && (
-            <div style={{ fontFamily: "Pretendard", fontWeight: 900, fontSize: 40, color: "#FFB3AD", marginTop: 6, opacity: interpolate(f - wrongAt, [0, 6], [0, 1], clamp) }}>
-              → 한글은 중국어 폰트(WenQuanYi)로 대체
-            </div>
-          )}
         </div>
       )}
-      <Sfx at={1} src="glitch" volume={0.45} />
-      <Sfx at={3} src="boing" volume={0.35} />
-      <Sfx at={shotAt} src="whoosh" volume={0.4} />
-      <Sfx at={wrongAt} src="stamp" volume={0.6} />
-      <Sfx at={zoomAt} src="whoosh" volume={0.35} />
+      {f >= ppAt && (
+        <>
+          <Peupeu left={560} top={900} w={500} h={460} appear={pp} pose={{ face: "meh", wave: 0.35, rotY: -0.4, rotZ: Math.sin(f / 9) * 0.05, scale: 1.05 }} />
+          <div style={{ position: "absolute", left: 900, top: 900, fontFamily: "Pretendard", fontWeight: 900, fontSize: 120, color: C.white, opacity: interpolate(f - ppAt, [6, 12], [0, 1], clamp), rotate: `${Math.sin(f / 6) * 8}deg` }}>?</div>
+        </>
+      )}
+      <Sfx at={1} src="whoosh" volume={0.3} />
+      <Sfx at={noAt} src="glitch" volume={0.5} />
+      <Sfx at={edAt} src="pop" volume={0.45} />
+      <Sfx at={ppAt} src="blip" volume={0.35} />
     </AbsoluteFill>
   );
 };
 
-// ---------- re-hook: installing the font is not enough → priority ----------
+// ---------- add: one more step → blog-idea page (real render) ----------
 
-const Rehook: React.FC = () => {
+const IDEAS = ["직장인 3명 중 2명이 쓰는 AI, 나는 몇 시간 아낄까", "AI 구독료, 다들 얼마나 쓰고 있을까", "대화창에 툴을 붙이는 법, MCP 입문"];
+
+const Add: React.FC = () => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
-  const sc = S.rehook;
-  const noAt = at(8, 1, sc);
-  const prAt = at(8, 2, sc);
-  const swapAt = at(8, 3, sc);
-  const file = pop(f, fps, 2, { damping: 12, stiffness: 160 });
-  const k = f - noAt;
-  const x = pop(f, fps, noAt, { damping: 9, stiffness: 260, mass: 0.6 });
-  const swap = interpolate(f - swapAt, [0, 12], [0, 1], { ...clamp, easing: outExpo });
-  const shake = k >= 0 && k < 10 ? (1 - k / 10) * 22 : 0;
-  const showList = f >= prAt - 2;
+  const sc = S.add;
+  const tabAt = at(7, 1, sc);
+  const cardsAt = at(8, 1, sc);
+  const realAt = at(9, 0, sc);
+  const titleAt = at(9, 1, sc);
+  const linkAt = at(9, 2, sc);
+  const tab = pop(f, fps, tabAt, { damping: 12, stiffness: 170 });
+  const real = pop(f, fps, realAt, { damping: 14, stiffness: 150 });
+  const cardsOut = interpolate(f, [realAt - 4, realAt + 4], [1, 0], clamp);
+  const hl = (from: number) => interpolate(f - from, [0, 6], [0, 1], { ...clamp, easing: outExpo });
   return (
-    <AbsoluteFill style={{ translate: `${(random(`rx${f}`) - 0.5) * shake}px ${(random(`ry${f}`) - 0.5) * shake}px` }}>
-      <Atmosphere tint="rgba(90,90,100,0.35)" tint2="rgba(40,40,50,0.4)" />
-      <AbsoluteFill style={{ opacity: swap }}>
-        <Atmosphere tint="rgba(120,165,20,0.5)" tint2="rgba(40,70,10,0.5)" />
-      </AbsoluteFill>
-      {/* font file dropped in */}
-      <div style={{ position: "absolute", left: 0, right: 0, top: 360, display: "flex", justifyContent: "center", opacity: interpolate(file, [0, 0.3], [0, 1], clamp) * (showList ? interpolate(f, [prAt - 2, prAt + 4], [1, 0], clamp) : 1) }}>
-        <div style={{ position: "relative", translate: `0px ${interpolate(file, [0, 1], [-300, 0])}px` }}>
-          <div style={{ width: 340, height: 420, borderRadius: 26, background: PAPER, boxShadow: "0 40px 100px rgba(0,0,0,0.6)", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
-            <div style={{ fontFamily: "Pretendard", fontWeight: 900, fontSize: 150, color: "#1d1a16", lineHeight: 1 }}>가</div>
-            <div style={{ fontFamily: "Pretendard", fontWeight: 700, fontSize: 32, color: "#6e665b", marginTop: 18 }}>Pretendard.otf</div>
-            <div style={{ fontFamily: "Pretendard", fontWeight: 900, fontSize: 30, color: "#111", background: C.lime, borderRadius: 99, padding: "6px 20px", marginTop: 14 }}>설치 완료</div>
-          </div>
-          {k >= 0 && (
-            <div style={{ position: "absolute", inset: -40, display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "Pretendard", fontWeight: 900, fontSize: 480, color: C.red, lineHeight: 1, textShadow: "0 0 60px rgba(255,59,48,0.6)", scale: String(interpolate(x, [0, 1], [2.4, 1])), opacity: interpolate(k, [0, 2], [0, 1], clamp) }}>
-              ✕
-            </div>
-          )}
-        </div>
+    <AbsoluteFill>
+      <Atmosphere tint="rgba(120,165,20,0.45)" tint2="rgba(40,70,10,0.5)" />
+      {/* "+ one page" tab */}
+      <div style={{ position: "absolute", top: 260, width: "100%", display: "flex", justifyContent: "center", opacity: interpolate(tab, [0, 0.3], [0, 1], clamp) * cardsOut, scale: String(interpolate(tab, [0, 1], [0.5, 1])) }}>
+        <div style={{ fontFamily: "Pretendard", fontWeight: 900, fontSize: 64, color: "#111", background: C.lime, borderRadius: 26, padding: "18px 44px", boxShadow: `0 0 70px ${lime(0.45)}` }}>+ 오늘의 블로그 글감</div>
       </div>
-      {/* priority list */}
-      {showList && (
-        <div style={{ position: "absolute", left: 120, top: 380, width: 840, opacity: interpolate(f, [prAt - 2, prAt + 4], [0, 1], clamp) }}>
-          <div style={{ fontFamily: "Pretendard", fontWeight: 700, fontSize: 36, color: "rgba(255,255,255,0.6)", marginBottom: 22 }}>한글 폰트 우선순위</div>
-          {[
-            { n: "WenQuanYi", d: "중국어 폰트", bad: true },
-            { n: "Pretendard", d: "한글 폰트", bad: false },
-          ].map((r, i) => {
-            const y = i === 0 ? interpolate(swap, [0, 1], [0, 190]) : interpolate(swap, [0, 1], [190, 0]);
-            const good = !r.bad;
-            return (
-              <div
-                key={r.n}
-                style={{
-                  position: "absolute",
-                  top: 70 + y,
-                  left: 0,
-                  width: 840,
-                  height: 160,
-                  borderRadius: 30,
-                  ...glass,
-                  border: good ? `3px solid ${lime(0.3 + swap * 0.6)}` : `2px solid rgba(255,255,255,0.2)`,
-                  boxShadow: good ? `0 0 ${swap * 70}px ${lime(swap * 0.4)}` : undefined,
-                  display: "flex",
-                  alignItems: "center",
-                  gap: 30,
-                  padding: "0 40px",
-                  opacity: r.bad ? 1 - swap * 0.45 : 1,
-                }}
-              >
-                <div style={{ fontFamily: "Pretendard", fontWeight: 900, fontSize: 70, color: good ? C.lime : "rgba(255,255,255,0.5)", width: 60 }}>{(i === 0 ? swap < 0.5 : swap >= 0.5) ? 1 : 2}</div>
-                <div>
-                  <div style={{ fontFamily: "Pretendard", fontWeight: 900, fontSize: 56, color: C.white }}>{r.n}</div>
-                  <div style={{ fontFamily: "Pretendard", fontWeight: 700, fontSize: 30, color: "rgba(255,255,255,0.55)" }}>{r.d}</div>
-                </div>
-              </div>
-            );
-          })}
+      {/* three idea cards (titles from the real page) */}
+      {IDEAS.map((t, i) => {
+        const p = pop(f, fps, cardsAt + i * 5, { damping: 13, stiffness: 180 });
+        return (
+          <div key={i} style={{ position: "absolute", left: 90, top: 450 + i * 200, width: 900, padding: "30px 38px", borderRadius: 28, ...glass, border: `2px solid ${lime(0.45)}`, opacity: interpolate(p, [0, 0.3], [0, 1], clamp) * cardsOut, translate: `${interpolate(p, [0, 1], [160, 0])}px 0px` }}>
+            <div style={{ fontFamily: "Pretendard", fontWeight: 900, fontSize: 30, color: C.lime, marginBottom: 6 }}>글감 {i + 1}</div>
+            <div style={{ fontFamily: "Pretendard", fontWeight: 900, fontSize: 44, color: C.white, letterSpacing: -1, wordBreak: "keep-all" }}>{t}</div>
+          </div>
+        );
+      })}
+      {/* the real page */}
+      {f >= realAt - 2 && (
+        <div style={{ position: "absolute", left: 50, top: 300, width: 980, opacity: interpolate(real, [0, 0.3], [0, 1], clamp), translate: `0px ${interpolate(real, [0, 1], [160, 0])}px` }}>
+          <div style={{ position: "relative" }}>
+            <Shot src="ep02/paper-ideas.png" tag="실제 결과 · 오늘 뉴스로 만듦" tagColor="#3a8f00" glow={lime(0.3)} />
+            <div style={{ position: "absolute", left: "1%", top: "6%", width: "70%", height: "11%", border: `6px solid ${C.lime}`, borderRadius: 14, opacity: hl(realAt + 6), boxShadow: `0 0 30px ${lime(0.6)}` }} />
+            <div style={{ position: "absolute", left: "1%", top: "36%", width: "98%", height: "15%", border: `6px solid ${C.lime}`, borderRadius: 14, opacity: hl(titleAt), boxShadow: `0 0 30px ${lime(0.6)}` }} />
+            <div style={{ position: "absolute", left: "1%", top: "70%", width: "98%", height: "29%", border: `6px solid ${C.lime}`, borderRadius: 14, opacity: hl(linkAt), boxShadow: `0 0 30px ${lime(0.6)}` }} />
+          </div>
         </div>
       )}
-      <Sfx at={2} src="pop" volume={0.5} />
-      <Sfx at={noAt} src="glitch" volume={0.55} />
-      <Sfx at={noAt} src="stamp" volume={0.7} />
-      <Sfx at={prAt} src="whoosh" volume={0.4} />
-      <Sfx at={swapAt} src="ding" volume={0.6} />
+      <Sfx at={tabAt} src="pop" volume={0.55} />
+      {IDEAS.map((_, i) => (
+        <Sfx key={i} at={cardsAt + i * 5} src="ding" volume={0.35} />
+      ))}
+      <Sfx at={realAt} src="whoosh" volume={0.45} />
+      <Sfx at={titleAt} src="pop" volume={0.4} />
+      <Sfx at={linkAt} src="pop" volume={0.4} />
     </AbsoluteFill>
   );
 };
 
-// ---------- cloud: every run starts fresh ----------
+// ---------- off-PC: runs in the cloud at 6 ----------
 
-const Cloud: React.FC = () => {
+const OffPc: React.FC = () => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
-  const sc = S.cloud;
-  const c = pop(f, fps, 1, { damping: 13, stiffness: 150 });
-  const daysAt = at(9, 2, sc);
+  const sc = S.offpc;
+  const p = pop(f, fps, 1, { damping: 13, stiffness: 160 });
+  const cl = pop(f, fps, at(10, 1, sc), { damping: 12, stiffness: 170 });
+  const chipsAt = at(10, 2, sc);
   return (
     <AbsoluteFill>
       <Atmosphere tint="rgba(70,110,160,0.45)" tint2="rgba(30,40,70,0.5)" />
-      <div style={{ position: "absolute", top: 300, width: "100%", display: "flex", justifyContent: "center", opacity: interpolate(c, [0, 0.3], [0, 1], clamp), scale: String(interpolate(c, [0, 1], [0.6, 1])) }}>
-        <div style={{ position: "relative", width: 520, height: 300 }}>
-          {[
-            [60, 120, 220],
-            [200, 40, 280],
-            [330, 110, 200],
-          ].map(([l, t, s], i) => (
-            <div key={i} style={{ position: "absolute", left: l, top: t, width: s, height: s, borderRadius: 999, background: "linear-gradient(170deg,#ffffff,#cfd8e6)" }} />
-          ))}
-          <div style={{ position: "absolute", left: 40, top: 200, width: 460, height: 120, borderRadius: 60, background: "linear-gradient(170deg,#f2f5fa,#c9d3e2)" }} />
-          <div style={{ position: "absolute", left: 0, right: 0, top: 120, textAlign: "center", fontFamily: "Pretendard", fontWeight: 900, fontSize: 120, color: "#2a3a55", rotate: `${-f * 6}deg` }}>↻</div>
+      <div style={{ position: "absolute", top: 380, left: 0, right: 0, display: "flex", justifyContent: "center", alignItems: "center", gap: 60 }}>
+        <div style={{ opacity: interpolate(p, [0, 0.3], [0, 1], clamp), scale: String(interpolate(p, [0, 1], [0.6, 1])), textAlign: "center" }}>
+          <div style={{ width: 300, height: 200, borderRadius: 18, background: "#0d0e11", border: "10px solid #3a3d44", margin: "0 auto" }} />
+          <div style={{ width: 360, height: 24, borderRadius: 8, background: "#3a3d44", margin: "0 auto" }} />
+          <div style={{ fontFamily: "Pretendard", fontWeight: 900, fontSize: 36, color: "rgba(255,255,255,0.6)", marginTop: 18 }}>꺼짐</div>
+        </div>
+        <div style={{ fontFamily: "Pretendard", fontWeight: 900, fontSize: 90, color: C.lime, opacity: interpolate(cl, [0, 0.3], [0, 1], clamp) }}>→</div>
+        <div style={{ position: "relative", width: 300, height: 230, opacity: interpolate(cl, [0, 0.3], [0, 1], clamp), scale: String(interpolate(cl, [0, 1], [0.5, 1])) }}>
+          <div style={{ position: "absolute", left: 30, top: 70, width: 150, height: 150, borderRadius: 999, background: "linear-gradient(170deg,#fff,#cfd8e6)" }} />
+          <div style={{ position: "absolute", left: 120, top: 20, width: 170, height: 170, borderRadius: 999, background: "linear-gradient(170deg,#fff,#cfd8e6)" }} />
+          <div style={{ position: "absolute", left: 10, top: 140, width: 280, height: 80, borderRadius: 40, background: "linear-gradient(170deg,#f2f5fa,#c9d3e2)" }} />
+          <div style={{ position: "absolute", left: 0, right: 0, top: 245, textAlign: "center", fontFamily: "Pretendard", fontWeight: 900, fontSize: 40, color: "#111", background: C.lime, borderRadius: 99, padding: "8px 0" }}>06:00 실행</div>
         </div>
       </div>
-      <div style={{ position: "absolute", left: 90, top: 760, width: 900, display: "flex", gap: 18, justifyContent: "center" }}>
-        {["월", "화", "수", "목", "금"].map((d, i) => {
-          const p = pop(f, fps, daysAt + i * 4, { damping: 12, stiffness: 200 });
+      <div style={{ position: "absolute", top: 820, left: 0, right: 0, display: "flex", justifyContent: "center", gap: 18 }}>
+        {["설치 자동", "사이트 접속 확인", "매일 6시 예약"].map((t, i) => {
+          const c = pop(f, fps, chipsAt + i * 4, { damping: 11, stiffness: 220 });
           return (
-            <div key={d} style={{ width: 160, padding: "22px 0", borderRadius: 24, ...glass, textAlign: "center", opacity: interpolate(p, [0, 0.3], [0, 1], clamp), scale: String(interpolate(p, [0, 1], [0.5, 1])) }}>
-              <div style={{ fontFamily: "Pretendard", fontWeight: 900, fontSize: 50, color: C.white }}>{d}</div>
-              <div style={{ fontFamily: "Pretendard", fontWeight: 700, fontSize: 24, color: "#FFB3AD", marginTop: 6 }}>설정 초기화</div>
+            <div key={t} style={{ ...glass, borderRadius: 999, padding: "16px 28px", fontFamily: "Pretendard", fontWeight: 900, fontSize: 36, color: C.white, scale: String(c), opacity: c > 0.02 ? 1 : 0 }}>
+              <span style={{ color: C.lime }}>✓</span> {t}
             </div>
           );
         })}
       </div>
       <Sfx at={1} src="whoosh" volume={0.35} />
-      {[0, 1, 2, 3, 4].map((i) => (
-        <Sfx key={i} at={daysAt + i * 4} src="pop" volume={0.3} />
+      <Sfx at={at(10, 1, sc)} src="pop" volume={0.45} />
+      {[0, 1, 2].map((i) => (
+        <Sfx key={i} at={chipsAt + i * 4} src="pop" volume={0.35} />
       ))}
     </AbsoluteFill>
   );
 };
 
-// ---------- fix: the prompt + real "after" render ----------
+// ---------- promise: tomorrow morning ----------
 
-const STEPS = ["엔진 설치", "한글 폰트 해결", "내 신문 만들기", "매일 아침 자동 실행"];
-
-const Fix: React.FC = () => {
+const Promise_: React.FC = () => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
-  const sc = S.fix;
-  const doc = pop(f, fps, 1, { damping: 14, stiffness: 150 });
-  const afterAt = at(11, 0, sc);
+  const sc = S.promise;
   const sunAt = at(11, 1, sc);
   const glowAt = at(11, 2, sc);
-  const a = pop(f, fps, afterAt, { damping: 13, stiffness: 150 });
+  const a = pop(f, fps, sunAt - 4, { damping: 13, stiffness: 150 });
   const glow = interpolate(f - glowAt, [0, 6], [0, 1], clamp);
   const pp = pop(f, fps, glowAt - 4, { damping: 11, stiffness: 170 });
   const j = jumpPose(f - glowAt, 0.35);
   return (
     <AbsoluteFill>
       <Atmosphere tint="rgba(120,165,20,0.45)" tint2="rgba(40,70,10,0.5)" />
-      <AbsoluteFill style={{ opacity: interpolate(f - sunAt, [0, 14], [0, 0.8], clamp), background: "radial-gradient(70% 40% at 50% 100%, rgba(255,190,90,0.45), transparent 70%)" }} />
-      {/* prompt doc */}
-      <div style={{ position: "absolute", left: 90, top: 260, width: 900, opacity: interpolate(doc, [0, 0.3], [0, 1], clamp) * interpolate(f, [afterAt - 4, afterAt + 4], [1, 0], clamp), translate: `0px ${interpolate(doc, [0, 1], [120, 0])}px` }}>
-        <div style={{ background: "#14151a", border: `2px solid ${lime(0.6)}`, borderRadius: 30, padding: "40px 46px", boxShadow: `0 0 70px ${lime(0.25)}, 0 50px 120px rgba(0,0,0,0.6)` }}>
-          <div style={{ fontFamily: "Pretendard", fontWeight: 900, fontSize: 44, color: C.white }}>Morning Paper 한국어 보완판</div>
-          <div style={{ fontFamily: "monospace", fontSize: 28, color: "rgba(255,255,255,0.5)", margin: "8px 0 26px" }}>복붙용 설치 프롬프트</div>
-          {STEPS.map((s, i) => {
-            const p = pop(f, fps, 6 + i * 6, { damping: 10, stiffness: 240 });
-            return (
-              <div key={s} style={{ display: "flex", alignItems: "center", gap: 22, marginBottom: 18 }}>
-                <div style={{ width: 54, height: 54, borderRadius: 16, background: C.lime, color: "#111", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "Pretendard", fontWeight: 900, fontSize: 34, scale: String(p) }}>✓</div>
-                <div style={{ fontFamily: "Pretendard", fontWeight: 900, fontSize: 48, color: i === 1 ? C.lime : C.white }}>
-                  {i + 1}. {s}
-                </div>
-              </div>
-            );
-          })}
+      <AbsoluteFill style={{ opacity: interpolate(f - sunAt, [0, 14], [0, 0.85], clamp), background: "radial-gradient(70% 40% at 50% 100%, rgba(255,190,90,0.45), transparent 70%)" }} />
+      <div style={{ position: "absolute", left: 90, top: 330, width: 900, opacity: interpolate(f, [1, 8], [0, 1], clamp) * interpolate(f, [sunAt - 4, sunAt + 2], [1, 0], clamp) }}>
+        <div style={{ background: "#14151a", border: `2px solid ${lime(0.6)}`, borderRadius: 30, padding: "40px 46px", boxShadow: `0 0 70px ${lime(0.25)}` }}>
+          <div style={{ fontFamily: "monospace", fontSize: 30, color: "rgba(255,255,255,0.5)", marginBottom: 14 }}>복붙용 프롬프트</div>
+          <div style={{ fontFamily: "Pretendard", fontWeight: 900, fontSize: 52, color: C.white }}>Morning Paper 블로거용 보완판</div>
+          <div style={{ fontFamily: "Pretendard", fontWeight: 900, fontSize: 40, color: C.lime, marginTop: 18 }}>Ctrl + V</div>
         </div>
       </div>
-      {/* real after */}
-      {f >= afterAt && (
-        <div style={{ position: "absolute", left: 70, top: 280, width: 940, opacity: interpolate(a, [0, 0.3], [0, 1], clamp), translate: `0px ${interpolate(a, [0, 1], [140, 0])}px`, scale: String(1 + glow * 0.03) }}>
-          <Shot src="ep02/paper-after.png" tag="보완 후 (실제 결과)" tagColor="#3a8f00" glow={lime(0.2 + glow * 0.35)} />
+      {f >= sunAt - 4 && (
+        <div style={{ position: "absolute", left: 50, top: 300, width: 980, opacity: interpolate(a, [0, 0.3], [0, 1], clamp), translate: `0px ${interpolate(a, [0, 1], [180, 0])}px`, scale: String(1 + glow * 0.03) }}>
+          <Shot src="ep02/paper-ideas.png" tag="내일 아침 6시" tagColor="#3a8f00" glow={lime(0.2 + glow * 0.4)} />
         </div>
       )}
       {f >= glowAt - 4 && <Peupeu left={260} top={850} w={560} h={480} appear={pp} pose={{ face: "happy", wave: 1.2 + 0.5 * Math.sin(f * 0.55), leftLift: j.air ? 1 : 0.3, jump: j.jump, sx: j.sx, sy: j.sy, rotY: -0.25, scale: 1.1 }} />}
-      <Sfx at={1} src="whoosh" volume={0.35} />
-      {STEPS.map((_, i) => (
-        <Sfx key={i} at={6 + i * 6} src="pop" volume={0.4} />
-      ))}
-      <Sfx at={afterAt} src="whoosh" volume={0.45} />
+      <Sfx at={1} src="key" volume={0.5} />
+      <Sfx at={4} src="key" volume={0.5} />
+      <Sfx at={sunAt} src="whoosh" volume={0.45} />
       <Sfx at={glowAt} src="ding" volume={0.6} />
       <Sfx at={glowAt + 3} src="boing" volume={0.4} />
     </AbsoluteFill>
@@ -480,8 +422,8 @@ const Cta: React.FC = () => {
   return (
     <AbsoluteFill>
       <Atmosphere tint="rgba(120,165,20,0.45)" tint2="rgba(40,70,10,0.5)" />
-      <div style={{ position: "absolute", left: 140, top: 250, width: 800, rotate: "-2deg", opacity: 0.95 }}>
-        <MiniPaper items={4} title="오늘의 블로그 글감" />
+      <div style={{ position: "absolute", left: 50, top: 250, width: 980, rotate: "-1.5deg", opacity: 0.95 }}>
+        <Shot src="ep02/paper-ideas.png" tag="오늘의 블로그 글감" tagColor="#3a8f00" glow={lime(0.25)} />
       </div>
       <div style={{ position: "absolute", left: 90, top: 900, width: 900, opacity: interpolate(cmt, [0, 0.3], [0, 1], clamp), translate: `0px ${interpolate(cmt, [0, 1], [80, 0])}px` }}>
         <div style={{ ...glass, borderRadius: 999, height: 140, display: "flex", alignItems: "center", gap: 28, padding: "0 40px" }}>
@@ -497,8 +439,8 @@ const Cta: React.FC = () => {
           <div style={{ background: "rgba(25,26,30,0.94)", border: `2px solid ${lime(0.6)}`, borderRadius: 36, padding: "26px 34px", display: "flex", alignItems: "center", gap: 26, boxShadow: `0 0 60px ${lime(0.3)}, 0 30px 80px rgba(0,0,0,0.6)` }}>
             <div style={{ width: 86, height: 86, borderRadius: 24, background: C.lime, display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "Pretendard", fontWeight: 900, fontSize: 36, color: "#111" }}>DM</div>
             <div>
-              <div style={{ fontFamily: "Pretendard", fontWeight: 900, fontSize: 42, color: C.white }}>보완판 프롬프트가 도착했어요</div>
-              <div style={{ fontFamily: "Pretendard", fontWeight: 700, fontSize: 30, color: "rgba(255,255,255,0.55)" }}>설치 · 한글 폰트 · 매일 자동 실행</div>
+              <div style={{ fontFamily: "Pretendard", fontWeight: 900, fontSize: 42, color: C.white }}>블로거용 보완판 프롬프트 도착</div>
+              <div style={{ fontFamily: "Pretendard", fontWeight: 700, fontSize: 30, color: "rgba(255,255,255,0.55)" }}>설치 · 오늘의 블로그 글감 면 · 매일 6시</div>
             </div>
           </div>
         </div>
@@ -543,17 +485,17 @@ export const Ep02Full: React.FC = () => {
       <Scene s={S.intro}>
         <Intro />
       </Scene>
-      <Scene s={S.problem}>
-        <Problem />
+      <Scene s={S.gap}>
+        <Gap />
       </Scene>
-      <Scene s={S.rehook}>
-        <Rehook />
+      <Scene s={S.add}>
+        <Add />
       </Scene>
-      <Scene s={S.cloud}>
-        <Cloud />
+      <Scene s={S.offpc}>
+        <OffPc />
       </Scene>
-      <Scene s={S.fix}>
-        <Fix />
+      <Scene s={S.promise}>
+        <Promise_ />
       </Scene>
       <Scene s={S.cta} last>
         <Cta />
