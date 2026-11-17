@@ -12,6 +12,7 @@ import {
   useVideoConfig,
 } from "remotion";
 import { useFonts } from "../StyleFrames";
+import { PeupeuStage, PeupeuPose } from "../mascot/Prompt";
 
 // ep01 opening (script lines 1–5) as motion graphics at the reference shorts' level:
 // atmospheric light, grain, depth, 3D cards, impact moments and SFX.
@@ -206,12 +207,74 @@ const glass: React.CSSProperties = {
   boxShadow: "0 40px 120px rgba(0,0,0,0.55), inset 0 1.5px 0 rgba(255,255,255,0.28)",
 };
 
+
+// ---------- 프프 (channel mascot) ----------
+
+const Peupeu: React.FC<{ left: number; top: number; w?: number; h?: number; pose: PeupeuPose; appear: number }> = ({ left, top, w = 600, h = 520, pose, appear }) => (
+  <div
+    style={{
+      position: "absolute",
+      left,
+      top,
+      width: w,
+      height: h,
+      scale: String(interpolate(appear, [0, 1], [0.2, 1])),
+      opacity: interpolate(appear, [0, 0.15], [0, 1], clamp),
+      transformOrigin: "50% 85%",
+    }}
+  >
+    <PeupeuStage width={w} height={h} pose={pose} />
+  </div>
+);
+
+// squash / stretch / arc for a jump starting at frame k=0
+const jumpPose = (k: number, height: number) => {
+  if (k < 0) return { jump: 0, sx: 1, sy: 1, air: false };
+  const t = (k - 3) / 12;
+  const air = t > 0 && t < 1;
+  const jump = air ? height * Math.sin(Math.PI * t) : 0;
+  const sy = k < 3 ? interpolate(k, [0, 3], [1, 0.8]) : air ? 1.08 : interpolate(k, [15, 17, 21], [0.86, 1.04, 1], clamp);
+  const sx = 1 / Math.sqrt(sy);
+  return { jump, sx, sy, air };
+};
+
 // ---------- scene 1: hook ----------
 
 const HOOK_TEXT = ["글", " ", "써", "줘"];
 const hookT = () => {
   const c = L[0].tchunks;
   return { send: c[2].start - L[0].start - 3, stamp: c[3].start - L[0].start };
+};
+
+
+const PeupeuInHook: React.FC<{ stamp: number; send: number }> = ({ stamp, send }) => {
+  const f = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const k = f - stamp;
+  const appear = spring({ frame: f - 5, fps, config: { damping: 11, stiffness: 170 } });
+  const j = jumpPose(k, 0.6);
+  const shocked = k >= 0;
+  const lean = f >= send && !shocked ? interpolate(f - send, [0, 6], [0, -0.08], clamp) : 0;
+  return (
+    <Peupeu
+      left={40}
+      top={830}
+      appear={appear}
+      pose={{
+        face: shocked ? "shock" : "prompt",
+        blink: f % 16 >= 9,
+        wave: shocked ? (j.air ? 1.7 : 1.2) : 0.5,
+        leftLift: shocked ? (j.air ? 1 : 0.6) : 0,
+        sweat: shocked ? interpolate(k, [6, 12], [0, 1], clamp) : 0,
+        jump: j.jump,
+        sx: j.sx,
+        sy: j.sy,
+        rotY: 0.35,
+        rotZ: shocked ? 0.06 + Math.sin(k / 1.5) * 0.04 * Math.max(0, 1 - k / 20) : 0.06 + lean,
+        scale: 1.15,
+      }}
+    />
+  );
 };
 
 const Hook: React.FC<{ dur: number }> = ({ dur }) => {
@@ -295,6 +358,7 @@ const Hook: React.FC<{ dur: number }> = ({ dur }) => {
             </div>
           </div>
         </AbsoluteFill>
+        <PeupeuInHook stamp={stamp} send={send} />
         {/* ink splatter */}
         {k >= 0 &&
           new Array(16).fill(0).map((_, i) => {
@@ -354,6 +418,8 @@ const Hook: React.FC<{ dur: number }> = ({ dur }) => {
       ))}
       <Sfx at={send} src="pop" volume={0.7} />
       <Sfx at={stamp} src="stamp" volume={1} />
+      <Sfx at={5} src="blip" volume={0.45} />
+      <Sfx at={stamp + 3} src="boing" volume={0.55} />
     </AbsoluteFill>
   );
 };
@@ -539,6 +605,30 @@ const Example: React.FC = () => {
 
 // ---------- scene 4: three cards ----------
 
+const PeupeuInThree: React.FC<{ glow: number }> = ({ glow }) => {
+  const f = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const appear = spring({ frame: f - 8, fps, config: { damping: 11, stiffness: 170 } });
+  const j = jumpPose(f - glow, 0.3);
+  return (
+    <Peupeu
+      left={240}
+      top={850}
+      appear={appear}
+      pose={{
+        face: "happy",
+        wave: 1.15 + 0.5 * Math.sin(f * 0.55),
+        jump: j.jump,
+        sx: j.sx,
+        sy: j.sy,
+        rotY: -0.2,
+        scale: 1.15,
+      }}
+    />
+  );
+};
+
+
 const Three: React.FC = () => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
@@ -580,9 +670,12 @@ const Three: React.FC = () => {
           })}
         </div>
       </AbsoluteFill>
+      <PeupeuInThree glow={glow} />
       {[0, 1, 2].map((i) => (
         <Sfx key={i} at={2 + i * 4} src="whoosh" volume={0.35} />
       ))}
+      <Sfx at={8} src="blip" volume={0.4} />
+      <Sfx at={glow + 3} src="boing" volume={0.35} />
       <Sfx at={glow} src="ding" volume={0.55} />
     </AbsoluteFill>
   );

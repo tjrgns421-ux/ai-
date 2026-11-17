@@ -64,9 +64,9 @@ const Feet: React.FC<{ x: number; y: number; color: string }> = ({ x, y, color }
   </>
 );
 
-const Arms: React.FC<{ x: number; y: number; color: string; wave?: number }> = ({ x, y, color, wave = 0.9 }) => (
+const Arms: React.FC<{ x: number; y: number; color: string; wave?: number; leftLift?: number }> = ({ x, y, color, wave = 0.9, leftLift = 0 }) => (
   <>
-    <Toy color={color} position={[-x, y, 0.05]} rotation={[0, 0, -1.1]}>
+    <Toy color={color} position={[-x - 0.03 * leftLift, y + 0.1 * leftLift, 0.05]} rotation={[0, 0, -1.1 + leftLift * 0.9]}>
       <capsuleGeometry args={[0.085, 0.16, 8, 16]} />
     </Toy>
     <Toy color={color} position={[x + 0.03, y + 0.1, 0.05]} rotation={[0, 0, 1.1 - wave]}>
@@ -87,7 +87,21 @@ const Cheeks: React.FC<{ y: number; x: number; z: number }> = ({ y, x, z }) => (
 );
 
 // Variant 1: terminal head; the face is the prompt.
-const TerminalBuddy: React.FC<{ face: PromptFace; blink: boolean }> = ({ face, blink }) => {
+const Sweat: React.FC<{ o: number }> = ({ o }) =>
+  o > 0.01 ? (
+    <group position={[-0.62, 0.95 - (1 - o) * 0.1, 0.35]} scale={o}>
+      <mesh>
+        <sphereGeometry args={[0.1, 24, 24]} />
+        <meshPhysicalMaterial color="#7FC8FF" roughness={0.05} clearcoat={1} transmission={0.2} />
+      </mesh>
+      <mesh position={[0, 0.11, 0]}>
+        <coneGeometry args={[0.085, 0.16, 24]} />
+        <meshPhysicalMaterial color="#7FC8FF" roughness={0.05} clearcoat={1} />
+      </mesh>
+    </group>
+  ) : null;
+
+export const TerminalBuddy: React.FC<{ face: PromptFace; blink: boolean; wave?: number; leftLift?: number; sweat?: number }> = ({ face, blink, wave = 0.9, leftLift = 0, sweat = 0 }) => {
   const head = useMemo(() => new RoundedBoxGeometry(1.5, 1.3, 1.0, 8, 0.3), []);
   const screen = useMemo(() => new RoundedBoxGeometry(1.22, 0.98, 0.06, 6, 0.2), []);
   const z = 0.53;
@@ -130,8 +144,9 @@ const TerminalBuddy: React.FC<{ face: PromptFace; blink: boolean }> = ({ face, b
       <Toy color={LIME} position={[0.5, 1.2, 0]}>
         <sphereGeometry args={[0.1, 24, 24]} />
       </Toy>
-      <Arms x={0.85} y={0.12} color={LIME} />
+      <Arms x={0.85} y={0.12} color={LIME} wave={wave} leftLift={leftLift} />
       <Feet x={0.36} y={-0.47} color="#1E2026" />
+      <Sweat o={sweat} />
     </group>
   );
 };
@@ -213,5 +228,43 @@ export const PromptMascot: React.FC<{ variant: PromptVariant; face: PromptFace; 
         </div>
       )}
     </AbsoluteFill>
+  );
+};
+
+// Reusable stage: 프프 in a transparent 3D canvas, driven entirely by props.
+export type PeupeuPose = {
+  face: PromptFace;
+  blink?: boolean;
+  wave?: number; // right arm: 0 = down, ~1.6 = straight up
+  leftLift?: number; // left arm: 0 = down, 1 = up
+  sweat?: number; // 0..1
+  jump?: number; // world units up
+  sx?: number; // squash/stretch
+  sy?: number;
+  rotY?: number;
+  rotZ?: number;
+  scale?: number;
+};
+
+export const PeupeuStage: React.FC<{ width: number; height: number; pose: PeupeuPose }> = ({ width, height, pose }) => {
+  const { face, blink = false, wave = 0.9, leftLift = 0, sweat = 0, jump = 0, sx = 1, sy = 1, rotY = -0.32, rotZ = 0.06, scale = 1 } = pose;
+  return (
+    <ThreeCanvas width={width} height={height} shadows camera={{ position: [0, 0.9, 6.2], fov: 30 }} gl={{ antialias: true, alpha: true }}>
+      <hemisphereLight args={["#ffffff", "#30343a", 0.9]} />
+      <directionalLight position={[3, 6, 5]} intensity={2.6} castShadow shadow-mapSize={[1024, 1024]} shadow-camera-left={-3} shadow-camera-right={3} shadow-camera-top={3} shadow-camera-bottom={-3} />
+      <directionalLight position={[-5, 3, -4]} intensity={2.2} color="#E6FF9A" />
+      <pointLight position={[0, 1, 4]} intensity={5} distance={10} color="#ffffff" />
+      <group position={[0, -0.47 * scale + jump, 0]}>
+        <group scale={[scale * sx, scale * sy, scale * sx]} rotation={[0.05, rotY, rotZ]}>
+          <group position={[0, 0.47, 0]}>
+            <TerminalBuddy face={face} blink={blink} wave={wave} leftLift={leftLift} sweat={sweat} />
+          </group>
+        </group>
+      </group>
+      <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -0.47 * scale - 0.02, 0]} receiveShadow>
+        <planeGeometry args={[12, 12]} />
+        <shadowMaterial opacity={0.4} />
+      </mesh>
+    </ThreeCanvas>
   );
 };
