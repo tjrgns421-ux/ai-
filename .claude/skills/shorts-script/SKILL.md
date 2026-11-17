@@ -109,3 +109,28 @@ beat, CTA ≤ ~5 s with a concrete offer and a **2-character comment keyword**
 - Put "Anthropic과 무관한 개인 채널입니다" in the video description whenever
   the cameo appears.
 - When writing the scene plan, mark cameo beats with `[Claude 카메오]`.
+
+## 7. Resource-first content (from ep02 on)
+
+Every episode is built around **one real, usable resource** — not just a tip:
+- a **GitHub open-source skill/tool** (Claude skills, Claude Code plugins,
+  AI tools), or
+- a **professional prompt** the viewer can copy (structured: role ·
+  context · constraints · output format · examples · self-check).
+
+The video shows what it does (real before/after), the DM delivers the
+resource itself (repo link, one-line install command, the full prompt).
+
+Verification before writing (no exceptions):
+1. Repo exists: `git ls-remote --heads https://github.com/<owner>/<repo>.git`.
+2. License allows the use shown; name the owner correctly.
+3. Install and run it once (or test the prompt) and capture the real
+   result for the proof beat. Never show invented output as real.
+4. Numbers (stars, downloads) are checked on the posting day and dated
+   ("11월 기준"); if they can't be checked, don't show them.
+5. Don't present a third-party tool as official or as ours; credit it.
+6. Claude-specific resource → the Claude mascot may cameo (section 6).
+
+Verified to exist (2026-11-17): anthropics/skills, remotion-dev/skills,
+obra/superpowers, nextlevelbuilder/ui-ux-pro-max-skill, pbakaus/impeccable,
+heygen-com/hyperframes, lemomo-ai/lemo-opuscar, higgsfield-ai/cli.
