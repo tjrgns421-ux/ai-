@@ -8,3 +8,5 @@ coverage/
 !.env.example
 video-watch-out/
 tts-out/
+__pycache__/
+*.pyc
