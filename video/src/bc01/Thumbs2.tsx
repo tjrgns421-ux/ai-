@@ -58,7 +58,28 @@ const C: React.FC = () => (
   </AbsoluteFill>
 );
 
-export const Bc01ThumbV: React.FC<{ v: "A" | "B" | "C" }> = ({ v }) => {
+
+// D: versus — Claude (left) vs GPT-6.2 (right), Blip in the middle thinking
+const D: React.FC = () => (
+  <AbsoluteFill style={{ background: BG }}>
+    <div style={{ position: "absolute", left: 0, top: 0, width: 700, height: 720, clipPath: "polygon(0 0, 100% 0, 82% 100%, 0 100%)", background: "radial-gradient(80% 80% at 30% 45%, #E0855F 0%, #A9502F 55%, #3A1A10 100%)" }} />
+    <div style={{ position: "absolute", left: 580, top: 0, width: 700, height: 720, clipPath: "polygon(18% 0, 100% 0, 100% 100%, 0 100%)", background: "radial-gradient(80% 80% at 70% 45%, #2B3A33 0%, #111614 60%, #050606 100%)" }} />
+    <Img src={staticFile("bc01/logo-claude.svg")} style={{ position: "absolute", left: 70, top: 70, width: 230, height: 230, filter: "brightness(0) invert(1) drop-shadow(0 10px 30px rgba(0,0,0,0.35))" }} />
+    <Img src={staticFile("bc01/logo-openai.svg")} style={{ position: "absolute", right: 70, top: 70, width: 230, height: 230, filter: "invert(1) drop-shadow(0 10px 30px rgba(0,0,0,0.5))" }} />
+    <div style={{ ...font, position: "absolute", left: 60, top: 330, fontSize: 120, color: INK, textShadow: "0 8px 30px rgba(0,0,0,0.4)" }}>CLAUDE</div>
+    <div style={{ ...font, position: "absolute", right: 60, top: 330, fontSize: 120, color: INK, textShadow: "0 8px 30px rgba(0,0,0,0.5)" }}>GPT-6.2</div>
+    <div style={{ ...font, position: "absolute", left: 0, right: 0, top: 60, textAlign: "center", fontSize: 110, color: LIME, textShadow: "0 0 40px rgba(215,255,58,0.6), 0 6px 0 #000" }}>VS</div>
+    <Img src={staticFile("bc01/blip/think.png")} style={{ position: "absolute", left: 390, top: 250, width: 500, height: 500 }} />
+    {[["?", 560, 220, -12, 90], ["?", 700, 190, 10, 110], ["?", 790, 260, 18, 70]].map(([t, x, y, r, sz], i) => (
+      <div key={i} style={{ ...font, position: "absolute", left: x as number, top: y as number, rotate: `${r}deg`, fontSize: sz as number, color: INK, textShadow: "0 6px 0 #000" }}>{t}</div>
+    ))}
+    <div style={{ ...font, position: "absolute", left: 0, right: 0, bottom: 40, textAlign: "center" }}>
+      <span style={{ fontSize: 70, color: BG, background: LIME, padding: "8px 28px", borderRadius: 14, letterSpacing: -1 }}>5% OF THE COST?</span>
+    </div>
+  </AbsoluteFill>
+);
+
+export const Bc01ThumbV: React.FC<{ v: "A" | "B" | "C" | "D" }> = ({ v }) => {
   useFonts();
-  return v === "A" ? <A /> : v === "B" ? <Bv /> : <C />;
+  return v === "A" ? <A /> : v === "B" ? <Bv /> : v === "C" ? <C /> : <D />;
 };
