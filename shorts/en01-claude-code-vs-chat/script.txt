@@ -1,0 +1,14 @@
+Still using Claude only in the chat window? You're using half of it.
+Here's the difference, in one minute.
+In chat, you copy your code in, Claude answers, and you paste it back. You're the hands.
+Claude Code works inside your project folder.
+It reads your files, edits them, and runs commands itself.
+Say: fix the bug on the login page.
+It finds the file, makes the change, and checks that it works.
+And it asks before it edits files or runs commands, so you stay in control.
+So which one, when?
+A quick question, or a first draft? Chat.
+Anything that lives in files, like a website, a script, or a whole project? Claude Code.
+You can run it in your terminal, your code editor, the desktop app, or on the web.
+Next minute: installing it and giving it your first job.
+Follow, so you don't miss it.
