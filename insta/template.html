@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>Issue Slides</title>
+<style>
+  @font-face { font-family: "Pretendard"; font-weight: 400; src: url("fonts/Pretendard-Regular.woff2") format("woff2"); }
+  @font-face { font-family: "Pretendard"; font-weight: 600; src: url("fonts/Pretendard-SemiBold.woff2") format("woff2"); }
+  @font-face { font-family: "Pretendard"; font-weight: 700; src: url("fonts/Pretendard-Bold.woff2") format("woff2"); }
+  @font-face { font-family: "Pretendard"; font-weight: 900; src: url("fonts/Pretendard-Black.woff2") format("woff2"); }
+
+  :root {
+    --bg: #0f1115;
+    --panel: #181b22;
+    --line: #2a2f3a;
+    --text: #f3f4f6;
+    --muted: #9aa1ad;
+    --accent: #ff7a45;          /* overridden per category */
+    --fact: #34d399;            /* 확인된 사실 */
+    --claim: #fbbf24;           /* 의혹·주장 */
+    --self: #60a5fa;            /* 본인 입장 */
+    --status: #c084fc;          /* 진행 상황 */
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #000; font-family: "Pretendard", sans-serif; color: var(--text); word-break: keep-all; }
+
+  .slide {
+    width: 1080px; height: 1350px; position: relative; overflow: hidden;
+    background: var(--bg); padding: 80px 80px 128px; display: flex; flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .slide::before { /* top accent bar */
+    content: ""; position: absolute; left: 0; top: 0; width: 100%; height: 14px; background: var(--accent);
+  }
+  .meta { display: flex; justify-content: space-between; align-items: center; color: var(--muted); font-size: 28px; font-weight: 600; }
+  .cat { color: var(--accent); letter-spacing: 2px; }
+  .footer {
+    position: absolute; left: 88px; right: 88px; bottom: 56px; display: flex; justify-content: space-between;
+    color: var(--muted); font-size: 26px; font-weight: 600;
+  }
+  .page { font-variant-numeric: tabular-nums; }
+
+  /* cover */
+  .cover { justify-content: space-between; }
+  .cover .kicker { font-size: 40px; font-weight: 700; color: var(--accent); margin-top: 140px; }
+  .cover h1 { font-size: 100px; line-height: 1.16; font-weight: 900; margin-top: 28px; letter-spacing: -2px; }
+  .cover .sub { font-size: 38px; line-height: 1.5; color: var(--muted); margin-top: 44px; font-weight: 600; }
+  .cover .swipe { font-size: 32px; font-weight: 700; color: var(--text); display: flex; align-items: center; gap: 16px; margin-bottom: 40px; }
+  .cover .swipe span { color: var(--accent); font-size: 44px; }
+  .legend { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 56px; }
+
+  /* tags */
+  .tag { display: inline-block; font-size: 24px; font-weight: 700; padding: 8px 16px; border-radius: 10px; border: 2px solid currentColor; white-space: nowrap; }
+  .tag.fact { color: var(--fact); } .tag.claim { color: var(--claim); } .tag.self { color: var(--self); } .tag.status { color: var(--status); }
+
+  /* list slide */
+  .head { margin-top: 40px; }
+  .head .no { font-size: 30px; font-weight: 700; color: var(--accent); }
+  .head h2 { font-size: 60px; line-height: 1.22; font-weight: 900; margin-top: 14px; letter-spacing: -1px; }
+  .items { margin-top: 36px; display: flex; flex-direction: column; gap: 18px; }
+  .item { background: var(--panel); border: 1px solid var(--line); border-radius: 20px; padding: 24px 30px; }
+  .item .tag { margin-bottom: 12px; }
+  .item p { font-size: 32px; line-height: 1.45; font-weight: 600; }
+  .item small { display: block; font-size: 23px; color: var(--muted); margin-top: 8px; font-weight: 400; }
+  .item.compact { padding: 20px 26px; display: grid; grid-template-columns: 150px 1fr; column-gap: 20px; align-items: start; }
+  .item.compact .tag { margin: 2px 0 0; grid-row: span 2; text-align: center; font-size: 21px; padding: 6px 0; }
+  .item.compact p { font-size: 28px; grid-column: 2; }
+  .item.compact small { grid-column: 2; }
+
+  /* stat slide */
+  .stat .big { font-size: 136px; font-weight: 900; color: var(--claim); letter-spacing: -4px; margin-top: 28px; line-height: 1; }
+  .stat .biglabel { font-size: 29px; font-weight: 600; margin-top: 18px; line-height: 1.45; color: var(--muted); white-space: pre-line; }
+  .answers { display: grid; grid-template-columns: 150px repeat(5, 1fr); gap: 10px; margin-top: 32px; font-size: 32px; font-weight: 700; text-align: center; }
+  .answers div { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 12px 0; }
+  .answers .rh { text-align: left; padding-left: 20px; color: var(--muted); font-size: 26px; display: flex; align-items: center; }
+  .answers .hl { color: var(--claim); border-color: var(--claim); font-size: 48px; line-height: 1.1; }
+
+  /* quote slide */
+  .quotes { margin-top: 44px; display: flex; flex-direction: column; gap: 30px; }
+  .quote { border-left: 8px solid var(--self); padding: 6px 0 6px 34px; }
+  .quote p { font-size: 42px; line-height: 1.42; font-weight: 700; }
+  .quote small { display: block; font-size: 26px; color: var(--muted); margin-top: 12px; }
+
+  /* sources */
+  .sources { margin-top: 36px; display: flex; flex-direction: column; gap: 14px; }
+  .sources li { list-style: none; font-size: 27px; line-height: 1.4; padding: 18px 26px; background: var(--panel); border-radius: 16px; border: 1px solid var(--line); }
+  .sources li b { color: var(--accent); margin-right: 12px; }
+  .notice { margin-top: 28px; font-size: 27px; line-height: 1.55; color: var(--muted); }
+  .notice strong { color: var(--text); }
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script>
+  const CATEGORY_COLORS = { "사회": "#ff7a45", "정치": "#38bdf8", "연예": "#f472b6" };
+  const TAG_LABEL = { fact: "확인된 사실", claim: "의혹·주장", self: "본인 입장", status: "진행 상황" };
+  const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+  const tag = (t) => `<span class="tag ${t}">${TAG_LABEL[t] ?? esc(t)}</span>`;
+
+  function render(data) {
+    document.documentElement.style.setProperty("--accent", CATEGORY_COLORS[data.category] ?? "#ff7a45");
+    const total = data.slides.length;
+    const meta = `<div class="meta"><span class="cat">${esc(data.category)} 이슈</span><span>${esc(data.asOf)} 기준</span></div>`;
+    const footer = (i) => `<div class="footer"><span>${esc(data.account)}</span><span class="page">${i + 1} / ${total}</span></div>`;
+
+    const html = data.slides.map((s, i) => {
+      let body = "";
+      if (s.type === "cover") {
+        return `<section class="slide cover">${meta}
+          <div><div class="kicker">${esc(s.kicker)}</div><h1>${esc(s.title).replace(/\n/g, "<br>")}</h1>
+          <div class="sub">${esc(s.sub)}</div>
+          <div class="legend">${["fact", "claim", "self", "status"].map(tag).join("")}</div></div>
+          <div class="swipe">밀어서 정리 보기 <span>→</span></div>${footer(i)}</section>`;
+      }
+      const head = `<div class="head"><div class="no">${esc(s.no)}</div><h2>${esc(s.title).replace(/\n/g, "<br>")}</h2></div>`;
+      if (s.type === "list") {
+        body = `<div class="items">${s.items.map((it) => `<div class="item ${s.compact ? "compact" : ""}">${tag(it.tag)}<p>${esc(it.text)}</p>${it.note ? `<small>${esc(it.note)}</small>` : ""}</div>`).join("")}</div>`;
+      } else if (s.type === "stat") {
+        const row = (label, arr, hl) => `<div class="rh">${esc(label)}</div>` + arr.map((v) => `<div class="${hl ? "hl" : ""}">${esc(v)}</div>`).join("");
+        body = `<div class="big">${esc(s.big)}</div><div class="biglabel">${esc(s.bigLabel)}</div>
+          <div class="answers">${s.table.map((r) => row(r.label, r.values, r.hl)).join("")}</div>
+          <div class="items">${s.items.map((it) => `<div class="item compact">${tag(it.tag)}<p>${esc(it.text)}</p>${it.note ? `<small>${esc(it.note)}</small>` : ""}</div>`).join("")}</div>`;
+      } else if (s.type === "quotes") {
+        body = `<div class="quotes">${s.quotes.map((q) => `<div class="quote"><p>“${esc(q.text)}”</p><small>${esc(q.src)}</small></div>`).join("")}</div>`;
+      } else if (s.type === "sources") {
+        body = `<ul class="sources">${s.sources.map((x) => `<li><b>${esc(x.outlet)}</b>${esc(x.title)}</li>`).join("")}</ul><div class="notice">${s.notice}</div>`;
+      }
+      return `<section class="slide ${s.type}">${meta}${head}${body}${footer(i)}</section>`;
+    }).join("");
+    document.getElementById("root").innerHTML = html;
+  }
+  window.renderSlides = render;
+</script>
+</body>
+</html>
