@@ -1,4 +1,5 @@
-Still using Claude only in the chat window? You're using half of it.
+Stop copy-pasting code into Claude.
+There's a version that edits your files itself.
 Here's the difference, in one minute.
 In chat, you copy your code in, Claude answers, and you paste it back. You're the hands.
 Claude Code works inside your project folder.

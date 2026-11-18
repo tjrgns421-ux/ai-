@@ -6,6 +6,7 @@ import { StyleFrame } from "./StyleFrames";
 import { Ep01Opening, OPENING_DURATION } from "./ep01/Opening";
 import { Ep01Full, EP01_DURATION } from "./ep01/Ep01";
 import { Ep02Full, EP02_DURATION } from "./ep02/Ep02";
+import { En01Full, EN01_DURATION } from "./en01/En01";
 import { MascotSheet } from "./mascot/Mascots";
 import { PromptMascot } from "./mascot/Prompt";
 
@@ -33,6 +34,9 @@ export const RemotionRoot: React.FC = () => {
           height={1920}
           defaultProps={{ concept: "cursor" as const, mood: "happy" as const }}
         />
+      </Folder>
+      <Folder name="En01">
+        <Composition id="En01Full" component={En01Full} durationInFrames={EN01_DURATION} fps={30} width={1080} height={1920} />
       </Folder>
       <Folder name="Ep02">
         <Composition id="Ep02Full" component={Ep02Full} durationInFrames={EP02_DURATION} fps={30} width={1080} height={1920} />

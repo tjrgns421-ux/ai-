@@ -1,0 +1,22 @@
+{
+ "run1": [
+  "ok 1 - right password logs in",
+  "not ok 2 - wrong password is denied",
+  "# pass 1",
+  "# fail 1"
+ ],
+ "run1detail": [
+  "expected: 'denied'",
+  "actual: 'ok'"
+ ],
+ "diff": [
+  "-  if (user.password = input) {",
+  "+  if (user.password === input) {"
+ ],
+ "run2": [
+  "ok 1 - right password logs in",
+  "ok 2 - wrong password is denied",
+  "# pass 2",
+  "# fail 0"
+ ]
+}

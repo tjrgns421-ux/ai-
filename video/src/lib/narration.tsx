@@ -49,7 +49,7 @@ export const buildTimeline = (lines: Line[], words: Word[], fps = 30, sps = 6.6)
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 const outExpo = Easing.bezier(0.16, 1, 0.3, 1);
 
-export const NarrationCaptions: React.FC<{ lines: TLine[]; top?: number }> = ({ lines, top = 1360 }) => {
+export const NarrationCaptions: React.FC<{ lines: TLine[]; top?: number; fontSize?: number }> = ({ lines, top = 1360, fontSize = 104 }) => {
   const f = useCurrentFrame();
   const chunks = lines.flatMap((l) => l.tchunks);
   const last = chunks[chunks.length - 1];
@@ -57,14 +57,15 @@ export const NarrationCaptions: React.FC<{ lines: TLine[]; top?: number }> = ({ 
   if (!cur) return null;
   const lf = f - cur.start;
   return (
-    <div style={{ position: "absolute", top, width: "100%", textAlign: "center", wordBreak: "keep-all" }}>
+    <div style={{ position: "absolute", top, left: 60, right: 60, textAlign: "center", wordBreak: "keep-all" }}>
       <span
         style={{
           display: "inline-block",
           fontFamily: "Pretendard",
           fontWeight: 900,
-          fontSize: 104,
-          letterSpacing: -3,
+          fontSize,
+          lineHeight: 1.1,
+          letterSpacing: fontSize < 100 ? -1.5 : -3,
           color: cur.color ?? "#F5F5F2",
           textShadow: "0 6px 30px rgba(0,0,0,0.75), 0 3px 0 rgba(0,0,0,0.55)",
           opacity: interpolate(lf, [0, 2], [0, 1], clamp),
