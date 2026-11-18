@@ -12,6 +12,7 @@ import { Bc01Board } from "./bc01/Board";
 import { BlipStill } from "./bc01/BlipStill";
 import { Bc01Full, BC01_DURATION } from "./bc01/Bc01";
 import { Bc01Thumb } from "./bc01/Thumb";
+import { Bc01Short, BC01S_DURATION } from "./bc01/Short";
 import { MascotSheet } from "./mascot/Mascots";
 import { PromptMascot } from "./mascot/Prompt";
 
@@ -41,6 +42,7 @@ export const RemotionRoot: React.FC = () => {
         />
       </Folder>
       <Folder name="Bc01">
+        <Composition id="Bc01Short" component={Bc01Short} durationInFrames={BC01S_DURATION} fps={30} width={1080} height={1920} />
         <Composition id="Bc01Thumb" component={Bc01Thumb} durationInFrames={1} fps={30} width={1280} height={720} />
         <Composition id="Bc01Full" component={Bc01Full} durationInFrames={BC01_DURATION} fps={30} width={1920} height={1080} />
         <Composition id="Bc01Board" component={Bc01Board} durationInFrames={1} fps={30} width={1920} height={1080} defaultProps={{ frame: 1 }} />

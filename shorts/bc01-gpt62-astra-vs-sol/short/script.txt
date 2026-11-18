@@ -1,0 +1,9 @@
+OpenAI says its new model beats Claude, at five percent of the cost.
+So Blip checked the receipts.
+That Claude claim comes from one test OpenAI picked.
+On an independent index, Claude Fable 5.2 still scores higher. Sixty-five to sixty-two.
+But the price part? Real.
+Per task, Astra costs about four dollars. Claude Fable: twenty-six fifty.
+And for everyday coding, the cheaper Sol lands within half a point of Astra.
+Blip's verdict: half true.
+Every source and the full check are in the full video. Tap the link below.

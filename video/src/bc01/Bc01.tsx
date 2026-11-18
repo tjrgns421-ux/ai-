@@ -9,13 +9,13 @@ import LINES from "../../public/bc01/lines.json";
 // Music bed is mixed afterwards with ffmpeg (sidechain ducking under the voice).
 
 export const FPS = 30;
-const LIME = "#D7FF3A";
-const INK = "#F5F5F2";
-const BG = "#0A0B0D";
-const DIM = "rgba(255,255,255,0.6)";
-const RED = "#FF6B5E";
-const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
-const outExpo = Easing.bezier(0.16, 1, 0.3, 1);
+export const LIME = "#D7FF3A";
+export const INK = "#F5F5F2";
+export const BG = "#0A0B0D";
+export const DIM = "rgba(255,255,255,0.6)";
+export const RED = "#FF6B5E";
+export const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
+export const outExpo = Easing.bezier(0.16, 1, 0.3, 1);
 
 type W = { text: string; start: number; end: number };
 const WORDS = words as W[];
@@ -49,16 +49,16 @@ export const BC01_DURATION = f(END_S) + 45;
 // ---------- primitives ----------
 type Ctx = { lf: number; dur: number; at: (phrase: string) => number };
 
-const pop = (lf: number, d = 0, from = 0.86) => {
+export const pop = (lf: number, d = 0, from = 0.86) => {
   const s = spring({ frame: lf - d, fps: FPS, config: { damping: 14, stiffness: 170 } });
   return { opacity: interpolate(lf - d, [0, 3], [0, 1], clamp), scale: String(from + (1 - from) * s) };
 };
-const rise = (lf: number, d = 0) => ({
+export const rise = (lf: number, d = 0) => ({
   opacity: interpolate(lf - d, [0, 4], [0, 1], clamp),
   translate: `0px ${interpolate(lf - d, [0, 8], [26, 0], { ...clamp, easing: outExpo })}px`,
 });
 
-const T: React.FC<{ x?: number; y: number; size: number; color?: string; w?: number; center?: boolean; weight?: number; style?: React.CSSProperties; children: React.ReactNode }> = ({
+export const T: React.FC<{ x?: number; y: number; size: number; color?: string; w?: number; center?: boolean; weight?: number; style?: React.CSSProperties; children: React.ReactNode }> = ({
   x = 140, y, size, color = INK, w, center, weight = 900, style, children,
 }) => (
   <div
@@ -81,10 +81,10 @@ const T: React.FC<{ x?: number; y: number; size: number; color?: string; w?: num
     {children}
   </div>
 );
-const K: React.FC<{ c?: string; children: React.ReactNode }> = ({ c = LIME, children }) => <span style={{ color: c }}>{children}</span>;
+export const K: React.FC<{ c?: string; children: React.ReactNode }> = ({ c = LIME, children }) => <span style={{ color: c }}>{children}</span>;
 
 type Box = { x: number; y: number; w: number; h: number; at?: number };
-const Shot: React.FC<{ lf: number; dur: number; src: string; w: number; h: number; scale: number; x: number; y: number; marks?: Box[]; rings?: Box[]; tilt?: number; zoom?: number; d?: number }> = ({
+export const Shot: React.FC<{ lf: number; dur: number; src: string; w: number; h: number; scale: number; x: number; y: number; marks?: Box[]; rings?: Box[]; tilt?: number; zoom?: number; d?: number }> = ({
   lf, dur, src, w, h, scale, x, y, marks = [], rings = [], tilt = 0, zoom = 0.05, d = 0,
 }) => {
   const kb = 1 + zoom * interpolate(lf, [0, Math.max(1, dur)], [0, 1], clamp);
@@ -110,7 +110,7 @@ const Shot: React.FC<{ lf: number; dur: number; src: string; w: number; h: numbe
   );
 };
 
-const Stamp: React.FC<{ lf: number; d?: number; text: string; x: number; y: number; rot?: number; color?: string; size?: number }> = ({ lf, d = 0, text, x, y, rot = -7, color = LIME, size = 90 }) => {
+export const Stamp: React.FC<{ lf: number; d?: number; text: string; x: number; y: number; rot?: number; color?: string; size?: number }> = ({ lf, d = 0, text, x, y, rot = -7, color = LIME, size = 90 }) => {
   const k = lf - d;
   if (k < 0) return null;
   const s = interpolate(k, [0, 5], [1.7, 1], { ...clamp, easing: Easing.bezier(0.5, 0, 0.75, 0) });
@@ -121,8 +121,8 @@ const Stamp: React.FC<{ lf: number; d?: number; text: string; x: number; y: numb
   );
 };
 
-type Face = "prompt" | "happy" | "shock" | "meh" | "front";
-const Blip: React.FC<{ lf: number; d?: number; face: Face; x: number; y: number; size?: number; flip?: boolean }> = ({ lf, d = 0, face, x, y, size = 520, flip }) => {
+export type Face = "prompt" | "happy" | "shock" | "meh" | "front";
+export const Blip: React.FC<{ lf: number; d?: number; face: Face; x: number; y: number; size?: number; flip?: boolean }> = ({ lf, d = 0, face, x, y, size = 520, flip }) => {
   const p = pop(lf, d, 0.6);
   const bob = Math.sin((lf - d) / 9) * 6;
   return (
@@ -136,7 +136,7 @@ const Card: React.FC<{ lf: number; d?: number; x: number; y: number; w: number; 
   <div style={{ position: "absolute", left: x, top: y, width: w, height: h, borderRadius: 28, background: "rgba(255,255,255,0.06)", border: `3px solid ${accent}`, padding: 40, boxSizing: "border-box", ...pop(lf, d) }}>{children}</div>
 );
 
-const Bar: React.FC<{ lf: number; d: number; label: string; value: number; max: number; x: number; y: number; color: string; fmt?: (v: number) => string; len?: number }> = ({ lf, d, label, value, max, x, y, color, fmt = (v) => String(Math.round(v)), len = 1000 }) => {
+export const Bar: React.FC<{ lf: number; d: number; label: string; value: number; max: number; x: number; y: number; color: string; fmt?: (v: number) => string; len?: number }> = ({ lf, d, label, value, max, x, y, color, fmt = (v) => String(Math.round(v)), len = 1000 }) => {
   const k = interpolate(lf - d, [0, 16], [0, 1], { ...clamp, easing: outExpo });
   return (
     <div style={{ position: "absolute", left: x, top: y, opacity: interpolate(lf - d, [0, 3], [0, 1], clamp) }}>
@@ -149,18 +149,18 @@ const Bar: React.FC<{ lf: number; d: number; label: string; value: number; max: 
   );
 };
 
-const Source: React.FC<{ text: string }> = ({ text }) => (
+export const Source: React.FC<{ text: string }> = ({ text }) => (
   <div style={{ position: "absolute", left: 48, top: 36, fontFamily: "Pretendard", fontWeight: 700, fontSize: 24, color: "rgba(255,255,255,0.5)" }}>Source: {text}</div>
 );
 const SA = "SiliconANGLE, Nov 17 2026";
 const AA = "Artificial Analysis (independent), max settings";
 
-const Label: React.FC<{ lf: number; d?: number; text: string; x: number; y: number }> = ({ lf, d = 0, text, x, y }) => (
+export const Label: React.FC<{ lf: number; d?: number; text: string; x: number; y: number }> = ({ lf, d = 0, text, x, y }) => (
   <div style={{ position: "absolute", left: x, top: y, fontFamily: "Pretendard", fontWeight: 900, fontSize: 26, color: BG, background: LIME, padding: "6px 14px", borderRadius: 8, ...rise(lf, d) }}>{text}</div>
 );
 
 // Report card for the benchmark explainer.
-const Report: React.FC<{ lf: number; d: number; x: number; y: number; rot: number; grade: string; label: string; dim?: boolean }> = ({ lf, d, x, y, rot, grade, label, dim }) => (
+export const Report: React.FC<{ lf: number; d: number; x: number; y: number; rot: number; grade: string; label: string; dim?: boolean }> = ({ lf, d, x, y, rot, grade, label, dim }) => (
   <div style={{ position: "absolute", left: x, top: y, width: 280, height: 360, rotate: `${rot}deg`, background: "#F3F1EA", borderRadius: 16, boxShadow: "0 20px 50px rgba(0,0,0,0.5)", padding: 26, boxSizing: "border-box", ...pop(lf, d), opacity: interpolate(lf - d, [0, 3], [0, dim ? 0.3 : 1], clamp) }}>
     <div style={{ fontFamily: "Pretendard", fontWeight: 800, fontSize: 22, color: "#555" }}>TEST</div>
     <div style={{ fontFamily: "Pretendard", fontWeight: 900, fontSize: 28, color: "#111", marginTop: 6, lineHeight: 1.2, height: 70 }}>{label}</div>

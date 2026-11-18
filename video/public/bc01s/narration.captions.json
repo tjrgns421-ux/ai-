@@ -1,0 +1,625 @@
+[
+ {
+  "text": "OpenAI",
+  "startMs": 50,
+  "endMs": 680,
+  "timestampMs": 50,
+  "confidence": null
+ },
+ {
+  "text": " says",
+  "startMs": 735,
+  "endMs": 930,
+  "timestampMs": 735,
+  "confidence": null
+ },
+ {
+  "text": " its",
+  "startMs": 930,
+  "endMs": 1039,
+  "timestampMs": 930,
+  "confidence": null
+ },
+ {
+  "text": " new",
+  "startMs": 1039,
+  "endMs": 1278,
+  "timestampMs": 1039,
+  "confidence": null
+ },
+ {
+  "text": " model",
+  "startMs": 1278,
+  "endMs": 1626,
+  "timestampMs": 1278,
+  "confidence": null
+ },
+ {
+  "text": " beats",
+  "startMs": 1626,
+  "endMs": 1865,
+  "timestampMs": 1626,
+  "confidence": null
+ },
+ {
+  "text": " Claude",
+  "startMs": 1876,
+  "endMs": 2246,
+  "timestampMs": 1876,
+  "confidence": null
+ },
+ {
+  "text": " at",
+  "startMs": 2366,
+  "endMs": 2409,
+  "timestampMs": 2366,
+  "confidence": null
+ },
+ {
+  "text": " five",
+  "startMs": 2409,
+  "endMs": 2692,
+  "timestampMs": 2409,
+  "confidence": null
+ },
+ {
+  "text": " percent",
+  "startMs": 2692,
+  "endMs": 2975,
+  "timestampMs": 2692,
+  "confidence": null
+ },
+ {
+  "text": " of",
+  "startMs": 2975,
+  "endMs": 3007,
+  "timestampMs": 2975,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 3007,
+  "endMs": 3061,
+  "timestampMs": 3007,
+  "confidence": null
+ },
+ {
+  "text": " cost",
+  "startMs": 3072,
+  "endMs": 3540,
+  "timestampMs": 3072,
+  "confidence": null
+ },
+ {
+  "text": " So",
+  "startMs": 3660,
+  "endMs": 3834,
+  "timestampMs": 3660,
+  "confidence": null
+ },
+ {
+  "text": " Blip",
+  "startMs": 3845,
+  "endMs": 4247,
+  "timestampMs": 3845,
+  "confidence": null
+ },
+ {
+  "text": " checked",
+  "startMs": 4367,
+  "endMs": 4671,
+  "timestampMs": 4367,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 4671,
+  "endMs": 4736,
+  "timestampMs": 4671,
+  "confidence": null
+ },
+ {
+  "text": " receipts",
+  "startMs": 4747,
+  "endMs": 5367,
+  "timestampMs": 4747,
+  "confidence": null
+ },
+ {
+  "text": " That",
+  "startMs": 5487,
+  "endMs": 5595,
+  "timestampMs": 5487,
+  "confidence": null
+ },
+ {
+  "text": " Claude",
+  "startMs": 5595,
+  "endMs": 5867,
+  "timestampMs": 5595,
+  "confidence": null
+ },
+ {
+  "text": " claim",
+  "startMs": 5867,
+  "endMs": 6171,
+  "timestampMs": 5867,
+  "confidence": null
+ },
+ {
+  "text": " comes",
+  "startMs": 6182,
+  "endMs": 6367,
+  "timestampMs": 6182,
+  "confidence": null
+ },
+ {
+  "text": " from",
+  "startMs": 6367,
+  "endMs": 6552,
+  "timestampMs": 6367,
+  "confidence": null
+ },
+ {
+  "text": " one",
+  "startMs": 6552,
+  "endMs": 6845,
+  "timestampMs": 6552,
+  "confidence": null
+ },
+ {
+  "text": " test",
+  "startMs": 6911,
+  "endMs": 7313,
+  "timestampMs": 6911,
+  "confidence": null
+ },
+ {
+  "text": " OpenAI",
+  "startMs": 7421,
+  "endMs": 7845,
+  "timestampMs": 7421,
+  "confidence": null
+ },
+ {
+  "text": " picked",
+  "startMs": 7856,
+  "endMs": 8247,
+  "timestampMs": 7856,
+  "confidence": null
+ },
+ {
+  "text": " On",
+  "startMs": 8367,
+  "endMs": 8444,
+  "timestampMs": 8367,
+  "confidence": null
+ },
+ {
+  "text": " an",
+  "startMs": 8444,
+  "endMs": 8498,
+  "timestampMs": 8444,
+  "confidence": null
+ },
+ {
+  "text": " independent",
+  "startMs": 8498,
+  "endMs": 8944,
+  "timestampMs": 8498,
+  "confidence": null
+ },
+ {
+  "text": " index",
+  "startMs": 8944,
+  "endMs": 9444,
+  "timestampMs": 8944,
+  "confidence": null
+ },
+ {
+  "text": " Claude",
+  "startMs": 9564,
+  "endMs": 9825,
+  "timestampMs": 9564,
+  "confidence": null
+ },
+ {
+  "text": " Fable",
+  "startMs": 9825,
+  "endMs": 10119,
+  "timestampMs": 9825,
+  "confidence": null
+ },
+ {
+  "text": " 5.2",
+  "startMs": 10130,
+  "endMs": 11173,
+  "timestampMs": 10130,
+  "confidence": null
+ },
+ {
+  "text": " still",
+  "startMs": 11173,
+  "endMs": 11488,
+  "timestampMs": 11173,
+  "confidence": null
+ },
+ {
+  "text": " scores",
+  "startMs": 11499,
+  "endMs": 11836,
+  "timestampMs": 11499,
+  "confidence": null
+ },
+ {
+  "text": " higher",
+  "startMs": 11847,
+  "endMs": 12227,
+  "timestampMs": 11847,
+  "confidence": null
+ },
+ {
+  "text": " Sixty-five",
+  "startMs": 12347,
+  "endMs": 13075,
+  "timestampMs": 12347,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 13086,
+  "endMs": 13162,
+  "timestampMs": 13086,
+  "confidence": null
+ },
+ {
+  "text": " sixty-two",
+  "startMs": 13162,
+  "endMs": 13814,
+  "timestampMs": 13162,
+  "confidence": null
+ },
+ {
+  "text": " But",
+  "startMs": 13934,
+  "endMs": 13988,
+  "timestampMs": 13934,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 13988,
+  "endMs": 14043,
+  "timestampMs": 13988,
+  "confidence": null
+ },
+ {
+  "text": " price",
+  "startMs": 14043,
+  "endMs": 14336,
+  "timestampMs": 14043,
+  "confidence": null
+ },
+ {
+  "text": " part",
+  "startMs": 14347,
+  "endMs": 14619,
+  "timestampMs": 14347,
+  "confidence": null
+ },
+ {
+  "text": " Real",
+  "startMs": 14739,
+  "endMs": 15076,
+  "timestampMs": 14739,
+  "confidence": null
+ },
+ {
+  "text": " Per",
+  "startMs": 15196,
+  "endMs": 15305,
+  "timestampMs": 15196,
+  "confidence": null
+ },
+ {
+  "text": " task",
+  "startMs": 15305,
+  "endMs": 15783,
+  "timestampMs": 15305,
+  "confidence": null
+ },
+ {
+  "text": " Astra",
+  "startMs": 15903,
+  "endMs": 16207,
+  "timestampMs": 15903,
+  "confidence": null
+ },
+ {
+  "text": " costs",
+  "startMs": 16207,
+  "endMs": 16511,
+  "timestampMs": 16207,
+  "confidence": null
+ },
+ {
+  "text": " about",
+  "startMs": 16511,
+  "endMs": 16718,
+  "timestampMs": 16511,
+  "confidence": null
+ },
+ {
+  "text": " four",
+  "startMs": 16718,
+  "endMs": 16968,
+  "timestampMs": 16718,
+  "confidence": null
+ },
+ {
+  "text": " dollars",
+  "startMs": 16968,
+  "endMs": 17457,
+  "timestampMs": 16968,
+  "confidence": null
+ },
+ {
+  "text": " Claude",
+  "startMs": 17577,
+  "endMs": 17816,
+  "timestampMs": 17577,
+  "confidence": null
+ },
+ {
+  "text": " Fable",
+  "startMs": 17816,
+  "endMs": 18207,
+  "timestampMs": 17816,
+  "confidence": null
+ },
+ {
+  "text": " twenty-six",
+  "startMs": 18327,
+  "endMs": 18903,
+  "timestampMs": 18327,
+  "confidence": null
+ },
+ {
+  "text": " fifty",
+  "startMs": 18903,
+  "endMs": 19349,
+  "timestampMs": 18903,
+  "confidence": null
+ },
+ {
+  "text": " And",
+  "startMs": 19469,
+  "endMs": 19610,
+  "timestampMs": 19469,
+  "confidence": null
+ },
+ {
+  "text": " for",
+  "startMs": 19621,
+  "endMs": 19849,
+  "timestampMs": 19621,
+  "confidence": null
+ },
+ {
+  "text": " everyday",
+  "startMs": 19860,
+  "endMs": 20328,
+  "timestampMs": 19860,
+  "confidence": null
+ },
+ {
+  "text": " coding",
+  "startMs": 20339,
+  "endMs": 20719,
+  "timestampMs": 20339,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 20839,
+  "endMs": 20904,
+  "timestampMs": 20839,
+  "confidence": null
+ },
+ {
+  "text": " cheaper",
+  "startMs": 20904,
+  "endMs": 21219,
+  "timestampMs": 20904,
+  "confidence": null
+ },
+ {
+  "text": " Sol",
+  "startMs": 21220,
+  "endMs": 21502,
+  "timestampMs": 21220,
+  "confidence": null
+ },
+ {
+  "text": " lands",
+  "startMs": 21502,
+  "endMs": 21774,
+  "timestampMs": 21502,
+  "confidence": null
+ },
+ {
+  "text": " within",
+  "startMs": 21774,
+  "endMs": 22143,
+  "timestampMs": 21774,
+  "confidence": null
+ },
+ {
+  "text": " half",
+  "startMs": 22263,
+  "endMs": 22590,
+  "timestampMs": 22263,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 22600,
+  "endMs": 22644,
+  "timestampMs": 22600,
+  "confidence": null
+ },
+ {
+  "text": " point",
+  "startMs": 22644,
+  "endMs": 22883,
+  "timestampMs": 22644,
+  "confidence": null
+ },
+ {
+  "text": " of",
+  "startMs": 22894,
+  "endMs": 22948,
+  "timestampMs": 22894,
+  "confidence": null
+ },
+ {
+  "text": " Astra",
+  "startMs": 22959,
+  "endMs": 23426,
+  "timestampMs": 22959,
+  "confidence": null
+ },
+ {
+  "text": " Blip's",
+  "startMs": 23546,
+  "endMs": 23753,
+  "timestampMs": 23546,
+  "confidence": null
+ },
+ {
+  "text": " verdict",
+  "startMs": 23764,
+  "endMs": 24122,
+  "timestampMs": 23764,
+  "confidence": null
+ },
+ {
+  "text": " half",
+  "startMs": 24242,
+  "endMs": 24470,
+  "timestampMs": 24242,
+  "confidence": null
+ },
+ {
+  "text": " true",
+  "startMs": 24481,
+  "endMs": 24873,
+  "timestampMs": 24481,
+  "confidence": null
+ },
+ {
+  "text": " Every",
+  "startMs": 24993,
+  "endMs": 25211,
+  "timestampMs": 24993,
+  "confidence": null
+ },
+ {
+  "text": " source",
+  "startMs": 25211,
+  "endMs": 25656,
+  "timestampMs": 25211,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 25776,
+  "endMs": 25906,
+  "timestampMs": 25776,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 25906,
+  "endMs": 25971,
+  "timestampMs": 25906,
+  "confidence": null
+ },
+ {
+  "text": " full",
+  "startMs": 25971,
+  "endMs": 26243,
+  "timestampMs": 25971,
+  "confidence": null
+ },
+ {
+  "text": " check",
+  "startMs": 26243,
+  "endMs": 26548,
+  "timestampMs": 26243,
+  "confidence": null
+ },
+ {
+  "text": " are",
+  "startMs": 26635,
+  "endMs": 26721,
+  "timestampMs": 26635,
+  "confidence": null
+ },
+ {
+  "text": " in",
+  "startMs": 26721,
+  "endMs": 26776,
+  "timestampMs": 26721,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 26776,
+  "endMs": 26830,
+  "timestampMs": 26776,
+  "confidence": null
+ },
+ {
+  "text": " full",
+  "startMs": 26841,
+  "endMs": 27080,
+  "timestampMs": 26841,
+  "confidence": null
+ },
+ {
+  "text": " video",
+  "startMs": 27080,
+  "endMs": 27504,
+  "timestampMs": 27080,
+  "confidence": null
+ },
+ {
+  "text": " Tap",
+  "startMs": 27624,
+  "endMs": 27776,
+  "timestampMs": 27624,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 27776,
+  "endMs": 27842,
+  "timestampMs": 27776,
+  "confidence": null
+ },
+ {
+  "text": " link",
+  "startMs": 27842,
+  "endMs": 27983,
+  "timestampMs": 27842,
+  "confidence": null
+ },
+ {
+  "text": " below",
+  "startMs": 27983,
+  "endMs": 28309,
+  "timestampMs": 27983,
+  "confidence": null
+ }
+]
