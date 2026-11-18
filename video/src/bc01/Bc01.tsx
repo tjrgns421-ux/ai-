@@ -136,10 +136,6 @@ const Card: React.FC<{ lf: number; d?: number; x: number; y: number; w: number; 
   <div style={{ position: "absolute", left: x, top: y, width: w, height: h, borderRadius: 28, background: "rgba(255,255,255,0.06)", border: `3px solid ${accent}`, padding: 40, boxSizing: "border-box", ...pop(lf, d) }}>{children}</div>
 );
 
-const Chip: React.FC<{ lf: number; d: number; t: string; on?: boolean }> = ({ lf, d, t, on = true }) => (
-  <span style={{ display: "inline-block", fontFamily: "Pretendard", fontWeight: 900, fontSize: 58, padding: "14px 36px", borderRadius: 999, marginRight: 24, background: on ? LIME : "transparent", color: on ? BG : INK, border: `4px solid ${LIME}`, ...pop(lf, d) }}>{t}</span>
-);
-
 const Bar: React.FC<{ lf: number; d: number; label: string; value: number; max: number; x: number; y: number; color: string; fmt?: (v: number) => string; len?: number }> = ({ lf, d, label, value, max, x, y, color, fmt = (v) => String(Math.round(v)), len = 1000 }) => {
   const k = interpolate(lf - d, [0, 16], [0, 1], { ...clamp, easing: outExpo });
   return (
@@ -173,54 +169,59 @@ const Report: React.FC<{ lf: number; d: number; x: number; y: number; rot: numbe
 );
 
 // ---------- beats ----------
-type Beat = { at: string; sfx?: string; vol?: number; r: (c: Ctx) => React.ReactNode };
+const PS = (src: string, w: number, h: number) => ({ src: `bc01/${src}.png`, w, h, scale: 1.05, x: (1920 - w * 1.05 - 44) / 2 });
+
+type Beat = { at: string; sfx?: string; vol?: number; face?: Face; noHost?: boolean; r: (c: Ctx) => React.ReactNode };
 
 const B: Beat[] = [
   // 1. Hook
-  { at: "OpenAI just dropped", sfx: "whoosh", r: ({ lf }) => (<>
+  { at: "OpenAI just dropped", face: "shock", sfx: "whoosh", r: ({ lf }) => (<>
     <T y={250} size={70} color={DIM} center style={rise(lf)}>OpenAI just dropped</T>
     <T y={350} size={190} center style={pop(lf, 4)}>GPT-6.2 <K>Astra</K> + <K>Sol</K></T>
   </>) },
-  { at: "the headline claim", sfx: "whoosh", r: ({ lf, dur, at }) => (<>
+  { at: "the headline claim", face: "shock", sfx: "whoosh", r: ({ lf, dur, at }) => (<>
     <Source text={SA} />
     <Shot lf={lf} dur={dur} src="bc01/claim.png" w={1512} h={245} scale={1.0} x={180} y={300} tilt={-1.2} marks={[{ x: 1028, y: 126, w: 330, h: 52, at: at("beats Claude") }, { x: 28, y: 183, w: 925, h: 52, at: at("five percent") }]} />
   </>) },
-  { at: "Five percent That's", sfx: "stamp", r: ({ lf, at }) => (<>
+  { at: "Five percent That's", noHost: true, sfx: "stamp", r: ({ lf, at }) => (<>
     <T y={170} size={420} center style={pop(lf, 0, 0.5)}><K>5%</K></T>
     <Stamp lf={lf} d={at("clearance sale")} text="CLEARANCE SALE" x={1000} y={640} rot={-8} size={84} color={RED} />
     <Blip lf={lf} face="shock" x={90} y={420} size={480} />
   </>) },
-  { at: "So Blip checked", sfx: "blip", r: ({ lf }) => (<>
-    <Blip lf={lf} face="prompt" x={700} y={140} size={560} />
-    <T y={690} size={110} center style={pop(lf, 6)}>BLIP CHECK <K>&gt;_</K></T>
+  { at: "So Blip checked", noHost: true, sfx: "blip", r: ({ lf }) => (<>
+    <Shot lf={lf} dur={60} src="bc01/n-rd.png" w={1680} h={420} scale={0.42} x={90} y={130} tilt={-4} />
+    <Shot lf={lf} dur={60} src="bc01/n-tt.png" w={2600} h={330} scale={0.3} x={1020} y={170} tilt={3} d={3} />
+    <Shot lf={lf} dur={60} src="bc01/n-dc.png" w={1320} h={640} scale={0.36} x={1300} y={420} tilt={-2} d={6} />
+    <Blip lf={lf} face="prompt" x={620} y={330} size={500} />
+    <T y={830} size={90} center style={pop(lf, 6)}>BLIP CHECK <K>&gt;_</K></T>
   </>) },
-  { at: "Three questions", sfx: "pop", r: ({ lf, at }) => (<>
+  { at: "Three questions", face: "prompt", sfx: "pop", r: ({ lf, at }) => (<>
     <T y={140} size={64} color={LIME} style={rise(lf)}>Three questions</T>
     {["What actually changed?", "Does it really beat Claude?", "Which one should you use?"].map((q, i) => (
       <T key={q} y={280 + i * 150} size={92} style={rise(lf, at(["What actually", "Does it really", "And which one"][i]))}><K>{i + 1}.</K> {q}</T>
     ))}
   </>) },
   // 2. What dropped
-  { at: "On November seventeenth", sfx: "whoosh", r: ({ lf, dur }) => (<>
+  { at: "On November seventeenth", face: "prompt", sfx: "whoosh", r: ({ lf, dur }) => (<>
     <Source text={SA} />
     <Shot lf={lf} dur={dur} src="bc01/headline.png" w={1483} h={252} scale={1.0} x={190} y={260} />
     <Label lf={lf} d={10} text="NOV 17, 2026" x={210} y={190} />
   </>) },
-  { at: "Astra is the big one", sfx: "pop", r: ({ lf }) => (<>
+  { at: "Astra is the big one", face: "prompt", sfx: "pop", r: ({ lf }) => (<>
     <Card lf={lf} x={560} y={170} w={800} h={560} accent={INK}>
       <div style={{ fontFamily: "Pretendard", fontWeight: 700, fontSize: 40, color: DIM }}>GPT-6.2</div>
       <div style={{ fontFamily: "Pretendard", fontWeight: 900, fontSize: 190, color: INK, letterSpacing: -6, lineHeight: 1 }}>Astra</div>
       <div style={{ fontFamily: "Pretendard", fontWeight: 800, fontSize: 52, color: INK, marginTop: 30 }}>complex <K>professional</K> work</div>
     </Card>
   </>) },
-  { at: "Sol is what OpenAI", sfx: "pop", r: ({ lf, at }) => (<>
+  { at: "Sol is what OpenAI", face: "happy", sfx: "pop", r: ({ lf, at }) => (<>
     <Card lf={lf} x={560} y={170} w={800} h={560} accent={LIME}>
       <div style={{ fontFamily: "Pretendard", fontWeight: 700, fontSize: 40, color: DIM }}>GPT-6.2</div>
       <div style={{ fontFamily: "Pretendard", fontWeight: 900, fontSize: 190, color: LIME, letterSpacing: -6, lineHeight: 1 }}>Sol</div>
       <div style={{ fontFamily: "Pretendard", fontWeight: 800, fontSize: 52, color: INK, marginTop: 30, ...rise(lf, at("go-to")) }}>"go-to model for <K>everyday</K> work"</div>
     </Card>
   </>) },
-  { at: "If you're keeping track", sfx: "whoosh", r: ({ lf, at }) => {
+  { at: "If you're keeping track", face: "happy", sfx: "whoosh", r: ({ lf, at }) => {
     const names = ["Astra", "Sol", "Terra", "Luna"];
     const cx = 960, cy = 470;
     return (<>
@@ -232,46 +233,43 @@ const B: Beat[] = [
         const d = at(n);
         return <div key={n} style={{ position: "absolute", left: x - 90, top: y - 40, width: 180, textAlign: "center", fontFamily: "Pretendard", fontWeight: 900, fontSize: i === 1 ? 70 : 46, color: i === 1 ? BG : INK, background: i === 1 ? LIME : "rgba(255,255,255,0.1)", borderRadius: 999, padding: "8px 0", ...pop(lf, d) }}>{n}</div>;
       })}
-      <Stamp lf={lf} d={at("solar system")} text="A SOLAR SYSTEM" x={1150} y={760} rot={-6} size={70} />
+      <Stamp lf={lf} d={at("solar system")} text="A SOLAR SYSTEM" x={880} y={780} rot={-6} size={70} />
     </>);
   } },
-  { at: "Both are live", sfx: "pop", r: ({ lf, at }) => (<>
+  { at: "Both are live", face: "prompt", sfx: "whoosh", r: ({ lf, dur, at }) => (<>
     <Source text={SA} />
-    <T y={220} size={54} color={DIM} style={rise(lf)}>Live in ChatGPT Work + Codex</T>
-    <div style={{ position: "absolute", left: 140, top: 340 }}>
-      <Chip lf={lf} d={at("Plus")} t="Plus" /><Chip lf={lf} d={at("Pro")} t="Pro" /><Chip lf={lf} d={at("Enterprise")} t="Enterprise" on={false} /><Chip lf={lf} d={at("Edu")} t="Edu" on={false} />
-    </div>
+    <Shot lf={lf} dur={dur + 150} {...PS("p-avail", 1464, 404)} y={250} marks={[{ x: 877, y: 4, w: 471, h: 48, at: at("Plus") }]} />
   </>) },
-  { at: "On Enterprise and Edu", r: ({ lf, at }) => {
-    const on = lf >= at("switch them on");
+  { at: "On Enterprise and Edu", noHost: true, r: ({ lf, dur, at }) => {
+    const joke = at("go bother");
+    if (lf < joke) return (<>
+      <Source text={SA} />
+      <Shot lf={lf + 132} dur={dur + 150} {...PS("p-avail", 1464, 404)} y={250} d={-999} marks={[{ x: 877, y: 4, w: 471, h: 48, at: -999 }, { x: 1020, y: 61, w: 366, h: 48, at: 132 + at("workspace admin") }, { x: 0, y: 119, w: 302, h: 48, at: 138 + at("workspace admin") }]} />
+    </>);
+    const on = lf >= joke + 6;
     return (<>
-      <T y={200} size={60} style={rise(lf)}>Enterprise / Edu</T>
-      <T y={290} size={44} color={DIM} style={rise(lf, 4)}>workspace admin → switch it on</T>
-      <div style={{ position: "absolute", left: 140, top: 420, width: 260, height: 130, borderRadius: 999, background: on ? LIME : "rgba(255,255,255,0.15)" }}>
+      <div style={{ position: "absolute", left: 160, top: 300, width: 260, height: 130, borderRadius: 999, background: on ? LIME : "rgba(255,255,255,0.15)" }}>
         <div style={{ position: "absolute", top: 13, left: on ? 143 : 13, width: 104, height: 104, borderRadius: "50%", background: on ? BG : INK }} />
       </div>
-      <T x={150} y={640} size={64} style={rise(lf, at("go bother"))}>Go bother your IT person.</T>
-      <T x={150} y={730} size={52} color={LIME} style={rise(lf, at("Nicely"))}>(nicely)</T>
-      <Blip lf={lf} d={at("go bother")} face="meh" x={1250} y={260} size={520} />
+      <T x={160} y={500} size={72} style={rise(lf, joke)}>Go bother your IT person.</T>
+      <T x={160} y={600} size={56} color={LIME} style={rise(lf, at("Nicely"))}>(nicely)</T>
+      <Blip lf={lf} d={joke} face="meh" x={1250} y={260} size={520} />
     </>);
   } },
-  { at: "Astra also arrives", sfx: "whoosh", r: ({ lf, at }) => (<>
+  { at: "Astra also arrives", face: "shock", sfx: "whoosh", r: ({ lf, dur, at }) => (<>
     <Source text={SA} />
-    <T y={190} size={52} color={DIM} style={rise(lf)}>Less than two months ago…</T>
-    <T y={290} size={110} style={pop(lf, 4)}>GPT-6.1 Astra</T>
-    <Stamp lf={lf} d={at("called off")} text="CALLED OFF" x={820} y={260} rot={-8} size={80} color={RED} />
-    <div style={{ position: "absolute", left: 140, top: 500, width: 1500, fontFamily: "Pretendard", fontWeight: 700, fontSize: 52, color: INK, lineHeight: 1.3, ...rise(lf, at("because testing")) }}>
-      testing found it fell short on <span style={{ background: LIME, color: BG, padding: "0 8px" }}>staying within scope and authorization</span>
-    </div>
+    <T y={150} size={56} color={DIM} style={rise(lf)}>Less than two months ago: GPT-6.1 Astra</T>
+    <Shot lf={lf} dur={dur} {...PS("p-calledoff", 1464, 232)} y={300} marks={[{ x: 953, y: 4, w: 154, h: 48, at: at("called off") }, { x: 0, y: 119, w: 642, h: 48, at: at("scope and authorization") }]} />
+    <Stamp lf={lf} d={at("called off")} text="CALLED OFF" x={1060} y={600} rot={-8} size={80} color={RED} />
   </>) },
-  { at: "In other words", sfx: "blip", r: ({ lf, at }) => (<>
+  { at: "In other words", noHost: true, sfx: "blip", r: ({ lf, at }) => (<>
     <T y={220} size={84} style={rise(lf)}>It didn't stay in its lane.</T>
     <T y={360} size={84} color={LIME} style={rise(lf, at("Blip would never"))}>Blip would never.</T>
     <div style={{ position: "absolute", left: 1000, top: 330, fontFamily: "Pretendard", fontWeight: 900, fontSize: 46, color: BG, background: INK, borderRadius: 28, padding: "18px 30px", ...pop(lf, at("Blip asks first")) }}>"Can I edit this?"</div>
     <Blip lf={lf} d={at("Blip would never")} face="happy" x={1180} y={420} size={480} />
   </>) },
   // 3. Astra pitch
-  { at: "Astra's pitch is office", sfx: "whoosh", r: ({ lf, at }) => (<>
+  { at: "Astra's pitch is office", face: "prompt", sfx: "whoosh", r: ({ lf, at }) => (<>
     <T y={160} size={64} style={rise(lf)}>Astra's pitch: <K>office work</K></T>
     {["Slides", "Spreadsheets", "Documents"].map((n, i) => (
       <Card key={n} lf={lf} d={at(n === "Documents" ? "documents" : n)} x={140 + i * 560} y={330} w={500} h={360} accent={i === 0 ? LIME : "rgba(255,255,255,0.3)"}>
@@ -284,86 +282,65 @@ const B: Beat[] = [
       </Card>
     ))}
   </>) },
-  { at: "It can even match", sfx: "pop", r: ({ lf, at }) => {
-    const m = lf >= at("exact font size");
-    return (<>
-      <Source text={SA} />
-      {[0, 1].map((i) => (
-        <div key={i} style={{ position: "absolute", left: 230 + i * 780, top: 250, width: 660, height: 400, borderRadius: 14, background: "#F3F1EA", padding: 40, boxSizing: "border-box", ...pop(lf, i * 8) }}>
-          <div style={{ fontFamily: "Pretendard", fontWeight: 900, fontSize: 52, color: "#111" }}>Q3 Results</div>
-          <div style={{ height: 14, width: 360, background: "#bbb", marginTop: 30 }} />
-          <div style={{ height: 14, width: 300, background: "#bbb", marginTop: 20 }} />
-          <div style={{ position: "absolute", right: 30, bottom: 26, fontFamily: "Pretendard", fontWeight: 900, fontSize: 30, color: m ? "#2E9E3E" : "#999" }}>{i === 0 ? "your template" : "Astra"} · 24pt</div>
-        </div>
-      ))}
-      <T y={700} size={72} center style={rise(lf, at("exact font size"))}>24pt = 24pt <K>✓</K></T>
-    </>);
-  } },
-  { at: "Finally an AI that cares", sfx: "stamp", r: ({ lf, at }) => (<>
+  { at: "It can even match", face: "happy", sfx: "pop", r: ({ lf, dur, at }) => (<>
+    <Source text={SA} />
+    <Shot lf={lf} dur={dur} {...PS("p-font", 1464, 290)} y={260} marks={[{ x: 1280, y: 4, w: 102, h: 48, at: 2 }, { x: 0, y: 61, w: 499, h: 48, at: 4 }, { x: 202, y: 234, w: 451, h: 48, at: at("exact font size") }]} />
+    <T y={720} size={72} center style={rise(lf, at("exact font size"))}>24pt = 24pt <K>✓</K></T>
+  </>) },
+  { at: "Finally an AI that cares", noHost: true, sfx: "stamp", r: ({ lf, at }) => (<>
     <Stamp lf={lf} d={at("fonts")} text="FONT POLICE" x={260} y={300} rot={-8} size={120} />
     <Blip lf={lf} face="happy" x={1180} y={240} size={560} />
   </>) },
-  { at: "One early tester", sfx: "pop", r: ({ lf, at }) => (<>
+  { at: "One early tester", face: "shock", sfx: "pop", r: ({ lf, dur, at }) => (<>
     <Source text={SA} />
-    <T y={180} size={56} color={DIM} style={rise(lf)}>Early tester: Basis (accounting AI)</T>
-    <T y={290} size={300} style={pop(lf, at("fell by half"), 0.5)}><K>−50%</K></T>
-    <T y={640} size={56} style={rise(lf, at("fell by half"))}>time on long accounting work</T>
+    <Shot lf={lf} dur={dur} {...PS("p-basis", 1464, 176)} y={200} marks={[{ x: 786, y: 61, w: 183, h: 48, at: at("fell by half") }]} />
+    <T y={520} size={220} center style={pop(lf, at("fell by half"), 0.5)}><K>−50%</K></T>
   </>) },
   // 4. Price
-  { at: "Now the price", sfx: "whoosh", r: ({ lf, dur, at }) => (<>
+  { at: "Now the price", face: "prompt", sfx: "whoosh", r: ({ lf, dur, at }) => (<>
     <Source text="OpenAI API pricing page (per 1M tokens)" />
     <Shot lf={lf} dur={dur + 120} src="bc01/price.png" w={1771} h={396} scale={0.9} x={120} y={260} rings={[{ x: 0, y: 84, w: 1720, h: 70, at: at("Astra costs") }]} />
     <T x={140} y={760} size={72} style={rise(lf, at("eight dollars"))}>Astra: <K>$8</K> in · <K>$40</K> out</T>
   </>) },
-  { at: "Sol costs two and ten", sfx: "pop", r: ({ lf, dur }) => (<>
+  { at: "Sol costs two and ten", face: "prompt", sfx: "pop", r: ({ lf, dur }) => (<>
     <Source text="OpenAI API pricing page (per 1M tokens)" />
     <Shot lf={lf + 40} dur={dur + 120} src="bc01/price.png" w={1771} h={396} scale={0.9} x={120} y={260} zoom={0.05} rings={[{ x: 0, y: 166, w: 1720, h: 70, at: 0 }]} />
     <T x={140} y={760} size={72} style={rise(lf)}>Sol: <K>$2</K> in · <K>$10</K> out</T>
   </>) },
-  { at: "So per token", sfx: "stamp", r: ({ lf, at }) => (<>
+  { at: "So per token", face: "shock", sfx: "stamp", r: ({ lf, at }) => (<>
     <T y={230} size={80} color={DIM} center style={rise(lf)}>per token</T>
     <Stamp lf={lf} d={at("four times")} text="4× THE PRICE" x={460} y={380} rot={-6} size={150} />
   </>) },
-  { at: "To be fair", r: ({ lf, at }) => (<>
-    <T y={200} size={60} color={DIM} style={rise(lf)}>vs the previous Astra</T>
-    <T y={290} size={260} style={pop(lf, at("twenty percent"), 0.5)}><K>−20%</K></T>
-    <Stamp lf={lf} d={at("Expensive but on sale")} text="EXPENSIVE. BUT ON SALE." x={720} y={700} rot={-5} size={64} />
+  { at: "To be fair", face: "happy", r: ({ lf, dur, at }) => (<>
+    <Source text={SA} />
+    <Shot lf={lf} dur={dur} {...PS("p-avail", 1464, 404)} y={170} marks={[{ x: 582, y: 234, w: 722, h: 48, at: at("twenty percent") }]} />
+    <Stamp lf={lf} d={at("Expensive but on sale")} text="EXPENSIVE. BUT ON SALE." x={620} y={720} rot={-5} size={68} />
   </>) },
   // 5. Quiet part
-  { at: "And here's the part", sfx: "blip", r: ({ lf }) => (<>
+  { at: "And here's the part", noHost: true, sfx: "blip", r: ({ lf }) => (<>
     <T y={330} size={110} style={rise(lf)}>The <K>quiet</K> part…</T>
     <Blip lf={lf} face="meh" x={1250} y={240} size={520} />
   </>) },
-  { at: "On a coding benchmark", sfx: "whoosh", r: ({ lf, dur, at }) => (<>
+  { at: "On a coding benchmark", face: "meh", sfx: "whoosh", r: ({ lf, dur, at }) => (<>
     <Source text={SA} />
     <Shot lf={lf} dur={dur} src="bc01/solcatch.png" w={1512} h={245} scale={1.0} x={180} y={300} tilt={1} marks={[{ x: 336, y: 126, w: 692, h: 52, at: at("within half a point") }, { x: 676, y: 183, w: 470, h: 52, at: at("one fifth") }]} />
   </>) },
-  { at: "You will not feel", sfx: "pop", r: ({ lf, at }) => (<>
+  { at: "You will not feel", face: "happy", sfx: "pop", r: ({ lf, at }) => (<>
     <T x={200} y={300} size={60} color={DIM} style={rise(lf)}>you feel</T>
     <T x={200} y={380} size={120} style={rise(lf, 2)}>0.5 pts</T>
     <T x={980} y={300} size={60} color={DIM} style={rise(lf, at("Your wallet"))}>your wallet feels</T>
     <T x={980} y={330} size={330} style={pop(lf, at("five times"), 0.4)}><K>5×</K></T>
   </>) },
-  { at: "OpenAI also says Sol", r: ({ lf, at }) => (<>
+  { at: "OpenAI also says Sol", face: "prompt", sfx: "whoosh", r: ({ lf, dur, at }) => (<>
     <Source text={SA} />
-    <T y={220} size={84} style={rise(lf)}>Same paid plan,</T>
-    <T y={330} size={84} color={LIME} style={rise(lf, at("more tasks"))}>more tasks done</T>
-    {[0, 1].map((i) => {
-      const k = interpolate(lf - at("more tasks") - i * 6, [0, 20], [0, 1], { ...clamp, easing: outExpo });
-      return (
-        <div key={i} style={{ position: "absolute", left: 140, top: 520 + i * 130 }}>
-          <div style={{ fontFamily: "Pretendard", fontWeight: 800, fontSize: 36, color: DIM }}>{i ? "GPT-6.2 Sol" : "GPT-6.1 Sol"}</div>
-          <div style={{ width: (i ? 1100 : 760) * k, height: 46, background: i ? LIME : "rgba(255,255,255,0.35)", borderRadius: 8, marginTop: 8 }} />
-        </div>
-      );
-    })}
+    <Shot lf={lf} dur={dur} {...PS("p-moretasks", 1464, 232)} y={280} marks={[{ x: 100, y: 61, w: 730, h: 48, at: at("more tasks") }]} />
   </>) },
   // 6. Benchmark explainer
-  { at: "So does Astra really beat Claude", sfx: "whoosh", r: ({ lf, at }) => (<>
+  { at: "So does Astra really beat Claude", face: "prompt", sfx: "whoosh", r: ({ lf, at }) => (<>
     <T y={250} size={110} center style={rise(lf)}>Does Astra really <K>beat Claude?</K></T>
     <Stamp lf={lf} d={at("Quick detour")} text="30-SECOND DETOUR" x={560} y={560} rot={-4} size={80} />
   </>) },
-  { at: "A benchmark is just a test", sfx: "pop", r: ({ lf, at }) => (<>
+  { at: "A benchmark is just a test", face: "prompt", sfx: "pop", r: ({ lf, at }) => (<>
     <T y={160} size={90} style={rise(lf)}>Benchmark = <K>a test.</K></T>
     {["Model A", "Model B", "Model C"].map((m, i) => (
       <div key={m} style={{ position: "absolute", left: 140, top: 380 + i * 130, display: "flex", alignItems: "center", gap: 30, ...rise(lf, at("Same questions") + i * 5) }}>
@@ -372,62 +349,73 @@ const B: Beat[] = [
       </div>
     ))}
   </>) },
-  { at: "The catch there are hundreds", sfx: "pop", r: ({ lf, at }) => (<>
+  { at: "The catch there are hundreds", face: "meh", sfx: "pop", r: ({ lf, at }) => (<>
     <T y={140} size={64} style={rise(lf)}>Hundreds of tests…</T>
     {Array.from({ length: 40 }).map((_, i) => (
       <div key={i} style={{ position: "absolute", left: 140 + (i % 10) * 165, top: 260 + Math.floor(i / 10) * 140, width: 140, height: 110, borderRadius: 10, background: i === 13 ? LIME : "rgba(255,255,255,0.12)", ...pop(lf, i * 0.6), scale: String(i === 13 && lf > at("every company") ? 1.25 : 1) }} />
     ))}
     <T y={850} size={50} color={LIME} style={rise(lf, at("every company"))}>…the company picks which ones go in the launch post.</T>
   </>) },
-  { at: "It's like bringing home", sfx: "pop", r: ({ lf, at }) => (<>
+  { at: "It's like bringing home", face: "happy", sfx: "pop", r: ({ lf, at }) => (<>
     <Report lf={lf} d={0} x={180} y={300} rot={-6} grade="C" label="Test #41" dim />
     <Report lf={lf} d={4} x={420} y={280} rot={3} grade="A" label="the one shown" />
     <Report lf={lf} d={8} x={660} y={310} rot={8} grade="B" label="Test #87" dim />
     <Stamp lf={lf} d={at("Not lying")} text="NOT LYING." x={1080} y={300} rot={-5} size={80} />
     <Stamp lf={lf} d={at("Just curating")} text="JUST CURATING." x={1040} y={480} rot={-5} size={80} color={INK} />
   </>) },
-  { at: "OpenAI's Claude claim comes", sfx: "whoosh", r: ({ lf, at }) => (<>
+  { at: "OpenAI's Claude claim comes", face: "prompt", sfx: "whoosh", r: ({ lf, at }) => (<>
     <Report lf={lf} d={0} x={200} y={260} rot={-3} grade="A" label="Agents' Last Exam" />
     <T x={620} y={300} size={70} style={rise(lf, at("Agents"))}>One test:</T>
     <T x={620} y={390} size={70} color={LIME} style={rise(lf, at("Agents"))}>Agents' Last Exam</T>
     <T x={620} y={500} size={48} color={DIM} style={rise(lf, at("multistep"))}>multistep professional work</T>
   </>) },
-  { at: "On that test OpenAI says", r: ({ lf, dur, at }) => (<>
+  { at: "On that test OpenAI says", face: "meh", r: ({ lf, dur, at }) => (<>
     <Source text={SA} />
     <Shot lf={lf} dur={dur} src="bc01/claim.png" w={1512} h={245} scale={1.0} x={180} y={300} tilt={-1.2} marks={[{ x: 1028, y: 126, w: 330, h: 52, at: at("five and a half") }, { x: 28, y: 183, w: 925, h: 52, at: at("at five percent") }]} />
   </>) },
-  { at: "To check it", sfx: "whoosh", r: ({ lf, dur, at }) => (<>
+  { at: "To check it", face: "prompt", sfx: "whoosh", r: ({ lf, dur, at }) => (<>
     <T y={170} size={80} style={rise(lf)}>Need: an <K>independent scorekeeper</K></T>
     <Shot lf={lf} dur={dur} src="bc01/aa-head.png" w={1440} h={400} scale={0.95} x={220} y={330} d={at("Artificial Analysis runs")} />
   </>) },
   // 7. Independent check
-  { at: "On its Intelligence Index", sfx: "pop", r: ({ lf, at }) => (<>
+  { at: "On its Intelligence Index", face: "prompt", sfx: "pop", r: ({ lf, at }) => (<>
     <Source text={AA} />
     <T y={120} size={56} color={DIM} style={rise(lf)}>Intelligence Index</T>
     <Bar lf={lf} d={at("Claude Fable")} label="Claude Fable 5.2" value={65} max={65} x={140} y={240} color={INK} />
     <Bar lf={lf} d={at("GPT-6.2 Astra scores")} label="GPT-6.2 Astra" value={62} max={65} x={140} y={440} color={LIME} />
     <Bar lf={lf} d={at("Sol scores")} label="GPT-6.2 Sol" value={57} max={65} x={140} y={640} color={LIME} />
   </>) },
-  { at: "So overall Claude is still", sfx: "pop", r: ({ lf, dur, at }) => (<>
-    <Source text={AA} />
-    <Shot lf={lf} dur={dur} src="bc01/aa-intel.png" w={910} h={827} scale={0.92} x={120} y={70} rings={[{ x: 82, y: 300, w: 64, h: 380, at: 4 }, { x: 162, y: 300, w: 64, h: 380, at: at("Astra wins") }]} />
-    <T x={1110} y={260} size={56} style={rise(lf, at("Astra wins"))}>OpenAI's test:</T>
-    <T x={1110} y={330} size={72} color={LIME} style={rise(lf, at("Astra wins"))}>Astra ✓</T>
-    <T x={1110} y={470} size={56} style={rise(lf, at("not the whole"))}>Whole report card:</T>
-    <T x={1110} y={540} size={72} color={LIME} style={rise(lf, at("not the whole"))}>Claude ✓</T>
-  </>) },
-  { at: "Now look at cost per task", sfx: "whoosh", r: ({ lf, dur }) => (<>
+  { at: "So overall Claude is still", face: "meh", sfx: "pop", r: ({ lf, dur, at }) => {
+    const sw = at("Astra wins");
+    if (lf < sw) return (<>
+      <Source text={AA} />
+      <Shot lf={lf} dur={dur} src="bc01/aa-intel.png" w={910} h={827} scale={0.92} x={480} y={70} rings={[{ x: 82, y: 300, w: 64, h: 380, at: 4 }]} />
+    </>);
+    return (<>
+      <Source text="R&D World, Nov 17 2026" />
+      <Shot lf={lf - sw} dur={dur} src="bc01/n-rd.png" w={1680} h={420} scale={0.9} x={170} y={120} />
+      <T x={170} y={640} size={56} style={rise(lf, sw)}>OpenAI's test: <K>Astra ✓</K></T>
+      <T x={170} y={730} size={56} style={rise(lf, at("not the whole"))}>Whole report card: <K>Claude ✓</K></T>
+    </>);
+  } },
+  { at: "Now look at cost per task", face: "prompt", sfx: "whoosh", r: ({ lf, dur }) => (<>
     <Source text={AA} />
     <Shot lf={lf} dur={dur} src="bc01/aa-cost.png" w={910} h={827} scale={0.92} x={480} y={70} />
   </>) },
-  { at: "Sol about a dollar", r: ({ lf, at }) => (<>
+  { at: "Sol about a dollar", face: "prompt", r: ({ lf, at }) => (<>
     <Source text={AA} />
     <T y={120} size={56} color={DIM} style={rise(lf)}>Cost per task</T>
     <Bar lf={lf} d={0} label="GPT-6.2 Sol" value={1.01} max={26.54} x={140} y={240} color={LIME} fmt={(v) => `$${v.toFixed(2)}`} len={1300} />
     <Bar lf={lf} d={at("Astra four dollars")} label="GPT-6.2 Astra" value={4.0} max={26.54} x={140} y={440} color={LIME} fmt={(v) => `$${v.toFixed(2)}`} len={1300} />
     <Bar lf={lf} d={at("Fable 5.2 twenty")} label="Claude Fable 5.2" value={26.54} max={26.54} x={140} y={640} color={RED} fmt={(v) => `$${v.toFixed(2)}`} len={1300} />
   </>) },
-  { at: "So here Astra costs about fifteen", sfx: "pop", r: ({ lf, at }) => {
+  { at: "So here Astra costs about fifteen", face: "happy", sfx: "pop", r: ({ lf, at }) => {
+    const sw = at("But still");
+    if (lf >= sw) return (<>
+      <Source text="Tech Times, Nov 18 2026" />
+      <Shot lf={lf - sw} dur={60} src="bc01/n-tt.png" w={2600} h={330} scale={0.6} x={140} y={200} />
+      <Stamp lf={lf} d={at("That part is real")} text="REAL" x={1150} y={560} rot={-8} size={120} />
+    </>);
     const strike = interpolate(lf - at("Not five"), [0, 6], [0, 1], clamp);
     return (<>
       <T y={160} size={300} center style={pop(lf, at("fifteen percent"), 0.5)}><K>15%</K></T>
@@ -435,43 +423,48 @@ const B: Beat[] = [
       <div style={{ position: "absolute", left: 0, right: 0, top: 610, textAlign: "center", fontFamily: "Pretendard", fontWeight: 900, fontSize: 90, color: DIM, opacity: interpolate(lf - at("Not five"), [0, 3], [0, 1], clamp) }}>
         <span style={{ position: "relative" }}>not 5%<span style={{ position: "absolute", left: -10, top: "52%", height: 10, width: `${strike * 110}%`, background: RED }} /></span>
       </div>
-      <Stamp lf={lf} d={at("That part is real")} text="REAL" x={1350} y={650} rot={-8} size={110} />
     </>);
   } },
-  { at: "Artificial Analysis also flags", sfx: "blip", r: ({ lf, at }) => (<>
-    <Source text={AA} />
-    <T y={200} size={80} style={rise(lf)}>Astra: a bit <K>verbose</K></T>
-    {["…and another thing", "also,", "to elaborate…"].map((b, i) => (
-      <div key={b} style={{ position: "absolute", left: 300 + i * 240, top: 400 + (i % 2) * 120, fontFamily: "Pretendard", fontWeight: 800, fontSize: 38, color: BG, background: INK, borderRadius: 24, padding: "12px 24px", ...pop(lf, at("likes to talk") + i * 4) }}>{b}</div>
-    ))}
-    <Blip lf={lf} d={at("Blip respects")} face="happy" x={1250} y={300} size={500} />
-  </>) },
+  { at: "Artificial Analysis also flags", noHost: true, sfx: "blip", r: ({ lf, dur, at }) => {
+    const sw = at("likes to talk");
+    if (lf < sw) return (<>
+      <Source text={AA} />
+      <Shot lf={lf} dur={dur} src="bc01/p-verbose.png" w={1332} h={122} scale={1.3} x={72} y={380} marks={[{ x: 1168, y: 42, w: 134, h: 36, at: at("verbose") }, { x: 0, y: 82, w: 104, h: 36, at: at("verbose") + 3 }]} />
+    </>);
+    return (<>
+      <T y={200} size={80} style={rise(lf, sw)}>Astra: a bit <K>verbose</K></T>
+      {["…and another thing", "also,", "to elaborate…"].map((b, i) => (
+        <div key={b} style={{ position: "absolute", left: 300 + i * 240, top: 400 + (i % 2) * 120, fontFamily: "Pretendard", fontWeight: 800, fontSize: 38, color: BG, background: INK, borderRadius: 24, padding: "12px 24px", ...pop(lf, sw + i * 4) }}>{b}</div>
+      ))}
+      <Blip lf={lf} d={at("Blip respects")} face="happy" x={1250} y={300} size={500} />
+    </>);
+  } },
   // 8. Which one
-  { at: "So which one should you use", sfx: "whoosh", r: ({ lf }) => <T y={380} size={130} center style={pop(lf)}>Which one <K>should you use?</K></T> },
-  { at: "Start with Sol", sfx: "pop", r: ({ lf, at }) => (<>
+  { at: "So which one should you use", face: "prompt", sfx: "whoosh", r: ({ lf }) => <T y={380} size={130} center style={pop(lf)}>Which one <K>should you use?</K></T> },
+  { at: "Start with Sol", face: "happy", sfx: "pop", r: ({ lf, at }) => (<>
     <T y={150} size={90} color={LIME} style={rise(lf)}>Start with Sol</T>
     {[["Chat", "Chat & quick answers"], ["everyday coding", "Everyday coding"], ["drafts", "Drafts & emails"]].map(([k, t], i) => (
       <T key={t} y={320 + i * 120} size={64} style={rise(lf, at(k))}><K>›</K> {t}</T>
     ))}
     <T y={720} size={46} color={DIM} style={rise(lf, at("basically tied"))}>cheaper · basically tied on coding</T>
   </>) },
-  { at: "Switch to Astra when", sfx: "pop", r: ({ lf, at }) => (<>
+  { at: "Switch to Astra when", face: "prompt", sfx: "pop", r: ({ lf, at }) => (<>
     <T y={150} size={90} style={rise(lf)}>Switch to Astra</T>
     <T y={260} size={48} color={DIM} style={rise(lf, at("the output is the job"))}>when the output IS the job</T>
     {[["slide deck", "Slide decks"], ["spreadsheet", "Spreadsheets"], ["legal or finance", "Legal / finance docs"]].map(([k, t], i) => (
       <T key={t} y={380 + i * 120} size={64} style={rise(lf, at(k))}><K>›</K> {t}</T>
     ))}
   </>) },
-  { at: "And if Claude already", r: ({ lf, at }) => (<>
+  { at: "And if Claude already", face: "happy", r: ({ lf, at }) => (<>
     <T y={220} size={70} style={rise(lf)}>Already happy with Claude?</T>
     <T y={360} size={110} color={LIME} style={pop(lf, at("test both"))}>Test both on your own tasks.</T>
   </>) },
   // 9. Verdict
-  { at: "Blip's verdict on", sfx: "whoosh", r: ({ lf }) => (<>
+  { at: "Blip's verdict on", face: "prompt", sfx: "whoosh", r: ({ lf }) => (<>
     <T y={200} size={56} color={DIM} style={rise(lf)}>The claim:</T>
     <T y={280} size={90} style={rise(lf, 4)}>"Beats Claude at 5% of the cost"</T>
   </>) },
-  { at: "Cheaper Real Beats Claude", r: ({ lf, at }) => {
+  { at: "Cheaper Real Beats Claude", face: "meh", r: ({ lf, at }) => {
     const needle = interpolate(lf - at("On one test"), [0, 14], [0.92, 0.55], { ...clamp, easing: outExpo });
     return (<>
       <div style={{ position: "absolute", left: 160, top: 220, width: 1600 }}>
@@ -481,17 +474,19 @@ const B: Beat[] = [
       </div>
       <T y={430} size={72} style={rise(lf)}>Cheaper? <K>Real.</K></T>
       <T y={540} size={72} style={rise(lf, at("Beats Claude"))}>Beats Claude? <K c="#FFC93A">One test, not the index.</K></T>
+      <Shot lf={lf} dur={120} src="bc01/n-dc.png" w={1320} h={640} scale={0.34} x={1000} y={650} tilt={-3} d={at("independent index")} />
+      <div style={{ position: "absolute", left: 1010, top: 620, fontFamily: "Pretendard", fontWeight: 700, fontSize: 22, color: DIM, ...rise(lf, at("independent index")) }}>Decrypt, Nov 17 2026</div>
     </>);
   } },
-  { at: "Half true", sfx: "stamp", vol: 1, r: ({ lf }) => <Stamp lf={lf} text="HALF TRUE" x={430} y={330} rot={-6} size={220} color="#FFC93A" /> },
-  { at: "Use Sol keep your wallet", sfx: "pop", r: ({ lf, at }) => (<>
+  { at: "Half true", face: "shock", sfx: "stamp", vol: 1, r: ({ lf }) => <Stamp lf={lf} text="HALF TRUE" x={430} y={330} rot={-6} size={220} color="#FFC93A" /> },
+  { at: "Use Sol keep your wallet", noHost: true, sfx: "pop", r: ({ lf, at }) => (<>
     <T y={200} size={84} style={rise(lf)}>Use <K>Sol</K>.</T>
     <T y={310} size={84} style={rise(lf, at("keep your wallet"))}>Keep your wallet.</T>
     <T y={420} size={56} color={DIM} w={1000} style={rise(lf, at("save Astra"))}>Save Astra for the deck your boss will actually read.</T>
     <Blip lf={lf} face="happy" x={1250} y={250} size={540} />
   </>) },
   // 10. Outro
-  { at: "Got a question", sfx: "pop", r: ({ lf, at }) => (<>
+  { at: "Got a question", noHost: true, sfx: "pop", r: ({ lf, at }) => (<>
     <div style={{ position: "absolute", left: 160, top: 260, width: 1000, borderRadius: 30, background: "rgba(255,255,255,0.08)", border: "2px solid rgba(255,255,255,0.2)", padding: 40, ...pop(lf) }}>
       <div style={{ fontFamily: "Pretendard", fontWeight: 800, fontSize: 34, color: DIM }}>Comments</div>
       <div style={{ fontFamily: "Pretendard", fontWeight: 800, fontSize: 50, color: INK, marginTop: 20 }}>"Can Blip check ___ next?"</div>
@@ -499,7 +494,7 @@ const B: Beat[] = [
     </div>
     <Blip lf={lf} face="front" x={1250} y={250} size={540} />
   </>) },
-  { at: "Follow Blip and see you", sfx: "ding", r: ({ lf }) => (<>
+  { at: "Follow Blip and see you", noHost: true, sfx: "ding", r: ({ lf }) => (<>
     <Blip lf={lf} face="prompt" x={680} y={90} size={560} />
     <T y={650} size={120} center style={pop(lf, 6)}>BLIP CHECK <K>&gt;_</K></T>
     <T y={800} size={46} color={DIM} center style={rise(lf, 12)}>Follow for the next check</T>
@@ -569,6 +564,33 @@ const Backdrop: React.FC = () => {
   );
 };
 
+
+// Presenter Blip: bottom-right, face per beat, "talks" while narration words play.
+const Host: React.FC = () => {
+  const fr = useCurrentFrame();
+  let i = 0;
+  while (i + 1 < STARTS.length && fr >= STARTS[i + 1]) i++;
+  const beat = B[i];
+  if (beat.noHost) return null;
+  // entrance when coming back after a hidden beat
+  let first = i;
+  while (first > 0 && !B[first - 1].noHost) first--;
+  const lf = fr - STARTS[first];
+  const t = fr / FPS;
+  const talking = WORDS.some((w) => t >= w.start && t <= w.end);
+  const sq = talking ? Math.sin(fr / 2.2) * 0.035 : 0;
+  const sinceCut = fr - STARTS[i];
+  const hop = interpolate(sinceCut, [0, 4, 9], [0, -18, 0], clamp);
+  // walk in from the right edge: slide + little footsteps + lean
+  const walk = interpolate(lf, [0, 22], [1, 0], { ...clamp, easing: Easing.out(Easing.quad) });
+  const step = walk > 0.01 ? -Math.abs(Math.sin(lf / 2.4)) * 16 : 0;
+  return (
+    <div style={{ position: "absolute", left: 1580 + walk * 400, top: 640 + hop + step + Math.sin(fr / 11) * 4, width: 340, height: 340, rotate: `${walk * -6}deg`, transformOrigin: "50% 90%" }}>
+      <Img src={staticFile(`bc01/blip/${beat.face ?? "prompt"}.png`)} style={{ width: 340, height: 340, transform: `scaleY(${1 + sq}) scaleX(${1 - sq / 2})`, transformOrigin: "50% 75%" }} />
+    </div>
+  );
+};
+
 const BeatView: React.FC<{ i: number }> = ({ i }) => {
   const lf = useCurrentFrame();
   const start = STARTS[i];
@@ -596,6 +618,7 @@ export const Bc01Full: React.FC = () => {
         ) : null,
       )}
       <Html5Audio src={staticFile("bc01/narration.mp3")} />
+      <Host />
       <Captions />
       <div style={{ position: "absolute", right: 40, top: 30, fontFamily: "Pretendard", fontWeight: 900, fontSize: 24, color: BG, background: LIME, padding: "5px 12px", borderRadius: 8 }}>BLIP CHECK &gt;_</div>
     </AbsoluteFill>
