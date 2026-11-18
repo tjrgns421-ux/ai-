@@ -188,3 +188,19 @@ stuck ("이건 좀 어려운데") or wish it were easier ("이렇게 해주면 �
 - YouTube has no DMs and Shorts links aren't clickable: CTA = follow, or the
   free resource via channel link / related long video.
 - Scenes that are not real captures are labeled "illustration".
+
+## 11. Blip Check (16:9 news long-form, decided 2026-11-18)
+
+Benchmark: Fireship "The Code Report" (measured: ~209 wpm, 85 cuts in 6:22, avg shot 4.4 s,
+first minute ~2.6 s per cut, almost no pauses, ~5:15 of content + sponsor).
+
+- **Length:** 4–5 min to start (not 8+). ~205 wpm (Andrew +8%), ~750–950 words.
+- **Structure:** hook claim (0:00) → three-question promise → what dropped → price →
+  the quieter detail → **one concept explainer (~30 s, drawn)** → independent check →
+  "which should you use" → **Hype meter verdict stamp** (HYPE / HALF TRUE / REAL) → comments CTA.
+- **Jokes:** one short Blip aside every 2–3 sentences, right after a fact or quote.
+- **Proof:** every claim on screen as a real capture (article, official page, independent
+  benchmark) with lime highlighter + "Source:" label. Attribute vendor claims ("OpenAI says").
+- **Not Fireship:** audience is everyday AI users, ending is "what to do", Blip verdict,
+  lime highlights, no memes or movie clips (use Blip reactions). Never use their lines
+  ("In today's video", "you're watching the Code Report", "This has been…").

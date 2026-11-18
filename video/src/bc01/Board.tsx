@@ -175,15 +175,13 @@ const F2 = () => (
         GPT-6.2<br />Astra <span style={{ color: "rgba(255,255,255,0.4)" }}>vs</span> Sol
       </div>
     </div>
-    {/* hype meter teaser */}
-    <div style={{ position: "absolute", left: 140, top: 720, width: 900 }}>
-      <div style={{ height: 22, borderRadius: 11, background: "linear-gradient(90deg,#FF5A4E,#FFC93A,#D7FF3A)" }} />
-      <div style={{ display: "flex", justifyContent: "space-between", fontFamily: "Pretendard", fontWeight: 900, fontSize: 30, color: INK, marginTop: 12 }}>
-        <span>HYPE</span><span>?</span><span>REAL</span>
-      </div>
+    <div style={{ position: "absolute", left: 140, top: 640, fontFamily: "Pretendard", fontWeight: 900, fontSize: 46, color: INK, lineHeight: 1.5 }}>
+      {["What actually changed?", "Does it really beat Claude?", "Which one should you use?"].map((q, i) => (
+        <div key={q}><span style={{ color: LIME }}>{i + 1}.</span> {q}</div>
+      ))}
     </div>
     <Blip left={1160} top={180} size={680} pose={{ face: "prompt", wave: 1.4, rotY: -0.4 }} />
-    <Cap>Is that real? And <K>which one should you actually use?</K></Cap>
+    <Cap>Three questions. <K>Blip checked the receipts.</K></Cap>
   </>
 );
 
@@ -259,6 +257,7 @@ const F8 = () => (
       <div>Sol <span style={{ color: LIME }}>$1.01</span></div>
       <div>Astra <span style={{ color: LIME }}>$4.00</span></div>
       <div>Fable 5.2 <span style={{ color: "#FF8A7A" }}>$26.54</span></div>
+      <div style={{ fontSize: 40, color: "rgba(255,255,255,0.7)", marginTop: 30, lineHeight: 1.3 }}>Astra ≈ <span style={{ color: LIME }}>15%</span> of Claude here.<br />Not 5%. Still way cheaper.</div>
     </div>
     <Cap>But per task, it's <K>way cheaper.</K> That part is real.</Cap>
   </>
@@ -303,7 +302,32 @@ const F10 = () => (
   </>
 );
 
-const FRAMES = [F1, F2, F3, F4, F5, F6, F7, F8, F9, F10];
+const Card: React.FC<{ left: number; top: number; rot: number; grade: string; label: string; hide?: boolean }> = ({ left, top, rot, grade, label, hide }) => (
+  <div style={{ position: "absolute", left, top, width: 300, height: 380, rotate: `${rot}deg`, background: "#F3F1EA", borderRadius: 16, boxShadow: "0 20px 50px rgba(0,0,0,0.5)", padding: 28, opacity: hide ? 0.28 : 1 }}>
+    <div style={{ fontFamily: "Pretendard", fontWeight: 800, fontSize: 24, color: "#555" }}>TEST</div>
+    <div style={{ fontFamily: "Pretendard", fontWeight: 900, fontSize: 30, color: "#111", marginTop: 6, lineHeight: 1.2 }}>{label}</div>
+    <div style={{ fontFamily: "Pretendard", fontWeight: 900, fontSize: 150, color: grade === "A" ? "#2E9E3E" : "#C0392B", marginTop: 30 }}>{grade}</div>
+  </div>
+);
+
+const FB = () => (
+  <>
+    <div style={{ position: "absolute", left: 140, top: 140, fontFamily: "Pretendard", fontWeight: 900, fontSize: 60, color: INK }}>
+      Benchmark = <span style={{ color: LIME }}>a test.</span>
+    </div>
+    <div style={{ position: "absolute", left: 140, top: 230, fontFamily: "Pretendard", fontWeight: 700, fontSize: 34, color: "rgba(255,255,255,0.65)" }}>
+      Hundreds of tests. Each company picks which ones go in the launch post.
+    </div>
+    <Card left={180} top={380} rot={-6} grade="C" label="Test #41" hide />
+    <Card left={420} top={360} rot={3} grade="A" label={"Agents' Last Exam"} />
+    <Card left={660} top={390} rot={8} grade="B" label="Test #87" hide />
+    <Stamp text="SHOWN" left={430} top={700} rot={-5} size={54} />
+    <Blip left={1180} top={300} size={560} pose={{ face: "meh", rotY: -0.5 }} />
+    <Cap>Like bringing home only the <K>report card with the A.</K></Cap>
+  </>
+);
+
+const FRAMES = [F1, F2, F3, F4, F5, F6, FB, F7, F8, F9, F10];
 
 export const Bc01Board: React.FC<{ frame: number }> = ({ frame }) => {
   useFonts();
