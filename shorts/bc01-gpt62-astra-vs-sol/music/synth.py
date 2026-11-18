@@ -9,7 +9,8 @@ import sys, wave
 import numpy as np
 
 SR = 44100
-DUR = 30.0
+import os
+DUR = float(os.environ.get("DUR", "30"))
 N = int(SR * DUR)
 rng = np.random.default_rng(7)
 t_all = np.arange(N) / SR
