@@ -41,8 +41,8 @@ const JA = "Korea JoongAng Daily, Nov 16 2026";
 const AP = "Associated Press (via ABC News), Nov 17 2026";
 const JO = "Korea JoongAng Daily / Yonhap, Oct 20 2026";
 // paragraph shot helpers: 2400-px-wide (JoongAng) and 1488-px-wide (AP / Star) captures
-const W24 = (src: string, h: number) => ({ src: `sn01/${src}.png`, w: 2400, h, scale: 0.76, x: (1920 - 2400 * 0.76 - 44) / 2 });
-const W15 = (src: string, h: number) => ({ src: `sn01/${src}.png`, w: 1488, h, scale: 1.2, x: (1920 - 1488 * 1.2 - 44) / 2 });
+const W24 = (src: string, h: number) => ({ src: `sn01/${src}.png`, w: 2400, h, scale: 0.72, x: (1920 - 2400 * 0.72 - 44) / 2 });
+const W15 = (src: string, h: number) => ({ src: `sn01/${src}.png`, w: 1488, h, scale: 1.15, x: (1920 - 1488 * 1.15 - 44) / 2 });
 
 const Plane: React.FC<{ lf: number; stop: number; x: number; y: number }> = ({ lf, stop, x, y }) => {
   const k = lf < stop ? lf : stop;
@@ -105,8 +105,13 @@ const B: Beat[] = [
   </>) },
   { at: "He later gave police", sfx: "whoosh", face: "meh", r: ({ lf, dur, at }) => (<>
     <Source text="Seoul Economic Daily, Nov 18 2026 (personal details redacted)" />
-    <Shot lf={lf} dur={dur} src="sn01/sed-raid-r.png" w={1720} h={138} scale={1.05} x={34} y={260} marks={[{ x: 212, y: 47, w: 488, h: 38, at: at("searched his home") }]} />
+    <Shot lf={lf} dur={dur} src="sn01/sed-raid-r.png" w={1720} h={138} scale={1.0} x={78} y={260} marks={[{ x: 212, y: 47, w: 488, h: 38, at: at("searched his home") }]} />
     <Stamp lf={lf} d={at("investigation is ongoing")} text="INVESTIGATION ONGOING" x={420} y={560} rot={-4} size={72} color="#FFC93A" />
+  </>) },
+  { at: "And it may not stop there", sfx: "pop", face: "meh", r: ({ lf, dur, at }) => (<>
+    <Source text={JA} />
+    <Shot lf={lf} dur={dur} {...W24("ja-expand", 243)} y={200} marks={[{ x: 301, y: 19, w: 511, h: 40, at: at("could expand") }]} />
+    <T y={560} size={70} style={rise(lf, at("could expand"))}>The probe <K>could expand</K> to other national exams</T>
   </>) },
   { at: "Days later all eyes", sfx: "whoosh", face: "prompt", r: ({ lf }) => (<>
     <Shot lf={lf} dur={60} src="sn01/h-nbc.png" w={2232} h={212} scale={0.55} x={90} y={150} tilt={-2} />
@@ -116,10 +121,20 @@ const B: Beat[] = [
   { at: "To see why", sfx: "pop", face: "prompt", r: ({ lf }) => (<>
     <T y={360} size={110} center style={rise(lf)}>How big is <K>Suneung day?</K></T>
   </>) },
+  { at: "The exam runs from", sfx: "pop", face: "prompt", r: ({ lf, dur }) => (<>
+    <Source text={JO} />
+    <Shot lf={lf} dur={dur} {...W24("jo-count", 190)} y={200} marks={[{ x: 1119, y: 73, w: 459, h: 40, at: 4 }, { x: 22, y: 127, w: 66, h: 40, at: 8 }]} />
+    <T y={520} size={170} center style={pop(lf, 6, 0.6)}>8:40 <K>→</K> 5:45</T>
+  </>) },
   { at: "Offices are asked", sfx: "whoosh", face: "prompt", r: ({ lf, dur, at }) => (<>
     <Source text={AP} />
     <Shot lf={lf} dur={dur + 90} {...W15("ap-day", 182)} y={240} marks={[{ x: 982, y: 36, w: 430, h: 34, at: at("start work later") }, { x: 0, y: 72, w: 245, h: 34, at: at("stock market") }]} />
     <T y={620} size={64} style={rise(lf, at("start work later"))}>Work starts later. <K>Stock market opens late.</K></T>
+  </>) },
+  { at: "In the Seoul area", sfx: "pop", face: "happy", r: ({ lf, dur }) => (<>
+    <Source text={JO} />
+    <Shot lf={lf} dur={dur} {...W24("jo-subway", 135)} y={260} marks={[{ x: 22, y: 19, w: 1015, h: 40, at: 4 }]} />
+    <T y={520} size={70} style={rise(lf, 6)}>More subways in the morning</T>
   </>) },
   { at: "Police often escort", sfx: "pop", face: "happy", r: ({ lf, dur }) => (<>
     <Source text={AP} />
@@ -128,13 +143,32 @@ const B: Beat[] = [
   </>) },
   { at: "And during the English listening", sfx: "whoosh", face: "shock", r: ({ lf, dur, at }) => (<>
     <Source text={JO} />
-    <Shot lf={lf} dur={dur} {...W24("jo-flight", 190)} y={200} marks={[{ x: 167, y: 73, w: 970, h: 40, at: at("not allowed") }]} />
+    <Shot lf={lf} dur={dur} {...W24("jo-flight", 190)} y={200} marks={[{ x: 167, y: 73, w: 970, h: 40, at: at("not allowed") }, { x: 22, y: 127, w: 1403, h: 40, at: at("Military drills") }]} />
     <Plane lf={lf} stop={4} x={700} y={560} />
     <Stamp lf={lf} d={at("take off or land")} text="NO TAKEOFFS" x={1100} y={600} rot={-6} size={70} color={RED} />
   </>) },
   { at: "Blip has never seen", sfx: "blip", noHost: true, r: ({ lf }) => (<>
     <Blip lf={lf} face="meh" x={680} y={160} size={560} />
     <div style={{ position: "absolute", left: 1180, top: 250, fontFamily: "Pretendard", fontWeight: 900, fontSize: 64, color: BG, background: INK, borderRadius: 30, padding: "16px 34px", ...pop(lf, 6) }}>shhh…</div>
+  </>) },
+  { at: "The Associated Press reports", sfx: "whoosh", face: "prompt", r: ({ lf, dur, at }) => (<>
+    <Source text={AP} />
+    <Shot lf={lf} dur={dur} {...W15("ap-marriage", 108)} y={240} marks={[{ x: 1018, y: 36, w: 425, h: 34, at: at("jobs") }, { x: 0, y: 72, w: 365, h: 34, at: at("jobs") + 4 }]} />
+    <T y={540} size={66} style={rise(lf, at("which university"))}>Jobs, status, even marriage <K>can depend on it</K></T>
+  </>) },
+  { at: "So when AI cheating makes the news", sfx: "pop", face: "shock", r: ({ lf }) => (<>
+    <T y={340} size={96} center style={rise(lf)}>So AI cheating news</T>
+    <T y={470} size={96} center style={rise(lf, 6)}><K>gets everyone's attention.</K></T>
+  </>) },
+  { at: "Some lawmakers even called", sfx: "whoosh", face: "meh", r: ({ lf, dur, at }) => (<>
+    <Source text="NBC News / AP, Nov 16 2026" />
+    <Shot lf={lf} dur={dur + 150} {...W15("nbc-post", 108)} y={240} marks={[{ x: 587, y: 0, w: 711, h: 34, at: at("postponing") }]} />
+    <T y={540} size={70} style={rise(lf, at("postponing"))}>Some lawmakers: <K>postpone the exam?</K></T>
+  </>) },
+  { at: "The education minister said no", sfx: "stamp", face: "prompt", r: ({ lf, dur, at }) => (<>
+    <Source text="NBC News / AP, Nov 16 2026" />
+    <Shot lf={lf + 150} dur={dur + 150} {...W15("nbc-post", 108)} y={240} d={-999} marks={[{ x: 587, y: 0, w: 711, h: 34, at: -999 }, { x: 1158, y: 36, w: 302, h: 34, at: 150 + at("larger disruption") }]} />
+    <Stamp lf={lf} d={at("said no")} text="NO DELAY" x={560} y={540} rot={-6} size={110} color={RED} />
   </>) },
   { at: "This year the new rules", sfx: "stamp", face: "prompt", r: ({ lf }) => (<>
     <T y={300} size={80} center color={DIM} style={rise(lf)}>This year's new rules</T>
@@ -145,6 +179,17 @@ const B: Beat[] = [
     <Shot lf={lf} dur={dur + 90} {...W15("ap-glasses", 74)} y={300} marks={[{ x: 490, y: 0, w: 418, h: 34, at: at("glasses") }, { x: 970, y: 0, w: 454, h: 34, at: at("shirt buttons") }]} />
     <T y={560} size={70} style={rise(lf, at("glasses"))}>Every pair of glasses: <K>inspected</K></T>
     <T y={670} size={70} style={rise(lf, at("shirt buttons"))}>Shirt buttons: <K>covered with stickers</K></T>
+  </>) },
+  { at: "Proctors will also use", sfx: "pop", face: "shock", r: ({ lf, dur, at }) => (<>
+    <Source text={AP} />
+    <Shot lf={lf} dur={dur} {...W15("ap-ban", 182)} y={200} marks={[{ x: 1196, y: 0, w: 235, h: 34, at: at("metal detectors") }, { x: 0, y: 36, w: 406, h: 34, at: at("metal detectors") + 4 }]} />
+    <T y={560} size={70} style={rise(lf, at("metal detectors"))}>Acting suspicious? <K>Metal detector.</K></T>
+  </>) },
+  { at: "Phones smart glasses", sfx: "pop", face: "meh", r: ({ lf, dur, at }) => (<>
+    <Source text={AP} />
+    <Shot lf={lf} dur={dur} {...W15("ap-devices", 108)} y={220} marks={[{ x: 909, y: 0, w: 481, h: 34, at: 4 }, { x: 0, y: 36, w: 474, h: 34, at: 8 }, { x: 124, y: 72, w: 475, h: 34, at: at("even if") }]} />
+    <T y={520} size={66} style={rise(lf, at("handed in"))}>Every device: <K>handed in</K></T>
+    <T y={620} size={56} color={DIM} style={rise(lf, at("even if"))}>Not handing it in = cheating, even if never used</T>
   </>) },
   { at: "About eight thousand", sfx: "pop", face: "happy", r: ({ lf, dur }) => (<>
     <Source text={AP} />
@@ -159,21 +204,43 @@ const B: Beat[] = [
     <T x={620} y={560} size={70} style={rise(lf, at("buzz"))}>~10 seconds of buzzing</T>
     <T x={620} y={660} size={50} color={DIM} style={rise(lf, at("expose hidden"))}>to expose hidden devices</T>
   </>) },
+  { at: "The president also told", sfx: "pop", face: "shock", r: ({ lf, dur, at }) => (<>
+    <Source text={AP} />
+    <Shot lf={lf} dur={dur} {...W15("ap-pres", 108)} y={220} marks={[{ x: 509, y: 72, w: 714, h: 34, at: at("unpredictable") }]} />
+    <T y={520} size={70} style={rise(lf, at("unpredictable"))}>More alerts, <K>at unpredictable times?</K></T>
+  </>) },
   { at: "The prime minister said", sfx: "stamp", face: "shock", r: ({ lf, dur, at }) => (<>
     <Source text={AP} />
     <Shot lf={lf} dur={dur} {...W15("ap-ban", 182)} y={150} marks={[{ x: 0, y: 72, w: 398, h: 34, at: at("one year to ten") }]} />
     <T y={520} size={180} center style={pop(lf, at("to ten"), 0.5)}>1 → <K>10</K> years</T>
     <T y={740} size={50} center color={DIM} style={rise(lf, at("to ten"))}>exam ban for cheaters</T>
   </>) },
+  { at: "College students retaking", sfx: "pop", face: "shock", r: ({ lf, dur, at }) => (<>
+    <Source text={AP} />
+    <Shot lf={lf} dur={dur} {...W15("ap-ban", 182)} y={200} marks={[{ x: 0, y: 72, w: 398, h: 34, at: -999 }, { x: 1347, y: 72, w: 108, h: 34, at: at("expelled") }, { x: 0, y: 108, w: 331, h: 34, at: at("expelled") + 3 }]} />
+    <T y={560} size={66} style={rise(lf, at("expelled"))}>Caught while retaking? <K>Expelled</K> from current school</T>
+  </>) },
   { at: "She also said companies", sfx: "pop", face: "prompt", r: ({ lf, dur, at }) => (<>
     <Source text={AP} />
     <Shot lf={lf} dur={dur} {...W15("ap-ai", 74)} y={300} marks={[{ x: 995, y: 0, w: 442, h: 34, at: at("agreed") }, { x: 0, y: 36, w: 255, h: 34, at: at("agreed") + 4 }]} />
     <T y={560} size={66} style={rise(lf, at("agreed"))}>AI chatbot companies: <K>will help investigate</K></T>
   </>) },
+  { at: "Is it too much", sfx: "whoosh", face: "meh", r: ({ lf, dur, at }) => (<>
+    <Source text={AP} />
+    <T y={160} size={80} style={rise(lf)}>Is it too much?</T>
+    <Shot lf={lf} dur={dur} {...W15("ap-vice", 36)} y={320} marks={[{ x: 312, y: 0, w: 632, h: 34, at: at("excessive measures") }]} />
+    <T y={500} size={60} style={rise(lf, at("we believe"))}>Vice education minister:</T>
+    <T y={590} size={70} style={rise(lf, at("excessive measures"))}><K>"Excessive measures are necessary."</K></T>
+  </>) },
   { at: "And this isn't the first warning", sfx: "whoosh", face: "meh", r: ({ lf, dur, at }) => (<>
     <Source text="The Star / The Korea Herald (ANN), Jun 10 2026" />
     <Shot lf={lf} dur={dur} {...W15("st-first", 110)} y={260} marks={[{ x: 970, y: 36, w: 488, h: 34, at: at("first cheating cases") }, { x: 0, y: 72, w: 96, h: 34, at: at("first cheating cases") + 4 }]} />
     <T y={560} size={66} style={rise(lf, at("TOEIC"))}>June 2026: AI smart glasses on the <K>TOEIC</K></T>
+  </>) },
+  { at: "In October smart glasses", sfx: "pop", face: "meh", r: ({ lf, dur, at }) => (<>
+    <Source text="Associated Press (via ABC News), Nov 17 2026 (name redacted)" />
+    <Shot lf={lf} dur={dur} {...W15("ap-oct-r", 144)} y={220} marks={[{ x: 1185, y: 72, w: 295, h: 34, at: at("university essay") }, { x: 0, y: 108, w: 134, h: 34, at: at("university essay") + 3 }]} />
+    <T y={560} size={66} style={rise(lf, at("university essay"))}>October: smart glasses on <K>university exams</K></T>
   </>) },
   { at: "Checks at the door", sfx: "pop", face: "meh", r: ({ lf }) => (<>
     <div style={{ position: "absolute", left: 260, top: 220, width: 360, height: 560, borderRadius: 16, border: `10px solid ${INK}`, ...pop(lf) }}>

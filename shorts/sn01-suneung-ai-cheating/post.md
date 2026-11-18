@@ -1,4 +1,4 @@
-# Blip Check: Suneung vs AI cheating (16:9, ~1:47) + Shorts
+# Blip Check: Suneung vs AI cheating (16:9, ~2:54) + Shorts (~0:31)
 
 ## Fact check log (done before production, Nov 18 2026)
 
@@ -16,6 +16,16 @@
 | Exam ban extended from 1 year to 10 (prime minister) | AP Nov 17 | first draft said 3 years (an earlier ministry plan, Al Jazeera) |
 | AI chatbot companies agreed to help post-exam investigations | AP Nov 17 | |
 | June: first AI smart-glasses cheating cases, on the TOEIC | The Star / Korea Herald, Jun 10 2026 | |
+| Probe could expand to other national exams | JoongAng Daily Nov 16 | |
+| Exam runs 8:40 a.m. to 5:45 p.m.; more Seoul subways 6 to 8:10 a.m.; artillery and tank drills paused | JoongAng Daily / Yonhap Oct 20 | |
+| Jobs, social standing, even marriage prospects can depend on the university | AP Nov 17 (attributed to AP in narration) | |
+| Some lawmakers called to postpone; education minister refused, citing "even a larger disruption" | NBC / AP Nov 16 | |
+| Metal detectors for test-takers who act suspiciously | AP Nov 17 | |
+| All devices with cameras must be handed in; not handing in counts as cheating even if unused | AP Nov 17 | |
+| President told officials to consider more alerts at unpredictable times | AP Nov 17 | |
+| College students retaking who cheat will be expelled from current schools | AP Nov 17 | |
+| Vice education minister: "we are in a situation where excessive measures are necessary" | AP Nov 17 | quoted exactly |
+| October: smart glasses caught on some university essay exams | AP Nov 17 | test-taker's full name redacted in capture |
 
 ## Title
 
@@ -31,13 +41,14 @@ Alternatives:
 On Suneung day, South Korea stops planes. This year it is also fighting AI cheating.
 
 What happened: the top scorer on Korea's national tax accountant exam admitted he cheated using AI. Police are investigating.
-What changed for the Suneung: glasses inspected, shirt buttons covered with stickers, about 8,400 extra supervisors, an emergency alert to expose hidden devices, and a longer exam ban for cheaters.
+What changed for the Suneung: glasses inspected, shirt buttons covered with stickers, metal detectors for suspicious behavior, about 8,400 extra supervisors, an emergency alert to expose hidden devices, and a much longer exam ban for cheaters.
 
 0:00 Exam day
 0:12 It started with a different exam
-0:33 How big is Suneung day
-0:46 The new rules vs AI
-1:23 The bigger question
+0:44 How big is Suneung day
+1:30 The new rules vs AI
+2:21 Is it too much?
+2:39 The bigger question
 
 Sources shown on screen: Associated Press, Korea JoongAng Daily, Yonhap, Seoul Economic Daily, NBC News, Al Jazeera, The Star.
 Personal details of the person under investigation are redacted.
@@ -49,7 +60,7 @@ Not affiliated with any company or agency mentioned. Narrated with an AI voice.
 #Suneung #SouthKorea #AI
 ```
 
-(Check the chapter times against the final render before posting.)
+(Chapter times computed from the final narration timings.)
 
 ## Tags
 
