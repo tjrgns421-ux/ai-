@@ -349,13 +349,21 @@ const B: Beat[] = [
       </div>
     ))}
   </>) },
-  { at: "The catch there are hundreds", face: "meh", sfx: "pop", r: ({ lf, at }) => (<>
-    <T y={140} size={64} style={rise(lf)}>Hundreds of tests…</T>
-    {Array.from({ length: 40 }).map((_, i) => (
-      <div key={i} style={{ position: "absolute", left: 140 + (i % 10) * 165, top: 260 + Math.floor(i / 10) * 140, width: 140, height: 110, borderRadius: 10, background: i === 13 ? LIME : "rgba(255,255,255,0.12)", ...pop(lf, i * 0.6), scale: String(i === 13 && lf > at("every company") ? 1.25 : 1) }} />
-    ))}
-    <T y={850} size={50} color={LIME} style={rise(lf, at("every company"))}>…the company picks which ones go in the launch post.</T>
-  </>) },
+  { at: "The catch there are hundreds", face: "meh", sfx: "pop", r: ({ lf, at }) => {
+    const sw = at("every company");
+    if (lf >= sw) return (<>
+      <Source text="OpenAI launch chart, via R&D World (Nov 17 2026)" />
+      <T y={110} size={50} color={LIME} style={rise(lf, sw)}>…the company picks which ones go in the launch post.</T>
+      <Shot lf={lf - sw} dur={80} src="bc01/c-vals.png" w={1484} h={1176} scale={0.52} x={560} y={200} />
+      <Label lf={lf} d={sw + 6} text="EXAMPLE: OPENAI'S OWN CHART" x={590} y={850} />
+    </>);
+    return (<>
+      <T y={140} size={64} style={rise(lf)}>Hundreds of tests…</T>
+      {Array.from({ length: 40 }).map((_, i) => (
+        <div key={i} style={{ position: "absolute", left: 140 + (i % 10) * 165, top: 260 + Math.floor(i / 10) * 140, width: 140, height: 110, borderRadius: 10, background: i === 13 ? LIME : "rgba(255,255,255,0.12)", ...pop(lf, i * 0.6) }} />
+      ))}
+    </>);
+  } },
   { at: "It's like bringing home", face: "happy", sfx: "pop", r: ({ lf, at }) => (<>
     <Report lf={lf} d={0} x={180} y={300} rot={-6} grade="C" label="Test #41" dim />
     <Report lf={lf} d={4} x={420} y={280} rot={3} grade="A" label="the one shown" />
