@@ -8,6 +8,7 @@ import { Ep01Full, EP01_DURATION } from "./ep01/Ep01";
 import { Ep02Full, EP02_DURATION } from "./ep02/Ep02";
 import { En01Full, EN01_DURATION } from "./en01/En01";
 import { BlipAvatar, BlipBanner } from "./brand/Brand";
+import { Bc01Board } from "./bc01/Board";
 import { MascotSheet } from "./mascot/Mascots";
 import { PromptMascot } from "./mascot/Prompt";
 
@@ -35,6 +36,9 @@ export const RemotionRoot: React.FC = () => {
           height={1920}
           defaultProps={{ concept: "cursor" as const, mood: "happy" as const }}
         />
+      </Folder>
+      <Folder name="Bc01">
+        <Composition id="Bc01Board" component={Bc01Board} durationInFrames={1} fps={30} width={1920} height={1080} defaultProps={{ frame: 1 }} />
       </Folder>
       <Folder name="Brand">
         <Composition id="BlipAvatar" component={BlipAvatar} durationInFrames={1} fps={30} width={800} height={800} />
