@@ -174,3 +174,17 @@ stuck ("이건 좀 어려운데") or wish it were easier ("이렇게 해주면 �
   one the original tool never meant to do, so it's an add-on, not a takedown.
 - **Build the proof by running the resource for real** (ep02: real news via
   RSS → the prompt's blog-idea step → a real Morning Paper render).
+
+## 10. English channel (decided 2026-11-18)
+
+- Overseas channel in **English**; scripts are written in English from
+  scratch, not translated.
+- Host name in English: **Blip** (same ">_" mascot; "Blip" = a small blinking
+  signal, matches the blinking cursor face). Avoid "Pupu"/"PP" (reads as
+  "poo-poo"/"pee-pee" in English).
+- Series formats: **Blip's 1-Minute Basics** (45–60 s, one concept), **Blip
+  Tests** (install a skill/tool, verdict ✅/⚠️/❌ + fix), **Comparisons**
+  (same task, two tools). Rotate formats.
+- YouTube has no DMs and Shorts links aren't clickable: CTA = follow, or the
+  free resource via channel link / related long video.
+- Scenes that are not real captures are labeled "illustration".
