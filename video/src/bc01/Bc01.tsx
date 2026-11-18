@@ -413,9 +413,9 @@ const B: Beat[] = [
   { at: "Sol about a dollar", face: "prompt", r: ({ lf, at }) => (<>
     <Source text={AA} />
     <T y={120} size={56} color={DIM} style={rise(lf)}>Cost per task</T>
-    <Bar lf={lf} d={0} label="GPT-6.2 Sol" value={1.01} max={26.54} x={140} y={240} color={LIME} fmt={(v) => `$${v.toFixed(2)}`} len={1300} />
-    <Bar lf={lf} d={at("Astra four dollars")} label="GPT-6.2 Astra" value={4.0} max={26.54} x={140} y={440} color={LIME} fmt={(v) => `$${v.toFixed(2)}`} len={1300} />
-    <Bar lf={lf} d={at("Fable 5.2 twenty")} label="Claude Fable 5.2" value={26.54} max={26.54} x={140} y={640} color={RED} fmt={(v) => `$${v.toFixed(2)}`} len={1300} />
+    <Bar lf={lf} d={0} label="GPT-6.2 Sol" value={1.01} max={26.54} x={140} y={240} color={LIME} fmt={(v) => `$${v.toFixed(2)}`} len={1100} />
+    <Bar lf={lf} d={at("Astra four dollars")} label="GPT-6.2 Astra" value={4.0} max={26.54} x={140} y={440} color={LIME} fmt={(v) => `$${v.toFixed(2)}`} len={1100} />
+    <Bar lf={lf} d={at("Fable 5.2 twenty")} label="Claude Fable 5.2" value={26.54} max={26.54} x={140} y={640} color={RED} fmt={(v) => `$${v.toFixed(2)}`} len={1100} />
   </>) },
   { at: "So here Astra costs about fifteen", face: "happy", sfx: "pop", r: ({ lf, at }) => {
     const sw = at("But still");
