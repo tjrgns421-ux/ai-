@@ -269,17 +269,20 @@ def group_lines(words, preset="punch", max_syl=None):
 def tighten_audio(mp3, words, max_gap, lead=0.05, tail=0.35):
     """Cut silences between words down to max_gap (like a jump-cut edit).
     Returns words with shifted timings. Cuts happen in the middle of each gap."""
-    if not words:
+    # Punctuation boundaries (English voices send "," "." as timed tokens) cover
+    # silence, so measure gaps between spoken words only.
+    spoken = [w for w in words if any(ch.isalnum() for ch in w["text"])]
+    if not spoken:
         return words
     keep = []  # (start, end) in original time
-    cur = max(0.0, words[0]["start"] - lead)
-    for i in range(1, len(words)):
-        g0, g1 = words[i - 1]["end"], words[i]["start"]
+    cur = max(0.0, spoken[0]["start"] - lead)
+    for i in range(1, len(spoken)):
+        g0, g1 = spoken[i - 1]["end"], spoken[i]["start"]
         if g1 - g0 > max_gap:
-            mid = (g0 + g1) / 2
-            keep.append((cur, mid - max_gap / 2))
-            cur = mid + max_gap / 2
-    keep.append((cur, words[-1]["end"] + tail))
+            # keep max_gap of the silence (half on each side), drop the rest
+            keep.append((cur, g0 + max_gap / 2))
+            cur = g1 - max_gap / 2
+    keep.append((cur, spoken[-1]["end"] + tail))
 
     def shift(t):
         out, acc = 0.0, 0.0
