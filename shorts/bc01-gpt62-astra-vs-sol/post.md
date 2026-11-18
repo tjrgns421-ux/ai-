@@ -8,7 +8,35 @@ Alternatives:
 - GPT-6.2 "Beats Claude at 5% of the Cost"? Half True.
 - GPT-6.2 Astra vs Sol: Which One Should You Actually Use?
 
-## Description
+## Description (version that YouTube accepted)
+
+The full version below was rejected by YouTube Studio; this short version with no links,
+emoji or "&" saved fine. Add source links later one at a time (or in the pinned comment).
+
+```
+OpenAI says GPT-6.2 Astra beats Claude at 5% of the cost. Blip checked the receipts.
+
+Verdict: HALF TRUE.
+Cheaper: real. Beats Claude: on one benchmark OpenAI picked, not on the independent index.
+For most people: start with Sol. Switch to Astra for slides, spreadsheets and pro docs.
+
+0:00 The claim
+0:15 What dropped: Astra vs Sol
+1:20 Price
+1:35 The quiet part: Sol on coding
+1:53 What a benchmark is
+2:29 Independent check
+3:02 Which one should you use
+3:23 Verdict
+
+Sources shown on screen: OpenAI pricing page, SiliconANGLE, Artificial Analysis, R and D World, Tech Times, Decrypt.
+
+Not affiliated with OpenAI, Anthropic, or Google. Narrated with an AI voice.
+
+#GPT62 #ChatGPT #Claude
+```
+
+## Description (full, with links: rejected as-is)
 
 ```
 OpenAI says GPT-6.2 Astra beats Claude at 5% of the cost. Blip checked the receipts.
