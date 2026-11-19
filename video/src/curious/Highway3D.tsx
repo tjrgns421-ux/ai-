@@ -18,7 +18,7 @@ const rnd = (i: number) => {
   return s - Math.floor(s);
 };
 
-export const Scenery: React.FC = () => {
+export const Scenery: React.FC<{ clearNear?: boolean }> = ({ clearNear = false }) => {
   const trees = useMemo(() => Array.from({ length: 220 }, (_, i) => ({ x: -520 + rnd(i) * 1040, z: (i % 2 ? 1 : -1) * (16 + rnd(i + 5) * 70), s: 0.9 + rnd(i + 9) * 1.1, c: ["#3FAE5A", "#4CC26A", "#2F9A4E"][i % 3] })), []);
   const dashes = useMemo(() => Array.from({ length: 84 }, (_, i) => -500 + i * 12), []);
   return (
@@ -51,7 +51,7 @@ export const Scenery: React.FC = () => {
           <meshStandardMaterial color="#C9CED8" metalness={0.4} roughness={0.4} />
         </mesh>
       ))}
-      {trees.map((t, i) => (
+      {trees.map((t, i) => clearNear && t.z > 0 ? null : (
         <group key={i} position={[t.x, 0, t.z]} scale={t.s}>
           <mesh position={[0, 1.1, 0]}>
             <cylinderGeometry args={[0.25, 0.35, 2.2, 6]} />

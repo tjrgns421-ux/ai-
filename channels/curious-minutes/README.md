@@ -24,3 +24,20 @@ Why this channel: the niche scan (`research/2026-11-19-findings.md`) put science
 | 5 | Every Type of Lightning Explained in 10 Minutes | RED SPRITES? | — | NOAA NSSL |
 
 Dropped: "24-HOUR DAYS?" for ep 4 (scored 98 but misleading: day length would not change right away).
+
+## Channel setup (YouTube)
+| field | value |
+|---|---|
+| name | Curious Minutes |
+| handle | @CuriousMinutes (fallbacks in order: @CuriousMinutesTV, @CuriousMinutesSci, @TheCuriousMinutes) |
+| category | Science & Technology |
+| language / country | English / (leave country unset or pick the user's) |
+
+Description:
+> Big questions, answered with real science. Why do traffic jams appear out of nowhere? What would happen if the Moon disappeared?
+> Every video recreates the idea in 3D and shows its sources on screen: papers, agencies, real experiments.
+> Simulations and "what if" estimates are always labeled as such.
+> New videos every week. Stay curious.
+
+Channel keywords (YouTube Studio > Settings > Channel > Keywords):
+science, science explained, physics, how things work, curious, what if, explained, science documentary, 3d animation, simulation, traffic science, space, earth science, weather, engineering, education, fun facts, why does, science questions, "Curious Minutes"
