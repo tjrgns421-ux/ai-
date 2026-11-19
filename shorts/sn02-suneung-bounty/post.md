@@ -38,15 +38,15 @@ Post on **Nov 19 2026 (KST)**: the script says "today" for the exam day.
 
 Not used: the LEET top scorer story (an individual under allegations; a missing-person report was in the news on Nov 19).
 
-## Title
+## Title and thumbnail (linted with yt-package)
 
-**Korea Will Pay $75,000 to Catch One Exam Cheater. How Much Is Real?** (recommended)
+**Long-form:** `Korea's Exam Cheaters Could Face a 10-Year Ban` + thumbnail **THEY PAY $75,000?** (`thumbnail.png`)
+- title and thumbnail carry different hooks (ban vs money); "could" and the question mark keep both accurate
 
-Alternatives:
-- Korea's $75,000 Cheating Bounty, Explained
-- Cheat on This Exam, Get Banned for 10 Years? What's Real So Far
+**Shorts:** `Korea Wants to Pay $75,000 for One Cheating Tip` + cover **THEY PAY $75,000?** (`shorts-cover.png`, 9:16)
 
-Shorts: **Korea Will Pay $75,000 for One Cheating Tip**
+Earlier pairing "Korea Will Pay $75,000 to Catch One Exam Cheater. How Much Is Real?" + a 13-word thumbnail scored 52/100
+(title over 60 characters, thumbnail repeating the title).
 
 ## Description (same format YouTube accepted for sn01: no links, no emoji, no ampersand)
 
