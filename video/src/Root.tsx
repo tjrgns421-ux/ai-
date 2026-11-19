@@ -11,6 +11,7 @@ import { BlipAvatar, BlipAvatarKR, BlipBanner, BlipBannerKR } from "./brand/Bran
 import { CuriousStill, SproutStill } from "./mascot/Curious";
 import { CmEp01Thumb } from "./curious/Ep01Thumb";
 import { CmRingPreview, RING_PREVIEW_FRAMES } from "./curious/RingSim";
+import { CmRing3D, RING3D_FRAMES } from "./curious/Ring3D";
 import { Bc01Board } from "./bc01/Board";
 import { BlipStill } from "./bc01/BlipStill";
 import { Bc01Full, BC01_DURATION } from "./bc01/Bc01";
@@ -71,6 +72,7 @@ export const RemotionRoot: React.FC = () => {
         <Composition id="BlipStill" component={BlipStill} durationInFrames={1} fps={30} width={800} height={800} defaultProps={{ pose: { face: "prompt" as const } }} />
       </Folder>
       <Folder name="Brand">
+        <Composition id="CmRing3D" component={CmRing3D} durationInFrames={RING3D_FRAMES} fps={30} width={1920} height={1080} />
         <Composition id="CmRingPreview" component={CmRingPreview} durationInFrames={RING_PREVIEW_FRAMES} fps={30} width={1920} height={1080} />
         <Composition id="CmEp01Thumb" component={CmEp01Thumb} durationInFrames={1} fps={30} width={1280} height={720} />
         <Composition id="SproutStill" component={SproutStill} durationInFrames={1} fps={30} width={800} height={800} defaultProps={{ pose: { face: "happy" as const } }} />
