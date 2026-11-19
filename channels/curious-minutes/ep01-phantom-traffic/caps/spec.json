@@ -1,0 +1,9 @@
+[
+ {"name":"sugiyama","url":"https://iopscience.iop.org/article/10.1088/1367-2630/10/3/033001","find":"a bottleneck is only a trigger","until":"traffic jam","marks":["a bottleneck is only a trigger and not the essential origin of a traffic jam"]},
+ {"name":"mit2009","url":"https://news.mit.edu/2009/traffic-0609","find":"jamitons","marks":["jamitons"]},
+ {"name":"stern","url":"https://arxiv.org/abs/1705.01693v1","find":"Abstract","until":"5%","marks":["5%"]},
+ {"name":"review","url":"https://arxiv.org/html/2504.11372v2","find":"propagate against the traffic direction","until":"km/h","marks":["propagate against the traffic direction at a speed of 10"]},
+ {"name":"fhwa","url":"https://www.fhwa.dot.gov/publications/research/safety/06033/appendixa.cfm","find":"Perceptual-motor reaction time for emergency","until":"0.70","marks":["0.70"]},
+ {"name":"csail","url":"https://www.csail.mit.edu/news/improving-traffic-tailgating-less","find":"twice as quickly","marks":["twice as quickly"]},
+ {"name":"osti","url":"https://www.osti.gov/biblio/2341544","find":"single vehicle","until":"oscillations","marks":["regularized"]}
+]

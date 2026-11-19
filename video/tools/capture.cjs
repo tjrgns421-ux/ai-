@@ -21,7 +21,13 @@ const path = require("path");
   let current = "";
   for (const s of spec) {
     if (s.url !== current) {
-      await page.goto(s.url, { waitUntil: "domcontentloaded", timeout: 60000 });
+      try {
+        await page.goto(s.url, { waitUntil: "domcontentloaded", timeout: 60000 });
+      } catch (e) {
+        console.log(`SKIP ${s.name}: ${String(e.message).split("\n")[0]}`);
+        current = "";
+        continue;
+      }
       await page.waitForTimeout(2500);
       current = s.url;
     }
