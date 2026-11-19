@@ -8,7 +8,7 @@ import { AbsoluteFill } from "remotion";
 //  B "Flask" — a round-bottom lab flask with glowing liquid
 //  C "Atom"  — a round nucleus with orbiting electrons
 
-export type CuriousVariant = "orbi" | "flask" | "atom";
+export type CuriousVariant = "orbi" | "flask" | "atom" | "bulb" | "curl" | "sprout";
 
 const Toy: React.FC<{ color: string; rough?: number; children: React.ReactNode } & React.ComponentProps<"mesh">> = ({ color, rough = 0.35, children, ...p }) => (
   <mesh castShadow receiveShadow {...p}>
@@ -145,6 +145,108 @@ const Atom: React.FC = () => (
   </group>
 );
 
+// ---- round 2: cuter, not tied to one field (symbols of curiosity) ----
+// big sparkly eyes, wide squishy body, pastel, short limbs
+const CuteFace: React.FC<{ z: number; y?: number }> = ({ z, y = 0 }) => (
+  <group position={[0, y, z]}>
+    {[-1, 1].map((s) => (
+      <group key={s} position={[s * 0.27, 0.06, 0]}>
+        <mesh scale={[0.13, 0.155, 0.06]}>
+          <sphereGeometry args={[1, 28, 28]} />
+          <meshPhysicalMaterial color="#17181F" roughness={0.08} clearcoat={1} />
+        </mesh>
+        <mesh position={[0.04, 0.06, 0.055]} scale={0.042}>
+          <sphereGeometry args={[1, 12, 12]} />
+          <meshStandardMaterial color="#ffffff" emissive="#ffffff" emissiveIntensity={1} />
+        </mesh>
+        <mesh position={[-0.035, -0.05, 0.055]} scale={0.02}>
+          <sphereGeometry args={[1, 10, 10]} />
+          <meshStandardMaterial color="#ffffff" emissive="#ffffff" emissiveIntensity={1} />
+        </mesh>
+      </group>
+    ))}
+    <mesh position={[0, -0.12, 0.02]} rotation={[0, 0, Math.PI]} scale={[1, 0.8, 1]}>
+      <torusGeometry args={[0.05, 0.018, 12, 24, Math.PI]} />
+      <meshStandardMaterial color="#17181F" />
+    </mesh>
+    {[-1, 1].map((s) => (
+      <mesh key={`c${s}`} position={[s * 0.46, -0.1, -0.03]} scale={[0.09, 0.05, 0.02]}>
+        <sphereGeometry args={[1, 16, 16]} />
+        <meshStandardMaterial color="#FF8FA3" emissive="#FF6F8A" emissiveIntensity={0.35} />
+      </mesh>
+    ))}
+  </group>
+);
+
+const Nubs: React.FC<{ color: string }> = ({ color }) => (
+  <>
+    {[-1, 1].map((s) => (
+      <Toy key={s} color={color} position={[s * 0.8, 0.22, 0.1]} rotation={[0, 0, s * 0.5]} scale={[0.75, 1, 0.75]}>
+        <sphereGeometry args={[0.14, 20, 20]} />
+      </Toy>
+    ))}
+    {[-1, 1].map((s) => (
+      <Toy key={`f${s}`} color={color} rough={0.45} position={[s * 0.3, -0.22, 0.15]} scale={[1.1, 0.6, 1.2]}>
+        <sphereGeometry args={[0.14, 20, 20]} />
+      </Toy>
+    ))}
+  </>
+);
+
+const CuteBody: React.FC<{ color: string; children?: React.ReactNode }> = ({ color, children }) => (
+  <group>
+    <Toy color={color} rough={0.5} position={[0, 0.4, 0]} scale={[1.12, 0.92, 1]}>
+      <sphereGeometry args={[0.72, 48, 48]} />
+    </Toy>
+    <CuteFace z={0.68} y={0.38} />
+    <Nubs color={color} />
+    {children}
+  </group>
+);
+
+// D "Bulb": an idea lightbulb on its antenna
+const Bulb: React.FC = () => (
+  <CuteBody color="#9EE6D2">
+    <Toy color="#2A2D36" position={[0.05, 1.18, 0]} rotation={[0, 0, -0.15]}>
+      <cylinderGeometry args={[0.025, 0.025, 0.36, 12]} />
+    </Toy>
+    <mesh position={[0.1, 1.45, 0]}>
+      <sphereGeometry args={[0.16, 28, 28]} />
+      <meshStandardMaterial color="#FFE27A" emissive="#FFD23F" emissiveIntensity={1.1} />
+    </mesh>
+    <Toy color="#C9CED8" position={[0.08, 1.3, 0]}>
+      <cylinderGeometry args={[0.07, 0.07, 0.08, 16]} />
+    </Toy>
+  </CuteBody>
+);
+
+// E "Curl": a question-mark curl on top
+const Curl: React.FC = () => (
+  <CuteBody color="#FFD98A">
+    <mesh position={[0.02, 1.32, 0]} rotation={[0, 0, -0.6]}>
+      <torusGeometry args={[0.15, 0.05, 14, 32, Math.PI * 1.45]} />
+      <meshPhysicalMaterial color="#FF9F43" roughness={0.4} clearcoat={0.8} />
+    </mesh>
+    <Toy color="#FF9F43" position={[-0.05, 1.1, 0]}>
+      <sphereGeometry args={[0.055, 14, 14]} />
+    </Toy>
+  </CuteBody>
+);
+
+// F "Sprout": a tiny sprout (a growing idea) on top
+const Sprout: React.FC = () => (
+  <CuteBody color="#C8B6FF">
+    <Toy color="#3FAE5A" position={[0, 1.18, 0]}>
+      <cylinderGeometry args={[0.025, 0.03, 0.22, 10]} />
+    </Toy>
+    {[-1, 1].map((s) => (
+      <Toy key={s} color="#5BD68A" position={[s * 0.13, 1.3, 0]} rotation={[0, 0, s * -0.7]} scale={[1.6, 0.55, 0.5]}>
+        <sphereGeometry args={[0.1, 18, 18]} />
+      </Toy>
+    ))}
+  </CuteBody>
+);
+
 export const CuriousStage: React.FC<{ width: number; height: number; v: CuriousVariant; rotY?: number }> = ({ width, height, v, rotY = -0.3 }) => (
   <ThreeCanvas width={width} height={height} shadows camera={{ position: [0, 0.9, 6.2], fov: 30 }} gl={{ antialias: true, alpha: true }}>
     <hemisphereLight args={["#ffffff", "#30343a", 0.9]} />
@@ -152,7 +254,7 @@ export const CuriousStage: React.FC<{ width: number; height: number; v: CuriousV
     <directionalLight position={[-5, 3, -4]} intensity={2.0} color="#CFE6FF" />
     <pointLight position={[0, 1, 4]} intensity={5} distance={10} color="#ffffff" />
     <group position={[0, -0.35, 0]} rotation={[0.05, rotY, 0.04]}>
-      {v === "orbi" ? <Orbi /> : v === "flask" ? <Flask /> : <Atom />}
+      {v === "orbi" ? <Orbi /> : v === "flask" ? <Flask /> : v === "atom" ? <Atom /> : v === "bulb" ? <Bulb /> : v === "curl" ? <Curl /> : <Sprout />}
     </group>
     <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -0.72, 0]} receiveShadow>
       <planeGeometry args={[12, 12]} />
