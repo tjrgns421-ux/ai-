@@ -1,0 +1,1304 @@
+[
+ {
+  "text": "South",
+  "start": 0.05,
+  "end": 0.293,
+  "display": "South",
+  "break": false
+ },
+ {
+  "text": "Korea",
+  "start": 0.293,
+  "end": 0.663,
+  "display": "Korea",
+  "break": false
+ },
+ {
+  "text": "will",
+  "start": 0.675,
+  "end": 0.813,
+  "display": "will",
+  "break": false
+ },
+ {
+  "text": "pay",
+  "start": 0.814,
+  "end": 1.126,
+  "display": "pay",
+  "break": false
+ },
+ {
+  "text": "up",
+  "start": 1.138,
+  "end": 1.288,
+  "display": "up",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 1.3,
+  "end": 1.392,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "seventy-five",
+  "start": 1.508,
+  "end": 2.202,
+  "display": "seventy-five",
+  "break": false
+ },
+ {
+  "text": "thousand",
+  "start": 2.214,
+  "end": 2.596,
+  "display": "thousand",
+  "break": false
+ },
+ {
+  "text": "dollars",
+  "start": 2.596,
+  "end": 2.943,
+  "display": "dollars",
+  "break": false
+ },
+ {
+  "text": "for",
+  "start": 3.063,
+  "end": 3.26,
+  "display": "for",
+  "break": false
+ },
+ {
+  "text": "one",
+  "start": 3.26,
+  "end": 3.584,
+  "display": "one",
+  "break": false
+ },
+ {
+  "text": "tip",
+  "start": 3.584,
+  "end": 3.908,
+  "display": "tip",
+  "break": false
+ },
+ {
+  "text": "about",
+  "start": 4.028,
+  "end": 4.317,
+  "display": "about",
+  "break": false
+ },
+ {
+  "text": "cheating",
+  "start": 4.328,
+  "end": 4.768,
+  "display": "cheating",
+  "break": false
+ },
+ {
+  "text": "on",
+  "start": 4.849,
+  "end": 5.023,
+  "display": "on",
+  "break": false
+ },
+ {
+  "text": "one",
+  "start": 5.023,
+  "end": 5.162,
+  "display": "one",
+  "break": false
+ },
+ {
+  "text": "exam",
+  "start": 5.162,
+  "end": 5.59,
+  "display": "exam.",
+  "break": true
+ },
+ {
+  "text": "And",
+  "start": 5.71,
+  "end": 5.791,
+  "display": "And",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 5.802,
+  "end": 5.849,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "cheater",
+  "start": 5.86,
+  "end": 6.346,
+  "display": "cheater",
+  "break": false
+ },
+ {
+  "text": "could",
+  "start": 6.37,
+  "end": 6.497,
+  "display": "could",
+  "break": false
+ },
+ {
+  "text": "be",
+  "start": 6.497,
+  "end": 6.613,
+  "display": "be",
+  "break": false
+ },
+ {
+  "text": "banned",
+  "start": 6.624,
+  "end": 6.971,
+  "display": "banned",
+  "break": false
+ },
+ {
+  "text": "from",
+  "start": 6.983,
+  "end": 7.099,
+  "display": "from",
+  "break": false
+ },
+ {
+  "text": "that",
+  "start": 7.099,
+  "end": 7.249,
+  "display": "that",
+  "break": false
+ },
+ {
+  "text": "exam",
+  "start": 7.249,
+  "end": 7.77,
+  "display": "exam",
+  "break": false
+ },
+ {
+  "text": "for",
+  "start": 7.89,
+  "end": 8.006,
+  "display": "for",
+  "break": false
+ },
+ {
+  "text": "ten",
+  "start": 8.006,
+  "end": 8.237,
+  "display": "ten",
+  "break": false
+ },
+ {
+  "text": "years",
+  "start": 8.237,
+  "end": 8.758,
+  "display": "years.",
+  "break": true
+ },
+ {
+  "text": "The",
+  "start": 8.878,
+  "end": 8.924,
+  "display": "The",
+  "break": false
+ },
+ {
+  "text": "exam",
+  "start": 8.924,
+  "end": 9.503,
+  "display": "exam",
+  "break": false
+ },
+ {
+  "text": "is",
+  "start": 9.584,
+  "end": 9.677,
+  "display": "is",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 9.688,
+  "end": 9.758,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "Suneung",
+  "start": 9.758,
+  "end": 10.36,
+  "display": "Suneung,",
+  "break": true
+ },
+ {
+  "text": "Korea's",
+  "start": 10.48,
+  "end": 10.851,
+  "display": "Korea's",
+  "break": false
+ },
+ {
+  "text": "college",
+  "start": 10.851,
+  "end": 11.221,
+  "display": "college",
+  "break": false
+ },
+ {
+  "text": "entrance",
+  "start": 11.291,
+  "end": 11.557,
+  "display": "entrance",
+  "break": false
+ },
+ {
+  "text": "test",
+  "start": 11.557,
+  "end": 12.008,
+  "display": "test.",
+  "break": true
+ },
+ {
+  "text": "More",
+  "start": 12.128,
+  "end": 12.278,
+  "display": "More",
+  "break": false
+ },
+ {
+  "text": "than",
+  "start": 12.29,
+  "end": 12.382,
+  "display": "than",
+  "break": false
+ },
+ {
+  "text": "five",
+  "start": 12.382,
+  "end": 12.706,
+  "display": "five",
+  "break": false
+ },
+ {
+  "text": "hundred",
+  "start": 12.706,
+  "end": 12.926,
+  "display": "hundred",
+  "break": false
+ },
+ {
+  "text": "fifty",
+  "start": 13.007,
+  "end": 13.331,
+  "display": "fifty",
+  "break": false
+ },
+ {
+  "text": "thousand",
+  "start": 13.331,
+  "end": 13.771,
+  "display": "thousand",
+  "break": false
+ },
+ {
+  "text": "people",
+  "start": 13.771,
+  "end": 14.153,
+  "display": "people",
+  "break": false
+ },
+ {
+  "text": "applied",
+  "start": 14.222,
+  "end": 14.616,
+  "display": "applied",
+  "break": false
+ },
+ {
+  "text": "this",
+  "start": 14.628,
+  "end": 14.813,
+  "display": "this",
+  "break": false
+ },
+ {
+  "text": "year",
+  "start": 14.813,
+  "end": 15.125,
+  "display": "year.",
+  "break": true
+ },
+ {
+  "text": "Planes",
+  "start": 15.245,
+  "end": 15.477,
+  "display": "Planes",
+  "break": false
+ },
+ {
+  "text": "stop",
+  "start": 15.488,
+  "end": 15.824,
+  "display": "stop",
+  "break": false
+ },
+ {
+  "text": "during",
+  "start": 15.835,
+  "end": 16.055,
+  "display": "during",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 16.055,
+  "end": 16.102,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "English",
+  "start": 16.102,
+  "end": 16.437,
+  "display": "English",
+  "break": false
+ },
+ {
+  "text": "listening",
+  "start": 16.437,
+  "end": 16.796,
+  "display": "listening",
+  "break": false
+ },
+ {
+  "text": "section",
+  "start": 16.796,
+  "end": 17.248,
+  "display": "section,",
+  "break": true
+ },
+ {
+  "text": "because",
+  "start": 17.368,
+  "end": 17.692,
+  "display": "because",
+  "break": false
+ },
+ {
+  "text": "your",
+  "start": 17.704,
+  "end": 17.808,
+  "display": "your",
+  "break": false
+ },
+ {
+  "text": "university",
+  "start": 17.82,
+  "end": 18.653,
+  "display": "university",
+  "break": false
+ },
+ {
+  "text": "can",
+  "start": 18.773,
+  "end": 18.889,
+  "display": "can",
+  "break": false
+ },
+ {
+  "text": "shape",
+  "start": 18.901,
+  "end": 19.236,
+  "display": "shape",
+  "break": false
+ },
+ {
+  "text": "your",
+  "start": 19.236,
+  "end": 19.352,
+  "display": "your",
+  "break": false
+ },
+ {
+  "text": "whole",
+  "start": 19.352,
+  "end": 19.526,
+  "display": "whole",
+  "break": false
+ },
+ {
+  "text": "career",
+  "start": 19.526,
+  "end": 20.023,
+  "display": "career.",
+  "break": true
+ },
+ {
+  "text": "So",
+  "start": 20.143,
+  "end": 20.293,
+  "display": "So",
+  "break": false
+ },
+ {
+  "text": "why",
+  "start": 20.305,
+  "end": 20.444,
+  "display": "why",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 20.444,
+  "end": 20.502,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "bounty",
+  "start": 20.502,
+  "end": 20.849,
+  "display": "bounty?",
+  "break": true
+ },
+ {
+  "text": "Days",
+  "start": 20.969,
+  "end": 21.246,
+  "display": "Days",
+  "break": false
+ },
+ {
+  "text": "before",
+  "start": 21.247,
+  "end": 21.582,
+  "display": "before",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 21.582,
+  "end": 21.628,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "exam",
+  "start": 21.628,
+  "end": 22.091,
+  "display": "exam,",
+  "break": true
+ },
+ {
+  "text": "the",
+  "start": 22.211,
+  "end": 22.304,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "top",
+  "start": 22.315,
+  "end": 22.558,
+  "display": "top",
+  "break": false
+ },
+ {
+  "text": "scorer",
+  "start": 22.57,
+  "end": 22.987,
+  "display": "scorer",
+  "break": false
+ },
+ {
+  "text": "on",
+  "start": 23.033,
+  "end": 23.195,
+  "display": "on",
+  "break": false
+ },
+ {
+  "text": "Korea's",
+  "start": 23.207,
+  "end": 23.6,
+  "display": "Korea's",
+  "break": false
+ },
+ {
+  "text": "tax",
+  "start": 23.6,
+  "end": 23.913,
+  "display": "tax",
+  "break": false
+ },
+ {
+  "text": "accountant",
+  "start": 23.924,
+  "end": 24.26,
+  "display": "accountant",
+  "break": false
+ },
+ {
+  "text": "exam",
+  "start": 24.26,
+  "end": 24.688,
+  "display": "exam",
+  "break": false
+ },
+ {
+  "text": "confessed",
+  "start": 24.688,
+  "end": 25.244,
+  "display": "confessed",
+  "break": false
+ },
+ {
+  "text": "he",
+  "start": 25.244,
+  "end": 25.336,
+  "display": "he",
+  "break": false
+ },
+ {
+  "text": "cheated",
+  "start": 25.336,
+  "end": 25.741,
+  "display": "cheated,",
+  "break": true
+ },
+ {
+  "text": "using",
+  "start": 25.861,
+  "end": 26.116,
+  "display": "using",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 26.116,
+  "end": 26.151,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "hidden",
+  "start": 26.151,
+  "end": 26.463,
+  "display": "hidden",
+  "break": false
+ },
+ {
+  "text": "camera",
+  "start": 26.475,
+  "end": 26.914,
+  "display": "camera",
+  "break": false
+ },
+ {
+  "text": "and",
+  "start": 26.926,
+  "end": 27.007,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "generative",
+  "start": 27.127,
+  "end": 27.521,
+  "display": "generative",
+  "break": false
+ },
+ {
+  "text": "AI",
+  "start": 27.532,
+  "end": 27.984,
+  "display": "AI.",
+  "break": true
+ },
+ {
+  "text": "So",
+  "start": 28.104,
+  "end": 28.266,
+  "display": "So",
+  "break": false
+ },
+ {
+  "text": "today",
+  "start": 28.266,
+  "end": 28.741,
+  "display": "today,",
+  "break": true
+ },
+ {
+  "text": "proctors",
+  "start": 28.861,
+  "end": 29.243,
+  "display": "proctors",
+  "break": false
+ },
+ {
+  "text": "checked",
+  "start": 29.243,
+  "end": 29.59,
+  "display": "checked",
+  "break": false
+ },
+ {
+  "text": "every",
+  "start": 29.71,
+  "end": 29.929,
+  "display": "every",
+  "break": false
+ },
+ {
+  "text": "pair",
+  "start": 29.941,
+  "end": 30.173,
+  "display": "pair",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 30.173,
+  "end": 30.23,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "glasses",
+  "start": 30.23,
+  "end": 30.844,
+  "display": "glasses,",
+  "break": true
+ },
+ {
+  "text": "and",
+  "start": 30.964,
+  "end": 31.126,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "covered",
+  "start": 31.138,
+  "end": 31.427,
+  "display": "covered",
+  "break": false
+ },
+ {
+  "text": "shirt",
+  "start": 31.439,
+  "end": 31.751,
+  "display": "shirt",
+  "break": false
+ },
+ {
+  "text": "buttons",
+  "start": 31.763,
+  "end": 32.11,
+  "display": "buttons",
+  "break": false
+ },
+ {
+  "text": "with",
+  "start": 32.11,
+  "end": 32.237,
+  "display": "with",
+  "break": false
+ },
+ {
+  "text": "stickers",
+  "start": 32.249,
+  "end": 32.839,
+  "display": "stickers.",
+  "break": true
+ },
+ {
+  "text": "But",
+  "start": 32.959,
+  "end": 33.017,
+  "display": "But",
+  "break": false
+ },
+ {
+  "text": "here's",
+  "start": 33.017,
+  "end": 33.295,
+  "display": "here's",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 33.306,
+  "end": 33.387,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "catch",
+  "start": 33.387,
+  "end": 33.885,
+  "display": "catch.",
+  "break": true
+ },
+ {
+  "text": "Most",
+  "start": 34.005,
+  "end": 34.202,
+  "display": "Most",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 34.202,
+  "end": 34.248,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 34.248,
+  "end": 34.283,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "new",
+  "start": 34.283,
+  "end": 34.468,
+  "display": "new",
+  "break": false
+ },
+ {
+  "text": "penalties",
+  "start": 34.468,
+  "end": 35.0,
+  "display": "penalties",
+  "break": false
+ },
+ {
+  "text": "are",
+  "start": 35.0,
+  "end": 35.151,
+  "display": "are",
+  "break": false
+ },
+ {
+  "text": "still",
+  "start": 35.151,
+  "end": 35.359,
+  "display": "still",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 35.359,
+  "end": 35.406,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "plan",
+  "start": 35.406,
+  "end": 35.764,
+  "display": "plan.",
+  "break": true
+ },
+ {
+  "text": "The",
+  "start": 35.884,
+  "end": 35.931,
+  "display": "The",
+  "break": false
+ },
+ {
+  "text": "reward",
+  "start": 35.931,
+  "end": 36.347,
+  "display": "reward",
+  "break": false
+ },
+ {
+  "text": "still",
+  "start": 36.347,
+  "end": 36.718,
+  "display": "still",
+  "break": false
+ },
+ {
+  "text": "needs",
+  "start": 36.729,
+  "end": 36.995,
+  "display": "needs",
+  "break": false
+ },
+ {
+  "text": "new",
+  "start": 36.995,
+  "end": 37.262,
+  "display": "new",
+  "break": false
+ },
+ {
+  "text": "rules",
+  "start": 37.262,
+  "end": 37.806,
+  "display": "rules.",
+  "break": true
+ },
+ {
+  "text": "The",
+  "start": 37.926,
+  "end": 37.983,
+  "display": "The",
+  "break": false
+ },
+ {
+  "text": "ten-year",
+  "start": 37.983,
+  "end": 38.296,
+  "display": "ten-year",
+  "break": false
+ },
+ {
+  "text": "ban",
+  "start": 38.296,
+  "end": 38.608,
+  "display": "ban",
+  "break": false
+ },
+ {
+  "text": "needs",
+  "start": 38.62,
+  "end": 38.828,
+  "display": "needs",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 38.828,
+  "end": 38.851,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "new",
+  "start": 38.863,
+  "end": 39.106,
+  "display": "new",
+  "break": false
+ },
+ {
+  "text": "law",
+  "start": 39.106,
+  "end": 39.523,
+  "display": "law,",
+  "break": true
+ },
+ {
+  "text": "and",
+  "start": 39.643,
+  "end": 39.724,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 39.724,
+  "end": 39.793,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "ruling",
+  "start": 39.793,
+  "end": 40.106,
+  "display": "ruling",
+  "break": false
+ },
+ {
+  "text": "party",
+  "start": 40.117,
+  "end": 40.511,
+  "display": "party",
+  "break": false
+ },
+ {
+  "text": "says",
+  "start": 40.631,
+  "end": 40.909,
+  "display": "says",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 40.909,
+  "end": 40.967,
+  "display": "it",
+  "break": false
+ },
+ {
+  "text": "will",
+  "start": 40.967,
+  "end": 41.036,
+  "display": "will",
+  "break": false
+ },
+ {
+  "text": "fast-track",
+  "start": 41.036,
+  "end": 41.719,
+  "display": "fast-track",
+  "break": false
+ },
+ {
+  "text": "one",
+  "start": 41.719,
+  "end": 41.951,
+  "display": "one.",
+  "break": true
+ },
+ {
+  "text": "From",
+  "start": 42.071,
+  "end": 42.152,
+  "display": "From",
+  "break": false
+ },
+ {
+  "text": "November",
+  "start": 42.152,
+  "end": 42.522,
+  "display": "November",
+  "break": false
+ },
+ {
+  "text": "twentieth",
+  "start": 42.522,
+  "end": 43.078,
+  "display": "twentieth,",
+  "break": true
+ },
+ {
+  "text": "a",
+  "start": 43.198,
+  "end": 43.244,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "task",
+  "start": 43.244,
+  "end": 43.591,
+  "display": "task",
+  "break": false
+ },
+ {
+  "text": "force",
+  "start": 43.591,
+  "end": 43.846,
+  "display": "force",
+  "break": false
+ },
+ {
+  "text": "led",
+  "start": 43.846,
+  "end": 44.02,
+  "display": "led",
+  "break": false
+ },
+ {
+  "text": "by",
+  "start": 44.02,
+  "end": 44.124,
+  "display": "by",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 44.124,
+  "end": 44.193,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "prime",
+  "start": 44.205,
+  "end": 44.448,
+  "display": "prime",
+  "break": false
+ },
+ {
+  "text": "minister",
+  "start": 44.448,
+  "end": 44.784,
+  "display": "minister",
+  "break": false
+ },
+ {
+  "text": "will",
+  "start": 44.795,
+  "end": 44.922,
+  "display": "will",
+  "break": false
+ },
+ {
+  "text": "work",
+  "start": 44.922,
+  "end": 45.189,
+  "display": "work",
+  "break": false
+ },
+ {
+  "text": "with",
+  "start": 45.189,
+  "end": 45.339,
+  "display": "with",
+  "break": false
+ },
+ {
+  "text": "AI",
+  "start": 45.459,
+  "end": 45.853,
+  "display": "AI",
+  "break": false
+ },
+ {
+  "text": "companies",
+  "start": 45.864,
+  "end": 46.373,
+  "display": "companies",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 46.493,
+  "end": 46.597,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "look",
+  "start": 46.597,
+  "end": 46.817,
+  "display": "look",
+  "break": false
+ },
+ {
+  "text": "for",
+  "start": 46.829,
+  "end": 46.944,
+  "display": "for",
+  "break": false
+ },
+ {
+  "text": "cheaters",
+  "start": 46.944,
+  "end": 47.535,
+  "display": "cheaters.",
+  "break": true
+ },
+ {
+  "text": "One",
+  "start": 47.655,
+  "end": 47.91,
+  "display": "One",
+  "break": false
+ },
+ {
+  "text": "Reddit",
+  "start": 47.91,
+  "end": 48.187,
+  "display": "Reddit",
+  "break": false
+ },
+ {
+  "text": "user",
+  "start": 48.187,
+  "end": 48.5,
+  "display": "user",
+  "break": false
+ },
+ {
+  "text": "put",
+  "start": 48.5,
+  "end": 48.65,
+  "display": "put",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 48.662,
+  "end": 48.743,
+  "display": "it",
+  "break": false
+ },
+ {
+  "text": "this",
+  "start": 48.743,
+  "end": 48.928,
+  "display": "this",
+  "break": false
+ },
+ {
+  "text": "way",
+  "start": 48.928,
+  "end": 49.194,
+  "display": "way",
+  "break": false
+ },
+ {
+  "text": "suddenly",
+  "start": 49.314,
+  "end": 49.846,
+  "display": "suddenly,",
+  "break": true
+ },
+ {
+  "text": "everyone",
+  "start": 49.966,
+  "end": 50.371,
+  "display": "everyone",
+  "break": false
+ },
+ {
+  "text": "is",
+  "start": 50.371,
+  "end": 50.441,
+  "display": "is",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 50.441,
+  "end": 50.487,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "proctor",
+  "start": 50.499,
+  "end": 50.834,
+  "display": "proctor",
+  "break": false
+ },
+ {
+  "text": "now",
+  "start": 50.834,
+  "end": 51.193,
+  "display": "now.",
+  "break": true
+ },
+ {
+  "text": "Good",
+  "start": 51.313,
+  "end": 51.406,
+  "display": "Good",
+  "break": false
+ },
+ {
+  "text": "luck",
+  "start": 51.418,
+  "end": 51.557,
+  "display": "luck",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 51.557,
+  "end": 51.638,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "everyone",
+  "start": 51.638,
+  "end": 52.066,
+  "display": "everyone",
+  "break": false
+ },
+ {
+  "text": "who",
+  "start": 52.066,
+  "end": 52.239,
+  "display": "who",
+  "break": false
+ },
+ {
+  "text": "sat",
+  "start": 52.251,
+  "end": 52.529,
+  "display": "sat",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 52.54,
+  "end": 52.598,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "Suneung",
+  "start": 52.598,
+  "end": 52.957,
+  "display": "Suneung",
+  "break": false
+ },
+ {
+  "text": "today",
+  "start": 52.969,
+  "end": 53.339,
+  "display": "today.",
+  "break": true
+ },
+ {
+  "text": "Follow",
+  "start": 53.459,
+  "end": 53.691,
+  "display": "Follow",
+  "break": false
+ },
+ {
+  "text": "Blip",
+  "start": 53.691,
+  "end": 53.945,
+  "display": "Blip",
+  "break": false
+ },
+ {
+  "text": "for",
+  "start": 53.957,
+  "end": 54.096,
+  "display": "for",
+  "break": false
+ },
+ {
+  "text": "more",
+  "start": 54.096,
+  "end": 54.316,
+  "display": "more",
+  "break": false
+ },
+ {
+  "text": "Korea",
+  "start": 54.327,
+  "end": 54.802,
+  "display": "Korea,",
+  "break": true
+ },
+ {
+  "text": "checked",
+  "start": 54.922,
+  "end": 55.362,
+  "display": "checked.",
+  "break": true
+ }
+]
