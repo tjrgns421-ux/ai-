@@ -268,3 +268,139 @@ export const CuriousStill: React.FC<{ v: CuriousVariant }> = ({ v }) => (
     <CuriousStage width={800} height={800} v={v} />
   </AbsoluteFill>
 );
+
+// ---- Sprout (chosen 2026-11-19): poseable version for thumbnails and reaction beats ----
+export type SproutFace = "happy" | "shock" | "think" | "sad" | "wink" | "excited";
+export type SproutPose = { face: SproutFace; arms?: number; jump?: number; droop?: number; rotY?: number; rotZ?: number; sx?: number; sy?: number };
+
+const SPROUT = "#BFA8FF"; // pastel lilac (more saturated so it does not read grey)
+
+const Eye: React.FC<{ x: number; mode: "open" | "wide" | "arc" | "line" | "up" }> = ({ x, mode }) => {
+  const black = <meshPhysicalMaterial color="#17181F" roughness={0.08} clearcoat={1} />;
+  const shine = (px: number, py: number, r: number) => (
+    <mesh position={[px, py, 0.055]} scale={r}>
+      <sphereGeometry args={[1, 12, 12]} />
+      <meshStandardMaterial color="#ffffff" emissive="#ffffff" emissiveIntensity={1} />
+    </mesh>
+  );
+  if (mode === "arc")
+    return (
+      <mesh position={[x, 0.04, 0]}>
+        <torusGeometry args={[0.09, 0.028, 12, 24, Math.PI]} />
+        <meshStandardMaterial color="#17181F" />
+      </mesh>
+    );
+  if (mode === "line")
+    return (
+      <mesh position={[x, 0.06, 0]} rotation={[0, 0, Math.PI / 2 + (x > 0 ? -0.3 : 0.3)]}>
+        <capsuleGeometry args={[0.024, 0.13, 8, 12]} />
+        <meshStandardMaterial color="#17181F" />
+      </mesh>
+    );
+  const sc: [number, number, number] = mode === "wide" ? [0.15, 0.19, 0.06] : [0.13, 0.155, 0.06];
+  const dy = mode === "up" ? 0.04 : 0;
+  return (
+    <group position={[x, 0.06 + dy, 0]}>
+      <mesh scale={sc}>
+        <sphereGeometry args={[1, 28, 28]} />
+        {black}
+      </mesh>
+      {shine(0.04, mode === "up" ? 0.09 : 0.06, 0.042)}
+      {shine(-0.035, -0.05, 0.02)}
+    </group>
+  );
+};
+
+const Mouth: React.FC<{ face: SproutFace }> = ({ face }) => {
+  const m = <meshStandardMaterial color="#17181F" />;
+  if (face === "shock")
+    return (
+      <mesh position={[0, -0.14, 0.02]} scale={[0.05, 0.065, 0.02]}>
+        <sphereGeometry args={[1, 16, 16]} />
+        {m}
+      </mesh>
+    );
+  if (face === "sad" || face === "think")
+    return (
+      <mesh position={[face === "think" ? 0.05 : 0, -0.15, 0.02]} scale={[face === "think" ? 0.6 : 1, 0.8, 1]}>
+        <torusGeometry args={[0.05, 0.018, 12, 24, Math.PI]} />
+        {m}
+      </mesh>
+    );
+  return (
+    <mesh position={[0, -0.12, 0.02]} rotation={[0, 0, Math.PI]} scale={[face === "excited" ? 1.5 : 1, face === "excited" ? 1.2 : 0.8, 1]}>
+      <torusGeometry args={[0.05, 0.018, 12, 24, Math.PI]} />
+      {m}
+    </mesh>
+  );
+};
+
+const SproutBody: React.FC<{ pose: SproutPose }> = ({ pose }) => {
+  const { face, arms = 0, droop = 0 } = pose;
+  const eye = (face === "happy" || face === "excited" ? "arc" : face === "shock" ? "wide" : face === "think" ? "up" : face === "sad" ? "line" : "open") as Parameters<typeof Eye>[0]["mode"];
+  const eyes = face === "wink" ? [["open", -0.27], ["arc", 0.27]] : [[eye, -0.27], [eye, 0.27]];
+  return (
+    <group>
+      <Toy color={SPROUT} rough={0.55} position={[0, 0.4, 0]} scale={[1.12, 0.92, 1]}>
+        <sphereGeometry args={[0.72, 48, 48]} />
+      </Toy>
+      <group position={[0, 0.38, 0.68]}>
+        {eyes.map(([m, x]) => <Eye key={String(x)} x={x as number} mode={m as Parameters<typeof Eye>[0]["mode"]} />)}
+        <Mouth face={face} />
+        {[-1, 1].map((s) => (
+          <mesh key={s} position={[s * 0.46, -0.1, -0.03]} scale={[0.09, 0.05, 0.02]}>
+            <sphereGeometry args={[1, 16, 16]} />
+            <meshStandardMaterial color="#FF8FA3" emissive="#FF6F8A" emissiveIntensity={0.35} />
+          </mesh>
+        ))}
+      </group>
+      {/* arms: 0 = resting at the sides, 1 = raised up */}
+      {[-1, 1].map((s) => (
+        <Toy key={s} color={SPROUT} position={[s * (0.8 - arms * 0.08), 0.22 + arms * 0.55, 0.1]} rotation={[0, 0, s * (0.5 + arms * 0.6)]} scale={[0.75, 1, 0.75]}>
+          <sphereGeometry args={[0.14, 20, 20]} />
+        </Toy>
+      ))}
+      {[-1, 1].map((s) => (
+        <Toy key={`f${s}`} color={SPROUT} rough={0.45} position={[s * 0.3, -0.22, 0.15]} scale={[1.1, 0.6, 1.2]}>
+          <sphereGeometry args={[0.14, 20, 20]} />
+        </Toy>
+      ))}
+      {/* sprout: droop 0 = perky, 1 = wilted */}
+      <group position={[0, 1.08, 0]} rotation={[0, 0, droop * 0.5]}>
+        <Toy color="#3FAE5A" position={[0, 0.1, 0]}>
+          <cylinderGeometry args={[0.025, 0.03, 0.22, 10]} />
+        </Toy>
+        {[-1, 1].map((s) => (
+          <Toy key={s} color="#5BD68A" position={[s * 0.13, 0.22 - droop * 0.1, 0]} rotation={[0, 0, s * (-0.7 + droop * 1.4)]} scale={[1.6, 0.55, 0.5]}>
+            <sphereGeometry args={[0.1, 18, 18]} />
+          </Toy>
+        ))}
+      </group>
+    </group>
+  );
+};
+
+export const SproutStage: React.FC<{ width: number; height: number; pose: SproutPose }> = ({ width, height, pose }) => {
+  const { jump = 0, rotY = -0.25, rotZ = 0.04, sx = 1, sy = 1 } = pose;
+  return (
+    <ThreeCanvas width={width} height={height} shadows camera={{ position: [0, 0.9, 6.2], fov: 30 }} gl={{ antialias: true, alpha: true }}>
+      <hemisphereLight args={["#ffffff", "#5a5f6e", 1.25]} />
+      <directionalLight position={[3, 6, 5]} intensity={2.4} castShadow shadow-mapSize={[1024, 1024]} shadow-camera-left={-3} shadow-camera-right={3} shadow-camera-top={3} shadow-camera-bottom={-3} />
+      <directionalLight position={[-5, 3, -4]} intensity={1.6} color="#E8E0FF" />
+      <pointLight position={[0, 1, 4]} intensity={6} distance={10} color="#ffffff" />
+      <group position={[0, -0.35 + jump, 0]} rotation={[0.05, rotY, rotZ]} scale={[sx, sy, sx]}>
+        <SproutBody pose={pose} />
+      </group>
+      <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -0.6, 0]} receiveShadow>
+        <planeGeometry args={[12, 12]} />
+        <shadowMaterial opacity={0.3} />
+      </mesh>
+    </ThreeCanvas>
+  );
+};
+
+export const SproutStill: React.FC<{ pose: SproutPose }> = ({ pose }) => (
+  <AbsoluteFill>
+    <SproutStage width={800} height={800} pose={pose} />
+  </AbsoluteFill>
+);

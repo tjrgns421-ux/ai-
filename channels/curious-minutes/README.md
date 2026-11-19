@@ -9,7 +9,8 @@ Why this channel: the niche scan (`research/2026-11-19-findings.md`) put science
 | name | Curious Minutes (check the handle on YouTube before creating) |
 | format | long-form **8:00 or longer** (mid-roll ads need 8 min); script target 8:30+ for margin, check the rendered length; 2 per week; 2–3 Shorts cut from each |
 | voice | en-US-AndrewMultilingualNeural, +0% (same voice as Blip, calmer pace; Blip uses +8%) |
-| character | new mascot, used on thumbnails and a few reaction beats only (not the host) |
+| character | **Sprout** (lilac round body, sprout on top; chosen 2026-11-19). Thumbnails and a few reaction beats only. Poses in `video/public/sprout/` (happy, excited, shock, think, sad, wink, side, turn); recipe `video/src/mascot/sprout-poses.tsv`; model `SproutStage` in `video/src/mascot/Curious.tsx` |
+| look | bright sky-blue thumbnails with black-outlined white/yellow words (Blip uses dark + lime, so the channels never look alike) |
 | rules | same as Blip: every claim sourced and shown on screen; "what if" = labeled estimates, never stated as fact |
 | structure | promise first (Blip sn02 lesson): the thing the title/thumbnail promises lands in the first 30 s |
 

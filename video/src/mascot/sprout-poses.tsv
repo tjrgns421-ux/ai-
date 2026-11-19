@@ -1,0 +1,8 @@
+happy	{"pose":{"face":"happy"}}
+excited	{"pose":{"face":"excited","arms":1,"jump":0.15}}
+shock	{"pose":{"face":"shock","arms":0.7,"sx":0.96,"sy":1.06}}
+think	{"pose":{"face":"think","rotZ":0.12}}
+sad	{"pose":{"face":"sad","droop":1,"sy":0.94,"sx":1.04,"rotZ":0}}
+wink	{"pose":{"face":"wink","arms":0.4}}
+side	{"pose":{"face":"happy","rotY":-1.0}}
+turn	{"pose":{"face":"wink","rotY":0.35,"arms":0.35}}
