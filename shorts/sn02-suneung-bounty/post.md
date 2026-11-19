@@ -1,4 +1,4 @@
-# Blip Check: Korea's ₩100M cheating bounty and 10-year ban (16:9, ~5:20) + Shorts (~45 s)
+# Blip Check: Korea's ₩100M cheating bounty and 10-year ban (16:9, 5:29) + Shorts (0:48)
 
 Post on **Nov 19 2026 (KST)**: the script says "today" for the exam day.
 
@@ -54,7 +54,13 @@ Shorts: **Korea Will Pay $75,000 for One Cheating Tip**
 South Korea wants to pay up to 100 million won, about 75,000 dollars, for a single tip about cheating on its college entrance exam. Cheaters could be banned for 10 years. How much of this is actually in place?
 
 0:00 The bounty and the ban
-CHAPTERS_FROM_RENDER
+0:17 What the Suneung is
+1:16 Why Korea is worried
+2:00 This year's checks
+3:06 The bounty and the penalties
+3:55 What's still a plan
+4:30 Pushback
+5:11 So, how much is real?
 
 Sources shown on screen: The Korea Herald, The Korea Times, Yonhap, Associated Press, Korea JoongAng Daily, The Star.
 Korean-language captures are shown with English translations.
