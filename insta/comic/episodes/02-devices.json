@@ -1,0 +1,64 @@
+{
+  "template": "strip.html",
+  "slides": [
+    {
+      "layout": "2+1",
+      "panels": [
+        {
+          "bg": "#ffd23f",
+          "bubbles": [{ "top": true, "text": "ALL DEVICES\nIN THE BOX,\nPLEASE.", "size": 58 }],
+          "blips": [{ "face": "prompt", "x": 50, "y": 240, "size": 360 }]
+        },
+        {
+          "bg": "#ffd23f",
+          "bubbles": [{ "top": true, "text": "ALL OF\nTHEM?", "size": 72, "tail": { "x": 150 } }],
+          "blips": [{ "face": "shock", "x": 50, "y": 240, "size": 360 }]
+        },
+        {
+          "bg": "#ffd23f",
+          "floor": { "h": 70, "color": "#e3b52b" },
+          "props": [
+            { "type": "boxback", "x": 330, "y": 230, "w": 300, "h": 240 },
+            { "type": "box", "front": true, "x": 330, "y": 300, "w": 300, "h": 180, "text": "DEVICES", "size": 56 }
+          ],
+          "blips": [{ "face": "meh", "x": 300, "y": 60, "size": 360 }],
+          "bubbles": [{ "x": 680, "y": 70, "w": 230, "text": "FAIR.", "size": 72, "tail": { "x": 10, "dir": "left" } }]
+        }
+      ]
+    },
+    {
+      "layout": "2+1",
+      "panels": [
+        {
+          "bg": "#7fd0f2",
+          "props": [{ "type": "poster", "x": 40, "y": 40, "w": 380, "text": "REPORT A CHEATER\nGET UP TO\n$75,000", "size": 50, "rot": -3 }],
+          "blips": [{ "face": "think", "x": 90, "y": 230, "size": 330 }]
+        },
+        {
+          "bg": "#7fd0f2",
+          "bubbles": [{ "top": true, "text": "HELLO? I'D LIKE\nTO REPORT A\nSMART DEVICE.", "size": 52, "tail": { "x": 110 } }],
+          "props": [{ "type": "phone", "front": true, "x": 300, "y": 320, "w": 70, "rot": 12 }],
+          "blips": [{ "face": "happy", "x": 40, "y": 230, "size": 330 }]
+        },
+        {
+          "bg": "#7fd0f2",
+          "floor": { "h": 70, "color": "#5cb6dc" },
+          "props": [{ "type": "phone", "front": true, "x": 560, "y": 300, "w": 70, "rot": 12 }],
+          "blips": [{ "face": "shock", "x": 300, "y": 130, "size": 380 }],
+          "bubbles": [{ "top": true, "text": "…WAIT. IT'S ME.", "size": 76, "pad": 20, "tail": { "x": 470 } }]
+        }
+      ]
+    },
+    {
+      "type": "facts",
+      "title": "This <span>really</span><br>happened",
+      "items": [
+        { "text": "At Korea's college entrance exam (Nov 19), all electronic devices were banned from exam rooms. Test-takers could bring only pencils.", "src": "The Korea Herald / Yonhap, Nov 19 2026" },
+        { "text": "Not handing in a device counts as cheating, even if it's never used.", "src": "Associated Press (via ABC News), Nov 17 2026" },
+        { "plan": true, "text": "Up to 100 million won (about $75,000) for a tip confirmed as cheating. The rules are still being written.", "src": "PM's office via Yonhap, Nov 18 2026; The Korea Herald, Nov 19 2026" }
+      ],
+      "foot": "The comic is a joke. The facts are from the news. Full story: Blip Check on YouTube.",
+      "face": "happy"
+    }
+  ]
+}

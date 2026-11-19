@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Blip Strip</title>
+<style>
+  @font-face { font-family: "Pretendard"; font-weight: 700; src: url("../fonts/Pretendard-Bold.woff2") format("woff2"); }
+  @font-face { font-family: "Pretendard"; font-weight: 900; src: url("../fonts/Pretendard-Black.woff2") format("woff2"); }
+  @font-face { font-family: "Hand"; src: url("../fonts/PatrickHand-Regular.woff2") format("woff2"); }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #ddd; }
+  .slide { width: 1080px; height: 1350px; position: relative; overflow: hidden; background: #fff; margin-bottom: 20px; }
+  .logo { position: absolute; left: 60px; top: 62px; font: 900 44px Pretendard; letter-spacing: -1px; color: #111; }
+  .logo b { background: #111; color: #d7ff3a; border-radius: 10px; padding: 0 10px; margin-left: 6px; }
+  .frame { position: absolute; border: 9px solid #111; border-radius: 6px; overflow: hidden; }
+  .blip { position: absolute; }
+  .blip img { width: 100%; height: 100%; object-fit: contain; }
+  .bubble { position: absolute; background: #fff; border: 7px solid #111; border-radius: 26px; padding: 18px 24px; font: 400 64px/1.05 Hand; text-transform: uppercase; color: #111; text-align: center; }
+  .bubble.top { left: -9px; right: -9px; top: -9px; border-radius: 0 0 30px 30px; } /* full-width speech box, like a strip header */
+  .bubble svg { position: absolute; }
+  .label { position: absolute; font: 400 40px Hand; text-transform: uppercase; color: #111; }
+  .floor { position: absolute; left: 0; right: 0; bottom: 0; border-top: 7px solid #111; }
+
+  /* fact slide */
+  .facts h2 { position: absolute; left: 60px; top: 150px; font: 400 84px/1 Hand; text-transform: uppercase; color: #111; }
+  .facts h2 span { background: #d7ff3a; padding: 0 12px; }
+  .facts ul { position: absolute; left: 60px; right: 60px; top: 345px; list-style: none; display: flex; flex-direction: column; gap: 18px; }
+  .facts li { border: 6px solid #111; border-radius: 22px; padding: 18px 24px; font: 700 32px/1.33 Pretendard; color: #111; }
+  .facts li .tag { display: inline-block; font: 900 22px Pretendard; letter-spacing: 1px; padding: 4px 10px; border-radius: 6px; margin-bottom: 8px; background: #d7ff3a; }
+  .facts li .tag.plan { background: #ffc93a; }
+  .facts li small { display: block; font: 700 22px Pretendard; color: #666; margin-top: 8px; }
+  .facts .foot { position: absolute; left: 60px; right: 300px; bottom: 70px; font: 700 26px/1.4 Pretendard; color: #444; }
+  .page { position: absolute; right: 60px; top: 74px; font: 700 26px Pretendard; color: #999; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script>
+  const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+  const br = (s) => esc(s).replace(/\n/g, "<br>");
+  const BLIP = (f) => `../../video/public/bc01/blip/${f}.png`;
+
+  // panel layouts inside x 60–1020, y 130–1250 (gap 34)
+  const L = {
+    "2v":  [[60, 130, 960, 543], [60, 707, 960, 543]],
+    "2+1": [[60, 130, 463, 543], [557, 130, 463, 543], [60, 707, 960, 543]],
+    "2x2": [[60, 130, 463, 543], [557, 130, 463, 543], [60, 707, 463, 543], [557, 707, 463, 543]],
+    "1":   [[60, 130, 960, 1120]],
+  };
+
+  // props drawn in code, positioned inside the panel
+  const PROPS = {
+    box: (p) => `<div style="position:absolute;left:${p.x}px;top:${p.y}px;width:${p.w}px;height:${p.h}px;background:#c9965a;border:7px solid #111;border-radius:6px">
+        <div style="position:absolute;left:0;right:0;top:${p.h * 0.32}px;text-align:center;font:400 ${p.size ?? 54}px Hand;color:#111">${esc(p.text ?? "")}</div></div>`,
+    boxback: (p) => `<div style="position:absolute;left:${p.x}px;top:${p.y}px;width:${p.w}px;height:${p.h}px;background:#a8773f;border:7px solid #111;border-radius:6px"></div>`,
+    poster: (p) => `<div style="position:absolute;left:${p.x}px;top:${p.y}px;width:${p.w}px;background:#fff;border:7px solid #111;border-radius:8px;padding:16px;text-align:center;font:400 ${p.size ?? 46}px/1.05 Hand;text-transform:uppercase;color:#111;rotate:${p.rot ?? -2}deg">${br(p.text)}</div>`,
+    phone: (p) => `<div style="position:absolute;left:${p.x}px;top:${p.y}px;width:${p.w ?? 90}px;height:${(p.w ?? 90) * 1.8}px;background:#222;border:6px solid #111;border-radius:18px;rotate:${p.rot ?? 0}deg"></div>`,
+    pencil: (p) => `<div style="position:absolute;left:${p.x}px;top:${p.y}px;width:${p.w ?? 160}px;height:26px;background:#ffc93a;border:6px solid #111;border-radius:4px;rotate:${p.rot ?? -30}deg"></div>`,
+    text: (p) => `<div class="label" style="left:${p.x}px;top:${p.y}px;font-size:${p.size ?? 40}px;rotate:${p.rot ?? 0}deg">${br(p.text)}</div>`,
+  };
+
+  // speech tail: a little curved wedge pointing down/left/right from the bubble's bottom edge
+  const tail = (t) => {
+    if (!t) return "";
+    const x = t.x ?? 60;
+    const flip = t.dir === "left" ? -1 : 1;
+    return `<svg width="60" height="70" viewBox="0 0 60 70" style="left:${x}px;bottom:-62px;transform:scaleX(${flip})"><path d="M8 0 C 14 30, 30 52, 52 66 C 36 40, 34 18, 34 0 Z" fill="#fff" stroke="#111" stroke-width="7" stroke-linejoin="round"/><rect x="10" y="-6" width="22" height="10" fill="#fff"/></svg>`;
+  };
+
+  function panel(r, p) {
+    const [x, y, w, h] = r;
+    const back = (p.props ?? []).filter((q) => !q.front).map((q) => PROPS[q.type](q)).join("");
+    const front = (p.props ?? []).filter((q) => q.front).map((q) => PROPS[q.type](q)).join("");
+    const blips = (p.blips ?? []).map((b) => `<div class="blip" style="left:${b.x}px;top:${b.y}px;width:${b.size}px;height:${b.size}px;${b.flip ? "transform:scaleX(-1);" : ""}${b.rot ? `rotate:${b.rot}deg;` : ""}"><img src="${BLIP(b.face)}"></div>`).join("");
+    const bubbles = (p.bubbles ?? []).map((b) =>
+      b.top
+        ? `<div class="bubble top" style="padding:${b.pad ?? 26}px 20px;font-size:${b.size ?? 64}px">${br(b.text)}${tail(b.tail)}</div>`
+        : `<div class="bubble" style="left:${b.x}px;top:${b.y}px;width:${b.w}px;font-size:${b.size ?? 60}px">${br(b.text)}${tail(b.tail)}</div>`,
+    ).join("");
+    const floor = p.floor ? `<div class="floor" style="height:${p.floor.h}px;background:${p.floor.color}"></div>` : "";
+    return `<div class="frame" style="left:${x}px;top:${y}px;width:${w}px;height:${h}px;background:${p.bg ?? "#ffd23f"}">${floor}${back}${blips}${front}${bubbles}</div>`;
+  }
+
+  function render(d) {
+    const total = d.slides.length;
+    document.getElementById("root").innerHTML = d.slides.map((s, i) => {
+      const head = `<div class="logo">BLIP CHECK<b>&gt;_</b></div><div class="page">${i + 1}/${total}</div>`;
+      if (s.type === "facts")
+        return `<section class="slide facts">${head}<h2>${s.title}</h2><ul>${s.items.map((it) => `<li><span class="tag ${it.plan ? "plan" : ""}">${it.plan ? "STILL A PLAN" : "REAL"}</span><br>${esc(it.text)}<small>${esc(it.src)}</small></li>`).join("")}</ul>
+          <div class="foot">${esc(s.foot)}</div><div class="blip" style="right:30px;bottom:20px;width:210px;height:210px"><img src="${BLIP(s.face ?? "happy")}"></div></section>`;
+      const rects = L[s.layout];
+      return `<section class="slide">${head}${s.panels.map((p, k) => panel(rects[k], p)).join("")}</section>`;
+    }).join("");
+  }
+  window.renderComic = render;
+</script>
+</body>
+</html>

@@ -1,3 +1,6 @@
 Pretendard v1.3.9 (https://github.com/orioncactus/pretendard)
 Copyright (c) 2021, Kil Hyung-jin, with Reserved Font Name Pretendard.
 Licensed under the SIL Open Font License, Version 1.1 (https://openfontlicense.org).
+
+Patrick Hand (https://fonts.google.com/specimen/Patrick+Hand), via @fontsource/patrick-hand 5.2.5.
+Copyright (c) 2012 Patrick Wagesreiter. Licensed under the SIL Open Font License, Version 1.1.

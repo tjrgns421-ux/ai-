@@ -20,7 +20,7 @@ mkdirSync(outDir, { recursive: true });
 
 const browser = await chromium.launch();
 const page = await browser.newPage({ viewport: { width: 1080, height: 1350 }, deviceScaleFactor: 1 });
-await page.goto(pathToFileURL(join(here, "template.html")).href);
+await page.goto(pathToFileURL(join(here, data.template ?? "template.html")).href); // "strip.html" for the 2–4 panel strip style
 await page.evaluate((d) => window.renderComic(d), data);
 await page.evaluate(() => document.fonts.ready);
 await page.evaluate(() => Promise.all([...document.images].map((i) => (i.complete ? 0 : new Promise((r) => (i.onload = i.onerror = r))))));

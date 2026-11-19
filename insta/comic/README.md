@@ -24,3 +24,16 @@ Output: `insta/comic/output/<episode>/01.png …`. The script warns if a bubble 
 - `end`: `title`, `rows[]` (`st`: `real|plan`, `text`), `sources`, `cta` (HTML)
 
 Panel area is 984x900; coordinates are inside it.
+
+## Strip style (`"template": "strip.html"`) — preferred
+
+Short strips like the reference the channel owner picked: white page, logo top-left, 2–4 panels,
+big hand-lettered caps, one punchline in the last panel, then a **"This really happened"** slide.
+
+- `layout`: `2v` (two stacked), `2+1` (two on top, one wide), `2x2`, `1`
+- panel: `bg`, `floor` (`h`, `color`), `blips[]`, `props[]` (`box`, `boxback`, `poster`, `phone`, `pencil`, `text`; `front: true` draws over Blip),
+  `bubbles[]` (`top: true` = full-width speech box at the top of the panel, or `x`/`y`/`w`; `size`; `tail` `{x, dir}`)
+- `facts` slide: `title` (HTML, `<span>` = lime marker), `items[]` (`text`, `src`, `plan`), `foot`, `face`
+- Keep words per panel to one or two short lines. No adult or sexual jokes (fact channel, and Instagram limits reach for it).
+
+Example: `episodes/02-devices.json`. Fonts: Patrick Hand (OFL) for lettering, Pretendard for facts.
