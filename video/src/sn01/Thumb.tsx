@@ -31,3 +31,24 @@ export const Sn01Thumb: React.FC = () => {
     </AbsoluteFill>
   );
 };
+
+// Variant B: real headlines on screen (AP + JoongAng Daily captures).
+const Card: React.FC<{ src: string; w: number; h: number; scale: number; x: number; y: number; rot: number }> = ({ src, w, h, scale, x, y, rot }) => (
+  <div style={{ position: "absolute", left: x, top: y, rotate: `${rot}deg`, background: "#fff", borderRadius: 12, padding: 14, boxShadow: "0 24px 60px rgba(0,0,0,0.65)" }}>
+    <Img src={staticFile(src)} style={{ width: w * scale, height: h * scale, display: "block" }} />
+  </div>
+);
+
+export const Sn01ThumbB: React.FC = () => {
+  useFonts();
+  return (
+    <AbsoluteFill style={{ background: "radial-gradient(70% 90% at 70% 45%, rgba(120,165,20,0.45) 0%, #0A0B0D 70%)" }}>
+      <div style={{ ...font, position: "absolute", left: 50, top: 40, fontSize: 60, color: INK }}>KOREA'S COLLEGE EXAM</div>
+      <div style={{ ...font, position: "absolute", left: 50, top: 110, fontSize: 200, color: RED, textShadow: "0 8px 0 #000" }}>vs AI</div>
+      <Card src="sn01/h-ja.png" w={2219} h={248} scale={0.34} x={40} y={360} rot={-3} />
+      <Card src="sn01/h-ap.png" w={2232} h={212} scale={0.34} x={90} y={500} rot={2} />
+      <div style={{ ...font, position: "absolute", left: 60, top: 650, fontSize: 30, color: LIME, letterSpacing: 0 }}>REAL HEADLINES · AP · KOREA JOONGANG DAILY</div>
+      <Img src={staticFile("bc01/blip/shock.png")} style={{ position: "absolute", left: 760, top: 150, width: 560, height: 560 }} />
+    </AbsoluteFill>
+  );
+};
