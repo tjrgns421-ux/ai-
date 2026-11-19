@@ -1,0 +1,15 @@
+{
+  "_note": "Search keywords per niche (English, overseas audience). 'blip' = same field as Blip Check; 'ai' = niches that can be produced with AI narration + visuals (faceless). Each keyword costs 100 API units (daily free quota 10,000).",
+  "niches": {
+    "korea-explained": { "group": "blip", "keywords": ["Korea explained", "why South Korea", "only in Korea", "Korean culture explained", "South Korea news"] },
+    "asia-explained": { "group": "blip", "keywords": ["Japan explained", "China explained", "Asia news explained"] },
+    "ai-news": { "group": "blip", "keywords": ["AI news this week", "AI explained", "ChatGPT vs Claude"] },
+    "history": { "group": "ai", "keywords": ["history explained", "ancient history documentary", "history mysteries"] },
+    "science-space": { "group": "ai", "keywords": ["space explained", "science explained", "what if scenario"] },
+    "geography": { "group": "ai", "keywords": ["geography explained", "why this country", "maps explained"] },
+    "mysteries": { "group": "ai", "keywords": ["unsolved mysteries", "true story explained", "strange facts"] },
+    "money": { "group": "ai", "keywords": ["economy explained", "how companies make money", "business explained"] },
+    "psychology": { "group": "ai", "keywords": ["psychology facts", "why people do", "dark psychology explained"] },
+    "animals-nature": { "group": "ai", "keywords": ["animal facts", "nature documentary short", "weird animals"] }
+  }
+}
