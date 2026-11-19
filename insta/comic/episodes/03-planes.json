@@ -2,6 +2,33 @@
  "template": "strip.html",
  "slides": [
   {
+   "type": "hook",
+   "line": "For 35 minutes,\nno plane in\nSouth Korea can\ntake off or land.",
+   "lead": "The reason?",
+   "punch": "A test.",
+   "face": "panic",
+   "bsize": 360,
+   "bx": 40,
+   "by": 150,
+   "props": [
+    {
+     "type": "airplane",
+     "x": 90,
+     "y": 960,
+     "w": 230,
+     "rot": -10
+    },
+    {
+     "type": "standsign",
+     "x": 360,
+     "y": 900,
+     "w": 200,
+     "text": "CLOSED\n1:05–1:40",
+     "size": 36
+    }
+   ]
+  },
+  {
    "layout": "2+1",
    "panels": [
     {
@@ -40,9 +67,9 @@
      ],
      "blips": [
       {
-       "face": "shock",
+       "face": "panic",
        "x": 95,
-       "y": 255,
+       "y": 235,
        "size": 270
       }
      ]

@@ -31,6 +31,14 @@
   .facts li small { display: block; font: 700 22px Pretendard; color: #666; margin-top: 8px; }
   .facts .foot { position: absolute; left: 60px; right: 300px; bottom: 70px; font: 700 26px/1.4 Pretendard; color: #444; }
   .page { position: absolute; right: 60px; top: 74px; font: 700 26px Pretendard; color: #999; }
+
+  /* hook slide: the unbelievable-but-true line, big */
+  .hook { background: #fff; }
+  .hook .h1 { position: absolute; left: 60px; right: 60px; top: 170px; font: 400 116px/1.0 Hand; text-transform: uppercase; color: #111; }
+  .hook .h2 { position: absolute; left: 60px; top: 690px; font: 400 104px/1 Hand; text-transform: uppercase; color: #111; }
+  .hook .h2 span { background: #d7ff3a; padding: 0 16px; border: 7px solid #111; border-radius: 14px; display: inline-block; rotate: -2deg; }
+  .hook .true { position: absolute; left: 60px; bottom: 80px; font: 900 34px Pretendard; color: #111; }
+  .hook .true b { background: #111; color: #d7ff3a; padding: 4px 12px; border-radius: 8px; margin-right: 10px; }
 </style>
 </head>
 <body>
@@ -120,6 +128,11 @@
       if (s.type === "facts")
         return `<section class="slide facts">${head}<h2>${s.title}</h2><ul>${s.items.map((it) => `<li><span class="tag ${it.plan ? "plan" : ""}">${it.plan ? "STILL A PLAN" : "REAL"}</span><br>${esc(it.text)}<small>${esc(it.src)}</small></li>`).join("")}</ul>
           <div class="foot">${esc(s.foot)}</div><div class="blip" style="right:30px;bottom:20px;width:210px;height:210px"><img src="${BLIP(s.face ?? "happy")}"></div></section>`;
+      if (s.type === "hook")
+        return `<section class="slide hook">${head}<div class="h1">${br(s.line)}</div><div class="h2">${esc(s.lead ?? "")} <span>${esc(s.punch)}</span></div>
+          ${(s.props ?? []).map((q) => PROPS[q.type](q)).join("")}
+          <div class="blip" style="right:${s.bx ?? 40}px;bottom:${s.by ?? 40}px;width:${s.bsize ?? 380}px;height:${s.bsize ?? 380}px"><img src="${BLIP(s.face ?? "panic")}"></div>
+          <div class="true"><b>TRUE STORY</b>swipe →</div></section>`;
       const rects = L[s.layout];
       return `<section class="slide">${head}${s.panels.map((p, k) => panel(rects[k], p)).join("")}</section>`;
     }).join("");
