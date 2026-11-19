@@ -10,7 +10,7 @@ import { useFonts } from "../StyleFrames";
 //  glyph:    puffy ">" body riding a "_" bar (silhouette reads ">_")
 
 export type PromptVariant = "terminal" | "glyph";
-export type PromptFace = "prompt" | "happy" | "shock" | "meh";
+export type PromptFace = "prompt" | "happy" | "shock" | "meh" | "angry" | "sad" | "wink" | "smug" | "error";
 
 const LIME = "#CFEF2E";
 const GLOW = "#D7FF3A";
@@ -48,9 +48,16 @@ const Bar: React.FC<{ w: number; thick: number; pos: [number, number, number]; o
     </Glow>
   ) : null;
 
-const Arc: React.FC<{ pos: [number, number, number]; r: number }> = ({ pos, r }) => (
-  <Glow position={pos}>
+const Arc: React.FC<{ pos: [number, number, number]; r: number; flip?: boolean }> = ({ pos, r, flip }) => (
+  <Glow position={pos} rotation={[0, 0, flip ? Math.PI : 0]}>
     <torusGeometry args={[r, 0.045, 12, 32, Math.PI]} />
+  </Glow>
+);
+
+// a glowing bar at any angle (radians; 0 = horizontal)
+const Slant: React.FC<{ w: number; thick?: number; pos: [number, number, number]; a: number }> = ({ w, thick = 0.045, pos, a }) => (
+  <Glow position={pos} rotation={[0, 0, Math.PI / 2 + a]}>
+    <capsuleGeometry args={[thick, w, 8, 16]} />
   </Glow>
 );
 
@@ -72,6 +79,23 @@ const Arms: React.FC<{ x: number; y: number; color: string; wave?: number; leftL
     <Toy color={color} position={[x + 0.03, y + 0.1, 0.05]} rotation={[0, 0, 1.1 - wave]}>
       <capsuleGeometry args={[0.085, 0.16, 8, 16]} />
     </Toy>
+  </>
+);
+
+// Opt-in long arms for comic poses: pivot at the shoulder, 0 = hanging down.
+// right: wave 0..1.6 maps to 0..180°, left: leftLift 0..1 maps to 0..180°. Both swing outward.
+const LongArms: React.FC<{ x: number; y: number; color: string; wave: number; leftLift: number }> = ({ x, y, color, wave, leftLift }) => (
+  <>
+    {[
+      { s: 1, a: (wave / 1.6) * Math.PI },
+      { s: -1, a: -leftLift * Math.PI },
+    ].map(({ s, a }) => (
+      <group key={s} position={[s * x, y + 0.12, 0.05]} rotation={[0, 0, a]}>
+        <Toy color={color} position={[0, -0.24, 0]}>
+          <capsuleGeometry args={[0.09, 0.38, 8, 16]} />
+        </Toy>
+      </group>
+    ))}
   </>
 );
 
@@ -101,7 +125,7 @@ const Sweat: React.FC<{ o: number }> = ({ o }) =>
     </group>
   ) : null;
 
-export const TerminalBuddy: React.FC<{ face: PromptFace; blink: boolean; wave?: number; leftLift?: number; sweat?: number }> = ({ face, blink, wave = 0.9, leftLift = 0, sweat = 0 }) => {
+export const TerminalBuddy: React.FC<{ face: PromptFace; blink: boolean; wave?: number; leftLift?: number; sweat?: number; longArms?: boolean }> = ({ face, blink, wave = 0.9, leftLift = 0, sweat = 0, longArms = false }) => {
   const head = useMemo(() => new RoundedBoxGeometry(1.5, 1.3, 1.0, 8, 0.3), []);
   const screen = useMemo(() => new RoundedBoxGeometry(1.22, 0.98, 0.06, 6, 0.2), []);
   const z = 0.53;
@@ -144,14 +168,53 @@ export const TerminalBuddy: React.FC<{ face: PromptFace; blink: boolean; wave?: 
           <Bar w={0.12} thick={0.04} pos={[0.04, 0.1, z]} on />
         </>
       )}
-      <Cheeks y={0.12} x={0.45} z={z + 0.005} />
+      {face === "angry" && (
+        <>
+          <Slant w={0.2} pos={[-0.27, 0.38, z]} a={-0.45} />
+          <Slant w={0.2} pos={[0.27, 0.38, z]} a={0.45} />
+          <Arc pos={[0, 0.02, z]} r={0.08} />
+        </>
+      )}
+      {face === "sad" && (
+        <>
+          <Slant w={0.18} pos={[-0.27, 0.36, z]} a={0.35} />
+          <Slant w={0.18} pos={[0.27, 0.36, z]} a={-0.35} />
+          <Arc pos={[0, 0.02, z]} r={0.08} />
+        </>
+      )}
+      {face === "wink" && (
+        <>
+          <Arc pos={[-0.27, 0.3, z]} r={0.13} />
+          <Bar w={0.16} thick={0.045} pos={[0.27, 0.36, z]} on />
+          <Arc pos={[0, 0.16, z]} r={0.09} flip />
+        </>
+      )}
+      {face === "smug" && (
+        <>
+          <Bar w={0.18} thick={0.04} pos={[-0.27, 0.4, z]} on />
+          <Bar w={0.18} thick={0.04} pos={[0.27, 0.4, z]} on />
+          <Slant w={0.16} thick={0.04} pos={[0.08, 0.12, z]} a={0.25} />
+        </>
+      )}
+      {face === "error" && (
+        <>
+          {[-1, 1].map((s) => (
+            <React.Fragment key={s}>
+              <Slant w={0.16} pos={[s * 0.27, 0.36, z]} a={Math.PI / 4} />
+              <Slant w={0.16} pos={[s * 0.27, 0.36, z]} a={-Math.PI / 4} />
+            </React.Fragment>
+          ))}
+          <Bar w={0.18} thick={0.04} pos={[0, 0.1, z]} on />
+        </>
+      )}
+      {face !== "angry" && face !== "error" && <Cheeks y={0.12} x={0.45} z={z + 0.005} />}
       <Toy color="#1E2026" position={[0.42, 1.03, 0]} rotation={[0, 0, -0.35]}>
         <capsuleGeometry args={[0.05, 0.22, 8, 12]} />
       </Toy>
       <Toy color={LIME} position={[0.5, 1.2, 0]}>
         <sphereGeometry args={[0.1, 24, 24]} />
       </Toy>
-      <Arms x={0.85} y={0.12} color={LIME} wave={wave} leftLift={leftLift} />
+      {longArms ? <LongArms x={0.84} y={0.12} color="#9DC21F" wave={wave} leftLift={leftLift} /> : <Arms x={0.85} y={0.12} color={LIME} wave={wave} leftLift={leftLift} />}
       <Feet x={0.36} y={-0.47} color="#1E2026" />
       <Sweat o={sweat} />
     </group>
@@ -251,10 +314,11 @@ export type PeupeuPose = {
   rotY?: number;
   rotZ?: number;
   scale?: number;
+  longArms?: boolean; // comic poses: longer arms that pivot at the shoulder
 };
 
 export const PeupeuStage: React.FC<{ width: number; height: number; pose: PeupeuPose }> = ({ width, height, pose }) => {
-  const { face, blink = false, wave = 0.9, leftLift = 0, sweat = 0, jump = 0, sx = 1, sy = 1, rotY = -0.32, rotZ = 0.06, scale = 1 } = pose;
+  const { face, blink = false, wave = 0.9, leftLift = 0, sweat = 0, jump = 0, sx = 1, sy = 1, rotY = -0.32, rotZ = 0.06, scale = 1, longArms = false } = pose;
   return (
     <ThreeCanvas width={width} height={height} shadows camera={{ position: [0, 0.9, 6.2], fov: 30 }} gl={{ antialias: true, alpha: true }}>
       <hemisphereLight args={["#ffffff", "#30343a", 0.9]} />
@@ -264,7 +328,7 @@ export const PeupeuStage: React.FC<{ width: number; height: number; pose: Peupeu
       <group position={[0, -0.47 * scale + jump, 0]}>
         <group scale={[scale * sx, scale * sy, scale * sx]} rotation={[0.05, rotY, rotZ]}>
           <group position={[0, 0.47, 0]}>
-            <TerminalBuddy face={face} blink={blink} wave={wave} leftLift={leftLift} sweat={sweat} />
+            <TerminalBuddy face={face} blink={blink} wave={wave} leftLift={leftLift} sweat={sweat} longArms={longArms} />
           </group>
         </group>
       </group>

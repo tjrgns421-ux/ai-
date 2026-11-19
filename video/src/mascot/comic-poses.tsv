@@ -1,0 +1,16 @@
+angry	{"pose": {"face": "angry", "wave": 0.25, "leftLift": 0.15, "longArms": true}}
+angry-point	{"pose": {"face": "angry", "wave": 0.8, "leftLift": 0.1, "longArms": true}}
+sad	{"pose": {"face": "sad", "wave": 0.05, "leftLift": 0.03, "sy": 0.92, "sx": 1.04, "rotZ": 0.0, "longArms": true}}
+wink	{"pose": {"face": "wink", "wave": 1.15, "leftLift": 0.1, "longArms": true}}
+smug	{"pose": {"face": "smug", "rotY": -0.6, "wave": 0.15, "leftLift": 0.1, "longArms": true}}
+proud	{"pose": {"face": "smug", "wave": 0.35, "leftLift": 0.35, "sy": 1.05, "rotY": -0.2, "longArms": true}}
+error	{"pose": {"face": "error", "rotZ": 0.45, "wave": 0.6, "leftLift": 0.5, "sweat": 1, "longArms": true}}
+cheer	{"pose": {"face": "happy", "wave": 1.15, "leftLift": 0.72, "jump": 0.12, "longArms": true}}
+wave	{"pose": {"face": "happy", "wave": 1.1, "leftLift": 0.08, "longArms": true, "rotZ": -0.05}}
+point	{"pose": {"face": "prompt", "wave": 0.8, "leftLift": 0.08, "longArms": true}}
+present	{"pose": {"face": "happy", "wave": 0.65, "leftLift": 0.08, "rotY": -0.15, "longArms": true}}
+shrug	{"pose": {"face": "meh", "wave": 0.75, "leftLift": 0.45, "rotY": -0.1, "longArms": true}}
+panic	{"pose": {"face": "shock", "wave": 1.2, "leftLift": 0.75, "jump": 0.2, "sx": 0.95, "sy": 1.07, "sweat": 1, "longArms": true}}
+think-hand	{"pose": {"face": "meh", "wave": 1.1, "leftLift": 0.05, "rotZ": 0.12, "longArms": true}}
+side	{"pose": {"face": "prompt", "rotY": -1.15, "wave": 0.1, "leftLift": 0.1, "longArms": true}}
+back	{"pose": {"face": "prompt", "rotY": 3.0, "wave": 0.1, "leftLift": 0.1, "longArms": true}}

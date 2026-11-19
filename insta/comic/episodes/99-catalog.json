@@ -1,0 +1,638 @@
+{
+ "template": "strip.html",
+ "slides": [
+  {
+   "layout": "1",
+   "panels": [
+    {
+     "bg": "#ffd23f",
+     "blips": [
+      {
+       "face": "angry",
+       "x": 6,
+       "y": 0,
+       "size": 180
+      },
+      {
+       "face": "angry-point",
+       "x": 198,
+       "y": 0,
+       "size": 180
+      },
+      {
+       "face": "back",
+       "x": 390,
+       "y": 0,
+       "size": 180
+      },
+      {
+       "face": "cheer",
+       "x": 582,
+       "y": 0,
+       "size": 180
+      },
+      {
+       "face": "error",
+       "x": 774,
+       "y": 0,
+       "size": 180
+      },
+      {
+       "face": "front",
+       "x": 6,
+       "y": 220,
+       "size": 180
+      },
+      {
+       "face": "happy",
+       "x": 198,
+       "y": 220,
+       "size": 180
+      },
+      {
+       "face": "meh",
+       "x": 390,
+       "y": 220,
+       "size": 180
+      },
+      {
+       "face": "panic",
+       "x": 582,
+       "y": 220,
+       "size": 180
+      },
+      {
+       "face": "point",
+       "x": 774,
+       "y": 220,
+       "size": 180
+      },
+      {
+       "face": "present",
+       "x": 6,
+       "y": 440,
+       "size": 180
+      },
+      {
+       "face": "prompt",
+       "x": 198,
+       "y": 440,
+       "size": 180
+      },
+      {
+       "face": "proud",
+       "x": 390,
+       "y": 440,
+       "size": 180
+      },
+      {
+       "face": "sad",
+       "x": 582,
+       "y": 440,
+       "size": 180
+      },
+      {
+       "face": "shock",
+       "x": 774,
+       "y": 440,
+       "size": 180
+      },
+      {
+       "face": "shrug",
+       "x": 6,
+       "y": 660,
+       "size": 180
+      },
+      {
+       "face": "side",
+       "x": 198,
+       "y": 660,
+       "size": 180
+      },
+      {
+       "face": "smug",
+       "x": 390,
+       "y": 660,
+       "size": 180
+      },
+      {
+       "face": "think",
+       "x": 582,
+       "y": 660,
+       "size": 180
+      },
+      {
+       "face": "think-hand",
+       "x": 774,
+       "y": 660,
+       "size": 180
+      },
+      {
+       "face": "wave",
+       "x": 6,
+       "y": 880,
+       "size": 180
+      },
+      {
+       "face": "wink",
+       "x": 198,
+       "y": 880,
+       "size": 180
+      }
+     ],
+     "props": [
+      {
+       "type": "text",
+       "x": 14,
+       "y": 170,
+       "text": "angry",
+       "size": 30
+      },
+      {
+       "type": "text",
+       "x": 206,
+       "y": 170,
+       "text": "angry-point",
+       "size": 30
+      },
+      {
+       "type": "text",
+       "x": 398,
+       "y": 170,
+       "text": "back",
+       "size": 30
+      },
+      {
+       "type": "text",
+       "x": 590,
+       "y": 170,
+       "text": "cheer",
+       "size": 30
+      },
+      {
+       "type": "text",
+       "x": 782,
+       "y": 170,
+       "text": "error",
+       "size": 30
+      },
+      {
+       "type": "text",
+       "x": 14,
+       "y": 390,
+       "text": "front",
+       "size": 30
+      },
+      {
+       "type": "text",
+       "x": 206,
+       "y": 390,
+       "text": "happy",
+       "size": 30
+      },
+      {
+       "type": "text",
+       "x": 398,
+       "y": 390,
+       "text": "meh",
+       "size": 30
+      },
+      {
+       "type": "text",
+       "x": 590,
+       "y": 390,
+       "text": "panic",
+       "size": 30
+      },
+      {
+       "type": "text",
+       "x": 782,
+       "y": 390,
+       "text": "point",
+       "size": 30
+      },
+      {
+       "type": "text",
+       "x": 14,
+       "y": 610,
+       "text": "present",
+       "size": 30
+      },
+      {
+       "type": "text",
+       "x": 206,
+       "y": 610,
+       "text": "prompt",
+       "size": 30
+      },
+      {
+       "type": "text",
+       "x": 398,
+       "y": 610,
+       "text": "proud",
+       "size": 30
+      },
+      {
+       "type": "text",
+       "x": 590,
+       "y": 610,
+       "text": "sad",
+       "size": 30
+      },
+      {
+       "type": "text",
+       "x": 782,
+       "y": 610,
+       "text": "shock",
+       "size": 30
+      },
+      {
+       "type": "text",
+       "x": 14,
+       "y": 830,
+       "text": "shrug",
+       "size": 30
+      },
+      {
+       "type": "text",
+       "x": 206,
+       "y": 830,
+       "text": "side",
+       "size": 30
+      },
+      {
+       "type": "text",
+       "x": 398,
+       "y": 830,
+       "text": "smug",
+       "size": 30
+      },
+      {
+       "type": "text",
+       "x": 590,
+       "y": 830,
+       "text": "think",
+       "size": 30
+      },
+      {
+       "type": "text",
+       "x": 782,
+       "y": 830,
+       "text": "think-hand",
+       "size": 30
+      },
+      {
+       "type": "text",
+       "x": 14,
+       "y": 1050,
+       "text": "wave",
+       "size": 30
+      },
+      {
+       "type": "text",
+       "x": 206,
+       "y": 1050,
+       "text": "wink",
+       "size": 30
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "layout": "1",
+   "panels": [
+    {
+     "bg": "#9be1ff",
+     "props": [
+      {
+       "type": "desk",
+       "x": 16,
+       "y": 20,
+       "w": 160
+      },
+      {
+       "type": "chair",
+       "x": 208,
+       "y": 20,
+       "w": 90
+      },
+      {
+       "type": "paper",
+       "x": 400,
+       "y": 20,
+       "w": 110,
+       "text": "EXAM"
+      },
+      {
+       "type": "clock",
+       "x": 592,
+       "y": 20,
+       "w": 130,
+       "h": 1,
+       "m": 5
+      },
+      {
+       "type": "airplane",
+       "x": 784,
+       "y": 20,
+       "w": 170
+      },
+      {
+       "type": "glasses",
+       "x": 16,
+       "y": 240,
+       "w": 160
+      },
+      {
+       "type": "sticker",
+       "x": 208,
+       "y": 240,
+       "w": 80
+      },
+      {
+       "type": "cash",
+       "x": 400,
+       "y": 240,
+       "w": 160
+      },
+      {
+       "type": "laptop",
+       "x": 592,
+       "y": 240,
+       "w": 160,
+       "text": "AI",
+       "size": 50
+      },
+      {
+       "type": "tv",
+       "x": 784,
+       "y": 240,
+       "w": 160,
+       "text": "NEWS"
+      },
+      {
+       "type": "window",
+       "x": 16,
+       "y": 460,
+       "w": 130
+      },
+      {
+       "type": "plant",
+       "x": 208,
+       "y": 460,
+       "w": 100
+      },
+      {
+       "type": "siren",
+       "x": 400,
+       "y": 460,
+       "w": 140
+      },
+      {
+       "type": "magnifier",
+       "x": 592,
+       "y": 460,
+       "w": 120
+      },
+      {
+       "type": "trophy",
+       "x": 784,
+       "y": 460,
+       "w": 110
+      },
+      {
+       "type": "standsign",
+       "x": 16,
+       "y": 680,
+       "w": 150,
+       "text": "CLOSED"
+      },
+      {
+       "type": "cloud",
+       "x": 208,
+       "y": 680,
+       "w": 170
+      },
+      {
+       "type": "door2",
+       "x": 400,
+       "y": 680,
+       "w": 90,
+       "text": "EXAM"
+      },
+      {
+       "type": "bag",
+       "x": 592,
+       "y": 680,
+       "w": 110
+      },
+      {
+       "type": "motion",
+       "x": 784,
+       "y": 680,
+       "w": 90
+      },
+      {
+       "type": "box",
+       "x": 16,
+       "y": 900,
+       "w": 150,
+       "h": 110,
+       "text": "BOX",
+       "size": 40
+      },
+      {
+       "type": "poster",
+       "x": 208,
+       "y": 900,
+       "w": 150,
+       "text": "POSTER",
+       "size": 36
+      },
+      {
+       "type": "phone",
+       "x": 400,
+       "y": 900,
+       "w": 60
+      },
+      {
+       "type": "pencil",
+       "x": 592,
+       "y": 900,
+       "w": 140
+      },
+      {
+       "type": "text",
+       "x": 14,
+       "y": 176,
+       "text": "desk",
+       "size": 30
+      },
+      {
+       "type": "text",
+       "x": 206,
+       "y": 176,
+       "text": "chair",
+       "size": 30
+      },
+      {
+       "type": "text",
+       "x": 398,
+       "y": 176,
+       "text": "paper",
+       "size": 30
+      },
+      {
+       "type": "text",
+       "x": 590,
+       "y": 176,
+       "text": "clock",
+       "size": 30
+      },
+      {
+       "type": "text",
+       "x": 782,
+       "y": 176,
+       "text": "airplane",
+       "size": 30
+      },
+      {
+       "type": "text",
+       "x": 14,
+       "y": 396,
+       "text": "glasses",
+       "size": 30
+      },
+      {
+       "type": "text",
+       "x": 206,
+       "y": 396,
+       "text": "sticker",
+       "size": 30
+      },
+      {
+       "type": "text",
+       "x": 398,
+       "y": 396,
+       "text": "cash",
+       "size": 30
+      },
+      {
+       "type": "text",
+       "x": 590,
+       "y": 396,
+       "text": "laptop",
+       "size": 30
+      },
+      {
+       "type": "text",
+       "x": 782,
+       "y": 396,
+       "text": "tv",
+       "size": 30
+      },
+      {
+       "type": "text",
+       "x": 14,
+       "y": 616,
+       "text": "window",
+       "size": 30
+      },
+      {
+       "type": "text",
+       "x": 206,
+       "y": 616,
+       "text": "plant",
+       "size": 30
+      },
+      {
+       "type": "text",
+       "x": 398,
+       "y": 616,
+       "text": "siren",
+       "size": 30
+      },
+      {
+       "type": "text",
+       "x": 590,
+       "y": 616,
+       "text": "magnifier",
+       "size": 30
+      },
+      {
+       "type": "text",
+       "x": 782,
+       "y": 616,
+       "text": "trophy",
+       "size": 30
+      },
+      {
+       "type": "text",
+       "x": 14,
+       "y": 836,
+       "text": "standsign",
+       "size": 30
+      },
+      {
+       "type": "text",
+       "x": 206,
+       "y": 836,
+       "text": "cloud",
+       "size": 30
+      },
+      {
+       "type": "text",
+       "x": 398,
+       "y": 836,
+       "text": "door2",
+       "size": 30
+      },
+      {
+       "type": "text",
+       "x": 590,
+       "y": 836,
+       "text": "bag",
+       "size": 30
+      },
+      {
+       "type": "text",
+       "x": 782,
+       "y": 836,
+       "text": "motion",
+       "size": 30
+      },
+      {
+       "type": "text",
+       "x": 14,
+       "y": 1056,
+       "text": "box",
+       "size": 30
+      },
+      {
+       "type": "text",
+       "x": 206,
+       "y": 1056,
+       "text": "poster",
+       "size": 30
+      },
+      {
+       "type": "text",
+       "x": 398,
+       "y": 1056,
+       "text": "phone",
+       "size": 30
+      },
+      {
+       "type": "text",
+       "x": 590,
+       "y": 1056,
+       "text": "pencil",
+       "size": 30
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

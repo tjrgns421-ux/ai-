@@ -37,3 +37,18 @@ big hand-lettered caps, one punchline in the last panel, then a **"This really h
 - Keep words per panel to one or two short lines. No adult or sexual jokes (fact channel, and Instagram limits reach for it).
 
 Example: `episodes/02-devices.json`. Fonts: Patrick Hand (OFL) for lettering, Pretendard for facts.
+
+## Poses (22) — `video/public/bc01/blip/<name>.png`
+
+angry, angry-point, back, cheer, error, front, happy, meh, panic, point, present, prompt, proud, sad, shock,
+shrug, side, smug, think, think-hand, wave, wink. See `episodes/99-catalog.json` (rendered sheet).
+New poses come from the 3D model (`video/src/mascot/Prompt.tsx`, faces angry/sad/wink/smug/error and `longArms`);
+the recipe is `video/src/mascot/comic-poses.tsv` (render with `npx remotion still BlipStill … --props`).
+
+## Props (24)
+
+desk, chair, paper (`text`), clock (`h`, `m`), airplane, glasses, sticker, cash, laptop (`text`), tv (`text`, `screen`),
+window (`sky`), plant, siren, magnifier, trophy, standsign (`text`, multi-line), cloud, door2 (`text`), bag, motion,
+box / boxback (`text`), poster (`text`), phone, pencil. All take `x`, `y`, `w`, `rot`, `flip`, `front`.
+
+Tip: to seat Blip behind a desk, put the desk `front: true` and place Blip so the desk top is about 55% down his image.

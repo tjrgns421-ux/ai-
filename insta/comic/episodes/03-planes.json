@@ -1,0 +1,158 @@
+{
+ "template": "strip.html",
+ "slides": [
+  {
+   "layout": "2+1",
+   "panels": [
+    {
+     "bg": "#9be1ff",
+     "props": [
+      {
+       "type": "airplane",
+       "x": 150,
+       "y": 40,
+       "w": 250,
+       "rot": -8
+      },
+      {
+       "type": "text",
+       "x": 30,
+       "y": 170,
+       "text": "VRRRRMMM",
+       "size": 62,
+       "rot": -5
+      },
+      {
+       "type": "desk",
+       "front": true,
+       "x": 70,
+       "y": 400,
+       "w": 320
+      },
+      {
+       "type": "pencil",
+       "front": true,
+       "x": 250,
+       "y": 385,
+       "w": 110,
+       "rot": -12
+      }
+     ],
+     "blips": [
+      {
+       "face": "shock",
+       "x": 95,
+       "y": 255,
+       "size": 270
+      }
+     ]
+    },
+    {
+     "bg": "#9be1ff",
+     "bubbles": [
+      {
+       "top": true,
+       "text": "ENGLISH LISTENING.\nSTARTING NOW.",
+       "size": 46,
+       "pad": 18
+      }
+     ],
+     "props": [
+      {
+       "type": "clock",
+       "x": 300,
+       "y": 170,
+       "w": 120,
+       "h": 1,
+       "m": 5
+      },
+      {
+       "type": "desk",
+       "front": true,
+       "x": 50,
+       "y": 400,
+       "w": 320
+      }
+     ],
+     "blips": [
+      {
+       "face": "think-hand",
+       "x": 60,
+       "y": 255,
+       "size": 270
+      }
+     ]
+    },
+    {
+     "bg": "#9be1ff",
+     "props": [
+      {
+       "type": "cloud",
+       "x": 470,
+       "y": 150,
+       "w": 430
+      },
+      {
+       "type": "airplane",
+       "x": 520,
+       "y": 90,
+       "w": 250,
+       "rot": 0
+      },
+      {
+       "type": "standsign",
+       "x": 760,
+       "y": 10,
+       "w": 160,
+       "text": "BACK AT\n1:40",
+       "size": 40
+      },
+      {
+       "type": "desk",
+       "front": true,
+       "x": 60,
+       "y": 400,
+       "w": 360
+      },
+      {
+       "type": "pencil",
+       "front": true,
+       "x": 260,
+       "y": 385,
+       "w": 120,
+       "rot": -14
+      }
+     ],
+     "blips": [
+      {
+       "face": "proud",
+       "x": 90,
+       "y": 240,
+       "size": 300
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "facts",
+   "title": "This <span>really</span><br>happened",
+   "items": [
+    {
+     "text": "On Nov 19, every takeoff and landing in South Korea was suspended from 1:05 to 1:40 p.m., during the college exam's English listening section.",
+     "src": "The Korea Herald / Yonhap, Nov 19 2026"
+    },
+    {
+     "text": "Planes already in the air had to stay at 3 kilometers or higher.",
+     "src": "The Korea Herald / Yonhap, Nov 19 2026"
+    },
+    {
+     "text": "The stock market opened and closed an hour later, and Seoul added 27 subway runs.",
+     "src": "The Korea Herald / Yonhap, Nov 19 2026"
+    }
+   ],
+   "foot": "The comic is a joke. The facts are from the news. Full story: Blip Check on YouTube.",
+   "face": "wink"
+  }
+ ]
+}
