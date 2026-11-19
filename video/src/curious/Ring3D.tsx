@@ -141,13 +141,28 @@ const chase = (f: SimFrame): Shot => {
   const p = pos(x), d = fwd(x);
   return { pos: p.clone().addScaledVector(d, -9).add(new THREE.Vector3(0, 3.6, 0)).addScaledVector(p.clone().normalize(), 1.2), look: p.clone().addScaledVector(d, 14).add(new THREE.Vector3(0, 1.2, 0)) };
 };
-const jamCenter = (f: SimFrame): number => {
-  let k = 0;
-  for (let i = 1; i < f.v.length; i++) if (f.v[i] < f.v[k]) k = i;
-  return f.x[k];
-};
+// Smoothed position of ONE jam, precomputed for every frame. Following "the slowest car" made the camera
+// jump whenever a different car became the slowest, and between two jams later on.
+const wrap = (d: number) => ((((d + RING.L / 2) % RING.L) + RING.L) % RING.L) - RING.L / 2;
+const JAM_X: number[] = (() => {
+  const out: number[] = [];
+  let cur: number | null = null;
+  for (const f of SIM) {
+    const slow = f.x.filter((_, i) => f.v[i] < 3);
+    if (slow.length) {
+      const ref: number = cur ?? f.x[f.v.indexOf(Math.min(...f.v))];
+      const near = slow.filter((x) => Math.abs(wrap(x - ref)) < 25);
+      const pick = near.length ? near : [slow.reduce((a, x) => (Math.abs(wrap(x - ref)) < Math.abs(wrap(a - ref)) ? x : a))];
+      const target = ref + pick.reduce((sum, x) => sum + wrap(x - ref), 0) / pick.length;
+      cur = cur === null ? target : cur + 0.06 * wrap(target - cur);
+    }
+    out.push(cur === null ? 0 : ((cur % RING.L) + RING.L) % RING.L);
+  }
+  return out;
+})();
+let jamFrame = 0;
 const jamCam = (f: SimFrame): Shot => {
-  const x = jamCenter(f);
+  const x = JAM_X[jamFrame];
   const p = pos(x);
   const out = p.clone().normalize();
   return { pos: p.clone().addScaledVector(out, 34).add(new THREE.Vector3(0, 26, 0)), look: p.clone() };
@@ -155,6 +170,7 @@ const jamCam = (f: SimFrame): Shot => {
 
 const shotAt = (fr: number): Shot => {
   const f = SIM[Math.min(fr, SIM.length - 1)];
+  jamFrame = Math.min(fr, SIM.length - 1);
   const s = fr / FPS;
   const k = (a: number, b: number) => ease(Math.min(1, Math.max(0, (s - a) / (b - a))));
   if (s < 5) return aerial(s);
