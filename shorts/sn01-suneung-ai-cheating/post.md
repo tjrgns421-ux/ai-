@@ -80,3 +80,41 @@ Suneung, CSAT, South Korea, Korean exam, college entrance exam, AI cheating, sma
 ```
 Should schools change what they test now that AI can answer the questions?
 ```
+
+---
+
+# Shorts version (9:16, 0:31)
+
+## Title
+
+**Korea Stops Planes for This Exam. Now It's Fighting AI #shorts**
+
+## Description (same safe format: no links, no emoji, no ampersand)
+
+```
+South Korea stops planes for its college entrance exam. This year it is also fighting AI cheating.
+Glasses inspected, shirt buttons covered with stickers, phones buzzed by an emergency alert, and a 10-year exam ban for cheaters.
+
+Full story with every source: on the Blip Check channel.
+Sources shown on screen: Associated Press, Korea JoongAng Daily.
+
+Not affiliated with any company or agency mentioned. Narrated with an AI voice.
+
+#Suneung #SouthKorea #shorts
+```
+
+## Tags
+
+```
+Suneung, CSAT, South Korea, college entrance exam, AI cheating, smart glasses, Korea news, AI news, Blip Check, shorts
+```
+
+## Settings
+
+Same as the long video. When advanced features are unlocked, set the long video as the Short's Related video.
+
+## Pinned comment
+
+```
+Full story with every source is on the channel.
+```
