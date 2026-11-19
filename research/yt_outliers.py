@@ -1,6 +1,6 @@
 """Find overseas YouTube videos that beat their channel's size (outliers), per niche.
 
-python3 research/yt_outliers.py [--days 30] [--niches research/niches.json] [--only korea-explained,history] [--region US]
+python3 research/yt_outliers.py [--days 30] [--niches research/niches.json] [--only korea-explained,history] [--region US] [--swipe 15]
 
 Needs network access to www.googleapis.com and a YouTube Data API key. The key is sent in the
 X-Goog-Api-Key header; in this cloud session the network proxy fills it in, so the script sends a
@@ -9,6 +9,8 @@ placeholder unless YT_API_KEY is set.
 Score = views / max(subscribers, 1,000). A score of 3+ means the video did far better than the
 channel usually would; 10+ is a strong signal that the topic or format is working right now.
 Output: research/out/<date>/videos.csv, report.md (top videos per niche + niche summary).
+--swipe N also pulls the last N uploads of each channel behind a score-3+ video into collected.json, the
+input of .claude/skills/yt-viral/swipe.py (multiple over the channel's own median).
 """
 import argparse
 import csv
@@ -60,6 +62,7 @@ def main():
     ap.add_argument("--niches", default=str(HERE / "niches.json"))
     ap.add_argument("--only", default="")
     ap.add_argument("--region", default="US")
+    ap.add_argument("--swipe", type=int, default=0, help="uploads per channel to collect for yt-viral (0 = off)")
     a = ap.parse_args()
 
     cfg = json.loads(Path(a.niches).read_text())["niches"]
@@ -84,7 +87,7 @@ def main():
             vids[v["id"]] = v
     chans = {}
     for ids in chunks(list({v["snippet"]["channelId"] for v in vids.values()})):
-        for c in get("channels", part="snippet,statistics", id=",".join(ids)).get("items", []):
+        for c in get("channels", part="snippet,statistics,contentDetails", id=",".join(ids)).get("items", []):
             chans[c["id"]] = c
 
     rows = []
@@ -137,6 +140,23 @@ def main():
             t = r["title"].replace("|", "/")[:70]
             md.append(f"| {r['score']} | {r['views']:,} | {r['subs']:,} | {r['format']} | {r['channel_age_days']} | [{t}]({r['url']}) | {r['channel'][:30]} |")
     (out / "report.md").write_text("\n".join(md) + "\n", encoding="utf-8")
+    if a.swipe:
+        strong = sorted({r["channel"] for r in rows if r["score"] >= 3})
+        ids_by_name = {c["snippet"]["title"]: c for c in chans.values()}
+        collected = []
+        for name in strong[:40]:
+            up = ids_by_name[name].get("contentDetails", {}).get("relatedPlaylists", {}).get("uploads")
+            if not up:
+                continue
+            items = get("playlistItems", part="contentDetails", playlistId=up, maxResults=min(a.swipe, 50)).get("items", [])
+            vids2 = [i["contentDetails"]["videoId"] for i in items]
+            if not vids2:
+                continue
+            for v in get("videos", part="snippet,statistics,contentDetails", id=",".join(vids2)).get("items", []):
+                collected.append({"channel": name, "title": v["snippet"]["title"], "views": int(v.get("statistics", {}).get("viewCount", 0)),
+                                  "url": f"https://www.youtube.com/watch?v={v['id']}", "duration": iso_seconds(v["contentDetails"].get("duration"))})
+        (out / "collected.json").write_text(json.dumps(collected, ensure_ascii=False, indent=1), encoding="utf-8")
+        print(f"swipe: {len(collected)} uploads from {len(strong[:40])} channels -> {out / 'collected.json'}")
     print(f"done: {len(rows)} videos, ~{units} API units, report: {out / 'report.md'}")
 
 
