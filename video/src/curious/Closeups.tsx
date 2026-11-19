@@ -34,7 +34,7 @@ const brakeOf = (i: number) => 0.8 + i * 0.55; // m/s^2, grows down the line
 const delayOf = (i: number) => i * 0.7; // s
 const amp = (() => {
   // integrate each car: brakes for 1.6 s starting at its delay, then recovers to V0
-  const dt = 1 / 30, T = 10;
+  const dt = 1 / 30, T = 16;
   const xs: number[][] = [], vs: number[][] = [], br: boolean[][] = [];
   for (let i = 0; i < CARS; i++) {
     let x = -i * GAP, v = V0;

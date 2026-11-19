@@ -1,0 +1,30 @@
+[
+ {
+  "name": "mit2009b",
+  "url": "https://news.mit.edu/2009/traffic-0609",
+  "find": "You're stuck in traffic until",
+  "until": "it just clears",
+  "marks": [
+   "it just clears"
+  ]
+ },
+ {
+  "name": "osti",
+  "url": "https://www.osti.gov/biblio/2341544",
+  "find": "a single vehicle driving differently",
+  "until": "four lanes of I-24",
+  "marks": [
+   "a single vehicle driving differently"
+  ]
+ },
+ {
+  "name": "csail",
+  "url": "https://www.csail.mit.edu/news/improving-traffic-tailgating-less",
+  "find": "The team\u2019s new journal article argues",
+  "until": "twice as quickly",
+  "marks": [
+   "bilateral control",
+   "twice as quickly"
+  ]
+ }
+]

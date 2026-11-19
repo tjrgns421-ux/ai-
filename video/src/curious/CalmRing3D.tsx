@@ -46,7 +46,7 @@ const Rig: React.FC<{ fr: number }> = ({ fr }) => {
   return null;
 };
 
-export const CmCalmRing3D: React.FC = () => {
+export const CmCalmRing3D: React.FC<{ bare?: boolean }> = ({ bare = false }) => {
   useFonts();
   const fr = useCurrentFrame();
   const f = SIM[Math.min(fr, SIM.length - 1)];
@@ -77,13 +77,13 @@ export const CmCalmRing3D: React.FC = () => {
           <span style={{ color: "#1AA6D6" }}>●</span> AI car: follows the average speed
         </div>
       )}
-      {line && (
+      {line && !bare && (
         <div style={{ position: "absolute", left: 0, right: 0, bottom: 90, textAlign: "center", opacity: op }}>
           <span style={{ fontFamily: "Pretendard", fontWeight: 900, fontSize: 64, color: "#FFFFFF", background: "rgba(20,21,27,0.72)", padding: "10px 30px", borderRadius: 18 }}>{line[2]}</span>
         </div>
       )}
-      <div style={{ position: "absolute", right: 60, bottom: 36, fontFamily: "Pretendard", fontWeight: 700, fontSize: 22, color: "#FFFFFF", opacity: 0.85, textShadow: "0 2px 6px rgba(0,0,0,0.6)" }}>Recreation of Stern et al. (2018)</div>
-      {s >= 26 && <Img src={staticFile("sprout/excited.png")} style={{ position: "absolute", left: 60, bottom: 40, width: 260, height: 260, opacity: interpolate(s, [26, 26.6], [0, 1], { extrapolateRight: "clamp" }) }} />}
+      <div style={{ position: "absolute", right: 60, ...(bare ? { top: 110 } : { bottom: 36 }), fontFamily: "Pretendard", fontWeight: 700, fontSize: 22, color: "#FFFFFF", opacity: 0.85, textShadow: "0 2px 6px rgba(0,0,0,0.6)" }}>Recreation of Stern et al. (2018)</div>
+      {s >= 26 && !bare && <Img src={staticFile("sprout/excited.png")} style={{ position: "absolute", left: 60, bottom: 40, width: 260, height: 260, opacity: interpolate(s, [26, 26.6], [0, 1], { extrapolateRight: "clamp" }) }} />}
     </AbsoluteFill>
   );
 };
