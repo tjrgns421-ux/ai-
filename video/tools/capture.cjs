@@ -122,7 +122,7 @@ const path = require("path");
       continue;
     }
     const file = path.join(outDir, `${s.name}.png`);
-    await page.screenshot({ path: file, clip: res.clip });
+    try { await page.screenshot({ path: file, clip: res.clip }); } catch (e) { console.log(`SKIP ${s.name}: screenshot failed`); continue; }
     const k = 2;
     const sc = (b) => ({ x: Math.round(b.x * k), y: Math.round(b.y * k), w: Math.round(b.w * k), h: Math.round(b.h * k) });
     manifest[s.name] = {
