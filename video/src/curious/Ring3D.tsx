@@ -17,9 +17,9 @@ const SIM = simulate(72, FPS / SPEEDUP, null);
 export const RING3D_FRAMES = SIM.length;
 
 const PALETTE = ["#FF6B5E", "#FFD23F", "#4FA3FF", "#5BD68A", "#FF9F43", "#B07CFF", "#7FE3FF", "#FF8FC7"];
-const ang = (x: number) => (x / RING.L) * Math.PI * 2;
-const pos = (x: number): THREE.Vector3 => new THREE.Vector3(R * Math.cos(ang(x)), 0, R * Math.sin(ang(x)));
-const fwd = (x: number): THREE.Vector3 => new THREE.Vector3(-Math.sin(ang(x)), 0, Math.cos(ang(x)));
+export const ang = (x: number) => (x / RING.L) * Math.PI * 2;
+export const pos = (x: number): THREE.Vector3 => new THREE.Vector3(R * Math.cos(ang(x)), 0, R * Math.sin(ang(x)));
+export const fwd = (x: number): THREE.Vector3 => new THREE.Vector3(-Math.sin(ang(x)), 0, Math.cos(ang(x)));
 
 // ---------- world ----------
 const rand = (i: number) => {
@@ -27,7 +27,7 @@ const rand = (i: number) => {
   return s - Math.floor(s);
 };
 
-const Trees: React.FC = () => {
+export const Trees: React.FC = () => {
   const trees = useMemo(
     () =>
       Array.from({ length: 70 }, (_, i) => {
@@ -56,7 +56,7 @@ const Trees: React.FC = () => {
   );
 };
 
-const Cones: React.FC = () => (
+export const Cones: React.FC = () => (
   <>
     {Array.from({ length: 36 }, (_, i) => {
       const a = (i / 36) * Math.PI * 2;
@@ -71,7 +71,7 @@ const Cones: React.FC = () => (
   </>
 );
 
-const Track: React.FC = () => (
+export const Track: React.FC = () => (
   <>
     <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -0.02, 0]} receiveShadow>
       <planeGeometry args={[400, 400]} />
@@ -91,7 +91,7 @@ const Track: React.FC = () => (
 );
 
 // ---------- cars ----------
-const Car: React.FC<{ f: SimFrame; i: number }> = ({ f, i }) => {
+export const Car: React.FC<{ f: SimFrame; i: number; calm?: boolean }> = ({ f, i, calm = false }) => {
   const body = useMemo(() => new RoundedBoxGeometry(4.2, 1.1, 1.9, 4, 0.3), []);
   const cabin = useMemo(() => new RoundedBoxGeometry(2.2, 0.8, 1.7, 4, 0.25), []);
   const x = f.x[i];
@@ -101,7 +101,7 @@ const Car: React.FC<{ f: SimFrame; i: number }> = ({ f, i }) => {
   return (
     <group position={[p.x, 0, p.z]} rotation={[0, rotY, 0]}>
       <mesh geometry={body} position={[0, 0.85, 0]} castShadow>
-        <meshPhysicalMaterial color={PALETTE[i % PALETTE.length]} roughness={0.35} clearcoat={0.8} />
+        <meshPhysicalMaterial color={calm ? "#F7F7F5" : PALETTE[i % PALETTE.length]} roughness={0.35} clearcoat={0.8} />
       </mesh>
       <mesh geometry={cabin} position={[-0.2, 1.7, 0]} castShadow>
         <meshPhysicalMaterial color="#CFEFFF" roughness={0.1} clearcoat={1} />
@@ -121,6 +121,15 @@ const Car: React.FC<{ f: SimFrame; i: number }> = ({ f, i }) => {
         </mesh>
       ))}
       {braking && <pointLight position={[-2.6, 1.0, 0]} color="#FF2A1F" intensity={6} distance={6} />}
+      {calm && (
+        <>
+          <mesh position={[-0.2, 2.25, 0]}>
+            <cylinderGeometry args={[0.28, 0.32, 0.22, 20]} />
+            <meshStandardMaterial color="#57D6FF" emissive="#57D6FF" emissiveIntensity={2.5} toneMapped={false} />
+          </mesh>
+          <pointLight position={[-0.2, 2.8, 0]} color="#57D6FF" intensity={8} distance={8} />
+        </>
+      )}
     </group>
   );
 };
