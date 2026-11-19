@@ -8,6 +8,7 @@ import { Ep01Full, EP01_DURATION } from "./ep01/Ep01";
 import { Ep02Full, EP02_DURATION } from "./ep02/Ep02";
 import { En01Full, EN01_DURATION } from "./en01/En01";
 import { BlipAvatar, BlipAvatarKR, BlipBanner, BlipBannerKR } from "./brand/Brand";
+import { CuriousStill } from "./mascot/Curious";
 import { Bc01Board } from "./bc01/Board";
 import { BlipStill } from "./bc01/BlipStill";
 import { Bc01Full, BC01_DURATION } from "./bc01/Bc01";
@@ -68,6 +69,7 @@ export const RemotionRoot: React.FC = () => {
         <Composition id="BlipStill" component={BlipStill} durationInFrames={1} fps={30} width={800} height={800} defaultProps={{ pose: { face: "prompt" as const } }} />
       </Folder>
       <Folder name="Brand">
+        <Composition id="CuriousStill" component={CuriousStill} durationInFrames={1} fps={30} width={800} height={800} defaultProps={{ v: "orbi" as const }} />
         <Composition id="BlipAvatar" component={BlipAvatar} durationInFrames={1} fps={30} width={800} height={800} />
         <Composition id="BlipAvatarKR" component={BlipAvatarKR} durationInFrames={1} fps={30} width={800} height={800} defaultProps={{ v: "A" as const }} />
         <Composition id="BlipBannerKR" component={BlipBannerKR} durationInFrames={1} fps={30} width={2560} height={1440} />
