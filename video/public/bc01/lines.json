@@ -1,0 +1,242 @@
+[
+ {
+  "text": "OpenAI just dropped two new models, and the headline claim is wild: beats Claude, at five percent of the cost.",
+  "start": 0.05,
+  "end": 5.563
+ },
+ {
+  "text": "Five percent. That's not a discount. That's a clearance sale.",
+  "start": 5.683,
+  "end": 8.195
+ },
+ {
+  "text": "So Blip checked the receipts.",
+  "start": 8.315,
+  "end": 9.739
+ },
+ {
+  "text": "Three questions. What actually changed? Does it really beat Claude? And which one should you use, starting today?",
+  "start": 9.859,
+  "end": 14.632
+ },
+ {
+  "text": "On November seventeenth, OpenAI released GPT-6.2 Astra and GPT-6.2 Sol.",
+  "start": 14.752,
+  "end": 21.113
+ },
+ {
+  "text": "Astra is the big one, built for complex professional work.",
+  "start": 21.233,
+  "end": 24.288
+ },
+ {
+  "text": "Sol is what OpenAI calls its go-to model for everyday work.",
+  "start": 24.408,
+  "end": 27.81
+ },
+ {
+  "text": "If you're keeping track, OpenAI now has Astra, Sol, Terra and Luna. That's not a model lineup. That's a solar system.",
+  "start": 27.93,
+  "end": 34.15
+ },
+ {
+  "text": "Both are live in ChatGPT Work and Codex, for Plus, Pro, Enterprise and Edu.",
+  "start": 34.27,
+  "end": 38.674
+ },
+ {
+  "text": "On Enterprise and Edu, your workspace admin has to switch them on first. So if you don't see them, go bother your IT person. Nicely.",
+  "start": 38.794,
+  "end": 45.166
+ },
+ {
+  "text": "Astra also arrives less than two months after OpenAI called off GPT-6.1 Astra, because testing found it didn't always stay within scope and authorization.",
+  "start": 45.286,
+  "end": 54.277
+ },
+ {
+  "text": "In other words, it didn't stay in its lane. Blip would never. Blip asks first.",
+  "start": 54.397,
+  "end": 58.202
+ },
+ {
+  "text": "Astra's pitch is office work. OpenAI says it was trained to make slides, spreadsheets and documents that follow professional conventions.",
+  "start": 58.322,
+  "end": 65.683
+ },
+ {
+  "text": "It can even match a slide template from a file or a screenshot, down to the exact font size.",
+  "start": 65.803,
+  "end": 70.446
+ },
+ {
+  "text": "Finally, an AI that cares about fonts as much as your manager does.",
+  "start": 70.566,
+  "end": 73.915
+ },
+ {
+  "text": "One early tester, an accounting startup called Basis, says its average time on long accounting work fell by half.",
+  "start": 74.035,
+  "end": 79.678
+ },
+ {
+  "text": "Now the price. On OpenAI's pricing page, Astra costs eight dollars per million input tokens, and forty per million output.",
+  "start": 79.798,
+  "end": 86.43
+ },
+ {
+  "text": "Sol costs two and ten.",
+  "start": 86.55,
+  "end": 87.669
+ },
+ {
+  "text": "So per token, Astra is four times the price.",
+  "start": 87.789,
+  "end": 90.42
+ },
+ {
+  "text": "To be fair, that's twenty percent cheaper than the Astra before it. Expensive, but on sale.",
+  "start": 90.54,
+  "end": 94.801
+ },
+ {
+  "text": "And here's the part that got less spotlight.",
+  "start": 94.921,
+  "end": 96.551
+ },
+ {
+  "text": "On a coding benchmark called FrontierCode 2.0, OpenAI says Sol came within half a point of Astra, at about one fifth of the cost.",
+  "start": 96.671,
+  "end": 104.389
+ },
+ {
+  "text": "You will not feel half a point. Your wallet will feel five times.",
+  "start": 104.509,
+  "end": 107.956
+ },
+ {
+  "text": "OpenAI also says Sol lets you finish more tasks on the same paid plan than the last Sol did.",
+  "start": 108.076,
+  "end": 113.012
+ },
+ {
+  "text": "So, does Astra really beat Claude? Quick detour. Thirty seconds on benchmarks.",
+  "start": 113.132,
+  "end": 117.242
+ },
+ {
+  "text": "A benchmark is just a test. Same questions for every model, then you compare scores.",
+  "start": 117.362,
+  "end": 121.796
+ },
+ {
+  "text": "The catch: there are hundreds of tests, and every company picks which ones go in the launch post.",
+  "start": 121.916,
+  "end": 126.57
+ },
+ {
+  "text": "It's like bringing home only the report card with the A on it. Not lying. Just curating.",
+  "start": 126.69,
+  "end": 130.659
+ },
+ {
+  "text": "OpenAI's Claude claim comes from one test, Agents' Last Exam, which measures multistep professional work.",
+  "start": 130.779,
+  "end": 136.269
+ },
+ {
+  "text": "On that test, OpenAI says Astra finished five and a half points ahead of Claude Fable 5.2, at five percent of the cost.",
+  "start": 136.389,
+  "end": 142.967
+ },
+ {
+  "text": "To check it, you want an independent scorekeeper. Artificial Analysis runs a whole bundle of tests and publishes the results.",
+  "start": 143.087,
+  "end": 149.208
+ },
+ {
+  "text": "On its Intelligence Index, at max settings, Claude Fable 5.2 scores sixty-five.",
+  "start": 149.328,
+  "end": 154.308
+ },
+ {
+  "text": "GPT-6.2 Astra scores sixty-two. Sol scores fifty-seven.",
+  "start": 154.428,
+  "end": 158.722
+ },
+ {
+  "text": "So overall, Claude is still on top. Astra wins the test OpenAI picked, not the whole report card.",
+  "start": 158.842,
+  "end": 164.495
+ },
+ {
+  "text": "Now look at cost per task on the same index.",
+  "start": 164.615,
+  "end": 166.811
+ },
+ {
+  "text": "Sol: about a dollar. Astra: four dollars. Fable 5.2: twenty-six fifty.",
+  "start": 166.931,
+  "end": 171.608
+ },
+ {
+  "text": "So here, Astra costs about fifteen percent of Claude. Not five. But still a lot cheaper. That part is real.",
+  "start": 171.728,
+  "end": 177.012
+ },
+ {
+  "text": "Artificial Analysis also flags Astra as a bit verbose. It likes to talk. Blip respects that.",
+  "start": 177.132,
+  "end": 182.22
+ },
+ {
+  "text": "So which one should you use?",
+  "start": 182.34,
+  "end": 183.307
+ },
+ {
+  "text": "Start with Sol. Chat, quick answers, everyday coding, drafts and emails. It's cheaper, and on coding it's basically tied.",
+  "start": 183.427,
+  "end": 190.07
+ },
+ {
+  "text": "Switch to Astra when the output is the job: a slide deck, a spreadsheet, a legal or finance document that has to look like a pro made it.",
+  "start": 190.19,
+  "end": 196.93
+ },
+ {
+  "text": "And if Claude already does that work for you, this launch alone isn't a reason to switch. It's a reason to test both on your own tasks.",
+  "start": 197.05,
+  "end": 202.941
+ },
+ {
+  "text": "Blip's verdict on \"beats Claude at five percent of the cost\":",
+  "start": 203.061,
+  "end": 205.779
+ },
+ {
+  "text": "Cheaper? Real. Beats Claude? On one test OpenAI chose, not on the independent index.",
+  "start": 205.899,
+  "end": 210.977
+ },
+ {
+  "text": "Half true.",
+  "start": 211.097,
+  "end": 211.597
+ },
+ {
+  "text": "Use Sol, keep your wallet, and save Astra for the deck your boss will actually read.",
+  "start": 211.717,
+  "end": 215.327
+ },
+ {
+  "text": "Got a question, or a model you want Blip to check next? Drop it in the comments.",
+  "start": 215.447,
+  "end": 219.024
+ },
+ {
+  "text": "Follow Blip, and see you at the next check.",
+  "start": 219.144,
+  "end": 220.851
+ }
+]

@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<!-- 화풍 세상: 블록 장난감 (연구 중 2026-11-07) — 초록 판 위 블록 한옥 마을, 클로드 별은 작은 블록이 하나씩 떨어져 끼워지며 조립된다. three.js, __seek(t) 0~1.6초 -->
+<link rel="stylesheet" href="../world.css">
+<style>
+  body { background: linear-gradient(#7cc4ff 0%, #b9e2ff 50%, #e8f6ff 80%); }
+  .hud .name { font-family: BlackHan; color: #fff; background: #e23b2e; padding: 14px 34px 18px; border-radius: 18px; box-shadow: inset 0 -8px 0 rgba(0,0,0,.18), 0 8px 0 #a3241b; font-size: 84px; }
+  .hud .dots { color: #fff; background: rgba(30,40,60,.55); }
+</style></head>
+<body>
+<div id="stage"></div>
+<div class="hud"><div class="name">블록</div><div class="dots"><b>9/10</b><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div></div>
+<script type="module">
+import * as THREE from "../vendor/three.module.min.js";
+import { rays, rng, ease } from "../star.js";
+const W = 1080, H = 1920;
+const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true, preserveDrawingBuffer: true });
+renderer.setSize(W, H); renderer.setPixelRatio(1);
+renderer.shadowMap.enabled = true; renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+renderer.toneMapping = THREE.ACESFilmicToneMapping; renderer.toneMappingExposure = 1.0;
+document.getElementById("stage").appendChild(renderer.domElement);
+const scene = new THREE.Scene();
+const cam = new THREE.PerspectiveCamera(38, W / H, 0.1, 300);
+cam.position.set(0, 13, 46); cam.lookAt(0, 6.4, -3);
+
+scene.add(new THREE.HemisphereLight(0xffffff, 0x9bd38a, 1.3));
+const sun = new THREE.DirectionalLight(0xffffff, 2.6); sun.position.set(-8, 18, 12); sun.castShadow = true;
+Object.assign(sun.shadow.camera, { left: -20, right: 20, top: 20, bottom: -10, near: 1, far: 70 }); sun.shadow.mapSize.set(2048, 2048); sun.shadow.bias = -0.0004;
+scene.add(sun);
+
+const plastic = (c) => new THREE.MeshStandardMaterial({ color: c, roughness: 0.32, metalness: 0 });
+const U = 1; // 블록 한 칸
+const studGeo = new THREE.CylinderGeometry(0.3 * U, 0.3 * U, 0.2 * U, 20);
+
+// 같은 모양을 여러 개: 위치 목록으로 InstancedMesh
+function instanced(geo, mat, list, shadow = true) {
+  const m = new THREE.InstancedMesh(geo, mat, list.length), o = new THREE.Object3D();
+  list.forEach((p, i) => { o.position.set(p[0], p[1], p[2]); o.rotation.set(p[3] || 0, p[4] || 0, p[5] || 0); o.scale.set(1, 1, 1); o.updateMatrix(); m.setMatrixAt(i, o.matrix); });
+  m.castShadow = shadow; m.receiveShadow = true; scene.add(m); return m;
+}
+
+// 초록 판 + 돌기
+const plate = new THREE.Mesh(new THREE.BoxGeometry(70, 0.4, 80), plastic(0x3fae4a)); plate.position.set(0, -0.2, 4); plate.receiveShadow = true; scene.add(plate);
+{ const l = []; for (let x = -24; x <= 24; x++) for (let z = -26; z <= 30; z++) l.push([x, 0.1, z]); instanced(studGeo, plastic(0x3fae4a), l, false); }
+
+// 블록 한 줄을 쌓는 도우미: 상자 + 윗면 돌기
+function brick(x, y, z, w, h, d, color, studs = true) {
+  const m = new THREE.Mesh(new THREE.BoxGeometry(w - 0.04, h - 0.02, d - 0.04), plastic(color)); m.position.set(x, y + h / 2, z); m.castShadow = m.receiveShadow = true; scene.add(m);
+  if (studs) { const l = []; for (let i = 0; i < Math.round(w); i++) for (let k = 0; k < Math.round(d); k++) l.push([x - w / 2 + 0.5 + i, y + h + 0.1, z - d / 2 + 0.5 + k]); instanced(studGeo, plastic(color), l); }
+}
+// 블록 한옥: 흰 벽(엇갈려 쌓은 줄) + 갈색 기둥 + 회색 계단 지붕
+function hanok(x, z, w, s = 1, rot = 0) {
+  const g0 = scene.children.length;
+  const d = 4, wallH = 1.2;
+  brick(x, 0, z, w + 1, 0.6, d + 1, 0x9a9a9a, false); // 기단
+  for (let row = 0; row < 3; row++) { const y = 0.6 + row * wallH; brick(x, y, z, w, wallH, d, 0xf5f1e6, false); }
+  for (const dx of [-w / 2 + 0.5, w / 2 - 0.5, 0]) brick(x + dx, 0.6, z + d / 2 - 0.4, 0.8, wallH * 3, 0.8, 0x7a4b2a, false);
+  brick(x, 0.6 + wallH * 1, z + d / 2 + 0.01, 1.6, 1.2, 0.1, 0x8fc8ff, false); // 창
+  // 지붕: 처마가 넓고 위로 갈수록 좁아지는 계단
+  const roofC = 0x4a5160;
+  for (let k = 0; k < 4; k++) brick(x, 0.6 + wallH * 3 + k * 0.4, z, w + 3 - k * 1.6, 0.4, d + 2.4 - k * 1.2, k === 3 ? 0x3a404c : roofC, k === 3);
+  // 처마 끝이 살짝 들린 느낌(양끝 블록)
+  for (const sx of [-1, 1]) brick(x + sx * (w / 2 + 1.6), 0.6 + wallH * 3 + 0.4, z, 1, 0.4, d + 2.4, roofC, true);
+}
+hanok(-6, -4, 6); hanok(7, -7, 5); hanok(-1, -15, 7);
+// 나무: 갈색 기둥 + 초록 둥근 블록 층
+function tree(x, z, s = 1) { brick(x, 0, z, 1, 2.4 * s, 1, 0x7a4b2a, false); for (let k = 0; k < 3; k++) { const r = (3 - k) * s; const m = new THREE.Mesh(new THREE.CylinderGeometry(r * 0.75, r * 0.75, 1, 24), plastic(0x2e9e44)); m.position.set(x, 2.4 * s + 0.5 + k * 1.0, z); m.castShadow = m.receiveShadow = true; scene.add(m); } }
+tree(-12, 0, 0.9); tree(12.5, -1, 1); tree(3, -11, 0.8); tree(-11, -12, 1.1);
+// 구름(흰 판 블록)
+function cloud(x, y, z) { brick(x, y, z, 6, 0.8, 2, 0xffffff, true); brick(x + 0.5, y + 0.8, z, 3, 0.8, 2, 0xffffff, true); }
+cloud(-7, 19, -14); cloud(8, 21, -18);
+
+// 클로드 별: 별 모양 안에 드는 칸마다 작은 블록(앞면 돌기) — 하나씩 떨어져 끼워진다
+const S = 0.36, R = 4.4; // 칸 크기, 별 반지름
+// 별 안인지: 가운데 원이거나 광선(뿌리→끝 사다리꼴) 안
+const RAYS = rays(), HUB = 0.33, ROOT = 0.24, TIP = 0.17;
+const inside = (x, y) => { if (Math.hypot(x, y) < HUB) return true; for (const r of RAYS) { const ux = Math.cos(r.a), uy = Math.sin(r.a), along = x * ux + y * uy, across = Math.abs(-x * uy + y * ux); if (along < 0 || along > r.len) continue; const w = ROOT + (TIP - ROOT) * Math.min(1, along / r.len); if (across < w / 2) return true; } return false; };
+const cells = [];
+for (let gx = -R; gx <= R; gx += S) for (let gy = -R; gy <= R; gy += S) if (inside(gx / R, -gy / R)) cells.push([gx, gy, Math.hypot(gx, gy)]);
+cells.sort((a, b) => a[2] - b[2]);
+const starColor = plastic(0xde7356), starDark = plastic(0xc15f3c);
+const cellGeo = new THREE.BoxGeometry(S - 0.025, S - 0.025, 0.5), cellStud = new THREE.CylinderGeometry(0.095, 0.095, 0.09, 12);
+const cellMesh = new THREE.InstancedMesh(cellGeo, starColor, cells.length), studMesh = new THREE.InstancedMesh(cellStud, starColor, cells.length);
+cellMesh.castShadow = studMesh.castShadow = true; scene.add(cellMesh, studMesh);
+const starGroup = new THREE.Group(); scene.add(starGroup); starGroup.add(cellMesh, studMesh);
+const o = new THREE.Object3D(), CY = 9.8;
+
+window.__seek = async (t) => {
+  const n = cells.length;
+  starGroup.position.set(-1 + ease.out(ease.clamp(t / 1.4)) * 1.6, 0, 3);
+  starGroup.rotation.set(0, -0.35 + ease.out(ease.clamp(t / 1.6)) * 0.45, Math.sin(t * 1.5) * 0.04);
+  cells.forEach(([x, y], i) => {
+    const start = (i / n) * 0.75, p = ease.clamp((t - start) / 0.18);
+    const fall = p >= 1 ? 0 : (1 - p) * (1 - p) * 2.5; // 위에서 떨어져 '딱'
+    const bump = p >= 1 ? Math.max(0, 0.12 - (t - start - 0.18) * 1.2) : 0;
+    const vis = p > 0 ? 1 : 0.0001;
+    o.position.set(x, CY + y + fall, 0 + bump); o.rotation.set(0, 0, 0); o.scale.setScalar(vis); o.updateMatrix(); cellMesh.setMatrixAt(i, o.matrix);
+    o.position.set(x, CY + y + fall, 0.3 + bump); o.rotation.set(Math.PI / 2, 0, 0); o.updateMatrix(); studMesh.setMatrixAt(i, o.matrix);
+  });
+  cellMesh.instanceMatrix.needsUpdate = studMesh.instanceMatrix.needsUpdate = true;
+  renderer.render(scene, cam);
+};
+window.__seek(1.2);
+</script></body></html>

@@ -1,0 +1,1080 @@
+[
+ {
+  "text": "Stop",
+  "start": 0.05,
+  "end": 0.316,
+  "display": "Stop",
+  "break": false
+ },
+ {
+  "text": "copy-pasting",
+  "start": 0.328,
+  "end": 1.045,
+  "display": "copy-pasting",
+  "break": false
+ },
+ {
+  "text": "code",
+  "start": 1.057,
+  "end": 1.45,
+  "display": "code",
+  "break": false
+ },
+ {
+  "text": "into",
+  "start": 1.469,
+  "end": 1.597,
+  "display": "into",
+  "break": false
+ },
+ {
+  "text": "Claude",
+  "start": 1.597,
+  "end": 2.025,
+  "display": "Claude.",
+  "break": true
+ },
+ {
+  "text": "There's",
+  "start": 2.275,
+  "end": 2.379,
+  "display": "There's",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 2.391,
+  "end": 2.437,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "version",
+  "start": 2.437,
+  "end": 2.819,
+  "display": "version",
+  "break": false
+ },
+ {
+  "text": "that",
+  "start": 2.819,
+  "end": 2.958,
+  "display": "that",
+  "break": false
+ },
+ {
+  "text": "edits",
+  "start": 2.97,
+  "end": 3.282,
+  "display": "edits",
+  "break": false
+ },
+ {
+  "text": "your",
+  "start": 3.294,
+  "end": 3.41,
+  "display": "your",
+  "break": false
+ },
+ {
+  "text": "files",
+  "start": 3.41,
+  "end": 3.768,
+  "display": "files",
+  "break": false
+ },
+ {
+  "text": "itself",
+  "start": 3.78,
+  "end": 4.405,
+  "display": "itself.",
+  "break": true
+ },
+ {
+  "text": "Here's",
+  "start": 4.678,
+  "end": 4.864,
+  "display": "Here's",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 4.875,
+  "end": 4.945,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "difference",
+  "start": 4.945,
+  "end": 5.546,
+  "display": "difference,",
+  "break": true
+ },
+ {
+  "text": "in",
+  "start": 5.662,
+  "end": 5.778,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "one",
+  "start": 5.79,
+  "end": 5.986,
+  "display": "one",
+  "break": false
+ },
+ {
+  "text": "minute",
+  "start": 5.998,
+  "end": 6.334,
+  "display": "minute.",
+  "break": true
+ },
+ {
+  "text": "In",
+  "start": 6.584,
+  "end": 6.665,
+  "display": "In",
+  "break": false
+ },
+ {
+  "text": "chat",
+  "start": 6.665,
+  "end": 7.035,
+  "display": "chat,",
+  "break": true
+ },
+ {
+  "text": "you",
+  "start": 7.17,
+  "end": 7.262,
+  "display": "you",
+  "break": false
+ },
+ {
+  "text": "copy",
+  "start": 7.263,
+  "end": 7.54,
+  "display": "copy",
+  "break": false
+ },
+ {
+  "text": "your",
+  "start": 7.552,
+  "end": 7.644,
+  "display": "your",
+  "break": false
+ },
+ {
+  "text": "code",
+  "start": 7.644,
+  "end": 7.864,
+  "display": "code",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 7.864,
+  "end": 8.073,
+  "display": "in,",
+  "break": true
+ },
+ {
+  "text": "Claude",
+  "start": 8.173,
+  "end": 8.474,
+  "display": "Claude",
+  "break": false
+ },
+ {
+  "text": "answers",
+  "start": 8.474,
+  "end": 9.029,
+  "display": "answers,",
+  "break": true
+ },
+ {
+  "text": "and",
+  "start": 9.129,
+  "end": 9.198,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "you",
+  "start": 9.198,
+  "end": 9.268,
+  "display": "you",
+  "break": false
+ },
+ {
+  "text": "paste",
+  "start": 9.268,
+  "end": 9.522,
+  "display": "paste",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 9.522,
+  "end": 9.58,
+  "display": "it",
+  "break": false
+ },
+ {
+  "text": "back",
+  "start": 9.58,
+  "end": 9.928,
+  "display": "back.",
+  "break": true
+ },
+ {
+  "text": "You're",
+  "start": 10.178,
+  "end": 10.247,
+  "display": "You're",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 10.247,
+  "end": 10.294,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "hands",
+  "start": 10.294,
+  "end": 10.849,
+  "display": "hands.",
+  "break": true
+ },
+ {
+  "text": "Claude",
+  "start": 11.111,
+  "end": 11.366,
+  "display": "Claude",
+  "break": false
+ },
+ {
+  "text": "Code",
+  "start": 11.366,
+  "end": 11.713,
+  "display": "Code",
+  "break": false
+ },
+ {
+  "text": "works",
+  "start": 11.771,
+  "end": 12.107,
+  "display": "works",
+  "break": false
+ },
+ {
+  "text": "inside",
+  "start": 12.176,
+  "end": 12.72,
+  "display": "inside",
+  "break": false
+ },
+ {
+  "text": "your",
+  "start": 12.72,
+  "end": 12.801,
+  "display": "your",
+  "break": false
+ },
+ {
+  "text": "project",
+  "start": 12.801,
+  "end": 13.16,
+  "display": "project",
+  "break": false
+ },
+ {
+  "text": "folder",
+  "start": 13.16,
+  "end": 13.565,
+  "display": "folder.",
+  "break": true
+ },
+ {
+  "text": "It",
+  "start": 13.804,
+  "end": 13.919,
+  "display": "It",
+  "break": false
+ },
+ {
+  "text": "reads",
+  "start": 13.919,
+  "end": 14.07,
+  "display": "reads",
+  "break": false
+ },
+ {
+  "text": "your",
+  "start": 14.07,
+  "end": 14.174,
+  "display": "your",
+  "break": false
+ },
+ {
+  "text": "files",
+  "start": 14.186,
+  "end": 14.741,
+  "display": "files,",
+  "break": true
+ },
+ {
+  "text": "edits",
+  "start": 14.83,
+  "end": 15.061,
+  "display": "edits",
+  "break": false
+ },
+ {
+  "text": "them",
+  "start": 15.061,
+  "end": 15.304,
+  "display": "them,",
+  "break": true
+ },
+ {
+  "text": "and",
+  "start": 15.578,
+  "end": 15.705,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "runs",
+  "start": 15.705,
+  "end": 15.983,
+  "display": "runs",
+  "break": false
+ },
+ {
+  "text": "commands",
+  "start": 15.994,
+  "end": 16.388,
+  "display": "commands",
+  "break": false
+ },
+ {
+  "text": "itself",
+  "start": 16.388,
+  "end": 16.966,
+  "display": "itself.",
+  "break": true
+ },
+ {
+  "text": "Say",
+  "start": 17.217,
+  "end": 17.587,
+  "display": "Say",
+  "break": false
+ },
+ {
+  "text": "fix",
+  "start": 17.826,
+  "end": 18.023,
+  "display": "fix",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 18.023,
+  "end": 18.104,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "bug",
+  "start": 18.115,
+  "end": 18.416,
+  "display": "bug",
+  "break": false
+ },
+ {
+  "text": "on",
+  "start": 18.428,
+  "end": 18.486,
+  "display": "on",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 18.497,
+  "end": 18.567,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "login",
+  "start": 18.578,
+  "end": 18.902,
+  "display": "login",
+  "break": false
+ },
+ {
+  "text": "page",
+  "start": 18.914,
+  "end": 19.423,
+  "display": "page.",
+  "break": true
+ },
+ {
+  "text": "It",
+  "start": 19.685,
+  "end": 19.755,
+  "display": "It",
+  "break": false
+ },
+ {
+  "text": "finds",
+  "start": 19.755,
+  "end": 20.021,
+  "display": "finds",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 20.021,
+  "end": 20.09,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "file",
+  "start": 20.102,
+  "end": 20.495,
+  "display": "file,",
+  "break": true
+ },
+ {
+  "text": "makes",
+  "start": 20.804,
+  "end": 20.989,
+  "display": "makes",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 20.989,
+  "end": 21.058,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "change",
+  "start": 21.07,
+  "end": 21.66,
+  "display": "change,",
+  "break": true
+ },
+ {
+  "text": "and",
+  "start": 21.737,
+  "end": 21.864,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "can",
+  "start": 21.864,
+  "end": 22.026,
+  "display": "can",
+  "break": false
+ },
+ {
+  "text": "run",
+  "start": 22.026,
+  "end": 22.223,
+  "display": "run",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 22.223,
+  "end": 22.304,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "tests",
+  "start": 22.304,
+  "end": 22.582,
+  "display": "tests",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 22.582,
+  "end": 22.651,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "check",
+  "start": 22.651,
+  "end": 22.929,
+  "display": "check",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 22.929,
+  "end": 23.068,
+  "display": "it.",
+  "break": true
+ },
+ {
+  "text": "By",
+  "start": 23.318,
+  "end": 23.399,
+  "display": "By",
+  "break": false
+ },
+ {
+  "text": "default",
+  "start": 23.399,
+  "end": 23.874,
+  "display": "default,",
+  "break": true
+ },
+ {
+  "text": "it",
+  "start": 24.008,
+  "end": 24.089,
+  "display": "it",
+  "break": false
+ },
+ {
+  "text": "asks",
+  "start": 24.101,
+  "end": 24.379,
+  "display": "asks",
+  "break": false
+ },
+ {
+  "text": "before",
+  "start": 24.379,
+  "end": 24.691,
+  "display": "before",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 24.691,
+  "end": 24.738,
+  "display": "it",
+  "break": false
+ },
+ {
+  "text": "edits",
+  "start": 24.749,
+  "end": 24.957,
+  "display": "edits",
+  "break": false
+ },
+ {
+  "text": "files",
+  "start": 24.969,
+  "end": 25.525,
+  "display": "files",
+  "break": false
+ },
+ {
+  "text": "or",
+  "start": 25.629,
+  "end": 25.837,
+  "display": "or",
+  "break": false
+ },
+ {
+  "text": "runs",
+  "start": 25.849,
+  "end": 26.103,
+  "display": "runs",
+  "break": false
+ },
+ {
+  "text": "commands",
+  "start": 26.103,
+  "end": 26.67,
+  "display": "commands,",
+  "break": true
+ },
+ {
+  "text": "so",
+  "start": 26.898,
+  "end": 26.99,
+  "display": "so",
+  "break": false
+ },
+ {
+  "text": "you",
+  "start": 26.99,
+  "end": 27.106,
+  "display": "you",
+  "break": false
+ },
+ {
+  "text": "stay",
+  "start": 27.118,
+  "end": 27.314,
+  "display": "stay",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 27.314,
+  "end": 27.384,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "control",
+  "start": 27.384,
+  "end": 27.87,
+  "display": "control.",
+  "break": true
+ },
+ {
+  "text": "So",
+  "start": 28.109,
+  "end": 28.282,
+  "display": "So",
+  "break": false
+ },
+ {
+  "text": "which",
+  "start": 28.294,
+  "end": 28.433,
+  "display": "which",
+  "break": false
+ },
+ {
+  "text": "one",
+  "start": 28.433,
+  "end": 28.664,
+  "display": "one,",
+  "break": true
+ },
+ {
+  "text": "when",
+  "start": 28.676,
+  "end": 28.907,
+  "display": "when?",
+  "break": true
+ },
+ {
+  "text": "A",
+  "start": 29.146,
+  "end": 29.169,
+  "display": "A",
+  "break": false
+ },
+ {
+  "text": "quick",
+  "start": 29.181,
+  "end": 29.343,
+  "display": "quick",
+  "break": false
+ },
+ {
+  "text": "question",
+  "start": 29.343,
+  "end": 29.783,
+  "display": "question,",
+  "break": true
+ },
+ {
+  "text": "or",
+  "start": 29.929,
+  "end": 30.01,
+  "display": "or",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 30.01,
+  "end": 30.045,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "first",
+  "start": 30.045,
+  "end": 30.311,
+  "display": "first",
+  "break": false
+ },
+ {
+  "text": "draft",
+  "start": 30.311,
+  "end": 30.727,
+  "display": "draft?",
+  "break": true
+ },
+ {
+  "text": "Chat",
+  "start": 30.978,
+  "end": 31.256,
+  "display": "Chat.",
+  "break": true
+ },
+ {
+  "text": "Anything",
+  "start": 31.506,
+  "end": 31.83,
+  "display": "Anything",
+  "break": false
+ },
+ {
+  "text": "that",
+  "start": 31.83,
+  "end": 32.004,
+  "display": "that",
+  "break": false
+ },
+ {
+  "text": "lives",
+  "start": 32.015,
+  "end": 32.374,
+  "display": "lives",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 32.374,
+  "end": 32.455,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "files",
+  "start": 32.467,
+  "end": 33.15,
+  "display": "files,",
+  "break": true
+ },
+ {
+  "text": "like",
+  "start": 33.192,
+  "end": 33.296,
+  "display": "like",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 33.296,
+  "end": 33.354,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "website",
+  "start": 33.354,
+  "end": 33.944,
+  "display": "website,",
+  "break": true
+ },
+ {
+  "text": "a",
+  "start": 34.229,
+  "end": 34.264,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "script",
+  "start": 34.264,
+  "end": 34.761,
+  "display": "script,",
+  "break": true
+ },
+ {
+  "text": "or",
+  "start": 35.0,
+  "end": 35.058,
+  "display": "or",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 35.058,
+  "end": 35.081,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "whole",
+  "start": 35.081,
+  "end": 35.232,
+  "display": "whole",
+  "break": false
+ },
+ {
+  "text": "project",
+  "start": 35.243,
+  "end": 35.776,
+  "display": "project?",
+  "break": true
+ },
+ {
+  "text": "Claude",
+  "start": 36.038,
+  "end": 36.304,
+  "display": "Claude",
+  "break": false
+ },
+ {
+  "text": "Code",
+  "start": 36.315,
+  "end": 36.72,
+  "display": "Code.",
+  "break": true
+ },
+ {
+  "text": "You",
+  "start": 36.982,
+  "end": 37.052,
+  "display": "You",
+  "break": false
+ },
+ {
+  "text": "can",
+  "start": 37.063,
+  "end": 37.191,
+  "display": "can",
+  "break": false
+ },
+ {
+  "text": "run",
+  "start": 37.191,
+  "end": 37.341,
+  "display": "run",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 37.341,
+  "end": 37.399,
+  "display": "it",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 37.399,
+  "end": 37.457,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "your",
+  "start": 37.457,
+  "end": 37.526,
+  "display": "your",
+  "break": false
+ },
+ {
+  "text": "terminal",
+  "start": 37.526,
+  "end": 37.978,
+  "display": "terminal,",
+  "break": true
+ },
+ {
+  "text": "your",
+  "start": 38.228,
+  "end": 38.309,
+  "display": "your",
+  "break": false
+ },
+ {
+  "text": "code",
+  "start": 38.309,
+  "end": 38.552,
+  "display": "code",
+  "break": false
+ },
+ {
+  "text": "editor",
+  "start": 38.552,
+  "end": 38.888,
+  "display": "editor,",
+  "break": true
+ },
+ {
+  "text": "the",
+  "start": 39.104,
+  "end": 39.185,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "desktop",
+  "start": 39.196,
+  "end": 39.636,
+  "display": "desktop",
+  "break": false
+ },
+ {
+  "text": "app",
+  "start": 39.636,
+  "end": 39.867,
+  "display": "app,",
+  "break": true
+ },
+ {
+  "text": "or",
+  "start": 40.014,
+  "end": 40.095,
+  "display": "or",
+  "break": false
+ },
+ {
+  "text": "on",
+  "start": 40.106,
+  "end": 40.199,
+  "display": "on",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 40.199,
+  "end": 40.257,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "web",
+  "start": 40.268,
+  "end": 40.546,
+  "display": "web.",
+  "break": true
+ },
+ {
+  "text": "Next",
+  "start": 40.785,
+  "end": 40.982,
+  "display": "Next",
+  "break": false
+ },
+ {
+  "text": "minute",
+  "start": 40.993,
+  "end": 41.236,
+  "display": "minute",
+  "break": false
+ },
+ {
+  "text": "installing",
+  "start": 41.487,
+  "end": 42.077,
+  "display": "installing",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 42.077,
+  "end": 42.181,
+  "display": "it",
+  "break": false
+ },
+ {
+  "text": "and",
+  "start": 42.297,
+  "end": 42.389,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "giving",
+  "start": 42.401,
+  "end": 42.644,
+  "display": "giving",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 42.656,
+  "end": 42.69,
+  "display": "it",
+  "break": false
+ },
+ {
+  "text": "your",
+  "start": 42.69,
+  "end": 42.771,
+  "display": "your",
+  "break": false
+ },
+ {
+  "text": "first",
+  "start": 42.771,
+  "end": 43.107,
+  "display": "first",
+  "break": false
+ },
+ {
+  "text": "job",
+  "start": 43.119,
+  "end": 43.443,
+  "display": "job.",
+  "break": true
+ },
+ {
+  "text": "Follow",
+  "start": 43.762,
+  "end": 43.994,
+  "display": "Follow",
+  "break": false
+ },
+ {
+  "text": "Blip",
+  "start": 44.005,
+  "end": 44.399,
+  "display": "Blip,",
+  "break": true
+ },
+ {
+  "text": "so",
+  "start": 44.51,
+  "end": 44.626,
+  "display": "so",
+  "break": false
+ },
+ {
+  "text": "you",
+  "start": 44.626,
+  "end": 44.719,
+  "display": "you",
+  "break": false
+ },
+ {
+  "text": "don't",
+  "start": 44.719,
+  "end": 44.892,
+  "display": "don't",
+  "break": false
+ },
+ {
+  "text": "miss",
+  "start": 44.892,
+  "end": 45.078,
+  "display": "miss",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 45.089,
+  "end": 45.251,
+  "display": "it.",
+  "break": true
+ }
+]

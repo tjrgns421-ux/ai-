@@ -1,0 +1,709 @@
+[
+ {
+  "text": "블로그",
+  "startMs": 35,
+  "endMs": 346,
+  "timestampMs": 35,
+  "confidence": null
+ },
+ {
+  "text": " 글감",
+  "startMs": 346,
+  "endMs": 629,
+  "timestampMs": 346,
+  "confidence": null
+ },
+ {
+  "text": " 찾으려고",
+  "startMs": 629,
+  "endMs": 1197,
+  "timestampMs": 629,
+  "confidence": null
+ },
+ {
+  "text": " 아침마다",
+  "startMs": 1197,
+  "endMs": 1684,
+  "timestampMs": 1197,
+  "confidence": null
+ },
+ {
+  "text": " 뉴스",
+  "startMs": 1684,
+  "endMs": 1915,
+  "timestampMs": 1684,
+  "confidence": null
+ },
+ {
+  "text": " 다",
+  "startMs": 1915,
+  "endMs": 2004,
+  "timestampMs": 1915,
+  "confidence": null
+ },
+ {
+  "text": " 뒤지고",
+  "startMs": 2004,
+  "endMs": 2261,
+  "timestampMs": 2004,
+  "confidence": null
+ },
+ {
+  "text": " 있다면",
+  "startMs": 2261,
+  "endMs": 2722,
+  "timestampMs": 2261,
+  "confidence": null
+ },
+ {
+  "text": " 이",
+  "startMs": 2806,
+  "endMs": 2974,
+  "timestampMs": 2806,
+  "confidence": null
+ },
+ {
+  "text": " 스킬",
+  "startMs": 2974,
+  "endMs": 3169,
+  "timestampMs": 2974,
+  "confidence": null
+ },
+ {
+  "text": " 하나는",
+  "startMs": 3169,
+  "endMs": 3462,
+  "timestampMs": 3169,
+  "confidence": null
+ },
+ {
+  "text": " 꼭",
+  "startMs": 3462,
+  "endMs": 3621,
+  "timestampMs": 3462,
+  "confidence": null
+ },
+ {
+  "text": " 설치해",
+  "startMs": 3621,
+  "endMs": 3905,
+  "timestampMs": 3621,
+  "confidence": null
+ },
+ {
+  "text": " 두세요",
+  "startMs": 3905,
+  "endMs": 4667,
+  "timestampMs": 3905,
+  "confidence": null
+ },
+ {
+  "text": " 모닝",
+  "startMs": 4801,
+  "endMs": 5218,
+  "timestampMs": 4801,
+  "confidence": null
+ },
+ {
+  "text": " 페이퍼",
+  "startMs": 5218,
+  "endMs": 5776,
+  "timestampMs": 5218,
+  "confidence": null
+ },
+ {
+  "text": " 깃허브",
+  "startMs": 5896,
+  "endMs": 6277,
+  "timestampMs": 5896,
+  "confidence": null
+ },
+ {
+  "text": " 무료",
+  "startMs": 6277,
+  "endMs": 6463,
+  "timestampMs": 6277,
+  "confidence": null
+ },
+ {
+  "text": " 스킬인데",
+  "startMs": 6463,
+  "endMs": 7030,
+  "timestampMs": 6463,
+  "confidence": null
+ },
+ {
+  "text": " 매일",
+  "startMs": 7141,
+  "endMs": 7460,
+  "timestampMs": 7141,
+  "confidence": null
+ },
+ {
+  "text": " 아침",
+  "startMs": 7460,
+  "endMs": 7744,
+  "timestampMs": 7460,
+  "confidence": null
+ },
+ {
+  "text": " 신문",
+  "startMs": 7744,
+  "endMs": 7992,
+  "timestampMs": 7744,
+  "confidence": null
+ },
+ {
+  "text": " 한",
+  "startMs": 7992,
+  "endMs": 8106,
+  "timestampMs": 7992,
+  "confidence": null
+ },
+ {
+  "text": " 장을",
+  "startMs": 8106,
+  "endMs": 8302,
+  "timestampMs": 8106,
+  "confidence": null
+ },
+ {
+  "text": " 찍어",
+  "startMs": 8302,
+  "endMs": 8480,
+  "timestampMs": 8302,
+  "confidence": null
+ },
+ {
+  "text": " 줘요",
+  "startMs": 8480,
+  "endMs": 8896,
+  "timestampMs": 8480,
+  "confidence": null
+ },
+ {
+  "text": " 보는",
+  "startMs": 9001,
+  "endMs": 9249,
+  "timestampMs": 9001,
+  "confidence": null
+ },
+ {
+  "text": " 채널만",
+  "startMs": 9249,
+  "endMs": 9595,
+  "timestampMs": 9249,
+  "confidence": null
+ },
+ {
+  "text": " 적어",
+  "startMs": 9595,
+  "endMs": 9763,
+  "timestampMs": 9595,
+  "confidence": null
+ },
+ {
+  "text": " 두면",
+  "startMs": 9763,
+  "endMs": 10162,
+  "timestampMs": 9763,
+  "confidence": null
+ },
+ {
+  "text": " 겹치는",
+  "startMs": 10273,
+  "endMs": 10627,
+  "timestampMs": 10273,
+  "confidence": null
+ },
+ {
+  "text": " 건",
+  "startMs": 10628,
+  "endMs": 10734,
+  "timestampMs": 10628,
+  "confidence": null
+ },
+ {
+  "text": " 합치고",
+  "startMs": 10734,
+  "endMs": 11186,
+  "timestampMs": 10734,
+  "confidence": null
+ },
+ {
+  "text": " 중요한",
+  "startMs": 11186,
+  "endMs": 11549,
+  "timestampMs": 11186,
+  "confidence": null
+ },
+ {
+  "text": " 것만",
+  "startMs": 11550,
+  "endMs": 11833,
+  "timestampMs": 11550,
+  "confidence": null
+ },
+ {
+  "text": " 골라",
+  "startMs": 11833,
+  "endMs": 12064,
+  "timestampMs": 11833,
+  "confidence": null
+ },
+ {
+  "text": " 줘요",
+  "startMs": 12064,
+  "endMs": 12471,
+  "timestampMs": 12064,
+  "confidence": null
+ },
+ {
+  "text": " 그런데",
+  "startMs": 12594,
+  "endMs": 13020,
+  "timestampMs": 12594,
+  "confidence": null
+ },
+ {
+  "text": " 이건",
+  "startMs": 13020,
+  "endMs": 13304,
+  "timestampMs": 13020,
+  "confidence": null
+ },
+ {
+  "text": " 신문이지",
+  "startMs": 13304,
+  "endMs": 13951,
+  "timestampMs": 13304,
+  "confidence": null
+ },
+ {
+  "text": " 블로그",
+  "startMs": 14026,
+  "endMs": 14416,
+  "timestampMs": 14026,
+  "confidence": null
+ },
+ {
+  "text": " 글감은",
+  "startMs": 14416,
+  "endMs": 14797,
+  "timestampMs": 14416,
+  "confidence": null
+ },
+ {
+  "text": " 아니에요",
+  "startMs": 14797,
+  "endMs": 15365,
+  "timestampMs": 14797,
+  "confidence": null
+ },
+ {
+  "text": " 뭘",
+  "startMs": 15495,
+  "endMs": 15716,
+  "timestampMs": 15495,
+  "confidence": null
+ },
+ {
+  "text": " 쓸지는",
+  "startMs": 15716,
+  "endMs": 16265,
+  "timestampMs": 15716,
+  "confidence": null
+ },
+ {
+  "text": " 결국",
+  "startMs": 16350,
+  "endMs": 16687,
+  "timestampMs": 16350,
+  "confidence": null
+ },
+ {
+  "text": " 또",
+  "startMs": 16687,
+  "endMs": 16873,
+  "timestampMs": 16687,
+  "confidence": null
+ },
+ {
+  "text": " 골라야",
+  "startMs": 16873,
+  "endMs": 17201,
+  "timestampMs": 16873,
+  "confidence": null
+ },
+ {
+  "text": " 하죠",
+  "startMs": 17201,
+  "endMs": 17600,
+  "timestampMs": 17201,
+  "confidence": null
+ },
+ {
+  "text": " 신문",
+  "startMs": 17719,
+  "endMs": 18038,
+  "timestampMs": 17719,
+  "confidence": null
+ },
+ {
+  "text": " 다",
+  "startMs": 18038,
+  "endMs": 18136,
+  "timestampMs": 18038,
+  "confidence": null
+ },
+ {
+  "text": " 읽고",
+  "startMs": 18136,
+  "endMs": 18349,
+  "timestampMs": 18136,
+  "confidence": null
+ },
+ {
+  "text": " 나서",
+  "startMs": 18349,
+  "endMs": 18774,
+  "timestampMs": 18349,
+  "confidence": null
+ },
+ {
+  "text": " 또",
+  "startMs": 18894,
+  "endMs": 19089,
+  "timestampMs": 18894,
+  "confidence": null
+ },
+ {
+  "text": " 고민이",
+  "startMs": 19089,
+  "endMs": 19434,
+  "timestampMs": 19089,
+  "confidence": null
+ },
+ {
+  "text": " 시작되는",
+  "startMs": 19434,
+  "endMs": 19825,
+  "timestampMs": 19434,
+  "confidence": null
+ },
+ {
+  "text": " 거예요",
+  "startMs": 19825,
+  "endMs": 20277,
+  "timestampMs": 19825,
+  "confidence": null
+ },
+ {
+  "text": " 그래서",
+  "startMs": 20385,
+  "endMs": 20828,
+  "timestampMs": 20385,
+  "confidence": null
+ },
+ {
+  "text": " 한",
+  "startMs": 20828,
+  "endMs": 21023,
+  "timestampMs": 20828,
+  "confidence": null
+ },
+ {
+  "text": " 단계를",
+  "startMs": 21023,
+  "endMs": 21396,
+  "timestampMs": 21023,
+  "confidence": null
+ },
+ {
+  "text": " 더",
+  "startMs": 21396,
+  "endMs": 21520,
+  "timestampMs": 21396,
+  "confidence": null
+ },
+ {
+  "text": " 붙였어요",
+  "startMs": 21520,
+  "endMs": 22229,
+  "timestampMs": 21520,
+  "confidence": null
+ },
+ {
+  "text": " 신문에서",
+  "startMs": 22359,
+  "endMs": 22936,
+  "timestampMs": 22359,
+  "confidence": null
+ },
+ {
+  "text": " 오늘",
+  "startMs": 22936,
+  "endMs": 23175,
+  "timestampMs": 22936,
+  "confidence": null
+ },
+ {
+  "text": " 쓸",
+  "startMs": 23175,
+  "endMs": 23414,
+  "timestampMs": 23175,
+  "confidence": null
+ },
+ {
+  "text": " 글감",
+  "startMs": 23414,
+  "endMs": 23813,
+  "timestampMs": 23414,
+  "confidence": null
+ },
+ {
+  "text": " 세",
+  "startMs": 23813,
+  "endMs": 23964,
+  "timestampMs": 23813,
+  "confidence": null
+ },
+ {
+  "text": " 개를",
+  "startMs": 23964,
+  "endMs": 24141,
+  "timestampMs": 23964,
+  "confidence": null
+ },
+ {
+  "text": " 고르고",
+  "startMs": 24141,
+  "endMs": 24620,
+  "timestampMs": 24141,
+  "confidence": null
+ },
+ {
+  "text": " 내",
+  "startMs": 24739,
+  "endMs": 24961,
+  "timestampMs": 24739,
+  "confidence": null
+ },
+ {
+  "text": " 블로그",
+  "startMs": 24961,
+  "endMs": 25254,
+  "timestampMs": 24961,
+  "confidence": null
+ },
+ {
+  "text": " 주제에",
+  "startMs": 25254,
+  "endMs": 25493,
+  "timestampMs": 25254,
+  "confidence": null
+ },
+ {
+  "text": " 맞춰",
+  "startMs": 25493,
+  "endMs": 25972,
+  "timestampMs": 25493,
+  "confidence": null
+ },
+ {
+  "text": " 제목",
+  "startMs": 26091,
+  "endMs": 26384,
+  "timestampMs": 26091,
+  "confidence": null
+ },
+ {
+  "text": " 후보랑",
+  "startMs": 26384,
+  "endMs": 26729,
+  "timestampMs": 26384,
+  "confidence": null
+ },
+ {
+  "text": " 근거",
+  "startMs": 26729,
+  "endMs": 27031,
+  "timestampMs": 26729,
+  "confidence": null
+ },
+ {
+  "text": " 기사",
+  "startMs": 27031,
+  "endMs": 27270,
+  "timestampMs": 27031,
+  "confidence": null
+ },
+ {
+  "text": " 링크까지",
+  "startMs": 27270,
+  "endMs": 27731,
+  "timestampMs": 27270,
+  "confidence": null
+ },
+ {
+  "text": " 달아",
+  "startMs": 27731,
+  "endMs": 27935,
+  "timestampMs": 27731,
+  "confidence": null
+ },
+ {
+  "text": " 줘요",
+  "startMs": 27935,
+  "endMs": 28378,
+  "timestampMs": 27935,
+  "confidence": null
+ },
+ {
+  "text": " 컴퓨터를",
+  "startMs": 28498,
+  "endMs": 29029,
+  "timestampMs": 28498,
+  "confidence": null
+ },
+ {
+  "text": " 꺼",
+  "startMs": 29030,
+  "endMs": 29162,
+  "timestampMs": 29030,
+  "confidence": null
+ },
+ {
+  "text": " 둬도",
+  "startMs": 29163,
+  "endMs": 29384,
+  "timestampMs": 29163,
+  "confidence": null
+ },
+ {
+  "text": " 돌아가게",
+  "startMs": 29384,
+  "endMs": 29978,
+  "timestampMs": 29384,
+  "confidence": null
+ },
+ {
+  "text": " 필요한",
+  "startMs": 30071,
+  "endMs": 30363,
+  "timestampMs": 30071,
+  "confidence": null
+ },
+ {
+  "text": " 설정도",
+  "startMs": 30363,
+  "endMs": 30736,
+  "timestampMs": 30363,
+  "confidence": null
+ },
+ {
+  "text": " 같이",
+  "startMs": 30736,
+  "endMs": 30966,
+  "timestampMs": 30736,
+  "confidence": null
+ },
+ {
+  "text": " 넣었고요",
+  "startMs": 30966,
+  "endMs": 31675,
+  "timestampMs": 30966,
+  "confidence": null
+ },
+ {
+  "text": " 붙여",
+  "startMs": 31791,
+  "endMs": 32048,
+  "timestampMs": 31791,
+  "confidence": null
+ },
+ {
+  "text": " 넣기만",
+  "startMs": 32048,
+  "endMs": 32350,
+  "timestampMs": 32048,
+  "confidence": null
+ },
+ {
+  "text": " 하면",
+  "startMs": 32350,
+  "endMs": 32740,
+  "timestampMs": 32350,
+  "confidence": null
+ },
+ {
+  "text": " 내일",
+  "startMs": 32833,
+  "endMs": 33134,
+  "timestampMs": 32833,
+  "confidence": null
+ },
+ {
+  "text": " 아침부터",
+  "startMs": 33134,
+  "endMs": 33675,
+  "timestampMs": 33134,
+  "confidence": null
+ },
+ {
+  "text": " 글감이",
+  "startMs": 33675,
+  "endMs": 34065,
+  "timestampMs": 33675,
+  "confidence": null
+ },
+ {
+  "text": " 신문으로",
+  "startMs": 34065,
+  "endMs": 34446,
+  "timestampMs": 34065,
+  "confidence": null
+ },
+ {
+  "text": " 와요",
+  "startMs": 34446,
+  "endMs": 34889,
+  "timestampMs": 34446,
+  "confidence": null
+ },
+ {
+  "text": " 댓글에",
+  "startMs": 35009,
+  "endMs": 35337,
+  "timestampMs": 35009,
+  "confidence": null
+ },
+ {
+  "text": " 글감",
+  "startMs": 35337,
+  "endMs": 35860,
+  "timestampMs": 35337,
+  "confidence": null
+ },
+ {
+  "text": " 남기면",
+  "startMs": 35917,
+  "endMs": 36378,
+  "timestampMs": 35917,
+  "confidence": null
+ },
+ {
+  "text": " 디엠으로",
+  "startMs": 36378,
+  "endMs": 36733,
+  "timestampMs": 36378,
+  "confidence": null
+ },
+ {
+  "text": " 드려요",
+  "startMs": 36733,
+  "endMs": 37238,
+  "timestampMs": 36733,
+  "confidence": null
+ }
+]

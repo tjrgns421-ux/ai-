@@ -1,0 +1,11 @@
+diff --git a/src/login.js b/src/login.js
+index 28f9762..012363a 100644
+--- a/src/login.js
++++ b/src/login.js
+@@ -1,5 +1,5 @@
+ function login(user, input) {
+-  if (user.password = input) {
++  if (user.password === input) {
+     return "ok";
+   }
+   return "denied";

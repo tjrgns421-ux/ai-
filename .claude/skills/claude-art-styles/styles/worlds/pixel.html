@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<!-- 화풍 세상: 도트 게임 (연구 중 2026-11-07) — 16비트 노을 서울(남산타워·아파트·한강 다리) 옆으로 흐르는 게임 화면, 클로드 별은 픽셀 아이템(굵은 외곽선 + 2단 음영), 깜빡 등장·계단식 회전. __seek(t) 0~1.6초 -->
+<link rel="stylesheet" href="../world.css">
+<style>
+  #stage canvas { image-rendering: pixelated; }
+  .hud .name { font-family: BlackHan; color: #fff6d8; letter-spacing: 4px; text-shadow: 6px 6px 0 #2a1840, -3px -3px 0 #2a1840, 3px -3px 0 #2a1840, -3px 3px 0 #2a1840; }
+  .hud .dots { color: #fff6d8; background: #2a1840; border-radius: 0; box-shadow: 0 0 0 4px #fff6d8, 0 0 0 8px #2a1840; }
+  .hud .dots i { border-radius: 0; }
+</style></head>
+<body>
+<div id="stage"><canvas id="c" width="180" height="320"></canvas></div>
+<div class="hud"><div class="name">도트 게임</div><div class="dots"><b>1/10</b><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+<script type="module">
+import { rayPolygon, rng, ease } from "../star.js";
+const S = 6, w = 180, h = 320; // 한 점 = 6px
+const c = document.getElementById("c"), g = c.getContext("2d");
+g.imageSmoothingEnabled = false;
+const px = (x, y, col) => { g.fillStyle = col; g.fillRect(Math.round(x), Math.round(y), 1, 1); };
+const rect = (x, y, ww, hh, col) => { g.fillStyle = col; g.fillRect(Math.round(x), Math.round(y), ww, hh); };
+
+// 하늘: 노을 띠 + 경계는 바둑 무늬 섞기(디더)
+const bands = ["#1d1640", "#2a1c5c", "#46257a", "#6d2f86", "#a23d82", "#d9576e", "#f08a5d", "#ffc069"];
+function sky() {
+  const top = 0, bh = 26;
+  for (let i = 0; i < bands.length; i++) {
+    const y0 = top + i * bh + (i ? 20 : 0), y1 = i === bands.length - 1 ? 240 : top + (i + 1) * bh + 20;
+    rect(0, i ? y0 : 0, w, y1 - (i ? y0 : 0), bands[i]);
+    if (i < bands.length - 1) for (let y = y1 - 2; y < y1 + 2; y++) for (let x = 0; x < w; x++) if ((x + y) % 2 === 0) px(x, y, bands[i + 1 > bands.length - 1 ? i : (y < y1 ? i + 1 : i)]);
+  }
+}
+const R = rng(3), twinkles = Array.from({ length: 34 }, () => [R() * w, 30 + R() * 80, R() * 6]);
+function stars(t) { for (const [x, y, ph] of twinkles) { const on = Math.sin(t * 7 + ph * 3) > -0.2; if (on) px(x, y, "#fff6d8"); if (Math.sin(t * 7 + ph * 3) > 0.85) { px(x - 1, y, "#c9b8ff"); px(x + 1, y, "#c9b8ff"); px(x, y - 1, "#c9b8ff"); px(x, y + 1, "#c9b8ff"); } } }
+function moon() { const cx = 22, cy = 112; for (let y = -7; y <= 7; y++) for (let x = -7; x <= 7; x++) { const d = x * x + y * y, d2 = (x - 3) * (x - 3) + (y + 2) * (y + 2); if (d <= 49 && d2 > 36) px(cx + x, cy + y, d > 36 ? "#ffe9a8" : "#fff6d8"); } }
+
+// 구름(픽셀 덩어리)
+function cloud(x, y, col, hi) { const rows = [[4, 10], [2, 16], [0, 22], [1, 20]]; rows.forEach(([o, l], i) => { rect(x + o, y + i * 2, l, 2, i === 0 ? hi : col); }); }
+
+// 남산타워 + 산
+function namsan(off) {
+  const bx = 154 - off * 0.25;
+  // 산
+  for (let x = -40; x <= 40; x++) { const hh = Math.round(66 * Math.exp(-Math.pow(Math.abs(x) / 30, 1.6))); rect(bx + x, 240 - hh, 1, hh + 4, "#3b2160"); if (hh > 2) px(bx + x, 240 - hh, "#5a2f7a"); if (hh > 8 && (x * 7 + hh) % 5 === 0) px(bx + x, 242 - hh + 3, "#2a1840"); }
+  // 탑: 기둥 → 전망대 → 안테나
+  rect(bx - 2, 140, 4, 36, "#2a1840"); rect(bx - 1, 140, 1, 36, "#6b4a9a");
+  rect(bx - 6, 132, 12, 8, "#2a1840"); rect(bx - 5, 133, 10, 2, "#ffd27a"); rect(bx - 5, 136, 10, 1, "#ffb05a");
+  rect(bx - 3, 128, 6, 4, "#2a1840"); rect(bx - 1, 106, 2, 22, "#2a1840");
+  if (Math.floor(off * 0.12) % 2 === 0) px(bx, 105, "#ff4a5a");
+}
+
+// 아파트 단지(가로로 흐름) — 창문 불빛은 고정 무늬
+const B = rng(21), blocks = Array.from({ length: 16 }, (_, i) => ({ x: i * 24 + B() * 6, ww: 14 + Math.round(B() * 8), hh: 34 + Math.round(B() * 40), col: ["#4a2c74", "#56358a", "#3d2766"][i % 3], seed: B() * 1000 }));
+function city(off, layer) {
+  const span = 16 * 24;
+  for (const b of blocks) {
+    let x = ((b.x - off) % span + span) % span - 30;
+    if (layer === 0) { // 먼 줄: 실루엣만
+      rect(x * 0.9 + 6, 240 - b.hh * 0.7, b.ww, b.hh, "#33205a");
+      continue;
+    }
+    const top = 252 - b.hh;
+    rect(x, top, b.ww, b.hh + 30, b.col); rect(x, top, 1, b.hh + 30, "#7a55b0"); rect(x + b.ww - 1, top, 1, b.hh + 30, "#2a1840"); rect(x, top, b.ww, 1, "#8a66c0");
+    const r = rng(b.seed | 0);
+    for (let yy = top + 3; yy < 262; yy += 4) for (let xx = x + 2; xx < x + b.ww - 2; xx += 3) { const v = r(); px(xx, yy, v < 0.45 ? "#ffd27a" : v < 0.55 ? "#ffb05a" : "#2e1d52"); px(xx + 1, yy, v < 0.45 ? "#ffe9a8" : v < 0.55 ? "#ffcf8a" : "#2e1d52"); }
+    // 아파트 동 번호 칸
+    rect(x + 2, top + 1, 5, 2, "#2a1840");
+  }
+}
+
+// 한강 + 다리(가로 흐름)
+function river(off) {
+  rect(0, 262, w, 58, "#2a3a7a");
+  for (let y = 264; y < 320; y += 3) for (let x = 0; x < w; x += 1) { const v = Math.sin((x + off * 1.5) * 0.4 + y) + Math.sin(x * 0.13 - y * 0.7); if (v > 1.3) px(x, y, "#5a6fc0"); else if (v > 1.1) px(x, y, "#ffb05a"); }
+  // 다리: 아치 반복
+  const span = 60;
+  rect(0, 270, w, 3, "#1d1640"); rect(0, 270, w, 1, "#6b4a9a");
+  for (let k = -1; k < 5; k++) { const bx = k * span - (off * 2 % span); for (let x = 0; x < span; x++) { const yy = 270 - Math.round(10 * Math.sin((x / span) * Math.PI)); px(bx + x, yy, "#c9b8ff"); if (x % 6 === 0) rect(bx + x, yy, 1, 270 - yy, "#8a76c0"); } rect(bx, 273, 3, 14, "#1d1640"); }
+  // 다리 위 불빛 점
+  for (let x = 0; x < w; x += 8) px((x - off * 2) % w + (x - off * 2 < 0 ? w : 0), 269, "#ffe9a8");
+}
+
+// 클로드 별: 다각형을 작은 격자에 찍어 마스크로 → 외곽선 + 밝은 면 + 어두운 면
+function starSprite(rot, rad) {
+  const N = rad * 2 + 6, cv = document.createElement("canvas"); cv.width = cv.height = N;
+  const p = cv.getContext("2d"), pts = rayPolygon({ hub: 0.37, root: 0.27, tip: 0.2 });
+  p.translate(N / 2, N / 2); p.rotate(rot); p.beginPath();
+  pts.forEach(([x, y], i) => (i ? p.lineTo(x * rad, y * rad) : p.moveTo(x * rad, y * rad))); p.closePath(); p.fillStyle = "#fff"; p.fill();
+  const a = p.getImageData(0, 0, N, N).data, m = (x, y) => x >= 0 && y >= 0 && x < N && y < N && a[(y * N + x) * 4 + 3] > 110;
+  const out = [];
+  for (let y = 0; y < N; y++) for (let x = 0; x < N; x++) {
+    if (m(x, y)) {
+      const ul = !m(x - 1, y) || !m(x, y - 1), dr = !m(x + 1, y) || !m(x, y + 1);
+      const dx = x - N / 2, dy = y - N / 2, inner = dx * dx + dy * dy < (rad * 0.22) ** 2;
+      out.push([x - N / 2, y - N / 2, ul ? "#ffb48e" : dr ? "#a8462c" : inner ? "#f08a64" : "#de7356"]);
+    } else if (m(x - 1, y) || m(x + 1, y) || m(x, y - 1) || m(x, y + 1)) out.push([x - N / 2, y - N / 2, "#3a160c"]);
+  }
+  return out;
+}
+const sprites = new Map();
+function star(t) {
+  // 깜빡 등장(0~0.32초): 짝수 박자만 보임
+  if (t < 0.32 && Math.floor(t / 0.05) % 2 === 1) return;
+  const step = Math.floor(t / 0.2), rot = step * (Math.PI / 12); // 0.2초마다 15° 계단 회전
+  const key = step % 24; if (!sprites.has(key)) sprites.set(key, starSprite(rot, 37));
+  const cx = Math.round(84 + Math.floor(t * 12)), cy = Math.round(140 + (Math.floor(t * 4) % 2 ? -2 : 0));
+  // 바닥 그림자 없이 빛 무리(체크 무늬 반투명)
+  for (let y = -46; y <= 46; y++) for (let x = -46; x <= 46; x++) { const d = x * x + y * y; if (d < 46 * 46 && d > 30 * 30 && (x + y) % 2 === 0 && (x * 3 + y) % 5 === 0) px(cx + x, cy + y, "#ffd27a"); }
+  for (const [x, y, col] of sprites.get(key)) px(cx + x, cy + y, col);
+  // 반짝(십자)
+  const sp = [[-30, -26], [32, -18], [24, 30], [-26, 28]][step % 4];
+  const sx = cx + sp[0], sy = cy + sp[1];
+  px(sx, sy, "#fff"); px(sx - 1, sy, "#ffe9a8"); px(sx + 1, sy, "#ffe9a8"); px(sx, sy - 1, "#ffe9a8"); px(sx, sy + 1, "#ffe9a8"); px(sx - 2, sy, "#ffd27a"); px(sx + 2, sy, "#ffd27a");
+}
+
+// 게임 UI: 점수·목숨·코인 (제목 아래 왼쪽)
+const FONT = { 0: "111101101101111", 1: "010110010010111", 2: "111001111100111", 3: "111001111001111", 4: "101101111001001", 5: "111100111001111", 6: "111100111101111", 7: "111001001001001", 8: "111101111101111", 9: "111101111001111", S: "111100111001111", C: "111100100100111", O: "111101101101111", R: "110101110101101", E: "111100110100111", X: "101101010101101" };
+function text(str, x, y, col) { for (const ch of str) { const f = FONT[ch]; if (f) for (let i = 0; i < 15; i++) if (f[i] === "1") { px(x + (i % 3) + 1, y + Math.floor(i / 3) + 1, "#1d1640"); px(x + (i % 3), y + Math.floor(i / 3), col); } x += 4; } }
+function heart(x, y) { const m = ["0110110", "1111111", "1111111", "0111110", "0011100", "0001000"]; m.forEach((row, j) => [...row].forEach((v, i) => v === "1" && px(x + i, y + j, j === 0 || i === 1 ? "#ff9aa8" : "#ff4a5a"))); }
+function ui(t) {
+  const score = String(120 + Math.floor(ease.clamp((t - 0.35) / 0.4) * 1000)).padStart(6, "0");
+  rect(6, 72, 64, 20, "rgba(29,22,64,.72)");
+  text("SCORE", 9, 75, "#fff6d8"); text(score, 9, 83, "#ffd27a");
+  heart(44, 75); heart(52, 75); heart(60, 75);
+  // 코인 (오른쪽 위, y 480 위라 가림 아님)
+  rect(124, 72, 50, 12, "rgba(29,22,64,.72)");
+  const cf = Math.floor(t * 8) % 4, cw = [5, 3, 1, 3][cf];
+  rect(128 + (5 - cw) / 2, 75, cw, 6, "#ffd27a"); rect(128 + (5 - cw) / 2, 75, 1, 6, "#fff6d8");
+  text("X", 136, 76, "#fff6d8"); text(String(12 + (t > 0.4 ? 1 : 0)).padStart(2, "0"), 141, 76, "#fff6d8");
+}
+
+window.__seek = async (t) => {
+  const off = t * 30; // 화면이 옆으로 흐름
+  g.clearRect(0, 0, w, h);
+  sky(); stars(t); moon();
+  cloud(((60 - off * 0.4) % 220 + 220) % 220 - 30, 112, "#8a4a8a", "#c97aa0");
+  cloud(((150 - off * 0.6) % 220 + 220) % 220 - 30, 128, "#a2507e", "#e88a8a");
+  namsan(off);
+  city(off * 0.5, 0);
+  city(off, 1);
+  river(off);
+  star(t);
+  ui(t);
+};
+window.__seek(0.9);
+</script></body></html>

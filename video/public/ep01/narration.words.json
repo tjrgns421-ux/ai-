@@ -1,0 +1,709 @@
+[
+ {
+  "text": "AI한테",
+  "start": 0.05,
+  "end": 0.603,
+  "display": "AI한테",
+  "break": false
+ },
+ {
+  "text": "글",
+  "start": 0.603,
+  "end": 0.779,
+  "display": "글",
+  "break": false
+ },
+ {
+  "text": "써줘",
+  "start": 0.779,
+  "end": 0.987,
+  "display": "써줘'",
+  "break": false
+ },
+ {
+  "text": "하는",
+  "start": 0.988,
+  "end": 1.132,
+  "display": "하는",
+  "break": false
+ },
+ {
+  "text": "순간",
+  "start": 1.132,
+  "end": 1.54,
+  "display": "순간,",
+  "break": true
+ },
+ {
+  "text": "그",
+  "start": 1.605,
+  "end": 1.757,
+  "display": "그",
+  "break": false
+ },
+ {
+  "text": "글은",
+  "start": 1.757,
+  "end": 1.949,
+  "display": "글은",
+  "break": false
+ },
+ {
+  "text": "망했어요",
+  "start": 1.949,
+  "end": 2.574,
+  "display": "망했어요.",
+  "break": true
+ },
+ {
+  "text": "재료",
+  "start": 2.671,
+  "end": 2.895,
+  "display": "재료",
+  "break": false
+ },
+ {
+  "text": "없이",
+  "start": 2.895,
+  "end": 3.063,
+  "display": "없이",
+  "break": false
+ },
+ {
+  "text": "시키면",
+  "start": 3.063,
+  "end": 3.512,
+  "display": "시키면,",
+  "break": true
+ },
+ {
+  "text": "AI는",
+  "start": 3.648,
+  "end": 4.225,
+  "display": "AI는",
+  "break": false
+ },
+ {
+  "text": "제일",
+  "start": 4.225,
+  "end": 4.49,
+  "display": "제일",
+  "break": false
+ },
+ {
+  "text": "평범한",
+  "start": 4.49,
+  "end": 4.802,
+  "display": "평범한",
+  "break": false
+ },
+ {
+  "text": "문장을",
+  "start": 4.802,
+  "end": 5.083,
+  "display": "문장을",
+  "break": false
+ },
+ {
+  "text": "쓰거든요",
+  "start": 5.083,
+  "end": 5.587,
+  "display": "쓰거든요.",
+  "break": true
+ },
+ {
+  "text": "카페",
+  "start": 5.679,
+  "end": 5.936,
+  "display": "카페",
+  "break": false
+ },
+ {
+  "text": "홍보글이면",
+  "start": 5.936,
+  "end": 6.553,
+  "display": "홍보글이면,",
+  "break": true
+ },
+ {
+  "text": "따뜻한",
+  "start": 6.681,
+  "end": 7.034,
+  "display": "따뜻한",
+  "break": false
+ },
+ {
+  "text": "공간",
+  "start": 7.034,
+  "end": 7.45,
+  "display": "공간,",
+  "break": true
+ },
+ {
+  "text": "특별한",
+  "start": 7.483,
+  "end": 7.795,
+  "display": "특별한",
+  "break": false
+ },
+ {
+  "text": "커피",
+  "start": 7.795,
+  "end": 8.051,
+  "display": "커피.'",
+  "break": true
+ },
+ {
+  "text": "이런",
+  "start": 8.051,
+  "end": 8.268,
+  "display": "이런",
+  "break": false
+ },
+ {
+  "text": "거요",
+  "start": 8.268,
+  "end": 8.604,
+  "display": "거요.",
+  "break": true
+ },
+ {
+  "text": "바로",
+  "start": 8.705,
+  "end": 8.986,
+  "display": "바로",
+  "break": false
+ },
+ {
+  "text": "티",
+  "start": 8.986,
+  "end": 9.114,
+  "display": "티",
+  "break": false
+ },
+ {
+  "text": "나죠",
+  "start": 9.114,
+  "end": 9.547,
+  "display": "나죠.",
+  "break": true
+ },
+ {
+  "text": "그래서",
+  "start": 9.629,
+  "end": 9.966,
+  "display": "그래서",
+  "break": false
+ },
+ {
+  "text": "딱",
+  "start": 9.966,
+  "end": 10.118,
+  "display": "딱",
+  "break": false
+ },
+ {
+  "text": "세",
+  "start": 10.118,
+  "end": 10.222,
+  "display": "세",
+  "break": false
+ },
+ {
+  "text": "가지만",
+  "start": 10.222,
+  "end": 10.567,
+  "display": "가지만",
+  "break": false
+ },
+ {
+  "text": "바꿔",
+  "start": 10.567,
+  "end": 10.815,
+  "display": "바꿔",
+  "break": false
+ },
+ {
+  "text": "볼게요",
+  "start": 10.815,
+  "end": 11.384,
+  "display": "볼게요.",
+  "break": true
+ },
+ {
+  "text": "첫째",
+  "start": 11.494,
+  "end": 11.983,
+  "display": "첫째,",
+  "break": true
+ },
+ {
+  "text": "재료",
+  "start": 12.079,
+  "end": 12.336,
+  "display": "재료",
+  "break": false
+ },
+ {
+  "text": "세",
+  "start": 12.336,
+  "end": 12.472,
+  "display": "세",
+  "break": false
+ },
+ {
+  "text": "줄",
+  "start": 12.472,
+  "end": 12.76,
+  "display": "줄.",
+  "break": true
+ },
+ {
+  "text": "누가",
+  "start": 12.857,
+  "end": 13.089,
+  "display": "누가",
+  "break": false
+ },
+ {
+  "text": "읽는지",
+  "start": 13.089,
+  "end": 13.594,
+  "display": "읽는지,",
+  "break": true
+ },
+ {
+  "text": "왜",
+  "start": 13.698,
+  "end": 13.85,
+  "display": "왜",
+  "break": false
+ },
+ {
+  "text": "쓰는지",
+  "start": 13.85,
+  "end": 14.347,
+  "display": "쓰는지,",
+  "break": true
+ },
+ {
+  "text": "내",
+  "start": 14.476,
+  "end": 14.668,
+  "display": "내",
+  "break": false
+ },
+ {
+  "text": "경험",
+  "start": 14.668,
+  "end": 14.9,
+  "display": "경험",
+  "break": false
+ },
+ {
+  "text": "한",
+  "start": 14.9,
+  "end": 15.02,
+  "display": "한",
+  "break": false
+ },
+ {
+  "text": "줄",
+  "start": 15.02,
+  "end": 15.277,
+  "display": "줄.",
+  "break": true
+ },
+ {
+  "text": "같은",
+  "start": 15.373,
+  "end": 15.662,
+  "display": "같은",
+  "break": false
+ },
+ {
+  "text": "카페",
+  "start": 15.662,
+  "end": 15.87,
+  "display": "카페",
+  "break": false
+ },
+ {
+  "text": "글인데",
+  "start": 15.87,
+  "end": 16.335,
+  "display": "글인데,",
+  "break": true
+ },
+ {
+  "text": "이것만",
+  "start": 16.431,
+  "end": 16.768,
+  "display": "이것만",
+  "break": false
+ },
+ {
+  "text": "넣어도",
+  "start": 16.768,
+  "end": 17.088,
+  "display": "넣어도",
+  "break": false
+ },
+ {
+  "text": "이렇게",
+  "start": 17.088,
+  "end": 17.361,
+  "display": "이렇게",
+  "break": false
+ },
+ {
+  "text": "달라져요",
+  "start": 17.361,
+  "end": 17.986,
+  "display": "달라져요.",
+  "break": true
+ },
+ {
+  "text": "둘째",
+  "start": 18.082,
+  "end": 18.563,
+  "display": "둘째,",
+  "break": true
+ },
+ {
+  "text": "금지어",
+  "start": 18.651,
+  "end": 19.076,
+  "display": "금지어",
+  "break": false
+ },
+ {
+  "text": "리스트",
+  "start": 19.076,
+  "end": 19.524,
+  "display": "리스트.",
+  "break": true
+ },
+ {
+  "text": "물론이죠",
+  "start": 19.645,
+  "end": 20.278,
+  "display": "물론이죠',",
+  "break": true
+ },
+ {
+  "text": "다양한",
+  "start": 20.534,
+  "end": 21.079,
+  "display": "다양한'.",
+  "break": true
+ },
+ {
+  "text": "이런",
+  "start": 21.48,
+  "end": 21.785,
+  "display": "이런",
+  "break": false
+ },
+ {
+  "text": "말은",
+  "start": 21.785,
+  "end": 22.025,
+  "display": "말은",
+  "break": false
+ },
+ {
+  "text": "빼라고",
+  "start": 22.025,
+  "end": 22.273,
+  "display": "빼라고",
+  "break": false
+ },
+ {
+  "text": "하세요",
+  "start": 22.273,
+  "end": 22.818,
+  "display": "하세요.",
+  "break": true
+ },
+ {
+  "text": "그런데",
+  "start": 22.915,
+  "end": 23.355,
+  "display": "그런데",
+  "break": false
+ },
+ {
+  "text": "아직",
+  "start": 23.355,
+  "end": 23.676,
+  "display": "아직",
+  "break": false
+ },
+ {
+  "text": "어색해요",
+  "start": 23.676,
+  "end": 24.269,
+  "display": "어색해요.",
+  "break": true
+ },
+ {
+  "text": "진짜",
+  "start": 24.365,
+  "end": 24.71,
+  "display": "진짜",
+  "break": false
+ },
+ {
+  "text": "사람",
+  "start": 24.71,
+  "end": 24.942,
+  "display": "사람",
+  "break": false
+ },
+ {
+  "text": "같아지는",
+  "start": 24.942,
+  "end": 25.335,
+  "display": "같아지는",
+  "break": false
+ },
+ {
+  "text": "건",
+  "start": 25.335,
+  "end": 25.567,
+  "display": "건",
+  "break": false
+ },
+ {
+  "text": "세",
+  "start": 25.567,
+  "end": 25.695,
+  "display": "세",
+  "break": false
+ },
+ {
+  "text": "번째예요",
+  "start": 25.695,
+  "end": 26.28,
+  "display": "번째예요.",
+  "break": true
+ },
+ {
+  "text": "셋째",
+  "start": 26.377,
+  "end": 26.897,
+  "display": "셋째,",
+  "break": true
+ },
+ {
+  "text": "말투",
+  "start": 26.962,
+  "end": 27.266,
+  "display": "말투",
+  "break": false
+ },
+ {
+  "text": "복사",
+  "start": 27.266,
+  "end": 27.651,
+  "display": "복사.",
+  "break": true
+ },
+ {
+  "text": "내가",
+  "start": 27.747,
+  "end": 28.012,
+  "display": "내가",
+  "break": false
+ },
+ {
+  "text": "쓴",
+  "start": 28.012,
+  "end": 28.204,
+  "display": "쓴",
+  "break": false
+ },
+ {
+  "text": "글",
+  "start": 28.204,
+  "end": 28.388,
+  "display": "글",
+  "break": false
+ },
+ {
+  "text": "두세",
+  "start": 28.388,
+  "end": 28.604,
+  "display": "두세",
+  "break": false
+ },
+ {
+  "text": "개를",
+  "start": 28.605,
+  "end": 28.773,
+  "display": "개를",
+  "break": false
+ },
+ {
+  "text": "주고",
+  "start": 28.773,
+  "end": 29.157,
+  "display": "주고,",
+  "break": true
+ },
+ {
+  "text": "이",
+  "start": 29.222,
+  "end": 29.366,
+  "display": "이",
+  "break": false
+ },
+ {
+  "text": "말투로",
+  "start": 29.366,
+  "end": 29.662,
+  "display": "말투로",
+  "break": false
+ },
+ {
+  "text": "쓰라고",
+  "start": 29.662,
+  "end": 29.887,
+  "display": "쓰라고",
+  "break": false
+ },
+ {
+  "text": "하세요",
+  "start": 29.887,
+  "end": 30.4,
+  "display": "하세요.",
+  "break": true
+ },
+ {
+  "text": "이제",
+  "start": 30.496,
+  "end": 30.832,
+  "display": "이제",
+  "break": false
+ },
+ {
+  "text": "내가",
+  "start": 30.832,
+  "end": 31.065,
+  "display": "내가",
+  "break": false
+ },
+ {
+  "text": "쓴",
+  "start": 31.065,
+  "end": 31.273,
+  "display": "쓴",
+  "break": false
+ },
+ {
+  "text": "글처럼",
+  "start": 31.273,
+  "end": 31.594,
+  "display": "글처럼",
+  "break": false
+ },
+ {
+  "text": "읽혀요",
+  "start": 31.594,
+  "end": 32.114,
+  "display": "읽혀요.",
+  "break": true
+ },
+ {
+  "text": "세",
+  "start": 32.211,
+  "end": 32.387,
+  "display": "세",
+  "break": false
+ },
+ {
+  "text": "개",
+  "start": 32.387,
+  "end": 32.467,
+  "display": "개",
+  "break": false
+ },
+ {
+  "text": "다",
+  "start": 32.467,
+  "end": 32.547,
+  "display": "다",
+  "break": false
+ },
+ {
+  "text": "넣은",
+  "start": 32.547,
+  "end": 32.764,
+  "display": "넣은",
+  "break": false
+ },
+ {
+  "text": "프롬프트",
+  "start": 32.764,
+  "end": 33.301,
+  "display": "프롬프트,",
+  "break": true
+ },
+ {
+  "text": "금지어",
+  "start": 33.397,
+  "end": 33.79,
+  "display": "금지어",
+  "break": false
+ },
+ {
+  "text": "서른",
+  "start": 33.79,
+  "end": 34.038,
+  "display": "서른",
+  "break": false
+ },
+ {
+  "text": "개까지",
+  "start": 34.038,
+  "end": 34.503,
+  "display": "개까지.",
+  "break": true
+ },
+ {
+  "text": "댓글에",
+  "start": 34.599,
+  "end": 34.92,
+  "display": "댓글에",
+  "break": false
+ },
+ {
+  "text": "복붙",
+  "start": 34.92,
+  "end": 35.296,
+  "display": "복붙,",
+  "break": true
+ },
+ {
+  "text": "남기면",
+  "start": 35.368,
+  "end": 35.793,
+  "display": "남기면",
+  "break": false
+ },
+ {
+  "text": "디엠으로",
+  "start": 35.793,
+  "end": 36.122,
+  "display": "디엠으로",
+  "break": false
+ },
+ {
+  "text": "드려요",
+  "start": 36.122,
+  "end": 36.578,
+  "display": "드려요.",
+  "break": true
+ }
+]

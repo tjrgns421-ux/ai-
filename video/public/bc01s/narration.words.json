@@ -1,0 +1,625 @@
+[
+ {
+  "text": "OpenAI",
+  "start": 0.05,
+  "end": 0.68,
+  "display": "OpenAI",
+  "break": false
+ },
+ {
+  "text": "says",
+  "start": 0.735,
+  "end": 0.93,
+  "display": "says",
+  "break": false
+ },
+ {
+  "text": "its",
+  "start": 0.93,
+  "end": 1.039,
+  "display": "its",
+  "break": false
+ },
+ {
+  "text": "new",
+  "start": 1.039,
+  "end": 1.278,
+  "display": "new",
+  "break": false
+ },
+ {
+  "text": "model",
+  "start": 1.278,
+  "end": 1.626,
+  "display": "model",
+  "break": false
+ },
+ {
+  "text": "beats",
+  "start": 1.626,
+  "end": 1.865,
+  "display": "beats",
+  "break": false
+ },
+ {
+  "text": "Claude",
+  "start": 1.876,
+  "end": 2.246,
+  "display": "Claude,",
+  "break": true
+ },
+ {
+  "text": "at",
+  "start": 2.366,
+  "end": 2.409,
+  "display": "at",
+  "break": false
+ },
+ {
+  "text": "five",
+  "start": 2.409,
+  "end": 2.692,
+  "display": "five",
+  "break": false
+ },
+ {
+  "text": "percent",
+  "start": 2.692,
+  "end": 2.975,
+  "display": "percent",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 2.975,
+  "end": 3.007,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 3.007,
+  "end": 3.061,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "cost",
+  "start": 3.072,
+  "end": 3.54,
+  "display": "cost.",
+  "break": true
+ },
+ {
+  "text": "So",
+  "start": 3.66,
+  "end": 3.834,
+  "display": "So",
+  "break": false
+ },
+ {
+  "text": "Blip",
+  "start": 3.845,
+  "end": 4.247,
+  "display": "Blip",
+  "break": false
+ },
+ {
+  "text": "checked",
+  "start": 4.367,
+  "end": 4.671,
+  "display": "checked",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 4.671,
+  "end": 4.736,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "receipts",
+  "start": 4.747,
+  "end": 5.367,
+  "display": "receipts.",
+  "break": true
+ },
+ {
+  "text": "That",
+  "start": 5.487,
+  "end": 5.595,
+  "display": "That",
+  "break": false
+ },
+ {
+  "text": "Claude",
+  "start": 5.595,
+  "end": 5.867,
+  "display": "Claude",
+  "break": false
+ },
+ {
+  "text": "claim",
+  "start": 5.867,
+  "end": 6.171,
+  "display": "claim",
+  "break": false
+ },
+ {
+  "text": "comes",
+  "start": 6.182,
+  "end": 6.367,
+  "display": "comes",
+  "break": false
+ },
+ {
+  "text": "from",
+  "start": 6.367,
+  "end": 6.552,
+  "display": "from",
+  "break": false
+ },
+ {
+  "text": "one",
+  "start": 6.552,
+  "end": 6.845,
+  "display": "one",
+  "break": false
+ },
+ {
+  "text": "test",
+  "start": 6.911,
+  "end": 7.313,
+  "display": "test",
+  "break": false
+ },
+ {
+  "text": "OpenAI",
+  "start": 7.421,
+  "end": 7.845,
+  "display": "OpenAI",
+  "break": false
+ },
+ {
+  "text": "picked",
+  "start": 7.856,
+  "end": 8.247,
+  "display": "picked.",
+  "break": true
+ },
+ {
+  "text": "On",
+  "start": 8.367,
+  "end": 8.444,
+  "display": "On",
+  "break": false
+ },
+ {
+  "text": "an",
+  "start": 8.444,
+  "end": 8.498,
+  "display": "an",
+  "break": false
+ },
+ {
+  "text": "independent",
+  "start": 8.498,
+  "end": 8.944,
+  "display": "independent",
+  "break": false
+ },
+ {
+  "text": "index",
+  "start": 8.944,
+  "end": 9.444,
+  "display": "index,",
+  "break": true
+ },
+ {
+  "text": "Claude",
+  "start": 9.564,
+  "end": 9.825,
+  "display": "Claude",
+  "break": false
+ },
+ {
+  "text": "Fable",
+  "start": 9.825,
+  "end": 10.119,
+  "display": "Fable",
+  "break": false
+ },
+ {
+  "text": "5.2",
+  "start": 10.13,
+  "end": 11.173,
+  "display": "5.2",
+  "break": false
+ },
+ {
+  "text": "still",
+  "start": 11.173,
+  "end": 11.488,
+  "display": "still",
+  "break": false
+ },
+ {
+  "text": "scores",
+  "start": 11.499,
+  "end": 11.836,
+  "display": "scores",
+  "break": false
+ },
+ {
+  "text": "higher",
+  "start": 11.847,
+  "end": 12.227,
+  "display": "higher.",
+  "break": true
+ },
+ {
+  "text": "Sixty-five",
+  "start": 12.347,
+  "end": 13.075,
+  "display": "Sixty-five",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 13.086,
+  "end": 13.162,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "sixty-two",
+  "start": 13.162,
+  "end": 13.814,
+  "display": "sixty-two.",
+  "break": true
+ },
+ {
+  "text": "But",
+  "start": 13.934,
+  "end": 13.988,
+  "display": "But",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 13.988,
+  "end": 14.043,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "price",
+  "start": 14.043,
+  "end": 14.336,
+  "display": "price",
+  "break": false
+ },
+ {
+  "text": "part",
+  "start": 14.347,
+  "end": 14.619,
+  "display": "part?",
+  "break": true
+ },
+ {
+  "text": "Real",
+  "start": 14.739,
+  "end": 15.076,
+  "display": "Real.",
+  "break": true
+ },
+ {
+  "text": "Per",
+  "start": 15.196,
+  "end": 15.305,
+  "display": "Per",
+  "break": false
+ },
+ {
+  "text": "task",
+  "start": 15.305,
+  "end": 15.783,
+  "display": "task,",
+  "break": true
+ },
+ {
+  "text": "Astra",
+  "start": 15.903,
+  "end": 16.207,
+  "display": "Astra",
+  "break": false
+ },
+ {
+  "text": "costs",
+  "start": 16.207,
+  "end": 16.511,
+  "display": "costs",
+  "break": false
+ },
+ {
+  "text": "about",
+  "start": 16.511,
+  "end": 16.718,
+  "display": "about",
+  "break": false
+ },
+ {
+  "text": "four",
+  "start": 16.718,
+  "end": 16.968,
+  "display": "four",
+  "break": false
+ },
+ {
+  "text": "dollars",
+  "start": 16.968,
+  "end": 17.457,
+  "display": "dollars.",
+  "break": true
+ },
+ {
+  "text": "Claude",
+  "start": 17.577,
+  "end": 17.816,
+  "display": "Claude",
+  "break": false
+ },
+ {
+  "text": "Fable",
+  "start": 17.816,
+  "end": 18.207,
+  "display": "Fable",
+  "break": false
+ },
+ {
+  "text": "twenty-six",
+  "start": 18.327,
+  "end": 18.903,
+  "display": "twenty-six",
+  "break": false
+ },
+ {
+  "text": "fifty",
+  "start": 18.903,
+  "end": 19.349,
+  "display": "fifty.",
+  "break": true
+ },
+ {
+  "text": "And",
+  "start": 19.469,
+  "end": 19.61,
+  "display": "And",
+  "break": false
+ },
+ {
+  "text": "for",
+  "start": 19.621,
+  "end": 19.849,
+  "display": "for",
+  "break": false
+ },
+ {
+  "text": "everyday",
+  "start": 19.86,
+  "end": 20.328,
+  "display": "everyday",
+  "break": false
+ },
+ {
+  "text": "coding",
+  "start": 20.339,
+  "end": 20.719,
+  "display": "coding,",
+  "break": true
+ },
+ {
+  "text": "the",
+  "start": 20.839,
+  "end": 20.904,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "cheaper",
+  "start": 20.904,
+  "end": 21.219,
+  "display": "cheaper",
+  "break": false
+ },
+ {
+  "text": "Sol",
+  "start": 21.22,
+  "end": 21.502,
+  "display": "Sol",
+  "break": false
+ },
+ {
+  "text": "lands",
+  "start": 21.502,
+  "end": 21.774,
+  "display": "lands",
+  "break": false
+ },
+ {
+  "text": "within",
+  "start": 21.774,
+  "end": 22.143,
+  "display": "within",
+  "break": false
+ },
+ {
+  "text": "half",
+  "start": 22.263,
+  "end": 22.59,
+  "display": "half",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 22.6,
+  "end": 22.644,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "point",
+  "start": 22.644,
+  "end": 22.883,
+  "display": "point",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 22.894,
+  "end": 22.948,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "Astra",
+  "start": 22.959,
+  "end": 23.426,
+  "display": "Astra.",
+  "break": true
+ },
+ {
+  "text": "Blip's",
+  "start": 23.546,
+  "end": 23.753,
+  "display": "Blip's",
+  "break": false
+ },
+ {
+  "text": "verdict",
+  "start": 23.764,
+  "end": 24.122,
+  "display": "verdict",
+  "break": false
+ },
+ {
+  "text": "half",
+  "start": 24.242,
+  "end": 24.47,
+  "display": "half",
+  "break": false
+ },
+ {
+  "text": "true",
+  "start": 24.481,
+  "end": 24.873,
+  "display": "true.",
+  "break": true
+ },
+ {
+  "text": "Every",
+  "start": 24.993,
+  "end": 25.211,
+  "display": "Every",
+  "break": false
+ },
+ {
+  "text": "source",
+  "start": 25.211,
+  "end": 25.656,
+  "display": "source",
+  "break": false
+ },
+ {
+  "text": "and",
+  "start": 25.776,
+  "end": 25.906,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 25.906,
+  "end": 25.971,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "full",
+  "start": 25.971,
+  "end": 26.243,
+  "display": "full",
+  "break": false
+ },
+ {
+  "text": "check",
+  "start": 26.243,
+  "end": 26.548,
+  "display": "check",
+  "break": false
+ },
+ {
+  "text": "are",
+  "start": 26.635,
+  "end": 26.721,
+  "display": "are",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 26.721,
+  "end": 26.776,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 26.776,
+  "end": 26.83,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "full",
+  "start": 26.841,
+  "end": 27.08,
+  "display": "full",
+  "break": false
+ },
+ {
+  "text": "video",
+  "start": 27.08,
+  "end": 27.504,
+  "display": "video.",
+  "break": true
+ },
+ {
+  "text": "Tap",
+  "start": 27.624,
+  "end": 27.776,
+  "display": "Tap",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 27.776,
+  "end": 27.842,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "link",
+  "start": 27.842,
+  "end": 27.983,
+  "display": "link",
+  "break": false
+ },
+ {
+  "text": "below",
+  "start": 27.983,
+  "end": 28.309,
+  "display": "below.",
+  "break": true
+ }
+]

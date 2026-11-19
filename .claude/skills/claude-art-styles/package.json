@@ -1,0 +1,9 @@
+{
+  "name": "claude-art-styles",
+  "private": true,
+  "type": "module",
+  "description": "화풍 10개 — 대본 한 줄로 그리는 세로 영상(클로드 스킬)",
+  "dependencies": {
+    "puppeteer": "^24.0.0"
+  }
+}

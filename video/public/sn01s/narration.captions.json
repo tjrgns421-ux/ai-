@@ -1,0 +1,702 @@
+[
+ {
+  "text": "South",
+  "startMs": 50,
+  "endMs": 256,
+  "timestampMs": 50,
+  "confidence": null
+ },
+ {
+  "text": " Korea",
+  "startMs": 256,
+  "endMs": 506,
+  "timestampMs": 256,
+  "confidence": null
+ },
+ {
+  "text": " stops",
+  "startMs": 572,
+  "endMs": 876,
+  "timestampMs": 572,
+  "confidence": null
+ },
+ {
+  "text": " planes",
+  "startMs": 876,
+  "endMs": 1267,
+  "timestampMs": 876,
+  "confidence": null
+ },
+ {
+  "text": " for",
+  "startMs": 1267,
+  "endMs": 1376,
+  "timestampMs": 1267,
+  "confidence": null
+ },
+ {
+  "text": " one",
+  "startMs": 1387,
+  "endMs": 1517,
+  "timestampMs": 1387,
+  "confidence": null
+ },
+ {
+  "text": " exam",
+  "startMs": 1517,
+  "endMs": 1876,
+  "timestampMs": 1517,
+  "confidence": null
+ },
+ {
+  "text": " This",
+  "startMs": 1996,
+  "endMs": 2170,
+  "timestampMs": 1996,
+  "confidence": null
+ },
+ {
+  "text": " year",
+  "startMs": 2170,
+  "endMs": 2474,
+  "timestampMs": 2170,
+  "confidence": null
+ },
+ {
+  "text": " it's",
+  "startMs": 2594,
+  "endMs": 2681,
+  "timestampMs": 2594,
+  "confidence": null
+ },
+ {
+  "text": " also",
+  "startMs": 2681,
+  "endMs": 2975,
+  "timestampMs": 2681,
+  "confidence": null
+ },
+ {
+  "text": " fighting",
+  "startMs": 2975,
+  "endMs": 3344,
+  "timestampMs": 2975,
+  "confidence": null
+ },
+ {
+  "text": " AI",
+  "startMs": 3344,
+  "endMs": 3735,
+  "timestampMs": 3344,
+  "confidence": null
+ },
+ {
+  "text": " It",
+  "startMs": 3855,
+  "endMs": 3920,
+  "timestampMs": 3855,
+  "confidence": null
+ },
+ {
+  "text": " started",
+  "startMs": 3921,
+  "endMs": 4268,
+  "timestampMs": 3921,
+  "confidence": null
+ },
+ {
+  "text": " when",
+  "startMs": 4268,
+  "endMs": 4355,
+  "timestampMs": 4268,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 4355,
+  "endMs": 4420,
+  "timestampMs": 4355,
+  "confidence": null
+ },
+ {
+  "text": " top",
+  "startMs": 4431,
+  "endMs": 4671,
+  "timestampMs": 4431,
+  "confidence": null
+ },
+ {
+  "text": " scorer",
+  "startMs": 4671,
+  "endMs": 5116,
+  "timestampMs": 4671,
+  "confidence": null
+ },
+ {
+  "text": " on",
+  "startMs": 5236,
+  "endMs": 5367,
+  "timestampMs": 5236,
+  "confidence": null
+ },
+ {
+  "text": " Korea's",
+  "startMs": 5367,
+  "endMs": 5747,
+  "timestampMs": 5367,
+  "confidence": null
+ },
+ {
+  "text": " tax",
+  "startMs": 5747,
+  "endMs": 6030,
+  "timestampMs": 5747,
+  "confidence": null
+ },
+ {
+  "text": " accountant",
+  "startMs": 6030,
+  "endMs": 6345,
+  "timestampMs": 6030,
+  "confidence": null
+ },
+ {
+  "text": " exam",
+  "startMs": 6345,
+  "endMs": 6682,
+  "timestampMs": 6345,
+  "confidence": null
+ },
+ {
+  "text": " admitted",
+  "startMs": 6693,
+  "endMs": 7062,
+  "timestampMs": 6693,
+  "confidence": null
+ },
+ {
+  "text": " he",
+  "startMs": 7182,
+  "endMs": 7301,
+  "timestampMs": 7182,
+  "confidence": null
+ },
+ {
+  "text": " cheated",
+  "startMs": 7301,
+  "endMs": 7660,
+  "timestampMs": 7301,
+  "confidence": null
+ },
+ {
+  "text": " using",
+  "startMs": 7660,
+  "endMs": 8084,
+  "timestampMs": 7660,
+  "confidence": null
+ },
+ {
+  "text": " AI",
+  "startMs": 8095,
+  "endMs": 8573,
+  "timestampMs": 8095,
+  "confidence": null
+ },
+ {
+  "text": " Now",
+  "startMs": 8693,
+  "endMs": 9106,
+  "timestampMs": 8693,
+  "confidence": null
+ },
+ {
+  "text": " for",
+  "startMs": 9226,
+  "endMs": 9334,
+  "timestampMs": 9226,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 9334,
+  "endMs": 9400,
+  "timestampMs": 9334,
+  "confidence": null
+ },
+ {
+  "text": " Suneung",
+  "startMs": 9400,
+  "endMs": 9910,
+  "timestampMs": 9400,
+  "confidence": null
+ },
+ {
+  "text": " proctors",
+  "startMs": 10030,
+  "endMs": 10400,
+  "timestampMs": 10030,
+  "confidence": null
+ },
+ {
+  "text": " will",
+  "startMs": 10400,
+  "endMs": 10497,
+  "timestampMs": 10400,
+  "confidence": null
+ },
+ {
+  "text": " inspect",
+  "startMs": 10497,
+  "endMs": 11008,
+  "timestampMs": 10497,
+  "confidence": null
+ },
+ {
+  "text": " every",
+  "startMs": 11128,
+  "endMs": 11432,
+  "timestampMs": 11128,
+  "confidence": null
+ },
+ {
+  "text": " test-taker's",
+  "startMs": 11443,
+  "endMs": 11986,
+  "timestampMs": 11443,
+  "confidence": null
+ },
+ {
+  "text": " glasses",
+  "startMs": 11986,
+  "endMs": 12562,
+  "timestampMs": 11986,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 12682,
+  "endMs": 12791,
+  "timestampMs": 12682,
+  "confidence": null
+ },
+ {
+  "text": " shirt",
+  "startMs": 12791,
+  "endMs": 13073,
+  "timestampMs": 12791,
+  "confidence": null
+ },
+ {
+  "text": " buttons",
+  "startMs": 13073,
+  "endMs": 13378,
+  "timestampMs": 13073,
+  "confidence": null
+ },
+ {
+  "text": " will",
+  "startMs": 13389,
+  "endMs": 13476,
+  "timestampMs": 13389,
+  "confidence": null
+ },
+ {
+  "text": " be",
+  "startMs": 13476,
+  "endMs": 13584,
+  "timestampMs": 13476,
+  "confidence": null
+ },
+ {
+  "text": " covered",
+  "startMs": 13584,
+  "endMs": 13889,
+  "timestampMs": 13584,
+  "confidence": null
+ },
+ {
+  "text": " with",
+  "startMs": 13889,
+  "endMs": 13986,
+  "timestampMs": 13889,
+  "confidence": null
+ },
+ {
+  "text": " stickers",
+  "startMs": 13986,
+  "endMs": 14584,
+  "timestampMs": 13986,
+  "confidence": null
+ },
+ {
+  "text": " An",
+  "startMs": 14704,
+  "endMs": 14748,
+  "timestampMs": 14704,
+  "confidence": null
+ },
+ {
+  "text": " emergency",
+  "startMs": 14748,
+  "endMs": 15193,
+  "timestampMs": 14748,
+  "confidence": null
+ },
+ {
+  "text": " alert",
+  "startMs": 15193,
+  "endMs": 15563,
+  "timestampMs": 15193,
+  "confidence": null
+ },
+ {
+  "text": " will",
+  "startMs": 15628,
+  "endMs": 15737,
+  "timestampMs": 15628,
+  "confidence": null
+ },
+ {
+  "text": " make",
+  "startMs": 15737,
+  "endMs": 15922,
+  "timestampMs": 15737,
+  "confidence": null
+ },
+ {
+  "text": " nearly",
+  "startMs": 15932,
+  "endMs": 16356,
+  "timestampMs": 15932,
+  "confidence": null
+ },
+ {
+  "text": " every",
+  "startMs": 16476,
+  "endMs": 16780,
+  "timestampMs": 16476,
+  "confidence": null
+ },
+ {
+  "text": " phone",
+  "startMs": 16791,
+  "endMs": 17193,
+  "timestampMs": 16791,
+  "confidence": null
+ },
+ {
+  "text": " in",
+  "startMs": 17193,
+  "endMs": 17237,
+  "timestampMs": 17193,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 17237,
+  "endMs": 17291,
+  "timestampMs": 17237,
+  "confidence": null
+ },
+ {
+  "text": " country",
+  "startMs": 17291,
+  "endMs": 17650,
+  "timestampMs": 17291,
+  "confidence": null
+ },
+ {
+  "text": " buzz",
+  "startMs": 17661,
+  "endMs": 18106,
+  "timestampMs": 17661,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 18226,
+  "endMs": 18335,
+  "timestampMs": 18226,
+  "confidence": null
+ },
+ {
+  "text": " expose",
+  "startMs": 18335,
+  "endMs": 18889,
+  "timestampMs": 18335,
+  "confidence": null
+ },
+ {
+  "text": " hidden",
+  "startMs": 18900,
+  "endMs": 19063,
+  "timestampMs": 18900,
+  "confidence": null
+ },
+ {
+  "text": " devices",
+  "startMs": 19063,
+  "endMs": 19683,
+  "timestampMs": 19063,
+  "confidence": null
+ },
+ {
+  "text": " And",
+  "startMs": 19803,
+  "endMs": 19857,
+  "timestampMs": 19803,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 19857,
+  "endMs": 19922,
+  "timestampMs": 19857,
+  "confidence": null
+ },
+ {
+  "text": " prime",
+  "startMs": 19922,
+  "endMs": 20194,
+  "timestampMs": 19922,
+  "confidence": null
+ },
+ {
+  "text": " minister",
+  "startMs": 20194,
+  "endMs": 20618,
+  "timestampMs": 20194,
+  "confidence": null
+ },
+ {
+  "text": " said",
+  "startMs": 20738,
+  "endMs": 20977,
+  "timestampMs": 20738,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 20977,
+  "endMs": 21032,
+  "timestampMs": 20977,
+  "confidence": null
+ },
+ {
+  "text": " exam",
+  "startMs": 21032,
+  "endMs": 21445,
+  "timestampMs": 21032,
+  "confidence": null
+ },
+ {
+  "text": " ban",
+  "startMs": 21445,
+  "endMs": 21727,
+  "timestampMs": 21445,
+  "confidence": null
+ },
+ {
+  "text": " for",
+  "startMs": 21727,
+  "endMs": 21825,
+  "timestampMs": 21727,
+  "confidence": null
+ },
+ {
+  "text": " cheaters",
+  "startMs": 21825,
+  "endMs": 22249,
+  "timestampMs": 21825,
+  "confidence": null
+ },
+ {
+  "text": " will",
+  "startMs": 22249,
+  "endMs": 22347,
+  "timestampMs": 22249,
+  "confidence": null
+ },
+ {
+  "text": " go",
+  "startMs": 22347,
+  "endMs": 22510,
+  "timestampMs": 22347,
+  "confidence": null
+ },
+ {
+  "text": " from",
+  "startMs": 22510,
+  "endMs": 22684,
+  "timestampMs": 22510,
+  "confidence": null
+ },
+ {
+  "text": " one",
+  "startMs": 22695,
+  "endMs": 22890,
+  "timestampMs": 22695,
+  "confidence": null
+ },
+ {
+  "text": " year",
+  "startMs": 22890,
+  "endMs": 23097,
+  "timestampMs": 22890,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 23108,
+  "endMs": 23151,
+  "timestampMs": 23108,
+  "confidence": null
+ },
+ {
+  "text": " ten",
+  "startMs": 23162,
+  "endMs": 23532,
+  "timestampMs": 23162,
+  "confidence": null
+ },
+ {
+  "text": " Good",
+  "startMs": 23652,
+  "endMs": 23772,
+  "timestampMs": 23652,
+  "confidence": null
+ },
+ {
+  "text": " luck",
+  "startMs": 23783,
+  "endMs": 23935,
+  "timestampMs": 23783,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 23935,
+  "endMs": 24022,
+  "timestampMs": 23935,
+  "confidence": null
+ },
+ {
+  "text": " everyone",
+  "startMs": 24022,
+  "endMs": 24565,
+  "timestampMs": 24022,
+  "confidence": null
+ },
+ {
+  "text": " sitting",
+  "startMs": 24685,
+  "endMs": 24946,
+  "timestampMs": 24685,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 24946,
+  "endMs": 25000,
+  "timestampMs": 24946,
+  "confidence": null
+ },
+ {
+  "text": " Suneung",
+  "startMs": 25011,
+  "endMs": 25446,
+  "timestampMs": 25011,
+  "confidence": null
+ },
+ {
+  "text": " No",
+  "startMs": 25566,
+  "endMs": 25729,
+  "timestampMs": 25566,
+  "confidence": null
+ },
+ {
+  "text": " AI",
+  "startMs": 25740,
+  "endMs": 26033,
+  "timestampMs": 25740,
+  "confidence": null
+ },
+ {
+  "text": " needed",
+  "startMs": 26033,
+  "endMs": 26370,
+  "timestampMs": 26033,
+  "confidence": null
+ },
+ {
+  "text": " The",
+  "startMs": 26490,
+  "endMs": 26577,
+  "timestampMs": 26490,
+  "confidence": null
+ },
+ {
+  "text": " full",
+  "startMs": 26587,
+  "endMs": 26783,
+  "timestampMs": 26587,
+  "confidence": null
+ },
+ {
+  "text": " story",
+  "startMs": 26794,
+  "endMs": 27283,
+  "timestampMs": 26794,
+  "confidence": null
+ },
+ {
+  "text": " with",
+  "startMs": 27403,
+  "endMs": 27555,
+  "timestampMs": 27403,
+  "confidence": null
+ },
+ {
+  "text": " every",
+  "startMs": 27675,
+  "endMs": 27903,
+  "timestampMs": 27675,
+  "confidence": null
+ },
+ {
+  "text": " source",
+  "startMs": 27914,
+  "endMs": 28414,
+  "timestampMs": 27914,
+  "confidence": null
+ },
+ {
+  "text": " is",
+  "startMs": 28534,
+  "endMs": 28632,
+  "timestampMs": 28534,
+  "confidence": null
+ },
+ {
+  "text": " on",
+  "startMs": 28632,
+  "endMs": 28751,
+  "timestampMs": 28632,
+  "confidence": null
+ },
+ {
+  "text": " Blip's",
+  "startMs": 28762,
+  "endMs": 29045,
+  "timestampMs": 28762,
+  "confidence": null
+ },
+ {
+  "text": " channel",
+  "startMs": 29056,
+  "endMs": 29425,
+  "timestampMs": 29056,
+  "confidence": null
+ }
+]

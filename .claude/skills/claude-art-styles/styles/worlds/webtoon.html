@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<!-- 화풍 세상: 웹툰 (연구 중 2026-11-07) — 세로로 내리는 칸(흰 여백)·선화 + 셀 채색(2단 음영)·스크린톤·집중선·말칸. 클로드 별이 집중선 가운데 "번쩍!" 등장. __seek(t) 0~1.6초 -->
+<link rel="stylesheet" href="../world.css">
+<style>
+  @font-face { font-family: Pen; src: url(../../../fonts/NanumPenScript-Regular.ttf); }
+  body { background: #fff; }
+  .hud { top: 210px; }
+  .hud .name { font-family: BlackHan; color: #111; font-size: 96px; }
+  .hud .dots { color: #111; background: #f1f1f1; }
+</style></head>
+<body>
+<div id="stage"><canvas id="c" width="1080" height="1920"></canvas></div>
+<div class="hud"><div class="name">웹툰</div><div class="dots"><b>7/10</b><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i><i></i></div></div>
+<script type="module">
+import { rays, rng, ease } from "../star.js";
+const W = 1080, H = 1920, INK = "#141414";
+const c = document.getElementById("c"), g = c.getContext("2d");
+const RAYS = rays();
+const backOut = (x, c1 = 1.7) => { const c3 = c1 + 1; return 1 + c3 * Math.pow(x - 1, 3) + c1 * Math.pow(x - 1, 2); };
+
+// 스크린톤(망점) — 칸 안을 점으로, 아래로 갈수록 진하게
+function tone(x, y, w, h, color, max = 7, step = 16, dir = 1) {
+  g.fillStyle = color;
+  for (let yy = y; yy < y + h; yy += step) for (let xx = x + ((yy / step) % 2 ? step / 2 : 0); xx < x + w; xx += step) {
+    const k = dir > 0 ? (yy - y) / h : 1 - (yy - y) / h; const r = max * (0.15 + 0.85 * k);
+    g.beginPath(); g.arc(xx, yy, r, 0, Math.PI * 2); g.fill();
+  }
+}
+function panel(x, y, w, h, draw) {
+  g.save(); g.beginPath(); g.rect(x, y, w, h); g.clip(); draw(x, y, w, h); g.restore();
+  g.strokeStyle = INK; g.lineWidth = 6; g.strokeRect(x, y, w, h);
+}
+
+// 1칸: 밤 옥상, 뒷모습 한 사람이 하늘을 본다 — 멀리 반짝
+function panel1(x, y, w, h, t) {
+  g.fillStyle = "#2b3a67"; g.fillRect(x, y, w, h);
+  g.fillStyle = "#3d4f86"; g.fillRect(x, y + h * 0.55, w, h * 0.45);
+  const r = rng(2); g.fillStyle = "#fff";
+  for (let k = 0; k < 40; k++) { g.globalAlpha = 0.4 + r() * 0.6; g.fillRect(x + r() * w, y + r() * h * 0.6, 3, 3); } g.globalAlpha = 1;
+  // 멀리 반짝(주황 점)
+  const gl = 10 + Math.sin(t * 14) * 4; g.fillStyle = "#ffb08a"; g.beginPath(); g.arc(x + w * 0.88, y + h * 0.2, gl, 0, 7); g.fill();
+  g.strokeStyle = "#ffd9c6"; g.lineWidth = 4; for (let a = 0; a < 4; a++) { const an = a * Math.PI / 2 + t; g.beginPath(); g.moveTo(x + w * 0.88 + Math.cos(an) * 16, y + h * 0.2 + Math.sin(an) * 16); g.lineTo(x + w * 0.88 + Math.cos(an) * 36, y + h * 0.2 + Math.sin(an) * 36); g.stroke(); }
+  // 건물 실루엣(선화)
+  g.fillStyle = "#1b2547"; g.strokeStyle = INK; g.lineWidth = 4;
+  for (const [bx, bw, bh] of [[0, 120, 90], [110, 100, 130], [720, 140, 110], [850, 150, 70]]) { g.fillRect(x + bx, y + h - bh, bw, bh); g.strokeRect(x + bx, y + h - bh, bw, bh); }
+  // 옥상 난간
+  g.strokeStyle = INK; g.lineWidth = 5; g.beginPath(); g.moveTo(x, y + h - 40); g.lineTo(x + w, y + h - 40); g.stroke();
+  for (let xx = x + 20; xx < x + w; xx += 60) { g.beginPath(); g.moveTo(xx, y + h - 40); g.lineTo(xx, y + h); g.stroke(); }
+  // 뒷모습(후드티) — 셀 채색 2단
+  const px = x + w * 0.3, py = y + h - 4;
+  g.save(); g.translate(px, py); g.scale(0.7, 0.7); g.translate(-px, -py);
+  g.lineWidth = 6; g.strokeStyle = INK;
+  g.fillStyle = "#f2c94c"; g.beginPath(); g.moveTo(px - 130, py); g.quadraticCurveTo(px - 120, py - 150, px, py - 165); g.quadraticCurveTo(px + 120, py - 150, px + 130, py); g.closePath(); g.fill();
+  g.save(); g.clip(); g.fillStyle = "#d9a92e"; g.fillRect(px + 20, py - 200, 200, 200); g.restore(); g.stroke();
+  g.fillStyle = "#2a2a35"; g.beginPath(); g.ellipse(px, py - 205, 72, 80, 0, 0, 7); g.fill(); g.stroke();
+  g.strokeStyle = "#555a70"; g.lineWidth = 4; for (const d of [-30, 0, 28]) { g.beginPath(); g.moveTo(px + d, py - 280); g.quadraticCurveTo(px + d + 8, py - 230, px + d - 4, py - 170); g.stroke(); }
+  g.restore();
+  // 말칸
+  const bx = x + w * 0.64, by = y + h * 0.46;
+  g.fillStyle = "#fff"; g.strokeStyle = INK; g.lineWidth = 5;
+  g.beginPath(); g.ellipse(bx, by, 175, 62, 0, 0, 7); g.fill(); g.stroke();
+  g.beginPath(); g.moveTo(bx - 110, by + 40); g.lineTo(bx - 175, by + 105); g.lineTo(bx - 60, by + 55); g.closePath(); g.fill(); g.stroke();
+  g.fillStyle = "#fff"; g.beginPath(); g.ellipse(bx, by, 170, 57, 0, 0, 7); g.fill();
+  g.fillStyle = INK; g.font = "800 52px Pretendard"; g.textAlign = "center"; g.textBaseline = "middle"; g.fillText("어? 클로드다!", bx, by + 2);
+}
+
+// 2칸: 집중선 + 스크린톤 + 별 등장
+function panel2(x, y, w, h, t) {
+  const cx = x + w / 2, cy = y + h * 0.46;
+  g.fillStyle = "#fff6ee"; g.fillRect(x, y, w, h);
+  tone(x, y, w, h, "rgba(222,115,86,.22)", 8, 18, 1);
+  // 집중선: 바깥에서 가운데로, 가운데는 비움
+  const r = rng(11), lp = ease.out(ease.clamp(t / 0.2));
+  g.fillStyle = INK;
+  for (let k = 0; k < 120; k++) {
+    const a = (k / 120) * Math.PI * 2 + r() * 0.04, inner = 300 + r() * 120, outer = 1100, wd = 0.006 + r() * 0.012;
+    const ii = outer - (outer - inner) * lp;
+    g.beginPath(); g.moveTo(cx + Math.cos(a - wd) * outer, cy + Math.sin(a - wd) * outer); g.lineTo(cx + Math.cos(a) * ii, cy + Math.sin(a) * ii); g.lineTo(cx + Math.cos(a + wd) * outer, cy + Math.sin(a + wd) * outer); g.closePath(); g.fill();
+  }
+  // 별: 선화 + 셀 채색(오른쪽 아래 그림자) + 하이라이트
+  const p = ease.clamp((t + 0.04) / 0.38), s = p <= 0 ? 0 : backOut(p);
+  if (s > 0) {
+    const R = 220 * s, rot = (1 - ease.out(p)) * 0.8 - 0.1 + Math.sin(t * 3) * 0.03;
+    // 별 = 가운데 원 + 끝이 둥근 광선들의 합(같은 방향으로 그려 겹쳐도 구멍 없음). 테두리는 굵게 긋고 안을 덮어 바깥만 남긴다
+    const path = (dx, dy, k = 1) => {
+      const X = cx + dx, Y = cy + dy, hub = R * 0.36 * k; g.beginPath(); g.moveTo(X + hub, Y); g.arc(X, Y, hub, 0, Math.PI * 2);
+      for (const ry of RAYS) {
+        const a = ry.a + rot, ux = Math.cos(a), uy = Math.sin(a), px = -uy, py = ux, rw = R * 0.13 * k, tw = R * 0.095 * k, L = ry.len * R * k - tw, r0 = R * 0.12 * k;
+        g.moveTo(X + ux * r0 - px * rw, Y + uy * r0 - py * rw); g.lineTo(X + ux * L - px * tw, Y + uy * L - py * tw);
+        g.arc(X + ux * L, Y + uy * L, tw, a - Math.PI / 2, a + Math.PI / 2); g.lineTo(X + ux * r0 + px * rw, Y + uy * r0 + py * rw); g.closePath();
+      }
+    };
+    // 뒤 흰 빛 테두리(배경과 떼어 냄)
+    g.save(); g.strokeStyle = "#fff"; g.lineWidth = 44; g.lineJoin = "round"; path(0, 0); g.stroke();
+    g.strokeStyle = INK; g.lineWidth = 17; path(0, 0); g.stroke(); g.restore();
+    g.save(); path(0, 0); g.clip();
+    g.fillStyle = "#b9533a"; g.fillRect(x, y, w, h);
+    g.fillStyle = "#DE7356"; path(-10, -10); g.fill();
+    g.fillStyle = "#f3a184"; path(-30, -30, 0.55); g.fill();
+    g.restore();
+    // 반짝 선(하이라이트 획)
+    g.strokeStyle = "#fff"; g.lineWidth = 9; g.lineCap = "round";
+    g.beginPath(); g.moveTo(cx - R * 0.22, cy - R * 0.08); g.lineTo(cx - R * 0.1, cy - R * 0.2); g.stroke();
+  }
+  // 반짝이(네 갈래, 선화)
+  for (const [sx, sy, sz, ph] of [[x + 160, y + 170, 46, 0], [x + w - 190, y + 210, 36, 1.4], [x + w - 220, y + h - 170, 40, 2.6], [x + 200, y + h - 210, 30, 3.8]]) {
+    const k = sz * ease.clamp((t - 0.22 - ph * 0.04) / 0.15) * (0.75 + 0.25 * Math.sin(t * 9 + ph)); if (k < 2) continue;
+    g.fillStyle = "#fff"; g.strokeStyle = INK; g.lineWidth = 5;
+    g.beginPath(); g.moveTo(sx, sy - k); g.quadraticCurveTo(sx + k * 0.15, sy - k * 0.15, sx + k, sy); g.quadraticCurveTo(sx + k * 0.15, sy + k * 0.15, sx, sy + k); g.quadraticCurveTo(sx - k * 0.15, sy + k * 0.15, sx - k, sy); g.quadraticCurveTo(sx - k * 0.15, sy - k * 0.15, sx, sy - k); g.fill(); g.stroke();
+  }
+  // 효과음 글자 "번쩍!"
+  const fp = ease.clamp((t - 0.1) / 0.2); if (fp > 0) {
+    g.save(); g.translate(x + 210, y + 120); g.rotate(-0.16); g.scale(0.6 + 0.4 * backOut(fp, 2.2), 0.6 + 0.4 * backOut(fp, 2.2));
+    g.font = "110px BlackHan"; g.textAlign = "center"; g.textBaseline = "middle"; g.lineJoin = "round";
+    g.strokeStyle = INK; g.lineWidth = 22; g.strokeText("번쩍!", 0, 0);
+    g.fillStyle = "#ffd84a"; g.fillText("번쩍!", 0, 0); g.restore();
+  }
+}
+
+// 3칸(아래, 일부만 보임): 손을 뻗는 컷
+function panel3(x, y, w, h, t) {
+  g.fillStyle = "#e9eefc"; g.fillRect(x, y, w, h); tone(x, y, w, h, "rgba(43,58,103,.25)", 7, 18, -1);
+  // 아래에서 위로 뻗는 손(후드 소매 + 손가락) — 셀 채색 2단
+  const hx = x + w * 0.5, hy = y + h * 0.42 - Math.sin(t * 2) * 8;
+  g.lineWidth = 6; g.strokeStyle = INK; g.lineJoin = "round";
+  g.fillStyle = "#f2c94c"; g.beginPath(); g.moveTo(hx - 120, y + h + 10); g.lineTo(hx - 70, hy + 120); g.lineTo(hx + 70, hy + 120); g.lineTo(hx + 130, y + h + 10); g.closePath(); g.fill();
+  g.save(); g.clip(); g.fillStyle = "#d9a92e"; g.fillRect(hx + 20, hy, 200, h); g.restore(); g.stroke();
+  g.fillStyle = "#f6d2b8";
+  for (const [fx, fl, fa] of [[-48, 95, -0.12], [-16, 120, -0.04], [16, 118, 0.04], [46, 96, 0.12]]) { g.save(); g.translate(hx + fx, hy + 10); g.rotate(fa); g.beginPath(); g.roundRect(-15, -fl, 30, fl + 20, 15); g.fill(); g.stroke(); g.restore(); }
+  g.beginPath(); g.roundRect(hx - 70, hy - 10, 140, 135, 40); g.fill(); g.stroke();
+  g.save(); g.translate(hx - 72, hy + 50); g.rotate(-0.7); g.beginPath(); g.roundRect(-16, -70, 32, 80, 16); g.fill(); g.stroke(); g.restore();
+  g.fillStyle = "#e3b597"; g.beginPath(); g.roundRect(hx + 20, hy - 5, 46, 125, 24); g.fill();
+}
+
+window.__seek = async (t) => {
+  g.setTransform(1, 0, 0, 1, 0, 0);
+  g.fillStyle = "#fff"; g.fillRect(0, 0, W, H);
+  const sc = -ease.inOut(ease.clamp(t / 1.6)) * 40; // 위로 천천히 내림
+  g.translate(0, sc);
+  const M = 56;
+  panel(M, 430, W - M * 2, 250, (x, y, w, h) => panel1(x, y, w, h, t));
+  panel(M, 715, W - M * 2, 600, (x, y, w, h) => panel2(x, y, w, h, t));
+  panel(M, 1350, W - M * 2, 520, (x, y, w, h) => panel3(x, y, w, h, t));
+};
+await document.fonts.ready;
+window.__seek(0.9);
+</script></body></html>

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><title>화풍 장면 미리 보기</title>
+<style>
+  html, body { margin: 0; height: 100%; background: #111; display: flex; align-items: center; justify-content: center; font-family: sans-serif; color: #ddd; }
+  #wrap { position: relative; height: 92vh; aspect-ratio: 9 / 16; overflow: hidden; border-radius: 18px; box-shadow: 0 10px 40px rgba(0,0,0,.6); }
+  iframe { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; border: 0; transform-origin: 0 0; }
+  #bar { position: fixed; bottom: 12px; left: 0; right: 0; text-align: center; font-size: 14px; opacity: .8; }
+</style></head>
+<body>
+<div id="wrap"><iframe id="f"></iframe></div>
+<div id="bar">반복 재생 · <span id="len"></span> · 스페이스: 멈춤/재생</div>
+<script>
+  // ?w=<장면 경로>&sec=<반복 길이, 기본 4>
+  const q = new URLSearchParams(location.search), f = document.getElementById("f"), wrap = document.getElementById("wrap");
+  const SEC = Number(q.get("sec") || 4);
+  document.getElementById("len").textContent = SEC + "초";
+  f.src = q.get("w");
+  const fit = () => { f.style.transform = `scale(${wrap.clientWidth / 1080})`; }; addEventListener("resize", fit); fit();
+  let t0 = performance.now(), paused = false, at = 0;
+  addEventListener("keydown", (e) => { if (e.code === "Space") { paused = !paused; t0 = performance.now() - at * 1000; } });
+  (function loop(now) {
+    if (!paused) at = ((now - t0) / 1000) % SEC;
+    const s = f.contentWindow && f.contentWindow.__seek; if (s) s(at);
+    requestAnimationFrame(loop);
+  })(performance.now());
+</script>
+</body></html>

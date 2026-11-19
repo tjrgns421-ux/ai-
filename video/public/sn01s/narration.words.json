@@ -1,0 +1,702 @@
+[
+ {
+  "text": "South",
+  "start": 0.05,
+  "end": 0.256,
+  "display": "South",
+  "break": false
+ },
+ {
+  "text": "Korea",
+  "start": 0.256,
+  "end": 0.506,
+  "display": "Korea",
+  "break": false
+ },
+ {
+  "text": "stops",
+  "start": 0.572,
+  "end": 0.876,
+  "display": "stops",
+  "break": false
+ },
+ {
+  "text": "planes",
+  "start": 0.876,
+  "end": 1.267,
+  "display": "planes",
+  "break": false
+ },
+ {
+  "text": "for",
+  "start": 1.267,
+  "end": 1.376,
+  "display": "for",
+  "break": false
+ },
+ {
+  "text": "one",
+  "start": 1.387,
+  "end": 1.517,
+  "display": "one",
+  "break": false
+ },
+ {
+  "text": "exam",
+  "start": 1.517,
+  "end": 1.876,
+  "display": "exam.",
+  "break": true
+ },
+ {
+  "text": "This",
+  "start": 1.996,
+  "end": 2.17,
+  "display": "This",
+  "break": false
+ },
+ {
+  "text": "year",
+  "start": 2.17,
+  "end": 2.474,
+  "display": "year,",
+  "break": true
+ },
+ {
+  "text": "it's",
+  "start": 2.594,
+  "end": 2.681,
+  "display": "it's",
+  "break": false
+ },
+ {
+  "text": "also",
+  "start": 2.681,
+  "end": 2.975,
+  "display": "also",
+  "break": false
+ },
+ {
+  "text": "fighting",
+  "start": 2.975,
+  "end": 3.344,
+  "display": "fighting",
+  "break": false
+ },
+ {
+  "text": "AI",
+  "start": 3.344,
+  "end": 3.735,
+  "display": "AI.",
+  "break": true
+ },
+ {
+  "text": "It",
+  "start": 3.855,
+  "end": 3.92,
+  "display": "It",
+  "break": false
+ },
+ {
+  "text": "started",
+  "start": 3.921,
+  "end": 4.268,
+  "display": "started",
+  "break": false
+ },
+ {
+  "text": "when",
+  "start": 4.268,
+  "end": 4.355,
+  "display": "when",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 4.355,
+  "end": 4.42,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "top",
+  "start": 4.431,
+  "end": 4.671,
+  "display": "top",
+  "break": false
+ },
+ {
+  "text": "scorer",
+  "start": 4.671,
+  "end": 5.116,
+  "display": "scorer",
+  "break": false
+ },
+ {
+  "text": "on",
+  "start": 5.236,
+  "end": 5.367,
+  "display": "on",
+  "break": false
+ },
+ {
+  "text": "Korea's",
+  "start": 5.367,
+  "end": 5.747,
+  "display": "Korea's",
+  "break": false
+ },
+ {
+  "text": "tax",
+  "start": 5.747,
+  "end": 6.03,
+  "display": "tax",
+  "break": false
+ },
+ {
+  "text": "accountant",
+  "start": 6.03,
+  "end": 6.345,
+  "display": "accountant",
+  "break": false
+ },
+ {
+  "text": "exam",
+  "start": 6.345,
+  "end": 6.682,
+  "display": "exam",
+  "break": false
+ },
+ {
+  "text": "admitted",
+  "start": 6.693,
+  "end": 7.062,
+  "display": "admitted",
+  "break": false
+ },
+ {
+  "text": "he",
+  "start": 7.182,
+  "end": 7.301,
+  "display": "he",
+  "break": false
+ },
+ {
+  "text": "cheated",
+  "start": 7.301,
+  "end": 7.66,
+  "display": "cheated",
+  "break": false
+ },
+ {
+  "text": "using",
+  "start": 7.66,
+  "end": 8.084,
+  "display": "using",
+  "break": false
+ },
+ {
+  "text": "AI",
+  "start": 8.095,
+  "end": 8.573,
+  "display": "AI.",
+  "break": true
+ },
+ {
+  "text": "Now",
+  "start": 8.693,
+  "end": 9.106,
+  "display": "Now,",
+  "break": true
+ },
+ {
+  "text": "for",
+  "start": 9.226,
+  "end": 9.334,
+  "display": "for",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 9.334,
+  "end": 9.4,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "Suneung",
+  "start": 9.4,
+  "end": 9.91,
+  "display": "Suneung,",
+  "break": true
+ },
+ {
+  "text": "proctors",
+  "start": 10.03,
+  "end": 10.4,
+  "display": "proctors",
+  "break": false
+ },
+ {
+  "text": "will",
+  "start": 10.4,
+  "end": 10.497,
+  "display": "will",
+  "break": false
+ },
+ {
+  "text": "inspect",
+  "start": 10.497,
+  "end": 11.008,
+  "display": "inspect",
+  "break": false
+ },
+ {
+  "text": "every",
+  "start": 11.128,
+  "end": 11.432,
+  "display": "every",
+  "break": false
+ },
+ {
+  "text": "test-taker's",
+  "start": 11.443,
+  "end": 11.986,
+  "display": "test-taker's",
+  "break": false
+ },
+ {
+  "text": "glasses",
+  "start": 11.986,
+  "end": 12.562,
+  "display": "glasses,",
+  "break": true
+ },
+ {
+  "text": "and",
+  "start": 12.682,
+  "end": 12.791,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "shirt",
+  "start": 12.791,
+  "end": 13.073,
+  "display": "shirt",
+  "break": false
+ },
+ {
+  "text": "buttons",
+  "start": 13.073,
+  "end": 13.378,
+  "display": "buttons",
+  "break": false
+ },
+ {
+  "text": "will",
+  "start": 13.389,
+  "end": 13.476,
+  "display": "will",
+  "break": false
+ },
+ {
+  "text": "be",
+  "start": 13.476,
+  "end": 13.584,
+  "display": "be",
+  "break": false
+ },
+ {
+  "text": "covered",
+  "start": 13.584,
+  "end": 13.889,
+  "display": "covered",
+  "break": false
+ },
+ {
+  "text": "with",
+  "start": 13.889,
+  "end": 13.986,
+  "display": "with",
+  "break": false
+ },
+ {
+  "text": "stickers",
+  "start": 13.986,
+  "end": 14.584,
+  "display": "stickers.",
+  "break": true
+ },
+ {
+  "text": "An",
+  "start": 14.704,
+  "end": 14.748,
+  "display": "An",
+  "break": false
+ },
+ {
+  "text": "emergency",
+  "start": 14.748,
+  "end": 15.193,
+  "display": "emergency",
+  "break": false
+ },
+ {
+  "text": "alert",
+  "start": 15.193,
+  "end": 15.563,
+  "display": "alert",
+  "break": false
+ },
+ {
+  "text": "will",
+  "start": 15.628,
+  "end": 15.737,
+  "display": "will",
+  "break": false
+ },
+ {
+  "text": "make",
+  "start": 15.737,
+  "end": 15.922,
+  "display": "make",
+  "break": false
+ },
+ {
+  "text": "nearly",
+  "start": 15.932,
+  "end": 16.356,
+  "display": "nearly",
+  "break": false
+ },
+ {
+  "text": "every",
+  "start": 16.476,
+  "end": 16.78,
+  "display": "every",
+  "break": false
+ },
+ {
+  "text": "phone",
+  "start": 16.791,
+  "end": 17.193,
+  "display": "phone",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 17.193,
+  "end": 17.237,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 17.237,
+  "end": 17.291,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "country",
+  "start": 17.291,
+  "end": 17.65,
+  "display": "country",
+  "break": false
+ },
+ {
+  "text": "buzz",
+  "start": 17.661,
+  "end": 18.106,
+  "display": "buzz,",
+  "break": true
+ },
+ {
+  "text": "to",
+  "start": 18.226,
+  "end": 18.335,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "expose",
+  "start": 18.335,
+  "end": 18.889,
+  "display": "expose",
+  "break": false
+ },
+ {
+  "text": "hidden",
+  "start": 18.9,
+  "end": 19.063,
+  "display": "hidden",
+  "break": false
+ },
+ {
+  "text": "devices",
+  "start": 19.063,
+  "end": 19.683,
+  "display": "devices.",
+  "break": true
+ },
+ {
+  "text": "And",
+  "start": 19.803,
+  "end": 19.857,
+  "display": "And",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 19.857,
+  "end": 19.922,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "prime",
+  "start": 19.922,
+  "end": 20.194,
+  "display": "prime",
+  "break": false
+ },
+ {
+  "text": "minister",
+  "start": 20.194,
+  "end": 20.618,
+  "display": "minister",
+  "break": false
+ },
+ {
+  "text": "said",
+  "start": 20.738,
+  "end": 20.977,
+  "display": "said",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 20.977,
+  "end": 21.032,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "exam",
+  "start": 21.032,
+  "end": 21.445,
+  "display": "exam",
+  "break": false
+ },
+ {
+  "text": "ban",
+  "start": 21.445,
+  "end": 21.727,
+  "display": "ban",
+  "break": false
+ },
+ {
+  "text": "for",
+  "start": 21.727,
+  "end": 21.825,
+  "display": "for",
+  "break": false
+ },
+ {
+  "text": "cheaters",
+  "start": 21.825,
+  "end": 22.249,
+  "display": "cheaters",
+  "break": false
+ },
+ {
+  "text": "will",
+  "start": 22.249,
+  "end": 22.347,
+  "display": "will",
+  "break": false
+ },
+ {
+  "text": "go",
+  "start": 22.347,
+  "end": 22.51,
+  "display": "go",
+  "break": false
+ },
+ {
+  "text": "from",
+  "start": 22.51,
+  "end": 22.684,
+  "display": "from",
+  "break": false
+ },
+ {
+  "text": "one",
+  "start": 22.695,
+  "end": 22.89,
+  "display": "one",
+  "break": false
+ },
+ {
+  "text": "year",
+  "start": 22.89,
+  "end": 23.097,
+  "display": "year",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 23.108,
+  "end": 23.151,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "ten",
+  "start": 23.162,
+  "end": 23.532,
+  "display": "ten.",
+  "break": true
+ },
+ {
+  "text": "Good",
+  "start": 23.652,
+  "end": 23.772,
+  "display": "Good",
+  "break": false
+ },
+ {
+  "text": "luck",
+  "start": 23.783,
+  "end": 23.935,
+  "display": "luck",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 23.935,
+  "end": 24.022,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "everyone",
+  "start": 24.022,
+  "end": 24.565,
+  "display": "everyone",
+  "break": false
+ },
+ {
+  "text": "sitting",
+  "start": 24.685,
+  "end": 24.946,
+  "display": "sitting",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 24.946,
+  "end": 25.0,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "Suneung",
+  "start": 25.011,
+  "end": 25.446,
+  "display": "Suneung.",
+  "break": true
+ },
+ {
+  "text": "No",
+  "start": 25.566,
+  "end": 25.729,
+  "display": "No",
+  "break": false
+ },
+ {
+  "text": "AI",
+  "start": 25.74,
+  "end": 26.033,
+  "display": "AI",
+  "break": false
+ },
+ {
+  "text": "needed",
+  "start": 26.033,
+  "end": 26.37,
+  "display": "needed.",
+  "break": true
+ },
+ {
+  "text": "The",
+  "start": 26.49,
+  "end": 26.577,
+  "display": "The",
+  "break": false
+ },
+ {
+  "text": "full",
+  "start": 26.587,
+  "end": 26.783,
+  "display": "full",
+  "break": false
+ },
+ {
+  "text": "story",
+  "start": 26.794,
+  "end": 27.283,
+  "display": "story,",
+  "break": true
+ },
+ {
+  "text": "with",
+  "start": 27.403,
+  "end": 27.555,
+  "display": "with",
+  "break": false
+ },
+ {
+  "text": "every",
+  "start": 27.675,
+  "end": 27.903,
+  "display": "every",
+  "break": false
+ },
+ {
+  "text": "source",
+  "start": 27.914,
+  "end": 28.414,
+  "display": "source,",
+  "break": true
+ },
+ {
+  "text": "is",
+  "start": 28.534,
+  "end": 28.632,
+  "display": "is",
+  "break": false
+ },
+ {
+  "text": "on",
+  "start": 28.632,
+  "end": 28.751,
+  "display": "on",
+  "break": false
+ },
+ {
+  "text": "Blip's",
+  "start": 28.762,
+  "end": 29.045,
+  "display": "Blip's",
+  "break": false
+ },
+ {
+  "text": "channel",
+  "start": 29.056,
+  "end": 29.425,
+  "display": "channel.",
+  "break": true
+ }
+]

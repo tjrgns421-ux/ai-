@@ -1,0 +1,26 @@
+
+> my-app@1.0.0 test
+> node --test
+
+TAP version 13
+# Subtest: right password logs in
+ok 1 - right password logs in
+  ---
+  duration_ms: 0.706362
+  type: 'test'
+  ...
+# Subtest: wrong password is denied
+ok 2 - wrong password is denied
+  ---
+  duration_ms: 0.141204
+  type: 'test'
+  ...
+1..2
+# tests 2
+# suites 0
+# pass 2
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 61.307708
