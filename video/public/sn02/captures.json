@@ -1,0 +1,617 @@
+{
+ "kh-time": {
+  "w": 1512,
+  "h": 86,
+  "source": "The Korea Herald / Yonhap, Nov 19 2026",
+  "marks": {
+   "8:40 a.m.": [
+    {
+     "x": 1269,
+     "y": 12,
+     "w": 120,
+     "h": 34
+    }
+   ],
+   "1,312 test centers": [
+    {
+     "x": 1428,
+     "y": 12,
+     "w": 72,
+     "h": 34
+    },
+    {
+     "x": 12,
+     "y": 48,
+     "w": 143,
+     "h": 34
+    }
+   ],
+   "5:45 p.m.": [
+    {
+     "x": 774,
+     "y": 48,
+     "w": 122,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "kh-count": {
+  "w": 1469,
+  "h": 86,
+  "source": "The Korea Herald / Yonhap, Nov 19 2026",
+  "marks": {
+   "551,864": [
+    {
+     "x": 141,
+     "y": 12,
+     "w": 104,
+     "h": 34
+    }
+   ],
+   "75,000 proctors": [
+    {
+     "x": 1202,
+     "y": 12,
+     "w": 201,
+     "h": 34
+    }
+   ],
+   "8,400 additional personnel": [
+    {
+     "x": 109,
+     "y": 48,
+     "w": 340,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "kh-trigger": {
+  "w": 1511,
+  "h": 86,
+  "source": "The Korea Herald / Yonhap, Nov 19 2026",
+  "marks": {
+   "confessed to cheating with the help of AI and digital devices": [
+    {
+     "x": 394,
+     "y": 48,
+     "w": 773,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "kh-stickers": {
+  "w": 1463,
+  "h": 86,
+  "source": "The Korea Herald / Yonhap, Nov 19 2026",
+  "marks": {
+   "every pair of glasses": [
+    {
+     "x": 613,
+     "y": 12,
+     "w": 262,
+     "h": 34
+    }
+   ],
+   "stickers to cover buttons": [
+    {
+     "x": 226,
+     "y": 48,
+     "w": 312,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "kh-pencils": {
+  "w": 1339,
+  "h": 50,
+  "source": "The Korea Herald / Yonhap, Nov 19 2026",
+  "marks": {
+   "only pencils": [
+    {
+     "x": 1164,
+     "y": 12,
+     "w": 156,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "kh-alert": {
+  "w": 1475,
+  "h": 86,
+  "source": "The Korea Herald / Yonhap, Nov 19 2026",
+  "marks": {
+   "two disaster alert messages": [
+    {
+     "x": 348,
+     "y": 12,
+     "w": 347,
+     "h": 34
+    }
+   ],
+   "even when devices are muted": [
+    {
+     "x": 264,
+     "y": 48,
+     "w": 377,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "kh-reward": {
+  "w": 1482,
+  "h": 86,
+  "source": "The Korea Herald / Yonhap, Nov 19 2026",
+  "marks": {
+   "10 years": [
+    {
+     "x": 1085,
+     "y": 12,
+     "w": 108,
+     "h": 34
+    }
+   ],
+   "up to 100 million won ($75,000)": [
+    {
+     "x": 12,
+     "y": 48,
+     "w": 418,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "kh-career": {
+  "w": 1501,
+  "h": 86,
+  "source": "The Korea Herald / Yonhap, Nov 19 2026",
+  "marks": {
+   "heavily influence career prospects": [
+    {
+     "x": 696,
+     "y": 48,
+     "w": 436,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "kh-planes": {
+  "w": 1449,
+  "h": 86,
+  "source": "The Korea Herald / Yonhap, Nov 19 2026",
+  "marks": {
+   "1:05 p.m. to 1:40 p.m.": [
+    {
+     "x": 991,
+     "y": 12,
+     "w": 284,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "kh-alt": {
+  "w": 1499,
+  "h": 86,
+  "source": "The Korea Herald / Yonhap, Nov 19 2026",
+  "marks": {
+   "3 kilometers or higher": [
+    {
+     "x": 1203,
+     "y": 12,
+     "w": 284,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "kh-subway": {
+  "w": 1382,
+  "h": 50,
+  "source": "The Korea Herald / Yonhap, Nov 19 2026",
+  "marks": {
+   "27 runs": [
+    {
+     "x": 658,
+     "y": 12,
+     "w": 95,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "kh-stock": {
+  "w": 1499,
+  "h": 86,
+  "source": "The Korea Herald / Yonhap, Nov 19 2026",
+  "marks": {
+   "open and close an hour later": [
+    {
+     "x": 1094,
+     "y": 12,
+     "w": 360,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "khm-pm": {
+  "w": 1494,
+  "h": 86,
+  "source": "The Korea Herald, Nov 17 2026",
+  "marks": {
+   "glasses and watches": [
+    {
+     "x": 12,
+     "y": 48,
+     "w": 256,
+     "h": 34
+    }
+   ],
+   "collars, sleeves and buttons": [
+    {
+     "x": 416,
+     "y": 48,
+     "w": 350,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "khm-bags": {
+  "w": 1512,
+  "h": 156,
+  "source": "The Korea Herald, Nov 17 2026",
+  "marks": {
+   "leave their bags": [
+    {
+     "x": 958,
+     "y": 12,
+     "w": 201,
+     "h": 34
+    }
+   ],
+   "check whether electronic devices are operating": [
+    {
+     "x": 350,
+     "y": 116,
+     "w": 600,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "khm-wifi": {
+  "w": 1444,
+  "h": 122,
+  "source": "The Korea Herald, Nov 17 2026",
+  "marks": {
+   "disabling public Wi-Fi": [
+    {
+     "x": 827,
+     "y": 48,
+     "w": 288,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "khm-glasses": {
+  "w": 1484,
+  "h": 190,
+  "source": "The Korea Herald, Nov 17 2026",
+  "marks": {
+   "1,312 Suneung test centers": [
+    {
+     "x": 139,
+     "y": 48,
+     "w": 343,
+     "h": 34
+    }
+   ],
+   "thick frames": [
+    {
+     "x": 1005,
+     "y": 116,
+     "w": 159,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "khm-union": {
+  "w": 1512,
+  "h": 294,
+  "source": "The Korea Herald, Nov 17 2026",
+  "marks": {
+   "already been doing": [
+    {
+     "x": 1019,
+     "y": 116,
+     "w": 243,
+     "h": 34
+    }
+   ],
+   "really an effective response": [
+    {
+     "x": 524,
+     "y": 152,
+     "w": 350,
+     "h": 34
+    }
+   ],
+   "giving teachers more duties": [
+    {
+     "x": 12,
+     "y": 256,
+     "w": 353,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "khm-equip": {
+  "w": 1464,
+  "h": 122,
+  "source": "The Korea Herald, Nov 17 2026",
+  "marks": {
+   "radio-frequency detectors and metal detectors": [
+    {
+     "x": 417,
+     "y": 84,
+     "w": 585,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "khm-law": {
+  "w": 1512,
+  "h": 330,
+  "source": "The Korea Herald, Nov 17 2026",
+  "marks": {
+   "from one year to 10 years": [
+    {
+     "x": 795,
+     "y": 48,
+     "w": 328,
+     "h": 34
+    }
+   ],
+   "fast-track the legislation": [
+    {
+     "x": 345,
+     "y": 292,
+     "w": 309,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "khm-police": {
+  "w": 1450,
+  "h": 50,
+  "source": "The Korea Herald, Nov 17 2026 (name redacted)",
+  "marks": {
+   "police questioning as a suspect": [
+    {
+     "x": 242,
+     "y": 12,
+     "w": 395,
+     "h": 34
+    }
+   ],
+   "apologized": [
+    {
+     "x": 1044,
+     "y": 12,
+     "w": 140,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "kt-grave": {
+  "w": 1197,
+  "h": 217,
+  "source": "The Korea Times / Yonhap, Nov 17 2026",
+  "marks": {
+   "grave crime": [
+    {
+     "x": 693,
+     "y": 114,
+     "w": 175,
+     "h": 48
+    }
+   ]
+  }
+ },
+ "kt-x": {
+  "w": 1225,
+  "h": 166,
+  "source": "The Korea Times / Yonhap, Nov 17 2026",
+  "marks": {
+   "over 100 million won ($74,805) per case": [
+    {
+     "x": 161,
+     "y": 63,
+     "w": 575,
+     "h": 48
+    }
+   ]
+  }
+ },
+ "kt-quote": {
+  "w": 1200,
+  "h": 115,
+  "source": "The Korea Times / Yonhap, Nov 17 2026",
+  "marks": {
+   "Do not ruin your life": [
+    {
+     "x": 24,
+     "y": 12,
+     "w": 298,
+     "h": 48
+    }
+   ]
+  }
+ },
+ "kt-viral": {
+  "w": 1131,
+  "h": 166,
+  "source": "The Korea Times, Nov 19 2026",
+  "marks": {
+   "went viral": [
+    {
+     "x": 717,
+     "y": 63,
+     "w": 148,
+     "h": 48
+    }
+   ]
+  }
+ },
+ "kt-reddit": {
+  "w": 1203,
+  "h": 115,
+  "source": "The Korea Times, Nov 19 2026",
+  "marks": {
+   "everyone is a proctor now": [
+    {
+     "x": 177,
+     "y": 12,
+     "w": 378,
+     "h": 48
+    }
+   ],
+   "False accusation drama is going to be wild": [
+    {
+     "x": 568,
+     "y": 63,
+     "w": 618,
+     "h": 48
+    }
+   ]
+  }
+ },
+ "yk-reward": {
+  "w": 1480,
+  "h": 92,
+  "source": "Yonhap (Korean), Nov 18 2026",
+  "marks": {
+   "최대 1억원의 포상금": [
+    {
+     "x": 84,
+     "y": 54,
+     "w": 288,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "yk-rules": {
+  "w": 1304,
+  "h": 50,
+  "source": "Yonhap (Korean), Nov 18 2026",
+  "marks": {
+   "이번 수능부터 즉시 적용": [
+    {
+     "x": 500,
+     "y": 12,
+     "w": 344,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "yk-law": {
+  "w": 1496,
+  "h": 92,
+  "source": "Yonhap (Korean), Nov 18 2026",
+  "marks": {
+   "10년간 응시자격을 제한": [
+    {
+     "x": 876,
+     "y": 12,
+     "w": 336,
+     "h": 34
+    }
+   ],
+   "법률 개정": [
+    {
+     "x": 1004,
+     "y": 54,
+     "w": 136,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "yk-penalty": {
+  "w": 1496,
+  "h": 92,
+  "source": "Yonhap (Korean), Nov 18 2026",
+  "marks": {
+   "최대 5년 이하의 징역": [
+    {
+     "x": 577,
+     "y": 12,
+     "w": 296,
+     "h": 34
+    }
+   ],
+   "퇴학조치": [
+    {
+     "x": 188,
+     "y": 54,
+     "w": 128,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "yk-sellers": {
+  "w": 1512,
+  "h": 92,
+  "source": "Yonhap (Korean), Nov 18 2026",
+  "marks": {
+   "판매하는 사업자와 구매자": [
+    {
+     "x": 964,
+     "y": 12,
+     "w": 368,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "yk-tf": {
+  "w": 1512,
+  "h": 212,
+  "source": "Yonhap (Korean), Nov 18 2026",
+  "marks": {
+   "20일부터": [
+    {
+     "x": 892,
+     "y": 12,
+     "w": 128,
+     "h": 34
+    }
+   ],
+   "글로벌 AI(인공지능) 기업·통신사": [
+    {
+     "x": 265,
+     "y": 128,
+     "w": 466,
+     "h": 34
+    }
+   ]
+  }
+ }
+}
