@@ -7,7 +7,7 @@ import { Beat, Cap, Stage, makeTimeline, srcOf } from "./engine";
 // Vertical Shorts cut (9:16, ~45 s) of sn02. Same captures as the full video.
 
 const CW = 1080;
-const V = { cw: CW, width: 960 };
+const V = { cw: CW, width: 1010 };
 
 const Plane: React.FC<{ lf: number; x: number; y: number }> = ({ lf, x, y }) => (
   <div style={{ position: "absolute", left: x + Math.min(lf, 10) * 9, top: y, rotate: "-8deg" }}>
@@ -29,7 +29,7 @@ const B: Beat[] = [
   { at: "And a cheater could be banned", sfx: "stamp", face: "shock", r: ({ lf, dur, at }) => (<>
     <Source text={srcOf("kh-reward")} />
     <Cap name="kh-reward" lf={lf} dur={dur} y={300} {...V} marks={[["10 years", at("ten years")], ["up to 100 million won ($75,000)", 4]]} />
-    <Stamp lf={lf} d={at("ten years")} text="10-YEAR BAN" x={110} y={620} rot={-6} size={130} color={RED} />
+    <Stamp lf={lf} d={at("ten years")} text="10-YEAR BAN" x={150} y={620} rot={-6} size={96} color={RED} />
   </>) },
   { at: "The exam is the Suneung", sfx: "pop", face: "prompt", r: ({ lf, dur, at }) => (<>
     <Source text={srcOf("kh-count")} />
@@ -54,7 +54,7 @@ const B: Beat[] = [
   </>) },
   { at: "But here's the catch", sfx: "stamp", face: "shock", r: ({ lf, at }) => (<>
     <T y={360} size={70} center color={DIM} style={rise(lf)}>But here's the catch.</T>
-    <Stamp lf={lf} d={at("still a plan")} text="STILL A PLAN" x={150} y={520} rot={-5} size={130} color="#FFC93A" />
+    <Stamp lf={lf} d={at("still a plan")} text="STILL A PLAN" x={140} y={520} rot={-5} size={96} color="#FFC93A" />
   </>) },
   { at: "The reward still needs", sfx: "pop", face: "prompt", r: ({ lf, dur, at }) => (<>
     <Source text={`${srcOf("yk-rules")} · ${srcOf("khm-law")}`} />
