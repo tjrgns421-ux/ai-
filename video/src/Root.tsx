@@ -9,6 +9,7 @@ import { Ep02Full, EP02_DURATION } from "./ep02/Ep02";
 import { En01Full, EN01_DURATION } from "./en01/En01";
 import { BlipAvatar, BlipAvatarKR, BlipBanner, BlipBannerKR } from "./brand/Brand";
 import { CuriousStill, SproutStill } from "./mascot/Curious";
+import { CmAvatar, CmBanner } from "./curious/Brand";
 import { CmEp01Thumb } from "./curious/Ep01Thumb";
 import { CmRingPreview, RING_PREVIEW_FRAMES } from "./curious/RingSim";
 import { CmRing3D, RING3D_FRAMES } from "./curious/Ring3D";
@@ -84,6 +85,8 @@ export const RemotionRoot: React.FC = () => {
         <Composition id="CmEp01Thumb" component={CmEp01Thumb} durationInFrames={1} fps={30} width={1280} height={720} />
         <Composition id="SproutStill" component={SproutStill} durationInFrames={1} fps={30} width={800} height={800} defaultProps={{ pose: { face: "happy" as const } }} />
         <Composition id="CuriousStill" component={CuriousStill} durationInFrames={1} fps={30} width={800} height={800} defaultProps={{ v: "orbi" as const }} />
+        <Composition id="CmAvatar" component={CmAvatar} durationInFrames={1} fps={30} width={800} height={800} />
+        <Composition id="CmBanner" component={CmBanner} durationInFrames={1} fps={30} width={2560} height={1440} />
         <Composition id="BlipAvatar" component={BlipAvatar} durationInFrames={1} fps={30} width={800} height={800} />
         <Composition id="BlipAvatarKR" component={BlipAvatarKR} durationInFrames={1} fps={30} width={800} height={800} defaultProps={{ v: "A" as const }} />
         <Composition id="BlipBannerKR" component={BlipBannerKR} durationInFrames={1} fps={30} width={2560} height={1440} />
