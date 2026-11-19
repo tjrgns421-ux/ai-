@@ -71,3 +71,29 @@ export const BlipAvatarKR: React.FC<{ v: "A" | "B" | "C" }> = ({ v }) => {
     </AbsoluteFill>
   );
 };
+
+// Banner for the Korea-focused Blip Check (matches avatar A). Safe area: x 507–2053, y 508–931.
+export const BlipBannerKR: React.FC = () => {
+  useFonts();
+  return (
+    <AbsoluteFill style={{ background: "radial-gradient(45% 60% at 40% 50%, rgba(120,165,20,0.38) 0%, #0A0B0D 70%)" }}>
+      <AbsoluteFill style={{ backgroundImage: "linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px)", backgroundSize: "64px 64px" }} />
+      <div style={{ position: "absolute", left: 560, top: 548, width: 1050, height: 350, display: "flex", flexDirection: "column", justifyContent: "center" }}>
+        <div style={{ fontFamily: "Pretendard", fontWeight: 900, fontSize: 132, color: "#F5F5F2", letterSpacing: -4, lineHeight: 1 }}>
+          Blip Check <span style={{ color: LIME }}>&gt;_</span>
+        </div>
+        <div style={{ fontFamily: "Pretendard", fontWeight: 900, fontSize: 70, color: "#F5F5F2", marginTop: 18, letterSpacing: -1 }}>
+          Korea, <span style={{ color: LIME }}>checked.</span>
+        </div>
+        <div style={{ fontFamily: "Pretendard", fontWeight: 700, fontSize: 36, color: "rgba(255,255,255,0.6)", marginTop: 18 }}>South Korea news, explained with real sources</div>
+      </div>
+      <svg width={404} height={404} viewBox="-1 -1 2 2" style={{ position: "absolute", left: 1625, top: 517, rotate: "-34deg" }}>
+        <circle r={0.92} fill={KR_BLUE} />
+        <path d="M -0.92 0 A 0.92 0.92 0 0 1 0.92 0 A 0.46 0.46 0 0 1 0 0 A 0.46 0.46 0 0 0 -0.92 0 Z" fill={KR_RED} />
+      </svg>
+      <div style={{ position: "absolute", left: 1580, top: 480, width: 500, height: 500 }}>
+        <PeupeuStage width={500} height={500} pose={{ face: "happy", wave: 1.5, rotY: -0.35, rotZ: 0.05, scale: 0.95 }} />
+      </div>
+    </AbsoluteFill>
+  );
+};
