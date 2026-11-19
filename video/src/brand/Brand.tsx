@@ -41,3 +41,33 @@ export const BlipBanner: React.FC = () => {
     </AbsoluteFill>
   );
 };
+
+// Korea-focused avatar options (Blip stays the face; one Korean cue each).
+//  A: taegeuk-style red/blue disc behind Blip   B: Hangul "확인" (check) speech badge   C: red/blue ring
+const KR_RED = "#CD2E3A";
+const KR_BLUE = "#0047A0";
+export const BlipAvatarKR: React.FC<{ v: "A" | "B" | "C" }> = ({ v }) => {
+  useFonts();
+  return (
+    <AbsoluteFill style={{ background: v === "A" ? "#0A0B0D" : BG }}>
+      {v === "A" && (
+        <svg width={800} height={800} viewBox="-1 -1 2 2" style={{ position: "absolute", inset: 0, rotate: "-34deg", opacity: 0.95 }}>
+          <circle r={0.92} fill={KR_BLUE} />
+          <path d="M -0.92 0 A 0.92 0.92 0 0 1 0.92 0 A 0.46 0.46 0 0 1 0 0 A 0.46 0.46 0 0 0 -0.92 0 Z" fill={KR_RED} />
+        </svg>
+      )}
+      {v === "C" && (
+        <div style={{ position: "absolute", left: 30, top: 30, width: 740, height: 740, borderRadius: "50%", border: "34px solid transparent", background: `conic-gradient(from -60deg, ${KR_RED} 0deg 180deg, ${KR_BLUE} 180deg 360deg) border-box`, WebkitMask: "linear-gradient(#000 0 0) padding-box exclude, linear-gradient(#000 0 0)" }} />
+      )}
+      <div style={{ position: "absolute", left: v === "B" ? -150 : -100, top: v === "B" ? 30 : -20, width: 1000, height: 1000 }}>
+        <PeupeuStage width={1000} height={1000} pose={{ face: "prompt", blink: false, wave: 0.9, rotY: -0.18, rotZ: 0.04, scale: v === "B" ? 1.0 : 1.05 }} />
+      </div>
+      {v === "B" && (
+        <div style={{ position: "absolute", right: 70, top: 120, background: LIME, color: "#0A0B0D", fontFamily: "Pretendard", fontWeight: 900, fontSize: 120, padding: "14px 34px", borderRadius: 40, letterSpacing: -4 }}>
+          확인
+          <div style={{ position: "absolute", left: 40, bottom: -34, width: 0, height: 0, borderLeft: "26px solid transparent", borderRight: "26px solid transparent", borderTop: `40px solid ${LIME}` }} />
+        </div>
+      )}
+    </AbsoluteFill>
+  );
+};
