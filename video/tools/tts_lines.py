@@ -8,6 +8,8 @@ python3 video/tools/tts_lines.py <script.txt> <out_dir> [--voice V] [--rate R] [
 Writes <out_dir>/narration.mp3, narration.words.json, lines.json
 """
 import argparse
+import hashlib
+import shutil
 import json
 import subprocess
 import sys
@@ -42,11 +44,20 @@ def main():
     out = Path(a.out)
     out.mkdir(parents=True, exist_ok=True)
     words, parts, t0 = [], [], 0.0
+    cache = out / ".lines"  # finished clips are kept, so a rerun only redoes what failed
+    cache.mkdir(exist_ok=True)
     with tempfile.TemporaryDirectory() as td:
         tmp = Path(td)
         for i, line in enumerate(lines):
             name = f"l{i:03d}"
-            ws = speak(line, tmp, name, a.voice, a.rate)
+            key = hashlib.sha1(f"{a.voice}|{a.rate}|{line}".encode()).hexdigest()[:16]
+            if (cache / f"{key}.words.json").exists():
+                shutil.copy(cache / f"{key}.mp3", tmp / f"{name}.mp3")
+                ws = json.loads((cache / f"{key}.words.json").read_text())
+            else:
+                ws = speak(line, tmp, name, a.voice, a.rate)
+                shutil.copy(tmp / f"{name}.mp3", cache / f"{key}.mp3")
+                (cache / f"{key}.words.json").write_text(json.dumps(ws))
             spoken = [w for w in ws if any(c.isalnum() for c in w["text"])]
             end = spoken[-1]["end"] + a.gap
             wav = tmp / f"{name}.wav"

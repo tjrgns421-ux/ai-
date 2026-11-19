@@ -212,7 +212,7 @@ export const B: Beat[] = [
     <Source text={AP} />
     <Shot lf={lf} dur={dur} {...W15("ap-devices", 110)} y={140} marks={[{ x: 124, y: 72, w: 475, h: 34, at: at("even if") }]} />
     <Shot lf={lf} dur={dur} {...W15("ap-ban", 182)} y={380} d={at("metal detectors")} marks={[{ x: 1196, y: 0, w: 235, h: 34, at: at("metal detectors") + 4 }, { x: 0, y: 36, w: 406, h: 34, at: at("metal detectors") + 8 }]} />
-    <T y={720} size={58} style={rise(lf, at("act suspiciously"))}>Acting suspicious? <K>Metal detector.</K></T>
+    <T y={720} size={58} style={rise(lf, at("acted suspiciously"))}>Acting suspicious? <K>Metal detector.</K></T>
   </>) },
   { at: "The prime minister also asked the science", sfx: "pop", face: "prompt", r: ({ lf, dur, at }) => (<>
     <Source text={srcOf("khm-wifi")} />
