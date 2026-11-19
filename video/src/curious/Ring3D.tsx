@@ -16,7 +16,7 @@ const SPEEDUP = 2;
 const SIM = simulate(72, FPS / SPEEDUP, null);
 export const RING3D_FRAMES = SIM.length;
 
-const PALETTE = ["#FF6B5E", "#FFD23F", "#4FA3FF", "#5BD68A", "#FF9F43", "#B07CFF", "#7FE3FF", "#FF8FC7"];
+export const PALETTE = ["#FF6B5E", "#FFD23F", "#4FA3FF", "#5BD68A", "#FF9F43", "#B07CFF", "#7FE3FF", "#FF8FC7"];
 export const ang = (x: number) => (x / RING.L) * Math.PI * 2;
 export const pos = (x: number): THREE.Vector3 => new THREE.Vector3(R * Math.cos(ang(x)), 0, R * Math.sin(ang(x)));
 export const fwd = (x: number): THREE.Vector3 => new THREE.Vector3(-Math.sin(ang(x)), 0, Math.cos(ang(x)));
@@ -92,16 +92,19 @@ export const Track: React.FC = () => (
 
 // ---------- cars ----------
 export const Car: React.FC<{ f: SimFrame; i: number; calm?: boolean }> = ({ f, i, calm = false }) => {
-  const body = useMemo(() => new RoundedBoxGeometry(4.2, 1.1, 1.9, 4, 0.3), []);
-  const cabin = useMemo(() => new RoundedBoxGeometry(2.2, 0.8, 1.7, 4, 0.25), []);
   const x = f.x[i];
   const p = pos(x);
-  const braking = f.a[i] < -0.6;
-  const rotY = -ang(x) - Math.PI / 2;
+  return <CarMesh p={[p.x, 0, p.z]} rotY={-ang(x) - Math.PI / 2} braking={f.a[i] < -0.6} color={PALETTE[i % PALETTE.length]} calm={calm} />;
+};
+
+/** One car, local +x is forward. */
+export const CarMesh: React.FC<{ p: [number, number, number]; rotY: number; braking: boolean; color: string; calm?: boolean }> = ({ p, rotY, braking, color, calm = false }) => {
+  const body = useMemo(() => new RoundedBoxGeometry(4.2, 1.1, 1.9, 4, 0.3), []);
+  const cabin = useMemo(() => new RoundedBoxGeometry(2.2, 0.8, 1.7, 4, 0.25), []);
   return (
-    <group position={[p.x, 0, p.z]} rotation={[0, rotY, 0]}>
+    <group position={p} rotation={[0, rotY, 0]}>
       <mesh geometry={body} position={[0, 0.85, 0]} castShadow>
-        <meshPhysicalMaterial color={calm ? "#F7F7F5" : PALETTE[i % PALETTE.length]} roughness={0.35} clearcoat={0.8} />
+        <meshPhysicalMaterial color={calm ? "#F7F7F5" : color} roughness={0.35} clearcoat={0.8} />
       </mesh>
       <mesh geometry={cabin} position={[-0.2, 1.7, 0]} castShadow>
         <meshPhysicalMaterial color="#CFEFFF" roughness={0.1} clearcoat={1} />

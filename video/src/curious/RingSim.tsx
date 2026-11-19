@@ -16,8 +16,8 @@ const V = (h: number) => (VMAX / 2) * (Math.tanh((h - HC) / W) + Math.tanh(HC / 
 export type SimFrame = { x: number[]; v: number[]; a: number[] };
 
 /** Simulate `seconds` of traffic, sampled at `hz`. calmFrom = seconds when the calm car switches on (or null). */
-export const simulate = (seconds: number, hz: number, calmFrom: number | null): SimFrame[] => {
-  const { L, N } = RING;
+export const simulate = (seconds: number, hz: number, calmFrom: number | null, opt: { L?: number; N?: number; kickAt?: number; kickCar?: number; calm?: number } = {}): SimFrame[] => {
+  const L = opt.L ?? RING.L, N = opt.N ?? RING.N, kickAt = opt.kickAt ?? 5, kickCar = opt.kickCar ?? 0, calmCar = opt.calm ?? 5;
   const x = Array.from({ length: N }, (_, i) => (i * L) / N);
   const v = Array(N).fill(V(L / N));
   const out: SimFrame[] = [];
@@ -27,13 +27,13 @@ export const simulate = (seconds: number, hz: number, calmFrom: number | null): 
   for (let step = 0, t = 0; t < seconds; step++, t = step * DT) {
     const h = x.map((xi, i) => (((x[(i + 1) % N] - xi) % L) + L) % L);
     acc = h.map((hi, i) => A * (V(hi) - v[i]));
-    if (t >= 5 && t < 7) acc[0] = -1.5;
+    if (t >= kickAt && t < kickAt + 2) acc[kickCar] = -1.5;
     const mean = v.reduce((s, q) => s + q, 0) / N;
     buf.push(mean);
     if (buf.length > 40 / DT) buf.shift();
     if (calmFrom !== null && t >= calmFrom) {
       const avg = buf.reduce((s, q) => s + q, 0) / buf.length;
-      acc[5] = 0.4 * (Math.min(avg, V(h[5])) - v[5]);
+      acc[calmCar] = 0.4 * (Math.min(avg, V(h[calmCar])) - v[calmCar]);
     }
     if (step % every === 0) out.push({ x: [...x], v: [...v], a: [...acc] });
     for (let i = 0; i < N; i++) {
