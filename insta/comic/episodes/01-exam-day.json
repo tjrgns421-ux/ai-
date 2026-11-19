@@ -1,0 +1,251 @@
+{
+ "series": "Blip in Korea #1",
+ "slides": [
+  {
+   "type": "cover",
+   "kicker": "BLIP IN KOREA #1",
+   "title": "The exam that<br><em>stops planes.</em>",
+   "sub": "Korea's college entrance exam, Nov 19 2026.\nEverything Blip runs into is real.",
+   "face": "shock"
+  },
+  {
+   "scene": "sky",
+   "caption": "Thursday, 1:05 p.m.\nSomewhere over Korea.",
+   "props": [
+    {
+     "type": "plane",
+     "x": 520,
+     "y": 150,
+     "w": 340,
+     "rot": -4
+    },
+    {
+     "type": "zzz",
+     "x": 830,
+     "y": 120,
+     "text": "…",
+     "size": 90
+    }
+   ],
+   "blips": [
+    {
+     "face": "think",
+     "x": 40,
+     "y": 400,
+     "size": 520
+    }
+   ],
+   "bubbles": [
+    {
+     "text": "Why is the sky\nso… quiet?",
+     "x": 470,
+     "y": 520,
+     "w": 440,
+     "tail": "bl"
+    }
+   ],
+   "fact": {
+    "text": "All takeoffs and landings were suspended from 1:05 to 1:40 p.m., during the exam's English listening section.",
+    "src": "The Korea Herald / Yonhap, Nov 19 2026"
+   }
+  },
+  {
+   "scene": "hall",
+   "caption": "8:10 a.m. The exam room door.",
+   "props": [
+    {
+     "type": "door",
+     "x": 620,
+     "y": 300
+    }
+   ],
+   "blips": [
+    {
+     "face": "prompt",
+     "x": 20,
+     "y": 360,
+     "size": 500
+    }
+   ],
+   "bubbles": [
+    {
+     "who": "PROCTOR (off panel)",
+     "text": "Glasses, please.\nWe check every pair.",
+     "x": 430,
+     "y": 40,
+     "w": 500,
+     "style": "off",
+     "tail": "br"
+    },
+    {
+     "text": "My whole face\nis a screen.",
+     "x": 60,
+     "y": 150,
+     "w": 380,
+     "tail": "bl"
+    }
+   ],
+   "fact": {
+    "text": "Proctors checked every pair of glasses for hidden cameras. Only pencils were allowed in exam rooms.",
+    "src": "The Korea Herald / Yonhap, Nov 19 2026"
+   }
+  },
+  {
+   "scene": "hall",
+   "caption": "Rule #2:",
+   "props": [
+    {
+     "type": "stickers",
+     "front": true,
+     "at": [
+      [
+       340,
+       570
+      ],
+      [
+       480,
+       610
+      ],
+      [
+       610,
+       560
+      ],
+      [
+       450,
+       480
+      ]
+     ]
+    }
+   ],
+   "blips": [
+    {
+     "face": "meh",
+     "x": 210,
+     "y": 330,
+     "size": 560
+    }
+   ],
+   "bubbles": [
+    {
+     "text": "Stickers on\nevery button?\nI'm ALL buttons.",
+     "x": 520,
+     "y": 90,
+     "w": 430,
+     "tail": "bl"
+    }
+   ],
+   "fact": {
+    "text": "Test-takers were handed stickers to cover the buttons on their clothes, to block miniature cameras.",
+    "src": "The Korea Herald / Yonhap, Nov 19 2026"
+   }
+  },
+  {
+   "scene": "dark",
+   "caption": "Then, every phone at once.",
+   "props": [
+    {
+     "type": "phone",
+     "x": 560,
+     "y": 200,
+     "w": 250,
+     "rot": 10
+    },
+    {
+     "type": "lines",
+     "x": 700,
+     "y": 660,
+     "text": "BZZT",
+     "size": 64,
+     "rot": 12,
+     "color": "#d7ff3a"
+    }
+   ],
+   "blips": [
+    {
+     "face": "shock",
+     "x": 20,
+     "y": 380,
+     "size": 520
+    }
+   ],
+   "bubbles": [
+    {
+     "text": "EVEN ON\nSILENT?!",
+     "x": 70,
+     "y": 120,
+     "w": 360,
+     "style": "shout",
+     "tail": "bl"
+    }
+   ],
+   "fact": {
+    "text": "Two disaster alerts were sent to nearly every phone, loud even when muted, to find phones that had not been handed in.",
+    "src": "The Korea Herald / Yonhap, Nov 19 2026"
+   }
+  },
+  {
+   "scene": "money",
+   "caption": "And the reward for reporting a cheater…",
+   "props": [
+    {
+     "type": "sign",
+     "x": 300,
+     "y": 170,
+     "text": "UP TO $75,000",
+     "size": 76,
+     "rot": -5
+    }
+   ],
+   "blips": [
+    {
+     "face": "happy",
+     "x": 20,
+     "y": 390,
+     "size": 500
+    }
+   ],
+   "bubbles": [
+    {
+     "text": "Wait. It's not\nofficial yet?",
+     "x": 520,
+     "y": 470,
+     "w": 400,
+     "tail": "bl"
+    }
+   ],
+   "fact": {
+    "plan": true,
+    "text": "Up to 100 million won (about $75,000) per confirmed case, plus a 10-year exam ban. The reward still needs rules; the ban still needs a law.",
+    "src": "PM's office via Yonhap (Nov 18); The Korea Herald (Nov 17, 19)"
+   }
+  },
+  {
+   "type": "end",
+   "title": "What's real (Nov 19)",
+   "rows": [
+    {
+     "st": "real",
+     "text": "Planes paused 1:05–1:40 p.m. for the English listening section"
+    },
+    {
+     "st": "real",
+     "text": "Glasses checked, buttons stickered, only pencils"
+    },
+    {
+     "st": "real",
+     "text": "Two loud alerts to nearly every phone"
+    },
+    {
+     "st": "plan",
+     "text": "Up to ₩100M (~$75,000) reward: rules being written"
+    },
+    {
+     "st": "plan",
+     "text": "10-year exam ban: needs a new law"
+    }
+   ],
+   "sources": "Sources: The Korea Herald / Yonhap (Nov 17, 19), Yonhap Korean edition (Nov 18). Comic scenes are illustrations; facts are in the strips below each panel.",
+   "cta": "Full story with every source: <b>Blip Check</b> on YouTube"
+  }
+ ]
+}
