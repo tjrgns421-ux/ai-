@@ -29,6 +29,7 @@ import { Sn02Full, SN02_DURATION } from "./sn02/Sn02";
 import { Sn02Short, SN02S_DURATION } from "./sn02/Sn02Short";
 import { CmShort1, CMS1_FRAMES } from "./curious/CmShort1";
 import { Sn02Cover, Sn02Thumb } from "./sn02/Thumb";
+import { Sn03Full, SN03_DURATION } from "./sn03/Sn03";
 import { Bc01Short, BC01S_DURATION } from "./bc01/Short";
 import { MascotSheet } from "./mascot/Mascots";
 import { PromptMascot } from "./mascot/Prompt";
@@ -57,6 +58,9 @@ export const RemotionRoot: React.FC = () => {
           height={1920}
           defaultProps={{ concept: "cursor" as const, mood: "happy" as const }}
         />
+      </Folder>
+      <Folder name="Sn03">
+        <Composition id="Sn03Full" component={Sn03Full} durationInFrames={SN03_DURATION} fps={30} width={1920} height={1080} />
       </Folder>
       <Folder name="Sn02">
         <Composition id="Sn02Thumb" component={Sn02Thumb} durationInFrames={1} fps={30} width={1280} height={720} defaultProps={{ v: "B" as const }} />
