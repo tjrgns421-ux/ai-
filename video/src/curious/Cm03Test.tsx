@@ -2,8 +2,10 @@ import React from "react";
 import { AbsoluteFill, useCurrentFrame } from "remotion";
 import * as THREE from "three";
 import { Dodecahedron, Icosahedron, Stage3 } from "./Dodeca3D";
+import { DodecaMap } from "./DodecaMap";
 export const Cm03Test: React.FC = () => {
   const f = useCurrentFrame();
+  if (f >= 40) return <AbsoluteFill><DodecaMap step={f < 140 ? "countries" : f < 240 ? "italy" : f < 340 ? "places" : "edges"} /></AbsoluteFill>;
   const k = Math.floor(f / 10);
   const pos = [new THREE.Vector3(0, 0.6, 6), new THREE.Vector3(2.5, 1.2, 3.2), new THREE.Vector3(0, 0.4, 6), new THREE.Vector3(-1, 3, 4)][k];
   return (

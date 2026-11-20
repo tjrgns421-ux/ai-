@@ -66,7 +66,7 @@ export const RemotionRoot: React.FC = () => {
       <Folder name="Sn02">
         <Composition id="Sn02Thumb" component={Sn02Thumb} durationInFrames={1} fps={30} width={1280} height={720} defaultProps={{ v: "B" as const }} />
         <Composition id="Sn02Cover" component={Sn02Cover} durationInFrames={1} fps={30} width={1080} height={1920} />
-        <Composition id="Cm03Test" component={Cm03Test} durationInFrames={40} fps={30} width={1920} height={1080} />
+        <Composition id="Cm03Test" component={Cm03Test} durationInFrames={440} fps={30} width={1920} height={1080} />
         <Composition id="CmShort2" component={CmShort2} durationInFrames={CMS2_FRAMES} fps={30} width={1080} height={1920} />
         <Composition id="CmEp02Thumb" component={CmEp02Thumb} durationInFrames={1} fps={30} width={1280} height={720} />
         <Composition id="Cm02Full" component={Cm02Full} durationInFrames={CM02_FRAMES} fps={30} width={1920} height={1080} />
