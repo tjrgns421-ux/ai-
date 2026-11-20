@@ -30,6 +30,7 @@ import { Sn02Short, SN02S_DURATION } from "./sn02/Sn02Short";
 import { CmShort1, CMS1_FRAMES } from "./curious/CmShort1";
 import { Cm02Test } from "./curious/Cm02Test";
 import { Cm02Full, CM02_FRAMES } from "./curious/Cm02";
+import { CmEp02Thumb } from "./curious/Ep02Thumb";
 import { Sn02Cover, Sn02Thumb } from "./sn02/Thumb";
 import { Bc01Short, BC01S_DURATION } from "./bc01/Short";
 import { MascotSheet } from "./mascot/Mascots";
@@ -63,6 +64,7 @@ export const RemotionRoot: React.FC = () => {
       <Folder name="Sn02">
         <Composition id="Sn02Thumb" component={Sn02Thumb} durationInFrames={1} fps={30} width={1280} height={720} defaultProps={{ v: "B" as const }} />
         <Composition id="Sn02Cover" component={Sn02Cover} durationInFrames={1} fps={30} width={1080} height={1920} />
+        <Composition id="CmEp02Thumb" component={CmEp02Thumb} durationInFrames={1} fps={30} width={1280} height={720} />
         <Composition id="Cm02Full" component={Cm02Full} durationInFrames={CM02_FRAMES} fps={30} width={1920} height={1080} />
         <Composition id="Cm02Test" component={Cm02Test} durationInFrames={40} fps={30} width={1920} height={1080} />
         <Composition id="CmShort1" component={CmShort1} durationInFrames={CMS1_FRAMES} fps={30} width={1080} height={1920} />
