@@ -88,7 +88,7 @@ export const B: Beat[] = [
   </>) },
   { at: "And according to a later Asia Economy", sfx: "stamp", face: "shock", r: ({ lf, dur, at }) => (<>
     <Source text={srcOf("asiae-names")} />
-    <Crop name="asiae-names" lf={lf} y0={8} y1={86} y={200} width={1640} marks={[["'Sora' and 'Gahee'", at("Sora")], ["forced name changes", at("change them")]]} />
+    <Crop name="asiae-names" lf={lf} y0={11} y1={86} y={200} width={1640} marks={[["'Sora' and 'Gahee'", at("Sora")], ["forced name changes", at("change them")]]} />
     <T y={420} size={140} center style={pop(lf, at("Sora"), 0.6)}>Sora. <K>Gahee.</K></T>
     <Stamp lf={lf} d={at("change them")} text="NAME CHANGE" x={640} y={640} rot={-5} size={90} color={RED} />
   </>) },
