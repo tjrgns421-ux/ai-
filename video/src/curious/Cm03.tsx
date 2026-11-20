@@ -305,7 +305,7 @@ const Theories: React.FC<{ n: number }> = ({ n }) => {
   return (
     <div style={{ position: "absolute", left: 120, top: 160, width: 900 }}>
       {list.slice(0, n).map((t, i) => (
-        <div key={t} style={{ opacity: interpolate(lf, [i * 6, i * 6 + 8], [0, 1], cl), fontFamily: "Pretendard", fontWeight: 900, fontSize: 46, color: INK, background: "#FFFFFF", border: `4px solid ${INK}`, borderRadius: 16, padding: "10px 24px", marginBottom: 16, display: "inline-block", marginRight: 900 }}>
+        <div key={t} style={{ opacity: interpolate(lf, [i * 6, i * 6 + 8], [0, 1], cl), fontFamily: "Pretendard", fontWeight: 900, fontSize: 46, color: INK, background: "#FFFFFF", border: `4px solid ${INK}`, borderRadius: 16, padding: "10px 24px", marginBottom: 16, display: "table" }}>
           {i + 1}. {t}
         </div>
       ))}
@@ -325,7 +325,7 @@ const Recap: React.FC = () => {
     <div style={{ position: "absolute", left: 120, top: 150, width: 1000 }}>
       {items.map(([i, t]) => {
         const d = (S(i) - t0) * FPS;
-        return <div key={i} style={{ opacity: interpolate(lf, [d, d + 8], [0, 1], cl), transform: `translateX(${interpolate(lf, [d, d + 10], [-30, 0], { ...cl, easing: out })}px)`, fontFamily: "Pretendard", fontWeight: 900, fontSize: 44, color: INK, background: "#FFFFFF", border: `4px solid ${INK}`, borderRadius: 16, padding: "10px 24px", marginBottom: 18, display: "inline-block", marginRight: 900 }}>{t}</div>;
+        return <div key={i} style={{ opacity: interpolate(lf, [d, d + 8], [0, 1], cl), transform: `translateX(${interpolate(lf, [d, d + 10], [-30, 0], { ...cl, easing: out })}px)`, fontFamily: "Pretendard", fontWeight: 900, fontSize: 44, color: INK, background: "#FFFFFF", border: `4px solid ${INK}`, borderRadius: 16, padding: "10px 24px", marginBottom: 18, display: "table" }}>{t}</div>;
       })}
     </div>
   );
