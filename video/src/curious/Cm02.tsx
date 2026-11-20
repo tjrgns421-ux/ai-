@@ -230,17 +230,17 @@ const Countdown: React.FC = () => {
 const Noodle: React.FC<{ stretch?: [number, number] }> = ({ stretch = [0, 1] }) => {
   const lf = useCurrentFrame();
   const k = interpolate(lf, [20, 150], stretch, { ...cl, easing: ease });
-  const sy = 1 + k * 3.2, sx = 1 - k * 0.6;
+  const sy = 1 + k * 0.95, sx = 1 - k * 0.42;
   return (
     <AbsoluteFill style={{ background: "radial-gradient(70% 80% at 50% 110%, #3A1C08 0%, #05060C 60%)" }}>
       <div style={{ position: "absolute", left: 0, right: 0, bottom: -380, margin: "0 auto", width: 900, height: 600, borderRadius: "50%", background: "#000", boxShadow: "0 -10px 120px 40px rgba(255,140,40,0.55)" }} />
-      <Img src={staticFile("sprout/shock.png")} style={{ position: "absolute", left: 960 - 160, top: 300 - (sy - 1) * 120, width: 320, height: 320, transform: `scale(${sx}, ${sy})`, transformOrigin: "50% 30%" }} />
+      <Img src={staticFile("sprout/shock.png")} style={{ position: "absolute", left: 960 - 160, top: 440, width: 320, height: 320, transform: `scale(${sx}, ${sy})`, transformOrigin: "50% 50%" }} />
       <svg width={1920} height={1080} style={{ position: "absolute", left: 0, top: 0 }}>
         <defs><marker id="ah" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill={ORG} /></marker></defs>
-        <line x1={1240} y1={330} x2={1240} y2={390} stroke={ORG} strokeWidth={10} markerEnd="url(#ah)" />
-        <text x={1280} y={370} fontFamily="Pretendard" fontWeight={900} fontSize={40} fill="#FFFFFF">head: pulled less</text>
-        <line x1={1240} y1={620} x2={1240} y2={820} stroke={ORG} strokeWidth={16} markerEnd="url(#ah)" />
-        <text x={1280} y={740} fontFamily="Pretendard" fontWeight={900} fontSize={40} fill="#FFFFFF">feet: pulled more</text>
+        <line x1={1240} y1={380} x2={1240} y2={440} stroke={ORG} strokeWidth={10} markerEnd="url(#ah)" />
+        <text x={1280} y={425} fontFamily="Pretendard" fontWeight={900} fontSize={40} fill="#FFFFFF">head: pulled less</text>
+        <line x1={1240} y1={700} x2={1240} y2={880} stroke={ORG} strokeWidth={16} markerEnd="url(#ah)" />
+        <text x={1280} y={810} fontFamily="Pretendard" fontWeight={900} fontSize={40} fill="#FFFFFF">feet: pulled more</text>
         <text x={960} y={1000} textAnchor="middle" fontFamily="Pretendard" fontWeight={800} fontSize={30} fill="#FFFFFF" opacity={0.7}>toward the black hole ↓</text>
       </svg>
       <Badge text="ILLUSTRATION" />
