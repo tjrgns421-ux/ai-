@@ -52,10 +52,12 @@ def score(text, short=False):
     # 1. HOOK: hookscore.py on the opening line(s), until ~15 words (a spoken hook is 9-24 words)
     first, n = [], 0
     for s in ss:
-        if n >= 15:
+        if first and (n >= 15 and n + nwords(s) > 24):
             break
         first.append(s)
         n += nwords(s)
+        if n > 24:
+            break
     hook_text = " ".join(first)
     hook = hookscore.score(hook_text)[1]
     if WEAK_OPEN.search(ss[0] if ss else ""):
