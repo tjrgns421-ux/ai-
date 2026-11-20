@@ -13,6 +13,9 @@ Why this channel: the niche scan (`research/2026-11-19-findings.md`) put science
 | look | bright sky-blue thumbnails with black-outlined white/yellow words (Blip uses dark + lime, so the channels never look alike) |
 | rules | same as Blip: every claim sourced and shown on screen; "what if" = labeled estimates, never stated as fact |
 | structure | promise first (Blip sn02 lesson): the thing the title/thumbnail promises lands in the first 30 s |
+| ending | from ep03 on: **no next-episode teaser** at the end (user decision 2026-11-20); no bridging line about earlier teasers |
+| editing | cut every 4–6 s (vary angles: thirds, top, low, close), Sprout floating in 3D scenes, source cards fold away after ~3.5 s; add every useful visual (photos, maps) (user, 2026-11-20) |
+| scores | hook ≥72 (yt-script hookscore), title+thumbnail checked with yt-package before production |
 
 ## First five episodes
 | # | title | thumbnail | yt-package score | core sources (to read in full before scripting) |
