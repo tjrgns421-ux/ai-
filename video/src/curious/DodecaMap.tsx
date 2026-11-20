@@ -3,7 +3,7 @@ import { interpolate, useCurrentFrame, Easing } from "remotion";
 import { feature } from "topojson-client";
 import { geoConicConformal, geoPath } from "d3-geo";
 import type { FeatureCollection, Geometry } from "geojson";
-import world from "world-atlas/countries-50m.json";
+import world from "world-atlas/countries-110m.json";
 
 // Where Roman dodecahedra have been found (countries from Wikipedia's list; Italy has none).
 // Dots = places of the museum photos used in the video (approximate city positions), not every find spot.

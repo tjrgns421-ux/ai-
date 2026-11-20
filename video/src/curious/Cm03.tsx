@@ -117,7 +117,7 @@ const Photo: React.FC<{ src: string; fit?: "cover" | "contain"; zoom?: [number, 
   const lf = useCurrentFrame();
   return (
     <AbsoluteFill style={{ background: "#14110E" }}>
-      {fit === "contain" && <Img src={staticFile(`cm03/img/${src}.jpg`)} style={{ position: "absolute", inset: -40, width: "calc(100% + 80px)", height: "calc(100% + 80px)", objectFit: "cover", filter: "blur(30px) brightness(0.45)" }} />}
+      {fit === "contain" && <Img src={staticFile(`cm03/img/${src}-bg.jpg`)} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} />}
       <Img src={staticFile(`cm03/img/${src}.jpg`)} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: fit, transform: `scale(${interpolate(lf, [0, 240], zoom, cl)})`, transformOrigin: origin }} />
       <div style={{ position: "absolute", left: 60, bottom: 130, fontFamily: "Pretendard", fontWeight: 800, fontSize: 24, color: "#FFFFFF", background: "rgba(0,0,0,0.6)", padding: "6px 14px", borderRadius: 8 }}>Photo: {PHOTO[src]}</div>
       <Badge text="REAL OBJECT" color="#9FE3B0" />
