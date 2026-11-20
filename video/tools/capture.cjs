@@ -8,6 +8,7 @@
 // Writes <outDir>/<name>.png at 2x and <outDir>/captures.json with sizes and mark boxes (image px).
 const { chromium } = require("playwright");
 const fs = require("fs");
+const { execFileSync } = require("child_process");
 const path = require("path");
 
 (async () => {
@@ -84,15 +85,12 @@ const path = require("path");
       const left = Math.min(...rects.map((r) => r.left));
       const right = Math.max(...rects.map((r) => r.right));
       const pad = 6;
-      const clip = { x: Math.max(0, left - pad), y: top - pad, width: right - left + pad * 2, height: bottom - top + pad + 2 };
-      // white out whatever follows the end text on its last line
-      const last = rects[rects.length - 1];
-      if (last.right < right - 1) {
-        const d = document.createElement("div");
-        d.className = "cap-redact";
-        Object.assign(d.style, { position: "absolute", left: last.right + 1 + scrollX + "px", top: last.top - 2 + scrollY + "px", width: right + pad - last.right + "px", height: last.height + 6 + "px", background: "#fff", zIndex: 99999 });
-        document.body.appendChild(d);
-      }
+      const clip = { x: Math.max(0, left - pad), y: top - 2, width: right - left + pad * 2, height: bottom - top + 4 };
+      // blank out text before the start (first line) and after the end (last line); painted onto the PNG later
+      const blanks = [];
+      const first = rects[0], last = rects[rects.length - 1];
+      if (first.left > left + 1) blanks.push({ x: 0, y: 0, w: first.left - clip.x, h: first.bottom - clip.y + 1 });
+      if (last.right < right - 1) blanks.push({ x: last.right - clip.x + 1, y: last.top - clip.y - 1, w: clip.width, h: clip.height });
       const boxesOf = (phrase) => {
         const m = findIdx(phrase, a[0]);
         if (!m || m[0] > endAt) return null;
@@ -114,7 +112,7 @@ const path = require("path");
         if (!bx) return { error: "mark phrase not found: " + p };
         out[p] = bx;
       }
-      return { clip, doc: { x: clip.x + scrollX, y: clip.y + scrollY, width: clip.width, height: clip.height }, marks: out, text: norm(target.toString()).slice(0, 400) };
+      return { blanks, clip, doc: { x: clip.x + scrollX, y: clip.y + scrollY, width: clip.width, height: clip.height }, marks: out, text: norm(target.toString()).slice(0, 400) };
     }, s);
     if (res.error) {
       console.error(`${s.name}: ${res.error}`);
@@ -122,7 +120,16 @@ const path = require("path");
       continue;
     }
     const file = path.join(outDir, `${s.name}.png`);
-    try { await page.screenshot({ path: file, clip: res.clip }); } catch (e) { console.log(`SKIP ${s.name}: screenshot failed`); continue; }
+    try { await page.screenshot({ path: file, clip: res.clip }); } catch (e) {
+      // the page did not scroll (e.g. its own scroll container): capture from the full page in document coordinates
+      try { await page.screenshot({ path: file, clip: res.doc, fullPage: true }); } catch (e2) { console.log(`SKIP ${s.name}: screenshot failed: ${String(e2.message).split("\n")[0]}`); continue; }
+    }
+    if (res.blanks.length) {
+      const box = res.blanks.map((b) => `drawbox=x=${Math.round(b.x * 2)}:y=${Math.round(b.y * 2)}:w=${Math.ceil(b.w * 2)}:h=${Math.ceil(b.h * 2)}:color=white:t=fill`).join(",");
+      const tmp = file.replace(/\.png$/, ".tmp.png");
+      execFileSync("ffmpeg", ["-v", "error", "-y", "-i", file, "-vf", box, tmp]);
+      fs.renameSync(tmp, file);
+    }
     const k = 2;
     const sc = (b) => ({ x: Math.round(b.x * k), y: Math.round(b.y * k), w: Math.round(b.w * k), h: Math.round(b.h * k) });
     manifest[s.name] = {
