@@ -1,0 +1,249 @@
+[
+ {
+  "name": "dnk-fulltext",
+  "url": "https://www.dailynk.com/english/daily-nk-obtains-full-text-pyongyang-cultural-language-protection-act/",
+  "source": "Daily NK",
+  "find": "The full text of the Pyongyang Cultural Language Protection Act obtained by Daily NK",
+  "until": "five chapters and 65 articles.",
+  "marks": [
+   "January 18, 2023",
+   "five chapters and 65 articles"
+  ]
+ },
+ {
+  "name": "dnk-art58",
+  "url": "https://www.dailynk.com/english/daily-nk-obtains-full-text-pyongyang-cultural-language-protection-act/",
+  "source": "Daily NK",
+  "find": "Article 58 of the law (The Crime of Using the Puppet Language)",
+  "until": "six years or more of reform through labor",
+  "marks": [
+   "six years or more of reform through labor"
+  ]
+ },
+ {
+  "name": "asiae-art59",
+  "url": "https://www.asiae.co.kr/en/article/2023030508595613206",
+  "source": "Asia Economy",
+  "find": "Article 59 states",
+  "until": "life labor reform or death penalty.",
+  "marks": [
+   "more than ten years of labor reform",
+   "life labor reform or death penalty"
+  ]
+ },
+ {
+  "name": "asiae-what",
+  "url": "https://www.asiae.co.kr/en/article/2023011913430754564",
+  "source": "Asia Economy",
+  "find": "is a law that prohibits North Korean residents",
+  "until": "South Korean dramas or movies",
+  "marks": [
+   "South Korean-style speech",
+   "South Korean dramas or movies"
+  ]
+ },
+ {
+  "name": "asiae-nis",
+  "url": "https://www.asiae.co.kr/en/article/2023011913430754564",
+  "source": "Asia Economy",
+  "find": "According to the National Intelligence Service",
+  "until": "this law formalizes those measures.",
+  "marks": [
+   "secretly consuming Hallyu content",
+   "calling husbands 'oppa'",
+   "boyfriends 'jagiya'"
+  ]
+ },
+ {
+  "name": "asiae-names",
+  "url": "https://www.asiae.co.kr/en/article/2023040209385643607",
+  "source": "Asia Economy",
+  "find": "For example, calling a lover",
+  "until": "with forced name changes imposed.",
+  "marks": [
+   "'Sora' and 'Gahee'",
+   "forced name changes"
+  ]
+ },
+ {
+  "name": "ency-munhwaeo",
+  "url": "https://encykorea.aks.ac.kr/Article/E0066411",
+  "source": "Encyclopedia of Korean Culture (AKS)",
+  "find": "1966년 김일성 담화",
+  "until": "확립하는 데 있다.",
+  "marks": [
+   "1966년 김일성 담화",
+   "서울말을 바탕으로 하는 남한의 표준어",
+   "독립된 공용어"
+  ]
+ },
+ {
+  "name": "ency-pyongyang",
+  "url": "https://encykorea.aks.ac.kr/Article/E0066411",
+  "source": "Encyclopedia of Korean Culture (AKS)",
+  "find": "문화어는 평양말을 중심으로 한",
+  "until": "북한의 공용어이다.",
+  "marks": [
+   "평양말을 중심으로",
+   "노동"
+  ]
+ },
+ {
+  "name": "ency-maldadeumgi",
+  "url": "https://encykorea.aks.ac.kr/Article/E0066411",
+  "source": "Encyclopedia of Korean Culture (AKS)",
+  "find": "‘말다듬기’는 어휘 정리 사업으로",
+  "until": "순화 운동이다.",
+  "marks": [
+   "외래어와 한자어를 고유어로"
+  ]
+ },
+ {
+  "name": "ll-ramsey",
+  "url": "https://languagelog.ldc.upenn.edu/nll/?p=58561",
+  "source": "Language Log (guest post by S. Robert Ramsey)",
+  "find": "What authorities in Pyongyang do not recognize",
+  "until": "capital of the Joseon Period",
+  "marks": [
+   "based upon the earlier, traditional dialect of Seoul"
+  ]
+ },
+ {
+  "name": "nikl-1988-table",
+  "url": "https://www.korean.go.kr/nkview/nklife/1988_4/15_4.html",
+  "source": "새국어생활 1988 (국어연구소)",
+  "find": "◆ 다듬은 말 정리(외래어)",
+  "until": "손기척",
+  "marks": [
+   "icecream",
+   "얼음보숭이",
+   "caramel",
+   "기름사탕",
+   "knock",
+   "손기척"
+  ]
+ },
+ {
+  "name": "dnk-loanwords",
+  "url": "https://www.dailynk.com/english/lost-in-translation-the-linguistic-challenges-facing-n-korean-defectors/",
+  "source": "Daily NK",
+  "find": "Unlike North Korea, South Korean society extensively uses loanwords",
+  "until": "encountering them for the first time.",
+  "marks": [
+   "ubiquitous in the South",
+   "virtually unknown in the North"
+  ]
+ },
+ {
+  "name": "jad-hanawon",
+  "url": "https://www.koreajoongangdaily.com/lifestyle/defectors-learn-the-souths-ways/10513101",
+  "source": "Korea JoongAng Daily (2005)",
+  "find": "Hanawon is run by the Unification Ministry.",
+  "until": "adjust to a new life in the capitalist South.",
+  "marks": [
+   "three months of intensive training"
+  ]
+ },
+ {
+  "name": "jad-lessons",
+  "url": "https://www.koreajoongangdaily.com/lifestyle/defectors-learn-the-souths-ways/10513101",
+  "source": "Korea JoongAng Daily (2005)",
+  "find": "The program includes language lessons",
+  "until": "foreign words that South Koreans use",
+  "marks": [
+   "language lessons on the pronunciation and foreign words"
+  ]
+ },
+ {
+  "name": "mcst-study",
+  "url": "https://www.mcst.go.kr/site/s_notice/press/pressView.jsp?pSeq=8522",
+  "source": "Ministry of Culture press release (2007)",
+  "find": "국립국어원(원장 이상규)에서는",
+  "until": "살펴보았다.",
+  "marks": [
+   "새터민 언어실태 조사 연구",
+   "새터민 100명"
+  ]
+ },
+ {
+  "name": "mcst-3years",
+  "url": "https://www.mcst.go.kr/site/s_notice/press/pressView.jsp?pSeq=8522",
+  "source": "Ministry of Culture press release (2007)",
+  "find": "질문에 대해서는 12개월이 30%",
+  "until": "생각하고 있었다.",
+  "marks": [
+   "36개월 이상이라고 답한 사람이 32%"
+  ]
+ },
+ {
+  "name": "mcst-loan80",
+  "url": "https://www.mcst.go.kr/site/s_notice/press/pressView.jsp?pSeq=8522",
+  "source": "Ministry of Culture press release (2007)",
+  "find": "702개의 조사 어휘 중",
+  "until": "80%에 달한다.",
+  "marks": [
+   "외래어가 전체의 80%"
+  ]
+ },
+ {
+  "name": "mcst-inconv",
+  "url": "https://www.mcst.go.kr/site/s_notice/press/pressView.jsp?pSeq=8522",
+  "source": "Ministry of Culture press release (2007)",
+  "find": "‘보통이다’가 36%",
+  "until": "‘매우 많이 느낀다’ 3%",
+  "marks": [
+   "‘별로 못 느낀다’ 28%",
+   "‘전혀 못 느낀다’가 15%",
+   "‘많이 느낀다’ 18%",
+   "‘매우 많이 느낀다’ 3%"
+  ]
+ },
+ {
+  "name": "mcst-69",
+  "url": "https://www.mcst.go.kr/site/s_notice/press/pressView.jsp?pSeq=8522",
+  "source": "Ministry of Culture press release (2007)",
+  "find": "또 “남한사람처럼 말하도록 노력하겠느냐”",
+  "until": "높지 않았다.",
+  "marks": [
+   "‘별로 그렇지 않다’ 26%",
+   "‘그렇지 않다’ 43%"
+  ]
+ },
+ {
+  "name": "idea-2020",
+  "url": "https://www.idea.int/democracytracker/report/democratic-peoples-republic-korea/january-2023",
+  "source": "International IDEA",
+  "find": "In 2020, a similar law was enacted",
+  "until": "among other things.",
+  "marks": [
+   "death penalty for those distributing K-dramas"
+  ]
+ },
+ {
+  "name": "tf-whitepaper",
+  "url": "https://news.tf.co.kr/read/ptoday/2323510.htm",
+  "source": "The Fact",
+  "find": "정소영 기자] 통일부는 지난 한 해",
+  "until": "18일 발간했다.",
+  "marks": [
+   "‘2026 통일백서’"
+  ]
+ },
+ {
+  "name": "tf-dictionary",
+  "url": "https://news.tf.co.kr/read/ptoday/2323510.htm",
+  "source": "The Fact",
+  "find": "남북 사회문화교류 분야에는",
+  "until": "등이 투입됐다.",
+  "marks": [
+   "겨레말큰사전 남북 공동편찬사업에 24억 8600만 원"
+  ]
+ },
+ {
+  "name": "rodong-photo",
+  "url": "https://commons.wikimedia.org/wiki/File:Passenger_read_Rodong_Sinmun_in_Puhung_Station.jpg",
+  "figure": "Passenger read Rodong Sinmun",
+  "source": "Wikimedia Commons",
+  "credit": "魯班, CC BY-SA 4.0"
+ }
+]

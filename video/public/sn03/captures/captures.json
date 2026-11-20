@@ -1,0 +1,560 @@
+{
+ "dnk-fulltext": {
+  "w": 1437,
+  "h": 150,
+  "source": "Daily NK",
+  "marks": {
+   "January 18, 2023": [
+    {
+     "x": 743,
+     "y": 60,
+     "w": 233,
+     "h": 38
+    }
+   ],
+   "five chapters and 65 articles": [
+    {
+     "x": 1304,
+     "y": 60,
+     "w": 53,
+     "h": 38
+    },
+    {
+     "x": 12,
+     "y": 108,
+     "w": 320,
+     "h": 38
+    }
+   ]
+  }
+ },
+ "dnk-art58": {
+  "w": 1425,
+  "h": 198,
+  "source": "Daily NK",
+  "marks": {
+   "six years or more of reform through labor": [
+    {
+     "x": 482,
+     "y": 156,
+     "w": 564,
+     "h": 38
+    }
+   ]
+  }
+ },
+ "asiae-art59": {
+  "w": 1494,
+  "h": 158,
+  "source": "Asia Economy",
+  "marks": {
+   "more than ten years of labor reform": [
+    {
+     "x": 12,
+     "y": 84,
+     "w": 455,
+     "h": 34
+    }
+   ],
+   "life labor reform or death penalty": [
+    {
+     "x": 1410,
+     "y": 84,
+     "w": 43,
+     "h": 34
+    },
+    {
+     "x": 12,
+     "y": 120,
+     "w": 373,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "asiae-what": {
+  "w": 1495,
+  "h": 122,
+  "source": "Asia Economy",
+  "marks": {
+   "South Korean-style speech": [
+    {
+     "x": 466,
+     "y": 48,
+     "w": 343,
+     "h": 34
+    }
+   ],
+   "South Korean dramas or movies": [
+    {
+     "x": 1295,
+     "y": 48,
+     "w": 177,
+     "h": 34
+    },
+    {
+     "x": 12,
+     "y": 84,
+     "w": 228,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "asiae-nis": {
+  "w": 1500,
+  "h": 194,
+  "source": "Asia Economy",
+  "marks": {
+   "secretly consuming Hallyu content": [
+    {
+     "x": 724,
+     "y": 48,
+     "w": 445,
+     "h": 34
+    }
+   ],
+   "calling husbands 'oppa'": [
+    {
+     "x": 729,
+     "y": 120,
+     "w": 296,
+     "h": 34
+    }
+   ],
+   "boyfriends 'jagiya'": [
+    {
+     "x": 1095,
+     "y": 120,
+     "w": 235,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "asiae-names": {
+  "w": 1469,
+  "h": 86,
+  "source": "Asia Economy",
+  "marks": {
+   "'Sora' and 'Gahee'": [
+    {
+     "x": 1163,
+     "y": 12,
+     "w": 226,
+     "h": 34
+    }
+   ],
+   "forced name changes": [
+    {
+     "x": 638,
+     "y": 48,
+     "w": 270,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "ency-munhwaeo": {
+  "w": 1291,
+  "h": 103,
+  "source": "Encyclopedia of Korean Culture (AKS)",
+  "marks": {
+   "1966년 김일성 담화": [
+    {
+     "x": 12,
+     "y": 12,
+     "w": 235,
+     "h": 36
+    }
+   ],
+   "서울말을 바탕으로 하는 남한의 표준어": [
+    {
+     "x": 122,
+     "y": 63,
+     "w": 439,
+     "h": 36
+    }
+   ],
+   "독립된 공용어": [
+    {
+     "x": 645,
+     "y": 63,
+     "w": 161,
+     "h": 36
+    }
+   ]
+  }
+ },
+ "ency-pyongyang": {
+  "w": 1169,
+  "h": 52,
+  "source": "Encyclopedia of Korean Culture (AKS)",
+  "marks": {
+   "평양말을 중심으로": [
+    {
+     "x": 122,
+     "y": 12,
+     "w": 212,
+     "h": 36
+    }
+   ],
+   "노동": [
+    {
+     "x": 374,
+     "y": 12,
+     "w": 51,
+     "h": 36
+    }
+   ]
+  }
+ },
+ "ency-maldadeumgi": {
+  "w": 1361,
+  "h": 103,
+  "source": "Encyclopedia of Korean Culture (AKS)",
+  "marks": {
+   "외래어와 한자어를 고유어로": [
+    {
+     "x": 943,
+     "y": 12,
+     "w": 322,
+     "h": 36
+    }
+   ]
+  }
+ },
+ "ll-ramsey": {
+  "w": 1051,
+  "h": 156,
+  "source": "Language Log (guest post by S. Robert Ramsey)",
+  "marks": {
+   "based upon the earlier, traditional dialect of Seoul": [
+    {
+     "x": 413,
+     "y": 87,
+     "w": 546,
+     "h": 28
+    }
+   ]
+  }
+ },
+ "nikl-1988-table": {
+  "w": 720,
+  "h": 2834,
+  "source": "새국어생활 1988 (국어연구소)",
+  "marks": {
+   "icecream": [
+    {
+     "x": 24,
+     "y": 2294,
+     "w": 115,
+     "h": 34
+    }
+   ],
+   "얼음보숭이": [
+    {
+     "x": 467,
+     "y": 2444,
+     "w": 160,
+     "h": 34
+    }
+   ],
+   "caramel": [
+    {
+     "x": 24,
+     "y": 1214,
+     "w": 101,
+     "h": 34
+    }
+   ],
+   "기름사탕": [
+    {
+     "x": 467,
+     "y": 1184,
+     "w": 128,
+     "h": 34
+    }
+   ],
+   "knock": [
+    {
+     "x": 24,
+     "y": 2510,
+     "w": 78,
+     "h": 34
+    }
+   ],
+   "손기척": [
+    {
+     "x": 467,
+     "y": 2696,
+     "w": 96,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "dnk-loanwords": {
+  "w": 1409,
+  "h": 150,
+  "source": "Daily NK",
+  "marks": {
+   "ubiquitous in the South": [
+    {
+     "x": 1028,
+     "y": 60,
+     "w": 316,
+     "h": 38
+    }
+   ],
+   "virtually unknown in the North": [
+    {
+     "x": 12,
+     "y": 108,
+     "w": 423,
+     "h": 38
+    }
+   ]
+  }
+ },
+ "jad-hanawon": {
+  "w": 1284,
+  "h": 395,
+  "source": "Korea JoongAng Daily (2005)",
+  "marks": {
+   "three months of intensive training": [
+    {
+     "x": 546,
+     "y": 114,
+     "w": 725,
+     "h": 74
+    },
+    {
+     "x": 12,
+     "y": 215,
+     "w": 231,
+     "h": 74
+    }
+   ]
+  }
+ },
+ "jad-lessons": {
+  "w": 1235,
+  "h": 293,
+  "source": "Korea JoongAng Daily (2005)",
+  "marks": {
+   "language lessons on the pronunciation and foreign words": [
+    {
+     "x": 12,
+     "y": 114,
+     "w": 1210,
+     "h": 74
+    },
+    {
+     "x": 12,
+     "y": 215,
+     "w": 392,
+     "h": 74
+    }
+   ]
+  }
+ },
+ "mcst-3years": {
+  "w": 1454,
+  "h": 158,
+  "source": "Ministry of Culture press release (2007)",
+  "marks": {
+   "36개월 이상이라고 답한 사람이 32%": [
+    {
+     "x": 80,
+     "y": 63,
+     "w": 500,
+     "h": 40
+    }
+   ]
+  }
+ },
+ "mcst-loan80": {
+  "w": 1369,
+  "h": 107,
+  "source": "Ministry of Culture press release (2007)",
+  "marks": {
+   "외래어가 전체의 80%": [
+    {
+     "x": 12,
+     "y": 63,
+     "w": 294,
+     "h": 40
+    }
+   ]
+  }
+ },
+ "mcst-69": {
+  "w": 1450,
+  "h": 158,
+  "source": "Ministry of Culture press release (2007)",
+  "marks": {
+   "‘별로 그렇지 않다’ 26%": [
+    {
+     "x": 1247,
+     "y": 63,
+     "w": 164,
+     "h": 40
+    },
+    {
+     "x": 12,
+     "y": 114,
+     "w": 145,
+     "h": 40
+    }
+   ],
+   "‘그렇지 않다’ 43%": [
+    {
+     "x": 176,
+     "y": 114,
+     "w": 250,
+     "h": 40
+    }
+   ]
+  }
+ },
+ "idea-2020": {
+  "w": 1159,
+  "h": 182,
+  "source": "International IDEA",
+  "marks": {
+   "death penalty for those distributing K-dramas": [
+    {
+     "x": 870,
+     "y": 12,
+     "w": 240,
+     "h": 38
+    },
+    {
+     "x": 12,
+     "y": 76,
+     "w": 392,
+     "h": 38
+    }
+   ]
+  }
+ },
+ "tf-whitepaper": {
+  "w": 1272,
+  "h": 114,
+  "source": "The Fact",
+  "marks": {
+   "‘2026 통일백서’": [
+    {
+     "x": 364,
+     "y": 70,
+     "w": 250,
+     "h": 40
+    }
+   ]
+  }
+ },
+ "tf-dictionary": {
+  "w": 1288,
+  "h": 229,
+  "source": "The Fact",
+  "marks": {
+   "겨레말큰사전 남북 공동편찬사업에 24억 8600만 원": [
+    {
+     "x": 966,
+     "y": 12,
+     "w": 298,
+     "h": 40
+    },
+    {
+     "x": 0,
+     "y": 70,
+     "w": 510,
+     "h": 40
+    }
+   ]
+  }
+ },
+ "rodong-photo": {
+  "w": 674,
+  "h": 1198,
+  "source": "Wikimedia Commons",
+  "credit": "魯班, CC BY-SA 4.0",
+  "kind": "figure",
+  "marks": {}
+ },
+ "mcst-study": {
+  "w": 1462,
+  "h": 311,
+  "source": "Ministry of Culture press release (2007)",
+  "marks": {
+   "새터민 언어실태 조사 연구": [
+    {
+     "x": 1234,
+     "y": 63,
+     "w": 216,
+     "h": 40
+    },
+    {
+     "x": 12,
+     "y": 114,
+     "w": 127,
+     "h": 40
+    }
+   ],
+   "새터민 100명": [
+    {
+     "x": 678,
+     "y": 216,
+     "w": 186,
+     "h": 40
+    }
+   ]
+  }
+ },
+ "mcst-inconv": {
+  "w": 1406,
+  "h": 107,
+  "source": "Ministry of Culture press release (2007)",
+  "marks": {
+   "‘별로 못 느낀다’ 28%": [
+    {
+     "x": 1183,
+     "y": 12,
+     "w": 211,
+     "h": 40
+    },
+    {
+     "x": 12,
+     "y": 63,
+     "w": 69,
+     "h": 40
+    }
+   ],
+   "‘전혀 못 느낀다’가 15%": [
+    {
+     "x": 100,
+     "y": 63,
+     "w": 319,
+     "h": 40
+    }
+   ],
+   "‘많이 느낀다’ 18%": [
+    {
+     "x": 497,
+     "y": 63,
+     "w": 250,
+     "h": 40
+    }
+   ],
+   "‘매우 많이 느낀다’ 3%": [
+    {
+     "x": 767,
+     "y": 63,
+     "w": 299,
+     "h": 40
+    }
+   ]
+  }
+ }
+}

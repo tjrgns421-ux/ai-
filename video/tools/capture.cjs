@@ -50,7 +50,8 @@ const path = require("path");
           const st = getComputedStyle(el);
           if (st.position === "fixed" || st.position === "sticky") el.style.setProperty("display", "none", "important");
         }
-        hit.scrollIntoView({ block: "center" });
+        document.documentElement.style.setProperty("scroll-behavior", "auto", "important");
+        hit.scrollIntoView({ block: "center", behavior: "instant" });
         hit.setAttribute("data-cap-figure", "1");
         return true;
       };
@@ -120,7 +121,10 @@ const path = require("path");
         endAt = a[1]; // no `until`: the capture is exactly the `find` text
       }
       const target = rangeAt(a[0], endAt);
-      target.startContainer.parentElement.scrollIntoView({ block: "center" });
+      // some sites set scroll-behavior: smooth; measure only after an instant scroll
+      document.documentElement.style.setProperty("scroll-behavior", "auto", "important");
+      document.body.style.setProperty("scroll-behavior", "auto", "important");
+      target.startContainer.parentElement.scrollIntoView({ block: "center", behavior: "instant" });
       const rects = [...target.getClientRects()].filter((r) => r.width > 2 && r.height > 2);
       const top = Math.min(...rects.map((r) => r.top));
       const bottom = Math.max(...rects.map((r) => r.bottom));
@@ -165,7 +169,11 @@ const path = require("path");
       continue;
     }
     const file = path.join(outDir, `${s.name}.png`);
-    try { await page.screenshot({ path: file, clip: res.clip }); } catch (e) { console.log(`SKIP ${s.name}: screenshot failed`); continue; }
+    // document coordinates + fullPage are immune to later scrolling; fall back to the viewport clip
+    try { await page.screenshot({ path: file, clip: res.doc, fullPage: true }); }
+    catch (e) {
+      try { await page.screenshot({ path: file, clip: res.clip }); } catch (e2) { console.log(`SKIP ${s.name}: screenshot failed`); continue; }
+    }
     const k = 2;
     const sc = (b) => ({ x: Math.round(b.x * k), y: Math.round(b.y * k), w: Math.round(b.w * k), h: Math.round(b.h * k) });
     manifest[s.name] = {
