@@ -257,7 +257,7 @@ const SizeCompare: React.FC = () => {
       <circle cx={cx} cy={520} r={r * k} fill="#000" stroke="#FFB060" strokeWidth={6} />
       <text x={cx} y={860} textAnchor="middle" fontFamily="Pretendard" fontWeight={900} fontSize={52} fill="#FFFFFF">{title}</text>
       <text x={cx} y={915} textAnchor="middle" fontFamily="Pretendard" fontWeight={700} fontSize={32} fill="#FFFFFF" opacity={0.8}>{sub}</text>
-      <text x={cx} y={zoneIn ? 520 + r + 52 : 520 - zone - 18} textAnchor="middle" fontFamily="Pretendard" fontWeight={800} fontSize={30} fill={RED}>{zoneIn ? "torn apart inside" : "torn apart out here"}</text>
+      <text x={cx} y={zoneIn ? 530 : 520 - zone - 18} textAnchor="middle" fontFamily="Pretendard" fontWeight={900} fontSize={zoneIn ? 40 : 34} fill={zoneIn ? "#FF8A80" : RED}>{zoneIn ? "torn apart inside" : "torn apart out here"}</text>
     </g>
   );
   return (
