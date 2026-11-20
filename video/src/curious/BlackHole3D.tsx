@@ -72,7 +72,7 @@ void main(){
   float a=atan(vP.y,vP.x);
   float x=(r-uIn)/(uOut-uIn);
   float sw=a + uT*1.6/pow(r,1.5)*6.;            // inner gas orbits faster
-  float bands=.55+.45*n(vec2(sw*3.,r*1.7)) ; bands*= .7+.3*n(vec2(sw*9.,r*6.));
+  float bands=.6+.4*n(vec2(sw*2.2,r*1.1)); bands*= .82+.18*n(vec2(sw*5.,r*2.4));
   vec3 hot=vec3(1.,.97,.9), mid=vec3(1.,.66,.25), cool=vec3(.75,.22,.08);
   vec3 c = x<.25 ? mix(hot,mid,x/.25) : mix(mid,cool,(x-.25)/.75);
   // disk plane is local xy; world position of this point

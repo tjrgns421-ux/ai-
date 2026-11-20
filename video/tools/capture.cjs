@@ -39,6 +39,7 @@ const path = require("path");
         if (st.position === "fixed" || st.position === "sticky") el.style.setProperty("display", "none", "important");
       }
       document.querySelectorAll(".cap-redact").forEach((e) => e.remove());
+      document.querySelectorAll(".cap-hide").forEach((e) => (e.style.visibility = "visible"));
       const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
       const nodes = [];
       let all = "";
@@ -86,11 +87,7 @@ const path = require("path");
       const right = Math.max(...rects.map((r) => r.right));
       const pad = 6;
       const clip = { x: Math.max(0, left - pad), y: top - 2, width: right - left + pad * 2, height: bottom - top + 4 };
-      // blank out text before the start (first line) and after the end (last line); painted onto the PNG later
-      const blanks = [];
-      const first = rects[0], last = rects[rects.length - 1];
-      if (first.left > left + 1) blanks.push({ x: 0, y: 0, w: first.left - clip.x, h: first.bottom - clip.y + 1 });
-      if (last.right < right - 1) blanks.push({ x: last.right - clip.x + 1, y: last.top - clip.y - 1, w: clip.width, h: clip.height });
+      const blanks = []; // (kept empty: text outside the sentence is hidden in the page instead, see below)
       const boxesOf = (phrase) => {
         const m = findIdx(phrase, a[0]);
         if (!m || m[0] > endAt) return null;
@@ -112,6 +109,29 @@ const path = require("path");
         if (!bx) return { error: "mark phrase not found: " + p };
         out[p] = bx;
       }
+      // hide the text before the start and after the end inside the same block (visibility keeps the layout),
+      // so neighbouring words on the first/last line don't show up in the capture
+      const block = (target.startContainer.parentElement.closest("p,li,blockquote,figcaption,h1,h2,h3,h4,td") || target.startContainer.parentElement.parentElement);
+      const hideRange = (n, from, to) => {
+        if (to <= from) return;
+        const r = document.createRange();
+        r.setStart(n, from); r.setEnd(n, to);
+        const sp = document.createElement("span");
+        sp.className = "cap-hide";
+        sp.style.visibility = "hidden";
+        r.surroundContents(sp);
+      };
+      const tw = document.createTreeWalker(block, NodeFilter.SHOW_TEXT);
+      const list = [];
+      for (let n; (n = tw.nextNode()); ) list.push(n);
+      for (const n of list) {
+        const info = nodes.find((x) => x.n === n);
+        if (!info) continue;
+        const ns = info.start, ne = ns + n.data.length;
+        // after-part first, so the before-part offsets stay valid
+        if (ne > endAt) hideRange(n, Math.max(0, endAt - ns), n.data.length);
+        if (ns < a[0]) hideRange(n, 0, Math.min(n.data.length, a[0] - ns));
+      }
       return { blanks, clip, doc: { x: clip.x + scrollX, y: clip.y + scrollY, width: clip.width, height: clip.height }, marks: out, text: norm(target.toString()).slice(0, 400) };
     }, s);
     if (res.error) {
@@ -120,9 +140,9 @@ const path = require("path");
       continue;
     }
     const file = path.join(outDir, `${s.name}.png`);
-    try { await page.screenshot({ path: file, clip: res.clip }); } catch (e) {
+    try { await page.screenshot({ path: file, clip: res.doc, fullPage: true }); } catch (e) {
       // the page did not scroll (e.g. its own scroll container): capture from the full page in document coordinates
-      try { await page.screenshot({ path: file, clip: res.doc, fullPage: true }); } catch (e2) { console.log(`SKIP ${s.name}: screenshot failed: ${String(e2.message).split("\n")[0]}`); continue; }
+      try { await page.screenshot({ path: file, clip: res.clip }); } catch (e2) { console.log(`SKIP ${s.name}: screenshot failed: ${String(e2.message).split("\n")[0]}`); continue; }
     }
     if (res.blanks.length) {
       const box = res.blanks.map((b) => `drawbox=x=${Math.round(b.x * 2)}:y=${Math.round(b.y * 2)}:w=${Math.ceil(b.w * 2)}:h=${Math.ceil(b.h * 2)}:color=white:t=fill`).join(",");
