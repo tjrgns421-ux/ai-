@@ -12,7 +12,13 @@ Two tools live in this folder and both actually run. Use them. Do not eyeball th
 ```bash
 python3 hookscore.py hooks.txt              # rank your hook options
 python3 hookscore.py --hook "one line"      # score a single one
+python3 scriptscore.py script.txt           # score a whole script (long-form, 205 wpm, 4-5 min)
+python3 scriptscore.py script.txt --short   # Shorts target (45-60 s)
 ```
+
+`scriptscore.py` checks this repo's house rules (shorts-script sections 2, 3, 11): hook (via
+hookscore), length, but/so turns, rhythm, numbers and names, spoken attribution, and whether each
+30-second window reopens a question. It counts patterns; it cannot check facts or jokes.
 
 ## Before you write
 
