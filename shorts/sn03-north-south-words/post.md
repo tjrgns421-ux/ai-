@@ -11,7 +11,7 @@ Penalties are attributed to the law text Daily NK published (Asia Economy report
 ## Title and thumbnail (linted with yt-package)
 
 **Title:** `North Korea Made a 65-Article Law About Words` (45 chars, 98/100 with the thumbnail)
-**Thumbnail text:** `DON'T SAY OPPA` (not made yet)
+**Thumbnail:** `DON'T SAY OPPA` (`thumbnail.png`, 1280x720, composition Sn03Thumb). Adding "in North Korea" drops the pair to 66/100 (repeats the title, 6 words).
 - title carries the number, thumbnail carries the word; no overlap
 - "oppa" is reported as targeted (Asia Economy, citing South Korea's National Intelligence Service)
 
