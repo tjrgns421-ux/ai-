@@ -1,8 +1,7 @@
-Imagine you fall into a black hole.
-Not a movie black hole. A real one, the size of the one at the center of our galaxy.
-Would you be stretched like spaghetti? Would time stop? Would you see anything at all?
-In 2024, NASA ran this exact trip on a supercomputer. And the answer depends on one thing you'd never guess: how big the black hole is.
-Pick the wrong one, and you're torn apart before you even reach it. Pick the right one, and you get to see the edge with your own eyes.
+Fall into a small black hole and you could die before you reach it.
+But NASA says a giant one gives you twelve point eight seconds past the edge. Why?
+In 2024, NASA ran this exact trip on a supercomputer, into a black hole like the one at the center of our galaxy.
+Would you be stretched like spaghetti? Would time stop? What would you actually see?
 Let's take the trip.
 First, what are we falling into?
 A black hole is a place where gravity is so strong that nothing gets out. Not rockets. Not even light.
