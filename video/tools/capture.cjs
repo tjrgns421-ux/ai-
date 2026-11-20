@@ -5,6 +5,8 @@
 //   until  — text where it ends (default: the `find` text itself)
 //   marks  — phrases whose boxes are saved for the lime highlighter
 //   redact — phrases blacked out in the image (personal names)
+// image capture: { name, url, figure: "caption or alt text", source, credit }
+//   saves the article's photo together with its caption and credit line (keep the credit visible on screen)
 // Writes <outDir>/<name>.png at 2x and <outDir>/captures.json with sizes and mark boxes (image px).
 const { chromium } = require("playwright");
 const fs = require("fs");
@@ -30,6 +32,47 @@ const path = require("path");
       }
       await page.waitForTimeout(2500);
       current = s.url;
+    }
+    if (s.figure) {
+      // image capture: the <figure> (or image) whose caption contains `figure`, with its caption and credit
+      const locate = (needle) => {
+        const re = new RegExp(needle.trim().split(/\s+/).map((w) => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("\\s+"));
+        const small = (el) => { const r = el.getBoundingClientRect(); return r.height > 40 && r.height < 1800 && r.width > 80; };
+        const txt = (el) => (el.textContent || "").replace(/\s+/g, " ") + " " + [...el.querySelectorAll("img")].map((i) => i.alt).join(" ");
+        // 1) a <figure> (or figure-like box) holding an image, whose caption/credit/alt matches
+        let hit = [...document.querySelectorAll("figure, [class*=photo], [class*=figure], [class*=img-box], [class*=image-box]")]
+          .filter((el) => el.querySelector("img") && small(el) && re.test(txt(el)))
+          .sort((a, b) => a.getBoundingClientRect().height - b.getBoundingClientRect().height)[0] || null;
+        // 2) an image whose alt matches
+        if (!hit) hit = [...document.images].find((i) => re.test(i.alt || "") && small(i)) || null;
+        if (!hit) return null;
+        for (const el of document.querySelectorAll("body *")) {
+          const st = getComputedStyle(el);
+          if (st.position === "fixed" || st.position === "sticky") el.style.setProperty("display", "none", "important");
+        }
+        hit.scrollIntoView({ block: "center" });
+        hit.setAttribute("data-cap-figure", "1");
+        return true;
+      };
+      const ok = await page.evaluate(locate, s.figure);
+      if (!ok) { console.error(`${s.name}: figure not found: ${s.figure}`); process.exitCode = 1; continue; }
+      await page.waitForTimeout(1500); // lazy-loaded images
+      const el = await page.$("[data-cap-figure]");
+      const broken = await el.evaluate((e) => [...(e.tagName === "IMG" ? [e] : e.querySelectorAll("img"))]
+        .filter((i) => !(i.complete && i.naturalWidth > 0)).map((i) => { try { return new URL(i.currentSrc || i.src).host; } catch { return i.src; } }));
+      if (broken.length) {
+        console.error(`${s.name}: image did not load (host blocked? ${[...new Set(broken)].join(", ")})`);
+        process.exitCode = 1;
+        await page.evaluate(() => document.querySelectorAll("[data-cap-figure]").forEach((e) => e.removeAttribute("data-cap-figure")));
+        continue;
+      }
+      const file = path.join(outDir, `${s.name}.png`);
+      try { await el.screenshot({ path: file }); } catch (e) { console.log(`SKIP ${s.name}: screenshot failed`); continue; }
+      const bb = await el.boundingBox();
+      await page.evaluate(() => document.querySelectorAll("[data-cap-figure]").forEach((e) => e.removeAttribute("data-cap-figure")));
+      manifest[s.name] = { w: Math.round(bb.width * 2), h: Math.round(bb.height * 2), source: s.source, credit: s.credit, kind: "figure", marks: {} };
+      console.log(`${s.name}: figure ${manifest[s.name].w}x${manifest[s.name].h}`);
+      continue;
     }
     const res = await page.evaluate(({ find, until, marks = [], redact = [] }) => {
       // hide overlays that could cover the text
