@@ -1,0 +1,492 @@
+[
+ {
+  "text": "No",
+  "startMs": 50,
+  "endMs": 188,
+  "timestampMs": 50,
+  "confidence": null
+ },
+ {
+  "text": " crash",
+  "startMs": 188,
+  "endMs": 638,
+  "timestampMs": 188,
+  "confidence": null
+ },
+ {
+  "text": " No",
+  "startMs": 758,
+  "endMs": 908,
+  "timestampMs": 758,
+  "confidence": null
+ },
+ {
+  "text": " roadwork",
+  "startMs": 921,
+  "endMs": 1520,
+  "timestampMs": 921,
+  "confidence": null
+ },
+ {
+  "text": " So",
+  "startMs": 1640,
+  "endMs": 1803,
+  "timestampMs": 1640,
+  "confidence": null
+ },
+ {
+  "text": " why",
+  "startMs": 1803,
+  "endMs": 1965,
+  "timestampMs": 1803,
+  "confidence": null
+ },
+ {
+  "text": " are",
+  "startMs": 1977,
+  "endMs": 2040,
+  "timestampMs": 1977,
+  "confidence": null
+ },
+ {
+  "text": " you",
+  "startMs": 2040,
+  "endMs": 2115,
+  "timestampMs": 2040,
+  "confidence": null
+ },
+ {
+  "text": " stuck",
+  "startMs": 2115,
+  "endMs": 2340,
+  "timestampMs": 2115,
+  "confidence": null
+ },
+ {
+  "text": " in",
+  "startMs": 2352,
+  "endMs": 2403,
+  "timestampMs": 2352,
+  "confidence": null
+ },
+ {
+  "text": " traffic",
+  "startMs": 2415,
+  "endMs": 2915,
+  "timestampMs": 2415,
+  "confidence": null
+ },
+ {
+  "text": " In 2008",
+  "startMs": 3035,
+  "endMs": 3897,
+  "timestampMs": 3035,
+  "confidence": null
+ },
+ {
+  "text": " researchers",
+  "startMs": 4017,
+  "endMs": 4679,
+  "timestampMs": 4017,
+  "confidence": null
+ },
+ {
+  "text": " put",
+  "startMs": 4692,
+  "endMs": 4892,
+  "timestampMs": 4692,
+  "confidence": null
+ },
+ {
+  "text": " twenty-two",
+  "startMs": 4892,
+  "endMs": 5380,
+  "timestampMs": 4892,
+  "confidence": null
+ },
+ {
+  "text": " cars",
+  "startMs": 5380,
+  "endMs": 5854,
+  "timestampMs": 5380,
+  "confidence": null
+ },
+ {
+  "text": " on",
+  "startMs": 5854,
+  "endMs": 5992,
+  "timestampMs": 5854,
+  "confidence": null
+ },
+ {
+  "text": " an",
+  "startMs": 5992,
+  "endMs": 6067,
+  "timestampMs": 5992,
+  "confidence": null
+ },
+ {
+  "text": " empty",
+  "startMs": 6179,
+  "endMs": 6442,
+  "timestampMs": 6179,
+  "confidence": null
+ },
+ {
+  "text": " circle",
+  "startMs": 6442,
+  "endMs": 7017,
+  "timestampMs": 6442,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 7137,
+  "endMs": 7237,
+  "timestampMs": 7137,
+  "confidence": null
+ },
+ {
+  "text": " gave",
+  "startMs": 7249,
+  "endMs": 7525,
+  "timestampMs": 7249,
+  "confidence": null
+ },
+ {
+  "text": " one",
+  "startMs": 7525,
+  "endMs": 7687,
+  "timestampMs": 7525,
+  "confidence": null
+ },
+ {
+  "text": " instruction",
+  "startMs": 7687,
+  "endMs": 8237,
+  "timestampMs": 7687,
+  "confidence": null
+ },
+ {
+  "text": " drive",
+  "startMs": 8357,
+  "endMs": 8720,
+  "timestampMs": 8357,
+  "confidence": null
+ },
+ {
+  "text": " steady",
+  "startMs": 8733,
+  "endMs": 9170,
+  "timestampMs": 8733,
+  "confidence": null
+ },
+ {
+  "text": " Somewhere",
+  "startMs": 9290,
+  "endMs": 9790,
+  "timestampMs": 9290,
+  "confidence": null
+ },
+ {
+  "text": " one",
+  "startMs": 9910,
+  "endMs": 10085,
+  "timestampMs": 9910,
+  "confidence": null
+ },
+ {
+  "text": " driver",
+  "startMs": 10085,
+  "endMs": 10472,
+  "timestampMs": 10085,
+  "confidence": null
+ },
+ {
+  "text": " eased",
+  "startMs": 10592,
+  "endMs": 10842,
+  "timestampMs": 10592,
+  "confidence": null
+ },
+ {
+  "text": " off",
+  "startMs": 10842,
+  "endMs": 11216,
+  "timestampMs": 10842,
+  "confidence": null
+ },
+ {
+  "text": " Just",
+  "startMs": 11336,
+  "endMs": 11461,
+  "timestampMs": 11336,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 11461,
+  "endMs": 11498,
+  "timestampMs": 11461,
+  "confidence": null
+ },
+ {
+  "text": " little",
+  "startMs": 11498,
+  "endMs": 11823,
+  "timestampMs": 11498,
+  "confidence": null
+ },
+ {
+  "text": " The",
+  "startMs": 11943,
+  "endMs": 11993,
+  "timestampMs": 11943,
+  "confidence": null
+ },
+ {
+  "text": " car",
+  "startMs": 11993,
+  "endMs": 12193,
+  "timestampMs": 11993,
+  "confidence": null
+ },
+ {
+  "text": " behind",
+  "startMs": 12193,
+  "endMs": 12556,
+  "timestampMs": 12193,
+  "confidence": null
+ },
+ {
+  "text": " braked",
+  "startMs": 12556,
+  "endMs": 12806,
+  "timestampMs": 12556,
+  "confidence": null
+ },
+ {
+  "text": " harder",
+  "startMs": 12818,
+  "endMs": 13243,
+  "timestampMs": 12818,
+  "confidence": null
+ },
+ {
+  "text": " The",
+  "startMs": 13363,
+  "endMs": 13400,
+  "timestampMs": 13363,
+  "confidence": null
+ },
+ {
+  "text": " next",
+  "startMs": 13400,
+  "endMs": 13650,
+  "timestampMs": 13400,
+  "confidence": null
+ },
+ {
+  "text": " one",
+  "startMs": 13663,
+  "endMs": 13913,
+  "timestampMs": 13663,
+  "confidence": null
+ },
+ {
+  "text": " harder",
+  "startMs": 14033,
+  "endMs": 14307,
+  "timestampMs": 14033,
+  "confidence": null
+ },
+ {
+  "text": " still",
+  "startMs": 14307,
+  "endMs": 14757,
+  "timestampMs": 14307,
+  "confidence": null
+ },
+ {
+  "text": " Within",
+  "startMs": 14877,
+  "endMs": 15127,
+  "timestampMs": 14877,
+  "confidence": null
+ },
+ {
+  "text": " minutes",
+  "startMs": 15127,
+  "endMs": 15627,
+  "timestampMs": 15127,
+  "confidence": null
+ },
+ {
+  "text": " cars",
+  "startMs": 15747,
+  "endMs": 16085,
+  "timestampMs": 15747,
+  "confidence": null
+ },
+ {
+  "text": " were",
+  "startMs": 16085,
+  "endMs": 16172,
+  "timestampMs": 16085,
+  "confidence": null
+ },
+ {
+  "text": " stopping",
+  "startMs": 16172,
+  "endMs": 16722,
+  "timestampMs": 16172,
+  "confidence": null
+ },
+ {
+  "text": " On",
+  "startMs": 16842,
+  "endMs": 16917,
+  "timestampMs": 16842,
+  "confidence": null
+ },
+ {
+  "text": " an",
+  "startMs": 16929,
+  "endMs": 17004,
+  "timestampMs": 16929,
+  "confidence": null
+ },
+ {
+  "text": " empty",
+  "startMs": 17016,
+  "endMs": 17279,
+  "timestampMs": 17016,
+  "confidence": null
+ },
+ {
+  "text": " road",
+  "startMs": 17279,
+  "endMs": 17654,
+  "timestampMs": 17279,
+  "confidence": null
+ },
+ {
+  "text": " Nobody",
+  "startMs": 17774,
+  "endMs": 18049,
+  "timestampMs": 17774,
+  "confidence": null
+ },
+ {
+  "text": " crashed",
+  "startMs": 18062,
+  "endMs": 18712,
+  "timestampMs": 18062,
+  "confidence": null
+ },
+ {
+  "text": " Somebody",
+  "startMs": 18832,
+  "endMs": 19132,
+  "timestampMs": 18832,
+  "confidence": null
+ },
+ {
+  "text": " braked",
+  "startMs": 19145,
+  "endMs": 19608,
+  "timestampMs": 19145,
+  "confidence": null
+ },
+ {
+  "text": " And",
+  "startMs": 19728,
+  "endMs": 19778,
+  "timestampMs": 19728,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 19778,
+  "endMs": 19828,
+  "timestampMs": 19778,
+  "confidence": null
+ },
+ {
+  "text": " strangest",
+  "startMs": 19828,
+  "endMs": 20290,
+  "timestampMs": 19828,
+  "confidence": null
+ },
+ {
+  "text": " part",
+  "startMs": 20290,
+  "endMs": 20616,
+  "timestampMs": 20290,
+  "confidence": null
+ },
+ {
+  "text": " The",
+  "startMs": 20736,
+  "endMs": 20798,
+  "timestampMs": 20736,
+  "confidence": null
+ },
+ {
+  "text": " jam",
+  "startMs": 20798,
+  "endMs": 21149,
+  "timestampMs": 20798,
+  "confidence": null
+ },
+ {
+  "text": " moves",
+  "startMs": 21149,
+  "endMs": 21423,
+  "timestampMs": 21149,
+  "confidence": null
+ },
+ {
+  "text": " backward",
+  "startMs": 21423,
+  "endMs": 21911,
+  "timestampMs": 21423,
+  "confidence": null
+ },
+ {
+  "text": " Full",
+  "startMs": 22031,
+  "endMs": 22218,
+  "timestampMs": 22031,
+  "confidence": null
+ },
+ {
+  "text": " video",
+  "startMs": 22218,
+  "endMs": 22606,
+  "timestampMs": 22218,
+  "confidence": null
+ },
+ {
+  "text": " on",
+  "startMs": 22606,
+  "endMs": 22681,
+  "timestampMs": 22606,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 22693,
+  "endMs": 22743,
+  "timestampMs": 22693,
+  "confidence": null
+ },
+ {
+  "text": " channel",
+  "startMs": 22755,
+  "endMs": 23193,
+  "timestampMs": 22755,
+  "confidence": null
+ }
+]

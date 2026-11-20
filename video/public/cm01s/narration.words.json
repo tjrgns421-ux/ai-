@@ -1,0 +1,492 @@
+[
+ {
+  "text": "No",
+  "start": 0.05,
+  "end": 0.188,
+  "display": "No",
+  "break": false
+ },
+ {
+  "text": "crash",
+  "start": 0.188,
+  "end": 0.638,
+  "display": "crash.",
+  "break": true
+ },
+ {
+  "text": "No",
+  "start": 0.758,
+  "end": 0.908,
+  "display": "No",
+  "break": false
+ },
+ {
+  "text": "roadwork",
+  "start": 0.921,
+  "end": 1.52,
+  "display": "roadwork.",
+  "break": true
+ },
+ {
+  "text": "So",
+  "start": 1.64,
+  "end": 1.803,
+  "display": "So",
+  "break": false
+ },
+ {
+  "text": "why",
+  "start": 1.803,
+  "end": 1.965,
+  "display": "why",
+  "break": false
+ },
+ {
+  "text": "are",
+  "start": 1.977,
+  "end": 2.04,
+  "display": "are",
+  "break": false
+ },
+ {
+  "text": "you",
+  "start": 2.04,
+  "end": 2.115,
+  "display": "you",
+  "break": false
+ },
+ {
+  "text": "stuck",
+  "start": 2.115,
+  "end": 2.34,
+  "display": "stuck",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 2.352,
+  "end": 2.403,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "traffic",
+  "start": 2.415,
+  "end": 2.915,
+  "display": "traffic?",
+  "break": true
+ },
+ {
+  "text": "In 2008",
+  "start": 3.035,
+  "end": 3.897,
+  "display": "In 2008,",
+  "break": true
+ },
+ {
+  "text": "researchers",
+  "start": 4.017,
+  "end": 4.679,
+  "display": "researchers",
+  "break": false
+ },
+ {
+  "text": "put",
+  "start": 4.692,
+  "end": 4.892,
+  "display": "put",
+  "break": false
+ },
+ {
+  "text": "twenty-two",
+  "start": 4.892,
+  "end": 5.38,
+  "display": "twenty-two",
+  "break": false
+ },
+ {
+  "text": "cars",
+  "start": 5.38,
+  "end": 5.854,
+  "display": "cars",
+  "break": false
+ },
+ {
+  "text": "on",
+  "start": 5.854,
+  "end": 5.992,
+  "display": "on",
+  "break": false
+ },
+ {
+  "text": "an",
+  "start": 5.992,
+  "end": 6.067,
+  "display": "an",
+  "break": false
+ },
+ {
+  "text": "empty",
+  "start": 6.179,
+  "end": 6.442,
+  "display": "empty",
+  "break": false
+ },
+ {
+  "text": "circle",
+  "start": 6.442,
+  "end": 7.017,
+  "display": "circle",
+  "break": false
+ },
+ {
+  "text": "and",
+  "start": 7.137,
+  "end": 7.237,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "gave",
+  "start": 7.249,
+  "end": 7.525,
+  "display": "gave",
+  "break": false
+ },
+ {
+  "text": "one",
+  "start": 7.525,
+  "end": 7.687,
+  "display": "one",
+  "break": false
+ },
+ {
+  "text": "instruction",
+  "start": 7.687,
+  "end": 8.237,
+  "display": "instruction",
+  "break": false
+ },
+ {
+  "text": "drive",
+  "start": 8.357,
+  "end": 8.72,
+  "display": "drive",
+  "break": false
+ },
+ {
+  "text": "steady",
+  "start": 8.733,
+  "end": 9.17,
+  "display": "steady.",
+  "break": true
+ },
+ {
+  "text": "Somewhere",
+  "start": 9.29,
+  "end": 9.79,
+  "display": "Somewhere,",
+  "break": true
+ },
+ {
+  "text": "one",
+  "start": 9.91,
+  "end": 10.085,
+  "display": "one",
+  "break": false
+ },
+ {
+  "text": "driver",
+  "start": 10.085,
+  "end": 10.472,
+  "display": "driver",
+  "break": false
+ },
+ {
+  "text": "eased",
+  "start": 10.592,
+  "end": 10.842,
+  "display": "eased",
+  "break": false
+ },
+ {
+  "text": "off",
+  "start": 10.842,
+  "end": 11.216,
+  "display": "off.",
+  "break": true
+ },
+ {
+  "text": "Just",
+  "start": 11.336,
+  "end": 11.461,
+  "display": "Just",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 11.461,
+  "end": 11.498,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "little",
+  "start": 11.498,
+  "end": 11.823,
+  "display": "little.",
+  "break": true
+ },
+ {
+  "text": "The",
+  "start": 11.943,
+  "end": 11.993,
+  "display": "The",
+  "break": false
+ },
+ {
+  "text": "car",
+  "start": 11.993,
+  "end": 12.193,
+  "display": "car",
+  "break": false
+ },
+ {
+  "text": "behind",
+  "start": 12.193,
+  "end": 12.556,
+  "display": "behind",
+  "break": false
+ },
+ {
+  "text": "braked",
+  "start": 12.556,
+  "end": 12.806,
+  "display": "braked",
+  "break": false
+ },
+ {
+  "text": "harder",
+  "start": 12.818,
+  "end": 13.243,
+  "display": "harder.",
+  "break": true
+ },
+ {
+  "text": "The",
+  "start": 13.363,
+  "end": 13.4,
+  "display": "The",
+  "break": false
+ },
+ {
+  "text": "next",
+  "start": 13.4,
+  "end": 13.65,
+  "display": "next",
+  "break": false
+ },
+ {
+  "text": "one",
+  "start": 13.663,
+  "end": 13.913,
+  "display": "one,",
+  "break": true
+ },
+ {
+  "text": "harder",
+  "start": 14.033,
+  "end": 14.307,
+  "display": "harder",
+  "break": false
+ },
+ {
+  "text": "still",
+  "start": 14.307,
+  "end": 14.757,
+  "display": "still.",
+  "break": true
+ },
+ {
+  "text": "Within",
+  "start": 14.877,
+  "end": 15.127,
+  "display": "Within",
+  "break": false
+ },
+ {
+  "text": "minutes",
+  "start": 15.127,
+  "end": 15.627,
+  "display": "minutes,",
+  "break": true
+ },
+ {
+  "text": "cars",
+  "start": 15.747,
+  "end": 16.085,
+  "display": "cars",
+  "break": false
+ },
+ {
+  "text": "were",
+  "start": 16.085,
+  "end": 16.172,
+  "display": "were",
+  "break": false
+ },
+ {
+  "text": "stopping",
+  "start": 16.172,
+  "end": 16.722,
+  "display": "stopping.",
+  "break": true
+ },
+ {
+  "text": "On",
+  "start": 16.842,
+  "end": 16.917,
+  "display": "On",
+  "break": false
+ },
+ {
+  "text": "an",
+  "start": 16.929,
+  "end": 17.004,
+  "display": "an",
+  "break": false
+ },
+ {
+  "text": "empty",
+  "start": 17.016,
+  "end": 17.279,
+  "display": "empty",
+  "break": false
+ },
+ {
+  "text": "road",
+  "start": 17.279,
+  "end": 17.654,
+  "display": "road.",
+  "break": true
+ },
+ {
+  "text": "Nobody",
+  "start": 17.774,
+  "end": 18.049,
+  "display": "Nobody",
+  "break": false
+ },
+ {
+  "text": "crashed",
+  "start": 18.062,
+  "end": 18.712,
+  "display": "crashed.",
+  "break": true
+ },
+ {
+  "text": "Somebody",
+  "start": 18.832,
+  "end": 19.132,
+  "display": "Somebody",
+  "break": false
+ },
+ {
+  "text": "braked",
+  "start": 19.145,
+  "end": 19.608,
+  "display": "braked.",
+  "break": true
+ },
+ {
+  "text": "And",
+  "start": 19.728,
+  "end": 19.778,
+  "display": "And",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 19.778,
+  "end": 19.828,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "strangest",
+  "start": 19.828,
+  "end": 20.29,
+  "display": "strangest",
+  "break": false
+ },
+ {
+  "text": "part",
+  "start": 20.29,
+  "end": 20.616,
+  "display": "part?",
+  "break": true
+ },
+ {
+  "text": "The",
+  "start": 20.736,
+  "end": 20.798,
+  "display": "The",
+  "break": false
+ },
+ {
+  "text": "jam",
+  "start": 20.798,
+  "end": 21.149,
+  "display": "jam",
+  "break": false
+ },
+ {
+  "text": "moves",
+  "start": 21.149,
+  "end": 21.423,
+  "display": "moves",
+  "break": false
+ },
+ {
+  "text": "backward",
+  "start": 21.423,
+  "end": 21.911,
+  "display": "backward.",
+  "break": true
+ },
+ {
+  "text": "Full",
+  "start": 22.031,
+  "end": 22.218,
+  "display": "Full",
+  "break": false
+ },
+ {
+  "text": "video",
+  "start": 22.218,
+  "end": 22.606,
+  "display": "video",
+  "break": false
+ },
+ {
+  "text": "on",
+  "start": 22.606,
+  "end": 22.681,
+  "display": "on",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 22.693,
+  "end": 22.743,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "channel",
+  "start": 22.755,
+  "end": 23.193,
+  "display": "channel.",
+  "break": true
+ }
+]
