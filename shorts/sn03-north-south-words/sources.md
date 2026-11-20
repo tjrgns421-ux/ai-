@@ -17,6 +17,7 @@
 | 북한 표준어도 옛 서울말 기반 | Language Log, S. Robert Ramsey 기고 (ll-ramsey) |
 | 아이스크림=얼음보숭이, 캐러멜=기름사탕, 노크=손기척 | 새국어생활 1988 (국어연구소) 다듬은 말 표 (nikl-1988-table) |
 | computer·café·internet은 남한에선 흔하고 북한에선 거의 모름 | Daily NK (dnk-loanwords) |
+| 한반도 지도 (남북 경계, 서울·평양 위치) | Natural Earth 1:10m, 퍼블릭 도메인 (video/tools/korea-map.mjs) |
 | 로동신문 제호 | 위키미디어 공용 사진, 魯班, CC BY-SA 4.0 (rodong-photo) |
 | 하나원 3개월, 발음·외래어 수업 | Korea JoongAng Daily 2005 (jad-hanawon, jad-lessons) |
 | 2007 국립국어원 연구, 새터민 100명 설문 | 문화체육관광부 보도자료 2007-03-08 (mcst-study) |

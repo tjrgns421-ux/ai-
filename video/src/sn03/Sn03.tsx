@@ -4,6 +4,10 @@ import words from "../../public/sn03/narration.words.json";
 import LINES from "../../public/sn03/lines.json";
 import CAPS from "../../public/sn03/captures/captures.json";
 import { Beat, Cap, Crop, Stage, makeTimeline, srcOf } from "./engine";
+import { KoreaMap } from "./KoreaMap";
+
+// map position (right half), shared so the map stays put across beats
+const MX = 1010, MY = 40;
 
 // Blip Check #4: why North Korea has a law against sounding South Korean (16:9, ~4:55).
 // Every fact on screen is a real capture; see shorts/sn03-north-south-words/sources.md.
@@ -47,10 +51,13 @@ export const B: Beat[] = [
     <T y={620} size={44} color={DIM} style={rise(lf, at("six years") + 6)}>2023 law · as reported</T>
     <T y={720} size={80} style={rise(lf, at("But why"))}>But why?</T>
   </>) },
-  { at: "It's the same language", sfx: "pop", face: "prompt", r: ({ lf, at }) => (<>
-    <T y={200} size={90} style={rise(lf)}>Same language.</T>
-    <T y={330} size={70} style={rise(lf, at("Same alphabet"))}>Same alphabet. <K>Same grammar.</K></T>
-    <T y={460} size={70} style={rise(lf, at("Until 1945"))}>Until <K>1945</K>: one country.</T>
+  { at: "It's the same language", sfx: "pop", noHost: true, r: ({ lf, at }) => (<>
+    <KoreaMap lf={lf} x={MX} y={MY} draw={at("Until 1945") - 6} />
+    <T y={220} size={90} style={rise(lf)}>Same language.</T>
+    <T y={350} size={64} style={rise(lf, at("Same alphabet"))}>Same alphabet.</T>
+    <T y={440} size={64} style={rise(lf, at("Same grammar"))}><K>Same grammar.</K></T>
+    <T y={600} size={70} style={rise(lf, at("Until 1945"))}>Until <K>1945</K>:</T>
+    <T y={690} size={70} style={rise(lf, at("one country"))}>one country.</T>
   </>) },
   { at: "So, three questions", sfx: "pop", face: "prompt", r: ({ lf, at }) => (<>
     <T y={150} size={60} color={DIM} style={rise(lf)}>Three questions.</T>
@@ -115,13 +122,15 @@ export const B: Beat[] = [
     <T y={430} size={90} center style={rise(lf, at("what is there to ban"))}><K>what is there to ban?</K></T>
   </>) },
   // ---- 2. the split ----
-  { at: "To answer that, go back", sfx: "whoosh", face: "prompt", r: ({ lf }) => (<>
+  { at: "To answer that, go back", sfx: "whoosh", noHost: true, r: ({ lf }) => (<>
+    <KoreaMap lf={lf} x={MX} y={MY} draw={0} />
     <T y={160} size={50} color={LIME} style={rise(lf)}>2 · THE SPLIT</T>
     <T y={300} size={220} style={pop(lf, 4, 0.6)}><K>1945</K></T>
   </>) },
-  { at: "After 1945, the peninsula", sfx: "pop", face: "prompt", r: ({ lf, at }) => (<>
+  { at: "After 1945, the peninsula", sfx: "pop", noHost: true, r: ({ lf, at }) => (<>
+    <KoreaMap lf={lf} x={MX} y={MY} draw={-99} split={at("divided")} pins={[{ city: "seoul", at: at("speech of Seoul"), label: "Seoul" }]} />
     <T y={200} size={70} style={rise(lf)}>1945: <K>divided.</K></T>
-    <div style={{ position: "absolute", left: 140, top: 380, width: 760, padding: 40, borderRadius: 28, border: `4px solid ${LIME}`, fontFamily: "Pretendard", fontWeight: 900, fontSize: 56, color: INK, ...pop(lf, at("The South's standard")) }}>
+    <div style={{ position: "absolute", left: 140, top: 380, width: 720, padding: 40, borderRadius: 28, border: `4px solid ${LIME}`, fontFamily: "Pretendard", fontWeight: 900, fontSize: 56, color: INK, boxSizing: "border-box", ...pop(lf, at("The South's standard")) }}>
       <div style={{ color: LIME, fontSize: 36 }}>SOUTH · standard language</div>
       based on <K>Seoul</K> speech
     </div>
@@ -133,10 +142,14 @@ export const B: Beat[] = [
     <Cap name="ency-pyongyang" lf={lf} dur={dur} y={500} width={1400} d={at("Centered on Pyongyang")} marks={[["평양말을 중심으로", at("Pyongyang speech")]]} />
     <Tr lf={lf} d={at("Pyongyang speech")} y={660}>"…centered on <K>Pyongyang speech</K>"</Tr>
   </>) },
-  { at: "It got a name", sfx: "pop", face: "happy", r: ({ lf, at }) => (<>
-    <T y={200} size={200} center style={pop(lf, at("munhwaeo"), 0.6)}><K>문화어</K></T>
-    <T y={470} size={80} center style={rise(lf, at("munhwaeo") + 4)}>munhwaeo</T>
-    <T y={590} size={60} center color={DIM} style={rise(lf, at("The cultured"))}>"the cultured language"</T>
+  { at: "It got a name", sfx: "pop", noHost: true, r: ({ lf, at }) => (<>
+    <KoreaMap lf={lf} x={MX} y={MY} draw={-99} split={-99} pins={[{ city: "seoul", at: -99, label: "Seoul" }, { city: "pyongyang", at: 2, label: "Pyongyang" }]} />
+    <div style={{ position: "absolute", left: 140, top: 220, width: 720, padding: 40, borderRadius: 28, border: `4px solid ${RED}`, fontFamily: "Pretendard", fontWeight: 900, fontSize: 56, color: INK, boxSizing: "border-box", ...pop(lf, 2) }}>
+      <div style={{ color: RED, fontSize: 36 }}>NORTH · since 1966</div>
+      based on <span style={{ color: RED }}>Pyongyang</span> speech
+    </div>
+    <T y={520} size={170} style={pop(lf, at("munhwaeo"), 0.6)}><K>문화어</K></T>
+    <T y={740} size={56} style={rise(lf, at("The cultured"))}>munhwaeo · "the cultured language"</T>
   </>) },
   { at: "Which, if you're from Seoul", sfx: "blip", noHost: true, r: ({ lf }) => (
     <Aside lf={lf} face="meh" a="From Seoul?" b={<K>That's a little rude.</K>} />
@@ -147,9 +160,12 @@ export const B: Beat[] = [
     <Cap name="ll-ramsey" lf={lf} dur={dur} y={260} width={1400} d={at("Linguist")} marks={[["based upon the earlier, traditional dialect of Seoul", at("based on the old speech")]]} />
     <T y={620} size={64} style={rise(lf, at("based on the old speech"))}>The North's standard: <K>based on old Seoul speech</K></T>
   </>) },
-  { at: "So the North declared independence", sfx: "stamp", face: "happy", r: ({ lf, at }) => (<>
-    <T y={300} size={84} center style={rise(lf)}>Independence from Seoul…</T>
-    <T y={430} size={84} center style={rise(lf, at("in a language built"))}><K>…in a language built on Seoul.</K></T>
+  { at: "So the North declared independence", sfx: "stamp", noHost: true, r: ({ lf, at }) => (<>
+    <KoreaMap lf={lf} x={MX} y={MY} draw={-99} split={-99} pins={[{ city: "seoul", at: -99, label: "Seoul" }, { city: "pyongyang", at: -99, label: "Pyongyang" }]} arrow={at("in a language built")} arrowLabel="built on old Seoul speech" />
+    <T y={330} size={76} style={rise(lf)}>Independence</T>
+    <T y={430} size={76} style={rise(lf, 4)}>from Seoul…</T>
+    <T y={580} size={76} style={rise(lf, at("in a language built"))}><K>…in a language</K></T>
+    <T y={680} size={76} style={rise(lf, at("in a language built") + 4)}><K>built on Seoul.</K></T>
   </>) },
   { at: "Then it started cleaning house", sfx: "pop", face: "prompt", r: ({ lf, dur, at }) => (<>
     <Source text={srcOf("ency-maldadeumgi")} />
