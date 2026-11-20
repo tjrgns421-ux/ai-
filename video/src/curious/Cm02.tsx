@@ -63,7 +63,7 @@ const Line: React.FC<{ text: React.ReactNode; sub?: string; y?: number; size?: n
 );
 type CapInfo = { w: number; h: number; source?: string; marks: Record<string, { x: number; y: number; w: number; h: number }[]> };
 const CI = CAPS as unknown as Record<string, CapInfo>;
-const Src: React.FC<{ name: string; label?: string; width?: number; y?: number; marks?: string[] }> = ({ name, label, width = 1300, y = 150, marks }) => {
+const Src: React.FC<{ name: string; label?: string; width?: number; y?: number; marks?: string[]; hold?: number }> = ({ name, label, width = 1300, y = 150, marks, hold = 105 }) => {
   const lf = useCurrentFrame();
   const c = CI[name];
   const sc = Math.min(width / c.w, 1.15);
@@ -71,7 +71,11 @@ const Src: React.FC<{ name: string; label?: string; width?: number; y?: number; 
   const ms = marks ?? Object.keys(c.marks);
   return (
     <div style={{ position: "absolute", left: (1920 - w - 60) / 2, top: y, ...useIn() }}>
-      <div style={{ background: "#FFFFFF", padding: 30, borderRadius: 18, border: `5px solid ${INK}`, boxShadow: "0 14px 0 rgba(0,0,0,0.35)" }}>
+      <div style={{ background: "#FFFFFF", padding: 30, borderRadius: 18, border: `5px solid ${INK}`, boxShadow: "0 14px 0 rgba(0,0,0,0.35)", transformOrigin: "100% 0%", transform: (() => {
+        const k = interpolate(lf, [hold, hold + 14], [0, 1], { ...cl, easing: ease });
+        const left = (1920 - w - 60) / 2, right = left + w + 70;
+        return `translate(${(1880 - right) * k}px, ${(36 - y) * k}px) scale(${1 - 0.6 * k})`;
+      })() }}>
         <div style={{ position: "relative", width: w, height: c.h * sc }}>
           {ms.flatMap((m) => c.marks[m] ?? []).map((b, k) => (
             <div key={k} style={{ position: "absolute", left: b.x * sc - 4, top: b.y * sc, height: b.h * sc, width: (b.w * sc + 8) * interpolate(lf, [12 + k * 6, 26 + k * 6], [0, 1], cl), background: YEL, opacity: 0.75, borderRadius: 6 }} />
@@ -94,7 +98,7 @@ const Sprout: React.FC<{ pose: string; x?: number; y?: number; size?: number }> 
   const hop = interpolate(lf, [0, 5, 10, 14], [60, -26, 6, 0], cl);
   return <Img src={staticFile(`sprout/${pose}.png`)} style={{ position: "absolute", left: x, top: y + hop, width: size, height: size, opacity: interpolate(lf, [0, 4], [0, 1], cl) }} />;
 };
-const Label: React.FC<{ x: number; y: number; text: string; dx?: number; dy?: number }> = ({ x, y, text, dx = 160, dy = -120 }) => {
+export const Label: React.FC<{ x: number; y: number; text: string; dx?: number; dy?: number }> = ({ x, y, text, dx = 160, dy = -120 }) => {
   const lf = useCurrentFrame();
   const k = interpolate(lf, [0, 12], [0, 1], { ...cl, easing: out });
   return (
@@ -120,14 +124,22 @@ const Photo: React.FC<{ src: string; credit: string; fit?: "cover" | "contain"; 
 };
 
 // ---------------- 3D black hole scenes ----------------
-type ShotFn = (s: number) => BHShot & { beta?: number };
+type Float = { pose: string; x: number; y: number; size?: number; flip?: boolean; tilt?: number };
+type ShotFn = (s: number) => BHShot & { beta?: number; sprout?: Float; spin?: number };
+// Sprout drifting in space next to the black hole (a 2D layer over the 3D view): slow bob, sway and turn
+const FloatSprout: React.FC<{ f: Float; s: number }> = ({ f, s }) => {
+  const size = f.size ?? 300;
+  const bob = Math.sin(s * 1.3) * 18, sway = Math.sin(s * 0.7) * 14, rot = (f.tilt ?? 0) + Math.sin(s * 0.9) * 9;
+  return <Img src={staticFile(`sprout/${f.pose}.png`)} style={{ position: "absolute", left: f.x - size / 2 + sway, top: f.y - size / 2 + bob, width: size, height: size, transform: `rotate(${rot}deg) scaleX(${f.flip ? -1 : 1})`, filter: "drop-shadow(0 0 24px rgba(255,170,90,0.35))" }} />;
+};
 const BH: React.FC<{ shot: ShotFn; credit?: string; badge?: string; children?: React.ReactNode; hideHole?: boolean }> = ({ shot, credit = "Illustration based on NASA Goddard (2024)", badge = "ILLUSTRATION", children, hideHole }) => {
   const fr = useCurrentFrame();
   const s = fr / FPS;
   const sh = shot(s);
   return (
     <AbsoluteFill>
-      <BlackHole shot={sh} t={s + 40} beta={sh.beta ?? 0} hideHole={hideHole}>{children}</BlackHole>
+      <BlackHole shot={sh} t={s * (sh.spin ?? 1) + 40} beta={sh.beta ?? 0} hideHole={hideHole}>{children}</BlackHole>
+      {sh.sprout && <FloatSprout f={sh.sprout} s={s} />}
       <Badge text={badge} />
       <Credit text={credit} />
     </AbsoluteFill>
@@ -140,13 +152,13 @@ const prog = (s: number, a: number, b: number) => interpolate(s, [0, b - a], [0,
 // hook: slow push-in on the hero view
 const hookShot: ShotFn = (s) => orbit(0.25 - s * 0.01, lerp(75, 42, Math.min(1, s / 14)), lerp(9, 4, Math.min(1, s / 14)));
 // the approach (lines 9-19): from far away to close enough to see the photon rings
-const approach: ShotFn = (s) => {
+export const approach: ShotFn = (s) => {
   const k = prog(s, S(9), S(20));
   const r = lerp(260, 14, Math.pow(k, 0.8));
   return { ...orbit(0.1 + k * 0.5, r, lerp(30, 1.4, k)), fov: 45 };
 };
 // the size section: a wide, slowly turning view
-const wide: ShotFn = (s) => orbit(1.2 + s * 0.02, 70, 22);
+export const wide: ShotFn = (s) => orbit(1.2 + s * 0.02, 70, 22);
 // the fall (35-42): spiral in, speeding up; the camera looks a little ahead of the hole
 const fall: ShotFn = (s) => {
   const k = prog(s, S(35), S(43));
@@ -169,7 +181,42 @@ const flyby: ShotFn = (s) => {
   const r = 4.2 + Math.pow(Math.abs(k - 0.45) * 2.2, 2) * 30;
   return { pos: V(Math.sin(a) * r, 0.9 + k * 3, Math.cos(a) * r), look: O, beta: 0.3 * (1 - Math.abs(k - 0.45) * 2), fov: 55 };
 };
-const recap: ShotFn = (s) => orbit(-0.4 + s * 0.015, 34, 3.2);
+export const recap: ShotFn = (s) => orbit(-0.4 + s * 0.015, 34, 3.2);
+
+// ---- shot library: the same black hole from many angles, cut every few seconds ----
+const UP = V(0, 1, 0);
+const offset = (pos: THREE.Vector3, side: number): THREE.Vector3 => {
+  // look a little to one side so the hole sits on a third of the frame (side > 0: hole on the left)
+  const d = O.clone().sub(pos).normalize();
+  const right = d.clone().cross(UP).normalize();
+  return O.clone().addScaledVector(right, side * pos.length() * 0.22);
+};
+type Gen = (u: number, r: number) => BHShot & { sprout?: Float; spin?: number };
+const G: Record<string, Gen> = {
+  front: (u, r) => ({ ...orbit(0.15 + u * 0.03, r, r * 0.12), fov: 45 }),
+  leftThird: (u, r) => { const p = orbit(0.9 + u * 0.025, r, r * 0.16).pos; return { pos: p, look: offset(p, 1), fov: 45, sprout: { pose: "happy", x: 1450, y: 560, size: 300 } }; },
+  rightThird: (u, r) => { const p = orbit(-0.7 - u * 0.025, r, r * 0.1).pos; return { pos: p, look: offset(p, -1), fov: 45, sprout: { pose: "wink", x: 470, y: 600, size: 280, flip: true } }; },
+  top: (u, r) => ({ pos: V(0.01, r * 1.1 - u * 0.4, 0.01), look: O, up: V(Math.sin(u * 0.05), 0, Math.cos(u * 0.05)), fov: 50 }),
+  low: (u, r) => ({ ...orbit(2.1 + u * 0.035, r * 0.8, -r * 0.18), fov: 48 }),
+  skim: (u, r) => { const a = 1.6 + u * 0.06, rr = Math.max(7, r * 0.35); const p = V(Math.sin(a) * rr, 0.45, Math.cos(a) * rr); return { pos: p, look: V(Math.sin(a + 1.1) * rr * 0.5, 0, Math.cos(a + 1.1) * rr * 0.5), fov: 55 }; },
+  close: (u, r) => { const p = orbit(0.5 + u * 0.04, Math.max(9, r * 0.3), 1.6).pos; return { pos: p, look: offset(p, 0.6), fov: 40, sprout: { pose: "excited", x: 1520, y: 300, size: 220, tilt: -12 } }; },
+};
+const cuts = (names: string[], r: (s: number) => number, every = 5): ShotFn => (s) => {
+  const k = Math.floor(s / every);
+  const sh = G[names[k % names.length]](s - k * every, r(s));
+  return sh;
+};
+
+// the fall, intercut: POV (stars shift) and a chase view with Sprout as the falling astronaut
+const fallCut: ShotFn = (s) => {
+  const k = Math.floor(s / 4.5);
+  const base = fall(s);
+  if (k % 2 === 0) return base;
+  const kk = prog(s, S(35), S(43));
+  const a = 2.6 + kk * Math.PI * 2 * 1.9 - 0.25, r = lerp(48, 7.5, kk) + 6;
+  return { pos: V(Math.sin(a) * r, lerp(7, 2, kk), Math.cos(a) * r), look: O, beta: 0, fov: 50, sprout: { pose: kk > 0.6 ? "shock" : "side", x: 760, y: 640, size: lerp(260, 200, kk), tilt: -10 } };
+};
+
 
 // a small probe for the friend's view: it slows, reddens and freezes just shy of the horizon
 const Probe: React.FC<{ s: number }> = ({ s }) => {
@@ -193,11 +240,71 @@ const FriendScene: React.FC = () => {
   const fr = useCurrentFrame();
   const s = fr / FPS;
   return (
-    <BH shot={() => ({ ...orbit(0.8, 46, 5), fov: 40 })}>
+    <BH shot={cuts(["friendA", "friendB"], () => 0, 6)}>
       <Probe s={s} />
     </BH>
   );
 };
+
+// ---- a star torn apart (ILLUSTRATION of a tidal disruption, after ESO's description) ----
+const TDE_N = 1400;
+const TdeStar: React.FC<{ u: number }> = ({ u }) => {
+  const P = 11, t0 = 4.5; // orbit parameter; disruption starts at u = t0
+  const th = (x: number) => -2.5 + Math.min(x, t0) * (2.5 / t0) + Math.max(0, x - t0) * 0.35; // true anomaly of the star's centre
+  const at = (theta: number, shrink: number) => { const r = (P / (1 + Math.cos(theta))) * shrink; return V(r * Math.cos(theta), 0.2, r * Math.sin(theta)); };
+  const k = Math.max(0, u - t0);
+  const geo = React.useMemo(() => new THREE.BufferGeometry(), []);
+  const pos = new Float32Array(TDE_N * 3), col = new Float32Array(TDE_N * 3);
+  for (let i = 0; i < TDE_N; i++) {
+    const f = i / (TDE_N - 1) - 0.5; // -0.5 trailing .. +0.5 leading
+    const spread = Math.min(1, k / 6);
+    const theta = th(u) + f * 2.6 * spread + (f > 0 ? f * k * 0.5 : 0);
+    const lead = Math.max(0, f) * 2; // leading half falls inward toward the disk
+    const p = at(Math.min(theta, 3.0), 1 - 0.75 * lead * Math.min(1, k / 7));
+    const j = Math.sin(i * 12.9898) * 0.35 * spread;
+    pos.set([p.x + j, p.y + Math.cos(i * 4.1) * 0.25 * spread, p.z - j], i * 3);
+    const hot = 0.55 + 0.45 * (1 - Math.abs(f) * 1.6);
+    col.set([1, 0.55 + 0.4 * hot, 0.25 + 0.6 * hot * hot], i * 3);
+  }
+  geo.setAttribute("position", new THREE.BufferAttribute(pos, 3));
+  geo.setAttribute("color", new THREE.BufferAttribute(col, 3));
+  const core = at(th(u), 1);
+  const starR = Math.max(0, 1.3 * (1 - Math.min(1, k / 3)));
+  return (
+    <>
+      {starR > 0.02 && (
+        <mesh position={core} scale={[1 + Math.min(1, k) * 0.8, 1, 1]}>
+          <sphereGeometry args={[starR, 32, 32]} />
+          <meshBasicMaterial color="#FFE7B0" />
+        </mesh>
+      )}
+      {k > 0 && (
+        <points geometry={geo}>
+          <pointsMaterial size={0.32} vertexColors transparent opacity={0.9} depthWrite={false} blending={THREE.AdditiveBlending} />
+        </points>
+      )}
+    </>
+  );
+};
+const TdeScene: React.FC = () => {
+  const s = useCurrentFrame() / FPS;
+  return (
+    <BH shot={cuts(["tdeWide", "tdeClose", "tdeTop"], () => 46, 6)} credit="Illustration based on ESO (2020)">
+      <TdeStar u={s * 0.55} />
+    </BH>
+  );
+};
+G.tdeWide = (u) => ({ ...orbit(0.95 + u * 0.02, 44, 13), look: V(4, 0, 2), fov: 45 });
+G.tdeClose = (u) => ({ pos: V(16 + u * 0.3, 5, 14), look: V(3, 0, 3), fov: 45, sprout: { pose: "shock", x: 1600, y: 760, size: 240 } });
+G.tdeTop = (u) => ({ pos: V(2, 52 - u * 0.5, 0.01), look: V(2, 0, 0), up: V(0, 0, -1), fov: 50 });
+const PhotoCard: React.FC<{ src: string; credit: string }> = ({ src, credit }) => (
+  <div style={{ position: "absolute", left: 1230, top: 430, width: 600, ...useIn() }}>
+    <div style={{ background: "#FFFFFF", border: `5px solid ${INK}`, borderRadius: 18, padding: 12, boxShadow: "0 12px 0 rgba(0,0,0,0.35)" }}>
+      <Img src={staticFile(`cm02/img/${src}`)} style={{ width: "100%", borderRadius: 10, display: "block" }} />
+      <div style={{ fontFamily: "Pretendard", fontWeight: 800, fontSize: 22, color: INK, marginTop: 8, opacity: 0.75 }}>{credit}</div>
+    </div>
+  </div>
+);
 
 // ---------------- 2D explainers ----------------
 const Clock: React.FC<{ x: number; y: number; label: string; speed: number; color?: string; sub?: string }> = ({ x, y, label, speed, color = "#FFFFFF", sub }) => {
@@ -266,6 +373,17 @@ const SizeCompare: React.FC = () => {
         <Hole cx={520} r={46} zone={190} title="Small (stellar-mass)" sub="up to ~30 Suns" zoneIn={false} />
         <Hole cx={1400} r={250} zone={150} title="Giant (supermassive)" sub="millions of Suns" zoneIn />
       </svg>
+      {(() => {
+        // small hole: stretched and gone before the edge
+        const xa = interpolate(lf, [60, 260], [110, 440], { ...cl, easing: Easing.in(Easing.quad) });
+        const st = interpolate(xa, [330, 440], [0, 1], cl);
+        const sa = <Img key="a" src={staticFile("sprout/shock.png")} style={{ position: "absolute", left: xa - 90, top: 520 - 90, width: 180, height: 180, opacity: lf < 60 ? 0 : 1 - st, transform: `scale(${1 + st * 2.4}, ${1 - st * 0.75})`, transformOrigin: "100% 50%" }} />;
+        // giant hole: reaches the edge in one piece, then disappears inside
+        const xb = interpolate(lf, [330, 560], [880, 1180], { ...cl, easing: Easing.in(Easing.quad) });
+        const sb = interpolate(lf, [560, 640], [1, 0], cl);
+        const b2 = <Img key="b" src={staticFile("sprout/happy.png")} style={{ position: "absolute", left: xb - 90, top: 520 - 90, width: 180, height: 180, opacity: lf < 330 ? 0 : 1, transform: `scale(${sb})` }} />;
+        return [sa, b2];
+      })()}
       <Badge text="ILLUSTRATION · not to scale" />
     </AbsoluteFill>
   );
@@ -364,28 +482,39 @@ const Captions: React.FC = () => {
 };
 
 // ---------------- the edit ----------------
+const rApproach = (s: number) => lerp(260, 14, Math.pow(prog(s, S(9), S(20)), 0.8));
+const withSprout = (fn: ShotFn, f: Float): ShotFn => (s) => ({ ...fn(s), sprout: f });
+const spinTop: ShotFn = (s) => ({ ...G.top(s, 40), spin: 7 });
+G.recapRight = (u, r) => ({ ...G.rightThird(u, r), sprout: { pose: "happy", x: 1640, y: 800, size: 220 } });
+G.friendA = () => ({ ...orbit(0.8, 46, 5), fov: 40 });
+G.friendB = (u) => ({ ...orbit(0.25 + u * 0.01, 40, 15), fov: 42 });
 const SCENES: [number, React.ReactNode][] = [
   [0, <BH shot={hookShot} />],
+  [S(1), <BH shot={cuts(["close"], () => 32)} />],
   [S(2), <Photo src="nasa-allsky.jpg" credit="NASA's Goddard Space Flight Center / J. Schnittman and B. Powell (2024)" fit="cover" />],
-  [S(5), <BH shot={(s) => orbit(2.4 + s * 0.03, 90, 18)} />],
-  [S(9), <BH shot={approach} />],
-  [S(20), <BH shot={wide} />],
+  [S(4), <BH shot={cuts(["top", "rightThird"], () => 44)} />],
+  [S(5), <BH shot={cuts(["leftThird", "top", "skim", "rightThird", "low"], () => 60)} />],
+  [S(9), <BH shot={cuts(["front", "leftThird", "low", "rightThird", "top", "front", "close", "skim", "leftThird", "front", "rightThird", "close"], rApproach)} />],
+  [S(20), <BH shot={cuts(["leftThird", "top", "rightThird", "low"], () => 70)} />],
   [S(24), <Photo src="sgra.jpg" credit="EHT Collaboration (CC BY 4.0), via ESO" fit="contain" zoom={[1, 1.08]} />],
+  [S(26), <BH shot={cuts(["front", "close"], () => 30)} />],
+  [S(27), <Photo src="sgra.jpg" credit="EHT Collaboration (CC BY 4.0), via ESO" fit="contain" zoom={[1.08, 1.2]} />],
+  [S(28), <BH shot={spinTop} />],
   [S(29), <Photo src="m87.jpg" credit="EHT Collaboration (CC BY 4.0), via ESO" fit="contain" zoom={[1, 1.08]} />],
-  [S(30), <BH shot={(s) => orbit(-1 + s * 0.02, 120, 40)} />],
-  [S(35), <BH shot={fall} />],
+  [S(30), <BH shot={cuts(["rightThird", "front", "leftThird", "low", "top", "skim"], () => 110)} />],
+  [S(35), <BH shot={fallCut} />],
   [S(44), <FriendScene />],
   [S(50), <BH shot={dive} />],
   [S(53), <SkyWindow />],
-  [S(54), <BH shot={(s) => ({ ...orbit(0.3, 16 - s * 0.3, 1.2), fov: 50 })} />],
+  [S(54), <BH shot={cuts(["close", "skim"], () => 16, 4)} />],
   [S(56), <Noodle />],
   [S(60), <Singularity />],
   [S(61), <SizeCompare />],
-  [S(68), <Photo src="tde.jpg" credit="Artist's impression: ESO / M. Kornmesser (CC BY 4.0)" />],
-  [S(76), <BH shot={flyby} />],
-  [S(80), <AbsoluteFill style={{ background: "radial-gradient(80% 80% at 50% 40%, #1A1D33 0%, #05060C 70%)" }} />],
+  [S(68), <TdeScene />],
+  [S(76), <BH shot={withSprout(flyby, { pose: "excited", x: 1500, y: 720, size: 240 })} />],
+  [S(80), <BH shot={cuts(["top", "low"], () => 40)} />],
   [S(84), <Singularity />],
-  [S(89), <BH shot={recap} />],
+  [S(89), <BH shot={cuts(["recapRight", "top", "close", "low", "skim", "front"], () => 34)} />],
   [S(97), <Photo src="nasa-allsky.jpg" credit="NASA's Goddard Space Flight Center / J. Schnittman and B. Powell (2024)" />],
   [S(98), <NextTime />],
 ];
@@ -398,11 +527,11 @@ const OVER: [number, number, React.ReactNode][] = [
   [S(7), S(8), <Src name="n-dc" />],
   [S(8), S(9), <Line text="The camera = you" sub="“a stand-in for a daring astronaut” (NASA)" />],
   [S(9), S(11), <Src name="n-start" width={1200} />],
-  [S(11), S(12), <Label x={960} y={540} text="event horizon" dx={260} dy={-200} />],
+  [S(11), S(12), <Line text="Event horizon" sub="the edge of the black hole" size={56} />],
   [S(12), S(14), <Src name="an-light" width={1200} y={120} />],
-  [S(15), S(16), <Label x={760} y={600} text="accretion disk (hot gas)" dx={-240} dy={-220} />],
+  [S(15), S(16), <Line text="Accretion disk" sub="hot, spinning gas" size={56} />],
   [S(16), S(17), <Src name="an-blue" width={1200} y={120} />],
-  [S(18), S(20), <Label x={1060} y={430} text="photon rings" dx={240} dy={-180} />],
+  [S(18), S(20), <Line text="Photon rings" sub="light that went around the black hole" size={56} />],
   [S(21), S(22), <Src name="n-mass" />],
   [S(22), S(23), <Src name="n-horizon" y={120} />],
   [S(22), S(23), <EarthSun />],
@@ -435,6 +564,7 @@ const OVER: [number, number, React.ReactNode][] = [
   [S(63), S(65), <Src name="n-super" width={1250} y={60} marks={["rip apart approaching objects before they get to the horizon"]} />],
   [S(67), S(68), <Src name="n-super" width={1250} y={60} marks={["you want to fall into a supermassive black hole"]} />],
   [S(69), S(71), <Src name="eso-215" width={1250} y={110} />],
+  [S(69), S(72), <PhotoCard src="tde.jpg" credit="Artist’s impression: ESO / M. Kornmesser (CC BY 4.0)" />],
   [S(71), S(72), <Src name="eso-shred" width={1150} y={110} />],
   [S(72), S(73), <Src name="eso-half" width={1250} y={110} />],
   [S(73), S(74), <Stat big="10,000 km/s" small="debris blasted outward (ESO, 2020)" />],
