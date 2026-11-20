@@ -227,7 +227,7 @@ const Wool: React.FC = () => {
     return new THREE.TubeGeometry(new THREE.CatmullRomCurve3(pts), 60, 0.04, 8, false);
   }), []);
   return (
-    <Obj names={["close", "hero", "macro"]} every={4} spin={0.25}>
+    <Obj names={["hero", "side", "top"]} every={4} spin={0.25}>
       {curves.slice(0, n).map((g, i) => <mesh key={i} geometry={g}><meshStandardMaterial color="#C8324A" roughness={0.95} /></mesh>)}
     </Obj>
   );
@@ -237,7 +237,7 @@ const Candle: React.FC = () => {
   const s = useCurrentFrame() / FPS;
   return (
     <AbsoluteFill>
-      <Stage3 shot={cuts(["hero", "close"], 4)(s)} bg="#0B0806">
+      <Stage3 shot={s % 8 < 4 ? orbit(0.3 + s * 0.05, 7.5, 2.4, V(0, 0.7, 0)) : orbit(1.4 + s * 0.04, 5.2, 1.6, V(0, 1.2, 0))} bg="#0B0806">
         <Dodecahedron rot={[0, 0.4, 0]} />
         <mesh position={[0, 1.6, 0]}><cylinderGeometry args={[0.22, 0.22, 1.4, 24]} /><meshStandardMaterial color="#F2E8D2" roughness={0.7} /></mesh>
         <mesh position={[0, 2.45 + Math.sin(s * 12) * 0.02, 0]}><coneGeometry args={[0.1, 0.35, 16]} /><meshBasicMaterial color="#FFC861" /></mesh>
