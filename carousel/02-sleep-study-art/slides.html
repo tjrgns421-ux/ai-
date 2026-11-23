@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>명화 수면 캐러셀</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@500;700;900&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root { --ink: #f6f1e7; --muted: rgba(246,241,231,.72); --gold: #d8b56a; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #222; font-family: 'Noto Sans KR', sans-serif; color: var(--ink); }
+  .slide { width: 1080px; height: 1350px; position: relative; overflow: hidden; background: #0b0b0c; margin-bottom: 40px; letter-spacing: -0.02em; }
+  .slide > img.bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  .shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,.55) 0%, rgba(0,0,0,0) 22%, rgba(0,0,0,0) 42%, rgba(0,0,0,.82) 72%, rgba(0,0,0,.94) 100%); }
+  .shade.strong { background: linear-gradient(180deg, rgba(0,0,0,.6) 0%, rgba(0,0,0,.05) 22%, rgba(0,0,0,.1) 36%, rgba(0,0,0,.88) 64%, rgba(0,0,0,.96) 100%); }
+  .top { position: absolute; top: 64px; left: 80px; right: 80px; display: flex; justify-content: space-between; font-size: 24px; letter-spacing: .18em; color: var(--muted); font-weight: 500; }
+  .top b { color: var(--gold); }
+  .text { position: absolute; left: 80px; right: 80px; bottom: 150px; }
+  .credit { position: absolute; left: 80px; bottom: 72px; font-size: 22px; color: rgba(246,241,231,.55); font-family: 'Noto Serif KR', serif; }
+  .swipe { position: absolute; right: 80px; bottom: 72px; font-size: 24px; color: var(--gold); font-weight: 700; letter-spacing: .08em; }
+  h1, h2 { font-family: 'Noto Serif KR', serif; font-weight: 900; line-height: 1.24; letter-spacing: -0.04em; text-shadow: 0 2px 24px rgba(0,0,0,.5); }
+  h1 { font-size: 108px; }
+  h2 { font-size: 80px; }
+  .gold { color: var(--gold); }
+  .sub { font-size: 36px; line-height: 1.55; color: var(--ink); margin-top: 30px; opacity: .9; }
+  .sub b { color: var(--gold); font-weight: 700; }
+  .chip { display: inline-block; border: 2px solid var(--gold); color: var(--gold); font-size: 28px; font-weight: 700; padding: 10px 22px; margin-bottom: 34px; background: rgba(0,0,0,.35); }
+  .big { font-family: 'Noto Serif KR', serif; font-weight: 900; font-size: 280px; line-height: .95; color: var(--gold); letter-spacing: -0.05em; text-shadow: 0 4px 40px rgba(0,0,0,.6); }
+  /* framed painting */
+  .framed { position: absolute; left: 50%; top: 150px; transform: translateX(-50%); width: 700px; padding: 18px; background: linear-gradient(135deg, #8a6a2c, #e3c27a 40%, #9c7834 70%, #d8b56a); box-shadow: 0 30px 80px rgba(0,0,0,.7); }
+  .framed img { display: block; width: 100%; border: 6px solid #1a140a; }
+  .plain { background: radial-gradient(120% 80% at 50% 0%, #1b1710 0%, #0b0b0c 60%); }
+  .list { margin-top: 44px; display: grid; gap: 26px; }
+  .list div { font-size: 36px; line-height: 1.45; padding-left: 34px; border-left: 4px solid var(--gold); }
+  .list div span { display: block; font-size: 26px; color: var(--muted); margin-top: 4px; }
+</style>
+</head>
+<body>
+
+<!-- 1 -->
+<section class="slide">
+  <img class="bg" src="img/02-orrery.jpg" style="object-position: 30% 50%">
+  <div class="shade"></div>
+  <div class="top"><span>TOP <b>1%</b> SELF-CARE</span><span>01 / 10</span></div>
+  <div class="text">
+    <div class="chip">미국 대학생 1,100여 명 실험</div>
+    <h1>밤새 공부한 너,<br><span class="gold">손해 본 거다</span></h1>
+  </div>
+  <div class="credit">조지프 라이트, 「태양계 모형을 강의하는 철학자」, 1766</div>
+  <div class="swipe">SWIPE →</div>
+</section>
+
+<!-- 2 -->
+<section class="slide plain">
+  <div class="framed"><img src="img/09-rembrandt.jpg"></div>
+  <div class="top"><span>TOP <b>1%</b> SELF-CARE</span><span>02 / 10</span></div>
+  <div class="text">
+    <h2>이 실험,<br><span class="gold">진짜 있었다</span></h2>
+    <p class="sub">미국 피츠버그대 등 공동 연구팀<br><b>Journal of Political Economy</b>, 2026</p>
+  </div>
+  <div class="credit">렘브란트, 「명상 중인 철학자」, 1632</div>
+  <div class="swipe">→</div>
+</section>
+
+<!-- 3 -->
+<section class="slide">
+  <img class="bg" src="img/03-moneylender.jpg" style="object-position: 50% 30%">
+  <div class="shade strong"></div>
+  <div class="top"><span>TOP <b>1%</b> SELF-CARE</span><span>03 / 10</span></div>
+  <div class="text">
+    <h2>7시간 자면<br><span class="gold">돈을 줬다</span></h2>
+    <p class="sub">하룻밤에 약 <b>5달러</b>, 4주 동안</p>
+  </div>
+  <div class="credit">쿠엔틴 마시스, 「환전상과 그의 아내」, 1514</div>
+  <div class="swipe">→</div>
+</section>
+
+<!-- 4 -->
+<section class="slide">
+  <img class="bg" src="img/04-nightcafe.jpg" style="object-position: 45% 50%">
+  <div class="shade strong"></div>
+  <div class="top"><span>TOP <b>1%</b> SELF-CARE</span><span>04 / 10</span></div>
+  <div class="text">
+    <h2>실험 전, 절반은<br><span class="gold">새벽 1시</span> 넘어 잤다</h2>
+    <p class="sub">평균 수면 <b>6.6시간</b></p>
+  </div>
+  <div class="credit">빈센트 반 고흐, 「밤의 카페」, 1888</div>
+  <div class="swipe">→</div>
+</section>
+
+<!-- 5 -->
+<section class="slide">
+  <img class="bg" src="img/05-flamingjune.jpg" style="object-position: 55% 50%">
+  <div class="shade strong"></div>
+  <div class="top"><span>TOP <b>1%</b> SELF-CARE</span><span>05 / 10</span></div>
+  <div class="text">
+    <div class="big">+26%</div>
+    <p class="sub">7시간 이상 잔 날이 26% 늘었다<br>하루 약 <b>19분</b> 더 잤다</p>
+  </div>
+  <div class="credit">프레더릭 레이턴, 「타오르는 6월」, 1895</div>
+  <div class="swipe">→</div>
+</section>
+
+<!-- 6 -->
+<section class="slide">
+  <img class="bg" src="img/06-athens.jpg" style="object-position: 50% 40%">
+  <div class="shade strong"></div>
+  <div class="top"><span>TOP <b>1%</b> SELF-CARE</span><span>06 / 10</span></div>
+  <div class="text">
+    <h2>그리고 그 학기,<br><span class="gold">학점이 올랐다</span></h2>
+    <p class="sub">GPA 약 <b>+0.08점</b></p>
+  </div>
+  <div class="credit">라파엘로, 「아테네 학당」, 1509–1511</div>
+  <div class="swipe">→</div>
+</section>
+
+<!-- 7 -->
+<section class="slide">
+  <img class="bg" src="img/07-astronomer.jpg" style="object-position: 35% 50%">
+  <div class="shade"></div>
+  <div class="top"><span>TOP <b>1%</b> SELF-CARE</span><span>07 / 10</span></div>
+  <div class="text">
+    <h2>공부 시간은 그대로.<br><span class="gold">아침으로</span> 옮겼을 뿐</h2>
+    <p class="sub">더 한 게 아니라, 잠을 채운 머리로 했다</p>
+  </div>
+  <div class="credit">요하네스 페르메이르, 「천문학자」, 1668</div>
+  <div class="swipe">→</div>
+</section>
+
+<!-- 8 -->
+<section class="slide">
+  <img class="bg" src="img/08-bedroom.jpg" style="object-position: 62% 50%">
+  <div class="shade strong"></div>
+  <div class="top"><span>TOP <b>1%</b> SELF-CARE</span><span>08 / 10</span></div>
+  <div class="text">
+    <h2>오늘 밤엔<br>기상 알람 말고<br><span class="gold">취침 알람</span></h2>
+    <p class="sub">실험에서도 매일 밤 취침 알림을 보냈다</p>
+  </div>
+  <div class="credit">빈센트 반 고흐, 「아를의 침실」, 1888</div>
+  <div class="swipe">→</div>
+</section>
+
+<!-- 9 -->
+<section class="slide plain">
+  <div class="top"><span>TOP <b>1%</b> SELF-CARE</span><span>09 / 10</span></div>
+  <div class="text" style="bottom: 200px">
+    <h2>단, 알고는<br><span class="gold">있어야 할 것</span></h2>
+    <div class="list">
+      <div>미국 대학생 대상 연구<span>직장인에게 그대로 적용된다고 볼 순 없다</span></div>
+      <div>학점 효과는 두 학기 뒤 사라졌다<span>다음 학기까지는 유지됐다</span></div>
+      <div>잠 습관은 남았다<span>돈 지급이 끝난 뒤에도 하루 약 8분 더 잤다</span></div>
+    </div>
+  </div>
+  <div class="swipe">→</div>
+</section>
+
+<!-- 10 -->
+<section class="slide">
+  <img class="bg" src="img/10-wanderer.jpg" style="object-position: 50% 30%">
+  <div class="shade strong"></div>
+  <div class="top"><span>TOP <b>1%</b> SELF-CARE</span><span>10 / 10</span></div>
+  <div class="text">
+    <h2 style="font-size:82px">성실함은<br>버티는 시간이 아니라<br><span class="gold">회복하는 습관</span>이다</h2>
+    <p class="sub">저장해두고, 오늘 밤 취침 알람부터<br>팔로우 <b>@top1.routine</b></p>
+  </div>
+  <div class="credit">카스파르 다비트 프리드리히, 「안개 바다 위의 방랑자」, 1818년경</div>
+</section>
+
+</body>
+</html>
