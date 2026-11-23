@@ -1,0 +1,317 @@
+[
+ {
+  "text": "Think",
+  "start": 0.1,
+  "end": 0.343,
+  "display": "Think",
+  "break": false
+ },
+ {
+  "text": "about",
+  "start": 0.355,
+  "end": 0.549,
+  "display": "about",
+  "break": false
+ },
+ {
+  "text": "what",
+  "start": 0.561,
+  "end": 0.707,
+  "display": "what",
+  "break": false
+ },
+ {
+  "text": "that",
+  "start": 0.719,
+  "end": 0.877,
+  "display": "that",
+  "break": false
+ },
+ {
+  "text": "means",
+  "start": 0.889,
+  "end": 1.18,
+  "display": "means",
+  "break": false
+ },
+ {
+  "text": "for",
+  "start": 1.192,
+  "end": 1.301,
+  "display": "for",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 1.314,
+  "end": 1.399,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "gibberish",
+  "start": 1.411,
+  "end": 1.872,
+  "display": "gibberish",
+  "break": false
+ },
+ {
+  "text": "theory",
+  "start": 1.884,
+  "end": 2.224,
+  "display": "theory.",
+  "break": true
+ },
+ {
+  "text": "One",
+  "start": 2.574,
+  "end": 2.878,
+  "display": "One",
+  "break": false
+ },
+ {
+  "text": "bored",
+  "start": 2.89,
+  "end": 3.157,
+  "display": "bored",
+  "break": false
+ },
+ {
+  "text": "prankster",
+  "start": 3.169,
+  "end": 3.703,
+  "display": "prankster",
+  "break": false
+ },
+ {
+  "text": "is",
+  "start": 3.715,
+  "end": 3.921,
+  "display": "is",
+  "break": false
+ },
+ {
+  "text": "easy",
+  "start": 3.982,
+  "end": 4.273,
+  "display": "easy",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 4.285,
+  "end": 4.407,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "imagine",
+  "start": 4.419,
+  "end": 4.892,
+  "display": "imagine.",
+  "break": true
+ },
+ {
+  "text": "Five",
+  "start": 5.244,
+  "end": 5.56,
+  "display": "Five",
+  "break": false
+ },
+ {
+  "text": "people",
+  "start": 5.572,
+  "end": 5.972,
+  "display": "people,",
+  "break": true
+ },
+ {
+  "text": "carefully",
+  "start": 6.009,
+  "end": 6.434,
+  "display": "carefully",
+  "break": false
+ },
+ {
+  "text": "producing",
+  "start": 6.446,
+  "end": 6.943,
+  "display": "producing",
+  "break": false
+ },
+ {
+  "text": "two",
+  "start": 6.955,
+  "end": 7.162,
+  "display": "two",
+  "break": false
+ },
+ {
+  "text": "hundred",
+  "start": 7.174,
+  "end": 7.611,
+  "display": "hundred",
+  "break": false
+ },
+ {
+  "text": "and",
+  "start": 7.623,
+  "end": 7.756,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "forty",
+  "start": 7.768,
+  "end": 8.096,
+  "display": "forty",
+  "break": false
+ },
+ {
+  "text": "pages",
+  "start": 8.108,
+  "end": 8.606,
+  "display": "pages",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 8.618,
+  "end": 8.703,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "nonsense",
+  "start": 8.715,
+  "end": 9.37,
+  "display": "nonsense",
+  "break": false
+ },
+ {
+  "text": "that",
+  "start": 9.383,
+  "end": 9.552,
+  "display": "that",
+  "break": false
+ },
+ {
+  "text": "stays",
+  "start": 9.565,
+  "end": 9.977,
+  "display": "stays",
+  "break": false
+ },
+ {
+  "text": "consistent",
+  "start": 9.989,
+  "end": 10.511,
+  "display": "consistent",
+  "break": false
+ },
+ {
+  "text": "across",
+  "start": 10.523,
+  "end": 10.912,
+  "display": "across",
+  "break": false
+ },
+ {
+  "text": "all",
+  "start": 10.936,
+  "end": 11.094,
+  "display": "all",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 11.106,
+  "end": 11.166,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "them",
+  "start": 11.179,
+  "end": 11.373,
+  "display": "them,",
+  "break": true
+ },
+ {
+  "text": "is",
+  "start": 11.47,
+  "end": 11.555,
+  "display": "is",
+  "break": false
+ },
+ {
+  "text": "harder",
+  "start": 11.567,
+  "end": 11.943,
+  "display": "harder.",
+  "break": true
+ },
+ {
+  "text": "Not",
+  "start": 12.295,
+  "end": 12.574,
+  "display": "Not",
+  "break": false
+ },
+ {
+  "text": "impossible",
+  "start": 12.586,
+  "end": 13.23,
+  "display": "impossible,",
+  "break": true
+ },
+ {
+  "text": "a",
+  "start": 13.278,
+  "end": 13.327,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "workshop",
+  "start": 13.339,
+  "end": 13.764,
+  "display": "workshop",
+  "break": false
+ },
+ {
+  "text": "could",
+  "start": 13.776,
+  "end": 13.946,
+  "display": "could",
+  "break": false
+ },
+ {
+  "text": "do",
+  "start": 13.958,
+  "end": 14.116,
+  "display": "do",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 14.128,
+  "end": 14.261,
+  "display": "it,",
+  "break": true
+ },
+ {
+  "text": "but",
+  "start": 14.285,
+  "end": 14.431,
+  "display": "but",
+  "break": false
+ },
+ {
+  "text": "harder",
+  "start": 14.443,
+  "end": 14.819,
+  "display": "harder.",
+  "break": true
+ }
+]

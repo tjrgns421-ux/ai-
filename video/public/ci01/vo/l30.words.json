@@ -1,0 +1,149 @@
+[
+ {
+  "text": "The",
+  "start": 0.1,
+  "end": 0.27,
+  "display": "The",
+  "break": false
+ },
+ {
+  "text": "output",
+  "start": 0.282,
+  "end": 0.707,
+  "display": "output",
+  "break": false
+ },
+ {
+  "text": "reproduces",
+  "start": 0.719,
+  "end": 1.338,
+  "display": "reproduces",
+  "break": false
+ },
+ {
+  "text": "many",
+  "start": 1.35,
+  "end": 1.738,
+  "display": "many",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 1.75,
+  "end": 1.823,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 1.835,
+  "end": 1.896,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "manuscript's",
+  "start": 1.908,
+  "end": 2.576,
+  "display": "manuscript's",
+  "break": false
+ },
+ {
+  "text": "quirks",
+  "start": 2.588,
+  "end": 3.073,
+  "display": "quirks",
+  "break": false
+ },
+ {
+  "text": "symbol",
+  "start": 3.207,
+  "end": 3.522,
+  "display": "symbol",
+  "break": false
+ },
+ {
+  "text": "frequencies",
+  "start": 3.534,
+  "end": 4.226,
+  "display": "frequencies,",
+  "break": true
+ },
+ {
+  "text": "word",
+  "start": 4.323,
+  "end": 4.602,
+  "display": "word",
+  "break": false
+ },
+ {
+  "text": "lengths",
+  "start": 4.615,
+  "end": 4.979,
+  "display": "lengths,",
+  "break": true
+ },
+ {
+  "text": "where",
+  "start": 5.039,
+  "end": 5.173,
+  "display": "where",
+  "break": false
+ },
+ {
+  "text": "certain",
+  "start": 5.185,
+  "end": 5.5,
+  "display": "certain",
+  "break": false
+ },
+ {
+  "text": "glyphs",
+  "start": 5.513,
+  "end": 5.828,
+  "display": "glyphs",
+  "break": false
+ },
+ {
+  "text": "like",
+  "start": 5.84,
+  "end": 6.01,
+  "display": "like",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 6.022,
+  "end": 6.095,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "sit",
+  "start": 6.107,
+  "end": 6.399,
+  "display": "sit",
+  "break": false
+ },
+ {
+  "text": "inside",
+  "start": 6.423,
+  "end": 6.823,
+  "display": "inside",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 6.835,
+  "end": 6.872,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "word",
+  "start": 6.884,
+  "end": 7.2,
+  "display": "word.",
+  "break": true
+ }
+]

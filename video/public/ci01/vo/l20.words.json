@@ -1,0 +1,429 @@
+[
+ {
+  "text": "And",
+  "start": 0.1,
+  "end": 0.294,
+  "display": "And",
+  "break": false
+ },
+ {
+  "text": "in 2020",
+  "start": 0.306,
+  "end": 1.071,
+  "display": "in 2020,",
+  "break": true
+ },
+ {
+  "text": "Torsten",
+  "start": 1.107,
+  "end": 1.52,
+  "display": "Torsten",
+  "break": false
+ },
+ {
+  "text": "Timm",
+  "start": 1.532,
+  "end": 1.835,
+  "display": "Timm",
+  "break": false
+ },
+ {
+  "text": "and",
+  "start": 1.86,
+  "end": 1.981,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "Andreas",
+  "start": 1.993,
+  "end": 2.454,
+  "display": "Andreas",
+  "break": false
+ },
+ {
+  "text": "Schinner",
+  "start": 2.466,
+  "end": 2.758,
+  "display": "Schinner",
+  "break": false
+ },
+ {
+  "text": "proposed",
+  "start": 2.77,
+  "end": 3.255,
+  "display": "proposed",
+  "break": false
+ },
+ {
+  "text": "something",
+  "start": 3.267,
+  "end": 3.619,
+  "display": "something",
+  "break": false
+ },
+ {
+  "text": "even",
+  "start": 3.632,
+  "end": 3.826,
+  "display": "even",
+  "break": false
+ },
+ {
+  "text": "simpler",
+  "start": 3.838,
+  "end": 4.25,
+  "display": "simpler.",
+  "break": true
+ },
+ {
+  "text": "The",
+  "start": 4.601,
+  "end": 4.759,
+  "display": "The",
+  "break": false
+ },
+ {
+  "text": "writer",
+  "start": 4.771,
+  "end": 5.086,
+  "display": "writer",
+  "break": false
+ },
+ {
+  "text": "just",
+  "start": 5.099,
+  "end": 5.305,
+  "display": "just",
+  "break": false
+ },
+ {
+  "text": "copies",
+  "start": 5.317,
+  "end": 5.742,
+  "display": "copies",
+  "break": false
+ },
+ {
+  "text": "words",
+  "start": 5.754,
+  "end": 6.057,
+  "display": "words",
+  "break": false
+ },
+ {
+  "text": "they've",
+  "start": 6.069,
+  "end": 6.239,
+  "display": "they've",
+  "break": false
+ },
+ {
+  "text": "already",
+  "start": 6.264,
+  "end": 6.664,
+  "display": "already",
+  "break": false
+ },
+ {
+  "text": "written",
+  "start": 6.676,
+  "end": 6.943,
+  "display": "written",
+  "break": false
+ },
+ {
+  "text": "nearby",
+  "start": 6.955,
+  "end": 7.489,
+  "display": "nearby,",
+  "break": true
+ },
+ {
+  "text": "changes",
+  "start": 7.599,
+  "end": 8.023,
+  "display": "changes",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 8.035,
+  "end": 8.084,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "letter",
+  "start": 8.096,
+  "end": 8.545,
+  "display": "letter",
+  "break": false
+ },
+ {
+  "text": "or",
+  "start": 8.557,
+  "end": 8.691,
+  "display": "or",
+  "break": false
+ },
+ {
+  "text": "two",
+  "start": 8.703,
+  "end": 9.079,
+  "display": "two,",
+  "break": true
+ },
+ {
+  "text": "and",
+  "start": 9.116,
+  "end": 9.249,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "keeps",
+  "start": 9.261,
+  "end": 9.528,
+  "display": "keeps",
+  "break": false
+ },
+ {
+  "text": "going",
+  "start": 9.54,
+  "end": 9.916,
+  "display": "going.",
+  "break": true
+ },
+ {
+  "text": "They",
+  "start": 10.268,
+  "end": 10.426,
+  "display": "They",
+  "break": false
+ },
+ {
+  "text": "call",
+  "start": 10.438,
+  "end": 10.681,
+  "display": "call",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 10.693,
+  "end": 10.802,
+  "display": "it",
+  "break": false
+ },
+ {
+  "text": "self-citation",
+  "start": 10.827,
+  "end": 11.676,
+  "display": "self-citation.\"",
+  "break": true
+ },
+ {
+  "text": "No",
+  "start": 12.028,
+  "end": 12.295,
+  "display": "No",
+  "break": false
+ },
+ {
+  "text": "secret",
+  "start": 12.307,
+  "end": 12.696,
+  "display": "secret",
+  "break": false
+ },
+ {
+  "text": "language",
+  "start": 12.708,
+  "end": 13.108,
+  "display": "language",
+  "break": false
+ },
+ {
+  "text": "needed",
+  "start": 13.12,
+  "end": 13.448,
+  "display": "needed,",
+  "break": true
+ },
+ {
+  "text": "no",
+  "start": 13.533,
+  "end": 13.691,
+  "display": "no",
+  "break": false
+ },
+ {
+  "text": "math",
+  "start": 13.703,
+  "end": 14.116,
+  "display": "math,",
+  "break": true
+ },
+ {
+  "text": "no",
+  "start": 14.164,
+  "end": 14.31,
+  "display": "no",
+  "break": false
+ },
+ {
+  "text": "plan",
+  "start": 14.322,
+  "end": 14.759,
+  "display": "plan.",
+  "break": true
+ },
+ {
+  "text": "And",
+  "start": 15.111,
+  "end": 15.293,
+  "display": "And",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 15.305,
+  "end": 15.426,
+  "display": "it",
+  "break": false
+ },
+ {
+  "text": "reproduces",
+  "start": 15.438,
+  "end": 16.057,
+  "display": "reproduces",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 16.069,
+  "end": 16.118,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "surprising",
+  "start": 16.13,
+  "end": 16.725,
+  "display": "surprising",
+  "break": false
+ },
+ {
+  "text": "amount",
+  "start": 16.737,
+  "end": 17.04,
+  "display": "amount",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 17.052,
+  "end": 17.137,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 17.149,
+  "end": 17.222,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "book's",
+  "start": 17.234,
+  "end": 17.514,
+  "display": "book's",
+  "break": false
+ },
+ {
+  "text": "statistics",
+  "start": 17.526,
+  "end": 18.205,
+  "display": "statistics,",
+  "break": true
+ },
+ {
+  "text": "including",
+  "start": 18.29,
+  "end": 18.836,
+  "display": "including,",
+  "break": true
+ },
+ {
+  "text": "they",
+  "start": 18.861,
+  "end": 19.006,
+  "display": "they",
+  "break": false
+ },
+ {
+  "text": "argue",
+  "start": 19.018,
+  "end": 19.455,
+  "display": "argue,",
+  "break": true
+ },
+ {
+  "text": "the",
+  "start": 19.48,
+  "end": 19.589,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "patterns",
+  "start": 19.601,
+  "end": 20.111,
+  "display": "patterns",
+  "break": false
+ },
+ {
+  "text": "that",
+  "start": 20.123,
+  "end": 20.244,
+  "display": "that",
+  "break": false
+ },
+ {
+  "text": "make",
+  "start": 20.256,
+  "end": 20.463,
+  "display": "make",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 20.475,
+  "end": 20.572,
+  "display": "it",
+  "break": false
+ },
+ {
+  "text": "look",
+  "start": 20.584,
+  "end": 20.742,
+  "display": "look",
+  "break": false
+ },
+ {
+  "text": "like",
+  "start": 20.754,
+  "end": 20.924,
+  "display": "like",
+  "break": false
+ },
+ {
+  "text": "language",
+  "start": 20.936,
+  "end": 21.458,
+  "display": "language.",
+  "break": true
+ }
+]

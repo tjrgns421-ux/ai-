@@ -1,0 +1,30 @@
+[
+ {
+  "text": "Small",
+  "start": 0.1,
+  "end": 0.488,
+  "display": "Small",
+  "break": false
+ },
+ {
+  "text": "move",
+  "start": 0.5,
+  "end": 0.719,
+  "display": "move",
+  "break": false
+ },
+ {
+  "text": "toward",
+  "start": 0.731,
+  "end": 0.998,
+  "display": "toward",
+  "break": false
+ },
+ {
+  "text": "meaning",
+  "start": 1.01,
+  "end": 1.35,
+  "display": "meaning.",
+  "break": true
+ }
+]

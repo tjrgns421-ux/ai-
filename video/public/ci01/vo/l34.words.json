@@ -1,0 +1,394 @@
+[
+ {
+  "text": "Layfield",
+  "start": 0.1,
+  "end": 0.61,
+  "display": "Layfield",
+  "break": false
+ },
+ {
+  "text": "compared",
+  "start": 0.622,
+  "end": 1.01,
+  "display": "compared",
+  "break": false
+ },
+ {
+  "text": "blocks",
+  "start": 1.022,
+  "end": 1.399,
+  "display": "blocks",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 1.411,
+  "end": 1.532,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "text",
+  "start": 1.544,
+  "end": 1.908,
+  "display": "text",
+  "break": false
+ },
+ {
+  "text": "across",
+  "start": 1.933,
+  "end": 2.333,
+  "display": "across",
+  "break": false
+ },
+ {
+  "text": "pages",
+  "start": 2.345,
+  "end": 2.855,
+  "display": "pages",
+  "break": false
+ },
+ {
+  "text": "using",
+  "start": 2.867,
+  "end": 3.195,
+  "display": "using",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 3.207,
+  "end": 3.255,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "statistical",
+  "start": 3.267,
+  "end": 3.874,
+  "display": "statistical",
+  "break": false
+ },
+ {
+  "text": "method",
+  "start": 3.886,
+  "end": 4.202,
+  "display": "method",
+  "break": false
+ },
+ {
+  "text": "called",
+  "start": 4.214,
+  "end": 4.59,
+  "display": "called",
+  "break": false
+ },
+ {
+  "text": "latent",
+  "start": 4.602,
+  "end": 4.869,
+  "display": "latent",
+  "break": false
+ },
+ {
+  "text": "semantic",
+  "start": 4.882,
+  "end": 5.367,
+  "display": "semantic",
+  "break": false
+ },
+ {
+  "text": "analysis",
+  "start": 5.403,
+  "end": 6.071,
+  "display": "analysis.",
+  "break": true
+ },
+ {
+  "text": "Their",
+  "start": 6.421,
+  "end": 6.628,
+  "display": "Their",
+  "break": false
+ },
+ {
+  "text": "conclusion",
+  "start": 6.64,
+  "end": 7.271,
+  "display": "conclusion",
+  "break": false
+ },
+ {
+  "text": "is",
+  "start": 7.283,
+  "end": 7.441,
+  "display": "is",
+  "break": false
+ },
+ {
+  "text": "that",
+  "start": 7.453,
+  "end": 7.574,
+  "display": "that",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 7.586,
+  "end": 7.671,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "book",
+  "start": 7.684,
+  "end": 7.89,
+  "display": "book",
+  "break": false
+ },
+ {
+  "text": "was",
+  "start": 7.902,
+  "end": 8.048,
+  "display": "was",
+  "break": false
+ },
+ {
+  "text": "never",
+  "start": 8.06,
+  "end": 8.375,
+  "display": "never",
+  "break": false
+ },
+ {
+  "text": "meant",
+  "start": 8.387,
+  "end": 8.606,
+  "display": "meant",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 8.618,
+  "end": 8.691,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "be",
+  "start": 8.703,
+  "end": 8.812,
+  "display": "be",
+  "break": false
+ },
+ {
+  "text": "bound",
+  "start": 8.824,
+  "end": 9.164,
+  "display": "bound",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 9.188,
+  "end": 9.261,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "way",
+  "start": 9.273,
+  "end": 9.504,
+  "display": "way",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 9.516,
+  "end": 9.613,
+  "display": "it",
+  "break": false
+ },
+ {
+  "text": "is",
+  "start": 9.625,
+  "end": 9.734,
+  "display": "is",
+  "break": false
+ },
+ {
+  "text": "now",
+  "start": 9.747,
+  "end": 10.074,
+  "display": "now.",
+  "break": true
+ },
+ {
+  "text": "It",
+  "start": 10.426,
+  "end": 10.596,
+  "display": "It",
+  "break": false
+ },
+ {
+  "text": "was",
+  "start": 10.608,
+  "end": 10.717,
+  "display": "was",
+  "break": false
+ },
+ {
+  "text": "originally",
+  "start": 10.73,
+  "end": 11.203,
+  "display": "originally",
+  "break": false
+ },
+ {
+  "text": "loose",
+  "start": 11.215,
+  "end": 11.664,
+  "display": "loose,",
+  "break": true
+ },
+ {
+  "text": "folded",
+  "start": 11.713,
+  "end": 12.028,
+  "display": "folded",
+  "break": false
+ },
+ {
+  "text": "sheets",
+  "start": 12.04,
+  "end": 12.501,
+  "display": "sheets,",
+  "break": true
+ },
+ {
+  "text": "each",
+  "start": 12.635,
+  "end": 12.781,
+  "display": "each",
+  "break": false
+ },
+ {
+  "text": "one",
+  "start": 12.793,
+  "end": 13.023,
+  "display": "one",
+  "break": false
+ },
+ {
+  "text": "written",
+  "start": 13.035,
+  "end": 13.302,
+  "display": "written",
+  "break": false
+ },
+ {
+  "text": "by",
+  "start": 13.315,
+  "end": 13.484,
+  "display": "by",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 13.497,
+  "end": 13.545,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "single",
+  "start": 13.557,
+  "end": 13.933,
+  "display": "single",
+  "break": false
+ },
+ {
+  "text": "scribe",
+  "start": 13.946,
+  "end": 14.383,
+  "display": "scribe,",
+  "break": true
+ },
+ {
+  "text": "read",
+  "start": 14.516,
+  "end": 14.662,
+  "display": "read",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 14.674,
+  "end": 14.807,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "sequence",
+  "start": 14.819,
+  "end": 15.366,
+  "display": "sequence.",
+  "break": true
+ },
+ {
+  "text": "Somebody",
+  "start": 15.717,
+  "end": 16.179,
+  "display": "Somebody",
+  "break": false
+ },
+ {
+  "text": "later",
+  "start": 16.191,
+  "end": 16.494,
+  "display": "later",
+  "break": false
+ },
+ {
+  "text": "bound",
+  "start": 16.506,
+  "end": 16.749,
+  "display": "bound",
+  "break": false
+ },
+ {
+  "text": "them",
+  "start": 16.761,
+  "end": 16.87,
+  "display": "them",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 16.883,
+  "end": 16.98,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 16.992,
+  "end": 17.077,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "wrong",
+  "start": 17.089,
+  "end": 17.392,
+  "display": "wrong",
+  "break": false
+ },
+ {
+  "text": "order",
+  "start": 17.404,
+  "end": 17.708,
+  "display": "order.",
+  "break": true
+ }
+]

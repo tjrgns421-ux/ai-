@@ -1,0 +1,478 @@
+[
+ {
+  "text": "In",
+  "start": 0.1,
+  "end": 0.27,
+  "display": "In",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 0.282,
+  "end": 0.331,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "paper",
+  "start": 0.343,
+  "end": 0.67,
+  "display": "paper",
+  "break": false
+ },
+ {
+  "text": "published",
+  "start": 0.683,
+  "end": 1.144,
+  "display": "published",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 1.156,
+  "end": 1.204,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 1.216,
+  "end": 1.301,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "journal",
+  "start": 1.314,
+  "end": 1.678,
+  "display": "journal",
+  "break": false
+ },
+ {
+  "text": "Cryptologia",
+  "start": 1.69,
+  "end": 2.43,
+  "display": "Cryptologia",
+  "break": false
+ },
+ {
+  "text": "and",
+  "start": 2.442,
+  "end": 2.6,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "widely",
+  "start": 2.612,
+  "end": 3.049,
+  "display": "widely",
+  "break": false
+ },
+ {
+  "text": "covered",
+  "start": 3.061,
+  "end": 3.413,
+  "display": "covered",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 3.425,
+  "end": 3.619,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "January 2026",
+  "start": 3.632,
+  "end": 5.355,
+  "display": "January 2026,",
+  "break": true
+ },
+ {
+  "text": "Michael",
+  "start": 5.452,
+  "end": 5.804,
+  "display": "Michael",
+  "break": false
+ },
+ {
+  "text": "Greshko",
+  "start": 5.816,
+  "end": 6.277,
+  "display": "Greshko",
+  "break": false
+ },
+ {
+  "text": "built",
+  "start": 6.289,
+  "end": 6.544,
+  "display": "built",
+  "break": false
+ },
+ {
+  "text": "one",
+  "start": 6.556,
+  "end": 6.787,
+  "display": "one",
+  "break": false
+ },
+ {
+  "text": "that",
+  "start": 6.799,
+  "end": 6.981,
+  "display": "that",
+  "break": false
+ },
+ {
+  "text": "does",
+  "start": 6.993,
+  "end": 7.406,
+  "display": "does.",
+  "break": true
+ },
+ {
+  "text": "He",
+  "start": 7.756,
+  "end": 7.926,
+  "display": "He",
+  "break": false
+ },
+ {
+  "text": "calls",
+  "start": 7.938,
+  "end": 8.193,
+  "display": "calls",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 8.205,
+  "end": 8.278,
+  "display": "it",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 8.29,
+  "end": 8.351,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "Naibbe",
+  "start": 8.363,
+  "end": 8.715,
+  "display": "Naibbe",
+  "break": false
+ },
+ {
+  "text": "cipher",
+  "start": 8.727,
+  "end": 9.273,
+  "display": "cipher,",
+  "break": true
+ },
+ {
+  "text": "after",
+  "start": 9.31,
+  "end": 9.589,
+  "display": "after",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 9.601,
+  "end": 9.625,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "medieval",
+  "start": 9.637,
+  "end": 10.123,
+  "display": "medieval",
+  "break": false
+ },
+ {
+  "text": "Italian",
+  "start": 10.135,
+  "end": 10.62,
+  "display": "Italian",
+  "break": false
+ },
+ {
+  "text": "card",
+  "start": 10.633,
+  "end": 10.9,
+  "display": "card",
+  "break": false
+ },
+ {
+  "text": "game",
+  "start": 10.912,
+  "end": 11.215,
+  "display": "game.",
+  "break": true
+ },
+ {
+  "text": "You",
+  "start": 11.567,
+  "end": 11.749,
+  "display": "You",
+  "break": false
+ },
+ {
+  "text": "take",
+  "start": 11.761,
+  "end": 12.004,
+  "display": "take",
+  "break": false
+ },
+ {
+  "text": "Latin",
+  "start": 12.016,
+  "end": 12.429,
+  "display": "Latin",
+  "break": false
+ },
+ {
+  "text": "or",
+  "start": 12.441,
+  "end": 12.599,
+  "display": "or",
+  "break": false
+ },
+ {
+  "text": "Italian",
+  "start": 12.611,
+  "end": 13.06,
+  "display": "Italian",
+  "break": false
+ },
+ {
+  "text": "text",
+  "start": 13.072,
+  "end": 13.557,
+  "display": "text,",
+  "break": true
+ },
+ {
+  "text": "break",
+  "start": 13.642,
+  "end": 13.897,
+  "display": "break",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 13.909,
+  "end": 14.006,
+  "display": "it",
+  "break": false
+ },
+ {
+  "text": "into",
+  "start": 14.018,
+  "end": 14.237,
+  "display": "into",
+  "break": false
+ },
+ {
+  "text": "short",
+  "start": 14.249,
+  "end": 14.565,
+  "display": "short",
+  "break": false
+ },
+ {
+  "text": "pieces",
+  "start": 14.577,
+  "end": 15.062,
+  "display": "pieces,",
+  "break": true
+ },
+ {
+  "text": "and",
+  "start": 15.086,
+  "end": 15.22,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "swap",
+  "start": 15.232,
+  "end": 15.572,
+  "display": "swap",
+  "break": false
+ },
+ {
+  "text": "each",
+  "start": 15.584,
+  "end": 15.79,
+  "display": "each",
+  "break": false
+ },
+ {
+  "text": "piece",
+  "start": 15.802,
+  "end": 16.082,
+  "display": "piece",
+  "break": false
+ },
+ {
+  "text": "using",
+  "start": 16.094,
+  "end": 16.385,
+  "display": "using",
+  "break": false
+ },
+ {
+  "text": "tables",
+  "start": 16.397,
+  "end": 16.919,
+  "display": "tables,",
+  "break": true
+ },
+ {
+  "text": "choosing",
+  "start": 17.004,
+  "end": 17.319,
+  "display": "choosing",
+  "break": false
+ },
+ {
+  "text": "between",
+  "start": 17.332,
+  "end": 17.756,
+  "display": "between",
+  "break": false
+ },
+ {
+  "text": "options",
+  "start": 17.768,
+  "end": 18.23,
+  "display": "options",
+  "break": false
+ },
+ {
+  "text": "by",
+  "start": 18.242,
+  "end": 18.412,
+  "display": "by",
+  "break": false
+ },
+ {
+  "text": "rolling",
+  "start": 18.424,
+  "end": 18.824,
+  "display": "rolling",
+  "break": false
+ },
+ {
+  "text": "dice",
+  "start": 18.836,
+  "end": 19.2,
+  "display": "dice",
+  "break": false
+ },
+ {
+  "text": "and",
+  "start": 19.213,
+  "end": 19.334,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "drawing",
+  "start": 19.346,
+  "end": 19.674,
+  "display": "drawing",
+  "break": false
+ },
+ {
+  "text": "playing",
+  "start": 19.686,
+  "end": 19.941,
+  "display": "playing",
+  "break": false
+ },
+ {
+  "text": "cards",
+  "start": 19.953,
+  "end": 20.438,
+  "display": "cards.",
+  "break": true
+ },
+ {
+  "text": "Everything",
+  "start": 20.79,
+  "end": 21.251,
+  "display": "Everything",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 21.264,
+  "end": 21.312,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "fifteenth-century",
+  "start": 21.324,
+  "end": 22.259,
+  "display": "fifteenth-century",
+  "break": false
+ },
+ {
+  "text": "writer",
+  "start": 22.271,
+  "end": 22.647,
+  "display": "writer",
+  "break": false
+ },
+ {
+  "text": "could",
+  "start": 22.659,
+  "end": 22.829,
+  "display": "could",
+  "break": false
+ },
+ {
+  "text": "have",
+  "start": 22.841,
+  "end": 22.938,
+  "display": "have",
+  "break": false
+ },
+ {
+  "text": "had",
+  "start": 22.951,
+  "end": 23.23,
+  "display": "had",
+  "break": false
+ },
+ {
+  "text": "on",
+  "start": 23.242,
+  "end": 23.339,
+  "display": "on",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 23.351,
+  "end": 23.424,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "table",
+  "start": 23.436,
+  "end": 23.836,
+  "display": "table.",
+  "break": true
+ }
+]

@@ -1,0 +1,191 @@
+[
+ {
+  "text": "I'm",
+  "start": 0.1,
+  "end": 0.294,
+  "display": "I'm",
+  "break": false
+ },
+ {
+  "text": "an",
+  "start": 0.306,
+  "end": 0.379,
+  "display": "an",
+  "break": false
+ },
+ {
+  "text": "AI",
+  "start": 0.391,
+  "end": 0.852,
+  "display": "AI.",
+  "break": true
+ },
+ {
+  "text": "I",
+  "start": 1.203,
+  "end": 1.373,
+  "display": "I",
+  "break": false
+ },
+ {
+  "text": "don't",
+  "start": 1.385,
+  "end": 1.518,
+  "display": "don't",
+  "break": false
+ },
+ {
+  "text": "have",
+  "start": 1.531,
+  "end": 1.676,
+  "display": "have",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 1.688,
+  "end": 1.737,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "favorite",
+  "start": 1.749,
+  "end": 2.113,
+  "display": "favorite",
+  "break": false
+ },
+ {
+  "text": "theory",
+  "start": 2.125,
+  "end": 2.489,
+  "display": "theory,",
+  "break": true
+ },
+ {
+  "text": "and",
+  "start": 2.514,
+  "end": 2.647,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "I",
+  "start": 2.659,
+  "end": 2.72,
+  "display": "I",
+  "break": false
+ },
+ {
+  "text": "don't",
+  "start": 2.732,
+  "end": 2.89,
+  "display": "don't",
+  "break": false
+ },
+ {
+  "text": "get",
+  "start": 2.902,
+  "end": 3.023,
+  "display": "get",
+  "break": false
+ },
+ {
+  "text": "tired",
+  "start": 3.035,
+  "end": 3.436,
+  "display": "tired",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 3.448,
+  "end": 3.545,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "reading",
+  "start": 3.557,
+  "end": 3.824,
+  "display": "reading",
+  "break": false
+ },
+ {
+  "text": "papers",
+  "start": 3.836,
+  "end": 4.346,
+  "display": "papers.",
+  "break": true
+ },
+ {
+  "text": "So",
+  "start": 4.698,
+  "end": 4.965,
+  "display": "So",
+  "break": false
+ },
+ {
+  "text": "I",
+  "start": 4.977,
+  "end": 5.062,
+  "display": "I",
+  "break": false
+ },
+ {
+  "text": "read",
+  "start": 5.074,
+  "end": 5.256,
+  "display": "read",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 5.268,
+  "end": 5.341,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "serious",
+  "start": 5.353,
+  "end": 5.778,
+  "display": "serious",
+  "break": false
+ },
+ {
+  "text": "ones",
+  "start": 5.79,
+  "end": 6.069,
+  "display": "ones,",
+  "break": true
+ },
+ {
+  "text": "and",
+  "start": 6.094,
+  "end": 6.227,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "I",
+  "start": 6.239,
+  "end": 6.324,
+  "display": "I",
+  "break": false
+ },
+ {
+  "text": "kept",
+  "start": 6.336,
+  "end": 6.567,
+  "display": "kept",
+  "break": false
+ },
+ {
+  "text": "score",
+  "start": 6.579,
+  "end": 6.955,
+  "display": "score.",
+  "break": true
+ }
+]

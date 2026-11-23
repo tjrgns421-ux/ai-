@@ -1,0 +1,170 @@
+[
+ {
+  "text": "In 2020",
+  "start": 0.1,
+  "end": 0.974,
+  "display": "In 2020,",
+  "break": true
+ },
+ {
+  "text": "medieval",
+  "start": 1.01,
+  "end": 1.374,
+  "display": "medieval",
+  "break": false
+ },
+ {
+  "text": "manuscript",
+  "start": 1.386,
+  "end": 2.03,
+  "display": "manuscript",
+  "break": false
+ },
+ {
+  "text": "expert",
+  "start": 2.102,
+  "end": 2.503,
+  "display": "expert",
+  "break": false
+ },
+ {
+  "text": "Lisa",
+  "start": 2.515,
+  "end": 2.867,
+  "display": "Lisa",
+  "break": false
+ },
+ {
+  "text": "Fagin",
+  "start": 2.879,
+  "end": 3.255,
+  "display": "Fagin",
+  "break": false
+ },
+ {
+  "text": "Davis",
+  "start": 3.267,
+  "end": 3.656,
+  "display": "Davis",
+  "break": false
+ },
+ {
+  "text": "compared",
+  "start": 3.668,
+  "end": 4.056,
+  "display": "compared",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 4.068,
+  "end": 4.153,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "letter",
+  "start": 4.166,
+  "end": 4.469,
+  "display": "letter",
+  "break": false
+ },
+ {
+  "text": "shapes",
+  "start": 4.481,
+  "end": 4.845,
+  "display": "shapes",
+  "break": false
+ },
+ {
+  "text": "across",
+  "start": 4.869,
+  "end": 5.282,
+  "display": "across",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 5.294,
+  "end": 5.367,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "whole",
+  "start": 5.379,
+  "end": 5.658,
+  "display": "whole",
+  "break": false
+ },
+ {
+  "text": "book",
+  "start": 5.67,
+  "end": 5.925,
+  "display": "book",
+  "break": false
+ },
+ {
+  "text": "and",
+  "start": 5.949,
+  "end": 6.034,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "concluded",
+  "start": 6.047,
+  "end": 6.544,
+  "display": "concluded",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 6.556,
+  "end": 6.641,
+  "display": "it",
+  "break": false
+ },
+ {
+  "text": "was",
+  "start": 6.653,
+  "end": 6.811,
+  "display": "was",
+  "break": false
+ },
+ {
+  "text": "written",
+  "start": 6.823,
+  "end": 7.102,
+  "display": "written",
+  "break": false
+ },
+ {
+  "text": "by",
+  "start": 7.115,
+  "end": 7.284,
+  "display": "by",
+  "break": false
+ },
+ {
+  "text": "five",
+  "start": 7.297,
+  "end": 7.673,
+  "display": "five",
+  "break": false
+ },
+ {
+  "text": "different",
+  "start": 7.685,
+  "end": 7.988,
+  "display": "different",
+  "break": false
+ },
+ {
+  "text": "scribes",
+  "start": 8.001,
+  "end": 8.547,
+  "display": "scribes.",
+  "break": true
+ }
+]

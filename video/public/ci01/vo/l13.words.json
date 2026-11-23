@@ -1,0 +1,219 @@
+[
+ {
+  "text": "Languages",
+  "start": 0.1,
+  "end": 0.67,
+  "display": "Languages",
+  "break": false
+ },
+ {
+  "text": "have",
+  "start": 0.683,
+  "end": 0.828,
+  "display": "have",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 0.84,
+  "end": 0.901,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "fingerprint",
+  "start": 0.913,
+  "end": 1.471,
+  "display": "fingerprint.",
+  "break": true
+ },
+ {
+  "text": "In",
+  "start": 1.822,
+  "end": 2.04,
+  "display": "In",
+  "break": false
+ },
+ {
+  "text": "every",
+  "start": 2.052,
+  "end": 2.271,
+  "display": "every",
+  "break": false
+ },
+ {
+  "text": "human",
+  "start": 2.283,
+  "end": 2.611,
+  "display": "human",
+  "break": false
+ },
+ {
+  "text": "language",
+  "start": 2.623,
+  "end": 3.096,
+  "display": "language,",
+  "break": true
+ },
+ {
+  "text": "a",
+  "start": 3.133,
+  "end": 3.193,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "few",
+  "start": 3.205,
+  "end": 3.436,
+  "display": "few",
+  "break": false
+ },
+ {
+  "text": "words",
+  "start": 3.448,
+  "end": 3.751,
+  "display": "words",
+  "break": false
+ },
+ {
+  "text": "are",
+  "start": 3.764,
+  "end": 3.897,
+  "display": "are",
+  "break": false
+ },
+ {
+  "text": "extremely",
+  "start": 3.909,
+  "end": 4.443,
+  "display": "extremely",
+  "break": false
+ },
+ {
+  "text": "common",
+  "start": 4.455,
+  "end": 4.977,
+  "display": "common",
+  "break": false
+ },
+ {
+  "text": "and",
+  "start": 4.989,
+  "end": 5.099,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "most",
+  "start": 5.111,
+  "end": 5.402,
+  "display": "most",
+  "break": false
+ },
+ {
+  "text": "are",
+  "start": 5.414,
+  "end": 5.535,
+  "display": "are",
+  "break": false
+ },
+ {
+  "text": "rare",
+  "start": 5.548,
+  "end": 5.875,
+  "display": "rare,",
+  "break": true
+ },
+ {
+  "text": "in",
+  "start": 5.936,
+  "end": 6.057,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 6.069,
+  "end": 6.106,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "very",
+  "start": 6.118,
+  "end": 6.482,
+  "display": "very",
+  "break": false
+ },
+ {
+  "text": "specific",
+  "start": 6.494,
+  "end": 7.028,
+  "display": "specific",
+  "break": false
+ },
+ {
+  "text": "mathematical",
+  "start": 7.04,
+  "end": 7.647,
+  "display": "mathematical",
+  "break": false
+ },
+ {
+  "text": "ratio",
+  "start": 7.659,
+  "end": 8.145,
+  "display": "ratio.",
+  "break": true
+ },
+ {
+  "text": "It's",
+  "start": 8.497,
+  "end": 8.703,
+  "display": "It's",
+  "break": false
+ },
+ {
+  "text": "called",
+  "start": 8.715,
+  "end": 8.946,
+  "display": "called",
+  "break": false
+ },
+ {
+  "text": "Zipf's",
+  "start": 8.958,
+  "end": 9.225,
+  "display": "Zipf's",
+  "break": false
+ },
+ {
+  "text": "law",
+  "start": 9.237,
+  "end": 9.48,
+  "display": "law.",
+  "break": true
+ },
+ {
+  "text": "Voynichese",
+  "start": 9.832,
+  "end": 10.475,
+  "display": "Voynichese",
+  "break": false
+ },
+ {
+  "text": "follows",
+  "start": 10.487,
+  "end": 10.863,
+  "display": "follows",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 10.875,
+  "end": 10.997,
+  "display": "it.",
+  "break": true
+ }
+]

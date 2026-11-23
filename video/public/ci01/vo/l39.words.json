@@ -1,0 +1,23 @@
+[
+ {
+  "text": "Medieval",
+  "start": 0.1,
+  "end": 0.525,
+  "display": "Medieval",
+  "break": false
+ },
+ {
+  "text": "gibberish",
+  "start": 0.537,
+  "end": 1.022,
+  "display": "gibberish",
+  "break": false
+ },
+ {
+  "text": "thirty-four",
+  "start": 1.047,
+  "end": 1.629,
+  "display": "thirty-four.",
+  "break": true
+ }
+]

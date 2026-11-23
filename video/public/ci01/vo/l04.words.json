@@ -1,0 +1,268 @@
+[
+ {
+  "text": "About",
+  "start": 0.1,
+  "end": 0.476,
+  "display": "About",
+  "break": false
+ },
+ {
+  "text": "two",
+  "start": 0.488,
+  "end": 0.682,
+  "display": "two",
+  "break": false
+ },
+ {
+  "text": "hundred",
+  "start": 0.695,
+  "end": 1.083,
+  "display": "hundred",
+  "break": false
+ },
+ {
+  "text": "and",
+  "start": 1.095,
+  "end": 1.204,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "forty",
+  "start": 1.216,
+  "end": 1.508,
+  "display": "forty",
+  "break": false
+ },
+ {
+  "text": "pages",
+  "start": 1.52,
+  "end": 2.054,
+  "display": "pages.",
+  "break": true
+ },
+ {
+  "text": "Roughly",
+  "start": 2.404,
+  "end": 2.793,
+  "display": "Roughly",
+  "break": false
+ },
+ {
+  "text": "thirty-eight",
+  "start": 2.805,
+  "end": 3.266,
+  "display": "thirty-eight",
+  "break": false
+ },
+ {
+  "text": "thousand",
+  "start": 3.278,
+  "end": 3.654,
+  "display": "thousand",
+  "break": false
+ },
+ {
+  "text": "words",
+  "start": 3.667,
+  "end": 4.091,
+  "display": "words.",
+  "break": true
+ },
+ {
+  "text": "An",
+  "start": 4.443,
+  "end": 4.686,
+  "display": "An",
+  "break": false
+ },
+ {
+  "text": "alphabet",
+  "start": 4.698,
+  "end": 5.099,
+  "display": "alphabet",
+  "break": false
+ },
+ {
+  "text": "nobody",
+  "start": 5.111,
+  "end": 5.487,
+  "display": "nobody",
+  "break": false
+ },
+ {
+  "text": "has",
+  "start": 5.499,
+  "end": 5.717,
+  "display": "has",
+  "break": false
+ },
+ {
+  "text": "ever",
+  "start": 5.73,
+  "end": 5.924,
+  "display": "ever",
+  "break": false
+ },
+ {
+  "text": "matched",
+  "start": 5.936,
+  "end": 6.251,
+  "display": "matched",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 6.264,
+  "end": 6.336,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "anything",
+  "start": 6.349,
+  "end": 6.822,
+  "display": "anything.",
+  "break": true
+ },
+ {
+  "text": "Plants",
+  "start": 7.174,
+  "end": 7.574,
+  "display": "Plants",
+  "break": false
+ },
+ {
+  "text": "that",
+  "start": 7.586,
+  "end": 7.72,
+  "display": "that",
+  "break": false
+ },
+ {
+  "text": "don't",
+  "start": 7.732,
+  "end": 7.938,
+  "display": "don't",
+  "break": false
+ },
+ {
+  "text": "quite",
+  "start": 7.95,
+  "end": 8.169,
+  "display": "quite",
+  "break": false
+ },
+ {
+  "text": "exist",
+  "start": 8.181,
+  "end": 8.679,
+  "display": "exist.",
+  "break": true
+ },
+ {
+  "text": "Star",
+  "start": 9.031,
+  "end": 9.383,
+  "display": "Star",
+  "break": false
+ },
+ {
+  "text": "charts",
+  "start": 9.395,
+  "end": 9.88,
+  "display": "charts.",
+  "break": true
+ },
+ {
+  "text": "And",
+  "start": 10.232,
+  "end": 10.414,
+  "display": "And",
+  "break": false
+ },
+ {
+  "text": "whole",
+  "start": 10.426,
+  "end": 10.681,
+  "display": "whole",
+  "break": false
+ },
+ {
+  "text": "pages",
+  "start": 10.693,
+  "end": 11.142,
+  "display": "pages",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 11.154,
+  "end": 11.264,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "small",
+  "start": 11.276,
+  "end": 11.652,
+  "display": "small",
+  "break": false
+ },
+ {
+  "text": "women",
+  "start": 11.664,
+  "end": 11.943,
+  "display": "women",
+  "break": false
+ },
+ {
+  "text": "bathing",
+  "start": 11.955,
+  "end": 12.295,
+  "display": "bathing",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 12.307,
+  "end": 12.404,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "green",
+  "start": 12.416,
+  "end": 12.781,
+  "display": "green",
+  "break": false
+ },
+ {
+  "text": "pools",
+  "start": 12.793,
+  "end": 13.145,
+  "display": "pools",
+  "break": false
+ },
+ {
+  "text": "connected",
+  "start": 13.157,
+  "end": 13.569,
+  "display": "connected",
+  "break": false
+ },
+ {
+  "text": "by",
+  "start": 13.582,
+  "end": 13.715,
+  "display": "by",
+  "break": false
+ },
+ {
+  "text": "pipes",
+  "start": 13.727,
+  "end": 14.2,
+  "display": "pipes.",
+  "break": true
+ }
+]

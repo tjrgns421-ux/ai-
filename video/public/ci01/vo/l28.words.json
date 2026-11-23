@@ -1,0 +1,247 @@
+[
+ {
+  "text": "A",
+  "start": 0.1,
+  "end": 0.27,
+  "display": "A",
+  "break": false
+ },
+ {
+  "text": "long-standing",
+  "start": 0.282,
+  "end": 0.901,
+  "display": "long-standing",
+  "break": false
+ },
+ {
+  "text": "objection",
+  "start": 0.913,
+  "end": 1.435,
+  "display": "objection",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 1.447,
+  "end": 1.568,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 1.581,
+  "end": 1.678,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "cipher",
+  "start": 1.69,
+  "end": 2.115,
+  "display": "cipher",
+  "break": false
+ },
+ {
+  "text": "theory",
+  "start": 2.127,
+  "end": 2.539,
+  "display": "theory",
+  "break": false
+ },
+ {
+  "text": "is",
+  "start": 2.551,
+  "end": 2.661,
+  "display": "is",
+  "break": false
+ },
+ {
+  "text": "that",
+  "start": 2.673,
+  "end": 2.818,
+  "display": "that",
+  "break": false
+ },
+ {
+  "text": "Voynichese",
+  "start": 2.831,
+  "end": 3.498,
+  "display": "Voynichese",
+  "break": false
+ },
+ {
+  "text": "doesn't",
+  "start": 3.51,
+  "end": 3.826,
+  "display": "doesn't",
+  "break": false
+ },
+ {
+  "text": "look",
+  "start": 3.838,
+  "end": 4.008,
+  "display": "look",
+  "break": false
+ },
+ {
+  "text": "like",
+  "start": 4.02,
+  "end": 4.226,
+  "display": "like",
+  "break": false
+ },
+ {
+  "text": "any",
+  "start": 4.287,
+  "end": 4.469,
+  "display": "any",
+  "break": false
+ },
+ {
+  "text": "known",
+  "start": 4.481,
+  "end": 4.736,
+  "display": "known",
+  "break": false
+ },
+ {
+  "text": "medieval",
+  "start": 4.748,
+  "end": 5.124,
+  "display": "medieval",
+  "break": false
+ },
+ {
+  "text": "cipher",
+  "start": 5.136,
+  "end": 5.61,
+  "display": "cipher.",
+  "break": true
+ },
+ {
+  "text": "Real",
+  "start": 5.96,
+  "end": 6.251,
+  "display": "Real",
+  "break": false
+ },
+ {
+  "text": "ciphers",
+  "start": 6.264,
+  "end": 6.761,
+  "display": "ciphers",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 6.773,
+  "end": 6.858,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 6.87,
+  "end": 6.943,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "time",
+  "start": 6.955,
+  "end": 7.319,
+  "display": "time",
+  "break": false
+ },
+ {
+  "text": "tended",
+  "start": 7.344,
+  "end": 7.659,
+  "display": "tended",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 7.671,
+  "end": 7.768,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "scramble",
+  "start": 7.781,
+  "end": 8.217,
+  "display": "scramble",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 8.23,
+  "end": 8.315,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "text",
+  "start": 8.327,
+  "end": 8.727,
+  "display": "text",
+  "break": false
+ },
+ {
+  "text": "into",
+  "start": 8.739,
+  "end": 8.921,
+  "display": "into",
+  "break": false
+ },
+ {
+  "text": "something",
+  "start": 8.934,
+  "end": 9.334,
+  "display": "something",
+  "break": false
+ },
+ {
+  "text": "that",
+  "start": 9.346,
+  "end": 9.492,
+  "display": "that",
+  "break": false
+ },
+ {
+  "text": "no",
+  "start": 9.504,
+  "end": 9.747,
+  "display": "no",
+  "break": false
+ },
+ {
+  "text": "longer",
+  "start": 9.759,
+  "end": 10.196,
+  "display": "longer",
+  "break": false
+ },
+ {
+  "text": "behaved",
+  "start": 10.208,
+  "end": 10.633,
+  "display": "behaved",
+  "break": false
+ },
+ {
+  "text": "like",
+  "start": 10.645,
+  "end": 10.815,
+  "display": "like",
+  "break": false
+ },
+ {
+  "text": "words",
+  "start": 10.827,
+  "end": 11.239,
+  "display": "words.",
+  "break": true
+ }
+]

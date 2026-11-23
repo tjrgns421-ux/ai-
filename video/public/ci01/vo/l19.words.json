@@ -1,0 +1,233 @@
+[
+ {
+  "text": "In 2004",
+  "start": 0.1,
+  "end": 1.314,
+  "display": "In 2004,",
+  "break": true
+ },
+ {
+  "text": "researcher",
+  "start": 1.399,
+  "end": 1.896,
+  "display": "researcher",
+  "break": false
+ },
+ {
+  "text": "Gordon",
+  "start": 1.908,
+  "end": 2.272,
+  "display": "Gordon",
+  "break": false
+ },
+ {
+  "text": "Rugg",
+  "start": 2.284,
+  "end": 2.515,
+  "display": "Rugg",
+  "break": false
+ },
+ {
+  "text": "showed",
+  "start": 2.527,
+  "end": 2.879,
+  "display": "showed",
+  "break": false
+ },
+ {
+  "text": "that",
+  "start": 2.891,
+  "end": 3.013,
+  "display": "that",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 3.025,
+  "end": 3.073,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "simple",
+  "start": 3.085,
+  "end": 3.449,
+  "display": "simple",
+  "break": false
+ },
+ {
+  "text": "tool",
+  "start": 3.462,
+  "end": 3.704,
+  "display": "tool",
+  "break": false
+ },
+ {
+  "text": "available",
+  "start": 3.716,
+  "end": 4.25,
+  "display": "available",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 4.263,
+  "end": 4.42,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 4.433,
+  "end": 4.505,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "1500s",
+  "start": 4.517,
+  "end": 5.513,
+  "display": "1500s,",
+  "break": true
+ },
+ {
+  "text": "a",
+  "start": 5.549,
+  "end": 5.622,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "card",
+  "start": 5.634,
+  "end": 5.901,
+  "display": "card",
+  "break": false
+ },
+ {
+  "text": "with",
+  "start": 5.913,
+  "end": 6.047,
+  "display": "with",
+  "break": false
+ },
+ {
+  "text": "holes",
+  "start": 6.059,
+  "end": 6.435,
+  "display": "holes",
+  "break": false
+ },
+ {
+  "text": "cut",
+  "start": 6.447,
+  "end": 6.666,
+  "display": "cut",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 6.678,
+  "end": 6.799,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 6.811,
+  "end": 6.872,
+  "display": "it",
+  "break": false
+ },
+ {
+  "text": "called",
+  "start": 6.884,
+  "end": 7.175,
+  "display": "called",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 7.187,
+  "end": 7.236,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "Cardan",
+  "start": 7.248,
+  "end": 7.673,
+  "display": "Cardan",
+  "break": false
+ },
+ {
+  "text": "grille",
+  "start": 7.685,
+  "end": 8.025,
+  "display": "grille,",
+  "break": true
+ },
+ {
+  "text": "could",
+  "start": 8.085,
+  "end": 8.255,
+  "display": "could",
+  "break": false
+ },
+ {
+  "text": "churn",
+  "start": 8.267,
+  "end": 8.534,
+  "display": "churn",
+  "break": false
+ },
+ {
+  "text": "out",
+  "start": 8.547,
+  "end": 8.716,
+  "display": "out",
+  "break": false
+ },
+ {
+  "text": "text",
+  "start": 8.729,
+  "end": 9.093,
+  "display": "text",
+  "break": false
+ },
+ {
+  "text": "with",
+  "start": 9.105,
+  "end": 9.287,
+  "display": "with",
+  "break": false
+ },
+ {
+  "text": "many",
+  "start": 9.299,
+  "end": 9.712,
+  "display": "many",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 9.724,
+  "end": 9.809,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "these",
+  "start": 9.821,
+  "end": 10.003,
+  "display": "these",
+  "break": false
+ },
+ {
+  "text": "quirks",
+  "start": 10.015,
+  "end": 10.5,
+  "display": "quirks.",
+  "break": true
+ }
+]

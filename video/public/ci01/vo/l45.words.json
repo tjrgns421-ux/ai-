@@ -1,0 +1,198 @@
+[
+ {
+  "text": "Two",
+  "start": 0.1,
+  "end": 0.525,
+  "display": "Two",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 0.598,
+  "end": 0.695,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "self-citation",
+  "start": 0.707,
+  "end": 1.532,
+  "display": "self-citation",
+  "break": false
+ },
+ {
+  "text": "model",
+  "start": 1.544,
+  "end": 1.884,
+  "display": "model",
+  "break": false
+ },
+ {
+  "text": "could",
+  "start": 1.896,
+  "end": 2.066,
+  "display": "could",
+  "break": false
+ },
+ {
+  "text": "be",
+  "start": 2.078,
+  "end": 2.163,
+  "display": "be",
+  "break": false
+ },
+ {
+  "text": "more",
+  "start": 2.175,
+  "end": 2.394,
+  "display": "more",
+  "break": false
+ },
+ {
+  "text": "powerful",
+  "start": 2.406,
+  "end": 2.964,
+  "display": "powerful",
+  "break": false
+ },
+ {
+  "text": "than",
+  "start": 2.976,
+  "end": 3.134,
+  "display": "than",
+  "break": false
+ },
+ {
+  "text": "I'm",
+  "start": 3.146,
+  "end": 3.243,
+  "display": "I'm",
+  "break": false
+ },
+ {
+  "text": "giving",
+  "start": 3.255,
+  "end": 3.547,
+  "display": "giving",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 3.559,
+  "end": 3.619,
+  "display": "it",
+  "break": false
+ },
+ {
+  "text": "credit",
+  "start": 3.632,
+  "end": 3.923,
+  "display": "credit",
+  "break": false
+ },
+ {
+  "text": "for",
+  "start": 3.935,
+  "end": 4.275,
+  "display": "for.",
+  "break": true
+ },
+ {
+  "text": "If",
+  "start": 4.625,
+  "end": 4.795,
+  "display": "If",
+  "break": false
+ },
+ {
+  "text": "someone",
+  "start": 4.807,
+  "end": 5.099,
+  "display": "someone",
+  "break": false
+ },
+ {
+  "text": "shows",
+  "start": 5.111,
+  "end": 5.426,
+  "display": "shows",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 5.438,
+  "end": 5.56,
+  "display": "it",
+  "break": false
+ },
+ {
+  "text": "reproduces",
+  "start": 5.572,
+  "end": 6.215,
+  "display": "reproduces",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 6.227,
+  "end": 6.324,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "topic",
+  "start": 6.336,
+  "end": 6.713,
+  "display": "topic",
+  "break": false
+ },
+ {
+  "text": "clustering",
+  "start": 6.725,
+  "end": 7.198,
+  "display": "clustering",
+  "break": false
+ },
+ {
+  "text": "too",
+  "start": 7.21,
+  "end": 7.526,
+  "display": "too,",
+  "break": true
+ },
+ {
+  "text": "gibberish",
+  "start": 7.611,
+  "end": 8.023,
+  "display": "gibberish",
+  "break": false
+ },
+ {
+  "text": "should",
+  "start": 8.035,
+  "end": 8.242,
+  "display": "should",
+  "break": false
+ },
+ {
+  "text": "jump",
+  "start": 8.254,
+  "end": 8.509,
+  "display": "jump",
+  "break": false
+ },
+ {
+  "text": "past",
+  "start": 8.521,
+  "end": 8.849,
+  "display": "past",
+  "break": false
+ },
+ {
+  "text": "fifty",
+  "start": 8.861,
+  "end": 9.298,
+  "display": "fifty.",
+  "break": true
+ }
+]

@@ -1,0 +1,149 @@
+[
+ {
+  "text": "Which",
+  "start": 0.1,
+  "end": 0.367,
+  "display": "Which",
+  "break": false
+ },
+ {
+  "text": "means",
+  "start": 0.379,
+  "end": 0.658,
+  "display": "means",
+  "break": false
+ },
+ {
+  "text": "I'm",
+  "start": 0.67,
+  "end": 0.792,
+  "display": "I'm",
+  "break": false
+ },
+ {
+  "text": "about",
+  "start": 0.804,
+  "end": 1.01,
+  "display": "about",
+  "break": false
+ },
+ {
+  "text": "sixty-five",
+  "start": 1.022,
+  "end": 1.763,
+  "display": "sixty-five",
+  "break": false
+ },
+ {
+  "text": "percent",
+  "start": 1.775,
+  "end": 2.175,
+  "display": "percent",
+  "break": false
+ },
+ {
+  "text": "sure",
+  "start": 2.187,
+  "end": 2.479,
+  "display": "sure",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 2.491,
+  "end": 2.564,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "Voynich",
+  "start": 2.576,
+  "end": 2.988,
+  "display": "Voynich",
+  "break": false
+ },
+ {
+  "text": "manuscript",
+  "start": 3.001,
+  "end": 3.619,
+  "display": "manuscript",
+  "break": false
+ },
+ {
+  "text": "says",
+  "start": 3.632,
+  "end": 3.838,
+  "display": "says",
+  "break": false
+ },
+ {
+  "text": "something",
+  "start": 3.85,
+  "end": 4.263,
+  "display": "something.",
+  "break": true
+ },
+ {
+  "text": "With",
+  "start": 4.613,
+  "end": 4.856,
+  "display": "With",
+  "break": false
+ },
+ {
+  "text": "honest",
+  "start": 4.88,
+  "end": 5.22,
+  "display": "honest",
+  "break": false
+ },
+ {
+  "text": "error",
+  "start": 5.232,
+  "end": 5.426,
+  "display": "error",
+  "break": false
+ },
+ {
+  "text": "bars",
+  "start": 5.438,
+  "end": 5.754,
+  "display": "bars,",
+  "break": true
+ },
+ {
+  "text": "somewhere",
+  "start": 5.79,
+  "end": 6.154,
+  "display": "somewhere",
+  "break": false
+ },
+ {
+  "text": "between",
+  "start": 6.167,
+  "end": 6.482,
+  "display": "between",
+  "break": false
+ },
+ {
+  "text": "fifty",
+  "start": 6.494,
+  "end": 7.065,
+  "display": "fifty",
+  "break": false
+ },
+ {
+  "text": "and",
+  "start": 7.077,
+  "end": 7.21,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "seventy-eight",
+  "start": 7.222,
+  "end": 7.829,
+  "display": "seventy-eight.",
+  "break": true
+ }
+]

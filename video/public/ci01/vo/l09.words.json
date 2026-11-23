@@ -1,0 +1,226 @@
+[
+ {
+  "text": "A",
+  "start": 0.1,
+  "end": 0.282,
+  "display": "A",
+  "break": false
+ },
+ {
+  "text": "book",
+  "start": 0.294,
+  "end": 0.464,
+  "display": "book",
+  "break": false
+ },
+ {
+  "text": "that",
+  "start": 0.476,
+  "end": 0.561,
+  "display": "that",
+  "break": false
+ },
+ {
+  "text": "was",
+  "start": 0.573,
+  "end": 0.731,
+  "display": "was",
+  "break": false
+ },
+ {
+  "text": "already",
+  "start": 0.743,
+  "end": 1.168,
+  "display": "already",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 1.18,
+  "end": 1.241,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "puzzle",
+  "start": 1.253,
+  "end": 1.653,
+  "display": "puzzle",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 1.666,
+  "end": 1.799,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 1.811,
+  "end": 1.884,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "1600s",
+  "start": 1.896,
+  "end": 2.879,
+  "display": "1600s",
+  "break": false
+ },
+ {
+  "text": "was",
+  "start": 2.891,
+  "end": 3.073,
+  "display": "was",
+  "break": false
+ },
+ {
+  "text": "not",
+  "start": 3.085,
+  "end": 3.352,
+  "display": "not",
+  "break": false
+ },
+ {
+  "text": "invented",
+  "start": 3.365,
+  "end": 3.801,
+  "display": "invented",
+  "break": false
+ },
+ {
+  "text": "by",
+  "start": 3.814,
+  "end": 3.971,
+  "display": "by",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 3.983,
+  "end": 4.044,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "dealer",
+  "start": 4.056,
+  "end": 4.445,
+  "display": "dealer",
+  "break": false
+ },
+ {
+  "text": "in 1912",
+  "start": 4.457,
+  "end": 5.525,
+  "display": "in 1912.",
+  "break": true
+ },
+ {
+  "text": "And",
+  "start": 5.875,
+  "end": 6.082,
+  "display": "And",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 6.094,
+  "end": 6.142,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "2009",
+  "start": 6.154,
+  "end": 6.955,
+  "display": "2009",
+  "break": false
+ },
+ {
+  "text": "analysis",
+  "start": 6.967,
+  "end": 7.55,
+  "display": "analysis",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 7.562,
+  "end": 7.659,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 7.671,
+  "end": 7.744,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "ink",
+  "start": 7.805,
+  "end": 8.011,
+  "display": "ink",
+  "break": false
+ },
+ {
+  "text": "and",
+  "start": 8.035,
+  "end": 8.157,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "paint",
+  "start": 8.169,
+  "end": 8.472,
+  "display": "paint",
+  "break": false
+ },
+ {
+  "text": "found",
+  "start": 8.484,
+  "end": 8.764,
+  "display": "found",
+  "break": false
+ },
+ {
+  "text": "materials",
+  "start": 8.776,
+  "end": 9.322,
+  "display": "materials",
+  "break": false
+ },
+ {
+  "text": "consistent",
+  "start": 9.334,
+  "end": 9.892,
+  "display": "consistent",
+  "break": false
+ },
+ {
+  "text": "with",
+  "start": 9.904,
+  "end": 10.001,
+  "display": "with",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 10.014,
+  "end": 10.086,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "period",
+  "start": 10.099,
+  "end": 10.645,
+  "display": "period.",
+  "break": true
+ }
+]

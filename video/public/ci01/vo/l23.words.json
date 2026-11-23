@@ -1,0 +1,51 @@
+[
+ {
+  "text": "Next",
+  "start": 0.1,
+  "end": 0.416,
+  "display": "Next",
+  "break": false
+ },
+ {
+  "text": "clue",
+  "start": 0.428,
+  "end": 0.755,
+  "display": "clue.",
+  "break": true
+ },
+ {
+  "text": "Not",
+  "start": 1.106,
+  "end": 1.361,
+  "display": "Not",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 1.373,
+  "end": 1.458,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "words",
+  "start": 1.47,
+  "end": 1.883,
+  "display": "words.",
+  "break": true
+ },
+ {
+  "text": "The",
+  "start": 2.234,
+  "end": 2.38,
+  "display": "The",
+  "break": false
+ },
+ {
+  "text": "handwriting",
+  "start": 2.392,
+  "end": 2.963,
+  "display": "handwriting.",
+  "break": true
+ }
+]

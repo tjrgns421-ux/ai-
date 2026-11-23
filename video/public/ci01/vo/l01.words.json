@@ -1,0 +1,163 @@
+[
+ {
+  "text": "Before",
+  "start": 0.1,
+  "end": 0.488,
+  "display": "Before",
+  "break": false
+ },
+ {
+  "text": "you",
+  "start": 0.5,
+  "end": 0.598,
+  "display": "you",
+  "break": false
+ },
+ {
+  "text": "believe",
+  "start": 0.61,
+  "end": 0.949,
+  "display": "believe",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 0.962,
+  "end": 1.034,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "Voynich",
+  "start": 1.047,
+  "end": 1.459,
+  "display": "Voynich",
+  "break": false
+ },
+ {
+  "text": "manuscript",
+  "start": 1.471,
+  "end": 2.115,
+  "display": "manuscript",
+  "break": false
+ },
+ {
+  "text": "is",
+  "start": 2.127,
+  "end": 2.224,
+  "display": "is",
+  "break": false
+ },
+ {
+  "text": "gibberish",
+  "start": 2.236,
+  "end": 2.733,
+  "display": "gibberish,",
+  "break": true
+ },
+ {
+  "text": "you",
+  "start": 2.758,
+  "end": 2.879,
+  "display": "you",
+  "break": false
+ },
+ {
+  "text": "should",
+  "start": 2.891,
+  "end": 3.073,
+  "display": "should",
+  "break": false
+ },
+ {
+  "text": "know",
+  "start": 3.085,
+  "end": 3.28,
+  "display": "know",
+  "break": false
+ },
+ {
+  "text": "what",
+  "start": 3.292,
+  "end": 3.462,
+  "display": "what",
+  "break": false
+ },
+ {
+  "text": "one",
+  "start": 3.474,
+  "end": 3.716,
+  "display": "one",
+  "break": false
+ },
+ {
+  "text": "2009",
+  "start": 3.729,
+  "end": 4.651,
+  "display": "2009",
+  "break": false
+ },
+ {
+  "text": "test",
+  "start": 4.663,
+  "end": 5.064,
+  "display": "test",
+  "break": false
+ },
+ {
+  "text": "and",
+  "start": 5.1,
+  "end": 5.258,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "one",
+  "start": 5.27,
+  "end": 5.476,
+  "display": "one",
+  "break": false
+ },
+ {
+  "text": "2026",
+  "start": 5.488,
+  "end": 6.471,
+  "display": "2026",
+  "break": false
+ },
+ {
+  "text": "study",
+  "start": 6.496,
+  "end": 6.823,
+  "display": "study",
+  "break": false
+ },
+ {
+  "text": "did",
+  "start": 6.835,
+  "end": 6.969,
+  "display": "did",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 6.981,
+  "end": 7.066,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "my",
+  "start": 7.078,
+  "end": 7.2,
+  "display": "my",
+  "break": false
+ },
+ {
+  "text": "number",
+  "start": 7.212,
+  "end": 7.624,
+  "display": "number.",
+  "break": true
+ }
+]

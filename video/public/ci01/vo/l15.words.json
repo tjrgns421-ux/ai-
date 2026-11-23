@@ -1,0 +1,79 @@
+[
+ {
+  "text": "Their",
+  "start": 0.1,
+  "end": 0.306,
+  "display": "Their",
+  "break": false
+ },
+ {
+  "text": "conclusion",
+  "start": 0.318,
+  "end": 0.852,
+  "display": "conclusion",
+  "break": false
+ },
+ {
+  "text": "this",
+  "start": 0.95,
+  "end": 1.119,
+  "display": "this",
+  "break": false
+ },
+ {
+  "text": "structure",
+  "start": 1.132,
+  "end": 1.544,
+  "display": "structure",
+  "break": false
+ },
+ {
+  "text": "supports",
+  "start": 1.556,
+  "end": 2.054,
+  "display": "supports",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 2.066,
+  "end": 2.163,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "presence",
+  "start": 2.175,
+  "end": 2.636,
+  "display": "presence",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 2.649,
+  "end": 2.733,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 2.746,
+  "end": 2.806,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "genuine",
+  "start": 2.818,
+  "end": 3.316,
+  "display": "genuine",
+  "break": false
+ },
+ {
+  "text": "message",
+  "start": 3.328,
+  "end": 3.777,
+  "display": "message.",
+  "break": true
+ }
+]

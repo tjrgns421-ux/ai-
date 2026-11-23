@@ -1,0 +1,401 @@
+[
+ {
+  "text": "In 2013",
+  "start": 0.1,
+  "end": 1.459,
+  "display": "In 2013,",
+  "break": true
+ },
+ {
+  "text": "physicists",
+  "start": 1.544,
+  "end": 2.163,
+  "display": "physicists",
+  "break": false
+ },
+ {
+  "text": "Marcelo",
+  "start": 2.175,
+  "end": 2.685,
+  "display": "Marcelo",
+  "break": false
+ },
+ {
+  "text": "Montemurro",
+  "start": 2.697,
+  "end": 3.425,
+  "display": "Montemurro",
+  "break": false
+ },
+ {
+  "text": "and",
+  "start": 3.437,
+  "end": 3.607,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "Damián",
+  "start": 3.619,
+  "end": 4.166,
+  "display": "Damián",
+  "break": false
+ },
+ {
+  "text": "Zanette",
+  "start": 4.178,
+  "end": 4.542,
+  "display": "Zanette",
+  "break": false
+ },
+ {
+  "text": "went",
+  "start": 4.554,
+  "end": 4.76,
+  "display": "went",
+  "break": false
+ },
+ {
+  "text": "further",
+  "start": 4.772,
+  "end": 5.185,
+  "display": "further.",
+  "break": true
+ },
+ {
+  "text": "They",
+  "start": 5.535,
+  "end": 5.717,
+  "display": "They",
+  "break": false
+ },
+ {
+  "text": "looked",
+  "start": 5.73,
+  "end": 5.948,
+  "display": "looked",
+  "break": false
+ },
+ {
+  "text": "at",
+  "start": 5.96,
+  "end": 6.033,
+  "display": "at",
+  "break": false
+ },
+ {
+  "text": "where",
+  "start": 6.045,
+  "end": 6.239,
+  "display": "where",
+  "break": false
+ },
+ {
+  "text": "words",
+  "start": 6.251,
+  "end": 6.555,
+  "display": "words",
+  "break": false
+ },
+ {
+  "text": "appear",
+  "start": 6.567,
+  "end": 6.907,
+  "display": "appear",
+  "break": false
+ },
+ {
+  "text": "across",
+  "start": 6.919,
+  "end": 7.319,
+  "display": "across",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 7.332,
+  "end": 7.416,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "whole",
+  "start": 7.429,
+  "end": 7.671,
+  "display": "whole",
+  "break": false
+ },
+ {
+  "text": "book",
+  "start": 7.684,
+  "end": 7.914,
+  "display": "book.",
+  "break": true
+ },
+ {
+  "text": "In",
+  "start": 8.266,
+  "end": 8.509,
+  "display": "In",
+  "break": false
+ },
+ {
+  "text": "real",
+  "start": 8.521,
+  "end": 8.715,
+  "display": "real",
+  "break": false
+ },
+ {
+  "text": "texts",
+  "start": 8.727,
+  "end": 9.273,
+  "display": "texts,",
+  "break": true
+ },
+ {
+  "text": "topic",
+  "start": 9.346,
+  "end": 9.698,
+  "display": "topic",
+  "break": false
+ },
+ {
+  "text": "words",
+  "start": 9.71,
+  "end": 9.977,
+  "display": "words",
+  "break": false
+ },
+ {
+  "text": "cluster",
+  "start": 9.989,
+  "end": 10.45,
+  "display": "cluster",
+  "break": false
+ },
+ {
+  "text": "you",
+  "start": 10.754,
+  "end": 10.851,
+  "display": "you",
+  "break": false
+ },
+ {
+  "text": "see",
+  "start": 10.863,
+  "end": 11.106,
+  "display": "see",
+  "break": false
+ },
+ {
+  "text": "leaf",
+  "start": 11.154,
+  "end": 11.482,
+  "display": "leaf\"",
+  "break": false
+ },
+ {
+  "text": "and",
+  "start": 11.555,
+  "end": 11.7,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "root",
+  "start": 11.725,
+  "end": 12.004,
+  "display": "root\"",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 12.065,
+  "end": 12.174,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 12.186,
+  "end": 12.271,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "botany",
+  "start": 12.283,
+  "end": 12.647,
+  "display": "botany",
+  "break": false
+ },
+ {
+  "text": "chapter",
+  "start": 12.659,
+  "end": 13.108,
+  "display": "chapter,",
+  "break": true
+ },
+ {
+  "text": "not",
+  "start": 13.205,
+  "end": 13.387,
+  "display": "not",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 13.399,
+  "end": 13.472,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 13.484,
+  "end": 13.545,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "astronomy",
+  "start": 13.557,
+  "end": 14.079,
+  "display": "astronomy",
+  "break": false
+ },
+ {
+  "text": "one",
+  "start": 14.091,
+  "end": 14.37,
+  "display": "one.",
+  "break": true
+ },
+ {
+  "text": "They",
+  "start": 14.722,
+  "end": 14.88,
+  "display": "They",
+  "break": false
+ },
+ {
+  "text": "found",
+  "start": 14.892,
+  "end": 15.171,
+  "display": "found",
+  "break": false
+ },
+ {
+  "text": "that",
+  "start": 15.184,
+  "end": 15.305,
+  "display": "that",
+  "break": false
+ },
+ {
+  "text": "same",
+  "start": 15.317,
+  "end": 15.584,
+  "display": "same",
+  "break": false
+ },
+ {
+  "text": "kind",
+  "start": 15.596,
+  "end": 15.827,
+  "display": "kind",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 15.839,
+  "end": 15.924,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "clustering",
+  "start": 15.936,
+  "end": 16.494,
+  "display": "clustering",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 16.506,
+  "end": 16.615,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 16.628,
+  "end": 16.7,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "Voynich",
+  "start": 16.713,
+  "end": 17.137,
+  "display": "Voynich",
+  "break": false
+ },
+ {
+  "text": "manuscript",
+  "start": 17.149,
+  "end": 17.841,
+  "display": "manuscript,",
+  "break": true
+ },
+ {
+  "text": "with",
+  "start": 17.914,
+  "end": 18.084,
+  "display": "with",
+  "break": false
+ },
+ {
+  "text": "words",
+  "start": 18.096,
+  "end": 18.436,
+  "display": "words",
+  "break": false
+ },
+ {
+  "text": "tied",
+  "start": 18.448,
+  "end": 18.715,
+  "display": "tied",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 18.727,
+  "end": 18.836,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "its",
+  "start": 18.849,
+  "end": 18.994,
+  "display": "its",
+  "break": false
+ },
+ {
+  "text": "illustrated",
+  "start": 19.091,
+  "end": 19.625,
+  "display": "illustrated",
+  "break": false
+ },
+ {
+  "text": "sections",
+  "start": 19.637,
+  "end": 20.232,
+  "display": "sections.",
+  "break": true
+ }
+]

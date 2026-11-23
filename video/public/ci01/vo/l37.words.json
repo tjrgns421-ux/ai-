@@ -1,0 +1,212 @@
+[
+ {
+  "text": "So",
+  "start": 0.1,
+  "end": 0.561,
+  "display": "So.",
+  "break": true
+ },
+ {
+  "text": "After",
+  "start": 0.912,
+  "end": 1.264,
+  "display": "After",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 1.276,
+  "end": 1.349,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "carbon",
+  "start": 1.361,
+  "end": 1.713,
+  "display": "carbon",
+  "break": false
+ },
+ {
+  "text": "dating",
+  "start": 1.725,
+  "end": 2.077,
+  "display": "dating,",
+  "break": true
+ },
+ {
+  "text": "the",
+  "start": 2.101,
+  "end": 2.234,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "word",
+  "start": 2.247,
+  "end": 2.501,
+  "display": "word",
+  "break": false
+ },
+ {
+  "text": "statistics",
+  "start": 2.514,
+  "end": 3.193,
+  "display": "statistics,",
+  "break": true
+ },
+ {
+  "text": "the",
+  "start": 3.242,
+  "end": 3.363,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "self-citation",
+  "start": 3.375,
+  "end": 4.249,
+  "display": "self-citation",
+  "break": false
+ },
+ {
+  "text": "model",
+  "start": 4.261,
+  "end": 4.625,
+  "display": "model,",
+  "break": true
+ },
+ {
+  "text": "five",
+  "start": 4.698,
+  "end": 4.989,
+  "display": "five",
+  "break": false
+ },
+ {
+  "text": "scribes",
+  "start": 5.001,
+  "end": 5.499,
+  "display": "scribes,",
+  "break": true
+ },
+ {
+  "text": "a",
+  "start": 5.584,
+  "end": 5.657,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "dice-and-cards",
+  "start": 5.669,
+  "end": 6.506,
+  "display": "dice-and-cards",
+  "break": false
+ },
+ {
+  "text": "cipher",
+  "start": 6.518,
+  "end": 7.028,
+  "display": "cipher,",
+  "break": true
+ },
+ {
+  "text": "and",
+  "start": 7.137,
+  "end": 7.21,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 7.222,
+  "end": 7.271,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "book",
+  "start": 7.283,
+  "end": 7.501,
+  "display": "book",
+  "break": false
+ },
+ {
+  "text": "that",
+  "start": 7.514,
+  "end": 7.635,
+  "display": "that",
+  "break": false
+ },
+ {
+  "text": "might",
+  "start": 7.647,
+  "end": 7.878,
+  "display": "might",
+  "break": false
+ },
+ {
+  "text": "be",
+  "start": 7.89,
+  "end": 7.963,
+  "display": "be",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 7.975,
+  "end": 8.072,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 8.084,
+  "end": 8.169,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "wrong",
+  "start": 8.181,
+  "end": 8.497,
+  "display": "wrong",
+  "break": false
+ },
+ {
+  "text": "order",
+  "start": 8.509,
+  "end": 8.849,
+  "display": "order,",
+  "break": true
+ },
+ {
+  "text": "here's",
+  "start": 8.97,
+  "end": 9.2,
+  "display": "here's",
+  "break": false
+ },
+ {
+  "text": "where",
+  "start": 9.213,
+  "end": 9.358,
+  "display": "where",
+  "break": false
+ },
+ {
+  "text": "I",
+  "start": 9.37,
+  "end": 9.431,
+  "display": "I",
+  "break": false
+ },
+ {
+  "text": "land",
+  "start": 9.443,
+  "end": 9.844,
+  "display": "land.",
+  "break": true
+ }
+]

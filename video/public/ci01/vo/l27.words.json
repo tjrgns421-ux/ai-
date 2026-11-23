@@ -1,0 +1,65 @@
+[
+ {
+  "text": "Now",
+  "start": 0.1,
+  "end": 0.355,
+  "display": "Now",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 0.367,
+  "end": 0.44,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "new",
+  "start": 0.452,
+  "end": 0.61,
+  "display": "new",
+  "break": false
+ },
+ {
+  "text": "evidence",
+  "start": 0.622,
+  "end": 1.107,
+  "display": "evidence.",
+  "break": true
+ },
+ {
+  "text": "The",
+  "start": 1.458,
+  "end": 1.615,
+  "display": "The",
+  "break": false
+ },
+ {
+  "text": "reason",
+  "start": 1.628,
+  "end": 1.967,
+  "display": "reason",
+  "break": false
+ },
+ {
+  "text": "this",
+  "start": 1.98,
+  "end": 2.125,
+  "display": "this",
+  "break": false
+ },
+ {
+  "text": "video",
+  "start": 2.137,
+  "end": 2.489,
+  "display": "video",
+  "break": false
+ },
+ {
+  "text": "exists",
+  "start": 2.501,
+  "end": 3.096,
+  "display": "exists.",
+  "break": true
+ }
+]
