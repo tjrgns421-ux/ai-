@@ -1,5 +1,13 @@
 # Curious Minutes (new channel, decided 2026-11-19)
 
+## Positioning (decided 2026-11-23): **Science mysteries, explained.**
+Every episode is one mystery: a strange real thing (an event, an object, a phenomenon), what we actually know,
+the theories tested one by one, and an honest verdict (solved / best explanation / still unknown).
+Why: ep01-03 covered traffic, space and archaeology with no common thread, so viewers and the algorithm could
+not tell what the channel is for. A mystery frame fits ep01 (a jam with no cause) and ep03 (an object nobody can
+explain), and ep02 (what really happens in a black hole). Avoid topics big science channels already own unless we
+have a new angle. Never call a mystery "solved" unless a source does.
+
 Why this channel: the niche scan (`research/2026-11-19-findings.md`) put science-space long-form far ahead
 (median score 10.3, 22 new-channel hits out of 52 long videos, median length 14 min). Winning formats:
 "<topic> Explained in N Minutes" and "What If <question>?".
@@ -10,7 +18,7 @@ Why this channel: the niche scan (`research/2026-11-19-findings.md`) put science
 | format | long-form **8:00 or longer** (mid-roll ads need 8 min); script target 8:30+ for margin, check the rendered length; 2 per week; 2–3 Shorts cut from each |
 | voice | en-US-AndrewMultilingualNeural, +0% (same voice as Blip, calmer pace; Blip uses +8%) |
 | character | **Sprout** (lilac round body, sprout on top; chosen 2026-11-19). Thumbnails and a few reaction beats only. Poses in `video/public/sprout/` (happy, excited, shock, think, sad, wink, side, turn); recipe `video/src/mascot/sprout-poses.tsv`; model `SproutStage` in `video/src/mascot/Curious.tsx` |
-| look | bright sky-blue thumbnails with black-outlined white/yellow words (Blip uses dark + lime, so the channels never look alike) |
+| look | from ep03 on, one thumbnail template: dark background with a single lit subject on the right, big black-outlined white words with the last line in yellow on the left, Sprout small in a corner (ep02/ep03 style). Blip uses lime accents, so the channels still don't look alike |
 | rules | same as Blip: every claim sourced and shown on screen; "what if" = labeled estimates, never stated as fact |
 | structure | promise first (Blip sn02 lesson): the thing the title/thumbnail promises lands in the first 30 s |
 | ending | from ep03 on: **no next-episode teaser** at the end (user decision 2026-11-20); no bridging line about earlier teasers |
@@ -37,10 +45,19 @@ Dropped: "24-HOUR DAYS?" for ep 4 (scored 98 but misleading: day length would no
 | language / country | English / (leave country unset or pick the user's) |
 
 Description:
-> Big questions, answered with real science. Why do traffic jams appear out of nowhere? What would happen if the Moon disappeared?
-> Every video recreates the idea in 3D and shows its sources on screen: papers, agencies, real experiments.
-> Simulations and "what if" estimates are always labeled as such.
-> New videos every week. Stay curious.
+> Science mysteries, explained.
+> Strange objects, impossible events, things nobody could explain. Each video lays out what we actually know, tests the theories one by one, and gives an honest answer: solved, best guess, or still unknown.
+> Recreated in 3D, with every source on screen. Illustrations and estimates are always labeled.
+> New mysteries every week.
 
 Channel keywords (YouTube Studio > Settings > Channel > Keywords):
-science, science explained, physics, how things work, curious, what if, explained, science documentary, 3d animation, simulation, traffic science, space, earth science, weather, engineering, education, fun facts, why does, science questions, "Curious Minutes"
+science mysteries, unsolved mysteries, mystery explained, science explained, archaeology mysteries, strange phenomena, unexplained, history mysteries, space mysteries, 3d animation, documentary, what really happened, ancient mysteries, physics, education, "Curious Minutes"
+
+## Next mysteries (candidates, 2026-11-23; check sources and score title/hook before choosing)
+| idea | verdict to give | why it fits |
+|---|---|---|
+| The rocks that move by themselves (Death Valley "sailing stones") | solved on camera (verify the paper) | classic mystery with a filmed answer, great 3D (ice sheets, wind, tracks) |
+| The missing great white shark (tag data) | best explanation | was a 22x outlier in the 2026-11-20 scan; tag data on screen |
+| The Wow! signal (1977) | still unknown, natural explanations proposed | famous; must not imply aliens |
+| Tunguska, 1908 | best explanation (airburst) | huge visual event, no crater |
+| Fairy circles of Namibia | debated | striking aerials, two competing theories |

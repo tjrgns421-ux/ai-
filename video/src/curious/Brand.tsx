@@ -14,7 +14,7 @@ export const CmAvatar: React.FC = () => (
   </AbsoluteFill>
 );
 
-const Cloud: React.FC<{ x: number; y: number; s: number }> = ({ x, y, s }) => (
+export const Cloud: React.FC<{ x: number; y: number; s: number }> = ({ x, y, s }) => (
   <div style={{ position: "absolute", left: x, top: y, width: 260 * s, height: 90 * s, background: "#FFFFFF", borderRadius: 60 * s, opacity: 0.9, boxShadow: `${70 * s}px ${-35 * s}px 0 ${10 * s}px #FFFFFF` }} />
 );
 
@@ -22,28 +22,24 @@ const Cloud: React.FC<{ x: number; y: number; s: number }> = ({ x, y, s }) => (
 export const CmBanner: React.FC = () => {
   useFonts();
   return (
-    <AbsoluteFill style={{ background: SKY, overflow: "hidden" }}>
-      <Cloud x={200} y={260} s={1.4} />
-      <Cloud x={2050} y={220} s={1.1} />
-      <Cloud x={1200} y={140} s={0.9} />
-      {/* ground + road strip below the safe area (seen on TV / desktop only) */}
-      <div style={{ position: "absolute", left: 0, top: 1060, width: 2560, height: 380, background: "#8FD16B" }} />
-      <div style={{ position: "absolute", left: 0, top: 1130, width: 2560, height: 150, background: "#454B58", borderTop: `8px solid #F5F5F2`, borderBottom: `8px solid #F5F5F2` }} />
-      {Array.from({ length: 22 }, (_, i) => (
-        <div key={i} style={{ position: "absolute", left: i * 130, top: 1200, width: 70, height: 10, background: "#F5F5F2" }} />
-      ))}
-      {["#FF6B5E", "#FFD23F", "#4FA3FF", "#5BD68A", "#FF9F43"].map((c, i) => (
-        <div key={c} style={{ position: "absolute", left: 300 + i * 420, top: 1150, width: 170, height: 70, background: c, borderRadius: 20, border: `6px solid ${INK}` }} />
+    <AbsoluteFill style={{ background: "radial-gradient(55% 70% at 62% 50%, #3A2A1C 0%, #15110D 55%, #0B0907 100%)", overflow: "hidden" }}>
+      {/* faint stars and question marks: mysteries */}
+      {Array.from({ length: 140 }, (_, i) => {
+        const x = (Math.sin(i * 91.7) * 0.5 + 0.5) * 2560, y = (Math.sin(i * 47.3 + 1) * 0.5 + 0.5) * 1440;
+        return <div key={i} style={{ position: "absolute", left: x, top: y, width: 4, height: 4, borderRadius: 2, background: "#FFFFFF", opacity: 0.15 + (i % 5) * 0.08 }} />;
+      })}
+      {[[260, 300, 180, -12], [2200, 260, 150, 10], [380, 1080, 130, 8], [2120, 1050, 170, -8]].map(([x, y, sz, r], i) => (
+        <div key={`q${i}`} style={{ position: "absolute", left: x, top: y, fontFamily: "Pretendard", fontWeight: 900, fontSize: sz, color: YEL, opacity: 0.18, rotate: `${r}deg` }}>?</div>
       ))}
       {/* safe area content */}
       <div style={{ position: "absolute", left: 560, top: 520, width: 1200, height: 400, whiteSpace: "nowrap", display: "flex", flexDirection: "column", justifyContent: "center" }}>
         <div style={{ fontFamily: "Pretendard", fontWeight: 900, fontSize: 136, color: "#FFFFFF", letterSpacing: -3, lineHeight: 1, textShadow: outline(6) }}>
           Curious <span style={{ color: YEL }}>Minutes</span>
         </div>
-        <div style={{ fontFamily: "Pretendard", fontWeight: 900, fontSize: 54, color: INK, marginTop: 24 }}>Big questions. Real science. In 3D.</div>
-        <div style={{ fontFamily: "Pretendard", fontWeight: 700, fontSize: 34, color: INK, opacity: 0.65, marginTop: 12 }}>New videos every week · sources on screen</div>
+        <div style={{ fontFamily: "Pretendard", fontWeight: 900, fontSize: 54, color: "#FFFFFF", marginTop: 24 }}>Science mysteries, explained.</div>
+        <div style={{ fontFamily: "Pretendard", fontWeight: 700, fontSize: 34, color: "#FFFFFF", opacity: 0.7, marginTop: 12 }}>Real sources on screen · recreated in 3D</div>
       </div>
-      <Img src={staticFile("sprout/excited.png")} style={{ position: "absolute", left: 1580, top: 430, width: 600, height: 600 }} />
+      <Img src={staticFile("sprout/think.png")} style={{ position: "absolute", left: 1600, top: 440, width: 560, height: 560, filter: "drop-shadow(0 0 40px rgba(255,190,110,0.35))" }} />
     </AbsoluteFill>
   );
 };
