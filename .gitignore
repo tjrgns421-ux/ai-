@@ -11,3 +11,8 @@ tts-out/
 __pycache__/
 *.pyc
 research/out/
+
+# YouTube upload keys (never commit)
+client_secret*.json
+token-*.json
+.yt-upload/
