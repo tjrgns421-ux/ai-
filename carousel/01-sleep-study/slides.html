@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>밤샘 공부 캐러셀</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@500;700;900&family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0b0b0c;
+    --ink: #f3efe6;
+    --muted: #8d887d;
+    --gold: #c9a45c;
+    --gold-soft: rgba(201,164,92,.14);
+    --line: rgba(243,239,230,.12);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #222; font-family: 'Noto Sans KR', sans-serif; color: var(--ink); }
+  .slide {
+    width: 1080px; height: 1350px; background: var(--bg);
+    position: relative; overflow: hidden;
+    padding: 96px 96px 0;
+    display: flex; flex-direction: column;
+    margin-bottom: 40px;
+    letter-spacing: -0.02em;
+  }
+  .slide::before {
+    content: ""; position: absolute; inset: 40px; border: 1px solid var(--line); pointer-events: none;
+  }
+  .top { display: flex; justify-content: space-between; font-size: 24px; font-weight: 500; letter-spacing: .18em; color: var(--muted); }
+  .top b { color: var(--gold); font-weight: 700; }
+  .body { flex: 1; display: flex; flex-direction: column; justify-content: center; }
+  .foot { height: 150px; display: flex; justify-content: space-between; align-items: center; font-size: 24px; color: var(--muted); letter-spacing: .06em; }
+  .foot .swipe { color: var(--gold); font-weight: 700; }
+  .kicker { font-size: 30px; font-weight: 700; color: var(--gold); letter-spacing: .04em; margin-bottom: 36px; }
+  .rule { width: 88px; height: 4px; background: var(--gold); margin: 44px 0; }
+  h1, h2 { font-family: 'Noto Serif KR', serif; font-weight: 900; line-height: 1.22; letter-spacing: -0.04em; }
+  h1 { font-size: 104px; }
+  h2 { font-size: 76px; }
+  .gold { color: var(--gold); }
+  .strike { text-decoration: line-through; text-decoration-color: var(--gold); text-decoration-thickness: 6px; color: var(--muted); }
+  p.lead { font-size: 38px; line-height: 1.6; color: #d9d4c8; font-weight: 400; }
+  p.lead strong { color: var(--ink); font-weight: 700; }
+  .big { font-family: 'Noto Serif KR', serif; font-weight: 900; font-size: 260px; line-height: 1; color: var(--gold); letter-spacing: -0.05em; }
+  .facts { margin-top: 56px; display: grid; gap: 22px; }
+  .fact { display: flex; gap: 28px; align-items: baseline; padding: 30px 34px; background: var(--gold-soft); border-left: 4px solid var(--gold); font-size: 36px; line-height: 1.45; }
+  .fact .k { color: var(--gold); font-weight: 700; min-width: 150px; font-size: 30px; }
+  .vs { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 56px; }
+  .vs > div { padding: 44px 36px; border: 1px solid var(--line); }
+  .vs > .on { border-color: var(--gold); background: var(--gold-soft); }
+  .vs .n { font-family: 'Noto Serif KR', serif; font-weight: 900; font-size: 96px; line-height: 1; }
+  .vs .on .n { color: var(--gold); }
+  .vs .l { font-size: 32px; margin-top: 18px; color: #d9d4c8; line-height: 1.45; }
+  .steps { display: grid; gap: 30px; margin-top: 56px; }
+  .step { display: grid; grid-template-columns: 90px 1fr; align-items: start; }
+  .step .num { font-family: 'Noto Serif KR', serif; font-weight: 900; font-size: 56px; color: var(--gold); line-height: 1.1; }
+  .step .t { font-size: 40px; font-weight: 700; line-height: 1.35; }
+  .step .d { font-size: 29px; color: var(--muted); margin-top: 8px; line-height: 1.45; }
+  .note { font-size: 28px; color: var(--muted); margin-top: 40px; line-height: 1.6; }
+  .cover h1 { font-size: 118px; }
+  .cover .tag { display: inline-block; align-self: flex-start; border: 2px solid var(--gold); color: var(--gold); padding: 14px 26px; font-size: 30px; font-weight: 700; margin-top: 64px; }
+  .cta-box { margin-top: 64px; padding: 48px; border: 2px solid var(--gold); }
+  .cta-box .t { font-family: 'Noto Serif KR', serif; font-size: 52px; font-weight: 900; line-height: 1.35; }
+  .cta-box .d { font-size: 32px; color: #d9d4c8; margin-top: 20px; line-height: 1.5; }
+</style>
+</head>
+<body>
+
+<!-- 1. 훅 -->
+<section class="slide cover">
+  <div class="top"><span>TOP <b>1%</b> SELF-CARE</span><span>01 / 09</span></div>
+  <div class="body">
+    <div class="kicker">밤샘이 노력이라고 믿는 너에게</div>
+    <h1>밤새 공부한 너,<br><span class="strike">성실한 게</span> 아니라<br><span class="gold">손해 본 거다</span></h1>
+    <div class="tag">미국 대학생 1,100여 명 실험 결과</div>
+  </div>
+  <div class="foot"><span>@top1.routine</span><span class="swipe">SWIPE →</span></div>
+</section>
+
+<!-- 2. 출처 -->
+<section class="slide">
+  <div class="top"><span>TOP <b>1%</b> SELF-CARE</span><span>02 / 09</span></div>
+  <div class="body">
+    <div class="kicker">STUDY</div>
+    <h2>이 실험,<br>진짜 있었다</h2>
+    <div class="rule"></div>
+    <div class="facts">
+      <div class="fact"><span class="k">연구팀</span><span>미국 피츠버그대 등 공동 연구팀</span></div>
+      <div class="fact"><span class="k">게재</span><span>Journal of Political Economy, 2026</span></div>
+      <div class="fact"><span class="k">대상</span><span>미국 대학생 1,100여 명</span></div>
+    </div>
+  </div>
+  <div class="foot"><span>@top1.routine</span><span class="swipe">→</span></div>
+</section>
+
+<!-- 3. 실험 방법 -->
+<section class="slide">
+  <div class="top"><span>TOP <b>1%</b> SELF-CARE</span><span>03 / 09</span></div>
+  <div class="body">
+    <div class="kicker">HOW</div>
+    <h2>잠을 자면<br><span class="gold">돈을 줬다</span></h2>
+    <p class="lead" style="margin-top:44px">스마트워치를 차고 <strong>7시간 이상 잔 날마다<br>약 5달러</strong>를 4주 동안 지급했다.</p>
+    <div class="vs">
+      <div class="on"><div class="n">468명</div><div class="l">잘 때마다<br>돈을 받은 그룹</div></div>
+      <div><div class="n">380명</div><div class="l">돈을 받지 않은<br>비교 그룹</div></div>
+    </div>
+  </div>
+  <div class="foot"><span>@top1.routine</span><span class="swipe">→</span></div>
+</section>
+
+<!-- 4. 실험 전 상태 -->
+<section class="slide">
+  <div class="top"><span>TOP <b>1%</b> SELF-CARE</span><span>04 / 09</span></div>
+  <div class="body">
+    <div class="kicker">BEFORE</div>
+    <h2>실험 전,<br>학생들의 밤은<br>이랬다</h2>
+    <div class="facts">
+      <div class="fact"><span class="k">평균 수면</span><span><b class="gold">6.6시간</b></span></div>
+      <div class="fact"><span class="k">7시간 잔 날</span><span>평일 중 <b class="gold">43%</b>뿐</span></div>
+      <div class="fact"><span class="k">취침 시간</span><span>절반이 평균 <b class="gold">새벽 1시 이후</b></span></div>
+    </div>
+    <p class="note">어딘가 익숙하지 않나?</p>
+  </div>
+  <div class="foot"><span>@top1.routine</span><span class="swipe">→</span></div>
+</section>
+
+<!-- 5. 결과 -->
+<section class="slide">
+  <div class="top"><span>TOP <b>1%</b> SELF-CARE</span><span>05 / 09</span></div>
+  <div class="body">
+    <div class="kicker">RESULT</div>
+    <div class="big">+26%</div>
+    <p class="lead" style="margin-top:28px"><strong>7시간 이상 잔 날</strong>이 26% 늘었다.<br>평일 기준 하루 <strong>약 19분</strong> 더 잤다.</p>
+    <div class="rule"></div>
+    <h2 style="font-size:64px">그리고 그 학기<br><span class="gold">학점이 올랐다</span></h2>
+    <p class="note">GPA 약 +0.08점. 고교 성적 상위권과 하위권 학생 간<br>학점 격차의 약 4분의 1에 해당하는 크기다.</p>
+  </div>
+  <div class="foot"><span>@top1.routine</span><span class="swipe">→</span></div>
+</section>
+
+<!-- 6. 반전 -->
+<section class="slide">
+  <div class="top"><span>TOP <b>1%</b> SELF-CARE</span><span>06 / 09</span></div>
+  <div class="body">
+    <div class="kicker">TWIST</div>
+    <h2>공부 시간은<br><span class="gold">그대로였다</span></h2>
+    <p class="lead" style="margin-top:48px">더 많이 공부한 게 아니다.<br><strong>밤늦게 하던 공부를 아침으로 옮겼을 뿐.</strong></p>
+    <div class="vs">
+      <div><div class="n" style="font-size:64px">밤 1시</div><div class="l">졸린 머리로<br>버티는 공부</div></div>
+      <div class="on"><div class="n" style="font-size:64px">아침</div><div class="l">잠을 채운 머리로<br>하는 공부</div></div>
+    </div>
+    <p class="note">수면이 규칙적으로 바뀌었고, 밤에 화면 보는 시간도 줄었다.</p>
+  </div>
+  <div class="foot"><span>@top1.routine</span><span class="swipe">→</span></div>
+</section>
+
+<!-- 7. 적용법 -->
+<section class="slide">
+  <div class="top"><span>TOP <b>1%</b> SELF-CARE</span><span>07 / 09</span></div>
+  <div class="body">
+    <div class="kicker">HOW TO</div>
+    <h2>상위 1%는<br>오늘 밤 이렇게 한다</h2>
+    <div class="steps">
+      <div class="step"><div class="num">01</div><div><div class="t">밤 공부·야근 1시간을 아침으로</div><div class="d">총량은 그대로, 시간대만 바꾸기</div></div></div>
+      <div class="step"><div class="num">02</div><div><div class="t">기상 알람 말고 '취침 알람'</div><div class="d">실험에서도 취침 알림을 보냈다</div></div></div>
+      <div class="step"><div class="num">03</div><div><div class="t">7시간 잔 날을 기록하기</div><div class="d">워치든 메모든, 측정해야 바뀐다</div></div></div>
+      <div class="step"><div class="num">04</div><div><div class="t">보상은 매일, 작게</div><div class="d">학기 말에 한 번에 준 것보다<br>매일 준 쪽이 더 많이 잤다</div></div></div>
+    </div>
+  </div>
+  <div class="foot"><span>@top1.routine</span><span class="swipe">→</span></div>
+</section>
+
+<!-- 8. 한계 -->
+<section class="slide">
+  <div class="top"><span>TOP <b>1%</b> SELF-CARE</span><span>08 / 09</span></div>
+  <div class="body">
+    <div class="kicker">BUT</div>
+    <h2>단, 알고는<br>있어야 할 것</h2>
+    <div class="facts">
+      <div class="fact"><span class="k">범위</span><span>미국 대학생 대상 연구라<br>직장인에게 그대로 적용된다고 볼 순 없다</span></div>
+      <div class="fact"><span class="k">지속성</span><span>학점 효과는 다음 학기까지 이어졌지만<br>두 학기 뒤에는 확인되지 않았다</span></div>
+      <div class="fact"><span class="k">습관</span><span>돈 지급이 끝난 뒤에도<br>하루 약 8분 더 자는 효과는 남았다</span></div>
+    </div>
+    <p class="note">결론: 잠은 한 번 챙기는 게 아니라, 계속 챙겨야 효과가 남는다.</p>
+  </div>
+  <div class="foot"><span>@top1.routine</span><span class="swipe">→</span></div>
+</section>
+
+<!-- 9. CTA -->
+<section class="slide">
+  <div class="top"><span>TOP <b>1%</b> SELF-CARE</span><span>09 / 09</span></div>
+  <div class="body">
+    <h1 style="font-size:92px">성실함은<br>버티는 시간이 아니라<br><span class="gold">회복하는 습관</span>이다</h1>
+    <div class="cta-box">
+      <div class="t">저장해두고, 오늘 밤<br>취침 알람부터 맞춰봐</div>
+      <div class="d">상위 1%의 자기관리, 근거 있는 것만 전합니다.<br>팔로우 <span class="gold">@top1.routine</span></div>
+    </div>
+    <p class="note">출처: Giuntella, Saccardo, Sadoff, "Sleep: Educational<br>Impact and Habit Formation", Journal of Political Economy (2026)</p>
+  </div>
+  <div class="foot"><span>@top1.routine</span><span></span></div>
+</section>
+
+</body>
+</html>
