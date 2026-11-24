@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>99% 손그림 장면</title>
+<link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #ddd; padding: 40px; width: 1160px; }
+  .scene { width: 1080px; height: 675px; margin-bottom: 40px; }
+  .scene svg { display: block; width: 1080px; height: 675px; }
+</style>
+</head>
+<body>
+<div class="scene" id="study"></div>
+<div class="scene" id="weekend"></div>
+<div class="scene" id="workout"></div>
+<script>
+const INK = '#232323';
+const S = `stroke="${INK}" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"`;
+const C = { wall:'#fbf8f1', stripe:'#f3ecdf', floor:'#f1e6d3', skin:'#ffe2d1', hair:'#5a4036', hairHi:'#7a5a4c',
+  blush:'#ff8f8f', hoodie:'#a9bcff', curtain:'#c9b8ff', curtainFold:'#b5a1ff', wood:'#f0cf9f', yellow:'#ffe27a', pink:'#ffc2d4',
+  blue:'#9fd4ff', mint:'#a8e89a', red:'#ff6b6b' };
+const FONT = `font-family="Gaegu" font-weight="700" fill="${INK}"`;
+
+function defs(id) {
+  return `<defs>
+  <filter id="rough-${id}"><feTurbulence type="fractalNoise" baseFrequency=".03" numOctaves="2" seed="7"/><feDisplacementMap in="SourceGraphic" scale="5"/></filter>
+  <pattern id="hatch-${id}" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><line x1="0" y1="0" x2="0" y2="14" stroke="#fff" stroke-width="3" opacity=".55"/></pattern>
+  <radialGradient id="glow-${id}" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="${C.blue}" stop-opacity=".35"/><stop offset="1" stop-color="${C.blue}" stop-opacity="0"/></radialGradient>
+  <radialGradient id="lamp-${id}" cx="50%" cy="0%" r="100%"><stop offset="0" stop-color="#fff3b0" stop-opacity=".8"/><stop offset="1" stop-color="#fff3b0" stop-opacity="0"/></radialGradient>
+  </defs>`;
+}
+function room() {
+  return `<rect width="1080" height="675" fill="${C.wall}"/>
+  <g fill="${C.stripe}" opacity=".6">${Array.from({length:9},(_,i)=>`<rect x="${i*130-20}" y="0" width="48" height="560"/>`).join('')}</g>
+  <rect y="560" width="1080" height="115" fill="${C.floor}"/>`;
+}
+function windowAt(x, day, id) {
+  const sky = day ? '#cdeeff' : '#3a4377';
+  const inner = day
+    ? `<circle cx="${x+80}" cy="150" r="32" fill="#ffd86b" ${S}/>
+       <g stroke="${INK}" stroke-width="4" stroke-linecap="round">${[0,45,90,135,180,225,270,315].map(a=>{const r=Math.PI*a/180;return `<line x1="${x+80+Math.cos(r)*44}" y1="${150+Math.sin(r)*44}" x2="${x+80+Math.cos(r)*58}" y2="${150+Math.sin(r)*58}"/>`}).join('')}</g>
+       <path d="M${x+130} 250 q0 -24 26 -22 q8 -18 30 -10 q22 2 20 24 q14 2 12 16 h-88z" fill="#fff" ${S}/>`
+    : `<circle cx="${x+170}" cy="150" r="34" fill="${C.yellow}"/><circle cx="${x+188}" cy="138" r="32" fill="${sky}"/>
+       <g fill="#fff"><circle cx="${x+40}" cy="130" r="3"/><circle cx="${x+90}" cy="180" r="2.5"/><circle cx="${x+60}" cy="250" r="3"/><circle cx="${x+130}" cy="230" r="2"/></g>`;
+  return `<rect x="${x}" y="86" width="240" height="240" rx="14" fill="#fff" ${S}/>
+  <rect x="${x+10}" y="96" width="220" height="220" rx="10" fill="${sky}" ${S}/>
+  <clipPath id="w-${id}"><rect x="${x+10}" y="96" width="220" height="220" rx="10"/></clipPath>
+  <g clip-path="url(#w-${id})">${inner}</g>
+  <path d="M${x+120} 96 v220 M${x+10} 206 h220" stroke="${INK}" stroke-width="4"/>
+  <path d="M${x-26} 70 h70 q-10 120 18 280 h-88z" fill="${C.curtain}" ${S}/>
+  <path d="M${x+196} 70 h70 v280 h-88 q28 -160 18 -280z" fill="${C.curtain}" ${S}/>
+  <path d="M${x-4} 90 q-6 120 14 250 M${x+242} 90 q6 120 -14 250" stroke="${C.curtainFold}" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <rect x="${x-40}" y="62" width="320" height="14" rx="7" fill="${C.wood}" ${S}/>`;
+}
+// 캐릭터 얼굴 (원본 좌표: 중심 650,402 / 반지름 70)
+function head(cx, cy, r, eyes, mouth) {
+  const s = r / 70;
+  const E = {
+    tired: `<g stroke="${INK}" stroke-width="5" stroke-linecap="round" fill="none"><path d="M614 420 q14 -6 28 0"/><path d="M660 420 q14 -6 28 0"/></g>
+            <ellipse cx="628" cy="428" rx="7" ry="5" fill="${INK}"/><ellipse cx="674" cy="428" rx="7" ry="5" fill="${INK}"/>
+            <path d="M614 440 q14 8 28 0 M660 440 q14 8 28 0" stroke="#8a7bd6" stroke-width="4" fill="none"/>`,
+    closed: `<path d="M614 424 q14 10 28 0 M660 424 q14 10 28 0" stroke="${INK}" stroke-width="5" fill="none" stroke-linecap="round"/>`,
+    xx: `<path d="M616 414 l18 11 l-18 11 M686 414 l-18 11 l18 11" stroke="${INK}" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>`
+  }[eyes];
+  const M = {
+    o: `<ellipse cx="652" cy="458" rx="5" ry="4" fill="${INK}"/>`,
+    line: `<path d="M642 458 h20" stroke="${INK}" stroke-width="4" stroke-linecap="round"/>`,
+    drool: `<path d="M640 456 q12 6 24 0" stroke="${INK}" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M662 460 q4 12 0 16 q-6 -4 0 -16z" fill="${C.blue}" stroke="${INK}" stroke-width="2"/>`,
+    open: `<path d="M640 452 q12 18 24 0z" fill="#e0607a" stroke="${INK}" stroke-width="4" stroke-linejoin="round"/>`
+  }[mouth];
+  return `<g transform="translate(${cx - 650*s} ${cy - 402*s}) scale(${s})">
+    <circle cx="650" cy="402" r="70" fill="${C.skin}" ${S}/>
+    <path d="M576 420 C560 330 630 296 690 312 C742 326 736 384 726 418 L716 386 L703 400 L690 377 L675 397 L660 372 L645 395 L629 372 L614 397 L600 378 L590 410 Z" fill="${C.hair}" ${S}/>
+    <path d="M646 318 q-14 -34 18 -44 q-8 18 -2 38" fill="${C.hair}" ${S}/>
+    <path d="M612 336 q22 -18 58 -16" stroke="${C.hairHi}" stroke-width="6" fill="none" stroke-linecap="round"/>
+    ${E}
+    <ellipse cx="606" cy="446" rx="13" ry="7" fill="${C.blush}" opacity=".6"/><ellipse cx="696" cy="446" rx="13" ry="7" fill="${C.blush}" opacity=".6"/>
+    ${M}
+  </g>`;
+}
+function bubble(cx, cy, rx, text, tail) {
+  const [t1, t2] = tail;
+  return `<g filter="url(#rough-ROUGH)"><circle cx="${t1[0]}" cy="${t1[1]}" r="8" fill="#fff" ${S}/><circle cx="${t2[0]}" cy="${t2[1]}" r="12" fill="#fff" ${S}/>
+    <ellipse cx="${cx}" cy="${cy}" rx="${rx}" ry="52" fill="#fff" ${S}/></g>
+    <text x="${cx}" y="${cy + 12}" text-anchor="middle" ${FONT} font-size="36">${text}</text>`;
+}
+function wrap(id, body) {
+  return `<svg viewBox="0 0 1080 675" xmlns="http://www.w3.org/2000/svg">${defs(id)}${room()}${body.replaceAll('ROUGH', id)}</svg>`;
+}
+
+/* ---------- 새벽 공부 ---------- */
+const study = wrap('study', `
+<g filter="url(#rough-study)">
+  ${windowAt(100, false, 'study')}
+  <circle cx="480" cy="128" r="46" fill="#fff" ${S}/>
+  <path d="M480 128 L492 106 M480 128 L480 92" stroke="${INK}" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="480" cy="128" r="4" fill="${INK}"/>
+  <g transform="rotate(-5 640 150)"><rect x="580" y="104" width="120" height="92" fill="${C.pink}" ${S}/></g>
+</g>
+<g transform="rotate(-5 640 150)"><text x="640" y="146" text-anchor="middle" ${FONT} font-size="32">마감</text><text x="640" y="182" text-anchor="middle" ${FONT} font-size="34" fill="${C.red}">D-1</text></g>
+
+<circle cx="690" cy="330" r="220" fill="url(#glow-study)"/>
+<g filter="url(#rough-study)">
+  <path d="M592 440 q0 -98 98 -98 q98 0 98 98z" fill="${C.hoodie}" ${S}/>
+  <path d="M668 350 l22 30 l22 -30" fill="none" stroke="${INK}" stroke-width="4"/>
+</g>
+${head(690, 280, 62, 'tired', 'line')}
+<g filter="url(#rough-study)">
+  <rect x="588" y="332" width="204" height="96" rx="10" fill="#e9e9f2" ${S}/>
+  <path d="M676 368 l10 -14 l10 14 l-10 14z" fill="${C.yellow}" ${S}/>
+  <circle cx="574" cy="424" r="15" fill="${C.skin}" ${S}/><circle cx="806" cy="424" r="15" fill="${C.skin}" ${S}/>
+  <rect x="360" y="424" width="650" height="26" rx="6" fill="${C.wood}" ${S}/>
+  <rect x="384" y="450" width="20" height="110" fill="${C.wood}" ${S}/><rect x="966" y="450" width="20" height="110" fill="${C.wood}" ${S}/>
+  <g transform="rotate(-3 460 380)">
+    <rect x="396" y="394" width="128" height="26" rx="4" fill="#ff9f9f" ${S}/>
+    <rect x="404" y="368" width="112" height="26" rx="4" fill="${C.blue}" ${S}/>
+    <rect x="392" y="342" width="132" height="26" rx="4" fill="${C.yellow}" ${S}/>
+  </g>
+  <rect x="826" y="380" width="38" height="44" rx="6" fill="#ffb59a" ${S}/><path d="M864 390 q16 2 14 14 q-2 10 -14 10" fill="none" ${S}/>
+  <rect x="884" y="376" width="38" height="48" rx="6" fill="#d9c8ff" ${S}/><path d="M922 388 q16 2 14 14 q-2 10 -14 10" fill="none" ${S}/>
+  <rect x="944" y="368" width="26" height="56" rx="6" fill="${C.mint}" ${S}/>
+</g>
+${bubble(880, 236, 150, '조금만 더 버티자…', [[780, 296], [806, 272]])}
+`);
+
+/* ---------- 주말 몰아 자기 ---------- */
+const weekend = wrap('weekend', `
+<g filter="url(#rough-weekend)">
+  ${windowAt(100, true, 'weekend')}
+  <rect x="580" y="88" width="170" height="150" rx="8" fill="#fff" ${S}/>
+  <rect x="580" y="88" width="170" height="40" rx="8" fill="${C.red}" ${S}/>
+  <path d="M612 80 v18 M718 80 v18" stroke="${INK}" stroke-width="5" stroke-linecap="round"/>
+</g>
+<text x="665" y="118" text-anchor="middle" font-family="Gaegu" font-weight="700" font-size="28" fill="#fff">토요일</text>
+<text x="665" y="196" text-anchor="middle" ${FONT} font-size="38">늦잠 DAY</text>
+
+<g filter="url(#rough-weekend)">
+  <rect x="360" y="430" width="150" height="130" rx="10" fill="${C.wood}" ${S}/>
+  <path d="M372 492 h126" stroke="${INK}" stroke-width="4"/>
+  <circle cx="435" cy="462" r="6" fill="${INK}"/><circle cx="435" cy="525" r="6" fill="${INK}"/>
+  <rect x="372" y="556" width="14" height="20" fill="${INK}"/><rect x="484" y="556" width="14" height="20" fill="${INK}"/>
+  <rect x="368" y="384" width="80" height="46" rx="10" fill="#fff" ${S}/>
+  <path d="M530 470 v-130 q0 -40 40 -40 h400 q40 0 40 40 v130z" fill="#b7c6ff" ${S}/>
+  <rect x="510" y="440" width="520" height="122" rx="24" fill="#fff" ${S}/>
+  <rect x="520" y="556" width="18" height="24" fill="${INK}"/><rect x="1002" y="556" width="18" height="24" fill="${INK}"/>
+  <ellipse cx="650" cy="442" rx="118" ry="44" fill="#fff" ${S}/>
+</g>
+<text x="408" y="416" text-anchor="middle" font-family="monospace" font-weight="700" font-size="22" fill="${C.red}">14:20</text>
+${head(650, 408, 70, 'closed', 'drool')}
+<g filter="url(#rough-weekend)">
+  <path d="M560 470 q30 -30 110 -10 q60 14 120 -6 q120 -30 220 4 v104 h-450z" fill="#a9c9ff" ${S}/>
+  <path d="M562 470 q30 -30 110 -10 q60 14 120 -6 q120 -30 220 4 l0 22 q-100 -30 -220 4 q-60 18 -120 4 q-80 -16 -110 10z" fill="#cfe0ff" ${S}/>
+  <rect x="456" y="414" width="48" height="16" rx="5" fill="${INK}"/>
+  <circle cx="500" cy="404" r="13" fill="${C.red}" ${S}/>
+</g>
+<rect x="580" y="490" width="430" height="70" fill="url(#hatch-weekend)"/>
+<text x="500" y="411" text-anchor="middle" font-family="Gaegu" font-weight="700" font-size="20" fill="#fff">9</text>
+<g ${FONT}><text x="742" y="352" font-size="34">z</text><text x="770" y="316" font-size="44">Z</text><text x="806" y="270" font-size="56">Z</text></g>
+${bubble(912, 238, 142, '밀린 잠 몰아서…', [[850, 300], [868, 278]])}
+`);
+
+/* ---------- 주말에만 운동 ---------- */
+const days = ['월','화','수','목','금','토','일'];
+const workout = wrap('workout', `
+<g filter="url(#rough-workout)">
+  ${windowAt(800, true, 'workout')}
+  <rect x="110" y="86" width="560" height="150" rx="10" fill="#fff" ${S}/>
+  <path d="M110 128 h560 ${days.slice(1).map((_,i)=>`M${110+80*(i+1)} 86 v150`).join(' ')}" stroke="${INK}" stroke-width="3" fill="none"/>
+  <ellipse cx="630" cy="184" rx="34" ry="34" fill="none" stroke="${C.red}" stroke-width="5"/>
+</g>
+<g ${FONT} font-size="28">${days.map((d,i)=>`<text x="${150+80*i}" y="118" text-anchor="middle" ${d==='일'?`fill="${C.red}"`:''}>${d}</text>`).join('')}</g>
+<g ${FONT} font-size="30" fill="#b8b0a4">${days.slice(0,6).map((d,i)=>`<text x="${150+80*i}" y="196" text-anchor="middle">-</text>`).join('')}</g>
+<text x="630" y="194" text-anchor="middle" ${FONT} font-size="26" fill="${C.red}">운동!!</text>
+
+<g filter="url(#rough-workout)">
+  <rect x="170" y="528" width="620" height="28" rx="12" fill="${C.curtain}" ${S}/>
+  <rect x="590" y="486" width="150" height="44" rx="20" fill="#7d7d9a" ${S}/>
+  <ellipse cx="752" cy="508" rx="16" ry="20" fill="#fff" ${S}/>
+  <rect x="360" y="462" width="250" height="72" rx="34" fill="${C.hoodie}" ${S}/>
+  <rect x="380" y="430" width="140" height="30" rx="15" fill="${C.hoodie}" ${S}/>
+  <circle cx="520" cy="445" r="15" fill="${C.skin}" ${S}/>
+  <rect x="820" y="516" width="90" height="12" rx="6" fill="#999" ${S}/>
+  <rect x="806" y="496" width="22" height="52" rx="6" fill="${INK}"/><rect x="902" y="496" width="22" height="52" rx="6" fill="${INK}"/>
+  <rect x="950" y="460" width="34" height="96" rx="10" fill="${C.blue}" ${S}/><rect x="956" y="448" width="22" height="14" rx="3" fill="#fff" ${S}/>
+</g>
+${head(290, 478, 62, 'xx', 'open')}
+<g filter="url(#rough-workout)">
+  <path d="M206 410 q-10 16 0 22 q10 -6 0 -22z" fill="${C.blue}" ${S}/>
+  <path d="M372 400 q-10 16 0 22 q10 -6 0 -22z" fill="${C.blue}" ${S}/>
+  <path d="M236 382 q-8 13 0 18 q8 -5 0 -18z" fill="${C.blue}" ${S}/>
+</g>
+${bubble(560, 330, 160, '일주일 치 운동 끝…', [[380, 400], [410, 376]])}
+`);
+
+document.getElementById('study').innerHTML = study;
+document.getElementById('weekend').innerHTML = weekend;
+document.getElementById('workout').innerHTML = workout;
+</script>
+</body>
+</html>
