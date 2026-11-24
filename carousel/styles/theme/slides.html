@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>테마 비교</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;700;900&family=Gaegu:wght@400;700&family=Jua&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #ccc; font-family: 'Noto Sans KR', sans-serif; }
+  .slide { width: 1080px; height: 1350px; position: relative; overflow: hidden; margin-bottom: 40px; color: #232323; }
+  .foot { position: absolute; left: 56px; right: 56px; bottom: 34px; display: flex; justify-content: space-between; font-size: 24px; font-weight: 700; }
+  .panel { position: absolute; left: 50px; width: 980px; overflow: hidden; }
+  .panel img { display: block; width: 100%; }
+
+  /* ===== A. 다이어리 ===== */
+  .diary { background-color: #fffdf6;
+    background-image: linear-gradient(#e3eefc 2px, transparent 2px), linear-gradient(90deg, #e3eefc 2px, transparent 2px);
+    background-size: 54px 54px; }
+  .diary .foot { color: #8a8175; }
+  .diary .tape { position: absolute; width: 170px; height: 46px; background: rgba(255, 214, 102, .75); z-index: 3; }
+  .diary .tape.p { background: rgba(255, 170, 200, .75); }
+  .diary .panel { border: 4px solid #232323; border-radius: 6px; background: #fff; box-shadow: 0 8px 0 rgba(0,0,0,.06); }
+  .diary .d-tag { position: absolute; left: 70px; top: 76px; font-family: 'Gaegu'; font-weight: 700; font-size: 38px; color: #5b5348; }
+  .diary .d-tag b { color: #ff6b6b; }
+  .diary .d-title { position: absolute; left: 66px; right: 60px; top: 130px; font-family: 'Jua'; font-size: 112px; line-height: 1.15; letter-spacing: -0.02em; }
+  .diary .d-title .mk { background: linear-gradient(180deg, transparent 55%, #ffd666 55%, #ffd666 90%, transparent 90%); }
+  .diary .d-sub { position: absolute; left: 70px; top: 420px; font-family: 'Gaegu'; font-weight: 700; font-size: 40px; color: #5b5348; }
+  .diary .polaroid { position: absolute; left: 90px; top: 540px; width: 900px; background: #fff; padding: 22px 22px 90px; border: 3px solid #232323; transform: rotate(-2deg); box-shadow: 0 14px 0 rgba(0,0,0,.07); }
+  .diary .polaroid img { display: block; width: 100%; border: 3px solid #232323; }
+  .diary .polaroid .cap { position: absolute; left: 0; right: 0; bottom: 22px; text-align: center; font-family: 'Gaegu'; font-weight: 700; font-size: 40px; }
+
+  /* ===== B. 컬러 팝 ===== */
+  .pop { background: #ffd84d; }
+  .pop .foot { color: #232323; }
+  .pop .panel { border: 6px solid #232323; border-radius: 26px; box-shadow: 12px 12px 0 #232323; background: #fff; }
+  .pop .p-badge { position: absolute; left: 60px; top: 66px; display: flex; gap: 14px; }
+  .pop .p-badge span { background: #232323; color: #fff; font-weight: 900; font-size: 28px; padding: 6px 20px; border-radius: 30px; }
+  .pop .p-badge span.w { background: #fff; color: #232323; border: 4px solid #232323; padding: 2px 18px; font-family: 'Gaegu'; font-weight: 700; font-size: 32px; }
+  .pop .p-title { position: absolute; left: 56px; right: 56px; top: 140px; font-weight: 900; font-size: 116px; line-height: 1.12; letter-spacing: -0.05em; }
+  .pop .p-title .box { background: #fff; border: 6px solid #232323; padding: 0 16px; border-radius: 14px; box-shadow: 8px 8px 0 #232323; display: inline-block; margin-top: 14px; }
+  .pop .p-art { position: absolute; left: 50px; top: 560px; width: 980px; border: 6px solid #232323; border-radius: 26px; overflow: hidden; box-shadow: 14px 14px 0 #232323; }
+  .pop .p-art img { display: block; width: 100%; }
+  .pop .p-sticker { position: absolute; right: 70px; top: 500px; z-index: 3; background: #ff6b6b; color: #fff; font-family: 'Gaegu'; font-weight: 700; font-size: 40px; padding: 18px 30px; border: 5px solid #232323; border-radius: 50%; transform: rotate(10deg); }
+
+  /* ===== C. 밤하늘 ===== */
+  .night { background: radial-gradient(120% 70% at 50% 0%, #2d3570 0%, #1a1f42 60%, #14182f 100%); color: #fff; }
+  .night::before { content: ""; position: absolute; inset: 0;
+    background-image: radial-gradient(2px 2px at 80px 120px, #fff 50%, transparent 51%), radial-gradient(2px 2px at 300px 60px, #fff 50%, transparent 51%), radial-gradient(3px 3px at 860px 150px, #ffe27a 50%, transparent 51%), radial-gradient(2px 2px at 980px 420px, #fff 50%, transparent 51%), radial-gradient(2px 2px at 520px 30px, #fff 50%, transparent 51%), radial-gradient(2px 2px at 40px 600px, #fff 50%, transparent 51%), radial-gradient(3px 3px at 700px 90px, #fff 50%, transparent 51%);
+    opacity: .8; }
+  .night .foot { color: rgba(255,255,255,.6); }
+  .night .panel { border: 5px solid #fff; border-radius: 24px; background: #fff; box-shadow: 0 0 0 8px rgba(255,255,255,.08); }
+  .night .n-tag { position: absolute; left: 64px; top: 72px; font-family: 'Gaegu'; font-weight: 700; font-size: 38px; color: #ffe27a; }
+  .night .n-title { position: absolute; left: 60px; right: 60px; top: 130px; font-weight: 900; font-size: 108px; line-height: 1.18; letter-spacing: -0.045em; }
+  .night .n-title .y { color: #ffe27a; }
+  .night .n-sub { position: absolute; left: 64px; top: 420px; font-family: 'Gaegu'; font-weight: 700; font-size: 40px; color: rgba(255,255,255,.75); }
+  .night .n-art { position: absolute; left: 50px; top: 540px; width: 980px; border: 5px solid #fff; border-radius: 28px; overflow: hidden; box-shadow: 0 0 60px rgba(159,212,255,.35); }
+  .night .n-art img { display: block; width: 100%; }
+  .night .moon { position: absolute; right: 80px; top: 70px; width: 90px; height: 90px; border-radius: 50%; box-shadow: -18px 10px 0 0 #ffe27a; transform: rotate(-20deg); }
+</style>
+</head>
+<body>
+
+<!-- A 표지 -->
+<section class="slide diary">
+  <div class="d-tag"><b>EP.1</b> 미루의 갓생일기</div>
+  <div class="d-title">갓생은 <span class="mk">전날 밤</span>에<br>정해진다</div>
+  <div class="d-sub">연구로 확인된 것만, 만화로 알려줄게</div>
+  <div class="tape" style="left:120px; top:520px; transform:rotate(-14deg);"></div>
+  <div class="tape p" style="left:820px; top:528px; transform:rotate(10deg);"></div>
+  <div class="polaroid"><img src="../night-doodle.png"><div class="cap">새벽 1:47, 오늘도…</div></div>
+  <div class="foot"><span>@miru.diary</span><span>1 / 10</span></div>
+</section>
+
+<!-- A 내지 -->
+<section class="slide diary">
+  <div class="tape" style="left:440px; top:34px; transform:rotate(-3deg);"></div>
+  <div class="panel" style="top:60px;"><img src="panel-p1.png"></div>
+  <div class="tape p" style="left:70px; top:654px; transform:rotate(-12deg);"></div>
+  <div class="panel" style="top:680px;"><img src="panel-p2.png"></div>
+  <div class="foot"><span>@miru.diary</span><span>2 / 10</span></div>
+</section>
+
+<!-- B 표지 -->
+<section class="slide pop">
+  <div class="p-badge"><span>EP.1</span><span class="w">미루의 갓생일기</span></div>
+  <div class="p-title">갓생은<br><span class="box">전날 밤</span>에<br>정해진다</div>
+  <div class="p-sticker">연구<br>근거 O</div>
+  <div class="p-art"><img src="../night-doodle.png"></div>
+  <div class="foot"><span>@miru.diary</span><span>1 / 10</span></div>
+</section>
+
+<!-- B 내지 -->
+<section class="slide pop">
+  <div class="panel" style="top:56px;"><img src="panel-p1.png"></div>
+  <div class="panel" style="top:672px;"><img src="panel-p2.png"></div>
+  <div class="foot"><span>@miru.diary</span><span>2 / 10</span></div>
+</section>
+
+<!-- C 표지 -->
+<section class="slide night">
+  <div class="moon"></div>
+  <div class="n-tag">EP.1 · 미루의 갓생일기</div>
+  <div class="n-title">갓생은<br><span class="y">전날 밤</span>에 정해진다</div>
+  <div class="n-sub">연구로 확인된 것만, 만화로 알려줄게</div>
+  <div class="n-art"><img src="../night-doodle.png"></div>
+  <div class="foot"><span>@miru.diary</span><span>1 / 10</span></div>
+</section>
+
+<!-- C 내지 -->
+<section class="slide night">
+  <div class="panel" style="top:56px;"><img src="panel-p1.png"></div>
+  <div class="panel" style="top:672px;"><img src="panel-p2.png"></div>
+  <div class="foot"><span>@miru.diary</span><span>2 / 10</span></div>
+</section>
+
+</body>
+</html>
