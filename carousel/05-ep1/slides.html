@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>미루의 갓생일기 EP.1</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;700;900&family=Gaegu:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #ccc; font-family: 'Noto Sans KR', sans-serif; }
+  .slide { width: 1080px; height: 1350px; position: relative; overflow: hidden; background: #fbf8f1; margin-bottom: 40px; color: #232323; }
+  .foot { position: absolute; left: 50px; right: 50px; bottom: 34px; display: flex; justify-content: space-between; font-size: 24px; font-weight: 700; color: #8a8175; }
+  .foot b { color: #232323; }
+
+  /* 표지 */
+  .tag { position: absolute; left: 60px; top: 70px; display: flex; gap: 12px; align-items: center; font-family: 'Gaegu'; font-weight: 700; font-size: 34px; }
+  .tag .ep { background: #232323; color: #fff; padding: 2px 18px; border-radius: 22px; font-family: 'Noto Sans KR'; font-weight: 900; font-size: 26px; letter-spacing: .04em; }
+  .cover-title { position: absolute; left: 60px; right: 60px; top: 140px; font-weight: 900; font-size: 104px; line-height: 1.22; letter-spacing: -0.045em; }
+  .hl { background: linear-gradient(180deg, transparent 58%, #ffe27a 58%, #ffe27a 92%, transparent 92%); padding: 0 6px; }
+  .cover-sub { position: absolute; left: 62px; top: 430px; font-family: 'Gaegu'; font-weight: 700; font-size: 40px; color: #5b5348; }
+  .cover-art { position: absolute; left: 40px; top: 580px; width: 1000px; border: 5px solid #232323; border-radius: 22px; overflow: hidden; background: #fff; }
+  .cover-art img { display: block; width: 100%; }
+
+  /* 만화 컷 */
+  .panel { position: absolute; left: 40px; width: 1000px; border: 5px solid #232323; border-radius: 22px; overflow: hidden; background: #fff; }
+  .panel svg { display: block; width: 100%; height: 100%; }
+</style>
+</head>
+<body>
+
+<!-- 1. 표지 -->
+<section class="slide">
+  <div class="tag"><span class="ep">EP.1</span><span>미루의 갓생일기</span></div>
+  <div class="cover-title">갓생은<br><span class="hl">전날 밤</span>에 정해진다</div>
+  <div class="cover-sub">연구로 확인된 것만, 만화로 알려줄게</div>
+  <div class="cover-art"><img src="../styles/night-doodle.png"></div>
+  <div class="foot"><span>@miru.diary</span><span><b>1</b> / 10</span></div>
+</section>
+
+<!-- 2. 만화: 밤 10시의 결심 -->
+<section class="slide">
+  <div class="panel" style="top:50px; height:590px;" id="p1"></div>
+  <div class="panel" style="top:670px; height:590px;" id="p2"></div>
+  <div class="foot"><span>@miru.diary</span><span><b>2</b> / 10</span></div>
+</section>
+
+<script>
+const INK = '#232323';
+const S = `stroke="${INK}" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"`;
+const C = { wall:'#fbf8f1', stripe:'#f3ecdf', floor:'#f1e6d3', skin:'#ffe2d1', hair:'#5a4036', hairHi:'#7a5a4c',
+  blush:'#ff8f8f', hoodie:'#a9bcff', pants:'#7d7d9a', wood:'#f0cf9f', yellow:'#ffe27a', pink:'#ffc2d4', blue:'#9fd4ff', mint:'#a8e89a', red:'#ff6b6b', gold:'#ffcf4a' };
+const FONT = `font-family="Gaegu" font-weight="700" fill="${INK}"`;
+
+function defs(id) {
+  return `<defs>
+  <filter id="rough-${id}"><feTurbulence type="fractalNoise" baseFrequency=".03" numOctaves="2" seed="7"/><feDisplacementMap in="SourceGraphic" scale="5"/></filter>
+  <radialGradient id="lamp-${id}" cx="50%" cy="20%" r="70%"><stop offset="0" stop-color="#fff3b0" stop-opacity=".9"/><stop offset="1" stop-color="#fff3b0" stop-opacity="0"/></radialGradient>
+  </defs>`;
+}
+function wall(w, h, floorY) {
+  return `<rect width="${w}" height="${h}" fill="${C.wall}"/>
+  <g fill="${C.stripe}" opacity=".6">${Array.from({length:9},(_,i)=>`<rect x="${i*130-20}" y="0" width="48" height="${floorY}"/>`).join('')}</g>
+  <rect y="${floorY}" width="${w}" height="${h-floorY}" fill="${C.floor}"/>`;
+}
+function head(cx, cy, r, eyes, mouth) {
+  const s = r / 70;
+  const E = {
+    bright: `<circle cx="628" cy="424" r="8" fill="${INK}"/><circle cx="674" cy="424" r="8" fill="${INK}"/>
+             <circle cx="631" cy="420" r="3" fill="#fff"/><circle cx="677" cy="420" r="3" fill="#fff"/>`,
+    determined: `<circle cx="628" cy="426" r="8" fill="${INK}"/><circle cx="674" cy="426" r="8" fill="${INK}"/>
+             <circle cx="631" cy="422" r="3" fill="#fff"/><circle cx="677" cy="422" r="3" fill="#fff"/>
+             <path d="M610 402 l28 9 M692 402 l-28 9" stroke="${INK}" stroke-width="6" stroke-linecap="round"/>`,
+    happy: `<path d="M614 428 q14 -14 28 0 M660 428 q14 -14 28 0" stroke="${INK}" stroke-width="5" fill="none" stroke-linecap="round"/>`
+  }[eyes];
+  const M = {
+    smile: `<path d="M636 450 q16 14 32 0" stroke="${INK}" stroke-width="4" fill="none" stroke-linecap="round"/>`,
+    grin: `<path d="M632 446 q20 26 40 0z" fill="#e0607a" ${S}/>`,
+    tight: `<path d="M640 456 h24" stroke="${INK}" stroke-width="4" stroke-linecap="round"/>`
+  }[mouth];
+  return `<g transform="translate(${cx - 650*s} ${cy - 402*s}) scale(${s})">
+    <circle cx="650" cy="402" r="70" fill="${C.skin}" ${S}/>
+    <path d="M576 420 C560 330 630 296 690 312 C742 326 736 384 726 418 L716 386 L703 400 L690 377 L675 397 L660 372 L645 395 L629 372 L614 397 L600 378 L590 410 Z" fill="${C.hair}" ${S}/>
+    <path d="M646 318 q-14 -34 18 -44 q-8 18 -2 38" fill="${C.hair}" ${S}/>
+    <path d="M612 336 q22 -18 58 -16" stroke="${C.hairHi}" stroke-width="6" fill="none" stroke-linecap="round"/>
+    ${E}
+    <ellipse cx="606" cy="446" rx="13" ry="7" fill="${C.blush}" opacity=".6"/><ellipse cx="696" cy="446" rx="13" ry="7" fill="${C.blush}" opacity=".6"/>
+    ${M}
+  </g>`;
+}
+function sparkle(x, y, s) {
+  return `<path transform="translate(${x} ${y}) scale(${s})" d="M0 -20 Q4 -4 20 0 Q4 4 0 20 Q-4 4 -20 0 Q-4 -4 0 -20z" fill="${C.gold}" ${S}/>`;
+}
+function bubble(cx, cy, rx, ry, text, size, tail, id) {
+  return `<g filter="url(#rough-${id})">
+    ${tail.map(([x,y,r])=>`<circle cx="${x}" cy="${y}" r="${r}" fill="#fff" ${S}/>`).join('')}
+    <ellipse cx="${cx}" cy="${cy}" rx="${rx}" ry="${ry}" fill="#fff" ${S}/></g>
+    <text x="${cx}" y="${cy + size*0.33}" text-anchor="middle" ${FONT} font-size="${size}">${text}</text>`;
+}
+function narration(x, y, text, size=30) {
+  const w = text.length * size * 0.78 + 40;
+  return `<rect x="${x}" y="${y}" width="${w}" height="${size+24}" rx="6" fill="${INK}"/>
+  <text x="${x+18}" y="${y+size+4}" font-family="Gaegu" font-weight="700" font-size="${size}" fill="#fff">${text}</text>`;
+}
+
+/* 컷 1: 밤 10시, 갓생 계획 세우기 */
+function panel1() {
+  const id='p1', W=1000, H=580;
+  const plan = ['6시 기상','운동 30분','독서 1시간','물 2L'];
+  return `<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg">${defs(id)}${wall(W,H,500)}
+  <g filter="url(#rough-${id})">
+    <circle cx="900" cy="120" r="44" fill="#fff" ${S}/>
+    <path d="M900 120 L881 109 M900 120 L900 86" stroke="${INK}" stroke-width="5" stroke-linecap="round"/>
+    <rect x="110" y="410" width="46" height="26" rx="6" fill="${C.wood}" ${S}/>
+    <path d="M133 410 v-62" stroke="${INK}" stroke-width="6"/>
+    <path d="M98 356 l18 -56 h34 l18 56z" fill="#fff3b0" ${S}/>
+  </g>
+  <ellipse cx="133" cy="420" rx="130" ry="80" fill="url(#lamp-${id})"/>
+  <g filter="url(#rough-${id})">
+    <path d="M290 440 q0 -108 100 -108 q100 0 100 108z" fill="${C.hoodie}" ${S}/>
+    <path d="M366 342 l24 32 l24 -32" fill="none" stroke="${INK}" stroke-width="4"/>
+  </g>
+  ${head(390, 262, 64, 'determined', 'tight')}
+  <g filter="url(#rough-${id})">
+    <g transform="rotate(4 690 270)">
+      <rect x="560" y="110" width="270" height="320" rx="8" fill="#fff" ${S}/>
+      <path d="M560 168 h270" stroke="${INK}" stroke-width="3"/>
+      ${plan.map((_,i)=>`<rect x="582" y="${196+i*56}" width="26" height="26" rx="4" fill="#fff" ${S}/>`).join('')}
+    </g>
+    <circle cx="566" cy="372" r="17" fill="${C.skin}" ${S}/>
+    <rect x="60" y="436" width="880" height="26" rx="6" fill="${C.wood}" ${S}/>
+    <rect x="90" y="462" width="20" height="40" fill="${C.wood}" ${S}/><rect x="890" y="462" width="20" height="40" fill="${C.wood}" ${S}/>
+    <circle cx="300" cy="430" r="16" fill="${C.skin}" ${S}/>
+  </g>
+  <g transform="rotate(4 690 270)" ${FONT}>
+    <text x="695" y="154" text-anchor="middle" font-size="40">갓생 계획</text>
+    ${plan.map((t,i)=>`<text x="622" y="${220+i*56}" font-size="34">${t}</text>`).join('')}
+  </g>
+  ${narration(22, 22, '밤 10시')}
+  ${bubble(200, 160, 128, 46, '이번엔 진짜다.', 36, [[300,224,9],[284,206,6]], id)}
+  </svg>`;
+}
+
+/* 컷 2: 포스트잇 붙이며 의기양양 */
+function panel2() {
+  const id='p2', W=1000, H=580;
+  const notes = [[70,70,'6시 기상',C.yellow,-6],[220,230,'운동!',C.pink,5],[60,300,'독서',C.mint,-3],[230,380,'물 2L',C.blue,4]];
+  const x=640, y=240;
+  return `<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg">${defs(id)}${wall(W,H,500)}
+  <g filter="url(#rough-${id})">
+    ${notes.map(([nx,ny,t,c,r])=>`<g transform="rotate(${r} ${nx+65} ${ny+50})"><rect x="${nx}" y="${ny}" width="130" height="100" fill="${c}" ${S}/></g>`).join('')}
+    <g transform="rotate(-4 420 170)"><rect x="340" y="100" width="170" height="130" fill="${C.yellow}" ${S}/></g>
+    <!-- 몸 -->
+    <rect x="${x-44}" y="${y+168}" width="38" height="86" rx="12" fill="${C.pants}" ${S}/>
+    <rect x="${x+6}" y="${y+168}" width="38" height="86" rx="12" fill="${C.pants}" ${S}/>
+    <ellipse cx="${x-26}" cy="${y+256}" rx="28" ry="12" fill="#fff" ${S}/><ellipse cx="${x+26}" cy="${y+256}" rx="28" ry="12" fill="#fff" ${S}/>
+    <rect x="${x-60}" y="${y+46}" width="120" height="136" rx="40" fill="${C.hoodie}" ${S}/>
+    <g transform="translate(${x-46} ${y+74}) rotate(128)"><rect x="-17" y="0" width="34" height="128" rx="17" fill="${C.hoodie}" ${S}/></g>
+    <g transform="translate(${x+46} ${y+74}) rotate(-24)"><rect x="-17" y="0" width="34" height="104" rx="17" fill="${C.hoodie}" ${S}/></g>
+    <circle cx="${x-46-0.788*128}" cy="${y+74-0.616*128}" r="18" fill="${C.skin}" ${S}/>
+    <circle cx="${x+46+0.407*104}" cy="${y+74+0.914*104}" r="17" fill="${C.skin}" ${S}/>
+  </g>
+  ${head(x, y, 64, 'happy', 'grin')}
+  <g ${FONT}>
+    ${notes.map(([nx,ny,t,c,r])=>`<text transform="rotate(${r} ${nx+65} ${ny+50})" x="${nx+65}" y="${ny+60}" text-anchor="middle" font-size="32">${t}</text>`).join('')}
+    <g transform="rotate(-4 420 170)"><text x="425" y="158" text-anchor="middle" font-size="36">내일부터</text><text x="425" y="202" text-anchor="middle" font-size="40" fill="${C.red}">갓생!</text></g>
+  </g>
+  ${sparkle(770, 200, 1.1)}${sparkle(560, 120, .8)}${sparkle(820, 330, .7)}
+  ${bubble(860, 110, 112, 50, '완벽해!', 42, [[770,178,8],[790,160,12]], id)}
+  ${narration(520, 512, '(이때까지만 해도 몰랐다…)', 28)}
+  </svg>`;
+}
+document.getElementById('p1').innerHTML = panel1();
+document.getElementById('p2').innerHTML = panel2();
+</script>
+</body>
+</html>
