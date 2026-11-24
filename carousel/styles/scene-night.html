@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>99% 밤 장면</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;700;900&family=Gaegu:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #ddd; font-family: 'Noto Sans KR', sans-serif; padding: 40px; width: 1160px; }
+  .scene { width: 1080px; height: 675px; margin-bottom: 40px; }
+  .scene svg { display: block; width: 1080px; height: 675px; }
+</style>
+</head>
+<body>
+<div class="scene" id="flat"></div>
+<div class="scene" id="doodle"></div>
+<script>
+const P = {
+  flat: {
+    wall:'#262b52', wallDeco:'#2e3461', floor:'#1d2142', rug:'#33396b', sky:'#0f1330', frame:'#3d4478', curtain:'#6c5ce7', curtainFold:'#5a4bd1',
+    moon:'#ffe9a8', star:'#ffffff', stand:'#8b6b55', standLine:'#6e5442', knob:'#d9b38c', lampShade:'#c9a46b', lampBase:'#6e5442',
+    clock:'#2c2c3a', digit:'#ff6b6b', can:'#7bdc65', canTop:'#c8f5bd', mug:'#ff9f7a',
+    head:'#6b7bd6', mattress:'#e9ecff', pillow:'#f4f5ff', blanket:'#8fa0ff', blanketFold:'#a9b6ff', dot:'#c3ccff',
+    skin:'#ffd9c2', hair:'#3b2a2a', hairHi:'#5a4040', blush:'#ff9fa8', circle:'#a98cff', eye:'#1e1e28',
+    phone:'#23263a', screen:'#9fd4ff', glow:'#8fd3ff', glowOp:.5,
+    note1:'#ffe27a', note2:'#ffb3c7', noteText:'#3a3a3a', bubble:'#ffffff', bubbleText:'#2b2d42', cable:'#c3ccff',
+    font:"'Noto Sans KR'", fw:900, stroke:false, rough:false
+  },
+  doodle: {
+    wall:'#fbf8f1', wallDeco:'#f3ecdf', floor:'#f1e6d3', rug:'#e7d3f5', sky:'#3a4377', frame:'#fbf8f1', curtain:'#c9b8ff', curtainFold:'#b5a1ff',
+    moon:'#ffe27a', star:'#ffffff', stand:'#f0cf9f', standLine:'#232323', knob:'#232323', lampShade:'#fff3b0', lampBase:'#f0cf9f',
+    clock:'#ffffff', digit:'#ff5a5a', can:'#a8e89a', canTop:'#ffffff', mug:'#ffb59a',
+    head:'#b7c6ff', mattress:'#ffffff', pillow:'#ffffff', blanket:'#a9c9ff', blanketFold:'#cfe0ff', dot:'#ffffff',
+    skin:'#ffe2d1', hair:'#5a4036', hairHi:'#7a5a4c', blush:'#ff8f8f', circle:'#8a7bd6', eye:'#232323',
+    phone:'#232323', screen:'#9fd4ff', glow:'#9fd4ff', glowOp:.25,
+    note1:'#ffe27a', note2:'#ffc2d4', noteText:'#232323', bubble:'#ffffff', bubbleText:'#232323', cable:'#232323',
+    font:"'Gaegu'", fw:700, stroke:true, rough:true
+  }
+};
+
+function scene(k) {
+  const c = P[k];
+  const S = c.stroke ? 'stroke="#232323" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"' : '';
+  const thin = c.stroke ? 'stroke="#232323" stroke-width="3" stroke-linecap="round"' : '';
+  const g = c.rough ? 'filter="url(#rough-'+k+')"' : '';
+  return `
+<svg viewBox="0 0 1080 675" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <radialGradient id="glow-${k}" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="${c.glow}" stop-opacity="${c.glowOp}"/><stop offset="1" stop-color="${c.glow}" stop-opacity="0"/></radialGradient>
+  <filter id="rough-${k}"><feTurbulence type="fractalNoise" baseFrequency=".03" numOctaves="2" seed="7"/><feDisplacementMap in="SourceGraphic" scale="5"/></filter>
+  <pattern id="hatch-${k}" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><line x1="0" y1="0" x2="0" y2="14" stroke="#ffffff" stroke-width="3" opacity=".55"/></pattern>
+  <clipPath id="win-${k}"><rect x="110" y="96" width="220" height="220" rx="10"/></clipPath>
+</defs>
+
+<!-- 벽과 바닥 -->
+<rect width="1080" height="675" fill="${c.wall}"/>
+<g opacity=".6" fill="${c.wallDeco}">${Array.from({length:9},(_,i)=>`<rect x="${i*130-20}" y="0" width="48" height="560"/>`).join('')}</g>
+<rect y="560" width="1080" height="115" fill="${c.floor}"/>
+
+<g ${g}>
+  <!-- 창문 -->
+  <rect x="100" y="86" width="240" height="240" rx="14" fill="${c.frame}" ${S}/>
+  <rect x="110" y="96" width="220" height="220" rx="10" fill="${c.sky}" ${S}/>
+  <g clip-path="url(#win-${k})">
+    <circle cx="270" cy="150" r="34" fill="${c.moon}"/><circle cx="288" cy="138" r="32" fill="${c.sky}"/>
+    <g fill="${c.star}"><circle cx="140" cy="130" r="3"/><circle cx="190" cy="180" r="2.5"/><circle cx="160" cy="250" r="3"/><circle cx="230" cy="230" r="2"/><circle cx="300" cy="270" r="3"/></g>
+  </g>
+  <path d="M220 96 v220 M110 206 h220" stroke="${c.stroke ? '#232323' : c.frame}" stroke-width="${c.stroke?4:8}"/>
+  <!-- 커튼 -->
+  <path d="M74 70 h70 q-10 120 18 280 h-88z" fill="${c.curtain}" ${S}/>
+  <path d="M296 70 h70 v280 h-88 q28 -160 18 -280z" fill="${c.curtain}" ${S}/>
+  <path d="M96 90 q-6 120 14 250 M342 90 q6 120 -14 250" stroke="${c.curtainFold}" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <rect x="60" y="62" width="320" height="14" rx="7" fill="${c.stand}" ${S}/>
+
+  <!-- 벽 포스트잇 -->
+  <g transform="translate(0 -44) rotate(-6 640 180)"><rect x="578" y="128" width="128" height="104" fill="${c.note1}" ${S}/></g>
+  <g transform="translate(0 -44) rotate(5 770 200)"><rect x="712" y="150" width="120" height="96" fill="${c.note2}" ${S}/></g>
+</g>
+<g font-family="${c.font}" font-weight="${c.fw}" fill="${c.noteText}">
+  <g transform="translate(0 -44) rotate(-6 640 180)"><text x="642" y="172" text-anchor="middle" font-size="${c.rough?30:22}">내일부터</text><text x="642" y="206" text-anchor="middle" font-size="${c.rough?34:26}">갓생!</text></g>
+  <g transform="translate(0 -44) rotate(5 770 200)"><text x="772" y="192" text-anchor="middle" font-size="${c.rough?30:22}">6시 기상</text><path d="M736 202 L808 186" stroke="${c.noteText}" stroke-width="4" stroke-linecap="round"/><text x="772" y="228" text-anchor="middle" font-size="${c.rough?26:18}">(진짜로)</text></g>
+</g>
+
+<g ${g}>
+  <!-- 협탁 -->
+  <rect x="360" y="430" width="150" height="130" rx="10" fill="${c.stand}" ${S}/>
+  <path d="M372 492 h126" stroke="${c.standLine}" stroke-width="4"/>
+  <circle cx="435" cy="462" r="6" fill="${c.knob}"/><circle cx="435" cy="525" r="6" fill="${c.knob}"/>
+  <rect x="372" y="556" width="14" height="20" fill="${c.standLine}"/><rect x="484" y="556" width="14" height="20" fill="${c.standLine}"/>
+  <!-- 스탠드 (꺼짐) -->
+  <rect x="386" y="404" width="40" height="26" rx="6" fill="${c.lampBase}" ${S}/>
+  <path d="M402 404 v-40" stroke="${c.stroke?'#232323':c.lampBase}" stroke-width="6"/>
+  <path d="M374 366 l16 -52 h32 l16 52z" fill="${c.lampShade}" ${S}/>
+  <!-- 알람시계 -->
+  <rect x="436" y="384" width="66" height="46" rx="10" fill="${c.clock}" ${S}/>
+  <!-- 에너지드링크 + 머그 -->
+  <rect x="470" y="346" width="26" height="38" rx="5" fill="${c.can}" ${S}/>
+  <ellipse cx="483" cy="347" rx="13" ry="4" fill="${c.canTop}"/>
+</g>
+<text x="469" y="417" text-anchor="middle" font-family="monospace" font-weight="700" font-size="24" fill="${c.digit}">1:47</text>
+
+<!-- 휴대폰 빛 -->
+<circle cx="760" cy="410" r="260" fill="url(#glow-${k})"/>
+
+<g ${g}>
+  <!-- 침대 -->
+  <path d="M530 470 v-130 q0 -40 40 -40 h400 q40 0 40 40 v130z" fill="${c.head}" ${S}/>
+  <rect x="510" y="440" width="520" height="122" rx="24" fill="${c.mattress}" ${S}/>
+  <rect x="520" y="556" width="18" height="24" fill="${c.standLine}"/><rect x="1002" y="556" width="18" height="24" fill="${c.standLine}"/>
+  <ellipse cx="650" cy="440" rx="118" ry="44" fill="${c.pillow}" ${S}/>
+
+  <!-- 얼굴 -->
+  <circle cx="650" cy="402" r="70" fill="${c.skin}" ${S}/>
+  <!-- 머리카락 -->
+  <path d="M576 420 C560 330 630 296 690 312 C742 326 736 384 726 418 L716 386 L703 400 L690 377 L675 397 L660 372 L645 395 L629 372 L614 397 L600 378 L590 410 Z" fill="${c.hair}" ${S}/>
+  <path d="M646 318 q-14 -34 18 -44 q-8 18 -2 38" fill="${c.hair}" ${S}/>
+  <path d="M612 336 q22 -18 58 -16" stroke="${c.hairHi}" stroke-width="6" fill="none" stroke-linecap="round"/>
+</g>
+
+<!-- 눈, 다크서클, 볼 -->
+<g stroke="${c.eye}" stroke-width="5" stroke-linecap="round" fill="none">
+  <path d="M614 420 q14 -6 28 0"/><path d="M660 420 q14 -6 28 0"/>
+</g>
+<ellipse cx="628" cy="428" rx="7" ry="5" fill="${c.eye}"/><ellipse cx="674" cy="428" rx="7" ry="5" fill="${c.eye}"/>
+<rect x="629" y="425" width="4" height="3" fill="${c.screen}"/><rect x="675" y="425" width="4" height="3" fill="${c.screen}"/>
+<path d="M614 440 q14 7 28 0 M660 440 q14 7 28 0" stroke="${c.circle}" stroke-width="3" fill="none" opacity=".8"/>
+<ellipse cx="606" cy="446" rx="13" ry="7" fill="${c.blush}" opacity=".6"/><ellipse cx="696" cy="446" rx="13" ry="7" fill="${c.blush}" opacity=".6"/>
+<ellipse cx="652" cy="455" rx="5" ry="4" fill="${c.eye}" opacity=".8"/>
+
+<g ${g}>
+  <!-- 이불 -->
+  <path d="M560 470 q30 -30 110 -10 q60 14 120 -6 q120 -30 220 4 v104 h-450z" fill="${c.blanket}" ${S}/>
+  <path d="M562 470 q30 -30 110 -10 q60 14 120 -6 q120 -30 220 4 l0 22 q-100 -30 -220 4 q-60 18 -120 4 q-80 -16 -110 10z" fill="${c.blanketFold}" ${S}/>
+</g>
+<rect x="580" y="490" width="430" height="70" fill="url(#hatch-${k})" opacity="${c.rough?1:0}"/>
+<g fill="${c.dot}" opacity="${c.rough?0:.9}">${[[620,520],[700,505],[780,530],[860,510],[940,535],[660,548],[900,550],[820,552]].map(([x,y])=>`<path d="M${x} ${y-8} l3 6 l7 1 l-5 5 l1 7 l-6 -3 l-6 3 l1 -7 l-5 -5 l7 -1z"/>`).join('')}</g>
+
+<g ${g}>
+  <!-- 충전 케이블 -->
+  <path d="M498 470 q40 80 120 40 q90 -40 150 -40" stroke="${c.cable}" stroke-width="4" fill="none"/>
+  <!-- 휴대폰과 손 -->
+  <g transform="rotate(-10 768 410)">
+    <rect x="740" y="352" width="58" height="96" rx="11" fill="${c.phone}" ${S}/>
+    <rect x="746" y="360" width="46" height="80" rx="7" fill="${c.screen}"/>
+    <path d="M760 384 l16 10 l-16 10z" fill="#ffffff"/>
+    <path d="M752 424 h20 M752 432 h30" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+    <path d="M781 414 c-6 -6 -12 0 -6 5 l6 5 l6 -5 c6 -5 0 -11 -6 -5z" fill="#ff6b8b"/>
+  </g>
+  <circle cx="752" cy="452" r="15" fill="${c.skin}" ${S}/><circle cx="786" cy="446" r="15" fill="${c.skin}" ${S}/>
+</g>
+
+<!-- 생각 말풍선 -->
+<g ${g}>
+  <circle cx="772" cy="328" r="8" fill="${c.bubble}" ${S}/><circle cx="800" cy="302" r="12" fill="${c.bubble}" ${S}/>
+  <ellipse cx="918" cy="262" rx="138" ry="54" fill="${c.bubble}" ${S}/>
+</g>
+<text x="918" y="${c.rough?274:274}" text-anchor="middle" font-family="${c.font}" font-weight="${c.fw}" font-size="${c.rough?38:32}" fill="${c.bubbleText}">딱 한 개만 더…</text>
+</svg>`;
+}
+document.getElementById('flat').innerHTML = scene('flat');
+document.getElementById('doodle').innerHTML = scene('doodle');
+</script>
+</body>
+</html>
