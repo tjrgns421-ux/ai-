@@ -1,0 +1,92 @@
+{
+ "niches": {
+  "geography": {
+   "group": "ai",
+   "keywords": [
+    "geography explained",
+    "why this country",
+    "maps explained"
+   ]
+  },
+  "history": {
+   "group": "ai",
+   "keywords": [
+    "history explained",
+    "ancient history documentary",
+    "history mysteries"
+   ]
+  },
+  "mysteries": {
+   "group": "ai",
+   "keywords": [
+    "unsolved mysteries",
+    "true story explained",
+    "strange facts"
+   ]
+  },
+  "psychology": {
+   "group": "ai",
+   "keywords": [
+    "psychology facts",
+    "why people do",
+    "dark psychology explained"
+   ]
+  },
+  "animals-nature": {
+   "group": "ai",
+   "keywords": [
+    "animal facts",
+    "nature documentary short",
+    "weird animals"
+   ]
+  },
+  "weird-laws": {
+   "group": "new",
+   "keywords": [
+    "weird laws around the world",
+    "strange laws",
+    "illegal in this country"
+   ]
+  },
+  "money": {
+   "group": "ai",
+   "keywords": [
+    "economy explained",
+    "how companies make money",
+    "business explained"
+   ]
+  },
+  "maps-size": {
+   "group": "new",
+   "keywords": [
+    "true size of countries",
+    "map comparison",
+    "why is this border"
+   ]
+  },
+  "word-origins": {
+   "group": "new",
+   "keywords": [
+    "word origins",
+    "why do we say",
+    "language explained"
+   ]
+  },
+  "how-built": {
+   "group": "new",
+   "keywords": [
+    "how was it built",
+    "engineering explained",
+    "how it works animation"
+   ]
+  },
+  "body-explained": {
+   "group": "new",
+   "keywords": [
+    "what happens to your body",
+    "human body explained",
+    "why does your body"
+   ]
+  }
+ }
+}
