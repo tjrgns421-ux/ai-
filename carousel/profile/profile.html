@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>미루 프로필</title>
+<style>
+  * { margin: 0; padding: 0; }
+  body { background: #ccc; padding: 20px; }
+  .pf { width: 1080px; height: 1080px; margin-bottom: 20px; }
+  .pf svg { display: block; width: 1080px; height: 1080px; }
+</style>
+</head>
+<body>
+<div class="pf" id="yellow"></div>
+<div class="pf" id="grid"></div>
+<div class="pf" id="night"></div>
+<script>
+const INK = '#232323';
+const S = `stroke="${INK}" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"`;
+const C = { skin:'#ffe2d1', hair:'#5a4036', hairHi:'#7a5a4c', blush:'#ff8f8f', hoodie:'#a9bcff', gold:'#ffcf4a' };
+
+function head(cx, cy, r, eyes, mouth) {
+  const s = r / 70;
+  const E = {
+    happy: `<path d="M614 428 q14 -14 28 0 M660 428 q14 -14 28 0" stroke="${INK}" stroke-width="5" fill="none" stroke-linecap="round"/>`,
+    bright: `<circle cx="628" cy="424" r="8" fill="${INK}"/><circle cx="674" cy="424" r="8" fill="${INK}"/>
+             <circle cx="631" cy="420" r="3" fill="#fff"/><circle cx="677" cy="420" r="3" fill="#fff"/>`
+  }[eyes];
+  const M = {
+    smile: `<path d="M636 450 q16 14 32 0" stroke="${INK}" stroke-width="4" fill="none" stroke-linecap="round"/>`,
+    grin: `<path d="M632 446 q20 26 40 0z" fill="#e0607a" ${S}/>`
+  }[mouth];
+  return `<g transform="translate(${cx - 650*s} ${cy - 402*s}) scale(${s})">
+    <circle cx="650" cy="402" r="70" fill="${C.skin}" ${S}/>
+    <path d="M576 420 C560 330 630 296 690 312 C742 326 736 384 726 418 L716 386 L703 400 L690 377 L675 397 L660 372 L645 395 L629 372 L614 397 L600 378 L590 410 Z" fill="${C.hair}" ${S}/>
+    <path d="M646 318 q-14 -34 18 -44 q-8 18 -2 38" fill="${C.hair}" ${S}/>
+    <path d="M612 336 q22 -18 58 -16" stroke="${C.hairHi}" stroke-width="6" fill="none" stroke-linecap="round"/>
+    ${E}
+    <ellipse cx="606" cy="446" rx="13" ry="7" fill="${C.blush}" opacity=".7"/><ellipse cx="696" cy="446" rx="13" ry="7" fill="${C.blush}" opacity=".7"/>
+    ${M}
+  </g>`;
+}
+function sparkle(x, y, s, fill) {
+  return `<path transform="translate(${x} ${y}) scale(${s})" d="M0 -20 Q4 -4 20 0 Q4 4 0 20 Q-4 4 -20 0 Q-4 -4 0 -20z" fill="${fill || C.gold}" stroke="${INK}" stroke-width="${4/s}" stroke-linejoin="round"/>`;
+}
+// 어깨(후드티) — 원형으로 잘려도 자연스럽게 아래를 채움
+const shoulders = `<path d="M250 1100 q0 -230 290 -230 q290 0 290 230z" fill="${C.hoodie}" stroke="${INK}" stroke-width="16" stroke-linejoin="round"/>
+  <path d="M480 885 l60 70 l60 -70" fill="none" stroke="${INK}" stroke-width="14" stroke-linejoin="round" stroke-linecap="round"/>`;
+const rough = `<defs><filter id="r" x="-5%" y="-5%" width="110%" height="110%"><feTurbulence type="fractalNoise" baseFrequency=".012" numOctaves="2" seed="4"/><feDisplacementMap in="SourceGraphic" scale="8"/></filter></defs>`;
+
+function profile(bg, extra, eyes, mouth) {
+  return `<svg viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg">${rough}${bg}${extra}
+  <g filter="url(#r)">${shoulders}</g>
+  ${head(540, 610, 270, eyes, mouth)}
+  </svg>`;
+}
+
+// 1. 노랑
+document.getElementById('yellow').innerHTML = profile(
+  `<rect width="1080" height="1080" fill="#ffd666"/>`,
+  `${sparkle(230, 300, 3, '#fff')}${sparkle(860, 250, 2.2, '#fff')}`,
+  'happy', 'grin');
+
+// 2. 다이어리 모눈
+let g = '';
+for (let x = 0; x <= 1080; x += 72) g += `<line x1="${x}" y1="-20" x2="${x}" y2="1100"/>`;
+for (let y = 0; y <= 1080; y += 72) g += `<line x1="-20" y1="${y}" x2="1100" y2="${y}"/>`;
+document.getElementById('grid').innerHTML = profile(
+  `<rect width="1080" height="1080" fill="#fffdf6"/><g filter="url(#r)" stroke="#c9dcf5" stroke-width="4">${g}</g>`,
+  `${sparkle(240, 310, 2.6)}${sparkle(850, 270, 2)}`,
+  'bright', 'smile');
+
+// 3. 밤하늘
+document.getElementById('night').innerHTML = profile(
+  `<rect width="1080" height="1080" fill="#3a4377"/>
+   <circle cx="830" cy="250" r="90" fill="#ffe27a"/><circle cx="868" cy="222" r="84" fill="#3a4377"/>
+   <g fill="#fff"><circle cx="200" cy="220" r="8"/><circle cx="300" cy="420" r="6"/><circle cx="160" cy="560" r="7"/><circle cx="930" cy="520" r="6"/><circle cx="640" cy="140" r="5"/></g>`,
+  `${sparkle(260, 320, 2.2)}`,
+  'happy', 'smile');
+</script>
+</body>
+</html>
