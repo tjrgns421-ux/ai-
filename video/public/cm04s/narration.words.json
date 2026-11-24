@@ -1,0 +1,457 @@
+[
+ {
+  "text": "You'd",
+  "start": 0.05,
+  "end": 0.175
+ },
+ {
+  "text": "never",
+  "start": 0.187,
+  "end": 0.45
+ },
+ {
+  "text": "expect",
+  "start": 0.45,
+  "end": 0.8
+ },
+ {
+  "text": "a",
+  "start": 0.813,
+  "end": 0.85
+ },
+ {
+  "text": "hut",
+  "start": 0.862,
+  "end": 1.25
+ },
+ {
+  "text": "on",
+  "start": 1.262,
+  "end": 1.375
+ },
+ {
+  "text": "the",
+  "start": 1.375,
+  "end": 1.412
+ },
+ {
+  "text": "Moon",
+  "start": 1.412,
+  "end": 1.75
+ },
+ {
+  "text": "But",
+  "start": 1.92,
+  "end": 1.983
+ },
+ {
+  "text": "in 2021",
+  "start": 1.983,
+  "end": 2.933
+ },
+ {
+  "text": "a",
+  "start": 3.053,
+  "end": 3.104
+ },
+ {
+  "text": "rover",
+  "start": 3.116,
+  "end": 3.504
+ },
+ {
+  "text": "drove",
+  "start": 3.504,
+  "end": 3.866
+ },
+ {
+  "text": "a",
+  "start": 3.866,
+  "end": 3.916
+ },
+ {
+  "text": "month",
+  "start": 3.916,
+  "end": 4.516
+ },
+ {
+  "text": "to",
+  "start": 4.636,
+  "end": 4.761
+ },
+ {
+  "text": "reach",
+  "start": 4.773,
+  "end": 5.061
+ },
+ {
+  "text": "one",
+  "start": 5.061,
+  "end": 5.461
+ },
+ {
+  "text": "What",
+  "start": 5.581,
+  "end": 5.656
+ },
+ {
+  "text": "was",
+  "start": 5.656,
+  "end": 5.793
+ },
+ {
+  "text": "it",
+  "start": 5.805,
+  "end": 5.918
+ },
+ {
+  "text": "actually",
+  "start": 5.918,
+  "end": 6.381
+ },
+ {
+  "text": "China's",
+  "start": 6.551,
+  "end": 6.901
+ },
+ {
+  "text": "Yutu",
+  "start": 6.901,
+  "end": 7.251
+ },
+ {
+  "text": "2",
+  "start": 7.263,
+  "end": 7.639
+ },
+ {
+  "text": "rover",
+  "start": 7.651,
+  "end": 8.038
+ },
+ {
+  "text": "spotted",
+  "start": 8.038,
+  "end": 8.513
+ },
+ {
+  "text": "a",
+  "start": 8.633,
+  "end": 8.696
+ },
+ {
+  "text": "cube-shaped",
+  "start": 8.708,
+  "end": 9.395
+ },
+ {
+  "text": "blur",
+  "start": 9.395,
+  "end": 9.846
+ },
+ {
+  "text": "on",
+  "start": 9.966,
+  "end": 10.078
+ },
+ {
+  "text": "the",
+  "start": 10.078,
+  "end": 10.141
+ },
+ {
+  "text": "far",
+  "start": 10.141,
+  "end": 10.466
+ },
+ {
+  "text": "side",
+  "start": 10.479,
+  "end": 10.916
+ },
+ {
+  "text": "Its",
+  "start": 11.086,
+  "end": 11.198
+ },
+ {
+  "text": "own",
+  "start": 11.198,
+  "end": 11.361
+ },
+ {
+  "text": "team",
+  "start": 11.361,
+  "end": 11.786
+ },
+ {
+  "text": "joked",
+  "start": 11.906,
+  "end": 12.219
+ },
+ {
+  "text": "it",
+  "start": 12.219,
+  "end": 12.294
+ },
+ {
+  "text": "might",
+  "start": 12.294,
+  "end": 12.569
+ },
+ {
+  "text": "be",
+  "start": 12.582,
+  "end": 12.819
+ },
+ {
+  "text": "the",
+  "start": 12.832,
+  "end": 12.956
+ },
+ {
+  "text": "hut",
+  "start": 12.969,
+  "end": 13.269
+ },
+ {
+  "text": "of",
+  "start": 13.269,
+  "end": 13.394
+ },
+ {
+  "text": "alien",
+  "start": 13.494,
+  "end": 13.832
+ },
+ {
+  "text": "pioneers",
+  "start": 13.832,
+  "end": 14.694
+ },
+ {
+  "text": "So",
+  "start": 14.864,
+  "end": 14.952
+ },
+ {
+  "text": "the",
+  "start": 14.952,
+  "end": 15.039
+ },
+ {
+  "text": "rover",
+  "start": 15.039,
+  "end": 15.352
+ },
+ {
+  "text": "drove",
+  "start": 15.352,
+  "end": 15.739
+ },
+ {
+  "text": "there",
+  "start": 15.739,
+  "end": 16.076
+ },
+ {
+  "text": "The",
+  "start": 16.246,
+  "end": 16.296
+ },
+ {
+  "text": "close-up",
+  "start": 16.296,
+  "end": 16.733
+ },
+ {
+  "text": "showed",
+  "start": 16.746,
+  "end": 17.008
+ },
+ {
+  "text": "a",
+  "start": 17.008,
+  "end": 17.033
+ },
+ {
+  "text": "rock",
+  "start": 17.033,
+  "end": 17.483
+ },
+ {
+  "text": "Small",
+  "start": 17.603,
+  "end": 18.041
+ },
+ {
+  "text": "round",
+  "start": 18.161,
+  "end": 18.661
+ },
+ {
+  "text": "and",
+  "start": 18.781,
+  "end": 18.844
+ },
+ {
+  "text": "shaped",
+  "start": 18.844,
+  "end": 19.181
+ },
+ {
+  "text": "like",
+  "start": 19.181,
+  "end": 19.293
+ },
+ {
+  "text": "a",
+  "start": 19.293,
+  "end": 19.331
+ },
+ {
+  "text": "rabbit",
+  "start": 19.343,
+  "end": 19.793
+ },
+ {
+  "text": "The",
+  "start": 19.963,
+  "end": 20.013
+ },
+ {
+  "text": "team",
+  "start": 20.013,
+  "end": 20.363
+ },
+ {
+  "text": "named",
+  "start": 20.483,
+  "end": 20.72
+ },
+ {
+  "text": "it",
+  "start": 20.72,
+  "end": 20.807
+ },
+ {
+  "text": "jade",
+  "start": 20.807,
+  "end": 21.132
+ },
+ {
+  "text": "rabbit",
+  "start": 21.132,
+  "end": 21.608
+ },
+ {
+  "text": "Which",
+  "start": 21.728,
+  "end": 21.827
+ },
+ {
+  "text": "is",
+  "start": 21.827,
+  "end": 21.903
+ },
+ {
+  "text": "exactly",
+  "start": 21.903,
+  "end": 22.503
+ },
+ {
+  "text": "what",
+  "start": 22.503,
+  "end": 22.64
+ },
+ {
+  "text": "Yutu",
+  "start": 22.653,
+  "end": 22.89
+ },
+ {
+  "text": "means",
+  "start": 22.903,
+  "end": 23.59
+ },
+ {
+  "text": "That's",
+  "start": 23.76,
+  "end": 23.897
+ },
+ {
+  "text": "one",
+  "start": 23.897,
+  "end": 24.01
+ },
+ {
+  "text": "of",
+  "start": 24.01,
+  "end": 24.085
+ },
+ {
+  "text": "six",
+  "start": 24.085,
+  "end": 24.41
+ },
+ {
+  "text": "strange",
+  "start": 24.422,
+  "end": 24.935
+ },
+ {
+  "text": "things",
+  "start": 24.935,
+  "end": 25.297
+ },
+ {
+  "text": "found",
+  "start": 25.297,
+  "end": 25.585
+ },
+ {
+  "text": "on",
+  "start": 25.598,
+  "end": 25.685
+ },
+ {
+  "text": "the",
+  "start": 25.698,
+  "end": 25.747
+ },
+ {
+  "text": "Moon",
+  "start": 25.747,
+  "end": 26.06
+ },
+ {
+  "text": "The",
+  "start": 26.18,
+  "end": 26.23
+ },
+ {
+  "text": "rest",
+  "start": 26.23,
+  "end": 26.643
+ },
+ {
+  "text": "are",
+  "start": 26.763,
+  "end": 26.839
+ },
+ {
+  "text": "on",
+  "start": 26.839,
+  "end": 26.914
+ },
+ {
+  "text": "the",
+  "start": 26.926,
+  "end": 26.988
+ },
+ {
+  "text": "channel",
+  "start": 27.001,
+  "end": 27.426
+ }
+]
