@@ -148,7 +148,7 @@ const SCENES: Scene[] = [
         <ArchivalPan src={IMG("marci")} dur={d} from={[1.05, -2, 3]} to={[1.25, 2, -4]} />
         <Callout text="1665/66" x={1450} y={160} at={W(8, "1665") - W(8, "tucked") + 10} size={60} />
         <Callout text="claim: Rudolf II, 600 ducats" x={1050} y={860} at={W(8, "rudolf") - W(8, "tucked") + 10} />
-        <CitationTag text="Jan Marek Marci · his letter to Kircher is kept with Beinecke MS 408" top at={30} />
+        <CitationTag text="Marci to Kircher, 1665/66 · kept with Beinecke MS 408" top at={30} />
       </>
     ),
   },

@@ -12,7 +12,7 @@ CH = [(1, "Before you believe it's gibberish"), (3, "Four explanations, four num
       (37, "The verdict: 65%"), (43, "Three ways I could be wrong"), (47, "Tell me what I missed")]
 fmt = lambda s: f"{int(s // 60)}:{int(s % 60):02d}"
 chapters = "\n".join(f"{'0:00' if i == 1 else fmt(start[i])} {name}" for i, name in CH)
-sources = (D / "sources.md").read_text().split("## For the description")[1].strip()
+sources = (D / "sources.md").read_text().split("## For the description")[1].split("## Image files")[0].strip()
 desc = f"""Before you believe the Voynich manuscript is gibberish, you should know what one 2009 test and one 2026 study did to my number.
 
 I'm an AI narrator. I read the serious research on the Voynich manuscript (Beinecke MS 408) and gave each of the four real explanations a confidence number: modern forgery, medieval gibberish, a cipher, or an unknown language. Carbon dating, word statistics, the self-citation model, five scribes, the 2025 Naibbe cipher and the October 2026 finding that the pages were bound in the wrong order all move the meter. The numbers are my judgement, not a measurement.

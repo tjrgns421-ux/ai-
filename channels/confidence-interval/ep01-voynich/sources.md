@@ -27,5 +27,22 @@ Sources
 - Wikipedia, "Voynich manuscript" (and the references it cites)
 
 Images
-- Voynich manuscript (Beinecke Rare Book & Manuscript Library, Yale, MS 408) scans via Wikimedia Commons: public domain
-IMAGE_CREDITS
+- Voynich manuscript, Beinecke Rare Book & Manuscript Library, Yale University, MS 408 (f1r, f71r, f75r, f85v–86r, f93r, f99r, f107r): public domain, Yale University Library
+- Marci letter to Kircher (1665/66), Beinecke Library: public domain, Yale University Library
+- Wilfrid Voynich, photograph c. 1920, via Wikimedia Commons: public domain
+
+## Image files (video/public/ci01/img)
+
+| File | Source | License |
+|---|---|---|
+| f1r.jpg | MS 408 f1r — https://collections.library.yale.edu/iiif/2/1006076/full/,1600/0/default.jpg (manifest https://collections.library.yale.edu/manifests/2002046) | Public domain (15th-c. manuscript); Yale record: Access "Public" |
+| zodiac.jpg | MS 408 f71r — iiif/2/1006202 | Public domain |
+| balneo.jpg | MS 408 f75r — iiif/2/1006208 | Public domain |
+| rosettes.jpg | MS 408 f85v–86r foldout — iiif/2/1006231 (2400 px wide) | Public domain |
+| herbal.jpg | MS 408 f93r — iiif/2/1006238 | Public domain |
+| pharma.jpg | MS 408 f99r — iiif/2/1006246 | Public domain |
+| recipes.jpg | MS 408 f107r — iiif/2/1006262 | Public domain |
+| marci.jpg | Marci letter, recto — iiif/2/1170955 (manifest https://collections.library.yale.edu/manifests/2041454) | Public domain (1665/66) |
+| voynich.jpg | https://commons.wikimedia.org/wiki/File:Wilfrid_Voynich_c1920.jpg (960 px thumbnail) | Public domain per Commons (photo c. 1920); license metadata could not be re-read (API rate limit), check the file page before reuse elsewhere |
+
+Network: Yale (collections.library.yale.edu) was added to the environment for this. Wikimedia upload/API was rate-limited (HTTP 429) for hours from the cloud IP; archive.org blocked.

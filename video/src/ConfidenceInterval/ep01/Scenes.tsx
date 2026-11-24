@@ -12,9 +12,9 @@ const fadeUp = (f: number, d = 0) => {
 
 const SECTIONS = ["HERBAL", "ASTRONOMICAL", "BALNEOLOGICAL", "PHARMACEUTICAL", "RECIPES"];
 export const SectionLabels: React.FC<{ active: number }> = ({ active }) => (
-  <div style={{ position: "absolute", top: 70, left: 0, right: 0, display: "flex", justifyContent: "center", gap: 40, fontFamily: FONT }}>
+  <div style={{ position: "absolute", top: 70, left: 70, display: "flex", gap: 30, fontFamily: FONT }}>
     {SECTIONS.map((s, i) => (
-      <div key={s} style={{ fontSize: 30, fontWeight: 800, letterSpacing: 4, color: i === active ? C.amber : C.dim, borderBottom: `3px solid ${i === active ? C.amber : "transparent"}`, paddingBottom: 6 }}>
+      <div key={s} style={{ fontSize: 26, fontWeight: 800, letterSpacing: 3, color: i === active ? C.amber : C.dim, borderBottom: `3px solid ${i === active ? C.amber : "transparent"}`, paddingBottom: 6 }}>
         {s}
       </div>
     ))}
