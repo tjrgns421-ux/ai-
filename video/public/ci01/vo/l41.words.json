@@ -1,0 +1,58 @@
+[
+ {
+  "text": "A",
+  "start": 0.1,
+  "end": 0.27,
+  "display": "A",
+  "break": false
+ },
+ {
+  "text": "real",
+  "start": 0.282,
+  "end": 0.476,
+  "display": "real",
+  "break": false
+ },
+ {
+  "text": "but",
+  "start": 0.488,
+  "end": 0.646,
+  "display": "but",
+  "break": false
+ },
+ {
+  "text": "unknown",
+  "start": 0.658,
+  "end": 1.107,
+  "display": "unknown",
+  "break": false
+ },
+ {
+  "text": "or",
+  "start": 1.119,
+  "end": 1.301,
+  "display": "or",
+  "break": false
+ },
+ {
+  "text": "invented",
+  "start": 1.314,
+  "end": 1.653,
+  "display": "invented",
+  "break": false
+ },
+ {
+  "text": "language",
+  "start": 1.666,
+  "end": 2.139,
+  "display": "language",
+  "break": false
+ },
+ {
+  "text": "thirty-one",
+  "start": 2.175,
+  "end": 2.697,
+  "display": "thirty-one.",
+  "break": true
+ }
+]

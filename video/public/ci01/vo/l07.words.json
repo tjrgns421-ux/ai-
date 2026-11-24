@@ -1,0 +1,163 @@
+[
+ {
+  "text": "In 2009",
+  "start": 0.1,
+  "end": 1.241,
+  "display": "In 2009,",
+  "break": true
+ },
+ {
+  "text": "a",
+  "start": 1.314,
+  "end": 1.362,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "team",
+  "start": 1.374,
+  "end": 1.581,
+  "display": "team",
+  "break": false
+ },
+ {
+  "text": "at",
+  "start": 1.593,
+  "end": 1.678,
+  "display": "at",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 1.69,
+  "end": 1.75,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "University",
+  "start": 1.763,
+  "end": 2.515,
+  "display": "University",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 2.527,
+  "end": 2.649,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "Arizona",
+  "start": 2.697,
+  "end": 3.195,
+  "display": "Arizona",
+  "break": false
+ },
+ {
+  "text": "radiocarbon-dated",
+  "start": 3.207,
+  "end": 4.19,
+  "display": "radiocarbon-dated",
+  "break": false
+ },
+ {
+  "text": "four",
+  "start": 4.202,
+  "end": 4.542,
+  "display": "four",
+  "break": false
+ },
+ {
+  "text": "tiny",
+  "start": 4.554,
+  "end": 4.906,
+  "display": "tiny",
+  "break": false
+ },
+ {
+  "text": "samples",
+  "start": 4.918,
+  "end": 5.403,
+  "display": "samples",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 5.416,
+  "end": 5.488,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 5.5,
+  "end": 5.573,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "parchment",
+  "start": 5.585,
+  "end": 6.083,
+  "display": "parchment.",
+  "break": true
+ },
+ {
+  "text": "The",
+  "start": 6.434,
+  "end": 6.603,
+  "display": "The",
+  "break": false
+ },
+ {
+  "text": "result",
+  "start": 6.616,
+  "end": 7.052,
+  "display": "result",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 7.101,
+  "end": 7.234,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "animal",
+  "start": 7.247,
+  "end": 7.574,
+  "display": "animal",
+  "break": false
+ },
+ {
+  "text": "skins",
+  "start": 7.586,
+  "end": 7.975,
+  "display": "skins",
+  "break": false
+ },
+ {
+  "text": "were",
+  "start": 7.987,
+  "end": 8.108,
+  "display": "were",
+  "break": false
+ },
+ {
+  "text": "made",
+  "start": 8.12,
+  "end": 8.363,
+  "display": "made",
+  "break": false
+ },
+ {
+  "text": "between 1404 and 1438",
+  "start": 8.375,
+  "end": 11.13,
+  "display": "between 1404 and 1438.",
+  "break": true
+ }
+]

@@ -1,0 +1,51 @@
+[
+ {
+  "text": "Modern",
+  "start": 0.1,
+  "end": 0.5,
+  "display": "Modern",
+  "break": false
+ },
+ {
+  "text": "forgery",
+  "start": 0.513,
+  "end": 0.962,
+  "display": "forgery",
+  "break": false
+ },
+ {
+  "text": "from",
+  "start": 0.998,
+  "end": 1.168,
+  "display": "from",
+  "break": false
+ },
+ {
+  "text": "twenty-five",
+  "start": 1.18,
+  "end": 1.714,
+  "display": "twenty-five",
+  "break": false
+ },
+ {
+  "text": "percent",
+  "start": 1.726,
+  "end": 2.163,
+  "display": "percent...",
+  "break": true
+ },
+ {
+  "text": "to",
+  "start": 2.236,
+  "end": 2.333,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "one",
+  "start": 2.345,
+  "end": 2.685,
+  "display": "one.",
+  "break": true
+ }
+]

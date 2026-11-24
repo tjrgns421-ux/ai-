@@ -1,0 +1,191 @@
+[
+ {
+  "text": "Three",
+  "start": 0.1,
+  "end": 0.5,
+  "display": "Three",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 0.598,
+  "end": 0.658,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "confirmed",
+  "start": 0.67,
+  "end": 1.204,
+  "display": "confirmed,",
+  "break": true
+ },
+ {
+  "text": "testable",
+  "start": 1.253,
+  "end": 1.69,
+  "display": "testable",
+  "break": false
+ },
+ {
+  "text": "decipherment",
+  "start": 1.702,
+  "end": 2.333,
+  "display": "decipherment",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 2.345,
+  "end": 2.442,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "even",
+  "start": 2.479,
+  "end": 2.746,
+  "display": "even",
+  "break": false
+ },
+ {
+  "text": "one",
+  "start": 2.758,
+  "end": 3.0,
+  "display": "one",
+  "break": false
+ },
+ {
+  "text": "full",
+  "start": 3.013,
+  "end": 3.268,
+  "display": "full",
+  "break": false
+ },
+ {
+  "text": "page",
+  "start": 3.28,
+  "end": 3.668,
+  "display": "page",
+  "break": false
+ },
+ {
+  "text": "would",
+  "start": 3.68,
+  "end": 3.838,
+  "display": "would",
+  "break": false
+ },
+ {
+  "text": "make",
+  "start": 3.85,
+  "end": 4.081,
+  "display": "make",
+  "break": false
+ },
+ {
+  "text": "all",
+  "start": 4.178,
+  "end": 4.372,
+  "display": "all",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 4.384,
+  "end": 4.445,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "this",
+  "start": 4.457,
+  "end": 4.59,
+  "display": "this",
+  "break": false
+ },
+ {
+  "text": "obsolete",
+  "start": 4.639,
+  "end": 5.27,
+  "display": "obsolete",
+  "break": false
+ },
+ {
+  "text": "overnight",
+  "start": 5.318,
+  "end": 5.731,
+  "display": "overnight.",
+  "break": true
+ },
+ {
+  "text": "Many",
+  "start": 6.082,
+  "end": 6.361,
+  "display": "Many",
+  "break": false
+ },
+ {
+  "text": "people",
+  "start": 6.373,
+  "end": 6.652,
+  "display": "people",
+  "break": false
+ },
+ {
+  "text": "have",
+  "start": 6.664,
+  "end": 6.798,
+  "display": "have",
+  "break": false
+ },
+ {
+  "text": "claimed",
+  "start": 6.81,
+  "end": 7.137,
+  "display": "claimed",
+  "break": false
+ },
+ {
+  "text": "one",
+  "start": 7.149,
+  "end": 7.368,
+  "display": "one.",
+  "break": true
+ },
+ {
+  "text": "None",
+  "start": 7.72,
+  "end": 7.975,
+  "display": "None",
+  "break": false
+ },
+ {
+  "text": "has",
+  "start": 7.987,
+  "end": 8.12,
+  "display": "has",
+  "break": false
+ },
+ {
+  "text": "held",
+  "start": 8.133,
+  "end": 8.339,
+  "display": "held",
+  "break": false
+ },
+ {
+  "text": "up",
+  "start": 8.351,
+  "end": 8.46,
+  "display": "up",
+  "break": false
+ },
+ {
+  "text": "yet",
+  "start": 8.472,
+  "end": 8.679,
+  "display": "yet.",
+  "break": true
+ }
+]

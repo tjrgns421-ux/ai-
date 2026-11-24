@@ -1,0 +1,65 @@
+[
+ {
+  "text": "But",
+  "start": 0.1,
+  "end": 0.282,
+  "display": "But",
+  "break": false
+ },
+ {
+  "text": "here's",
+  "start": 0.294,
+  "end": 0.5,
+  "display": "here's",
+  "break": false
+ },
+ {
+  "text": "where",
+  "start": 0.513,
+  "end": 0.646,
+  "display": "where",
+  "break": false
+ },
+ {
+  "text": "I",
+  "start": 0.658,
+  "end": 0.707,
+  "display": "I",
+  "break": false
+ },
+ {
+  "text": "have",
+  "start": 0.719,
+  "end": 0.865,
+  "display": "have",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 0.877,
+  "end": 0.95,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "argue",
+  "start": 0.962,
+  "end": 1.301,
+  "display": "argue",
+  "break": false
+ },
+ {
+  "text": "against",
+  "start": 1.314,
+  "end": 1.629,
+  "display": "against",
+  "break": false
+ },
+ {
+  "text": "myself",
+  "start": 1.641,
+  "end": 2.139,
+  "display": "myself.",
+  "break": true
+ }
+]

@@ -1,0 +1,170 @@
+[
+ {
+  "text": "It's",
+  "start": 0.1,
+  "end": 0.331,
+  "display": "It's",
+  "break": false
+ },
+ {
+  "text": "named",
+  "start": 0.343,
+  "end": 0.61,
+  "display": "named",
+  "break": false
+ },
+ {
+  "text": "after",
+  "start": 0.622,
+  "end": 0.889,
+  "display": "after",
+  "break": false
+ },
+ {
+  "text": "Wilfrid",
+  "start": 0.901,
+  "end": 1.241,
+  "display": "Wilfrid",
+  "break": false
+ },
+ {
+  "text": "Voynich",
+  "start": 1.253,
+  "end": 1.714,
+  "display": "Voynich,",
+  "break": true
+ },
+ {
+  "text": "a",
+  "start": 1.738,
+  "end": 1.799,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "book",
+  "start": 1.811,
+  "end": 1.993,
+  "display": "book",
+  "break": false
+ },
+ {
+  "text": "dealer",
+  "start": 2.005,
+  "end": 2.333,
+  "display": "dealer",
+  "break": false
+ },
+ {
+  "text": "who",
+  "start": 2.345,
+  "end": 2.479,
+  "display": "who",
+  "break": false
+ },
+ {
+  "text": "bought",
+  "start": 2.491,
+  "end": 2.733,
+  "display": "bought",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 2.746,
+  "end": 2.831,
+  "display": "it",
+  "break": false
+ },
+ {
+  "text": "in 1912",
+  "start": 2.843,
+  "end": 3.862,
+  "display": "in 1912.",
+  "break": true
+ },
+ {
+  "text": "And",
+  "start": 4.213,
+  "end": 4.419,
+  "display": "And",
+  "break": false
+ },
+ {
+  "text": "for",
+  "start": 4.431,
+  "end": 4.565,
+  "display": "for",
+  "break": false
+ },
+ {
+  "text": "most",
+  "start": 4.577,
+  "end": 4.819,
+  "display": "most",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 4.832,
+  "end": 4.892,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 4.904,
+  "end": 4.977,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "twentieth",
+  "start": 4.989,
+  "end": 5.426,
+  "display": "twentieth",
+  "break": false
+ },
+ {
+  "text": "century",
+  "start": 5.438,
+  "end": 5.924,
+  "display": "century,",
+  "break": true
+ },
+ {
+  "text": "the",
+  "start": 5.948,
+  "end": 6.094,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "obvious",
+  "start": 6.118,
+  "end": 6.518,
+  "display": "obvious",
+  "break": false
+ },
+ {
+  "text": "suspicion",
+  "start": 6.531,
+  "end": 7.028,
+  "display": "suspicion",
+  "break": false
+ },
+ {
+  "text": "was",
+  "start": 7.04,
+  "end": 7.283,
+  "display": "was...",
+  "break": true
+ },
+ {
+  "text": "him",
+  "start": 7.514,
+  "end": 7.744,
+  "display": "him.",
+  "break": true
+ }
+]

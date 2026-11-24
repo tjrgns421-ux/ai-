@@ -1,0 +1,72 @@
+[
+ {
+  "text": "Now",
+  "start": 0.1,
+  "end": 0.343,
+  "display": "Now",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 0.355,
+  "end": 0.452,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "part I",
+  "start": 0.464,
+  "end": 0.913,
+  "display": "part I",
+  "break": false
+ },
+ {
+  "text": "promised",
+  "start": 0.925,
+  "end": 1.447,
+  "display": "promised.",
+  "break": true
+ },
+ {
+  "text": "Three",
+  "start": 1.798,
+  "end": 2.089,
+  "display": "Three",
+  "break": false
+ },
+ {
+  "text": "ways",
+  "start": 2.101,
+  "end": 2.319,
+  "display": "ways",
+  "break": false
+ },
+ {
+  "text": "I",
+  "start": 2.332,
+  "end": 2.392,
+  "display": "I",
+  "break": false
+ },
+ {
+  "text": "could",
+  "start": 2.404,
+  "end": 2.526,
+  "display": "could",
+  "break": false
+ },
+ {
+  "text": "be",
+  "start": 2.538,
+  "end": 2.659,
+  "display": "be",
+  "break": false
+ },
+ {
+  "text": "wrong",
+  "start": 2.671,
+  "end": 3.011,
+  "display": "wrong.",
+  "break": true
+ }
+]

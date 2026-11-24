@@ -1,0 +1,121 @@
+[
+ {
+  "text": "This",
+  "start": 0.1,
+  "end": 0.306,
+  "display": "This",
+  "break": false
+ },
+ {
+  "text": "hurts",
+  "start": 0.318,
+  "end": 0.743,
+  "display": "hurts.",
+  "break": true
+ },
+ {
+  "text": "Because",
+  "start": 1.094,
+  "end": 1.421,
+  "display": "Because",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 1.433,
+  "end": 1.506,
+  "display": "it",
+  "break": false
+ },
+ {
+  "text": "means",
+  "start": 1.518,
+  "end": 1.749,
+  "display": "means",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 1.761,
+  "end": 1.858,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "evidence",
+  "start": 1.87,
+  "end": 2.295,
+  "display": "evidence",
+  "break": false
+ },
+ {
+  "text": "I",
+  "start": 2.307,
+  "end": 2.416,
+  "display": "I",
+  "break": false
+ },
+ {
+  "text": "just",
+  "start": 2.429,
+  "end": 2.671,
+  "display": "just",
+  "break": false
+ },
+ {
+  "text": "counted",
+  "start": 2.683,
+  "end": 3.023,
+  "display": "counted",
+  "break": false
+ },
+ {
+  "text": "for",
+  "start": 3.035,
+  "end": 3.363,
+  "display": "for",
+  "break": false
+ },
+ {
+  "text": "meaningful",
+  "start": 3.424,
+  "end": 4.006,
+  "display": "meaningful\"",
+  "break": false
+ },
+ {
+  "text": "can",
+  "start": 4.043,
+  "end": 4.164,
+  "display": "can",
+  "break": false
+ },
+ {
+  "text": "be",
+  "start": 4.176,
+  "end": 4.285,
+  "display": "be",
+  "break": false
+ },
+ {
+  "text": "produced",
+  "start": 4.298,
+  "end": 4.734,
+  "display": "produced",
+  "break": false
+ },
+ {
+  "text": "without",
+  "start": 4.747,
+  "end": 5.086,
+  "display": "without",
+  "break": false
+ },
+ {
+  "text": "meaning",
+  "start": 5.099,
+  "end": 5.475,
+  "display": "meaning.",
+  "break": true
+ }
+]

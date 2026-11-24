@@ -1,0 +1,37 @@
+[
+ {
+  "text": "And",
+  "start": 0.1,
+  "end": 0.294,
+  "display": "And",
+  "break": false
+ },
+ {
+  "text": "then",
+  "start": 0.306,
+  "end": 0.598,
+  "display": "then,",
+  "break": true
+ },
+ {
+  "text": "in",
+  "start": 0.622,
+  "end": 0.755,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "October 2026",
+  "start": 0.767,
+  "end": 2.272,
+  "display": "October 2026,",
+  "break": true
+ },
+ {
+  "text": "this",
+  "start": 2.333,
+  "end": 2.673,
+  "display": "this.",
+  "break": true
+ }
+]

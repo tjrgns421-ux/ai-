@@ -1,0 +1,170 @@
+[
+ {
+  "text": "One",
+  "start": 0.1,
+  "end": 0.367,
+  "display": "One",
+  "break": false
+ },
+ {
+  "text": "down",
+  "start": 0.379,
+  "end": 0.743,
+  "display": "down.",
+  "break": true
+ },
+ {
+  "text": "And",
+  "start": 1.094,
+  "end": 1.288,
+  "display": "And",
+  "break": false
+ },
+ {
+  "text": "notice",
+  "start": 1.3,
+  "end": 1.64,
+  "display": "notice",
+  "break": false
+ },
+ {
+  "text": "that",
+  "start": 1.652,
+  "end": 1.773,
+  "display": "that",
+  "break": false
+ },
+ {
+  "text": "this",
+  "start": 1.785,
+  "end": 1.931,
+  "display": "this",
+  "break": false
+ },
+ {
+  "text": "is",
+  "start": 1.943,
+  "end": 2.016,
+  "display": "is",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 2.028,
+  "end": 2.101,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "famous",
+  "start": 2.113,
+  "end": 2.477,
+  "display": "famous",
+  "break": false
+ },
+ {
+  "text": "one",
+  "start": 2.489,
+  "end": 2.732,
+  "display": "one.",
+  "break": true
+ },
+ {
+  "text": "The",
+  "start": 3.084,
+  "end": 3.242,
+  "display": "The",
+  "break": false
+ },
+ {
+  "text": "theory",
+  "start": 3.254,
+  "end": 3.582,
+  "display": "theory",
+  "break": false
+ },
+ {
+  "text": "most",
+  "start": 3.594,
+  "end": 3.885,
+  "display": "most",
+  "break": false
+ },
+ {
+  "text": "people",
+  "start": 3.897,
+  "end": 4.176,
+  "display": "people",
+  "break": false
+ },
+ {
+  "text": "still",
+  "start": 4.188,
+  "end": 4.455,
+  "display": "still",
+  "break": false
+ },
+ {
+  "text": "repeat",
+  "start": 4.467,
+  "end": 4.88,
+  "display": "repeat",
+  "break": false
+ },
+ {
+  "text": "is",
+  "start": 4.892,
+  "end": 5.05,
+  "display": "is",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 5.062,
+  "end": 5.159,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "one",
+  "start": 5.171,
+  "end": 5.402,
+  "display": "one",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 5.414,
+  "end": 5.523,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "evidence",
+  "start": 5.535,
+  "end": 5.936,
+  "display": "evidence",
+  "break": false
+ },
+ {
+  "text": "handles",
+  "start": 5.948,
+  "end": 6.397,
+  "display": "handles",
+  "break": false
+ },
+ {
+  "text": "most",
+  "start": 6.409,
+  "end": 6.7,
+  "display": "most",
+  "break": false
+ },
+ {
+  "text": "cleanly",
+  "start": 6.713,
+  "end": 7.198,
+  "display": "cleanly.",
+  "break": true
+ }
+]

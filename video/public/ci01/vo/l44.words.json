@@ -1,0 +1,163 @@
+[
+ {
+  "text": "One",
+  "start": 0.1,
+  "end": 0.452,
+  "display": "One",
+  "break": false
+ },
+ {
+  "text": "I'm",
+  "start": 0.719,
+  "end": 0.804,
+  "display": "I'm",
+  "break": false
+ },
+ {
+  "text": "weighing",
+  "start": 0.816,
+  "end": 1.059,
+  "display": "weighing",
+  "break": false
+ },
+ {
+  "text": "papers",
+  "start": 1.071,
+  "end": 1.544,
+  "display": "papers,",
+  "break": true
+ },
+ {
+  "text": "not",
+  "start": 1.593,
+  "end": 1.823,
+  "display": "not",
+  "break": false
+ },
+ {
+  "text": "reading",
+  "start": 1.835,
+  "end": 2.03,
+  "display": "reading",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 2.042,
+  "end": 2.127,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "book",
+  "start": 2.139,
+  "end": 2.394,
+  "display": "book.",
+  "break": true
+ },
+ {
+  "text": "If",
+  "start": 2.744,
+  "end": 2.938,
+  "display": "If",
+  "break": false
+ },
+ {
+  "text": "any",
+  "start": 2.95,
+  "end": 3.12,
+  "display": "any",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 3.133,
+  "end": 3.205,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "these",
+  "start": 3.217,
+  "end": 3.375,
+  "display": "these",
+  "break": false
+ },
+ {
+  "text": "studies",
+  "start": 3.387,
+  "end": 3.776,
+  "display": "studies",
+  "break": false
+ },
+ {
+  "text": "has",
+  "start": 3.788,
+  "end": 3.97,
+  "display": "has",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 3.982,
+  "end": 4.031,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "flaw",
+  "start": 4.043,
+  "end": 4.431,
+  "display": "flaw",
+  "break": false
+ },
+ {
+  "text": "I",
+  "start": 4.443,
+  "end": 4.54,
+  "display": "I",
+  "break": false
+ },
+ {
+  "text": "didn't",
+  "start": 4.552,
+  "end": 4.795,
+  "display": "didn't",
+  "break": false
+ },
+ {
+  "text": "catch",
+  "start": 4.807,
+  "end": 5.208,
+  "display": "catch,",
+  "break": true
+ },
+ {
+  "text": "my",
+  "start": 5.232,
+  "end": 5.366,
+  "display": "my",
+  "break": false
+ },
+ {
+  "text": "numbers",
+  "start": 5.378,
+  "end": 5.742,
+  "display": "numbers",
+  "break": false
+ },
+ {
+  "text": "inherit",
+  "start": 5.754,
+  "end": 6.167,
+  "display": "inherit",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 6.179,
+  "end": 6.276,
+  "display": "it.",
+  "break": true
+ }
+]

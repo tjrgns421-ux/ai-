@@ -1,0 +1,156 @@
+[
+ {
+  "text": "If",
+  "start": 0.1,
+  "end": 0.282,
+  "display": "If",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 0.294,
+  "end": 0.331,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "rare-book",
+  "start": 0.343,
+  "end": 0.804,
+  "display": "rare-book",
+  "break": false
+ },
+ {
+  "text": "dealer",
+  "start": 0.816,
+  "end": 1.156,
+  "display": "dealer",
+  "break": false
+ },
+ {
+  "text": "suddenly",
+  "start": 1.168,
+  "end": 1.581,
+  "display": "suddenly",
+  "break": false
+ },
+ {
+  "text": "finds",
+  "start": 1.593,
+  "end": 1.981,
+  "display": "finds",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 1.993,
+  "end": 2.09,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "world's",
+  "start": 2.102,
+  "end": 2.527,
+  "display": "world's",
+  "break": false
+ },
+ {
+  "text": "most",
+  "start": 2.539,
+  "end": 2.818,
+  "display": "most",
+  "break": false
+ },
+ {
+  "text": "mysterious",
+  "start": 2.831,
+  "end": 3.377,
+  "display": "mysterious",
+  "break": false
+ },
+ {
+  "text": "book",
+  "start": 3.389,
+  "end": 3.668,
+  "display": "book,",
+  "break": true
+ },
+ {
+  "text": "you'd",
+  "start": 3.704,
+  "end": 3.874,
+  "display": "you'd",
+  "break": false
+ },
+ {
+  "text": "be",
+  "start": 3.886,
+  "end": 4.02,
+  "display": "be",
+  "break": false
+ },
+ {
+  "text": "right",
+  "start": 4.032,
+  "end": 4.25,
+  "display": "right",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 4.263,
+  "end": 4.384,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "raise",
+  "start": 4.396,
+  "end": 4.651,
+  "display": "raise",
+  "break": false
+ },
+ {
+  "text": "an",
+  "start": 4.663,
+  "end": 4.772,
+  "display": "an",
+  "break": false
+ },
+ {
+  "text": "eyebrow",
+  "start": 4.784,
+  "end": 5.258,
+  "display": "eyebrow.",
+  "break": true
+ },
+ {
+  "text": "So",
+  "start": 5.608,
+  "end": 5.863,
+  "display": "So",
+  "break": false
+ },
+ {
+  "text": "let's",
+  "start": 5.875,
+  "end": 6.118,
+  "display": "let's",
+  "break": false
+ },
+ {
+  "text": "test",
+  "start": 6.13,
+  "end": 6.397,
+  "display": "test",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 6.409,
+  "end": 6.506,
+  "display": "it.",
+  "break": true
+ }
+]

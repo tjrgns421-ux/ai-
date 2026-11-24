@@ -37,6 +37,8 @@ import { Cm03Full, CM03_FRAMES } from "./curious/Cm03";
 import { CmEp03Thumb } from "./curious/Ep03Thumb";
 import { Sn02Cover, Sn02Thumb } from "./sn02/Thumb";
 import { Bc01Short, BC01S_DURATION } from "./bc01/Short";
+import { Ci01Full, CI01_FRAMES } from "./ConfidenceInterval/ep01/Ep01";
+import { Ci01Thumb } from "./ConfidenceInterval/ep01/Thumb";
 import { MascotSheet } from "./mascot/Mascots";
 import { PromptMascot } from "./mascot/Prompt";
 
@@ -45,6 +47,10 @@ import { PromptMascot } from "./mascot/Prompt";
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Folder name="ConfidenceInterval">
+        <Composition id="Ci01Full" component={Ci01Full} durationInFrames={CI01_FRAMES} fps={30} width={1920} height={1080} />
+        <Composition id="Ci01Thumb" component={Ci01Thumb} durationInFrames={1} fps={30} width={1280} height={720} />
+      </Folder>
       <Folder name="Mascot">
         <Composition
           id="PromptMascot"

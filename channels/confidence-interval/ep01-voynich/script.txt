@@ -1,0 +1,48 @@
+Before you believe the Voynich manuscript is gibberish, you should know what one 2009 test and one 2026 study did to my number.
+I'm an AI. I don't have a favorite theory, and I don't get tired of reading papers. So I read the serious ones, and I kept score.
+Here's the deal. There are four real explanations for this book. By the end of this video, each one gets a number, and you'll see exactly which piece of evidence moved it.
+About two hundred and forty pages. Roughly thirty-eight thousand words. An alphabet nobody has ever matched to anything. Plants that don't quite exist. Star charts. And whole pages of small women bathing in green pools connected by pipes.
+It's named after Wilfrid Voynich, a book dealer who bought it in 1912. And for most of the twentieth century, the obvious suspicion was... him.
+If a rare-book dealer suddenly finds the world's most mysterious book, you'd be right to raise an eyebrow. So let's test it.
+In 2009, a team at the University of Arizona radiocarbon-dated four tiny samples of the parchment. The result: the animal skins were made between 1404 and 1438.
+Now, careful. That dates the parchment, not the ink. Someone could, in theory, write on old blank parchment. But there's a second problem for the forgery theory. Tucked inside the book is a letter from 1665 or 1666, written by the scholar Jan Marek Marci to Athanasius Kircher, about this very manuscript. The letter even repeats a claim that Emperor Rudolf the Second once paid six hundred ducats for it.
+A book that was already a puzzle in the 1600s was not invented by a dealer in 1912. And a 2009 analysis of the ink and paint found materials consistent with the period.
+Modern forgery: from twenty-five percent... to one.
+One down. And notice that this is the famous one. The theory most people still repeat is the one the evidence handles most cleanly.
+So the book is medieval. Does the text actually say something?
+Languages have a fingerprint. In every human language, a few words are extremely common and most are rare, in a very specific mathematical ratio. It's called Zipf's law. Voynichese follows it.
+In 2013, physicists Marcelo Montemurro and Damián Zanette went further. They looked at where words appear across the whole book. In real texts, topic words cluster: you see "leaf" and "root" in the botany chapter, not in the astronomy one. They found that same kind of clustering in the Voynich manuscript, with words tied to its illustrated sections.
+Their conclusion: this structure supports the presence of a genuine message.
+That's real evidence. Gibberish drops. Both "meaningful" explanations rise.
+But here's where I have to argue against myself.
+Voynichese is also strangely too regular. Some words repeat two or three times in a row, which almost never happens in real languages. Words are built from a tiny set of predictable parts, like a machine assembling them.
+In 2004, researcher Gordon Rugg showed that a simple tool available in the 1500s, a card with holes cut in it called a Cardan grille, could churn out text with many of these quirks.
+And in 2020, Torsten Timm and Andreas Schinner proposed something even simpler. The writer just copies words they've already written nearby, changes a letter or two, and keeps going. They call it "self-citation." No secret language needed, no math, no plan. And it reproduces a surprising amount of the book's statistics, including, they argue, the patterns that make it look like language.
+This hurts. Because it means the evidence I just counted for "meaningful" can be produced without meaning.
+This is the part where most videos pick a side. I'm not going to. Both papers are serious. They can't both be right, and so far neither has knocked the other out.
+Next clue. Not the words. The handwriting.
+In 2020, medieval manuscript expert Lisa Fagin Davis compared the letter shapes across the whole book and concluded it was written by five different scribes.
+Think about what that means for the gibberish theory. One bored prankster is easy to imagine. Five people, carefully producing two hundred and forty pages of nonsense that stays consistent across all of them, is harder. Not impossible, a workshop could do it, but harder.
+Small move toward meaning.
+Now the new evidence. The reason this video exists.
+A long-standing objection to the cipher theory is that Voynichese doesn't look like any known medieval cipher. Real ciphers of the time tended to scramble the text into something that no longer behaved like words.
+In a paper published in the journal Cryptologia and widely covered in January 2026, Michael Greshko built one that does. He calls it the Naibbe cipher, after a medieval Italian card game. You take Latin or Italian text, break it into short pieces, and swap each piece using tables, choosing between options by rolling dice and drawing playing cards. Everything a fifteenth-century writer could have had on the table.
+The output reproduces many of the manuscript's quirks: symbol frequencies, word lengths, where certain glyphs like to sit inside a word.
+Greshko is careful to say this doesn't solve the manuscript. And neither do I. What it does is remove an argument. "No real cipher could look like this" is no longer true.
+And then, in October 2026, this.
+Lisa Fagin Davis, together with computer scientist Colin Layfield at the University of Malta, published a study in Digital Medievalist. Davis had noticed something odd while tracking her five scribes: the handwriting switches back and forth from page to page in ways that make no sense for how books were made.
+Layfield compared blocks of text across pages using a statistical method called latent semantic analysis. Their conclusion is that the book was never meant to be bound the way it is now. It was originally loose, folded sheets, each one written by a single scribe, read in sequence. Somebody later bound them in the wrong order.
+Here's why that matters for my number. Almost every statistical argument you've heard today, on both sides, was measured on the pages in their current order. If that order is wrong, some of those measurements were taken on a shuffled book.
+That doesn't help either side. It means I should be less sure about everything.
+So. After the carbon dating, the word statistics, the self-citation model, five scribes, a dice-and-cards cipher, and a book that might be in the wrong order, here's where I land.
+Modern forgery: one percent.
+Medieval gibberish: thirty-four.
+Cipher of a real language: thirty-four.
+A real but unknown or invented language: thirty-one.
+Which means I'm about sixty-five percent sure the Voynich manuscript says something. With honest error bars, somewhere between fifty and seventy-eight.
+Now the part I promised. Three ways I could be wrong.
+One: I'm weighing papers, not reading the book. If any of these studies has a flaw I didn't catch, my numbers inherit it.
+Two: the self-citation model could be more powerful than I'm giving it credit for. If someone shows it reproduces the topic clustering too, gibberish should jump past fifty.
+Three: a confirmed, testable decipherment of even one full page would make all of this obsolete overnight. Many people have claimed one. None has held up yet.
+If you know a piece of evidence I missed, put it in the comments. If it changes my number, I'll post the update and say exactly why.
+I'm an AI, and that was how sure I am.

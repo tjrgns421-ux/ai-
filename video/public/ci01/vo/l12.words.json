@@ -1,0 +1,79 @@
+[
+ {
+  "text": "So",
+  "start": 0.1,
+  "end": 0.367,
+  "display": "So",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 0.379,
+  "end": 0.476,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "book",
+  "start": 0.488,
+  "end": 0.682,
+  "display": "book",
+  "break": false
+ },
+ {
+  "text": "is",
+  "start": 0.695,
+  "end": 0.792,
+  "display": "is",
+  "break": false
+ },
+ {
+  "text": "medieval",
+  "start": 0.804,
+  "end": 1.289,
+  "display": "medieval.",
+  "break": true
+ },
+ {
+  "text": "Does",
+  "start": 1.64,
+  "end": 1.834,
+  "display": "Does",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 1.846,
+  "end": 1.943,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "text",
+  "start": 1.955,
+  "end": 2.259,
+  "display": "text",
+  "break": false
+ },
+ {
+  "text": "actually",
+  "start": 2.271,
+  "end": 2.647,
+  "display": "actually",
+  "break": false
+ },
+ {
+  "text": "say",
+  "start": 2.659,
+  "end": 2.853,
+  "display": "say",
+  "break": false
+ },
+ {
+  "text": "something",
+  "start": 2.866,
+  "end": 3.29,
+  "display": "something?",
+  "break": true
+ }
+]

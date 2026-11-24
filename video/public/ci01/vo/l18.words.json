@@ -1,0 +1,268 @@
+[
+ {
+  "text": "Voynichese",
+  "start": 0.1,
+  "end": 0.792,
+  "display": "Voynichese",
+  "break": false
+ },
+ {
+  "text": "is",
+  "start": 0.804,
+  "end": 0.962,
+  "display": "is",
+  "break": false
+ },
+ {
+  "text": "also",
+  "start": 0.974,
+  "end": 1.301,
+  "display": "also",
+  "break": false
+ },
+ {
+  "text": "strangely",
+  "start": 1.314,
+  "end": 1.872,
+  "display": "strangely",
+  "break": false
+ },
+ {
+  "text": "too",
+  "start": 1.884,
+  "end": 2.187,
+  "display": "too",
+  "break": false
+ },
+ {
+  "text": "regular",
+  "start": 2.2,
+  "end": 2.673,
+  "display": "regular.",
+  "break": true
+ },
+ {
+  "text": "Some",
+  "start": 3.023,
+  "end": 3.327,
+  "display": "Some",
+  "break": false
+ },
+ {
+  "text": "words",
+  "start": 3.339,
+  "end": 3.618,
+  "display": "words",
+  "break": false
+ },
+ {
+  "text": "repeat",
+  "start": 3.63,
+  "end": 3.994,
+  "display": "repeat",
+  "break": false
+ },
+ {
+  "text": "two",
+  "start": 4.006,
+  "end": 4.334,
+  "display": "two",
+  "break": false
+ },
+ {
+  "text": "or",
+  "start": 4.346,
+  "end": 4.565,
+  "display": "or",
+  "break": false
+ },
+ {
+  "text": "three",
+  "start": 4.577,
+  "end": 4.795,
+  "display": "three",
+  "break": false
+ },
+ {
+  "text": "times",
+  "start": 4.807,
+  "end": 5.123,
+  "display": "times",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 5.135,
+  "end": 5.22,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 5.232,
+  "end": 5.268,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "row",
+  "start": 5.281,
+  "end": 5.56,
+  "display": "row,",
+  "break": true
+ },
+ {
+  "text": "which",
+  "start": 5.584,
+  "end": 5.802,
+  "display": "which",
+  "break": false
+ },
+ {
+  "text": "almost",
+  "start": 5.815,
+  "end": 6.191,
+  "display": "almost",
+  "break": false
+ },
+ {
+  "text": "never",
+  "start": 6.203,
+  "end": 6.494,
+  "display": "never",
+  "break": false
+ },
+ {
+  "text": "happens",
+  "start": 6.506,
+  "end": 6.931,
+  "display": "happens",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 6.943,
+  "end": 7.137,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "real",
+  "start": 7.149,
+  "end": 7.344,
+  "display": "real",
+  "break": false
+ },
+ {
+  "text": "languages",
+  "start": 7.356,
+  "end": 7.963,
+  "display": "languages.",
+  "break": true
+ },
+ {
+  "text": "Words",
+  "start": 8.315,
+  "end": 8.679,
+  "display": "Words",
+  "break": false
+ },
+ {
+  "text": "are",
+  "start": 8.691,
+  "end": 8.788,
+  "display": "are",
+  "break": false
+ },
+ {
+  "text": "built",
+  "start": 8.8,
+  "end": 9.006,
+  "display": "built",
+  "break": false
+ },
+ {
+  "text": "from",
+  "start": 9.018,
+  "end": 9.164,
+  "display": "from",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 9.176,
+  "end": 9.225,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "tiny",
+  "start": 9.237,
+  "end": 9.601,
+  "display": "tiny",
+  "break": false
+ },
+ {
+  "text": "set",
+  "start": 9.613,
+  "end": 9.892,
+  "display": "set",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 9.904,
+  "end": 9.977,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "predictable",
+  "start": 9.989,
+  "end": 10.487,
+  "display": "predictable",
+  "break": false
+ },
+ {
+  "text": "parts",
+  "start": 10.499,
+  "end": 10.948,
+  "display": "parts,",
+  "break": true
+ },
+ {
+  "text": "like",
+  "start": 10.984,
+  "end": 11.166,
+  "display": "like",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 11.179,
+  "end": 11.215,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "machine",
+  "start": 11.227,
+  "end": 11.615,
+  "display": "machine",
+  "break": false
+ },
+ {
+  "text": "assembling",
+  "start": 11.628,
+  "end": 12.016,
+  "display": "assembling",
+  "break": false
+ },
+ {
+  "text": "them",
+  "start": 12.028,
+  "end": 12.247,
+  "display": "them.",
+  "break": true
+ }
+]

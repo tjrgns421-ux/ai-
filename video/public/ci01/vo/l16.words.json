@@ -1,0 +1,65 @@
+[
+ {
+  "text": "That's",
+  "start": 0.1,
+  "end": 0.403,
+  "display": "That's",
+  "break": false
+ },
+ {
+  "text": "real",
+  "start": 0.416,
+  "end": 0.61,
+  "display": "real",
+  "break": false
+ },
+ {
+  "text": "evidence",
+  "start": 0.622,
+  "end": 1.095,
+  "display": "evidence.",
+  "break": true
+ },
+ {
+  "text": "Gibberish",
+  "start": 1.446,
+  "end": 1.919,
+  "display": "Gibberish",
+  "break": false
+ },
+ {
+  "text": "drops",
+  "start": 1.931,
+  "end": 2.368,
+  "display": "drops.",
+  "break": true
+ },
+ {
+  "text": "Both",
+  "start": 2.72,
+  "end": 3.06,
+  "display": "Both",
+  "break": false
+ },
+ {
+  "text": "meaningful",
+  "start": 3.096,
+  "end": 3.654,
+  "display": "meaningful\"",
+  "break": false
+ },
+ {
+  "text": "explanations",
+  "start": 3.751,
+  "end": 4.431,
+  "display": "explanations",
+  "break": false
+ },
+ {
+  "text": "rise",
+  "start": 4.443,
+  "end": 4.88,
+  "display": "rise.",
+  "break": true
+ }
+]

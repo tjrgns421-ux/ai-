@@ -1,0 +1,44 @@
+[
+ {
+  "text": "Cipher",
+  "start": 0.1,
+  "end": 0.634,
+  "display": "Cipher",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 0.646,
+  "end": 0.695,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 0.707,
+  "end": 0.743,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "real",
+  "start": 0.755,
+  "end": 0.998,
+  "display": "real",
+  "break": false
+ },
+ {
+  "text": "language",
+  "start": 1.01,
+  "end": 1.508,
+  "display": "language",
+  "break": false
+ },
+ {
+  "text": "thirty-four",
+  "start": 1.556,
+  "end": 2.151,
+  "display": "thirty-four.",
+  "break": true
+ }
+]

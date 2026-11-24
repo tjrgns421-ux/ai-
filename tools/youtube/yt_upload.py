@@ -34,7 +34,7 @@ import time
 from pathlib import Path
 
 SCOPES = ["https://www.googleapis.com/auth/youtube.upload", "https://www.googleapis.com/auth/youtube.readonly"]
-CHANNELS = {"curious": "Curious Minutes", "blip": "Blip Check"}
+CHANNELS = {"curious": "Curious Minutes", "blip": "Blip Check", "ci": "Confidence Interval"}
 HOME = Path(os.environ.get("YT_UPLOAD_HOME", Path.home() / ".yt-upload"))
 CATEGORIES = {27: "Education", 28: "Science & Technology", 22: "People & Blogs", 25: "News & Politics"}
 

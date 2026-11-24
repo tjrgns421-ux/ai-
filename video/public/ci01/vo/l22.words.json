@@ -1,0 +1,226 @@
+[
+ {
+  "text": "This",
+  "start": 0.1,
+  "end": 0.331,
+  "display": "This",
+  "break": false
+ },
+ {
+  "text": "is",
+  "start": 0.343,
+  "end": 0.416,
+  "display": "is",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 0.428,
+  "end": 0.525,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "part",
+  "start": 0.537,
+  "end": 0.852,
+  "display": "part",
+  "break": false
+ },
+ {
+  "text": "where",
+  "start": 0.865,
+  "end": 0.986,
+  "display": "where",
+  "break": false
+ },
+ {
+  "text": "most",
+  "start": 0.998,
+  "end": 1.301,
+  "display": "most",
+  "break": false
+ },
+ {
+  "text": "videos",
+  "start": 1.314,
+  "end": 1.763,
+  "display": "videos",
+  "break": false
+ },
+ {
+  "text": "pick",
+  "start": 1.775,
+  "end": 1.957,
+  "display": "pick",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 1.969,
+  "end": 2.005,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "side",
+  "start": 2.017,
+  "end": 2.43,
+  "display": "side.",
+  "break": true
+ },
+ {
+  "text": "I'm",
+  "start": 2.781,
+  "end": 2.975,
+  "display": "I'm",
+  "break": false
+ },
+ {
+  "text": "not",
+  "start": 2.987,
+  "end": 3.12,
+  "display": "not",
+  "break": false
+ },
+ {
+  "text": "going",
+  "start": 3.133,
+  "end": 3.375,
+  "display": "going",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 3.387,
+  "end": 3.606,
+  "display": "to.",
+  "break": true
+ },
+ {
+  "text": "Both",
+  "start": 3.958,
+  "end": 4.237,
+  "display": "Both",
+  "break": false
+ },
+ {
+  "text": "papers",
+  "start": 4.249,
+  "end": 4.65,
+  "display": "papers",
+  "break": false
+ },
+ {
+  "text": "are",
+  "start": 4.662,
+  "end": 4.783,
+  "display": "are",
+  "break": false
+ },
+ {
+  "text": "serious",
+  "start": 4.795,
+  "end": 5.365,
+  "display": "serious.",
+  "break": true
+ },
+ {
+  "text": "They",
+  "start": 5.717,
+  "end": 5.887,
+  "display": "They",
+  "break": false
+ },
+ {
+  "text": "can't",
+  "start": 5.899,
+  "end": 6.154,
+  "display": "can't",
+  "break": false
+ },
+ {
+  "text": "both",
+  "start": 6.167,
+  "end": 6.385,
+  "display": "both",
+  "break": false
+ },
+ {
+  "text": "be",
+  "start": 6.397,
+  "end": 6.543,
+  "display": "be",
+  "break": false
+ },
+ {
+  "text": "right",
+  "start": 6.555,
+  "end": 6.883,
+  "display": "right,",
+  "break": true
+ },
+ {
+  "text": "and",
+  "start": 6.943,
+  "end": 7.052,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "so",
+  "start": 7.065,
+  "end": 7.247,
+  "display": "so",
+  "break": false
+ },
+ {
+  "text": "far",
+  "start": 7.259,
+  "end": 7.465,
+  "display": "far",
+  "break": false
+ },
+ {
+  "text": "neither",
+  "start": 7.477,
+  "end": 7.756,
+  "display": "neither",
+  "break": false
+ },
+ {
+  "text": "has",
+  "start": 7.768,
+  "end": 7.938,
+  "display": "has",
+  "break": false
+ },
+ {
+  "text": "knocked",
+  "start": 7.95,
+  "end": 8.205,
+  "display": "knocked",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 8.217,
+  "end": 8.29,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "other",
+  "start": 8.302,
+  "end": 8.557,
+  "display": "other",
+  "break": false
+ },
+ {
+  "text": "out",
+  "start": 8.569,
+  "end": 8.751,
+  "display": "out.",
+  "break": true
+ }
+]
