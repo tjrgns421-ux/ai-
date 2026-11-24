@@ -1,0 +1,407 @@
+{
+ "hut-joke": {
+  "w": 1317,
+  "h": 228,
+  "source": "Live Science (2022)",
+  "marks": {
+   "joked that it might be the hut of alien pioneers": [
+    {
+     "x": 726,
+     "y": 124,
+     "w": 578,
+     "h": 40
+    },
+    {
+     "x": 12,
+     "y": 184,
+     "w": 138,
+     "h": 40
+    }
+   ]
+  }
+ },
+ "hut-small": {
+  "w": 1386,
+  "h": 108,
+  "source": "Live Science (2022)",
+  "marks": {
+   "much smaller than it appeared to be from afar": [
+    {
+     "x": 582,
+     "y": 4,
+     "w": 726,
+     "h": 40
+    }
+   ]
+  }
+ },
+ "hut-rabbit": {
+  "w": 1377,
+  "h": 168,
+  "source": "Live Science (2022)",
+  "marks": {
+   "jade rabbit": [
+    {
+     "x": 517,
+     "y": 4,
+     "w": 168,
+     "h": 40
+    }
+   ]
+  }
+ },
+ "hut-38m": {
+  "w": 1348,
+  "h": 108,
+  "source": "Live Science (2022), quoting Andrew Jones",
+  "marks": {
+   "38 million square kilometres of rocks": [
+    {
+     "x": 386,
+     "y": 4,
+     "w": 582,
+     "h": 40
+    }
+   ]
+  }
+ },
+ "hut-stooke": {
+  "w": 457,
+  "h": 54,
+  "source": "Space.com (2021), quoting Philip Stooke",
+  "marks": {
+   "it won't look like a hut": [
+    {
+     "x": 78,
+     "y": 4,
+     "w": 357,
+     "h": 46
+    }
+   ]
+  }
+ },
+ "gel-word": {
+  "w": 1455,
+  "h": 162,
+  "source": "Space.com (2020)",
+  "marks": {
+   "gel-like": [
+    {
+     "x": 1017,
+     "y": 112,
+     "w": 130,
+     "h": 46
+    }
+   ]
+  }
+ },
+ "gel-breccia": {
+  "w": 1350,
+  "h": 108,
+  "source": "Space.com (2020), on Gou Sheng et al., EPSL",
+  "marks": {
+   "dark greenish and glistening impact melt breccia": [
+    {
+     "x": 652,
+     "y": 4,
+     "w": 686,
+     "h": 46
+    },
+    {
+     "x": 12,
+     "y": 58,
+     "w": 130,
+     "h": 46
+    }
+   ]
+  }
+ },
+ "gel-notdef": {
+  "w": 666,
+  "h": 54,
+  "source": "Space.com (2020)",
+  "marks": {
+   "not definitive": [
+    {
+     "x": 260,
+     "y": 4,
+     "w": 223,
+     "h": 46
+    }
+   ]
+  }
+ },
+ "bell-55": {
+  "w": 1436,
+  "h": 146,
+  "source": "Wikipedia, Apollo 12 Passive Seismic Experiment",
+  "marks": {
+   "6,048 km/h": [
+    {
+     "x": 606,
+     "y": 4,
+     "w": 158,
+     "h": 34
+    }
+   ],
+   "over 55 minutes": [
+    {
+     "x": 1348,
+     "y": 56,
+     "w": 62,
+     "h": 34
+    },
+    {
+     "x": 12,
+     "y": 108,
+     "w": 157,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "bell-hour": {
+  "w": 1328,
+  "h": 94,
+  "source": "Wikipedia, Apollo 12 Passive Seismic Experiment",
+  "marks": {
+   "even after an hour": [
+    {
+     "x": 202,
+     "y": 56,
+     "w": 260,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "quake-damp": {
+  "w": 1406,
+  "h": 94,
+  "source": "Wikipedia, Moonquake",
+  "marks": {
+   "fewer attenuating factors to damp seismic vibrations": [
+    {
+     "x": 361,
+     "y": 56,
+     "w": 736,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "rust-puzzle": {
+  "w": 1300,
+  "h": 99,
+  "source": "NASA / JPL (2020)",
+  "marks": {
+   "hematite, a form of rust": [
+    {
+     "x": 886,
+     "y": 4,
+     "w": 336,
+     "h": 38
+    }
+   ]
+  }
+ },
+ "rust-believe": {
+  "w": 1282,
+  "h": 99,
+  "source": "NASA / JPL (2020)",
+  "marks": {
+   "At first, I totally didn": [
+    {
+     "x": 22,
+     "y": 4,
+     "w": 301,
+     "h": 38
+    }
+   ]
+  }
+ },
+ "rust-tail": {
+  "w": 1319,
+  "h": 206,
+  "source": "NASA / JPL (2020)",
+  "marks": {
+   "like a windsock": [
+    {
+     "x": 369,
+     "y": 57,
+     "w": 230,
+     "h": 40
+    }
+   ]
+  }
+ },
+ "rust-near": {
+  "w": 1309,
+  "h": 99,
+  "source": "NASA / JPL (2020)",
+  "marks": {
+   "more hematite on the Moon’s Earth-facing near side than on its far side": [
+    {
+     "x": 770,
+     "y": 4,
+     "w": 527,
+     "h": 38
+    },
+    {
+     "x": 12,
+     "y": 57,
+     "w": 520,
+     "h": 38
+    }
+   ]
+  }
+ },
+ "rust-99": {
+  "w": 1286,
+  "h": 152,
+  "source": "NASA / JPL (2020)",
+  "marks": {
+   "over 99% of the solar wind": [
+    {
+     "x": 116,
+     "y": 57,
+     "w": 395,
+     "h": 38
+    }
+   ]
+  }
+ },
+ "rust-far": {
+  "w": 1301,
+  "h": 152,
+  "source": "NASA / JPL (2020)",
+  "marks": {
+   "also forming on the far side": [
+    {
+     "x": 12,
+     "y": 57,
+     "w": 406,
+     "h": 38
+    }
+   ]
+  }
+ },
+ "swirl-tan": {
+  "w": 1413,
+  "h": 99,
+  "source": "NASA Science, Lunar Swirl Reiner Gamma",
+  "marks": {
+   "crustal magnetism": [
+    {
+     "x": 520,
+     "y": 57,
+     "w": 277,
+     "h": 38
+    }
+   ]
+  }
+ },
+ "swirl-lines": {
+  "w": 1388,
+  "h": 99,
+  "source": "NASA Science, Lunar Swirl Reiner Gamma",
+  "marks": {
+   "tan lines": [
+    {
+     "x": 1328,
+     "y": 4,
+     "w": 49,
+     "h": 38
+    },
+    {
+     "x": 12,
+     "y": 57,
+     "w": 70,
+     "h": 38
+    }
+   ]
+  }
+ },
+ "far-1pct": {
+  "w": 846,
+  "h": 94,
+  "source": "Wikipedia, Far side of the Moon",
+  "marks": {
+   "Only 1%": [
+    {
+     "x": 234,
+     "y": 4,
+     "w": 121,
+     "h": 34
+    }
+   ],
+   "31.2%": [
+    {
+     "x": 505,
+     "y": 56,
+     "w": 91,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "far-82": {
+  "w": 1396,
+  "h": 146,
+  "source": "Wikipedia, Far side of the Moon",
+  "marks": {
+   "1959": [
+    {
+     "x": 620,
+     "y": 56,
+     "w": 71,
+     "h": 34
+    }
+   ],
+   "82%": [
+    {
+     "x": 161,
+     "y": 56,
+     "w": 64,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "far-heat": {
+  "w": 1431,
+  "h": 94,
+  "source": "Wikipedia, Far side of the Moon",
+  "marks": {
+   "heat from Earth": [
+    {
+     "x": 446,
+     "y": 4,
+     "w": 221,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "far-change6": {
+  "w": 1435,
+  "h": 198,
+  "source": "Wikipedia, Far side of the Moon",
+  "marks": {
+   "first lunar samples retrieved from the far side": [
+    {
+     "x": 1372,
+     "y": 108,
+     "w": 52,
+     "h": 34
+    },
+    {
+     "x": 12,
+     "y": 160,
+     "w": 573,
+     "h": 34
+    }
+   ]
+  }
+ }
+}
