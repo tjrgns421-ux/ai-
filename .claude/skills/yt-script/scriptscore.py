@@ -3,6 +3,7 @@
     python3 scriptscore.py script.txt                 # long-form defaults (Blip Check, 205 wpm, 4-5 min)
     python3 scriptscore.py script.txt --short         # Shorts (45-60 s)
     python3 scriptscore.py script.txt --json
+    python3 scriptscore.py script.txt --target 480-660 --wpm 189   # e.g. 8-11 min long-form, Andrew +8%
 
 One sentence per line is not required; the script is split into sentences. Like hookscore.py, this
 counts words and patterns. It cannot tell whether a fact is true or a joke is funny. Use it to find
@@ -42,11 +43,12 @@ def clamp(x):
     return max(0, min(100, round(x)))
 
 
-def score(text, short=False):
+def score(text, short=False, target=None, wpm=None):
     ss = sentences(text)
     total = sum(nwords(s) for s in ss)
-    secs = total / WPM * 60
-    lo, hi = (45, 60) if short else (240, 300)
+    rate = wpm or WPM
+    secs = total / rate * 60
+    lo, hi = target or ((45, 60) if short else (240, 300))
     notes = {}
 
     # 1. HOOK: hookscore.py on the opening line(s), until ~15 words (a spoken hook is 9-24 words)
@@ -58,6 +60,14 @@ def score(text, short=False):
         n += nwords(s)
         if n > 24:
             break
+    upto, m = [], 0
+    for s_ in ss:
+        upto.append(s_)
+        m += nwords(s_)
+        if s_.endswith("?") or m > 35:
+            break
+    if upto[-1].endswith("?") and m <= 35:
+        first = upto
     hook_text = " ".join(first)
     hook = hookscore.score(hook_text)[1]
     if WEAK_OPEN.search(ss[0] if ss else ""):
@@ -70,7 +80,7 @@ def score(text, short=False):
     else:
         off = (lo - secs) if secs < lo else (secs - hi)
         length = 100 - off / lo * 150
-    notes.setdefault("LENGTH", f"{total} words = {int(secs // 60)}:{int(secs % 60):02d} at {WPM} wpm, target {lo}-{hi} s")
+    notes.setdefault("LENGTH", f"{total} words = {int(secs // 60)}:{int(secs % 60):02d} at {rate} wpm, target {lo}-{hi} s")
 
     # 3. TURNS: connectors that add conflict/result vs list connectors
     turns = sum(len(TURN.findall(s)) for s in ss)
@@ -113,7 +123,7 @@ def score(text, short=False):
     windows, cur, wsecs = [], [], 0
     for s in ss:
         cur.append(s)
-        wsecs += nwords(s) / WPM * 60
+        wsecs += nwords(s) / rate * 60
         if wsecs >= 30:
             windows.append(cur)
             cur, wsecs = [], 0
@@ -140,10 +150,15 @@ def label(v):
 def main():
     a = sys.argv[1:]
     as_json, short = "--json" in a, "--short" in a
+    target = wpm = None
+    if "--target" in a:
+        i = a.index("--target"); lo, hi = a[i + 1].split("-"); target = (int(lo), int(hi)); del a[i:i + 2]
+    if "--wpm" in a:
+        i = a.index("--wpm"); wpm = int(a[i + 1]); del a[i:i + 2]
     a = [x for x in a if not x.startswith("--")]
     if not a:
         sys.exit(__doc__)
-    r = score(Path(a[0]).read_text(), short)
+    r = score(Path(a[0]).read_text(), short, target, wpm)
     if as_json:
         print(json.dumps(r, indent=2, ensure_ascii=False))
         return
