@@ -174,7 +174,7 @@ export const Surface: React.FC<{ glass?: boolean }> = ({ glass = false }) => {
           return (
             <mesh key={`g${i}`} position={[x, heightAt(x, z) + sc * 0.4, z]} rotation={[rnd(i) * 3, rnd(i + 1) * 3, 0]} scale={[sc * 1.6, sc * 0.7, sc]}>
               <dodecahedronGeometry args={[1, 0]} />
-              <meshStandardMaterial color="#26402F" metalness={0.85} roughness={0.08} emissive="#0E1A12" flatShading />
+              <meshStandardMaterial color="#5E8A6C" metalness={0.55} roughness={0.12} emissive="#24402E" flatShading />
             </mesh>
           );
         })}
