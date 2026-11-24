@@ -1,12 +1,18 @@
 // 캐러셀 이미지(slide-01.png ...)를 장당 N초씩 넘어가는 릴스 영상(1080x1920)으로 만든다.
-// 사용법: node carousel/lib/make_reel.cjs <에피소드 폴더> "<EP 라벨>" [장당 초, 기본 2]
+// 사용법: node carousel/lib/make_reel.cjs <에피소드 폴더> "<EP 라벨>" [장당 초, 기본 2] [--hook "첫 문장|두번째 줄"] [--hook-sec 1] [--hook-face tired]
+//   --hook: 맨 앞에 화면 가득 공감 문장 한 장을 넣는다. 줄바꿈은 | 로.
 const { chromium } = require('playwright');
 const fs = require('fs');
 const path = require('path');
 const { execFileSync } = require('child_process');
 
 (async () => {
-  const [, , epArg, label = '', secArg = '2'] = process.argv;
+  const args = process.argv.slice(2);
+  const opt = (name, def) => { const i = args.indexOf(name); if (i < 0) return def; const v = args[i + 1]; args.splice(i, 2); return v; };
+  const hook = opt('--hook', '');
+  const hookSec = Number(opt('--hook-sec', '1'));
+  const hookFace = opt('--hook-face', 'tired');
+  const [epArg, label = '', secArg = '2'] = args;
   const epDir = path.resolve(epArg);
   const sec = Number(secArg);
   const slides = fs.readdirSync(epDir).filter(f => /^slide-\d+\.png$/.test(f)).sort();
@@ -16,7 +22,14 @@ const { execFileSync } = require('child_process');
   fs.mkdirSync(reelDir, { recursive: true });
   const bg = path.relative(reelDir, path.join(__dirname, 'bg-grid.svg'));
 
-  const sections = slides.map(f => `
+  const lib = path.relative(reelDir, path.join(__dirname, 'miru.js'));
+  const hookSection = hook ? `
+  <section class="hook">
+    <div class="top"><span class="ep">${label}</span><span>미루의 갓생일기</span></div>
+    <div class="htext">${hook.split('|').join('<br>')}</div>
+    <svg id="hookface" viewBox="0 0 300 320"></svg>
+  </section>` : '';
+  const sections = hookSection + slides.map(f => `
   <section>
     <div class="top"><span class="ep">${label}</span><span>미루의 갓생일기</span></div>
     <img src="../${f}">
@@ -31,7 +44,10 @@ const { execFileSync } = require('child_process');
     font-family: 'Gaegu'; font-weight: 700; font-size: 46px; color: #232323; }
   .top .ep { background: #232323; color: #fff; padding: 0 18px; border-radius: 6px; transform: rotate(-3deg); }
   img { position: absolute; left: 0; top: 250px; width: 1080px; height: 1350px; }
-</style></head><body>${sections}</body></html>`;
+  .hook .htext { position: absolute; left: 60px; right: 60px; top: 520px; text-align: center; font-family: 'Gaegu'; font-weight: 700; font-size: 118px; line-height: 1.18; color: #232323; }
+  .hook svg { position: absolute; left: 390px; top: 1020px; width: 300px; height: 320px; }
+</style><script src="${lib}"></script></head><body>${sections}
+<script>const f = document.getElementById('hookface'); if (f) f.innerHTML = head(150, 215, 104, '${hookFace}', 'wavy') + drops([[258, 150, 1.6]]);</script></body></html>`;
   fs.writeFileSync(path.join(reelDir, 'reel.html'), html);
 
   const browser = await chromium.launch();
@@ -48,10 +64,10 @@ const { execFileSync } = require('child_process');
   await browser.close();
 
   // ffmpeg concat: 마지막 장은 한 번 더 적어야 길이가 반영됨
-  const list = frames.map(f => `file '${f}'\nduration ${sec}`).join('\n') + `\nfile '${frames[frames.length - 1]}'\n`;
+  const list = frames.map((f, i) => `file '${f}'\nduration ${hook && i === 0 ? hookSec : sec}`).join('\n') + `\nfile '${frames[frames.length - 1]}'\n`;
   fs.writeFileSync(path.join(reelDir, 'list.txt'), list);
   const out = path.join(epDir, 'reel.mp4');
   execFileSync('ffmpeg', ['-y', '-loglevel', 'error', '-f', 'concat', '-safe', '0', '-i', 'list.txt',
     '-vf', 'fps=30,format=yuv420p', '-c:v', 'libx264', '-crf', '18', '-movflags', '+faststart', out], { cwd: reelDir });
-  console.log('reel:', out, `(${frames.length}장 x ${sec}초)`);
+  console.log('reel:', out, hook ? `(훅 ${hookSec}초 + ${frames.length - 1}장 x ${sec}초)` : `(${frames.length}장 x ${sec}초)`);
 })();

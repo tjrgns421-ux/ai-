@@ -1,5 +1,5 @@
 file 'frame-01.png'
-duration 2
+duration 1
 file 'frame-02.png'
 duration 2
 file 'frame-03.png'
@@ -18,4 +18,6 @@ file 'frame-09.png'
 duration 2
 file 'frame-10.png'
 duration 2
-file 'frame-10.png'
+file 'frame-11.png'
+duration 2
+file 'frame-11.png'

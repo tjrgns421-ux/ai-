@@ -8,7 +8,14 @@
     font-family: 'Gaegu'; font-weight: 700; font-size: 46px; color: #232323; }
   .top .ep { background: #232323; color: #fff; padding: 0 18px; border-radius: 6px; transform: rotate(-3deg); }
   img { position: absolute; left: 0; top: 250px; width: 1080px; height: 1350px; }
-</style></head><body>
+  .hook .htext { position: absolute; left: 60px; right: 60px; top: 520px; text-align: center; font-family: 'Gaegu'; font-weight: 700; font-size: 118px; line-height: 1.18; color: #232323; }
+  .hook svg { position: absolute; left: 390px; top: 1020px; width: 300px; height: 320px; }
+</style><script src="../../lib/miru.js"></script></head><body>
+  <section class="hook">
+    <div class="top"><span class="ep">EP.2</span><span>미루의 갓생일기</span></div>
+    <div class="htext">헬스장 1년권<br>끊고 3번 간 사람?</div>
+    <svg id="hookface" viewBox="0 0 300 320"></svg>
+  </section>
   <section>
     <div class="top"><span class="ep">EP.2</span><span>미루의 갓생일기</span></div>
     <img src="../slide-01.png">
@@ -48,4 +55,5 @@
   <section>
     <div class="top"><span class="ep">EP.2</span><span>미루의 갓생일기</span></div>
     <img src="../slide-10.png">
-  </section></body></html>
+  </section>
+<script>const f = document.getElementById('hookface'); if (f) f.innerHTML = head(150, 215, 104, 'tired', 'wavy') + drops([[258, 150, 1.6]]);</script></body></html>
