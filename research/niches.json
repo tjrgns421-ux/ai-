@@ -98,6 +98,16 @@
     "unexplained phenomena science",
     "mystery finally solved by scientists"
    ]
+  },
+  "mystery-explained": {
+   "group": "ai",
+   "keywords": [
+    "mystery finally solved",
+    "unexplained phenomenon explained",
+    "strange discovery scientists",
+    "ancient mystery explained",
+    "nature mystery explained"
+   ]
   }
  }
 }
