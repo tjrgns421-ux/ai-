@@ -26,3 +26,21 @@
 
 ## 한계
 1회 조사, 검색 순위 기반, 작은 채널은 점수가 부풀려짐. "maps-size"는 GTA 6 영상이 섞여 점수가 올라가 있음.
+
+## 롱폼만 보면 (같은 데이터)
+
+| 분야 | 롱폼 수 | 중간 점수 | 새 채널 10만+ | 중간 길이 |
+|---|---|---|---|---|
+| 몸 설명 | 33 | **7.78** | 9 | 12분 |
+| 동물·자연 | 17 | 3.62 | 0 | 19분 |
+| 심리 | 32 | 3.11 | 0 | 18분 |
+| 지도 크기 비교 | 33 | 2.09 | 3 | 14분 |
+| 작동 원리 | 27 | 1.33 | 4 | 13분 |
+| 미스터리 | 87 | 1.18 | 2 | 27분 |
+| 역사 | 88 | 1.11 | 7 | 35분 |
+| 지리 | 43 | 0.89 | 3 | 24분 |
+
+새 채널 롱폼 성공 예:
+- 지도·지정학 "왜": The REAL Size of India 31만 (채널 29일, 구독 423, 9분) · Why Is Poland Still Split by a Border That Vanished in 1918 28만 (44일, 8분) · Why Russia Is Massing Troops on Finland's Border 24만 (50일, 10분) · The Philippines Is Not What You Think 36만 (21일, 구독 647, 19분)
+- 몸 "~하면 몸에 무슨 일이": What IF You Found a Settings Menu for Your Body? 77만 (32일, 21분) · Plank 1 Minute a Day 56만 (56일, 8분) · Never Shower Again? 67만 (154일, 20분)
+- 작동 원리 3D: Exploded Works (57일) How a Plane Works 65만 — 정밀 3D라 AI로 따라가기 어려움
