@@ -19,29 +19,45 @@ export const useMoonTextures = () => {
   const [handle] = React.useState(() => (cache.color && cache.dem ? null : delayRender("moon textures")));
   React.useEffect(() => {
     if (ready) return;
-    const load = (path: string, srgb: boolean) =>
-      new Promise<THREE.Texture>((res, rej) => {
+    const once = (path: string) =>
+      new Promise<HTMLImageElement>((res, rej) => {
         const img = new Image();
-        img.onload = () => {
-          const t = new THREE.Texture(img);
-          if (srgb) t.colorSpace = THREE.SRGBColorSpace;
-          t.needsUpdate = true;
-          res(t);
-        };
+        img.onload = () => img.decode().then(() => res(img), () => res(img));
         img.onerror = () => rej(new Error("failed to load " + path));
         img.src = staticFile(path);
       });
+    const load = async (path: string, srgb: boolean) => {
+      let last: unknown;
+      for (let i = 0; i < 4; i++) {
+        try {
+          const img = await once(path);
+          const t = new THREE.Texture(img);
+          if (srgb) t.colorSpace = THREE.SRGBColorSpace;
+          t.needsUpdate = true;
+          return t;
+        } catch (e) {
+          last = e;
+          await new Promise((r) => setTimeout(r, 400 * (i + 1)));
+        }
+      }
+      throw last;
+    };
     Promise.all([load("cm04/img/moon_color_4k.jpg", true), load("cm04/img/moon_dem.jpg", false)])
       .then(([c, d]) => {
         cache.color = c;
         cache.dem = d;
         setReady(true);
-        if (handle !== null) continueRender(handle);
       })
       .catch((e) => {
         console.error(e);
         if (handle !== null) continueRender(handle);
       });
+  }, [ready, handle]);
+  // release the frame only after React has re-rendered with the textures and the canvas has drawn twice
+  React.useEffect(() => {
+    if (!ready || handle === null) return;
+    let id = requestAnimationFrame(() => (id = requestAnimationFrame(() => continueRender(handle))));
+    return () => cancelAnimationFrame(id);
   }, [ready, handle]);
   return ready ? { color: cache.color, dem: cache.dem } : null;
 };
@@ -82,7 +98,13 @@ const Stars: React.FC = () => {
 /** The real Moon: NASA LRO color map with LOLA elevation. `rotY` turns the near side (0) to the far side (PI). */
 export const MoonGlobe: React.FC<{ rotY?: number; pos?: [number, number, number]; radius?: number }> = ({ rotY = 0, pos = [0, 0, 0], radius = 10 }) => {
   const tex = React.useContext(TexCtx);
-  if (!tex) return null;
+  if (!tex)
+    return (
+      <mesh position={pos}>
+        <sphereGeometry args={[radius, 64, 48]} />
+        <meshStandardMaterial color="#FF00FF" />
+      </mesh>
+    );
   return (
     <mesh position={pos} rotation={[0, rotY - Math.PI / 2, 0]}>
       <sphereGeometry args={[radius, 160, 120]} />
@@ -126,12 +148,16 @@ export const Surface: React.FC<{ glass?: boolean }> = ({ glass = false }) => {
           <meshStandardMaterial color="#77736D" roughness={1} flatShading />
         </mesh>
       ))}
-      {glass && (
-        <mesh position={[0, heightAt(0, 0) + 0.12, 0]} rotation={[-Math.PI / 2, 0, 0.4]} scale={[2.6, 0.8, 1]}>
-          <circleGeometry args={[1, 40]} />
-          <meshStandardMaterial color="#2F4A36" metalness={0.9} roughness={0.12} emissive="#16261B" />
-        </mesh>
-      )}
+      {glass &&
+        Array.from({ length: 9 }, (_, i) => {
+          const x = (rnd(i + 900) - 0.5) * 1.6, z = (rnd(i + 950) - 0.5) * 0.6, sc = 0.12 + rnd(i + 990) * 0.22;
+          return (
+            <mesh key={`g${i}`} position={[x, heightAt(x, z) + sc * 0.4, z]} rotation={[rnd(i) * 3, rnd(i + 1) * 3, 0]} scale={[sc * 1.6, sc * 0.7, sc]}>
+              <dodecahedronGeometry args={[1, 0]} />
+              <meshStandardMaterial color="#26402F" metalness={0.85} roughness={0.08} emissive="#0E1A12" flatShading />
+            </mesh>
+          );
+        })}
     </>
   );
 };

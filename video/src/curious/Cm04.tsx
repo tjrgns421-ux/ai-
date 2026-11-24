@@ -110,7 +110,7 @@ const Photo: React.FC<{ src: string; credit: string; fit?: "cover" | "contain"; 
   const lf = useCurrentFrame();
   return (
     <AbsoluteFill style={{ background: "#050507" }}>
-      <Img src={staticFile(`cm04/img/${src}`)} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: fit, transform: `scale(${interpolate(lf, [0, 240], zoom, cl)})` }} />
+      <Img src={staticFile(`cm04/img/${src}`)} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: fit, transform: `scale(${interpolate(lf % (CUT * FPS), [0, CUT * FPS], [zoom[0] + 0.08 * (Math.floor(lf / (CUT * FPS)) % 2), zoom[1] + 0.08 * (Math.floor(lf / (CUT * FPS)) % 2)], cl)})`, transformOrigin: ["50% 50%", "30% 40%", "70% 60%"][Math.floor(lf / (CUT * FPS)) % 3] }} />
       <div style={{ position: "absolute", left: 60, bottom: 130, fontFamily: "Pretendard", fontWeight: 800, fontSize: 24, color: "#FFFFFF", background: "rgba(0,0,0,0.6)", padding: "6px 14px", borderRadius: 8 }}>{credit}</div>
       <Badge text="REAL IMAGE" color="#9FE3B0" />
     </AbsoluteFill>
@@ -118,13 +118,27 @@ const Photo: React.FC<{ src: string; credit: string; fit?: "cover" | "contain"; 
 };
 
 // ---------- 3D scenes ----------
+const CUT = 4.5; // seconds per camera angle inside a scene
+// every CUT seconds, swing the camera around what it looks at, or pull back for a wide view
+const vary = (shot: (s: number) => Shot4, s: number): Shot4 => {
+  const b = shot(s);
+  const k = Math.floor(s / CUT) % 3;
+  if (k === 0) return b;
+  const off = b.pos.clone().sub(b.look);
+  if (k === 1) off.applyAxisAngle(V(0, 1, 0), 0.9);
+  else off.multiplyScalar(1.7).add(V(0, 3, 0));
+  return { ...b, pos: b.look.clone().add(off) };
+};
 type ShotFn = (s: number) => Shot4;
 const Globe: React.FC<{ rot: (s: number) => number; dist?: (s: number) => number; side?: number; badge?: string }> = ({ rot, dist = () => 34, side = 0, badge = "NASA LRO MAP · 3D" }) => {
   const s = useCurrentFrame() / FPS;
   const d = dist(s);
+  const k = Math.floor(s / CUT) % 4;
+  const ang = [0, -0.45, 0.45, 0][k], dd = [1, 0.9, 0.85, 0.62][k], hh = [0, 3, -3, 4][k];
+  const cam = V(side + Math.sin(ang) * d * dd, hh, Math.cos(ang) * d * dd);
   return (
     <AbsoluteFill>
-      <Stage4 shot={{ pos: V(side, 0, d), look: V(side * 0.6, 0, 0), fov: 40 }} sun={[20, 10, 60]}>
+      <Stage4 shot={{ pos: cam, look: V(side * 0.6, 0, 0), fov: 40 }} sun={[20, 10, 60]}>
         <MoonGlobe rotY={rot(s)} />
       </Stage4>
       <Badge text={badge} color="#9FE3B0" />
@@ -136,7 +150,7 @@ const SurfaceScene: React.FC<{ shot: ShotFn; hut?: "far" | "close" | "none"; rov
   const r = rover?.(s);
   return (
     <AbsoluteFill>
-      <Stage4 shot={shot(s)}>
+      <Stage4 shot={vary(shot, s)}>
         <Surface glass={glass} />
         {hut !== "none" && <HutRock x={22} z={-3} close={hut === "close"} />}
         {r && <Rover x={r[0]} z={r[1]} heading={r[2]} t={s} />}
@@ -208,7 +222,7 @@ const Tail: React.FC<{ close?: boolean }> = ({ close }) => {
   const s = useCurrentFrame() / FPS;
   return (
     <AbsoluteFill>
-      <Stage4 shot={close ? { pos: V(18, 6, 18), look: V(24, 0, 8), fov: 40 } : { pos: V(10, 22 - s * 0.3, 40), look: V(14, 0, 4), fov: 45 }} sun={[-80, 10, 0]}>
+      <Stage4 shot={(close ? 1 : 0) + Math.floor(s / CUT) % 2 === 1 ? { pos: V(18, 6, 18), look: V(24, 0, 8), fov: 40 } : { pos: V(10, 22 - (s % CUT) * 0.3, 40), look: V(14, 0, 4), fov: 45 }} sun={[-80, 10, 0]}>
         <Magnetotail t={s} moonAngle={0.35} />
       </Stage4>
       <Badge text="ILLUSTRATION · not to scale" />
@@ -238,7 +252,7 @@ const Bubble: React.FC = () => {
         <text x={420} y={860} textAnchor="middle" fontFamily="Pretendard" fontWeight={900} fontSize={36} fill="#FFFFFF">darkens</text>
         <text x={1500} y={860} textAnchor="middle" fontFamily="Pretendard" fontWeight={900} fontSize={36} fill="#FFFFFF">darkens</text>
         <text x={960} y={560} textAnchor="middle" fontFamily="Pretendard" fontWeight={800} fontSize={34} fill="#7FB8FF">magnetic patch</text>
-        <text x={160} y={110} fontFamily="Pretendard" fontWeight={800} fontSize={34} fill={YEL}>solar wind ↓</text>
+        <text x={1740} y={170} textAnchor="end" fontFamily="Pretendard" fontWeight={800} fontSize={34} fill={YEL}>solar wind ↓</text>
       </svg>
       <Badge text="ILLUSTRATION" />
     </AbsoluteFill>
@@ -250,11 +264,11 @@ const Crust: React.FC = () => {
   return (
     <AbsoluteFill style={{ background: "#0B0D14" }}>
       <svg width={1920} height={1080}>
-        <circle cx={960} cy={560} r={360} fill="#5A3A28" />
-        <path d={`M 600 560 A 360 360 0 0 1 1320 560`} fill="none" stroke="#B8B2A7" strokeWidth={40 + 60 * k} />
-        <path d={`M 600 560 A 360 360 0 0 0 1320 560`} fill="none" stroke="#B8B2A7" strokeWidth={40} />
+        <circle cx={960} cy={540} r={330} fill="#5A3A28" />
+        <path d={`M 630 540 A 330 330 0 0 1 1290 540`} fill="none" stroke="#B8B2A7" strokeWidth={40 + 60 * k} />
+        <path d={`M 630 540 A 330 330 0 0 0 1290 540`} fill="none" stroke="#B8B2A7" strokeWidth={40} />
         <text x={960} y={140} textAnchor="middle" fontFamily="Pretendard" fontWeight={900} fontSize={46} fill="#FFFFFF">far side: thicker crust</text>
-        <text x={960} y={1000} textAnchor="middle" fontFamily="Pretendard" fontWeight={900} fontSize={46} fill="#FFFFFF">near side (faces Earth): thinner crust, lava seas</text>
+        <text x={960} y={965} textAnchor="middle" fontFamily="Pretendard" fontWeight={900} fontSize={40} fill="#FFFFFF">near side (faces Earth): thinner crust, lava seas</text>
       </svg>
       <Badge text="ILLUSTRATION · not to scale" />
     </AbsoluteFill>
@@ -337,7 +351,7 @@ const SCENES: [number, React.ReactNode][] = [
   [S(76), <Globe rot={(s) => interpolate(s, [0, 8], [0, Math.PI], { ...cl, easing: ease })} />],
   [S(78), <Photo src="luna3.jpg" credit="First image of the Moon's far side, Luna 3, 7 October 1959 (public domain)" />],
   [S(80), <Globe rot={spin(Math.PI, 0.04)} />],
-  [S(81), <Globe rot={spin(Math.PI - 0.3, 0.05)} />],
+  [S(81), <Globe rot={spin(2.85, 0.05)} dist={() => 33} />],
   [S(83), <Crust />],
   [S(85), <Globe rot={spin(Math.PI + 0.4, 0.04)} />],
   [S(88), <Globe rot={spin(0, 0.08)} dist={() => 40} side={8} />],
