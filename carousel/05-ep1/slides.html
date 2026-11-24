@@ -23,6 +23,31 @@
   /* 만화 컷 */
   .panel { position: absolute; left: 40px; width: 1000px; border: 5px solid #232323; border-radius: 22px; overflow: hidden; background: #fff; }
   .panel svg { display: block; width: 100%; height: 100%; }
+
+  /* 정보 카드 */
+  .card { position: absolute; left: 40px; width: 1000px; border: 5px solid #232323; border-radius: 22px; background: #fff; padding: 44px 52px; }
+  .chip { display: inline-block; background: #232323; color: #fff; font-family: 'Gaegu'; font-weight: 700; font-size: 30px; padding: 2px 18px; border-radius: 6px; }
+  .card h3 { font-size: 62px; font-weight: 900; letter-spacing: -0.04em; line-height: 1.25; margin-top: 18px; }
+  .card .rows { margin-top: 30px; display: grid; gap: 20px; }
+  .card .row { display: flex; gap: 22px; align-items: baseline; font-size: 36px; font-weight: 500; letter-spacing: -0.025em; }
+  .card .row b { font-family: 'Gaegu'; font-weight: 700; color: #ff6b6b; min-width: 150px; font-size: 38px; }
+  .card .src { margin-top: 30px; font-size: 22px; color: #8a8175; line-height: 1.5; }
+  .stats { display: grid; gap: 22px; margin-top: 34px; }
+  .stat { display: flex; align-items: center; gap: 30px; padding: 22px 28px; border: 4px solid #232323; border-radius: 16px; background: #fbf8f1; }
+  .stat .n { font-weight: 900; font-size: 76px; letter-spacing: -0.04em; min-width: 260px; color: #ff6b6b; }
+  .stat .d { font-size: 34px; line-height: 1.4; font-weight: 500; letter-spacing: -0.025em; }
+  .stat .d small { display: block; font-size: 26px; color: #8a8175; }
+  .vs { width: 100%; border-collapse: collapse; margin-top: 26px; }
+  .vs th { padding: 6px 0 14px; border-bottom: 4px solid #232323; font-family: 'Gaegu'; font-weight: 700; font-size: 38px; }
+  .vs th svg { display: block; margin: 0 auto 4px; width: 170px; height: 180px; }
+  .vs td { width: 50%; padding: 38px 10px; border-bottom: 2px dashed #c9c0b3; font-size: 38px; text-align: center; letter-spacing: -0.025em; line-height: 1.35; }
+  .vs td.lo { color: #9a9185; }
+  .vs td.hi { font-weight: 700; }
+  .lim { margin-top: 28px; display: grid; gap: 26px; }
+  .lim p { font-size: 37px; line-height: 1.5; font-weight: 500; letter-spacing: -0.025em; padding-left: 28px; border-left: 6px solid #ffe27a; }
+  .lim p span { display: block; font-size: 26px; color: #8a8175; }
+  .cta h3 { font-size: 66px; }
+  .cta .lines { margin-top: 22px; font-family: 'Gaegu'; font-weight: 700; font-size: 40px; line-height: 1.5; color: #5b5348; }
 </style>
 </head>
 <body>
@@ -41,6 +66,100 @@
   <div class="panel" style="top:50px; height:590px;" id="p1"></div>
   <div class="panel" style="top:670px; height:590px;" id="p2"></div>
   <div class="foot"><span>@miru.diary</span><span><b>2</b> / 10</span></div>
+</section>
+
+<!-- 3. 만화: 딱 하나만… → 1:47 -->
+<section class="slide">
+  <div class="panel" style="top:50px; height:590px;" id="p3a"></div>
+  <div class="panel" style="top:670px; height:590px;" id="p3b"></div>
+  <div class="foot"><span>@miru.diary</span><span><b>3</b> / 10</span></div>
+</section>
+
+<!-- 4. 만화: 다음 날 아침 -->
+<section class="slide">
+  <div class="panel" style="top:50px; height:590px;" id="p4a"></div>
+  <div class="panel" style="top:670px; height:590px;" id="p4b"></div>
+  <div class="foot"><span>@miru.diary</span><span><b>4</b> / 10</span></div>
+</section>
+
+<!-- 5. 만화 + 정보: 연구 발견 -->
+<section class="slide">
+  <div class="panel" style="top:50px; height:590px;" id="p5a"></div>
+  <div class="card" style="top:670px; height:590px;">
+    <span class="chip">이거 진짜 있었던 실험</span>
+    <h3>잠만 자도<br>돈을 준다고?</h3>
+    <div class="rows">
+      <div class="row"><b>누구한테</b><span>미국 대학생 1,100여 명</span></div>
+      <div class="row"><b>뭘 했냐면</b><span>7시간 이상 잔 날마다 약 5달러</span></div>
+      <div class="row"><b>얼마나</b><span>4주 동안</span></div>
+    </div>
+    <div class="src">출처: Giuntella·Saccardo·Sadoff, Journal of Political Economy (2026)</div>
+  </div>
+  <div class="foot"><span>@miru.diary</span><span><b>5</b> / 10</span></div>
+</section>
+
+<!-- 6. 정보: 결과 -->
+<section class="slide">
+  <div class="card" style="top:50px; height:800px;">
+    <span class="chip">결과</span>
+    <h3>그랬더니 이렇게 됐대</h3>
+    <div class="stats">
+      <div class="stat"><div class="n">+26%</div><div class="d">7시간 이상 잔 날<small>하루 약 19분 더 잠</small></div></div>
+      <div class="stat"><div class="n">+0.08</div><div class="d">그 학기 학점(GPA)<small>고교 성적 상·하위권 학생 학점 차이의 약 1/4</small></div></div>
+      <div class="stat"><div class="n">그대로</div><div class="d">공부 시간<small>밤에 하던 공부를 아침으로 옮겼을 뿐</small></div></div>
+    </div>
+  </div>
+  <div class="panel" style="top:880px; height:380px;" id="p6"></div>
+  <div class="foot"><span>@miru.diary</span><span><b>6</b> / 10</span></div>
+</section>
+
+<!-- 7. 만화: 미루의 1% 실험 -->
+<section class="slide">
+  <div class="panel" style="top:50px; height:590px;" id="p7a"></div>
+  <div class="panel" style="top:670px; height:590px;" id="p7b"></div>
+  <div class="foot"><span>@miru.diary</span><span><b>7</b> / 10</span></div>
+</section>
+
+<!-- 8. 정리: 99% 미루 vs 1% 미루 -->
+<section class="slide">
+  <div class="card" style="top:50px; height:1210px;">
+    <span class="chip">저장각</span>
+    <h3>오늘 밤,<br>하나만 골라서 해봐</h3>
+    <table class="vs">
+      <tr><th><svg id="h99" viewBox="0 0 160 170"></svg>99% 미루</th><th><svg id="h1" viewBox="0 0 160 170"></svg>1% 미루</th></tr>
+      <tr><td class="lo">릴스 보다 잠듦</td><td class="hi">자기 전에 폰은 멀리</td></tr>
+      <tr><td class="lo">새벽까지 버티며 공부</td><td class="hi">같은 공부를 아침에</td></tr>
+      <tr><td class="lo">기상 알람만 맞춤</td><td class="hi">취침 알람도 맞춤</td></tr>
+      <tr><td class="lo">평일엔 잠부터 줄임</td><td class="hi">7시간은 채움</td></tr>
+    </table>
+    <div class="cta"><div class="lines" style="margin-top:34px; text-align:center;">저장해두고 자기 전에 하나만 체크!</div></div>
+  </div>
+  <div class="foot"><span>@miru.diary</span><span><b>8</b> / 10</span></div>
+</section>
+
+<!-- 9. 정보: 한계 -->
+<section class="slide">
+  <div class="panel" style="top:50px; height:390px;" id="p9"></div>
+  <div class="card" style="top:470px; height:790px;">
+    <span class="chip">근데 이건 알아둬</span>
+    <div class="lim">
+      <p>미국 대학생 대상 연구야.<span>직장인한테도 똑같다고 보긴 어려워.</span></p>
+      <p>학점 효과는 다음 학기까진 갔는데<br>두 학기 뒤엔 안 보였대.<span>잠은 한 번이 아니라 계속 챙겨야 한다는 뜻.</span></p>
+      <p>대신 잠 습관은 남았대.<span>돈 주는 게 끝난 뒤에도 하루 약 8분 더 잤대.</span></p>
+    </div>
+    <div class="src">출처: Giuntella·Saccardo·Sadoff, "Sleep: Educational Impact and Habit Formation", Journal of Political Economy (2026)</div>
+  </div>
+  <div class="foot"><span>@miru.diary</span><span><b>9</b> / 10</span></div>
+</section>
+
+<!-- 10. 마무리 -->
+<section class="slide">
+  <div class="panel" style="top:50px; height:700px;" id="p10"></div>
+  <div class="card cta" style="top:780px; height:480px;">
+    <h3>너는 오늘 밤<br>뭐 해볼 거야?</h3>
+    <div class="lines">8장에서 하나 골라서 댓글로 알려줘.<br>저장해두고 자기 전에 꺼내 보고!<br>다음 화도 근거 있는 걸로 들고 올게.</div>
+  </div>
+  <div class="foot"><span>@miru.diary</span><span><b>10</b> / 10</span></div>
 </section>
 
 <script>
@@ -170,6 +289,257 @@ function panel2() {
 }
 document.getElementById('p1').innerHTML = panel1();
 document.getElementById('p2').innerHTML = panel2();
+
+/* ===== 3~10장용 공통 함수 (위 함수를 확장해서 덮어씀) ===== */
+function defs(id) {
+  return `<defs>
+  <filter id="rough-${id}"><feTurbulence type="fractalNoise" baseFrequency=".03" numOctaves="2" seed="7"/><feDisplacementMap in="SourceGraphic" scale="5"/></filter>
+  <radialGradient id="lamp-${id}" cx="50%" cy="20%" r="70%"><stop offset="0" stop-color="#fff3b0" stop-opacity=".9"/><stop offset="1" stop-color="#fff3b0" stop-opacity="0"/></radialGradient>
+  <radialGradient id="glow-${id}" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="${C.blue}" stop-opacity=".45"/><stop offset="1" stop-color="${C.blue}" stop-opacity="0"/></radialGradient>
+  <pattern id="hatch-${id}" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><line x1="0" y1="0" x2="0" y2="14" stroke="#fff" stroke-width="3" opacity=".55"/></pattern>
+  </defs>`;
+}
+function head(cx, cy, r, eyes, mouth, glasses) {
+  const s = r / 70;
+  const tired = `<g stroke="${INK}" stroke-width="5" stroke-linecap="round" fill="none"><path d="M614 420 q14 -6 28 0"/><path d="M660 420 q14 -6 28 0"/></g>
+      <ellipse cx="628" cy="428" rx="7" ry="5" fill="${INK}"/><ellipse cx="674" cy="428" rx="7" ry="5" fill="${INK}"/>`;
+  const E = {
+    bright: `<circle cx="628" cy="424" r="8" fill="${INK}"/><circle cx="674" cy="424" r="8" fill="${INK}"/>
+             <circle cx="631" cy="420" r="3" fill="#fff"/><circle cx="677" cy="420" r="3" fill="#fff"/>`,
+    determined: `<circle cx="628" cy="426" r="8" fill="${INK}"/><circle cx="674" cy="426" r="8" fill="${INK}"/>
+             <circle cx="631" cy="422" r="3" fill="#fff"/><circle cx="677" cy="422" r="3" fill="#fff"/>
+             <path d="M610 402 l28 9 M692 402 l-28 9" stroke="${INK}" stroke-width="6" stroke-linecap="round"/>`,
+    happy: `<path d="M614 428 q14 -14 28 0 M660 428 q14 -14 28 0" stroke="${INK}" stroke-width="5" fill="none" stroke-linecap="round"/>`,
+    closed: `<path d="M614 424 q14 10 28 0 M660 424 q14 10 28 0" stroke="${INK}" stroke-width="5" fill="none" stroke-linecap="round"/>`,
+    tired: tired + `<path d="M614 440 q14 8 28 0 M660 440 q14 8 28 0" stroke="#8a7bd6" stroke-width="4" fill="none"/>`,
+    zombie: tired + `<path d="M612 440 q16 12 32 0 M658 440 q16 12 32 0" stroke="#8a7bd6" stroke-width="7" fill="none"/>`,
+    shock: `<circle cx="626" cy="424" r="14" fill="#fff" ${S}/><circle cx="676" cy="424" r="14" fill="#fff" ${S}/>
+            <circle cx="626" cy="426" r="4" fill="${INK}"/><circle cx="676" cy="426" r="4" fill="${INK}"/>`
+  }[eyes];
+  const M = {
+    smile: `<path d="M636 450 q16 14 32 0" stroke="${INK}" stroke-width="4" fill="none" stroke-linecap="round"/>`,
+    grin: `<path d="M632 446 q20 26 40 0z" fill="#e0607a" ${S}/>`,
+    tight: `<path d="M640 456 h24" stroke="${INK}" stroke-width="4" stroke-linecap="round"/>`,
+    line: `<path d="M642 458 h20" stroke="${INK}" stroke-width="4" stroke-linecap="round"/>`,
+    o: `<ellipse cx="652" cy="460" rx="8" ry="10" fill="${INK}"/>`,
+    wavy: `<path d="M634 458 q6 -6 12 0 q6 6 12 0 q6 -6 12 0" stroke="${INK}" stroke-width="4" fill="none" stroke-linecap="round"/>`
+  }[mouth];
+  const G = glasses ? `<circle cx="626" cy="424" r="22" fill="none" ${S}/><circle cx="676" cy="424" r="22" fill="none" ${S}/><path d="M648 424 h6" ${S}/>` : '';
+  return `<g transform="translate(${cx - 650*s} ${cy - 402*s}) scale(${s})">
+    <circle cx="650" cy="402" r="70" fill="${C.skin}" ${S}/>
+    <path d="M576 420 C560 330 630 296 690 312 C742 326 736 384 726 418 L716 386 L703 400 L690 377 L675 397 L660 372 L645 395 L629 372 L614 397 L600 378 L590 410 Z" fill="${C.hair}" ${S}/>
+    <path d="M646 318 q-14 -34 18 -44 q-8 18 -2 38" fill="${C.hair}" ${S}/>
+    <path d="M612 336 q22 -18 58 -16" stroke="${C.hairHi}" stroke-width="6" fill="none" stroke-linecap="round"/>
+    ${E}
+    <ellipse cx="606" cy="446" rx="13" ry="7" fill="${C.blush}" opacity=".6"/><ellipse cx="696" cy="446" rx="13" ry="7" fill="${C.blush}" opacity=".6"/>
+    ${M}${G}
+  </g>`;
+}
+function win(x, day, id) {
+  const sky = day ? '#cdeeff' : '#3a4377';
+  const inner = day
+    ? `<circle cx="${x+56}" cy="104" r="26" fill="${C.yellow}" ${S}/><path d="M${x+100} 190 q0 -18 20 -16 q6 -14 24 -8 q18 2 16 18 h-60z" fill="#fff" ${S}/>`
+    : `<circle cx="${x+120}" cy="100" r="24" fill="${C.yellow}"/><circle cx="${x+132}" cy="92" r="22" fill="${sky}"/><circle cx="${x+40}" cy="90" r="3" fill="#fff"/><circle cx="${x+60}" cy="180" r="3" fill="#fff"/><circle cx="${x+140}" cy="170" r="2" fill="#fff"/>`;
+  return `<rect x="${x}" y="50" width="180" height="180" rx="12" fill="#fff" ${S}/>
+  <rect x="${x+8}" y="58" width="164" height="164" rx="8" fill="${sky}" ${S}/>
+  ${inner}
+  <path d="M${x+90} 58 v164 M${x+8} 140 h164" stroke="${INK}" stroke-width="4"/>`;
+}
+function bedBack(id, o) {
+  return `${wall(1000,580,500)}
+  <g filter="url(#rough-${id})">
+    ${o.window ? win(o.wx || 60, o.day, id) : ''}
+    <rect x="200" y="392" width="140" height="108" rx="10" fill="${C.wood}" ${S}/>
+    <path d="M212 446 h116" stroke="${INK}" stroke-width="4"/>
+    <circle cx="270" cy="420" r="5" fill="${INK}"/><circle cx="270" cy="474" r="5" fill="${INK}"/>
+    <rect x="210" y="346" width="80" height="46" rx="10" fill="#fff" ${S}/>
+    <path d="M400 420 v-110 q0 -36 36 -36 h470 q36 0 36 36 v110z" fill="#b7c6ff" ${S}/>
+    <rect x="380" y="400" width="580" height="100" rx="22" fill="#fff" ${S}/>
+    <ellipse cx="520" cy="404" rx="105" ry="38" fill="#fff" ${S}/>
+  </g>
+  <text x="250" y="378" text-anchor="middle" font-family="monospace" font-weight="700" font-size="22" fill="${C.red}">${o.clock}</text>`;
+}
+function bedFront(id) {
+  return `<g filter="url(#rough-${id})">
+    <path d="M440 434 q30 -26 100 -8 q55 12 110 -6 q110 -26 300 4 v74 h-510z" fill="#a9c9ff" ${S}/>
+    <path d="M442 434 q30 -26 100 -8 q55 12 110 -6 q110 -26 300 4 v20 q-160 -26 -300 4 q-60 12 -110 2 q-70 -14 -100 6z" fill="#cfe0ff" ${S}/>
+  </g>
+  <rect x="460" y="458" width="480" height="40" fill="url(#hatch-${id})"/>`;
+}
+function phoneHeld(x, y) {
+  return `<g transform="rotate(-10 ${x} ${y})"><rect x="${x-25}" y="${y-42}" width="50" height="84" rx="10" fill="${INK}"/><rect x="${x-20}" y="${y-36}" width="40" height="70" rx="6" fill="${C.blue}"/><path d="M${x-6} ${y-14} l14 9 l-14 9z" fill="#fff"/></g>
+  <circle cx="${x-14}" cy="${y+44}" r="13" fill="${C.skin}" ${S}/><circle cx="${x+16}" cy="${y+40}" r="13" fill="${C.skin}" ${S}/>`;
+}
+function arm(x0, y0, ang, len) {
+  const r = ang * Math.PI / 180;
+  return { svg: `<g transform="translate(${x0} ${y0}) rotate(${ang})"><rect x="-17" y="0" width="34" height="${len}" rx="17" fill="${C.hoodie}" ${S}/></g>`,
+           hx: x0 - Math.sin(r) * len, hy: y0 + Math.cos(r) * len };
+}
+function standing(x, y, la, ll, ra, rl) {
+  const L = arm(x - 46, y + 74, la, ll), R = arm(x + 46, y + 74, ra, rl);
+  return { svg: `<rect x="${x-44}" y="${y+168}" width="38" height="86" rx="12" fill="${C.pants}" ${S}/>
+    <rect x="${x+6}" y="${y+168}" width="38" height="86" rx="12" fill="${C.pants}" ${S}/>
+    <ellipse cx="${x-26}" cy="${y+256}" rx="28" ry="12" fill="#fff" ${S}/><ellipse cx="${x+26}" cy="${y+256}" rx="28" ry="12" fill="#fff" ${S}/>
+    <rect x="${x-60}" y="${y+46}" width="120" height="136" rx="40" fill="${C.hoodie}" ${S}/>
+    ${L.svg}${R.svg}`, L, R };
+}
+function hand(p, r=17) { return `<circle cx="${p.hx}" cy="${p.hy}" r="${r}" fill="${C.skin}" ${S}/>`; }
+function drops(list) { return list.map(([x,y,s])=>`<path transform="translate(${x} ${y}) scale(${s||1})" d="M0 -14 q-11 16 0 22 q11 -6 0 -22z" fill="${C.blue}" ${S}/>`).join(''); }
+function zzz(x, y) { return `<g ${FONT}><text x="${x}" y="${y}" font-size="30">z</text><text x="${x+26}" y="${y-34}" font-size="40">Z</text><text x="${x+60}" y="${y-76}" font-size="52">Z</text></g>`; }
+function svgWrap(id, W, H, body) { return `<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg">${defs(id)}${body}</svg>`; }
+
+/* 3a: 밤 11시, 딱 하나만 */
+const p3a = svgWrap('p3a', 1000, 580, `
+  ${bedBack('p3a', {window:true, day:false, clock:'23:00'})}
+  <circle cx="620" cy="360" r="190" fill="url(#glow-p3a)"/>
+  ${head(520, 370, 58, 'bright', 'smile')}
+  ${bedFront('p3a')}
+  ${phoneHeld(628, 356)}
+  ${narration(22, 22, '밤 11시')}
+  ${bubble(800, 130, 178, 50, '딱 하나만 보고 자야지~', 34, [[680,206,8],[702,186,12]], 'p3a')}
+`);
+
+/* 3b: 새벽 1:47 */
+const p3b = svgWrap('p3b', 1000, 580, `
+  <rect width="1000" height="580" fill="#ebe5f5"/>
+  <g fill="#e2dbf0" opacity=".8">${Array.from({length:9},(_,i)=>`<rect x="${i*130-20}" y="0" width="48" height="580"/>`).join('')}</g>
+  <circle cx="430" cy="320" r="260" fill="url(#glow-p3b)"/>
+  <g stroke="${INK}" stroke-width="5" stroke-linecap="round">
+    <path d="M250 150 l-30 -26 M240 210 l-40 -6 M610 150 l30 -26 M622 212 l40 -6 M430 110 v-36"/>
+  </g>
+  ${head(430, 330, 128, 'shock', 'o')}
+  ${drops([[600,250,1.3],[262,270,1.1]])}
+  <g filter="url(#rough-p3b)">
+    <path d="M0 470 q160 -40 320 -6 q170 30 330 -4 q190 -30 350 10 v110 h-1000z" fill="#a9c9ff" ${S}/>
+    <rect x="680" y="170" width="270" height="170" rx="22" fill="#fff" ${S}/>
+  </g>
+  <text x="815" y="300" text-anchor="middle" font-family="monospace" font-weight="700" font-size="104" fill="${C.red}">1:47</text>
+  <text x="815" y="210" text-anchor="middle" ${FONT} font-size="30">AM</text>
+  ${phoneHeld(560, 470)}
+  ${narration(22, 22, '그리고 정신 차려 보니')}
+  ${bubble(140, 140, 76, 44, '…어?', 40, [[220,196,8],[204,180,6]], 'p3b')}
+`);
+
+/* 4a: 아침 7시, 알람 */
+const a4 = arm(450, 430, 104, 168);
+const p4a = svgWrap('p4a', 1000, 580, `
+  ${bedBack('p4a', {window:true, day:true, wx:780, clock:'7:00'})}
+  <g stroke="${C.red}" stroke-width="5" stroke-linecap="round"><path d="M196 336 l-22 -18 M250 322 v-26 M304 336 l22 -18 M190 372 h-28 M310 372 h28"/></g>
+  <text x="250" y="282" text-anchor="middle" ${FONT} font-size="40" fill="${C.red}">따르릉!</text>
+  ${head(520, 372, 58, 'closed', 'wavy')}
+  <g filter="url(#rough-p4a)">${a4.svg}</g>
+  ${bedFront('p4a')}
+  ${hand(a4, 18)}
+  <g transform="rotate(-6 120 470)"><rect x="40" y="430" width="160" height="56" rx="10" fill="${C.pink}" ${S}/><text x="120" y="468" text-anchor="middle" ${FONT} font-size="30">다시 알림 x5</text></g>
+  ${narration(22, 22, '아침 7시')}
+  ${bubble(680, 160, 110, 48, '5분만…', 40, [[588,240,8],[606,220,12]], 'p4a')}
+`);
+
+/* 4b: 출근길 좀비 */
+const z = standing(520, 250, 10, 108, -14, 92);
+const p4b = svgWrap('p4b', 1000, 580, `
+  <rect width="1000" height="580" fill="#eef1f6"/>
+  <rect y="510" width="1000" height="70" fill="#dedad3"/>
+  <g filter="url(#rough-p4b)">
+    <rect x="150" y="150" width="14" height="362" fill="#9aa3b5" ${S}/>
+    <rect x="100" y="96" width="114" height="66" rx="12" fill="#5b8def" ${S}/>
+    ${z.svg}
+  </g>
+  <text x="157" y="140" text-anchor="middle" font-family="Gaegu" font-weight="700" font-size="30" fill="#fff">정류장</text>
+  <g transform="rotate(8 520 250)">${head(520, 250, 64, 'zombie', 'wavy')}</g>
+  ${hand(z.L)}
+  <g filter="url(#rough-p4b)"><rect x="${z.R.hx-4}" y="${z.R.hy-34}" width="44" height="56" rx="6" fill="#fff" ${S}/><rect x="${z.R.hx-4}" y="${z.R.hy-20}" width="44" height="18" fill="#b98b62"/></g>
+  ${hand(z.R)}
+  <g filter="url(#rough-p4b)"><path d="M610 120 q0 -50 40 -50 q40 0 40 50 v40 l-14 -12 l-13 12 l-13 -12 l-13 12 l-13 -12 l-14 12z" fill="#fff" ${S}/></g>
+  <circle cx="638" cy="112" r="4" fill="${INK}"/><circle cx="662" cy="112" r="4" fill="${INK}"/>
+  <text x="650" y="56" text-anchor="middle" ${FONT} font-size="26">영혼 가출</text>
+  ${narration(22, 22, '출근길')}
+  ${bubble(820, 290, 150, 48, '갓생은… 내일부터…', 32, [[652,262,7],[676,272,10]], 'p4b')}
+  ${narration(22, 514, '(오늘도 실패)', 28)}
+`);
+
+/* 5a: 점심시간, 기사 발견 */
+const p5a = svgWrap('p5a', 1000, 580, `${wall(1000,580,500)}
+  <g filter="url(#rough-p5a)">
+    <path d="M290 440 q0 -108 100 -108 q100 0 100 108z" fill="${C.hoodie}" ${S}/>
+  </g>
+  ${head(390, 262, 64, 'shock', 'o')}
+  <g filter="url(#rough-p5a)">
+    <g transform="rotate(8 560 320)"><rect x="512" y="236" width="96" height="160" rx="14" fill="${INK}"/><rect x="520" y="246" width="80" height="140" rx="9" fill="#fff"/>
+      <rect x="530" y="258" width="60" height="34" rx="4" fill="${C.blue}"/><path d="M530 306 h60 M530 322 h48 M530 338 h56 M530 354 h40" stroke="#aaa" stroke-width="5" stroke-linecap="round"/></g>
+    <circle cx="520" cy="390" r="17" fill="${C.skin}" ${S}/>
+    <rect x="60" y="436" width="880" height="26" rx="6" fill="${C.wood}" ${S}/>
+    <rect x="90" y="462" width="20" height="40" fill="${C.wood}" ${S}/><rect x="890" y="462" width="20" height="40" fill="${C.wood}" ${S}/>
+    <rect x="130" y="392" width="120" height="44" rx="8" fill="#ffb59a" ${S}/><path d="M150 380 l90 -40 M160 384 l90 -40" stroke="${INK}" stroke-width="4"/>
+    <circle cx="300" cy="430" r="16" fill="${C.skin}" ${S}/>
+  </g>
+  <text x="290" y="170" ${FONT} font-size="80" fill="${C.red}">!</text>
+  ${narration(22, 22, '점심시간')}
+  ${bubble(790, 150, 160, 50, '어? 이거 뭐야?', 38, [[650,220,8],[672,200,12]], 'p5a')}
+`);
+
+/* 6: 리액션 */
+const p6 = svgWrap('p6', 1000, 370, `<rect width="1000" height="370" fill="${C.wall}"/>
+  <g stroke="${INK}" stroke-width="5" stroke-linecap="round"><path d="M90 90 l-26 -20 M80 150 l-34 -4 M340 90 l26 -20 M352 150 l34 -4"/></g>
+  ${head(215, 210, 108, 'shock', 'o')}
+  ${bubble(660, 170, 300, 70, '헐, 공부 시간은 똑같았다고?', 40, [[360,220,10],[384,200,14]], 'p6')}
+`);
+
+/* 7a: 그날 밤, 폰은 협탁에 */
+const m7 = standing(560, 222, 60, 150, -16, 96);
+const p7a = svgWrap('p7a', 1000, 580, `${wall(1000,580,500)}
+  <g filter="url(#rough-p7a)">
+    ${win(60, false, 'p7a')}
+    <rect x="200" y="392" width="140" height="108" rx="10" fill="${C.wood}" ${S}/>
+    <path d="M212 446 h116" stroke="${INK}" stroke-width="4"/>
+    <circle cx="270" cy="420" r="5" fill="${INK}"/><circle cx="270" cy="474" r="5" fill="${INK}"/>
+    <rect x="232" y="370" width="62" height="16" rx="5" fill="${INK}"/>
+    <path d="M290 384 q40 30 30 80 q-6 30 40 36" stroke="${INK}" stroke-width="4" fill="none"/>
+    <rect x="354" y="470" width="30" height="30" rx="4" fill="#fff" ${S}/>
+    <g transform="rotate(4 790 270)"><rect x="720" y="210" width="160" height="120" fill="${C.pink}" ${S}/></g>
+    ${m7.svg}
+  </g>
+  <g transform="rotate(4 790 270)" ${FONT}><text x="800" y="258" text-anchor="middle" font-size="30">취침 알람</text><text x="800" y="306" text-anchor="middle" font-size="40" fill="${C.red}">23:00 ON</text></g>
+  ${head(560, 222, 64, 'determined', 'smile')}
+  ${hand(m7.L)}${hand(m7.R)}
+  ${narration(22, 22, '그날 밤')}
+  ${bubble(810, 110, 150, 48, '폰은 여기서 충전!', 34, [[660,170,8],[680,150,12]], 'p7a')}
+`);
+
+/* 7b: 꿀잠 */
+const p7b = svgWrap('p7b', 1000, 580, `
+  ${bedBack('p7b', {window:true, day:false, clock:'23:30'})}
+  <rect x="300" y="380" width="34" height="12" rx="4" fill="${INK}"/>
+  ${head(520, 370, 58, 'closed', 'smile')}
+  ${bedFront('p7b')}
+  ${zzz(600, 320)}
+  ${sparkle(780, 200, 1)}${sparkle(880, 300, .7)}${sparkle(420, 250, .6)}
+  ${narration(22, 22, '23:30')}
+  ${narration(600, 514, '(일단 오늘은 성공)', 28)}
+`);
+
+/* 8: 미니 얼굴 */
+document.getElementById('h99').innerHTML = head(80, 100, 62, 'tired', 'line');
+document.getElementById('h1').innerHTML = head(80, 100, 62, 'happy', 'smile');
+
+/* 9: 안경 미루 */
+const p9 = svgWrap('p9', 1000, 380, `<rect width="1000" height="380" fill="${C.wall}"/>
+  ${head(210, 210, 112, 'bright', 'smile', true)}
+  ${bubble(650, 170, 290, 70, '근데 이건 알아둬!', 44, [[360,220,10],[384,200,14]], 'p9')}
+`);
+
+/* 10: 손 흔드는 미루 */
+const m10 = standing(500, 300, 26, 100, -140, 120);
+const p10 = svgWrap('p10', 1000, 690, `${wall(1000,690,600)}
+  <g filter="url(#rough-p10)">${m10.svg}</g>
+  ${head(500, 300, 70, 'happy', 'grin')}
+  ${hand(m10.L)}${hand(m10.R, 19)}
+  ${sparkle(330, 220, 1.2)}${sparkle(700, 420, .9)}${sparkle(300, 470, .7)}
+  <g stroke="${INK}" stroke-width="5" stroke-linecap="round"><path d="M${m10.R.hx+30} ${m10.R.hy-20} l22 -14 M${m10.R.hx+34} ${m10.R.hy+8} l26 0"/></g>
+  ${bubble(790, 150, 150, 52, '같이 해보자!', 40, [[650,220,9],[672,198,13]], 'p10')}
+`);
+
+for (const [id, svg] of Object.entries({p3a, p3b, p4a, p4b, p5a, p6, p7a, p7b, p9, p10})) document.getElementById(id).innerHTML = svg;
 </script>
 </body>
 </html>
