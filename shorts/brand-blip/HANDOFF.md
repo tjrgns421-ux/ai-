@@ -13,7 +13,7 @@ Curious Minutes 채널(`channels/curious-minutes/`)은 다른 세션에서 작�
 
 ## 채널
 - 이름 Blip Check, 슬로건 "Korea, checked.", 영어 채널(해외 시청자 대상), 진행 캐릭터 Blip.
-- 채널 소개·재생목록·프로필·배너: `shorts/brand-blip/korea-channel.md`
+- 채널 소개·재생목록·프로필·배너: `shorts/brand-blip/korea-channel.md` (2026-11-24 콘셉트 변경: 지도·국경 주장 확인, 영어 롱폼 8분+, 맨 아래 섹션)
 - 대본 규칙: `.claude/skills/shorts-script/SKILL.md` 10–11절, 제목·썸네일: `.claude/skills/yt-package/`
 - 목소리: en-US-AndrewMultilingualNeural, +8%
 
@@ -24,6 +24,8 @@ Curious Minutes 채널(`channels/curious-minutes/`)은 다른 세션에서 작�
 | sn02-suneung-bounty | 수능 부정행위 신고 포상금 $75,000·10년 응시 제한 (5:29 + 쇼츠 0:48) | 완성, 썸네일 'THEY PAY $75,000?', 업로드 정보 `post.md` |
 | bc01-gpt62-astra-vs-sol | AI 비교 쇼츠 | 완성 |
 | en01, ep01, ep02 | 초기 회차 | 완성 |
+| sn03-north-south-words | 남북한 말 (4:54) | 완성·업로드 |
+| mp01-korea-border | 지도 롱폼 1회: 38선은 국경이 아니다 (영어, 약 8:22) | 대본·출처·캡처 48장 완료, 지도 장면·내레이션 남음 |
 
 ## 기타
 - 인스타그램 만화·이슈 슬라이드: `insta/` (README 참고)

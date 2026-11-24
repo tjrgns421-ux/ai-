@@ -1,0 +1,513 @@
+[
+ {
+  "name": "frus-head",
+  "url": "https://history.state.gov/historicaldocuments/frus1945v06/d771",
+  "source": "U.S. State Dept., FRUS 1945 vol. VI, doc. 771 (Rusk memo, July 12, 1950)",
+  "find": "In a memorandum dated July 12, 1950",
+  "until": "in regard to the 38th parallel in Korea as follows",
+  "marks": [
+   "July 12, 1950",
+   "Dean Rusk"
+  ]
+ },
+ {
+  "name": "frus-sudden",
+  "url": "https://history.state.gov/historicaldocuments/frus1945v06/d771",
+  "source": "U.S. State Dept., FRUS 1945 vol. VI, doc. 771 (Rusk memo, 1950)",
+  "find": "The suddenness of the Japanese surrender",
+  "until": "arrangements with other allied governments about the Japanese surrender.",
+  "marks": [
+   "suddenness of the Japanese surrender"
+  ]
+ },
+ {
+  "name": "frus-night",
+  "url": "https://history.state.gov/historicaldocuments/frus1945v06/d771",
+  "source": "U.S. State Dept., FRUS 1945 vol. VI, doc. 771 (Rusk memo, 1950)",
+  "find": "held a meeting in Mr. McCloy",
+  "until": "lasted throughout most of the night.",
+  "marks": [
+   "in the Pentagon",
+   "lasted throughout most of the night"
+  ]
+ },
+ {
+  "name": "frus-north",
+  "url": "https://history.state.gov/historicaldocuments/frus1945v06/d771",
+  "source": "U.S. State Dept., FRUS 1945 vol. VI, doc. 771 (Rusk memo, 1950)",
+  "find": "The Department of State had suggested",
+  "until": "before Soviet troops could enter the area.",
+  "marks": [
+   "as far north as practicable",
+   "scarcity of U.S. forces immediately available",
+   "before Soviet troops could enter the area"
+  ]
+ },
+ {
+  "name": "frus-room",
+  "url": "https://history.state.gov/historicaldocuments/frus1945v06/d771",
+  "source": "U.S. State Dept., FRUS 1945 vol. VI, doc. 771 (Rusk memo, 1950)",
+  "find": "asked Col. C. H. Bonesteel",
+  "until": "come up with a proposal",
+  "marks": [
+   "retire to an adjoining room"
+  ]
+ },
+ {
+  "name": "frus-38",
+  "url": "https://history.state.gov/historicaldocuments/frus1945v06/d771",
+  "source": "U.S. State Dept., FRUS 1945 vol. VI, doc. 771 (Rusk memo, 1950)",
+  "find": "We recommended the 38th parallel",
+  "until": "area of responsibility of American troops.",
+  "marks": [
+   "further north than could be realistically reached",
+   "include the capital of Korea"
+  ]
+ },
+ {
+  "name": "frus-surprised",
+  "url": "https://history.state.gov/historicaldocuments/frus1945v06/d771",
+  "source": "U.S. State Dept., FRUS 1945 vol. VI, doc. 771 (Rusk memo, 1950)",
+  "find": "I remember at the time that I was somewhat surprised",
+  "until": "in view of our respective military positions in the area.",
+  "marks": [
+   "somewhat surprised that the Soviet accepted the 38th parallel"
+  ]
+ },
+ {
+  "name": "natgeo-aug14",
+  "url": "https://www.nationalgeographic.com/science/article/130805-korean-war-dmz-armistice-38-parallel-geography",
+  "source": "National Geographic, Aug 5 2013 (quoting Rusk's 1991 memoir)",
+  "find": "During a meeting on August 14, 1945",
+  "until": "map of the Korean peninsula.",
+  "marks": [
+   "August 14, 1945"
+  ]
+ },
+ {
+  "name": "natgeo-map",
+  "url": "https://www.nationalgeographic.com/science/article/130805-korean-war-dmz-armistice-38-parallel-geography",
+  "source": "National Geographic, Aug 5 2013 (quoting Rusk's 1991 memoir)",
+  "find": "Using a National Geographic map",
+  "until": "could not find a natural geographical line.",
+  "marks": [
+   "Using a National Geographic map",
+   "could not find a natural geographical line"
+  ]
+ },
+ {
+  "name": "ency38-proposal",
+  "url": "https://encykorea.aks.ac.kr/Article/E0026911",
+  "source": "Encyclopedia of Korean Culture (AKS), '38th parallel'",
+  "find": "8월 10일 일본이 비로소 포츠담선언을 수락하여",
+  "until": "트루먼 대통령의 재가를 받았다.",
+  "marks": [
+   "38°선을 기준으로 이남은 미군이, 이북은 소련군이",
+   "트루먼 대통령의 재가"
+  ]
+ },
+ {
+  "name": "ency38-earlier",
+  "url": "https://encykorea.aks.ac.kr/Article/E0026911",
+  "source": "Encyclopedia of Korean Culture (AKS), '38th parallel'",
+  "find": "그뿐 아니라 포츠담회담이 끝난 다음부터",
+  "until": "가능성도 빼놓을 수 없다.",
+  "marks": [
+   "양해 또는 합의했을 가능성"
+  ]
+ },
+ {
+  "name": "ency38-go1",
+  "url": "https://encykorea.aks.ac.kr/Article/E0026911",
+  "source": "Encyclopedia of Korean Culture (AKS), '38th parallel'",
+  "find": "맥아더는 1945년 9월 2일",
+  "until": "항복하라고 명령하였다.",
+  "marks": [
+   "1945년 9월 2일",
+   "일반명령 제1호"
+  ]
+ },
+ {
+  "name": "ency38-cut",
+  "url": "https://encykorea.aks.ac.kr/Article/E0026911",
+  "source": "Encyclopedia of Korean Culture (AKS), '38th parallel'",
+  "find": "광복 직후 38°선을 넘나들며",
+  "until": "철의 장막이 구축되었다.",
+  "marks": [
+   "인원·물자·우편 등의 교류마저 끊어지고"
+  ]
+ },
+ {
+  "name": "ency38-1948",
+  "url": "https://encykorea.aks.ac.kr/Article/E0026911",
+  "source": "Encyclopedia of Korean Culture (AKS), '38th parallel'",
+  "find": "1948년 8월 15일 남한에서는",
+  "until": "대한민국 정부가 수립되었다.",
+  "marks": [
+   "1948년 8월 15일"
+  ]
+ },
+ {
+  "name": "encyar-def",
+  "url": "https://encykorea.aks.ac.kr/Article/E0065857",
+  "source": "Encyclopedia of Korean Culture (AKS), 'Armistice'",
+  "find": "6·25전쟁이 1953년 7월 27일 22시에 휴전됨으로써",
+  "marks": [
+   "1953년 7월 27일 22시"
+  ],
+  "nth": 2
+ },
+ {
+  "name": "encyar-latin",
+  "url": "https://encykorea.aks.ac.kr/Article/E0065857",
+  "source": "Encyclopedia of Korean Culture (AKS), 'Armistice'",
+  "find": "armistice의 어원을 보면",
+  "until": "병기의 휴식을 뜻한다.",
+  "marks": [
+   "병기의 휴식"
+  ]
+ },
+ {
+  "name": "encyar-unsc",
+  "url": "https://encykorea.aks.ac.kr/Article/E0065857",
+  "source": "Encyclopedia of Korean Culture (AKS), 'Armistice'",
+  "find": "북한공산군이 1950년 6월 25일에",
+  "until": "북한은 이에 불응하였다.",
+  "marks": [
+   "당일",
+   "38선 이북까지 철수할 것을 요구",
+   "불응"
+  ]
+ },
+ {
+  "name": "encyar-suicide",
+  "url": "https://encykorea.aks.ac.kr/Article/E0065857",
+  "source": "Encyclopedia of Korean Culture (AKS), 'Armistice'",
+  "find": "대한민국 국회에서도 38선상의 정전을 반대하면서",
+  "until": "자살행위라고 결의하였다.",
+  "marks": [
+   "38선의 정전은 곧 자살행위"
+  ]
+ },
+ {
+  "name": "encyar-kaesong",
+  "url": "https://encykorea.aks.ac.kr/Article/E0065857",
+  "source": "Encyclopedia of Korean Culture (AKS), 'Armistice'",
+  "find": "7월 1일 중공은 처음으로",
+  "until": "38선 이남의 개성을 택하였다.",
+  "marks": [
+   "38선 이남의 개성"
+  ]
+ },
+ {
+  "name": "encyar-dmz",
+  "url": "https://encykorea.aks.ac.kr/Article/E0065857",
+  "source": "Encyclopedia of Korean Culture (AKS), 'Armistice'",
+  "find": "1951년 10월 하순 2개월 만에",
+  "until": "설치하는 데 합의하였다.",
+  "marks": [
+   "판문점",
+   "실제접촉선으로부터 2㎞씩 떨어진 너비 4㎞의 비무장지대"
+  ]
+ },
+ {
+  "name": "encyar-345",
+  "url": "https://encykorea.aks.ac.kr/Article/E0065857",
+  "source": "Encyclopedia of Korean Culture (AKS), 'Armistice'",
+  "find": "1952년 10월 8일까지 1년간",
+  "until": "기다리게 되었다.",
+  "marks": [
+   "200회의 회합과 345시간"
+  ]
+ },
+ {
+  "name": "encyar-nnsc",
+  "url": "https://encykorea.aks.ac.kr/Article/E0065857",
+  "source": "Encyclopedia of Korean Culture (AKS), 'Armistice'",
+  "find": "1993년 3월 핵확산금지조약",
+  "until": "긴장감이 감돌았다.",
+  "marks": [
+   "체코슬로바키아를 철수시키고",
+   "폴란드 대표단마저 강제축출"
+  ]
+ },
+ {
+  "name": "ency-sokcho",
+  "url": "https://encykorea.aks.ac.kr/Article/E0030453",
+  "source": "Encyclopedia of Korean Culture (AKS), 'Sokcho'",
+  "find": "1945년 광복이 되자 속초는",
+  "until": "수복되었다.",
+  "marks": [
+   "38선 이북",
+   "1951년 국군이 진주하여 수복"
+  ]
+ },
+ {
+  "name": "ency-goseong",
+  "url": "https://encykorea.aks.ac.kr/Article/E0003701",
+  "source": "Encyclopedia of Korean Culture (AKS), 'Goseong County'",
+  "find": "1945년 광복 당시 고성군은",
+  "until": "4개 면이 편입되었다.",
+  "marks": [
+   "38선 이북이었기 때문에 북한지역",
+   "1954년 10월 21일",
+   "수복지구임시행정조치법"
+  ]
+ },
+ {
+  "name": "kh-head",
+  "url": "https://www.koreaherald.com/article/10921853",
+  "source": "The Korea Herald, Nov 2 2026 (column by Lee Kyong-hee)",
+  "find": "Urgency of addressing MDL border discrepancies",
+  "marks": [],
+  "nth": 2
+ },
+ {
+  "name": "kh-250",
+  "url": "https://www.koreaherald.com/article/10921853",
+  "source": "The Korea Herald, Nov 2 2026 (column by Lee Kyong-hee)",
+  "find": "The final battlefront of the war became",
+  "until": "2 kilometers on either side.",
+  "marks": [
+   "roughly 250-kilometer Military Demarcation Line"
+  ]
+ },
+ {
+  "name": "kh-hand",
+  "url": "https://www.koreaherald.com/article/10921853",
+  "source": "The Korea Herald, Nov 2 2026 (column by Lee Kyong-hee)",
+  "find": "The problem lies in translating that line",
+  "until": "into precise coordinates on the ground.",
+  "marks": [
+   "drawn by hand on maps attached to the armistice agreement"
+  ]
+ },
+ {
+  "name": "kh-1973",
+  "url": "https://www.koreaherald.com/article/10921853",
+  "source": "The Korea Herald, Nov 2 2026 (column by Lee Kyong-hee)",
+  "find": "Installed under the supervision",
+  "until": "during maintenance work.",
+  "marks": [
+   "maintained until 1973",
+   "killed by North Korean gunfire during maintenance work"
+  ]
+ },
+ {
+  "name": "kh-200",
+  "url": "https://www.koreaherald.com/article/10921853",
+  "source": "The Korea Herald, Nov 2 2026 (column by Lee Kyong-hee)",
+  "find": "Today, only about 200 markers",
+  "until": "difficult to locate precisely.",
+  "marks": [
+   "only about 200 markers"
+  ]
+ },
+ {
+  "name": "kh-ref",
+  "url": "https://www.koreaherald.com/article/10921853",
+  "source": "The Korea Herald, Nov 2 2026 (column by Lee Kyong-hee)",
+  "find": "South Korea and the UNC have developed operational reference lines",
+  "until": "modern geospatial data.",
+  "marks": [
+   "different combinations of armistice maps, surviving markers and modern geospatial data"
+  ]
+ },
+ {
+  "name": "kh-1990s",
+  "url": "https://www.koreaherald.com/article/10921853",
+  "source": "The Korea Herald, Nov 2 2026 (column by Lee Kyong-hee)",
+  "find": "Meanwhile, the armistice supervisory mechanisms",
+  "until": "in the early 1990s.",
+  "marks": [
+   "weakened by institutional changes in the early 1990s"
+  ]
+ },
+ {
+  "name": "kh-unc",
+  "url": "https://www.koreaherald.com/article/10786433",
+  "source": "The Korea Herald (UN Command fact sheet)",
+  "find": "The United Nations Command maintains that recent North Korean construction",
+  "until": "do not introduce heavy weaponry,",
+  "marks": [
+   "provided they remain north of the Military Demarcation Line"
+  ]
+ },
+ {
+  "name": "ja-markers",
+  "url": "https://www.koreajoongangdaily.com/korea/as-north-korea-fortifies-the-dmz-new-border-works-near-yeoncheon-test-the-line-and-the-armistice/12807720",
+  "source": "Korea JoongAng Daily",
+  "find": "From the mouth of the Imjin River in Paju",
+  "until": "the notional line joining them.",
+  "marks": [
+   "1,292 markers stand at 200-meter intervals",
+   "the notional line joining them"
+  ]
+ },
+ {
+  "name": "ja-fence",
+  "url": "https://www.koreajoongangdaily.com/korea/north-korea-appears-to-build-fence-south-of-mdl-raising-dmz-clash-fears/12912258",
+  "source": "Korea JoongAng Daily, Oct 2026",
+  "find": "This is the first time a North Korean fence is believed to have crossed the MDL",
+  "until": "north of the MDL.",
+  "marks": [
+   "first time a North Korean fence is believed to have crossed the MDL",
+   "about 80 meters (262 feet) north of the MDL"
+  ]
+ },
+ {
+  "name": "ja-sequence",
+  "url": "https://www.koreajoongangdaily.com/korea/north-korea-appears-to-build-fence-south-of-mdl-raising-dmz-clash-fears/12912258",
+  "source": "Korea JoongAng Daily, Oct 2026",
+  "find": "The work usually follows a set sequence",
+  "until": "building tactical roads.",
+  "marks": [
+   "clearing the land, laying mines, putting up triple fences and building tactical roads"
+  ]
+ },
+ {
+  "name": "ja-daily",
+  "url": "https://www.koreajoongangdaily.com/korea/north-korea-appears-to-build-fence-south-of-mdl-raising-dmz-clash-fears/12912258",
+  "source": "Korea JoongAng Daily, Oct 2026 (citing military sources)",
+  "find": "In the area under the Army",
+  "until": "according to military sources.",
+  "marks": [
+   "cross the MDL almost daily"
+  ]
+ },
+ {
+  "name": "ja-jcs",
+  "url": "https://www.koreajoongangdaily.com/korea/north-korea-appears-to-build-fence-south-of-mdl-raising-dmz-clash-fears/12912258",
+  "source": "Korea JoongAng Daily, Oct 2026",
+  "find": "The Joint Chiefs of Staff (JCS) said, however",
+  "until": "is in fact a fence.",
+  "marks": [
+   "joint on-site investigation with the United Nations Command"
+  ]
+ },
+ {
+  "name": "ja-nk",
+  "url": "https://www.koreajoongangdaily.com/korea/north-korea-appears-to-build-fence-south-of-mdl-raising-dmz-clash-fears/12912258",
+  "source": "Korea JoongAng Daily, Oct 2026",
+  "find": "North Korea has repeatedly said since the blast",
+  "until": "however small.",
+  "marks": [
+   "hold to the MDL as it defines it",
+   "however small"
+  ]
+ },
+ {
+  "name": "ja-survey",
+  "url": "https://www.koreajoongangdaily.com/korea/north-korea-appears-to-build-fence-south-of-mdl-raising-dmz-clash-fears/12912258",
+  "source": "Korea JoongAng Daily, Oct 2026",
+  "find": "lawmakers at the defense committee",
+  "until": "25th Division on the western front.",
+  "marks": [
+   "first on-site survey in the DMZ"
+  ]
+ },
+ {
+  "name": "sed-three",
+  "url": "https://en.sedaily.com/politics/2026/10/23/seoul-proposes-military-talks-with-north-korea-on-border",
+  "source": "Seoul Economic Daily, Oct 23 2026",
+  "find": "The South Korean military uses the MDL as established on military maps",
+  "until": "discrepancies in MDL recognition arise.",
+  "marks": [
+   "U.S. National Geospatial-Intelligence Agency in 2004",
+   "in 2016",
+   "lines connecting boundary markers"
+  ],
+  "viewport": true
+ },
+ {
+  "name": "sed-propose",
+  "url": "https://en.sedaily.com/politics/2026/10/23/seoul-proposes-military-talks-with-north-korea-on-border",
+  "source": "Seoul Economic Daily, Oct 23 2026",
+  "find": "South Korea's defense ministry has proposed military talks",
+  "until": "restore severed military hotlines.",
+  "marks": [
+   "resolve discrepancies over the Military Demarcation Line"
+  ],
+  "viewport": true
+ },
+ {
+  "name": "sed-second",
+  "url": "https://en.sedaily.com/politics/2026/10/23/seoul-proposes-military-talks-with-north-korea-on-border",
+  "source": "Seoul Economic Daily, Oct 23 2026",
+  "find": "It is the second such offer",
+  "until": "involving North Korean troops.",
+  "marks": [
+   "second such offer"
+  ],
+  "viewport": true
+ },
+ {
+  "name": "sed-clash",
+  "url": "https://en.sedaily.com/politics/2026/10/23/seoul-proposes-military-talks-with-north-korea-on-border",
+  "source": "Seoul Economic Daily, Oct 23 2026",
+  "find": "the situation in which the two sides have differing perceptions",
+  "until": "possibility of accidental clashes.",
+  "marks": [
+   "differing perceptions of some MDL locations",
+   "possibility of accidental clashes"
+  ],
+  "viewport": true
+ },
+ {
+  "name": "sed-blast",
+  "url": "https://en.sedaily.com/politics/2026/10/23/seoul-proposes-military-talks-with-north-korea-on-border",
+  "source": "Seoul Economic Daily, Oct 23 2026",
+  "find": "Citing injuries to South Korean soldiers",
+  "until": "on the 21st of last month",
+  "marks": [
+   "injuries to South Korean soldiers caused by a North Korean landmine blast"
+  ],
+  "viewport": true
+ },
+ {
+  "name": "sed-mines",
+  "url": "https://en.sedaily.com/politics/2026/10/23/seoul-proposes-military-talks-with-north-korea-on-border",
+  "source": "Seoul Economic Daily, Oct 23 2026",
+  "find": "North Korea is estimated to have laid a total of 960,000 landmines",
+  "until": "including those laid by the South Korean military.",
+  "marks": [
+   "960,000 landmines",
+   "about 2 million"
+  ],
+  "viewport": true
+ },
+ {
+  "name": "sed-2024",
+  "url": "https://en.sedaily.com/politics/2026/10/23/seoul-proposes-military-talks-with-north-korea-on-border",
+  "source": "Seoul Economic Daily, Oct 23 2026",
+  "find": "Since April 2024, the North has been laying mines",
+  "until": "tactical roads along the MDL.",
+  "marks": [
+   "Since April 2024"
+  ],
+  "viewport": true
+ },
+ {
+  "name": "sed-shots",
+  "url": "https://en.sedaily.com/politics/2026/10/23/seoul-proposes-military-talks-with-north-korea-on-border",
+  "source": "Seoul Economic Daily, Oct 23 2026",
+  "find": "The South Korean military has continued response measures",
+  "until": "crossing the MDL.",
+  "marks": [
+   "warning broadcasts and warning shots"
+  ],
+  "viewport": true
+ },
+ {
+  "name": "sed-hotline",
+  "url": "https://en.sedaily.com/politics/2026/10/23/seoul-proposes-military-talks-with-north-korea-on-border",
+  "source": "Seoul Economic Daily, Oct 23 2026",
+  "find": "but North Korea cut all of them after April 7, 2023",
+  "until": "held in October 2018.",
+  "marks": [
+   "April 7, 2023",
+   "October 2018"
+  ],
+  "viewport": true
+ }
+]

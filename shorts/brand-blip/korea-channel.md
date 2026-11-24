@@ -21,3 +21,30 @@ New videos most days. Narrated with an AI voice. Not affiliated with any company
 
 - Korea, checked (sn01, sn02, …)
 - AI, checked (bc01 and the GPT-6.2 short)
+
+
+---
+
+# Blip Check — maps and claims (decided 2026-11-24)
+
+Concept change: from Korea news checks to **viral map and border claims, checked** (English, long-form 8+ min, Shorts cut from each).
+Old videos stay public. sn01–sn03 go in the "Korea, checked" playlist. The two AI comparison videos: unlisting is optional (owner's call).
+
+- Name: **Blip Check** (drop "K-"; name changes are rate-limited, so change once)
+- Slogan: **Maps lie. We check.**
+
+## About (paste into YouTube; no links, no emoji, no ampersand)
+
+```
+Maps lie. We check.
+
+Blip takes the map claims everyone repeats, like "Korea is split at the 38th parallel" or "Africa is bigger than it looks", and checks them against real data and real sources. Every number on screen comes with its source. Every episode ends with a verdict.
+
+Borders, sizes, lines and the stories behind them. New long videos every week, with Shorts in between.
+
+Narrated with an AI voice. Map data from Natural Earth. Not affiliated with any company or agency mentioned.
+```
+
+## Playlists
+- Maps, checked (mp01, ...)
+- Korea, checked (sn01, sn02, sn03)

@@ -5,6 +5,7 @@
 //   until  — text where it ends (default: the `find` text itself)
 //   marks  — phrases whose boxes are saved for the lime highlighter
 //   redact — phrases blacked out in the image (personal names)
+//   nth    — which occurrence of `find` to use when the text appears more than once (1 = first)
 // image capture: { name, url, figure: "caption or alt text", source, credit }
 //   saves the article's photo together with its caption and credit line (keep the credit visible on screen)
 // Writes <outDir>/<name>.png at 2x and <outDir>/captures.json with sizes and mark boxes (image px).
@@ -75,7 +76,7 @@ const path = require("path");
       console.log(`${s.name}: figure ${manifest[s.name].w}x${manifest[s.name].h}`);
       continue;
     }
-    const res = await page.evaluate(({ find, until, marks = [], redact = [] }) => {
+    const res = await page.evaluate(({ find, until, marks = [], redact = [], nth = 0 }) => {
       // hide overlays that could cover the text
       for (const el of document.querySelectorAll("body *")) {
         const st = getComputedStyle(el);
@@ -109,9 +110,11 @@ const path = require("path");
         const m = re.exec(all);
         return m ? [m.index, m.index + m[0].length] : null;
       };
-      const a = findIdx(find);
+      let a = findIdx(find);
       if (!a) return { error: "find not found: " + find };
-      if (findIdx(find, a[1])) return { error: "find not unique: " + find };
+      if (nth > 1) {
+        for (let k = 1; k < nth; k++) { a = findIdx(find, a[1]); if (!a) return { error: `find has no occurrence #${nth}: ` + find }; }
+      } else if (findIdx(find, a[1])) return { error: "find not unique (set nth): " + find };
       let endAt;
       if (until) {
         const u = findIdx(until, a[0]);
@@ -170,7 +173,18 @@ const path = require("path");
     }
     const file = path.join(outDir, `${s.name}.png`);
     // document coordinates + fullPage are immune to later scrolling; fall back to the viewport clip
-    try { await page.screenshot({ path: file, clip: res.doc, fullPage: true }); }
+    // viewport: true for pages that fade paragraphs in on scroll (fullPage capture comes out blank there)
+    if (s.viewport) {
+      await page.waitForTimeout(1200);
+      // late popups: hide fixed/sticky layers and dialogs again right before the shot
+      await page.evaluate(() => {
+        for (const el of document.querySelectorAll("body *")) {
+          const st = getComputedStyle(el);
+          if (st.position === "fixed" || st.position === "sticky" || el.getAttribute("role") === "dialog" || el.tagName === "DIALOG") el.style.setProperty("display", "none", "important");
+        }
+      });
+    }
+    try { if (s.viewport) throw new Error("viewport"); await page.screenshot({ path: file, clip: res.doc, fullPage: true }); }
     catch (e) {
       try { await page.screenshot({ path: file, clip: res.clip }); } catch (e2) { console.log(`SKIP ${s.name}: screenshot failed`); continue; }
     }

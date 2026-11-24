@@ -1,0 +1,1067 @@
+{
+ "frus-head": {
+  "w": 1475,
+  "h": 207,
+  "source": "U.S. State Dept., FRUS 1945 vol. VI, doc. 771 (Rusk memo, July 12, 1950)",
+  "marks": {
+   "July 12, 1950": [
+    {
+     "x": 386,
+     "y": 12,
+     "w": 174,
+     "h": 38
+    }
+   ],
+   "Dean Rusk": [
+    {
+     "x": 746,
+     "y": 63,
+     "w": 154,
+     "h": 38
+    }
+   ]
+  }
+ },
+ "frus-sudden": {
+  "w": 1416,
+  "h": 156,
+  "source": "U.S. State Dept., FRUS 1945 vol. VI, doc. 771 (Rusk memo, 1950)",
+  "marks": {
+   "suddenness of the Japanese surrender": [
+    {
+     "x": 75,
+     "y": 12,
+     "w": 544,
+     "h": 38
+    }
+   ]
+  }
+ },
+ "frus-night": {
+  "w": 1458,
+  "h": 156,
+  "source": "U.S. State Dept., FRUS 1945 vol. VI, doc. 771 (Rusk memo, 1950)",
+  "marks": {
+   "in the Pentagon": [
+    {
+     "x": 1362,
+     "y": 12,
+     "w": 84,
+     "h": 38
+    },
+    {
+     "x": 12,
+     "y": 63,
+     "w": 137,
+     "h": 38
+    }
+   ],
+   "lasted throughout most of the night": [
+    {
+     "x": 965,
+     "y": 63,
+     "w": 428,
+     "h": 38
+    },
+    {
+     "x": 12,
+     "y": 114,
+     "w": 78,
+     "h": 38
+    }
+   ]
+  }
+ },
+ "frus-north": {
+  "w": 1479,
+  "h": 258,
+  "source": "U.S. State Dept., FRUS 1945 vol. VI, doc. 771 (Rusk memo, 1950)",
+  "marks": {
+   "as far north as practicable": [
+    {
+     "x": 1144,
+     "y": 63,
+     "w": 206,
+     "h": 38
+    },
+    {
+     "x": 12,
+     "y": 114,
+     "w": 157,
+     "h": 38
+    }
+   ],
+   "scarcity of U.S. forces immediately available": [
+    {
+     "x": 647,
+     "y": 114,
+     "w": 624,
+     "h": 38
+    }
+   ],
+   "before Soviet troops could enter the area": [
+    {
+     "x": 965,
+     "y": 165,
+     "w": 457,
+     "h": 38
+    },
+    {
+     "x": 12,
+     "y": 216,
+     "w": 115,
+     "h": 38
+    }
+   ]
+  }
+ },
+ "frus-room": {
+  "w": 1446,
+  "h": 105,
+  "source": "U.S. State Dept., FRUS 1945 vol. VI, doc. 771 (Rusk memo, 1950)",
+  "marks": {
+   "retire to an adjoining room": [
+    {
+     "x": 504,
+     "y": 63,
+     "w": 387,
+     "h": 38
+    }
+   ]
+  }
+ },
+ "frus-38": {
+  "w": 1467,
+  "h": 156,
+  "source": "U.S. State Dept., FRUS 1945 vol. VI, doc. 771 (Rusk memo, 1950)",
+  "marks": {
+   "further north than could be realistically reached": [
+    {
+     "x": 800,
+     "y": 12,
+     "w": 569,
+     "h": 38
+    },
+    {
+     "x": 12,
+     "y": 63,
+     "w": 113,
+     "h": 38
+    }
+   ],
+   "include the capital of Korea": [
+    {
+     "x": 48,
+     "y": 114,
+     "w": 389,
+     "h": 38
+    }
+   ]
+  }
+ },
+ "frus-surprised": {
+  "w": 1480,
+  "h": 156,
+  "source": "U.S. State Dept., FRUS 1945 vol. VI, doc. 771 (Rusk memo, 1950)",
+  "marks": {
+   "somewhat surprised that the Soviet accepted the 38th parallel": [
+    {
+     "x": 1029,
+     "y": 12,
+     "w": 415,
+     "h": 38
+    },
+    {
+     "x": 12,
+     "y": 63,
+     "w": 464,
+     "h": 38
+    }
+   ]
+  }
+ },
+ "natgeo-aug14": {
+  "w": 1420,
+  "h": 86,
+  "source": "National Geographic, Aug 5 2013 (quoting Rusk's 1991 memoir)",
+  "marks": {
+   "August 14, 1945": [
+    {
+     "x": 282,
+     "y": 12,
+     "w": 212,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "natgeo-map": {
+  "w": 1391,
+  "h": 86,
+  "source": "National Geographic, Aug 5 2013 (quoting Rusk's 1991 memoir)",
+  "marks": {
+   "Using a National Geographic map": [
+    {
+     "x": 739,
+     "y": 12,
+     "w": 437,
+     "h": 34
+    }
+   ],
+   "could not find a natural geographical line": [
+    {
+     "x": 639,
+     "y": 48,
+     "w": 528,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "ency38-proposal": {
+  "w": 1327,
+  "h": 205,
+  "source": "Encyclopedia of Korean Culture (AKS), '38th parallel'",
+  "marks": {
+   "38°선을 기준으로 이남은 미군이, 이북은 소련군이": [
+    {
+     "x": 930,
+     "y": 63,
+     "w": 385,
+     "h": 36
+    },
+    {
+     "x": 12,
+     "y": 114,
+     "w": 187,
+     "h": 36
+    }
+   ],
+   "트루먼 대통령의 재가": [
+    {
+     "x": 1040,
+     "y": 114,
+     "w": 245,
+     "h": 36
+    }
+   ]
+  }
+ },
+ "ency38-earlier": {
+  "w": 1375,
+  "h": 154,
+  "source": "Encyclopedia of Korean Culture (AKS), '38th parallel'",
+  "marks": {
+   "양해 또는 합의했을 가능성": [
+    {
+     "x": 902,
+     "y": 63,
+     "w": 304,
+     "h": 36
+    }
+   ]
+  }
+ },
+ "ency38-go1": {
+  "w": 1339,
+  "h": 103,
+  "source": "Encyclopedia of Korean Culture (AKS), '38th parallel'",
+  "marks": {
+   "1945년 9월 2일": [
+    {
+     "x": 122,
+     "y": 12,
+     "w": 194,
+     "h": 36
+    }
+   ],
+   "일반명령 제1호": [
+    {
+     "x": 878,
+     "y": 12,
+     "w": 174,
+     "h": 36
+    }
+   ]
+  }
+ },
+ "ency38-cut": {
+  "w": 1352,
+  "h": 103,
+  "source": "Encyclopedia of Korean Culture (AKS), '38th parallel'",
+  "marks": {
+   "인원·물자·우편 등의 교류마저 끊어지고": [
+    {
+     "x": 12,
+     "y": 63,
+     "w": 446,
+     "h": 36
+    }
+   ]
+  }
+ },
+ "ency38-1948": {
+  "w": 1346,
+  "h": 154,
+  "source": "Encyclopedia of Korean Culture (AKS), '38th parallel'",
+  "marks": {
+   "1948년 8월 15일": [
+    {
+     "x": 1241,
+     "y": 12,
+     "w": 93,
+     "h": 36
+    },
+    {
+     "x": 12,
+     "y": 63,
+     "w": 107,
+     "h": 36
+    }
+   ]
+  }
+ },
+ "encyar-latin": {
+  "w": 1210,
+  "h": 52,
+  "source": "Encyclopedia of Korean Culture (AKS), 'Armistice'",
+  "marks": {
+   "병기의 휴식": [
+    {
+     "x": 945,
+     "y": 12,
+     "w": 135,
+     "h": 36
+    }
+   ]
+  }
+ },
+ "encyar-unsc": {
+  "w": 1383,
+  "h": 154,
+  "source": "Encyclopedia of Korean Culture (AKS), 'Armistice'",
+  "marks": {
+   "당일": [
+    {
+     "x": 797,
+     "y": 63,
+     "w": 51,
+     "h": 36
+    }
+   ],
+   "38선 이북까지 철수할 것을 요구": [
+    {
+     "x": 12,
+     "y": 114,
+     "w": 373,
+     "h": 36
+    }
+   ],
+   "불응": [
+    {
+     "x": 637,
+     "y": 114,
+     "w": 51,
+     "h": 36
+    }
+   ]
+  }
+ },
+ "encyar-suicide": {
+  "w": 1369,
+  "h": 103,
+  "source": "Encyclopedia of Korean Culture (AKS), 'Armistice'",
+  "marks": {
+   "38선의 정전은 곧 자살행위": [
+    {
+     "x": 1186,
+     "y": 12,
+     "w": 172,
+     "h": 36
+    },
+    {
+     "x": 12,
+     "y": 63,
+     "w": 135,
+     "h": 36
+    }
+   ]
+  }
+ },
+ "encyar-kaesong": {
+  "w": 1372,
+  "h": 103,
+  "source": "Encyclopedia of Korean Culture (AKS), 'Armistice'",
+  "marks": {
+   "38선 이남의 개성": [
+    {
+     "x": 1299,
+     "y": 12,
+     "w": 62,
+     "h": 36
+    },
+    {
+     "x": 12,
+     "y": 63,
+     "w": 135,
+     "h": 36
+    }
+   ]
+  }
+ },
+ "encyar-dmz": {
+  "w": 1362,
+  "h": 103,
+  "source": "Encyclopedia of Korean Culture (AKS), 'Armistice'",
+  "marks": {
+   "판문점": [
+    {
+     "x": 607,
+     "y": 12,
+     "w": 77,
+     "h": 36
+    }
+   ],
+   "실제접촉선으로부터 2㎞씩 떨어진 너비 4㎞의 비무장지대": [
+    {
+     "x": 173,
+     "y": 63,
+     "w": 670,
+     "h": 36
+    }
+   ]
+  }
+ },
+ "encyar-345": {
+  "w": 1358,
+  "h": 103,
+  "source": "Encyclopedia of Korean Culture (AKS), 'Armistice'",
+  "marks": {
+   "200회의 회합과 345시간": [
+    {
+     "x": 851,
+     "y": 12,
+     "w": 301,
+     "h": 36
+    }
+   ]
+  }
+ },
+ "encyar-nnsc": {
+  "w": 1344,
+  "h": 154,
+  "source": "Encyclopedia of Korean Culture (AKS), 'Armistice'",
+  "marks": {
+   "체코슬로바키아를 철수시키고": [
+    {
+     "x": 418,
+     "y": 63,
+     "w": 340,
+     "h": 36
+    }
+   ],
+   "폴란드 대표단마저 강제축출": [
+    {
+     "x": 975,
+     "y": 63,
+     "w": 212,
+     "h": 36
+    },
+    {
+     "x": 12,
+     "y": 114,
+     "w": 103,
+     "h": 36
+    }
+   ]
+  }
+ },
+ "ency-sokcho": {
+  "w": 1341,
+  "h": 52,
+  "source": "Encyclopedia of Korean Culture (AKS), 'Sokcho'",
+  "marks": {
+   "38선 이북": [
+    {
+     "x": 339,
+     "y": 12,
+     "w": 120,
+     "h": 36
+    }
+   ],
+   "1951년 국군이 진주하여 수복": [
+    {
+     "x": 905,
+     "y": 12,
+     "w": 339,
+     "h": 36
+    }
+   ]
+  }
+ },
+ "ency-goseong": {
+  "w": 1289,
+  "h": 154,
+  "source": "Encyclopedia of Korean Culture (AKS), 'Goseong County'",
+  "marks": {
+   "38선 이북이었기 때문에 북한지역": [
+    {
+     "x": 155,
+     "y": 63,
+     "w": 391,
+     "h": 36
+    }
+   ],
+   "1954년 10월 21일": [
+    {
+     "x": 941,
+     "y": 63,
+     "w": 219,
+     "h": 36
+    }
+   ],
+   "수복지구임시행정조치법": [
+    {
+     "x": 18,
+     "y": 114,
+     "w": 282,
+     "h": 36
+    }
+   ]
+  }
+ },
+ "kh-250": {
+  "w": 1421,
+  "h": 122,
+  "source": "The Korea Herald, Nov 2 2026 (column by Lee Kyong-hee)",
+  "marks": {
+   "roughly 250-kilometer Military Demarcation Line": [
+    {
+     "x": 12,
+     "y": 48,
+     "w": 642,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "kh-hand": {
+  "w": 1501,
+  "h": 86,
+  "source": "The Korea Herald, Nov 2 2026 (column by Lee Kyong-hee)",
+  "marks": {
+   "drawn by hand on maps attached to the armistice agreement": [
+    {
+     "x": 864,
+     "y": 12,
+     "w": 626,
+     "h": 34
+    },
+    {
+     "x": 12,
+     "y": 48,
+     "w": 133,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "kh-1973": {
+  "w": 1510,
+  "h": 122,
+  "source": "The Korea Herald, Nov 2 2026 (column by Lee Kyong-hee)",
+  "marks": {
+   "maintained until 1973": [
+    {
+     "x": 288,
+     "y": 48,
+     "w": 281,
+     "h": 34
+    }
+   ],
+   "killed by North Korean gunfire during maintenance work": [
+    {
+     "x": 1022,
+     "y": 48,
+     "w": 398,
+     "h": 34
+    },
+    {
+     "x": 12,
+     "y": 84,
+     "w": 327,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "kh-200": {
+  "w": 1446,
+  "h": 86,
+  "source": "The Korea Herald, Nov 2 2026 (column by Lee Kyong-hee)",
+  "marks": {
+   "only about 200 markers": [
+    {
+     "x": 105,
+     "y": 12,
+     "w": 303,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "kh-ref": {
+  "w": 1456,
+  "h": 86,
+  "source": "The Korea Herald, Nov 2 2026 (column by Lee Kyong-hee)",
+  "marks": {
+   "different combinations of armistice maps, surviving markers and modern geospatial data": [
+    {
+     "x": 1120,
+     "y": 12,
+     "w": 325,
+     "h": 34
+    },
+    {
+     "x": 12,
+     "y": 48,
+     "w": 800,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "kh-1990s": {
+  "w": 1457,
+  "h": 86,
+  "source": "The Korea Herald, Nov 2 2026 (column by Lee Kyong-hee)",
+  "marks": {
+   "weakened by institutional changes in the early 1990s": [
+    {
+     "x": 854,
+     "y": 12,
+     "w": 592,
+     "h": 34
+    },
+    {
+     "x": 12,
+     "y": 48,
+     "w": 76,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "kh-unc": {
+  "w": 1475,
+  "h": 122,
+  "source": "The Korea Herald (UN Command fact sheet)",
+  "marks": {
+   "provided they remain north of the Military Demarcation Line": [
+    {
+     "x": 978,
+     "y": 48,
+     "w": 431,
+     "h": 34
+    },
+    {
+     "x": 12,
+     "y": 84,
+     "w": 345,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "ja-markers": {
+  "w": 1448,
+  "h": 496,
+  "source": "Korea JoongAng Daily",
+  "marks": {
+   "1,292 markers stand at 200-meter intervals": [
+    {
+     "x": 870,
+     "y": 215,
+     "w": 396,
+     "h": 74
+    },
+    {
+     "x": 12,
+     "y": 317,
+     "w": 810,
+     "h": 74
+    }
+   ],
+   "the notional line joining them": [
+    {
+     "x": 1290,
+     "y": 317,
+     "w": 92,
+     "h": 74
+    },
+    {
+     "x": 12,
+     "y": 418,
+     "w": 739,
+     "h": 74
+    }
+   ]
+  }
+ },
+ "ja-fence": {
+  "w": 1443,
+  "h": 496,
+  "source": "Korea JoongAng Daily, Oct 2026",
+  "marks": {
+   "first time a North Korean fence is believed to have crossed the MDL": [
+    {
+     "x": 321,
+     "y": 12,
+     "w": 932,
+     "h": 74
+    },
+    {
+     "x": 12,
+     "y": 114,
+     "w": 939,
+     "h": 74
+    }
+   ],
+   "about 80 meters (262 feet) north of the MDL": [
+    {
+     "x": 12,
+     "y": 418,
+     "w": 1241,
+     "h": 74
+    }
+   ]
+  }
+ },
+ "ja-sequence": {
+  "w": 1423,
+  "h": 395,
+  "source": "Korea JoongAng Daily, Oct 2026",
+  "marks": {
+   "clearing the land, laying mines, putting up triple fences and building tactical roads": [
+    {
+     "x": 12,
+     "y": 215,
+     "w": 1359,
+     "h": 74
+    },
+    {
+     "x": 12,
+     "y": 317,
+     "w": 942,
+     "h": 74
+    }
+   ]
+  }
+ },
+ "ja-daily": {
+  "w": 1446,
+  "h": 496,
+  "source": "Korea JoongAng Daily, Oct 2026 (citing military sources)",
+  "marks": {
+   "cross the MDL almost daily": [
+    {
+     "x": 813,
+     "y": 215,
+     "w": 613,
+     "h": 74
+    },
+    {
+     "x": 12,
+     "y": 317,
+     "w": 138,
+     "h": 74
+    }
+   ]
+  }
+ },
+ "ja-jcs": {
+  "w": 1442,
+  "h": 496,
+  "source": "Korea JoongAng Daily, Oct 2026",
+  "marks": {
+   "joint on-site investigation with the United Nations Command": [
+    {
+     "x": 12,
+     "y": 215,
+     "w": 1418,
+     "h": 74
+    },
+    {
+     "x": 12,
+     "y": 317,
+     "w": 296,
+     "h": 74
+    }
+   ]
+  }
+ },
+ "ja-nk": {
+  "w": 1437,
+  "h": 598,
+  "source": "Korea JoongAng Daily, Oct 2026",
+  "marks": {
+   "hold to the MDL as it defines it": [
+    {
+     "x": 315,
+     "y": 114,
+     "w": 859,
+     "h": 74
+    }
+   ],
+   "however small": [
+    {
+     "x": 1162,
+     "y": 418,
+     "w": 244,
+     "h": 74
+    },
+    {
+     "x": 12,
+     "y": 520,
+     "w": 154,
+     "h": 74
+    }
+   ]
+  }
+ },
+ "ja-survey": {
+  "w": 1438,
+  "h": 598,
+  "source": "Korea JoongAng Daily, Oct 2026",
+  "marks": {
+   "first on-site survey in the DMZ": [
+    {
+     "x": 298,
+     "y": 215,
+     "w": 869,
+     "h": 74
+    }
+   ]
+  }
+ },
+ "sed-three": {
+  "w": 1458,
+  "h": 191,
+  "source": "Seoul Economic Daily, Oct 23 2026",
+  "marks": {
+   "U.S. National Geospatial-Intelligence Agency in 2004": [
+    {
+     "x": 1057,
+     "y": 12,
+     "w": 325,
+     "h": 38
+    },
+    {
+     "x": 12,
+     "y": 58,
+     "w": 360,
+     "h": 38
+    }
+   ],
+   "in 2016": [
+    {
+     "x": 202,
+     "y": 103,
+     "w": 96,
+     "h": 38
+    }
+   ],
+   "lines connecting boundary markers": [
+    {
+     "x": 1097,
+     "y": 103,
+     "w": 349,
+     "h": 38
+    },
+    {
+     "x": 12,
+     "y": 149,
+     "w": 109,
+     "h": 38
+    }
+   ]
+  }
+ },
+ "sed-propose": {
+  "w": 1462,
+  "h": 100,
+  "source": "Seoul Economic Daily, Oct 23 2026",
+  "marks": {
+   "resolve discrepancies over the Military Demarcation Line": [
+    {
+     "x": 1055,
+     "y": 12,
+     "w": 396,
+     "h": 38
+    },
+    {
+     "x": 12,
+     "y": 58,
+     "w": 338,
+     "h": 38
+    }
+   ]
+  }
+ },
+ "sed-second": {
+  "w": 1450,
+  "h": 145,
+  "source": "Seoul Economic Daily, Oct 23 2026",
+  "marks": {
+   "second such offer": [
+    {
+     "x": 117,
+     "y": 12,
+     "w": 229,
+     "h": 38
+    }
+   ]
+  }
+ },
+ "sed-clash": {
+  "w": 1434,
+  "h": 191,
+  "source": "Seoul Economic Daily, Oct 23 2026",
+  "marks": {
+   "differing perceptions of some MDL locations": [
+    {
+     "x": 12,
+     "y": 58,
+     "w": 582,
+     "h": 38
+    }
+   ],
+   "possibility of accidental clashes": [
+    {
+     "x": 1290,
+     "y": 103,
+     "w": 132,
+     "h": 38
+    },
+    {
+     "x": 12,
+     "y": 149,
+     "w": 271,
+     "h": 38
+    }
+   ]
+  }
+ },
+ "sed-blast": {
+  "w": 1422,
+  "h": 54,
+  "source": "Seoul Economic Daily, Oct 23 2026",
+  "marks": {
+   "injuries to South Korean soldiers caused by a North Korean landmine blast": [
+    {
+     "x": 96,
+     "y": 12,
+     "w": 977,
+     "h": 38
+    }
+   ]
+  }
+ },
+ "sed-mines": {
+  "w": 1419,
+  "h": 145,
+  "source": "Seoul Economic Daily, Oct 23 2026",
+  "marks": {
+   "960,000 landmines": [
+    {
+     "x": 261,
+     "y": 58,
+     "w": 248,
+     "h": 38
+    }
+   ],
+   "about 2 million": [
+    {
+     "x": 337,
+     "y": 103,
+     "w": 197,
+     "h": 38
+    }
+   ]
+  }
+ },
+ "sed-2024": {
+  "w": 1406,
+  "h": 100,
+  "source": "Seoul Economic Daily, Oct 23 2026",
+  "marks": {
+   "Since April 2024": [
+    {
+     "x": 916,
+     "y": 12,
+     "w": 209,
+     "h": 38
+    }
+   ]
+  }
+ },
+ "sed-shots": {
+  "w": 1447,
+  "h": 100,
+  "source": "Seoul Economic Daily, Oct 23 2026",
+  "marks": {
+   "warning broadcasts and warning shots": [
+    {
+     "x": 923,
+     "y": 12,
+     "w": 511,
+     "h": 38
+    }
+   ]
+  }
+ },
+ "sed-hotline": {
+  "w": 1439,
+  "h": 145,
+  "source": "Seoul Economic Daily, Oct 23 2026",
+  "marks": {
+   "April 7, 2023": [
+    {
+     "x": 989,
+     "y": 12,
+     "w": 163,
+     "h": 38
+    }
+   ],
+   "October 2018": [
+    {
+     "x": 387,
+     "y": 103,
+     "w": 178,
+     "h": 38
+    }
+   ]
+  }
+ },
+ "encyar-def": {
+  "w": 630,
+  "h": 52,
+  "source": "Encyclopedia of Korean Culture (AKS), 'Armistice'",
+  "marks": {
+   "1953년 7월 27일 22시": [
+    {
+     "x": 155,
+     "y": 12,
+     "w": 275,
+     "h": 36
+    }
+   ]
+  }
+ },
+ "kh-head": {
+  "w": 1469,
+  "h": 162,
+  "source": "The Korea Herald, Nov 2 2026 (column by Lee Kyong-hee)",
+  "marks": {}
+ }
+}
