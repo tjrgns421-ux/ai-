@@ -37,6 +37,7 @@ import { Cm03Full, CM03_FRAMES } from "./curious/Cm03";
 import { CmEp03Thumb } from "./curious/Ep03Thumb";
 import { Cm04Test } from "./curious/Cm04Test";
 import { Cm04Full, CM04_FRAMES } from "./curious/Cm04";
+import { CmEp04Thumb } from "./curious/Ep04Thumb";
 import { Sn02Cover, Sn02Thumb } from "./sn02/Thumb";
 import { Bc01Short, BC01S_DURATION } from "./bc01/Short";
 import { Ci01Full, CI01_FRAMES } from "./ConfidenceInterval/ep01/Ep01";
@@ -76,6 +77,7 @@ export const RemotionRoot: React.FC = () => {
       <Folder name="Sn02">
         <Composition id="Sn02Thumb" component={Sn02Thumb} durationInFrames={1} fps={30} width={1280} height={720} defaultProps={{ v: "B" as const }} />
         <Composition id="Sn02Cover" component={Sn02Cover} durationInFrames={1} fps={30} width={1080} height={1920} />
+        <Composition id="CmEp04Thumb" component={CmEp04Thumb} durationInFrames={1} fps={30} width={1280} height={720} />
         <Composition id="Cm04Full" component={Cm04Full} durationInFrames={CM04_FRAMES} fps={30} width={1920} height={1080} />
         <Composition id="Cm04Test" component={Cm04Test} durationInFrames={40} fps={30} width={1920} height={1080} />
         <Composition id="CmEp03Thumb" component={CmEp03Thumb} durationInFrames={1} fps={30} width={1280} height={720} />
