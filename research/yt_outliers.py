@@ -1,6 +1,6 @@
 """Find overseas YouTube videos that beat their channel's size (outliers), per niche.
 
-python3 research/yt_outliers.py [--days 30] [--niches research/niches.json] [--only korea-explained,history] [--region US] [--swipe 15]
+python3 research/yt_outliers.py [--days 30] [--niches research/niches.json] [--only korea-explained,history] [--region US] [--lang en] [--swipe 15]
 
 Needs network access to www.googleapis.com and a YouTube Data API key. The key is sent in the
 X-Goog-Api-Key header; in this cloud session the network proxy fills it in, so the script sends a
@@ -62,6 +62,7 @@ def main():
     ap.add_argument("--niches", default=str(HERE / "niches.json"))
     ap.add_argument("--only", default="")
     ap.add_argument("--region", default="US")
+    ap.add_argument("--lang", default="en", help="relevanceLanguage for search (e.g. ko)")
     ap.add_argument("--swipe", type=int, default=0, help="uploads per channel to collect for yt-viral (0 = off)")
     a = ap.parse_args()
 
@@ -76,7 +77,7 @@ def main():
             continue
         for kw in n["keywords"]:
             res = get("search", part="snippet", q=kw, type="video", order="viewCount", publishedAfter=after,
-                      maxResults=50, relevanceLanguage="en", regionCode=a.region)
+                      maxResults=50, relevanceLanguage=a.lang, regionCode=a.region)
             for it in res.get("items", []):
                 found.setdefault(it["id"]["videoId"], (niche, n["group"], kw))
             print(f"  {niche:18} {kw!r}: {len(res.get('items', []))} videos", file=sys.stderr)

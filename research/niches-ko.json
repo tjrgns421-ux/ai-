@@ -1,0 +1,7 @@
+{"niches": {
+ "kr-map":      {"group":"ko","keywords":["지도로 보는","만약 한국이","한반도 지도"]},
+ "kr-northkorea":{"group":"ko","keywords":["북한 실태","북한 사람들","북한 말투"]},
+ "kr-whykorea": {"group":"ko","keywords":["한국은 왜","우리나라만","한국인만 모르는"]},
+ "kr-history":  {"group":"ko","keywords":["한국사 쇼츠","역사 지도","조선 역사"]},
+ "kr-factcheck":{"group":"ko","keywords":["팩트체크","이슈 정리","뉴스 해설"]}
+}}
