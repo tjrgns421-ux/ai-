@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>귀여운 이미지 스타일 샘플</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;700;900&family=Gaegu:wght@700&family=Noto+Serif+KR:wght@700&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #ececec; font-family: 'Noto Sans KR', sans-serif; width: 1560px; padding: 40px; }
+  h1 { font-size: 40px; font-weight: 900; letter-spacing: -0.03em; margin-bottom: 30px; }
+  .grid { display: grid; grid-template-columns: repeat(3, 480px); gap: 20px; }
+  .card { background: #fff; border-radius: 20px; overflow: hidden; }
+  .card svg { display: block; width: 480px; height: 480px; }
+  .lab { padding: 20px 24px 24px; }
+  .lab b { font-size: 26px; letter-spacing: -0.02em; }
+  .lab b span { color: #6a5cff; margin-right: 8px; }
+  .lab p { font-size: 18px; color: #666; margin-top: 6px; line-height: 1.5; }
+</style>
+</head>
+<body>
+<h1>같은 장면, 6가지 스타일 — "새벽 1:47, 침대에서 폰 보기"</h1>
+<div class="grid">
+
+<!-- 1 플랫 -->
+<div class="card">
+<svg viewBox="0 0 400 400">
+  <defs><radialGradient id="glow1" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#8fd3ff" stop-opacity=".55"/><stop offset="1" stop-color="#8fd3ff" stop-opacity="0"/></radialGradient></defs>
+  <rect width="400" height="400" fill="#1f2547"/>
+  <circle cx="320" cy="72" r="30" fill="#ffe9a8"/><circle cx="334" cy="62" r="28" fill="#1f2547"/>
+  <g fill="#fff" opacity=".8"><circle cx="70" cy="60" r="2.5"/><circle cx="130" cy="100" r="2"/><circle cx="240" cy="50" r="2.5"/><circle cx="360" cy="150" r="2"/><circle cx="40" cy="170" r="2"/></g>
+  <rect x="30" y="270" width="340" height="90" rx="22" fill="#4b57a8"/>
+  <ellipse cx="120" cy="250" rx="70" ry="26" fill="#e9ecff"/>
+  <circle cx="200" cy="220" r="110" fill="url(#glow1)"/>
+  <circle cx="175" cy="215" r="58" fill="#ffd9c2"/>
+  <path d="M150 212 q8 -5 16 0" stroke="#2b2b2b" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M184 212 q8 -5 16 0" stroke="#2b2b2b" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M150 224 q8 5 16 0 M184 224 q8 5 16 0" stroke="#b89cff" stroke-width="3" fill="none" opacity=".8"/>
+  <ellipse cx="146" cy="238" rx="10" ry="6" fill="#ff9fa8" opacity=".7"/><ellipse cx="206" cy="238" rx="10" ry="6" fill="#ff9fa8" opacity=".7"/>
+  <rect x="55" y="245" width="300" height="115" rx="45" fill="#8fa0ff"/>
+  <rect x="222" y="190" width="46" height="76" rx="9" fill="#23263a"/><rect x="226" y="196" width="38" height="62" rx="5" fill="#9fd4ff"/>
+  <text x="245" y="232" text-anchor="middle" font-size="12" font-weight="700" fill="#23263a" font-family="Noto Sans KR">1:47</text>
+  <circle cx="232" cy="262" r="11" fill="#ffd9c2"/><circle cx="258" cy="262" r="11" fill="#ffd9c2"/>
+</svg>
+<div class="lab"><b><span>01</span>플랫 일러스트</b><p>깔끔한 면과 파스텔 색. 가장 무난하고 카드뉴스에 잘 어울려요.</p></div>
+</div>
+
+<!-- 2 픽셀 -->
+<div class="card">
+<svg viewBox="0 0 400 400" id="pixel"><rect width="400" height="400" fill="#141833"/></svg>
+<div class="lab"><b><span>02</span>픽셀 아트</b><p>8비트 게임 느낌. 레트로 감성이라 20·30대에게 친숙해요.</p></div>
+</div>
+
+<!-- 3 클레이 3D -->
+<div class="card">
+<svg viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d9d4ff"/><stop offset="1" stop-color="#bfb6ff"/></linearGradient>
+    <radialGradient id="body3" cx="35%" cy="30%" r="75%"><stop offset="0" stop-color="#fff1e8"/><stop offset=".55" stop-color="#ffcfb5"/><stop offset="1" stop-color="#f0a888"/></radialGradient>
+    <radialGradient id="blank3" cx="30%" cy="20%" r="90%"><stop offset="0" stop-color="#c8f0ff"/><stop offset="1" stop-color="#6fb7f0"/></radialGradient>
+    <linearGradient id="ph3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5a5f7a"/><stop offset="1" stop-color="#262a3d"/></linearGradient>
+    <filter id="soft3"><feGaussianBlur stdDeviation="8"/></filter>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg3)"/>
+  <ellipse cx="200" cy="350" rx="150" ry="20" fill="#7e72d6" opacity=".35" filter="url(#soft3)"/>
+  <circle cx="190" cy="200" r="78" fill="url(#body3)"/>
+  <ellipse cx="160" cy="198" rx="10" ry="13" fill="#2a2230"/><ellipse cx="208" cy="198" rx="10" ry="13" fill="#2a2230"/>
+  <circle cx="163" cy="193" r="4" fill="#fff"/><circle cx="211" cy="193" r="4" fill="#fff"/>
+  <ellipse cx="146" cy="226" rx="13" ry="8" fill="#ff8fa0" opacity=".55"/><ellipse cx="224" cy="226" rx="13" ry="8" fill="#ff8fa0" opacity=".55"/>
+  <path d="M178 232 q6 5 12 0" stroke="#2a2230" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <rect x="50" y="240" width="300" height="110" rx="55" fill="url(#blank3)"/>
+  <path d="M80 262 q120 -20 240 0" stroke="#fff" stroke-width="6" fill="none" opacity=".5" stroke-linecap="round"/>
+  <g transform="rotate(-8 255 215)"><rect x="232" y="170" width="50" height="82" rx="14" fill="url(#ph3)"/><rect x="238" y="177" width="38" height="66" rx="9" fill="#9fe0ff"/><rect x="242" y="181" width="12" height="40" rx="6" fill="#fff" opacity=".45"/></g>
+  <circle cx="242" cy="252" r="14" fill="url(#body3)"/><circle cx="272" cy="250" r="14" fill="url(#body3)"/>
+  <g font-family="Noto Sans KR" font-weight="900" fill="#fff"><text x="300" y="110" font-size="40" opacity=".9">1:47</text></g>
+</svg>
+<div class="lab"><b><span>03</span>클레이 · 3D 느낌</b><p>말랑한 찰흙 질감. 요즘 가장 트렌디하고 저장을 많이 부르는 스타일이에요.</p></div>
+</div>
+
+<!-- 4 손그림 낙서 -->
+<div class="card">
+<svg viewBox="0 0 400 400">
+  <defs><filter id="rough"><feTurbulence type="fractalNoise" baseFrequency=".035" numOctaves="2" seed="3"/><feDisplacementMap in="SourceGraphic" scale="5"/></filter></defs>
+  <rect width="400" height="400" fill="#fbf8f1"/>
+  <g filter="url(#rough)" stroke="#232323" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M300 50 a34 34 0 1 0 30 50 a28 28 0 1 1 -30 -50z" fill="#ffe27a"/>
+    <path d="M40 270 h320 v80 h-320z" fill="#cfe3ff"/>
+    <circle cx="170" cy="205" r="56" fill="#ffe2d1"/>
+    <path d="M146 200 q8 -6 16 0 M182 200 q8 -6 16 0" fill="none"/>
+    <path d="M144 214 q9 6 18 0 M180 214 q9 6 18 0" fill="none" stroke="#8a7bd6" stroke-width="3"/>
+    <path d="M60 250 q140 -30 290 0 v90 h-290z" fill="#a9c9ff"/>
+    <rect x="220" y="185" width="42" height="70" rx="8" fill="#9fd4ff"/>
+    <circle cx="230" cy="255" r="10" fill="#ffe2d1"/><circle cx="254" cy="255" r="10" fill="#ffe2d1"/>
+  </g>
+  <g fill="#ff8f8f" opacity=".6"><circle cx="140" cy="228" r="8"/><circle cx="200" cy="228" r="8"/></g>
+  <text x="40" y="80" font-family="Gaegu" font-size="44" fill="#232323">새벽 1:47..</text>
+  <text x="240" y="160" font-family="Gaegu" font-size="30" fill="#232323">한 개만 더…</text>
+</svg>
+<div class="lab"><b><span>04</span>손그림 낙서</b><p>삐뚤빼뚤한 선과 손글씨. 일기처럼 친근하고 공감형 콘텐츠에 좋아요.</p></div>
+</div>
+
+<!-- 5 스티커 -->
+<div class="card">
+<svg viewBox="0 0 400 400">
+  <defs><filter id="stk" x="-20%" y="-20%" width="140%" height="140%">
+    <feMorphology in="SourceAlpha" operator="dilate" radius="7" result="d"/>
+    <feFlood flood-color="#fff"/><feComposite in2="d" operator="in" result="outline"/>
+    <feOffset in="d" dx="4" dy="6" result="sh0"/><feFlood flood-color="#000" flood-opacity=".22"/><feComposite in2="sh0" operator="in" result="sh"/>
+    <feMerge><feMergeNode in="sh"/><feMergeNode in="outline"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+  <rect width="400" height="400" fill="#ffd84d"/>
+  <g filter="url(#stk)">
+    <circle cx="175" cy="210" r="80" fill="#ff8a5c"/>
+    <rect x="235" y="170" width="58" height="94" rx="14" fill="#2b2d42"/>
+  </g>
+  <rect x="242" y="179" width="44" height="74" rx="8" fill="#7fe0ff"/>
+  <ellipse cx="148" cy="205" rx="9" ry="12" fill="#2b2d42"/><ellipse cx="192" cy="205" rx="9" ry="12" fill="#2b2d42"/>
+  <circle cx="151" cy="200" r="3.5" fill="#fff"/><circle cx="195" cy="200" r="3.5" fill="#fff"/>
+  <path d="M160 238 q10 -6 20 0" stroke="#2b2d42" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <ellipse cx="128" cy="230" rx="12" ry="7" fill="#ff5c7a" opacity=".6"/><ellipse cx="214" cy="230" rx="12" ry="7" fill="#ff5c7a" opacity=".6"/>
+  <g filter="url(#stk)"><rect x="40" y="60" width="150" height="62" rx="31" fill="#6a5cff"/></g>
+  <text x="115" y="102" text-anchor="middle" font-family="Noto Sans KR" font-weight="900" font-size="32" fill="#fff">1:47 AM</text>
+  <g filter="url(#stk)"><path d="M300 300 l14 -30 l14 30 l-28 -18 h28z" fill="#fff36b"/></g>
+</svg>
+<div class="lab"><b><span>05</span>스티커</b><p>흰 테두리와 쨍한 색. 눈에 확 띄어서 표지나 훅 장에 강해요.</p></div>
+</div>
+
+<!-- 6 라인 일러스트 -->
+<div class="card">
+<svg viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#f3eee4"/>
+  <circle cx="300" cy="95" r="34" fill="#d8b56a"/>
+  <g stroke="#1c1c1c" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M40 300 h320 M60 300 v40 M340 300 v40"/>
+    <circle cx="170" cy="215" r="50"/>
+    <path d="M150 212 q7 -4 14 0 M180 212 q7 -4 14 0"/>
+    <path d="M60 300 q0 -55 60 -60 h170 q50 0 50 60"/>
+    <rect x="222" y="190" width="38" height="62" rx="7"/>
+    <path d="M232 240 h18"/>
+  </g>
+  <path d="M226 196 h30 v40 h-30z" fill="#d8b56a" opacity=".35"/>
+  <text x="40" y="370" font-family="Noto Serif KR" font-weight="700" font-size="22" fill="#1c1c1c">01:47 — 99%의 밤</text>
+</svg>
+<div class="lab"><b><span>06</span>미니멀 라인</b><p>선 하나와 포인트 색 하나. 고급스럽고 명화·상위 1% 톤과 가장 잘 맞아요.</p></div>
+</div>
+
+</div>
+<script>
+  const map = [
+    "..................mm",
+    ".................mmm",
+    "..................m.",
+    "......kkkkkk........",
+    ".....kssssssk.......",
+    "....kssssssssk......",
+    "....kskksskksk.pppp.",
+    "....kssssssssk.pggp.",
+    "....krssssssrk.pggp.",
+    "....ksssskksssspggp.",
+    ".....kssssssk..pppp.",
+    "..kkkkkkkkkkkkkkkkk.",
+    "..kbbbbbbbbbbbbbbbk.",
+    "..kbbwbbbbbbbwbbbbk.",
+    "..kbbbbbbbbbbbbbbbk.",
+    "..kkkkkkkkkkkkkkkkk."
+  ];
+  const pal = { k:'#0b0c1c', s:'#ffd2b0', b:'#5b6cff', p:'#2a2d44', g:'#7fe0ff', r:'#ff7d9a', m:'#ffe27a', w:'#8f9cff' };
+  const svg = document.getElementById('pixel'); const px = 18, ox = 20, oy = 60;
+  const ns = 'http://www.w3.org/2000/svg';
+  [[60,40],[300,120],[90,330],[340,300],[200,30]].forEach(([x,y])=>{const r=document.createElementNS(ns,'rect');r.setAttribute('x',x);r.setAttribute('y',y);r.setAttribute('width',6);r.setAttribute('height',6);r.setAttribute('fill','#fff');svg.appendChild(r);});
+  const glow=document.createElementNS(ns,'rect');glow.setAttribute('x',ox+11*px);glow.setAttribute('y',oy+5*px);glow.setAttribute('width',9*px);glow.setAttribute('height',7*px);glow.setAttribute('fill','#7fe0ff');glow.setAttribute('opacity','.18');svg.appendChild(glow);
+  map.forEach((row,y)=>[...row].forEach((c,x)=>{ if(c==='.')return; const r=document.createElementNS(ns,'rect'); r.setAttribute('x',ox+x*px); r.setAttribute('y',oy+y*px); r.setAttribute('width',px); r.setAttribute('height',px); r.setAttribute('fill',pal[c]); svg.appendChild(r); }));
+  const t=document.createElementNS(ns,'text');t.setAttribute('x',200);t.setAttribute('y',380);t.setAttribute('text-anchor','middle');t.setAttribute('font-family','monospace');t.setAttribute('font-size','30');t.setAttribute('font-weight','700');t.setAttribute('fill','#7fe0ff');t.textContent='01:47 AM';svg.appendChild(t);
+</script>
+</body>
+</html>
