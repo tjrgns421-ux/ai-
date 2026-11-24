@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>1% vs 99%의 밤</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #222; font-family: 'Noto Sans KR', sans-serif; }
+  .slide { width: 1080px; height: 1350px; position: relative; overflow: hidden; background: #0b0b0c; margin-bottom: 40px; color: #fff; }
+  .slide > img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; filter: saturate(.72) contrast(1.05) brightness(.92); }
+  .shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,0) 44%, rgba(0,0,0,.58) 70%, rgba(0,0,0,.86) 100%); }
+  .grain { position: absolute; inset: 0; opacity: .08; pointer-events: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); mix-blend-mode: overlay; }
+  .text { position: absolute; left: 44px; right: 60px; bottom: 150px; }
+  .title { font-weight: 800; font-size: 66px; line-height: 1.38; letter-spacing: -0.035em; text-shadow: 0 2px 18px rgba(0,0,0,.45); }
+  .note { margin-top: 22px; font-size: 30px; font-weight: 500; line-height: 1.5; letter-spacing: -0.02em; color: rgba(255,255,255,.78); }
+  .foot { position: absolute; left: 44px; right: 44px; bottom: 52px; display: flex; justify-content: space-between; font-size: 24px; font-weight: 700; letter-spacing: -0.01em; z-index: 5; }
+  .foot .s { color: rgba(255,255,255,.6); font-weight: 500; }
+  .foot .s b { color: #fff; margin-right: 12px; }
+
+  /* A/B split */
+  .half { position: absolute; left: 0; right: 0; height: 675px; overflow: hidden; }
+  .half.a { top: 0; }
+  .half.b { top: 675px; }
+  .half img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  .half.a img { filter: saturate(.25) brightness(.62) contrast(1.05); }
+  .half.b img { filter: saturate(.85) brightness(.95) contrast(1.05); }
+  .half .hs { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,0) 30%, rgba(0,0,0,.78) 100%); }
+  .half.a .hs { background: linear-gradient(180deg, rgba(0,0,0,.45) 0%, rgba(0,0,0,0) 30%, rgba(0,0,0,.8) 100%); }
+  .half .box { position: absolute; left: 44px; right: 60px; bottom: 48px; display: flex; flex-direction: column; align-items: flex-start; gap: 18px; }
+  .half.b .box { bottom: 116px; }
+  .half .lab { font-size: 26px; font-weight: 800; letter-spacing: .06em; padding: 8px 18px; }
+  .half.a .lab { background: rgba(255,255,255,.14); color: rgba(255,255,255,.8); border: 1px solid rgba(255,255,255,.35); }
+  .half.b .lab { background: #fff; color: #111; }
+  .half .t { font-size: 56px; font-weight: 800; line-height: 1.3; letter-spacing: -0.035em; text-shadow: 0 2px 18px rgba(0,0,0,.5); }
+  .half.a .t { color: rgba(255,255,255,.78); }
+  .eyebrow { position: absolute; top: 52px; left: 44px; font-size: 26px; font-weight: 800; letter-spacing: .04em; color: #fff; z-index: 4; }
+  .eyebrow span { color: rgba(255,255,255,.6); font-weight: 500; margin-left: 10px; letter-spacing: -0.01em; }
+  .divider { position: absolute; left: 0; right: 0; top: 674px; height: 2px; background: rgba(255,255,255,.85); z-index: 3; }
+  .half.b .fn { position: absolute; left: 44px; right: 44px; bottom: 98px; display: none; }
+
+  /* 흰 종이 장 */
+  .paper { background: #f7f6f3; color: #111; }
+  .paper .inner { position: absolute; left: 64px; right: 64px; top: 120px; }
+  .paper .kick { font-size: 26px; font-weight: 800; letter-spacing: .08em; color: #888; }
+  .paper h2 { font-size: 60px; font-weight: 800; letter-spacing: -0.035em; line-height: 1.3; margin-top: 18px; }
+  .paper table { width: 100%; border-collapse: collapse; margin-top: 56px; }
+  .paper th { text-align: left; font-size: 26px; font-weight: 800; letter-spacing: .06em; padding: 0 0 18px; border-bottom: 2px solid #111; }
+  .paper th.lo { color: #999; }
+  .paper td { font-size: 33px; line-height: 1.4; padding: 26px 0; border-bottom: 1px solid #ddd; vertical-align: top; letter-spacing: -0.025em; }
+  .paper td.lo { color: #999; width: 46%; padding-right: 24px; text-decoration: line-through; text-decoration-color: rgba(0,0,0,.25); }
+  .paper td.hi { font-weight: 700; }
+  .paper .src { margin-top: 48px; display: grid; gap: 34px; }
+  .paper .src p { font-size: 32px; line-height: 1.5; font-weight: 700; letter-spacing: -0.025em; }
+  .paper .src p span { display: block; font-size: 26px; font-weight: 400; color: #666; margin-top: 4px; }
+  .paper .foot .s { color: #888; }
+  .paper .foot .s b { color: #111; }
+  .paper .foot { color: #111; }
+</style>
+</head>
+<body>
+
+<!-- 1 표지 -->
+<section class="slide">
+  <img src="img/starry.jpg" style="object-position: 30% 50%;">
+  <div class="shade"></div><div class="grain"></div>
+  <div class="text">
+    <div class="title">상위 1%와 99%는<br>밤부터 다르다.</div>
+    <div class="note">연구로 확인한 4가지 차이</div>
+  </div>
+  <div class="foot"><span class="s"><b>1</b>1% vs 99%의 밤</span><span>상위1%</span></div>
+</section>
+
+<!-- 2 화면 -->
+<section class="slide">
+  <div class="eyebrow">01<span>잠들기 전</span></div>
+  <div class="half a"><img src="../02-sleep-study-art/img/04-nightcafe.jpg" style="object-position: 45% 40%;"><div class="hs"></div>
+    <div class="box"><div class="lab">99%</div><div class="t">침대에서 릴스 보다<br>잠든다</div></div></div>
+  <div class="half b"><img src="img/gypsy.jpg" style="object-position: 40% 50%;"><div class="hs"></div>
+    <div class="box"><div class="lab">TOP 1%</div><div class="t">잠들기 전,<br>화면부터 끈다</div></div></div>
+  <div class="divider"></div><div class="grain"></div>
+  <div class="foot"><span class="s"><b>2</b>잘 자게 된 학생들은 밤 화면 사용도 줄었다</span><span>상위1%</span></div>
+</section>
+
+<!-- 3 공부 시간대 -->
+<section class="slide">
+  <div class="eyebrow">02<span>공부하는 시간</span></div>
+  <div class="half a"><img src="../02-sleep-study-art/img/02-orrery.jpg" style="object-position: 30% 45%;"><div class="hs"></div>
+    <div class="box"><div class="lab">99%</div><div class="t">새벽 1시까지<br>버티며 공부한다</div></div></div>
+  <div class="half b"><img src="img/milkmaid.jpg" style="object-position: 50% 30%;"><div class="hs"></div>
+    <div class="box"><div class="lab">TOP 1%</div><div class="t">같은 공부를<br>아침에 한다</div></div></div>
+  <div class="divider"></div><div class="grain"></div>
+  <div class="foot"><span class="s"><b>3</b>공부 시간은 같았지만, 아침으로 옮긴 학생들의 학점이 올랐다</span><span>상위1%</span></div>
+</section>
+
+<!-- 4 리듬 -->
+<section class="slide">
+  <div class="eyebrow">03<span>잠드는 시간</span></div>
+  <div class="half a"><img src="../02-sleep-study-art/img/05-flamingjune.jpg" style="object-position: 50% 45%;"><div class="hs"></div>
+    <div class="box"><div class="lab">99%</div><div class="t">평일엔 줄이고<br>주말에 몰아 잔다</div></div></div>
+  <div class="half b"><img src="../02-sleep-study-art/img/08-bedroom.jpg" style="object-position: 60% 50%;"><div class="hs"></div>
+    <div class="box"><div class="lab">TOP 1%</div><div class="t">매일 비슷한 시간에<br>잠든다</div></div></div>
+  <div class="divider"></div><div class="grain"></div>
+  <div class="foot"><span class="s"><b>4</b>리듬이 불규칙한 유형은 치매 위험이 더 높았다 (60세 이상 관찰 연구)</span><span>상위1%</span></div>
+</section>
+
+<!-- 5 운동 -->
+<section class="slide">
+  <div class="eyebrow">04<span>움직이는 방식</span></div>
+  <div class="half a"><img src="img/jatte.jpg" style="object-position: 55% 55%;"><div class="hs"></div>
+    <div class="box"><div class="lab">99%</div><div class="t">운동은 주말에<br>한 번 몰아서</div></div></div>
+  <div class="half b"><img src="../02-sleep-study-art/img/10-wanderer.jpg" style="object-position: 50% 32%;"><div class="hs"></div>
+    <div class="box"><div class="lab">TOP 1%</div><div class="t">매일 10분이라도<br>움직인다</div></div></div>
+  <div class="divider"></div><div class="grain"></div>
+  <div class="foot"><span class="s"><b>5</b>매일 10분의 운동도 더 깊은 잠과 연관이 있었다</span><span>상위1%</span></div>
+</section>
+
+<!-- 6 요약 -->
+<section class="slide paper">
+  <div class="inner">
+    <div class="kick">SAVE THIS</div>
+    <h2>오늘 밤,<br>나는 어느 쪽일까?</h2>
+    <table>
+      <tr><th class="lo">99%</th><th>TOP 1%</th></tr>
+      <tr><td class="lo">침대에서 릴스 보다 잠든다</td><td class="hi">잠들기 전, 화면부터 끈다</td></tr>
+      <tr><td class="lo">새벽까지 버티며 공부한다</td><td class="hi">같은 공부를 아침에 한다</td></tr>
+      <tr><td class="lo">주말에 몰아 잔다</td><td class="hi">매일 비슷한 시간에 잔다</td></tr>
+      <tr><td class="lo">운동은 주말에 몰아서</td><td class="hi">매일 10분이라도 움직인다</td></tr>
+      <tr><td class="lo">기상 알람만 맞춘다</td><td class="hi">취침 알람도 맞춘다</td></tr>
+    </table>
+  </div>
+  <div class="foot"><span class="s"><b>6</b>1% vs 99%의 밤</span><span>상위1%</span></div>
+</section>
+
+<!-- 7 근거 -->
+<section class="slide paper">
+  <div class="inner">
+    <div class="kick">SOURCES</div>
+    <h2>이 비교의 근거</h2>
+    <div class="src">
+      <p>화면 · 공부 시간대 · 취침 알람<span>미국 대학생 1,100여 명 수면 보상 실험<br>Journal of Political Economy (2026)</span></p>
+      <p>잠드는 시간의 규칙성<span>60세 이상 3,973명 12년 추적 관찰 연구<br>JAMA Network Open (2026.11)</span></p>
+      <p>매일 10분의 운동<span>웨어러블 데이터 분석, 미국 UT 오스틴 (2026.10)</span></p>
+      <p>※ 대부분 관찰 연구라 '원인'이 아닌 '연관'을 보여줍니다.<span>대상과 조건이 달라 모두에게 같은 효과를 보장하지 않습니다.</span></p>
+    </div>
+  </div>
+  <div class="foot"><span class="s"><b>7</b>1% vs 99%의 밤</span><span>상위1%</span></div>
+</section>
+
+<!-- 8 CTA -->
+<section class="slide">
+  <img src="../02-sleep-study-art/img/09-rembrandt.jpg" style="object-position: 40% 50%;">
+  <div class="shade"></div><div class="grain"></div>
+  <div class="text">
+    <div class="title">당신의 밤은<br>어느 쪽에 가까운가요?</div>
+    <div class="note">댓글로 '1%' 또는 '99%'를 남겨주세요.<br>밤새우는 친구에게 공유해도 좋아요.</div>
+  </div>
+  <div class="foot"><span class="s"><b>8</b>1% vs 99%의 밤</span><span>상위1%</span></div>
+</section>
+
+</body>
+</html>
