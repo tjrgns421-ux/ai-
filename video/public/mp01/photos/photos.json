@@ -1,0 +1,246 @@
+{
+ "clark": {
+  "file": "File:General_Clark_signs_the_Korean_Armistice_Agreement.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:General_Clark_signs_the_Korean_Armistice_Agreement.jpg",
+  "src": "clark.jpg",
+  "license": [
+   "Public domain"
+  ],
+  "author": "U.S. Navy",
+  "source": "http://www.dodlive.mil/index.php/2013/07/worth-a-thousand-words-korean-war-armistice-anniversary/",
+  "date": "27 July 1953",
+  "pd": true,
+  "w": 600,
+  "h": 472
+ },
+ "rusk": {
+  "file": "File:Dean_Rusk.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Dean_Rusk.jpg",
+  "src": "rusk.jpg",
+  "license": [
+   "Public domain",
+   "PDM"
+  ],
+  "author": "U.S. Department of State",
+  "source": "Dean Rusk, U.S. Secretary of State",
+  "date": "",
+  "pd": true,
+  "w": 760,
+  "h": 1005
+ },
+ "sign3rar": {
+  "file": "File:3RAR_soldiers_read_sign_at_the_DMZ_three_days_after_the_ceasefire.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:3RAR_soldiers_read_sign_at_the_DMZ_three_days_after_the_ceasefire.jpg",
+  "src": "sign3rar.jpg",
+  "license": [
+   "Public domain"
+  ],
+  "author": "Hobson, Phillip Oliver",
+  "source": "https://www.awm.gov.au/collection/C329134",
+  "date": "30 July 1953",
+  "pd": true,
+  "w": 635,
+  "h": 654
+ },
+ "war1950": {
+  "file": "File:Korean_War_Begins_(6365935).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Korean_War_Begins_(6365935).jpg",
+  "src": "war1950.jpg",
+  "license": [
+   "Public domain"
+  ],
+  "author": "Airman 1st Class Kevin Long",
+  "source": "This image was released by the United States Air Force with the ID 200925-F-GK113-001 (next). This tag does not indicate the copyright status of the attached work. A normal copyright tag is still requ",
+  "date": "Taken on 25 September 2020",
+  "pd": true,
+  "w": 1350,
+  "h": 1080
+ },
+ "night": {
+  "file": "File:Korean_Peninsula_at_night_20240124_132602_GMT_Iss-070e080670.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Korean_Peninsula_at_night_20240124_132602_GMT_Iss-070e080670.jpg",
+  "src": "night.jpg",
+  "license": [
+   "Public domain"
+  ],
+  "author": "NASA",
+  "source": "https://earthobservatory.nasa.gov/images/153325/the-korean-peninsula-at-night",
+  "date": "24 January 2024, 13:26:02 GMT (UTC±0)",
+  "pd": true,
+  "w": 1920,
+  "h": 2400
+ },
+ "modis": {
+  "file": "File:Korean_Peninsula_(MODIS_2026-05-08).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Korean_Peninsula_(MODIS_2026-05-08).jpg",
+  "src": "modis.jpg",
+  "license": [
+   "Public domain"
+  ],
+  "author": "MODIS Land Rapid Response Team, NASA GSFC",
+  "source": "Korean Peninsula (direct link) This image or video was catalogued by Goddard Space Flight Center of the United States National Aeronautics and Space Administration (NASA) under Photo ID: 2026-05-08. T",
+  "date": "Taken on 5 May 2026",
+  "pd": true,
+  "w": 1920,
+  "h": 1496
+ },
+ "armap13": {
+  "file": "File:Korean_Armistice_Agreement_Volume_2_Maps_1953_(Page_13).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Korean_Armistice_Agreement_Volume_2_Maps_1953_(Page_13).jpg",
+  "src": "armap13.jpg",
+  "license": [
+   "Public domain",
+   "PDM"
+  ],
+  "author": "Department of Defense. Joint Chiefs of Staff.",
+  "source": "U.S. National Archives and Records Administration",
+  "date": "27 July 1953",
+  "pd": true,
+  "w": 1920,
+  "h": 2382
+ },
+ "armap17": {
+  "file": "File:Korean_Armistice_Agreement_Volume_2_Maps_1953_(Page_17).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Korean_Armistice_Agreement_Volume_2_Maps_1953_(Page_17).jpg",
+  "src": "armap17.jpg",
+  "license": [
+   "Public domain",
+   "PDM"
+  ],
+  "author": "Department of Defense. Joint Chiefs of Staff.",
+  "source": "U.S. National Archives and Records Administration",
+  "date": "27 July 1953",
+  "pd": true,
+  "w": 1920,
+  "h": 886
+ },
+ "signing": {
+  "file": "File:Korean_War_Armistice_Signing,_27_July_1953_(19864802878).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Korean_War_Armistice_Signing,_27_July_1953_(19864802878).jpg",
+  "src": "signing.jpg",
+  "license": [
+   "CC BY 2.0"
+  ],
+  "author": "USMC Archives from Quantico, USA",
+  "source": "Korean War Armistice Signing, 27 July 1953",
+  "date": "27 July 1953",
+  "pd": false,
+  "w": 1920,
+  "h": 1540
+ },
+ "marker1": {
+  "file": "File:Military_Demarcation_Line_Marker_(9252172).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Military_Demarcation_Line_Marker_(9252172).jpg",
+  "src": "marker1.jpg",
+  "license": [
+   "Public domain",
+   "PDM"
+  ],
+  "author": "Lt.Cmdr. Brendan Trembath",
+  "source": "This image was released by the United States Navy with the ID 250812-N-YQ363-1366 (next). This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required",
+  "date": "Taken on 12 August 2025",
+  "pd": true,
+  "w": 1920,
+  "h": 1441
+ },
+ "marker2": {
+  "file": "File:Military_Demarcation_Line_Marker_(9262298).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Military_Demarcation_Line_Marker_(9262298).jpg",
+  "src": "marker2.jpg",
+  "license": [
+   "Public domain",
+   "PDM"
+  ],
+  "author": "Lt.Cmdr. Brendan Trembath",
+  "source": "This image was released by the United States Navy with the ID 250818-N-YQ363-9873 (next). This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required",
+  "date": "Taken on 18 August 2025",
+  "pd": true,
+  "w": 1920,
+  "h": 1441
+ },
+ "jsa": {
+  "file": "File:Swedish_Delegation_Visits_the_Joint_Security_Area_at_Panmunjom_(9365369).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Swedish_Delegation_Visits_the_Joint_Security_Area_at_Panmunjom_(9365369).jpg",
+  "src": "jsa.jpg",
+  "license": [
+   "Public domain"
+  ],
+  "author": "U.S. Army photo by Cpl. Joseph Liggio",
+  "source": "This image was released by the United States Army with the ID 251015-A-EL715-1434 (next). This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required",
+  "date": "Taken on 14 October 2025",
+  "pd": true,
+  "w": 1920,
+  "h": 1281
+ },
+ "bonesteel": {
+  "file": "File:GEN_Bonesteel,_Charles_H_III.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:GEN_Bonesteel,_Charles_H_III.jpg",
+  "src": "bonesteel.jpg",
+  "license": [
+   "Public domain"
+  ],
+  "author": "US Army",
+  "source": "http://usarmy.vo.llnwd.net/e2/-images/2010/09/26/86653/size0-army.mil-86653-2010-09-24-150957.jpg",
+  "date": "Unknown date",
+  "pd": true,
+  "w": 1920,
+  "h": 2395
+ },
+ "fence1968": {
+  "file": "File:DMZ_south_boundary_fence,_August_1968.png",
+  "page": "https://commons.wikimedia.org/wiki/File:DMZ_south_boundary_fence,_August_1968.png",
+  "src": "fence1968.png",
+  "license": [
+   "Public domain",
+   "PDM"
+  ],
+  "author": "Office of History, Headquarters, U.S. Army Corps of Engineers USACE LNO trip slides Vietnam 12.7",
+  "source": "https://cdm16021.contentdm.oclc.org/digital/collection/p15141coll5/id/7207/rec/820",
+  "date": "14 August 1968",
+  "pd": true,
+  "w": 1920,
+  "h": 1325
+ },
+ "sokcho": {
+  "file": "File:Sokcho,_Sokcho_Beach.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Sokcho,_Sokcho_Beach.jpg",
+  "src": "sokcho.jpg",
+  "license": [
+   "CC BY-SA 4.0"
+  ],
+  "author": "Dr. Thomas Liptak",
+  "source": "Own work",
+  "date": "Taken on 1 October 2026, 16:54:08",
+  "pd": false,
+  "w": 1920,
+  "h": 1280
+ },
+ "kaesong": {
+  "file": "File:Kaesong_city_-_03_-_Panorama.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Kaesong_city_-_03_-_Panorama.jpg",
+  "src": "kaesong.jpg",
+  "license": [
+   "CC BY-SA 4.0"
+  ],
+  "author": "Jan Engelhardt",
+  "source": "https://inai.de/images/2019_kaesong/",
+  "date": "14 July 2019, 12:58:00",
+  "pd": false,
+  "w": 1920,
+  "h": 1080
+ },
+ "sign38": {
+  "file": "File:SC_350355_FEC-50-9961_-_29_September_1950_(52564939535).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:SC_350355_FEC-50-9961_-_29_September_1950_(52564939535).jpg",
+  "src": "sign38.jpg",
+  "license": [
+   "Public domain"
+  ],
+  "author": "Faces of ROK: Korean War Photographs",
+  "source": "SC 350355 / FEC-50-9961 - 29 September 1950",
+  "date": "29 September 1950, 00:00",
+  "pd": true,
+  "w": 1920,
+  "h": 1565
+ }
+}

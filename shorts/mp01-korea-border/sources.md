@@ -36,3 +36,22 @@
 ## 아직 없는 것
 - 서해 북방한계선(NLL): 허용 사이트에서 기사 원문을 찾지 못함 → 이번 회차에서는 제외하거나 짧게
 - Korea Times 기사들: 사이트가 자동 접속을 막음
+
+## 사진 (Wikimedia Commons, 화면 왼쪽 위에 촬영자·라이선스 표시)
+
+| 이름 | 파일 | 촬영/제공 | 라이선스 |
+|---|---|---|---|
+| sign38 | SC_350355_FEC-50-9961_-_29_September_1950_(52564939535).jpg | Faces of ROK: Korean War Photographs | Public domain |
+| modis | Korean_Peninsula_(MODIS_2026-05-08).jpg | MODIS Land Rapid Response Team, NASA GSFC | Public domain |
+| rusk | Dean_Rusk.jpg | U.S. Department of State | Public domain |
+| bonesteel | GEN_Bonesteel,_Charles_H_III.jpg | US Army | Public domain |
+| fence1968 | DMZ_south_boundary_fence,_August_1968.png | Office of History, Headquarters, U.S. Army Corps of Engineers USACE LNO trip sli | Public domain |
+| kaesong | Kaesong_city_-_03_-_Panorama.jpg | Jan Engelhardt | CC BY-SA 4.0 |
+| jsa | Swedish_Delegation_Visits_the_Joint_Security_Area_at_Panmunjom_(9365369).jpg | U.S. Army photo by Cpl. Joseph Liggio | Public domain |
+| signing | Korean_War_Armistice_Signing,_27_July_1953_(19864802878).jpg | USMC Archives from Quantico, USA | CC BY 2.0 |
+| sokcho | Sokcho,_Sokcho_Beach.jpg | Dr. Thomas Liptak | CC BY-SA 4.0 |
+| armap13 | Korean_Armistice_Agreement_Volume_2_Maps_1953_(Page_13).jpg | Department of Defense. Joint Chiefs of Staff. | Public domain |
+| marker1 | Military_Demarcation_Line_Marker_(9252172).jpg | Lt.Cmdr. Brendan Trembath | Public domain |
+| marker2 | Military_Demarcation_Line_Marker_(9262298).jpg | Lt.Cmdr. Brendan Trembath | Public domain |
+
+지도: Natural Earth 1:10m (퍼블릭 도메인). 38선·군사분계선 위치는 근사치. '세 가지 선', '전선 이동', '철책' 그림은 설명용 그림(illustration)으로 화면에 표시.

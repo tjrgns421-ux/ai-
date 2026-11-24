@@ -1,0 +1,7727 @@
+[
+ {
+  "text": "You",
+  "start": 0.05,
+  "end": 0.119
+ },
+ {
+  "text": "think",
+  "start": 0.119,
+  "end": 0.281
+ },
+ {
+  "text": "Korea",
+  "start": 0.293,
+  "end": 0.709
+ },
+ {
+  "text": "is",
+  "start": 0.721,
+  "end": 0.837
+ },
+ {
+  "text": "split",
+  "start": 0.848,
+  "end": 1.381
+ },
+ {
+  "text": "at",
+  "start": 1.501,
+  "end": 1.571
+ },
+ {
+  "text": "the",
+  "start": 1.571,
+  "end": 1.64
+ },
+ {
+  "text": "38th",
+  "start": 1.64,
+  "end": 2.254
+ },
+ {
+  "text": "parallel",
+  "start": 2.254,
+  "end": 2.809
+ },
+ {
+  "text": "It",
+  "start": 2.929,
+  "end": 2.998
+ },
+ {
+  "text": "isn't",
+  "start": 2.998,
+  "end": 3.334
+ },
+ {
+  "text": "In 2026",
+  "start": 3.454,
+  "end": 4.542
+ },
+ {
+  "text": "its",
+  "start": 4.662,
+  "end": 4.766
+ },
+ {
+  "text": "border",
+  "start": 4.766,
+  "end": 5.079
+ },
+ {
+  "text": "has",
+  "start": 5.091,
+  "end": 5.322
+ },
+ {
+  "text": "3",
+  "start": 5.334,
+  "end": 5.785
+ },
+ {
+  "text": "versions",
+  "start": 5.785,
+  "end": 6.468
+ },
+ {
+  "text": "and",
+  "start": 6.588,
+  "end": 6.727
+ },
+ {
+  "text": "Seoul",
+  "start": 6.739,
+  "end": 7.028
+ },
+ {
+  "text": "calls",
+  "start": 7.04,
+  "end": 7.306
+ },
+ {
+  "text": "that",
+  "start": 7.306,
+  "end": 7.398
+ },
+ {
+  "text": "a",
+  "start": 7.399,
+  "end": 7.433
+ },
+ {
+  "text": "risk",
+  "start": 7.433,
+  "end": 7.931
+ },
+ {
+  "text": "But",
+  "start": 8.051,
+  "end": 8.12
+ },
+ {
+  "text": "why",
+  "start": 8.132,
+  "end": 8.444
+ },
+ {
+  "text": "Here's",
+  "start": 8.614,
+  "end": 8.765
+ },
+ {
+  "text": "the",
+  "start": 8.765,
+  "end": 8.846
+ },
+ {
+  "text": "strange",
+  "start": 8.857,
+  "end": 9.193
+ },
+ {
+  "text": "part",
+  "start": 9.193,
+  "end": 9.54
+ },
+ {
+  "text": "If",
+  "start": 9.66,
+  "end": 9.741
+ },
+ {
+  "text": "you",
+  "start": 9.753,
+  "end": 9.811
+ },
+ {
+  "text": "stood",
+  "start": 9.811,
+  "end": 10.019
+ },
+ {
+  "text": "on",
+  "start": 10.019,
+  "end": 10.089
+ },
+ {
+  "text": "the",
+  "start": 10.089,
+  "end": 10.147
+ },
+ {
+  "text": "38th",
+  "start": 10.147,
+  "end": 10.737
+ },
+ {
+  "text": "parallel",
+  "start": 10.737,
+  "end": 11.177
+ },
+ {
+  "text": "today",
+  "start": 11.188,
+  "end": 11.617
+ },
+ {
+  "text": "in",
+  "start": 11.737,
+  "end": 11.806
+ },
+ {
+  "text": "the",
+  "start": 11.818,
+  "end": 11.91
+ },
+ {
+  "text": "west",
+  "start": 11.91,
+  "end": 12.235
+ },
+ {
+  "text": "you'd",
+  "start": 12.246,
+  "end": 12.362
+ },
+ {
+  "text": "be",
+  "start": 12.373,
+  "end": 12.512
+ },
+ {
+  "text": "in",
+  "start": 12.512,
+  "end": 12.616
+ },
+ {
+  "text": "North",
+  "start": 12.616,
+  "end": 12.813
+ },
+ {
+  "text": "Korea",
+  "start": 12.813,
+  "end": 13.288
+ },
+ {
+  "text": "In",
+  "start": 13.408,
+  "end": 13.478
+ },
+ {
+  "text": "the",
+  "start": 13.478,
+  "end": 13.524
+ },
+ {
+  "text": "east",
+  "start": 13.524,
+  "end": 13.998
+ },
+ {
+  "text": "you'd",
+  "start": 14.118,
+  "end": 14.234
+ },
+ {
+  "text": "be",
+  "start": 14.234,
+  "end": 14.338
+ },
+ {
+  "text": "in",
+  "start": 14.338,
+  "end": 14.419
+ },
+ {
+  "text": "South",
+  "start": 14.43,
+  "end": 14.708
+ },
+ {
+  "text": "Korea",
+  "start": 14.708,
+  "end": 15.113
+ },
+ {
+  "text": "So",
+  "start": 15.283,
+  "end": 15.607
+ },
+ {
+  "text": "three",
+  "start": 15.727,
+  "end": 16.062
+ },
+ {
+  "text": "questions",
+  "start": 16.062,
+  "end": 16.733
+ },
+ {
+  "text": "Where",
+  "start": 16.853,
+  "end": 16.922
+ },
+ {
+  "text": "did",
+  "start": 16.934,
+  "end": 17.003
+ },
+ {
+  "text": "the",
+  "start": 17.003,
+  "end": 17.061
+ },
+ {
+  "text": "38th",
+  "start": 17.073,
+  "end": 17.825
+ },
+ {
+  "text": "parallel",
+  "start": 17.837,
+  "end": 18.334
+ },
+ {
+  "text": "come",
+  "start": 18.346,
+  "end": 18.589
+ },
+ {
+  "text": "from",
+  "start": 18.589,
+  "end": 18.89
+ },
+ {
+  "text": "Where",
+  "start": 19.01,
+  "end": 19.103
+ },
+ {
+  "text": "is",
+  "start": 19.103,
+  "end": 19.184
+ },
+ {
+  "text": "the",
+  "start": 19.184,
+  "end": 19.253
+ },
+ {
+  "text": "real",
+  "start": 19.253,
+  "end": 19.543
+ },
+ {
+  "text": "border",
+  "start": 19.543,
+  "end": 19.959
+ },
+ {
+  "text": "And",
+  "start": 20.079,
+  "end": 20.16
+ },
+ {
+  "text": "why",
+  "start": 20.16,
+  "end": 20.31
+ },
+ {
+  "text": "can't",
+  "start": 20.31,
+  "end": 20.507
+ },
+ {
+  "text": "anyone",
+  "start": 20.507,
+  "end": 20.727
+ },
+ {
+  "text": "agree",
+  "start": 20.727,
+  "end": 21.028
+ },
+ {
+  "text": "on",
+  "start": 21.028,
+  "end": 21.132
+ },
+ {
+  "text": "it",
+  "start": 21.144,
+  "end": 21.201
+ },
+ {
+  "text": "now",
+  "start": 21.201,
+  "end": 21.56
+ },
+ {
+  "text": "First",
+  "start": 21.73,
+  "end": 22.089
+ },
+ {
+  "text": "the",
+  "start": 22.101,
+  "end": 22.182
+ },
+ {
+  "text": "line",
+  "start": 22.182,
+  "end": 22.517
+ },
+ {
+  "text": "August 1945",
+  "start": 22.637,
+  "end": 24.153
+ },
+ {
+  "text": "Japan",
+  "start": 24.273,
+  "end": 24.782
+ },
+ {
+  "text": "is",
+  "start": 24.794,
+  "end": 24.898
+ },
+ {
+  "text": "about",
+  "start": 24.898,
+  "end": 25.152
+ },
+ {
+  "text": "to",
+  "start": 25.152,
+  "end": 25.234
+ },
+ {
+  "text": "surrender",
+  "start": 25.234,
+  "end": 25.812
+ },
+ {
+  "text": "much",
+  "start": 25.932,
+  "end": 26.163
+ },
+ {
+  "text": "sooner",
+  "start": 26.163,
+  "end": 26.534
+ },
+ {
+  "text": "than",
+  "start": 26.534,
+  "end": 26.615
+ },
+ {
+  "text": "expected",
+  "start": 26.615,
+  "end": 27.182
+ },
+ {
+  "text": "and",
+  "start": 27.302,
+  "end": 27.337
+ },
+ {
+  "text": "the",
+  "start": 27.337,
+  "end": 27.383
+ },
+ {
+  "text": "U.S.",
+  "start": 27.395,
+  "end": 27.823
+ },
+ {
+  "text": "needs",
+  "start": 27.835,
+  "end": 27.997
+ },
+ {
+  "text": "a",
+  "start": 27.997,
+  "end": 28.043
+ },
+ {
+  "text": "plan",
+  "start": 28.043,
+  "end": 28.379
+ },
+ {
+  "text": "for",
+  "start": 28.39,
+  "end": 28.518
+ },
+ {
+  "text": "Korea",
+  "start": 28.518,
+  "end": 29.015
+ },
+ {
+  "text": "In 1950",
+  "start": 29.185,
+  "end": 30.122
+ },
+ {
+  "text": "Dean",
+  "start": 30.242,
+  "end": 30.508
+ },
+ {
+  "text": "Rusk",
+  "start": 30.508,
+  "end": 30.855
+ },
+ {
+  "text": "wrote",
+  "start": 30.971,
+  "end": 31.168
+ },
+ {
+  "text": "a",
+  "start": 31.18,
+  "end": 31.214
+ },
+ {
+  "text": "memo",
+  "start": 31.214,
+  "end": 31.619
+ },
+ {
+  "text": "about",
+  "start": 31.619,
+  "end": 31.885
+ },
+ {
+  "text": "that",
+  "start": 31.885,
+  "end": 32.082
+ },
+ {
+  "text": "week",
+  "start": 32.094,
+  "end": 32.441
+ },
+ {
+  "text": "and",
+  "start": 32.561,
+  "end": 32.63
+ },
+ {
+  "text": "it's",
+  "start": 32.63,
+  "end": 32.734
+ },
+ {
+  "text": "now",
+  "start": 32.746,
+  "end": 33.035
+ },
+ {
+  "text": "in",
+  "start": 33.035,
+  "end": 33.07
+ },
+ {
+  "text": "the",
+  "start": 33.07,
+  "end": 33.116
+ },
+ {
+  "text": "State",
+  "start": 33.116,
+  "end": 33.371
+ },
+ {
+  "text": "Department's",
+  "start": 33.371,
+  "end": 33.811
+ },
+ {
+  "text": "published",
+  "start": 33.822,
+  "end": 34.193
+ },
+ {
+  "text": "records",
+  "start": 34.193,
+  "end": 34.702
+ },
+ {
+  "text": "He",
+  "start": 34.872,
+  "end": 34.941
+ },
+ {
+  "text": "says",
+  "start": 34.941,
+  "end": 35.184
+ },
+ {
+  "text": "senior",
+  "start": 35.184,
+  "end": 35.612
+ },
+ {
+  "text": "officials",
+  "start": 35.612,
+  "end": 36.168
+ },
+ {
+  "text": "met",
+  "start": 36.179,
+  "end": 36.446
+ },
+ {
+  "text": "in",
+  "start": 36.446,
+  "end": 36.538
+ },
+ {
+  "text": "a",
+  "start": 36.55,
+  "end": 36.596
+ },
+ {
+  "text": "Pentagon",
+  "start": 36.608,
+  "end": 37.013
+ },
+ {
+  "text": "office",
+  "start": 37.013,
+  "end": 37.441
+ },
+ {
+  "text": "through",
+  "start": 37.561,
+  "end": 37.734
+ },
+ {
+  "text": "most",
+  "start": 37.734,
+  "end": 38.151
+ },
+ {
+  "text": "of",
+  "start": 38.151,
+  "end": 38.186
+ },
+ {
+  "text": "a",
+  "start": 38.197,
+  "end": 38.232
+ },
+ {
+  "text": "night",
+  "start": 38.232,
+  "end": 38.614
+ },
+ {
+  "text": "The",
+  "start": 38.734,
+  "end": 38.781
+ },
+ {
+  "text": "State",
+  "start": 38.781,
+  "end": 39.012
+ },
+ {
+  "text": "Department",
+  "start": 39.012,
+  "end": 39.452
+ },
+ {
+  "text": "wanted",
+  "start": 39.452,
+  "end": 39.707
+ },
+ {
+  "text": "U.S.",
+  "start": 39.718,
+  "end": 40.089
+ },
+ {
+  "text": "forces",
+  "start": 40.089,
+  "end": 40.528
+ },
+ {
+  "text": "to",
+  "start": 40.648,
+  "end": 40.729
+ },
+ {
+  "text": "take",
+  "start": 40.729,
+  "end": 40.938
+ },
+ {
+  "text": "the",
+  "start": 40.938,
+  "end": 41.007
+ },
+ {
+  "text": "surrender",
+  "start": 41.007,
+  "end": 41.62
+ },
+ {
+  "text": "as",
+  "start": 41.74,
+  "end": 41.879
+ },
+ {
+  "text": "far",
+  "start": 41.879,
+  "end": 42.307
+ },
+ {
+  "text": "north",
+  "start": 42.319,
+  "end": 42.666
+ },
+ {
+  "text": "as",
+  "start": 42.712,
+  "end": 42.782
+ },
+ {
+  "text": "possible",
+  "start": 42.782,
+  "end": 43.36
+ },
+ {
+  "text": "But",
+  "start": 43.53,
+  "end": 43.599
+ },
+ {
+  "text": "the",
+  "start": 43.611,
+  "end": 43.669
+ },
+ {
+  "text": "military",
+  "start": 43.68,
+  "end": 44.131
+ },
+ {
+  "text": "had",
+  "start": 44.143,
+  "end": 44.27
+ },
+ {
+  "text": "a",
+  "start": 44.282,
+  "end": 44.305
+ },
+ {
+  "text": "problem",
+  "start": 44.305,
+  "end": 44.733
+ },
+ {
+  "text": "There",
+  "start": 44.853,
+  "end": 44.946
+ },
+ {
+  "text": "weren't",
+  "start": 44.946,
+  "end": 45.108
+ },
+ {
+  "text": "enough",
+  "start": 45.108,
+  "end": 45.339
+ },
+ {
+  "text": "American",
+  "start": 45.351,
+  "end": 45.744
+ },
+ {
+  "text": "troops",
+  "start": 45.744,
+  "end": 46.161
+ },
+ {
+  "text": "nearby",
+  "start": 46.161,
+  "end": 46.751
+ },
+ {
+  "text": "and",
+  "start": 46.871,
+  "end": 47.23
+ },
+ {
+  "text": "Soviet",
+  "start": 47.35,
+  "end": 47.813
+ },
+ {
+  "text": "troops",
+  "start": 47.813,
+  "end": 48.16
+ },
+ {
+  "text": "could",
+  "start": 48.172,
+  "end": 48.31
+ },
+ {
+  "text": "get",
+  "start": 48.31,
+  "end": 48.438
+ },
+ {
+  "text": "there",
+  "start": 48.449,
+  "end": 48.565
+ },
+ {
+  "text": "first",
+  "start": 48.577,
+  "end": 49.121
+ },
+ {
+  "text": "So",
+  "start": 49.291,
+  "end": 49.51
+ },
+ {
+  "text": "Rusk",
+  "start": 49.51,
+  "end": 49.962
+ },
+ {
+  "text": "and",
+  "start": 50.082,
+  "end": 50.187
+ },
+ {
+  "text": "Colonel",
+  "start": 50.187,
+  "end": 50.441
+ },
+ {
+  "text": "Charles",
+  "start": 50.453,
+  "end": 50.765
+ },
+ {
+  "text": "Bonesteel",
+  "start": 50.765,
+  "end": 51.298
+ },
+ {
+  "text": "were",
+  "start": 51.298,
+  "end": 51.39
+ },
+ {
+  "text": "sent",
+  "start": 51.402,
+  "end": 51.645
+ },
+ {
+  "text": "to",
+  "start": 51.645,
+  "end": 51.772
+ },
+ {
+  "text": "an",
+  "start": 51.784,
+  "end": 51.853
+ },
+ {
+  "text": "adjoining",
+  "start": 51.853,
+  "end": 52.293
+ },
+ {
+  "text": "room",
+  "start": 52.293,
+  "end": 52.536
+ },
+ {
+  "text": "to",
+  "start": 52.656,
+  "end": 52.748
+ },
+ {
+  "text": "come",
+  "start": 52.748,
+  "end": 52.933
+ },
+ {
+  "text": "up",
+  "start": 52.945,
+  "end": 53.118
+ },
+ {
+  "text": "with",
+  "start": 53.13,
+  "end": 53.234
+ },
+ {
+  "text": "a",
+  "start": 53.234,
+  "end": 53.269
+ },
+ {
+  "text": "proposal",
+  "start": 53.281,
+  "end": 53.882
+ },
+ {
+  "text": "In",
+  "start": 54.052,
+  "end": 54.11
+ },
+ {
+  "text": "his",
+  "start": 54.11,
+  "end": 54.203
+ },
+ {
+  "text": "memoir",
+  "start": 54.203,
+  "end": 54.735
+ },
+ {
+  "text": "Rusk",
+  "start": 54.855,
+  "end": 55.133
+ },
+ {
+  "text": "says",
+  "start": 55.145,
+  "end": 55.353
+ },
+ {
+  "text": "they",
+  "start": 55.353,
+  "end": 55.446
+ },
+ {
+  "text": "used",
+  "start": 55.446,
+  "end": 55.723
+ },
+ {
+  "text": "a",
+  "start": 55.723,
+  "end": 55.746
+ },
+ {
+  "text": "National",
+  "start": 55.746,
+  "end": 56.279
+ },
+ {
+  "text": "Geographic",
+  "start": 56.279,
+  "end": 56.869
+ },
+ {
+  "text": "map",
+  "start": 56.881,
+  "end": 57.216
+ },
+ {
+  "text": "They",
+  "start": 57.336,
+  "end": 57.405
+ },
+ {
+  "text": "looked",
+  "start": 57.405,
+  "end": 57.602
+ },
+ {
+  "text": "just",
+  "start": 57.602,
+  "end": 57.857
+ },
+ {
+  "text": "north",
+  "start": 57.868,
+  "end": 58.204
+ },
+ {
+  "text": "of",
+  "start": 58.204,
+  "end": 58.273
+ },
+ {
+  "text": "Seoul",
+  "start": 58.273,
+  "end": 58.69
+ },
+ {
+  "text": "for",
+  "start": 58.702,
+  "end": 58.875
+ },
+ {
+  "text": "a",
+  "start": 58.887,
+  "end": 58.922
+ },
+ {
+  "text": "natural",
+  "start": 58.922,
+  "end": 59.431
+ },
+ {
+  "text": "dividing",
+  "start": 59.431,
+  "end": 59.813
+ },
+ {
+  "text": "line",
+  "start": 59.813,
+  "end": 60.16
+ },
+ {
+  "text": "and",
+  "start": 60.28,
+  "end": 60.419
+ },
+ {
+  "text": "couldn't",
+  "start": 60.539,
+  "end": 60.77
+ },
+ {
+  "text": "find",
+  "start": 60.77,
+  "end": 61.025
+ },
+ {
+  "text": "one",
+  "start": 61.036,
+  "end": 61.256
+ },
+ {
+  "text": "So",
+  "start": 61.426,
+  "end": 61.553
+ },
+ {
+  "text": "they",
+  "start": 61.553,
+  "end": 61.669
+ },
+ {
+  "text": "picked",
+  "start": 61.68,
+  "end": 61.865
+ },
+ {
+  "text": "a",
+  "start": 61.865,
+  "end": 61.912
+ },
+ {
+  "text": "line",
+  "start": 61.923,
+  "end": 62.294
+ },
+ {
+  "text": "of",
+  "start": 62.294,
+  "end": 62.375
+ },
+ {
+  "text": "latitude",
+  "start": 62.375,
+  "end": 62.953
+ },
+ {
+  "text": "The",
+  "start": 63.073,
+  "end": 63.131
+ },
+ {
+  "text": "38th",
+  "start": 63.131,
+  "end": 63.802
+ },
+ {
+  "text": "parallel",
+  "start": 63.814,
+  "end": 64.358
+ },
+ {
+  "text": "Why",
+  "start": 64.528,
+  "end": 64.666
+ },
+ {
+  "text": "that",
+  "start": 64.667,
+  "end": 64.829
+ },
+ {
+  "text": "one",
+  "start": 64.829,
+  "end": 65.072
+ },
+ {
+  "text": "In",
+  "start": 65.192,
+  "end": 65.261
+ },
+ {
+  "text": "the",
+  "start": 65.261,
+  "end": 65.319
+ },
+ {
+  "text": "memo",
+  "start": 65.319,
+  "end": 65.747
+ },
+ {
+  "text": "Rusk",
+  "start": 65.867,
+  "end": 66.307
+ },
+ {
+  "text": "gives",
+  "start": 66.388,
+  "end": 66.585
+ },
+ {
+  "text": "the",
+  "start": 66.585,
+  "end": 66.666
+ },
+ {
+  "text": "reason",
+  "start": 66.677,
+  "end": 67.059
+ },
+ {
+  "text": "They",
+  "start": 67.179,
+  "end": 67.26
+ },
+ {
+  "text": "wanted",
+  "start": 67.26,
+  "end": 67.492
+ },
+ {
+  "text": "Korea's",
+  "start": 67.492,
+  "end": 67.862
+ },
+ {
+  "text": "capital",
+  "start": 67.874,
+  "end": 68.418
+ },
+ {
+  "text": "Seoul",
+  "start": 68.538,
+  "end": 68.99
+ },
+ {
+  "text": "inside",
+  "start": 69.11,
+  "end": 69.608
+ },
+ {
+  "text": "the",
+  "start": 69.608,
+  "end": 69.678
+ },
+ {
+  "text": "American",
+  "start": 69.678,
+  "end": 70.048
+ },
+ {
+  "text": "zone",
+  "start": 70.06,
+  "end": 70.418
+ },
+ {
+  "text": "He",
+  "start": 70.588,
+  "end": 70.669
+ },
+ {
+  "text": "also",
+  "start": 70.669,
+  "end": 70.97
+ },
+ {
+  "text": "wrote",
+  "start": 70.97,
+  "end": 71.213
+ },
+ {
+  "text": "that",
+  "start": 71.225,
+  "end": 71.306
+ },
+ {
+  "text": "the",
+  "start": 71.306,
+  "end": 71.387
+ },
+ {
+  "text": "line",
+  "start": 71.387,
+  "end": 71.699
+ },
+ {
+  "text": "was",
+  "start": 71.711,
+  "end": 71.85
+ },
+ {
+  "text": "further",
+  "start": 71.861,
+  "end": 72.232
+ },
+ {
+  "text": "north",
+  "start": 72.232,
+  "end": 72.602
+ },
+ {
+  "text": "than",
+  "start": 72.602,
+  "end": 72.753
+ },
+ {
+  "text": "U.S.",
+  "start": 72.753,
+  "end": 73.158
+ },
+ {
+  "text": "forces",
+  "start": 73.158,
+  "end": 73.551
+ },
+ {
+  "text": "could",
+  "start": 73.563,
+  "end": 73.748
+ },
+ {
+  "text": "realistically",
+  "start": 73.748,
+  "end": 74.338
+ },
+ {
+  "text": "reach",
+  "start": 74.338,
+  "end": 74.743
+ },
+ {
+  "text": "if",
+  "start": 74.863,
+  "end": 74.944
+ },
+ {
+  "text": "the",
+  "start": 74.956,
+  "end": 75.014
+ },
+ {
+  "text": "Soviets",
+  "start": 75.014,
+  "end": 75.5
+ },
+ {
+  "text": "said",
+  "start": 75.5,
+  "end": 75.697
+ },
+ {
+  "text": "no",
+  "start": 75.697,
+  "end": 75.975
+ },
+ {
+  "text": "And",
+  "start": 76.145,
+  "end": 76.202
+ },
+ {
+  "text": "he",
+  "start": 76.202,
+  "end": 76.318
+ },
+ {
+  "text": "admitted",
+  "start": 76.318,
+  "end": 76.654
+ },
+ {
+  "text": "he",
+  "start": 76.654,
+  "end": 76.723
+ },
+ {
+  "text": "was",
+  "start": 76.723,
+  "end": 76.851
+ },
+ {
+  "text": "surprised",
+  "start": 76.862,
+  "end": 77.371
+ },
+ {
+  "text": "the",
+  "start": 77.371,
+  "end": 77.429
+ },
+ {
+  "text": "Soviets",
+  "start": 77.441,
+  "end": 78.008
+ },
+ {
+  "text": "accepted",
+  "start": 78.02,
+  "end": 78.54
+ },
+ {
+  "text": "it",
+  "start": 78.54,
+  "end": 78.726
+ },
+ {
+  "text": "One",
+  "start": 78.896,
+  "end": 79.023
+ },
+ {
+  "text": "small",
+  "start": 79.023,
+  "end": 79.278
+ },
+ {
+  "text": "catch",
+  "start": 79.278,
+  "end": 79.694
+ },
+ {
+  "text": "The",
+  "start": 79.814,
+  "end": 79.86
+ },
+ {
+  "text": "memo",
+  "start": 79.871,
+  "end": 80.184
+ },
+ {
+  "text": "puts",
+  "start": 80.184,
+  "end": 80.462
+ },
+ {
+  "text": "that",
+  "start": 80.473,
+  "end": 80.682
+ },
+ {
+  "text": "night",
+  "start": 80.682,
+  "end": 81.017
+ },
+ {
+  "text": "around",
+  "start": 81.098,
+  "end": 81.527
+ },
+ {
+  "text": "August 10th",
+  "start": 81.642,
+  "end": 82.441
+ },
+ {
+  "text": "The",
+  "start": 82.561,
+  "end": 82.608
+ },
+ {
+  "text": "memoir",
+  "start": 82.619,
+  "end": 83.071
+ },
+ {
+  "text": "says",
+  "start": 83.186,
+  "end": 83.568
+ },
+ {
+  "text": "August 14th",
+  "start": 83.58,
+  "end": 84.541
+ },
+ {
+  "text": "Even",
+  "start": 84.661,
+  "end": 84.823
+ },
+ {
+  "text": "the",
+  "start": 84.823,
+  "end": 84.869
+ },
+ {
+  "text": "man",
+  "start": 84.869,
+  "end": 85.147
+ },
+ {
+  "text": "who",
+  "start": 85.147,
+  "end": 85.286
+ },
+ {
+  "text": "drew",
+  "start": 85.297,
+  "end": 85.54
+ },
+ {
+  "text": "the",
+  "start": 85.54,
+  "end": 85.621
+ },
+ {
+  "text": "line",
+  "start": 85.633,
+  "end": 86.026
+ },
+ {
+  "text": "remembered",
+  "start": 86.146,
+  "end": 86.574
+ },
+ {
+  "text": "it",
+  "start": 86.574,
+  "end": 86.69
+ },
+ {
+  "text": "two",
+  "start": 86.702,
+  "end": 86.945
+ },
+ {
+  "text": "ways",
+  "start": 86.945,
+  "end": 87.5
+ },
+ {
+  "text": "But",
+  "start": 87.67,
+  "end": 87.763
+ },
+ {
+  "text": "that's",
+  "start": 87.763,
+  "end": 87.913
+ },
+ {
+  "text": "not",
+  "start": 87.913,
+  "end": 88.075
+ },
+ {
+  "text": "the",
+  "start": 88.075,
+  "end": 88.133
+ },
+ {
+  "text": "whole",
+  "start": 88.145,
+  "end": 88.376
+ },
+ {
+  "text": "story",
+  "start": 88.376,
+  "end": 88.862
+ },
+ {
+  "text": "Korea's",
+  "start": 88.982,
+  "end": 89.398
+ },
+ {
+  "text": "national",
+  "start": 89.41,
+  "end": 89.954
+ },
+ {
+  "text": "encyclopedia",
+  "start": 89.965,
+  "end": 90.764
+ },
+ {
+  "text": "adds",
+  "start": 90.884,
+  "end": 91.15
+ },
+ {
+  "text": "a",
+  "start": 91.15,
+  "end": 91.196
+ },
+ {
+  "text": "caution",
+  "start": 91.208,
+  "end": 91.694
+ },
+ {
+  "text": "the",
+  "start": 91.814,
+  "end": 91.895
+ },
+ {
+  "text": "two",
+  "start": 91.895,
+  "end": 92.092
+ },
+ {
+  "text": "governments",
+  "start": 92.092,
+  "end": 92.578
+ },
+ {
+  "text": "may",
+  "start": 92.589,
+  "end": 92.774
+ },
+ {
+  "text": "have",
+  "start": 92.774,
+  "end": 92.913
+ },
+ {
+  "text": "already",
+  "start": 92.925,
+  "end": 93.295
+ },
+ {
+  "text": "understood",
+  "start": 93.295,
+  "end": 93.724
+ },
+ {
+  "text": "each",
+  "start": 93.724,
+  "end": 93.874
+ },
+ {
+  "text": "other",
+  "start": 93.886,
+  "end": 94.048
+ },
+ {
+  "text": "before",
+  "start": 94.059,
+  "end": 94.441
+ },
+ {
+  "text": "that",
+  "start": 94.441,
+  "end": 94.615
+ },
+ {
+  "text": "night",
+  "start": 94.615,
+  "end": 94.95
+ },
+ {
+  "text": "Either",
+  "start": 95.12,
+  "end": 95.351
+ },
+ {
+  "text": "way",
+  "start": 95.351,
+  "end": 95.757
+ },
+ {
+  "text": "on",
+  "start": 95.877,
+  "end": 96.039
+ },
+ {
+  "text": "September 2, 1945",
+  "start": 96.039,
+  "end": 98.446
+ },
+ {
+  "text": "General",
+  "start": 98.566,
+  "end": 98.878
+ },
+ {
+  "text": "MacArthur's",
+  "start": 98.878,
+  "end": 99.387
+ },
+ {
+  "text": "General",
+  "start": 99.387,
+  "end": 99.711
+ },
+ {
+  "text": "Order",
+  "start": 99.711,
+  "end": 99.908
+ },
+ {
+  "text": "Number",
+  "start": 99.908,
+  "end": 100.14
+ },
+ {
+  "text": "1",
+  "start": 100.14,
+  "end": 100.452
+ },
+ {
+  "text": "made",
+  "start": 100.572,
+  "end": 100.723
+ },
+ {
+  "text": "it",
+  "start": 100.723,
+  "end": 100.769
+ },
+ {
+  "text": "official",
+  "start": 100.769,
+  "end": 101.325
+ },
+ {
+  "text": "Japanese",
+  "start": 101.495,
+  "end": 101.969
+ },
+ {
+  "text": "troops",
+  "start": 101.969,
+  "end": 102.455
+ },
+ {
+  "text": "north",
+  "start": 102.525,
+  "end": 102.883
+ },
+ {
+  "text": "of",
+  "start": 102.895,
+  "end": 102.953
+ },
+ {
+  "text": "the",
+  "start": 102.953,
+  "end": 103.011
+ },
+ {
+  "text": "38th",
+  "start": 103.022,
+  "end": 103.566
+ },
+ {
+  "text": "parallel",
+  "start": 103.566,
+  "end": 104.133
+ },
+ {
+  "text": "would",
+  "start": 104.253,
+  "end": 104.38
+ },
+ {
+  "text": "surrender",
+  "start": 104.38,
+  "end": 105.028
+ },
+ {
+  "text": "to",
+  "start": 105.086,
+  "end": 105.179
+ },
+ {
+  "text": "the",
+  "start": 105.179,
+  "end": 105.248
+ },
+ {
+  "text": "Soviets",
+  "start": 105.26,
+  "end": 105.942
+ },
+ {
+  "text": "South",
+  "start": 106.062,
+  "end": 106.375
+ },
+ {
+  "text": "of",
+  "start": 106.386,
+  "end": 106.456
+ },
+ {
+  "text": "it",
+  "start": 106.456,
+  "end": 106.606
+ },
+ {
+  "text": "to",
+  "start": 106.726,
+  "end": 106.807
+ },
+ {
+  "text": "the",
+  "start": 106.807,
+  "end": 106.9
+ },
+ {
+  "text": "Americans",
+  "start": 106.9,
+  "end": 107.594
+ },
+ {
+  "text": "It",
+  "start": 107.764,
+  "end": 107.821
+ },
+ {
+  "text": "was",
+  "start": 107.821,
+  "end": 107.926
+ },
+ {
+  "text": "supposed",
+  "start": 107.937,
+  "end": 108.319
+ },
+ {
+  "text": "to",
+  "start": 108.319,
+  "end": 108.365
+ },
+ {
+  "text": "be",
+  "start": 108.377,
+  "end": 108.481
+ },
+ {
+  "text": "temporary",
+  "start": 108.481,
+  "end": 109.118
+ },
+ {
+  "text": "Just",
+  "start": 109.238,
+  "end": 109.365
+ },
+ {
+  "text": "a",
+  "start": 109.377,
+  "end": 109.423
+ },
+ {
+  "text": "line",
+  "start": 109.435,
+  "end": 109.828
+ },
+ {
+  "text": "for",
+  "start": 109.84,
+  "end": 109.944
+ },
+ {
+  "text": "taking",
+  "start": 109.944,
+  "end": 110.245
+ },
+ {
+  "text": "surrenders",
+  "start": 110.257,
+  "end": 110.94
+ },
+ {
+  "text": "So",
+  "start": 111.11,
+  "end": 111.26
+ },
+ {
+  "text": "how",
+  "start": 111.26,
+  "end": 111.353
+ },
+ {
+  "text": "did",
+  "start": 111.353,
+  "end": 111.457
+ },
+ {
+  "text": "a",
+  "start": 111.468,
+  "end": 111.526
+ },
+ {
+  "text": "temporary",
+  "start": 111.526,
+  "end": 111.966
+ },
+ {
+  "text": "line",
+  "start": 111.966,
+  "end": 112.383
+ },
+ {
+  "text": "become",
+  "start": 112.452,
+  "end": 112.718
+ },
+ {
+  "text": "a",
+  "start": 112.718,
+  "end": 112.753
+ },
+ {
+  "text": "border",
+  "start": 112.765,
+  "end": 113.123
+ },
+ {
+  "text": "But",
+  "start": 113.293,
+  "end": 113.35
+ },
+ {
+  "text": "the",
+  "start": 113.35,
+  "end": 113.42
+ },
+ {
+  "text": "Cold",
+  "start": 113.42,
+  "end": 113.698
+ },
+ {
+  "text": "War",
+  "start": 113.698,
+  "end": 113.941
+ },
+ {
+  "text": "got",
+  "start": 113.952,
+  "end": 114.114
+ },
+ {
+  "text": "there",
+  "start": 114.126,
+  "end": 114.23
+ },
+ {
+  "text": "first",
+  "start": 114.23,
+  "end": 114.797
+ },
+ {
+  "text": "According",
+  "start": 114.967,
+  "end": 115.291
+ },
+ {
+  "text": "to",
+  "start": 115.302,
+  "end": 115.349
+ },
+ {
+  "text": "the",
+  "start": 115.349,
+  "end": 115.43
+ },
+ {
+  "text": "same",
+  "start": 115.43,
+  "end": 115.73
+ },
+ {
+  "text": "encyclopedia",
+  "start": 115.731,
+  "end": 116.668
+ },
+ {
+  "text": "travel",
+  "start": 116.788,
+  "end": 117.263
+ },
+ {
+  "text": "goods",
+  "start": 117.383,
+  "end": 117.915
+ },
+ {
+  "text": "and",
+  "start": 118.035,
+  "end": 118.209
+ },
+ {
+  "text": "even",
+  "start": 118.329,
+  "end": 118.572
+ },
+ {
+  "text": "mail",
+  "start": 118.572,
+  "end": 118.792
+ },
+ {
+  "text": "across",
+  "start": 118.792,
+  "end": 119.151
+ },
+ {
+  "text": "the",
+  "start": 119.151,
+  "end": 119.243
+ },
+ {
+  "text": "line",
+  "start": 119.255,
+  "end": 119.59
+ },
+ {
+  "text": "were",
+  "start": 119.59,
+  "end": 119.671
+ },
+ {
+  "text": "cut",
+  "start": 119.683,
+  "end": 119.868
+ },
+ {
+  "text": "off",
+  "start": 119.88,
+  "end": 120.227
+ },
+ {
+  "text": "In 1948",
+  "start": 120.397,
+  "end": 121.462
+ },
+ {
+  "text": "two",
+  "start": 121.582,
+  "end": 121.779
+ },
+ {
+  "text": "governments",
+  "start": 121.779,
+  "end": 122.173
+ },
+ {
+  "text": "were",
+  "start": 122.173,
+  "end": 122.277
+ },
+ {
+  "text": "set",
+  "start": 122.277,
+  "end": 122.555
+ },
+ {
+  "text": "up",
+  "start": 122.566,
+  "end": 122.774
+ },
+ {
+  "text": "One",
+  "start": 122.894,
+  "end": 123.01
+ },
+ {
+  "text": "in",
+  "start": 123.01,
+  "end": 123.056
+ },
+ {
+  "text": "the",
+  "start": 123.056,
+  "end": 123.126
+ },
+ {
+  "text": "South",
+  "start": 123.137,
+  "end": 123.67
+ },
+ {
+  "text": "one",
+  "start": 123.79,
+  "end": 123.952
+ },
+ {
+  "text": "in",
+  "start": 123.952,
+  "end": 123.999
+ },
+ {
+  "text": "the",
+  "start": 123.999,
+  "end": 124.033
+ },
+ {
+  "text": "North",
+  "start": 124.033,
+  "end": 124.462
+ },
+ {
+  "text": "A",
+  "start": 124.632,
+  "end": 124.679
+ },
+ {
+  "text": "line",
+  "start": 124.69,
+  "end": 124.98
+ },
+ {
+  "text": "for",
+  "start": 124.98,
+  "end": 125.107
+ },
+ {
+  "text": "surrenders",
+  "start": 125.119,
+  "end": 125.709
+ },
+ {
+  "text": "had",
+  "start": 125.813,
+  "end": 125.94
+ },
+ {
+  "text": "become",
+  "start": 125.952,
+  "end": 126.206
+ },
+ {
+  "text": "a",
+  "start": 126.206,
+  "end": 126.241
+ },
+ {
+  "text": "border",
+  "start": 126.253,
+  "end": 126.669
+ },
+ {
+  "text": "Sort",
+  "start": 126.789,
+  "end": 126.986
+ },
+ {
+  "text": "of",
+  "start": 126.997,
+  "end": 127.148
+ },
+ {
+  "text": "Then",
+  "start": 127.318,
+  "end": 127.503
+ },
+ {
+  "text": "in",
+  "start": 127.503,
+  "end": 127.584
+ },
+ {
+  "text": "June 1950",
+  "start": 127.595,
+  "end": 128.637
+ },
+ {
+  "text": "the",
+  "start": 128.757,
+  "end": 128.838
+ },
+ {
+  "text": "line",
+  "start": 128.838,
+  "end": 129.127
+ },
+ {
+  "text": "was",
+  "start": 129.127,
+  "end": 129.254
+ },
+ {
+  "text": "crossed",
+  "start": 129.255,
+  "end": 129.856
+ },
+ {
+  "text": "The",
+  "start": 129.976,
+  "end": 130.022
+ },
+ {
+  "text": "Korean",
+  "start": 130.022,
+  "end": 130.381
+ },
+ {
+  "text": "War",
+  "start": 130.392,
+  "end": 130.635
+ },
+ {
+  "text": "began",
+  "start": 130.647,
+  "end": 131.075
+ },
+ {
+  "text": "On",
+  "start": 131.245,
+  "end": 131.314
+ },
+ {
+  "text": "the",
+  "start": 131.314,
+  "end": 131.372
+ },
+ {
+  "text": "very",
+  "start": 131.372,
+  "end": 131.673
+ },
+ {
+  "text": "first",
+  "start": 131.673,
+  "end": 132.032
+ },
+ {
+  "text": "day",
+  "start": 132.032,
+  "end": 132.391
+ },
+ {
+  "text": "the",
+  "start": 132.511,
+  "end": 132.569
+ },
+ {
+  "text": "UN",
+  "start": 132.569,
+  "end": 132.916
+ },
+ {
+  "text": "Security",
+  "start": 132.928,
+  "end": 133.356
+ },
+ {
+  "text": "Council",
+  "start": 133.356,
+  "end": 133.703
+ },
+ {
+  "text": "demanded",
+  "start": 133.703,
+  "end": 134.166
+ },
+ {
+  "text": "that",
+  "start": 134.178,
+  "end": 134.34
+ },
+ {
+  "text": "North",
+  "start": 134.352,
+  "end": 134.629
+ },
+ {
+  "text": "Korean",
+  "start": 134.629,
+  "end": 134.942
+ },
+ {
+  "text": "troops",
+  "start": 134.942,
+  "end": 135.416
+ },
+ {
+  "text": "pull",
+  "start": 135.536,
+  "end": 135.86
+ },
+ {
+  "text": "back",
+  "start": 135.871,
+  "end": 136.219
+ },
+ {
+  "text": "north",
+  "start": 136.23,
+  "end": 136.705
+ },
+ {
+  "text": "of",
+  "start": 136.705,
+  "end": 136.763
+ },
+ {
+  "text": "the",
+  "start": 136.763,
+  "end": 136.844
+ },
+ {
+  "text": "38th",
+  "start": 136.844,
+  "end": 137.422
+ },
+ {
+  "text": "parallel",
+  "start": 137.422,
+  "end": 137.978
+ },
+ {
+  "text": "They",
+  "start": 138.098,
+  "end": 138.19
+ },
+ {
+  "text": "didn't",
+  "start": 138.202,
+  "end": 138.503
+ },
+ {
+  "text": "And",
+  "start": 138.673,
+  "end": 138.754
+ },
+ {
+  "text": "this",
+  "start": 138.766,
+  "end": 138.916
+ },
+ {
+  "text": "is",
+  "start": 138.928,
+  "end": 139.02
+ },
+ {
+  "text": "where",
+  "start": 139.02,
+  "end": 139.101
+ },
+ {
+  "text": "the",
+  "start": 139.101,
+  "end": 139.182
+ },
+ {
+  "text": "38th",
+  "start": 139.182,
+  "end": 139.865
+ },
+ {
+  "text": "parallel",
+  "start": 139.877,
+  "end": 140.502
+ },
+ {
+  "text": "starts",
+  "start": 140.622,
+  "end": 140.981
+ },
+ {
+  "text": "to",
+  "start": 140.992,
+  "end": 141.073
+ },
+ {
+  "text": "lose",
+  "start": 141.073,
+  "end": 141.513
+ },
+ {
+  "text": "its",
+  "start": 141.513,
+  "end": 141.641
+ },
+ {
+  "text": "job",
+  "start": 141.641,
+  "end": 142.057
+ },
+ {
+  "text": "For",
+  "start": 142.227,
+  "end": 142.47
+ },
+ {
+  "text": "three",
+  "start": 142.482,
+  "end": 142.794
+ },
+ {
+  "text": "years",
+  "start": 142.794,
+  "end": 143.373
+ },
+ {
+  "text": "the",
+  "start": 143.493,
+  "end": 143.574
+ },
+ {
+  "text": "front",
+  "start": 143.574,
+  "end": 143.875
+ },
+ {
+  "text": "moved",
+  "start": 143.875,
+  "end": 144.211
+ },
+ {
+  "text": "up",
+  "start": 144.222,
+  "end": 144.442
+ },
+ {
+  "text": "and",
+  "start": 144.562,
+  "end": 144.654
+ },
+ {
+  "text": "down",
+  "start": 144.666,
+  "end": 144.944
+ },
+ {
+  "text": "the",
+  "start": 144.944,
+  "end": 144.99
+ },
+ {
+  "text": "peninsula",
+  "start": 145.002,
+  "end": 145.65
+ },
+ {
+  "text": "In 1951",
+  "start": 145.77,
+  "end": 146.812
+ },
+ {
+  "text": "when",
+  "start": 146.932,
+  "end": 147.094
+ },
+ {
+  "text": "ceasefire",
+  "start": 147.094,
+  "end": 147.649
+ },
+ {
+  "text": "talks",
+  "start": 147.65,
+  "end": 147.927
+ },
+ {
+  "text": "were",
+  "start": 147.927,
+  "end": 147.997
+ },
+ {
+  "text": "on",
+  "start": 148.008,
+  "end": 148.066
+ },
+ {
+  "text": "the",
+  "start": 148.066,
+  "end": 148.124
+ },
+ {
+  "text": "table",
+  "start": 148.124,
+  "end": 148.564
+ },
+ {
+  "text": "South",
+  "start": 148.684,
+  "end": 148.996
+ },
+ {
+  "text": "Korea's",
+  "start": 148.996,
+  "end": 149.366
+ },
+ {
+  "text": "National",
+  "start": 149.366,
+  "end": 149.795
+ },
+ {
+  "text": "Assembly",
+  "start": 149.795,
+  "end": 150.373
+ },
+ {
+  "text": "called",
+  "start": 150.385,
+  "end": 150.582
+ },
+ {
+  "text": "a",
+  "start": 150.582,
+  "end": 150.628
+ },
+ {
+  "text": "ceasefire",
+  "start": 150.639,
+  "end": 151.311
+ },
+ {
+  "text": "on",
+  "start": 151.311,
+  "end": 151.369
+ },
+ {
+  "text": "the",
+  "start": 151.369,
+  "end": 151.438
+ },
+ {
+  "text": "38th",
+  "start": 151.438,
+  "end": 152.075
+ },
+ {
+  "text": "parallel",
+  "start": 152.086,
+  "end": 152.491
+ },
+ {
+  "text": "suicide",
+  "start": 152.491,
+  "end": 153.151
+ },
+ {
+  "text": "Here's",
+  "start": 153.321,
+  "end": 153.436
+ },
+ {
+  "text": "a",
+  "start": 153.436,
+  "end": 153.494
+ },
+ {
+  "text": "clue",
+  "start": 153.494,
+  "end": 153.76
+ },
+ {
+  "text": "about",
+  "start": 153.76,
+  "end": 153.992
+ },
+ {
+  "text": "where",
+  "start": 153.992,
+  "end": 154.131
+ },
+ {
+  "text": "things",
+  "start": 154.142,
+  "end": 154.478
+ },
+ {
+  "text": "were",
+  "start": 154.49,
+  "end": 154.594
+ },
+ {
+  "text": "heading",
+  "start": 154.594,
+  "end": 154.883
+ },
+ {
+  "text": "The",
+  "start": 155.003,
+  "end": 155.061
+ },
+ {
+  "text": "first",
+  "start": 155.061,
+  "end": 155.292
+ },
+ {
+  "text": "armistice",
+  "start": 155.292,
+  "end": 155.709
+ },
+ {
+  "text": "talks",
+  "start": 155.72,
+  "end": 155.998
+ },
+ {
+  "text": "were",
+  "start": 155.998,
+  "end": 156.091
+ },
+ {
+  "text": "held",
+  "start": 156.102,
+  "end": 156.334
+ },
+ {
+  "text": "that",
+  "start": 156.334,
+  "end": 156.507
+ },
+ {
+  "text": "year",
+  "start": 156.507,
+  "end": 156.797
+ },
+ {
+  "text": "in",
+  "start": 156.917,
+  "end": 157.056
+ },
+ {
+  "text": "Kaesong",
+  "start": 157.056,
+  "end": 157.646
+ },
+ {
+  "text": "Korea's",
+  "start": 157.816,
+  "end": 158.244
+ },
+ {
+  "text": "national",
+  "start": 158.244,
+  "end": 158.811
+ },
+ {
+  "text": "encyclopedia",
+  "start": 158.811,
+  "end": 159.541
+ },
+ {
+  "text": "describes",
+  "start": 159.552,
+  "end": 160.038
+ },
+ {
+  "text": "Kaesong",
+  "start": 160.038,
+  "end": 160.675
+ },
+ {
+  "text": "as",
+  "start": 160.795,
+  "end": 160.911
+ },
+ {
+  "text": "a",
+  "start": 160.922,
+  "end": 160.98
+ },
+ {
+  "text": "city",
+  "start": 160.98,
+  "end": 161.327
+ },
+ {
+  "text": "south",
+  "start": 161.327,
+  "end": 161.767
+ },
+ {
+  "text": "of",
+  "start": 161.779,
+  "end": 161.837
+ },
+ {
+  "text": "the",
+  "start": 161.837,
+  "end": 161.906
+ },
+ {
+  "text": "38th",
+  "start": 161.906,
+  "end": 162.589
+ },
+ {
+  "text": "parallel",
+  "start": 162.589,
+  "end": 163.156
+ },
+ {
+  "text": "Today",
+  "start": 163.326,
+  "end": 163.661
+ },
+ {
+  "text": "Kaesong",
+  "start": 163.781,
+  "end": 164.359
+ },
+ {
+  "text": "is",
+  "start": 164.371,
+  "end": 164.475
+ },
+ {
+  "text": "in",
+  "start": 164.475,
+  "end": 164.568
+ },
+ {
+  "text": "North",
+  "start": 164.579,
+  "end": 164.753
+ },
+ {
+  "text": "Korea",
+  "start": 164.753,
+  "end": 165.17
+ },
+ {
+  "text": "So",
+  "start": 165.34,
+  "end": 165.525
+ },
+ {
+  "text": "how",
+  "start": 165.525,
+  "end": 165.606
+ },
+ {
+  "text": "did",
+  "start": 165.606,
+  "end": 165.687
+ },
+ {
+  "text": "a",
+  "start": 165.687,
+  "end": 165.734
+ },
+ {
+  "text": "city",
+  "start": 165.734,
+  "end": 165.988
+ },
+ {
+  "text": "south",
+  "start": 165.988,
+  "end": 166.336
+ },
+ {
+  "text": "of",
+  "start": 166.336,
+  "end": 166.382
+ },
+ {
+  "text": "the",
+  "start": 166.382,
+  "end": 166.44
+ },
+ {
+  "text": "line",
+  "start": 166.44,
+  "end": 166.822
+ },
+ {
+  "text": "end",
+  "start": 166.942,
+  "end": 167.057
+ },
+ {
+  "text": "up",
+  "start": 167.057,
+  "end": 167.162
+ },
+ {
+  "text": "north",
+  "start": 167.162,
+  "end": 167.474
+ },
+ {
+  "text": "of",
+  "start": 167.474,
+  "end": 167.52
+ },
+ {
+  "text": "the",
+  "start": 167.52,
+  "end": 167.567
+ },
+ {
+  "text": "border",
+  "start": 167.567,
+  "end": 167.914
+ },
+ {
+  "text": "Hold",
+  "start": 168.034,
+  "end": 168.139
+ },
+ {
+  "text": "that",
+  "start": 168.139,
+  "end": 168.266
+ },
+ {
+  "text": "thought",
+  "start": 168.266,
+  "end": 168.648
+ },
+ {
+  "text": "The",
+  "start": 168.818,
+  "end": 168.864
+ },
+ {
+  "text": "talks",
+  "start": 168.864,
+  "end": 169.131
+ },
+ {
+  "text": "later",
+  "start": 169.131,
+  "end": 169.432
+ },
+ {
+  "text": "moved",
+  "start": 169.552,
+  "end": 169.853
+ },
+ {
+  "text": "to",
+  "start": 169.865,
+  "end": 170.015
+ },
+ {
+  "text": "a",
+  "start": 170.027,
+  "end": 170.096
+ },
+ {
+  "text": "village",
+  "start": 170.096,
+  "end": 170.582
+ },
+ {
+  "text": "called",
+  "start": 170.594,
+  "end": 170.802
+ },
+ {
+  "text": "Panmunjom",
+  "start": 170.802,
+  "end": 171.554
+ },
+ {
+  "text": "And",
+  "start": 171.674,
+  "end": 171.72
+ },
+ {
+  "text": "they",
+  "start": 171.72,
+  "end": 171.801
+ },
+ {
+  "text": "dragged",
+  "start": 171.802,
+  "end": 172.183
+ },
+ {
+  "text": "on",
+  "start": 172.195,
+  "end": 172.473
+ },
+ {
+  "text": "By",
+  "start": 172.593,
+  "end": 172.743
+ },
+ {
+  "text": "October 1952",
+  "start": 172.743,
+  "end": 174.178
+ },
+ {
+  "text": "the",
+  "start": 174.298,
+  "end": 174.367
+ },
+ {
+  "text": "encyclopedia",
+  "start": 174.367,
+  "end": 175.143
+ },
+ {
+  "text": "counts",
+  "start": 175.154,
+  "end": 175.559
+ },
+ {
+  "text": "200",
+  "start": 175.679,
+  "end": 176.176
+ },
+ {
+  "text": "meetings",
+  "start": 176.176,
+  "end": 176.663
+ },
+ {
+  "text": "and",
+  "start": 176.783,
+  "end": 176.968
+ },
+ {
+  "text": "345 hours",
+  "start": 176.968,
+  "end": 178.554
+ },
+ {
+  "text": "of",
+  "start": 178.554,
+  "end": 178.6
+ },
+ {
+  "text": "talks",
+  "start": 178.6,
+  "end": 179.109
+ },
+ {
+  "text": "So",
+  "start": 179.279,
+  "end": 179.417
+ },
+ {
+  "text": "where",
+  "start": 179.418,
+  "end": 179.522
+ },
+ {
+  "text": "did",
+  "start": 179.522,
+  "end": 179.614
+ },
+ {
+  "text": "the",
+  "start": 179.614,
+  "end": 179.661
+ },
+ {
+  "text": "shooting",
+  "start": 179.661,
+  "end": 180.089
+ },
+ {
+  "text": "finally",
+  "start": 180.1,
+  "end": 180.54
+ },
+ {
+  "text": "stop",
+  "start": 180.54,
+  "end": 180.98
+ },
+ {
+  "text": "So",
+  "start": 181.15,
+  "end": 181.3
+ },
+ {
+  "text": "part",
+  "start": 181.312,
+  "end": 181.532
+ },
+ {
+  "text": "two",
+  "start": 181.532,
+  "end": 181.844
+ },
+ {
+  "text": "Where",
+  "start": 181.964,
+  "end": 182.08
+ },
+ {
+  "text": "is",
+  "start": 182.08,
+  "end": 182.172
+ },
+ {
+  "text": "the",
+  "start": 182.172,
+  "end": 182.253
+ },
+ {
+  "text": "real",
+  "start": 182.265,
+  "end": 182.554
+ },
+ {
+  "text": "border",
+  "start": 182.554,
+  "end": 182.971
+ },
+ {
+  "text": "On",
+  "start": 183.141,
+  "end": 183.245
+ },
+ {
+  "text": "July 27, 1953",
+  "start": 183.257,
+  "end": 185.907
+ },
+ {
+  "text": "the",
+  "start": 186.027,
+  "end": 186.108
+ },
+ {
+  "text": "armistice",
+  "start": 186.108,
+  "end": 186.64
+ },
+ {
+  "text": "took",
+  "start": 186.64,
+  "end": 186.814
+ },
+ {
+  "text": "effect",
+  "start": 186.814,
+  "end": 187.3
+ },
+ {
+  "text": "at",
+  "start": 187.42,
+  "end": 187.524
+ },
+ {
+  "text": "ten",
+  "start": 187.524,
+  "end": 187.767
+ },
+ {
+  "text": "at",
+  "start": 187.767,
+  "end": 187.836
+ },
+ {
+  "text": "night",
+  "start": 187.836,
+  "end": 188.195
+ },
+ {
+  "text": "Fun",
+  "start": 188.365,
+  "end": 188.585
+ },
+ {
+  "text": "fact",
+  "start": 188.585,
+  "end": 189.013
+ },
+ {
+  "text": "armistice",
+  "start": 189.133,
+  "end": 189.827
+ },
+ {
+  "text": "comes",
+  "start": 189.897,
+  "end": 190.116
+ },
+ {
+  "text": "from",
+  "start": 190.128,
+  "end": 190.267
+ },
+ {
+  "text": "Latin",
+  "start": 190.267,
+  "end": 190.603
+ },
+ {
+  "text": "Roughly",
+  "start": 190.723,
+  "end": 191.139
+ },
+ {
+  "text": "a",
+  "start": 191.197,
+  "end": 191.243
+ },
+ {
+  "text": "rest",
+  "start": 191.243,
+  "end": 191.498
+ },
+ {
+  "text": "for",
+  "start": 191.498,
+  "end": 191.602
+ },
+ {
+  "text": "weapons",
+  "start": 191.614,
+  "end": 192.146
+ },
+ {
+  "text": "A",
+  "start": 192.266,
+  "end": 192.312
+ },
+ {
+  "text": "rest",
+  "start": 192.312,
+  "end": 192.786
+ },
+ {
+  "text": "Not",
+  "start": 192.906,
+  "end": 193.045
+ },
+ {
+  "text": "an",
+  "start": 193.045,
+  "end": 193.114
+ },
+ {
+  "text": "ending",
+  "start": 193.126,
+  "end": 193.438
+ },
+ {
+  "text": "It",
+  "start": 193.608,
+  "end": 193.665
+ },
+ {
+  "text": "did",
+  "start": 193.665,
+  "end": 193.793
+ },
+ {
+  "text": "not",
+  "start": 193.804,
+  "end": 194.082
+ },
+ {
+  "text": "use",
+  "start": 194.082,
+  "end": 194.383
+ },
+ {
+  "text": "the",
+  "start": 194.383,
+  "end": 194.476
+ },
+ {
+  "text": "38th",
+  "start": 194.476,
+  "end": 195.216
+ },
+ {
+  "text": "parallel",
+  "start": 195.228,
+  "end": 195.795
+ },
+ {
+  "text": "It",
+  "start": 195.915,
+  "end": 195.973
+ },
+ {
+  "text": "drew",
+  "start": 195.984,
+  "end": 196.146
+ },
+ {
+  "text": "a",
+  "start": 196.146,
+  "end": 196.181
+ },
+ {
+  "text": "new",
+  "start": 196.181,
+  "end": 196.436
+ },
+ {
+  "text": "line",
+  "start": 196.436,
+  "end": 196.829
+ },
+ {
+  "text": "where",
+  "start": 196.829,
+  "end": 196.933
+ },
+ {
+  "text": "the",
+  "start": 196.933,
+  "end": 197.014
+ },
+ {
+  "text": "two",
+  "start": 197.014,
+  "end": 197.304
+ },
+ {
+  "text": "armies",
+  "start": 197.315,
+  "end": 197.709
+ },
+ {
+  "text": "faced",
+  "start": 197.709,
+  "end": 198.172
+ },
+ {
+  "text": "each",
+  "start": 198.172,
+  "end": 198.334
+ },
+ {
+  "text": "other",
+  "start": 198.334,
+  "end": 198.554
+ },
+ {
+  "text": "the",
+  "start": 198.674,
+  "end": 198.72
+ },
+ {
+  "text": "Military",
+  "start": 198.72,
+  "end": 199.415
+ },
+ {
+  "text": "Demarcation",
+  "start": 199.519,
+  "end": 200.248
+ },
+ {
+  "text": "Line",
+  "start": 200.248,
+  "end": 200.537
+ },
+ {
+  "text": "Each",
+  "start": 200.707,
+  "end": 200.834
+ },
+ {
+  "text": "side",
+  "start": 200.846,
+  "end": 201.193
+ },
+ {
+  "text": "pulled",
+  "start": 201.204,
+  "end": 201.436
+ },
+ {
+  "text": "back",
+  "start": 201.447,
+  "end": 201.69
+ },
+ {
+  "text": "two",
+  "start": 201.69,
+  "end": 201.933
+ },
+ {
+  "text": "kilometers",
+  "start": 201.933,
+  "end": 202.663
+ },
+ {
+  "text": "That",
+  "start": 202.783,
+  "end": 202.852
+ },
+ {
+  "text": "made",
+  "start": 202.852,
+  "end": 202.98
+ },
+ {
+  "text": "a",
+  "start": 202.98,
+  "end": 203.026
+ },
+ {
+  "text": "strip",
+  "start": 203.026,
+  "end": 203.431
+ },
+ {
+  "text": "four",
+  "start": 203.443,
+  "end": 203.883
+ },
+ {
+  "text": "kilometers",
+  "start": 203.894,
+  "end": 204.403
+ },
+ {
+  "text": "wide",
+  "start": 204.403,
+  "end": 204.82
+ },
+ {
+  "text": "The",
+  "start": 204.94,
+  "end": 205.01
+ },
+ {
+  "text": "Demilitarized",
+  "start": 205.021,
+  "end": 205.693
+ },
+ {
+  "text": "Zone",
+  "start": 205.693,
+  "end": 206.098
+ },
+ {
+  "text": "or",
+  "start": 206.218,
+  "end": 206.369
+ },
+ {
+  "text": "DMZ",
+  "start": 206.489,
+  "end": 207.16
+ },
+ {
+  "text": "Now",
+  "start": 207.33,
+  "end": 207.492
+ },
+ {
+  "text": "put",
+  "start": 207.504,
+  "end": 207.643
+ },
+ {
+  "text": "both",
+  "start": 207.643,
+  "end": 207.897
+ },
+ {
+  "text": "lines",
+  "start": 207.897,
+  "end": 208.244
+ },
+ {
+  "text": "on",
+  "start": 208.244,
+  "end": 208.314
+ },
+ {
+  "text": "the",
+  "start": 208.314,
+  "end": 208.349
+ },
+ {
+  "text": "map",
+  "start": 208.36,
+  "end": 208.707
+ },
+ {
+  "text": "In",
+  "start": 208.877,
+  "end": 208.947
+ },
+ {
+  "text": "the",
+  "start": 208.958,
+  "end": 209.016
+ },
+ {
+  "text": "west",
+  "start": 209.016,
+  "end": 209.502
+ },
+ {
+  "text": "the",
+  "start": 209.622,
+  "end": 209.68
+ },
+ {
+  "text": "new",
+  "start": 209.68,
+  "end": 209.876
+ },
+ {
+  "text": "line",
+  "start": 209.888,
+  "end": 210.177
+ },
+ {
+  "text": "dips",
+  "start": 210.189,
+  "end": 210.467
+ },
+ {
+  "text": "south",
+  "start": 210.467,
+  "end": 210.895
+ },
+ {
+  "text": "of",
+  "start": 210.907,
+  "end": 210.941
+ },
+ {
+  "text": "the",
+  "start": 210.953,
+  "end": 211.022
+ },
+ {
+  "text": "38th",
+  "start": 211.022,
+  "end": 211.694
+ },
+ {
+  "text": "parallel",
+  "start": 211.694,
+  "end": 212.226
+ },
+ {
+  "text": "Kaesong",
+  "start": 212.346,
+  "end": 212.844
+ },
+ {
+  "text": "ended",
+  "start": 212.856,
+  "end": 213.052
+ },
+ {
+  "text": "up",
+  "start": 213.064,
+  "end": 213.203
+ },
+ {
+  "text": "on",
+  "start": 213.214,
+  "end": 213.272
+ },
+ {
+  "text": "the",
+  "start": 213.272,
+  "end": 213.307
+ },
+ {
+  "text": "North's",
+  "start": 213.319,
+  "end": 213.619
+ },
+ {
+  "text": "side",
+  "start": 213.619,
+  "end": 214.001
+ },
+ {
+  "text": "In",
+  "start": 214.171,
+  "end": 214.24
+ },
+ {
+  "text": "the",
+  "start": 214.24,
+  "end": 214.286
+ },
+ {
+  "text": "east",
+  "start": 214.298,
+  "end": 214.784
+ },
+ {
+  "text": "it",
+  "start": 214.904,
+  "end": 214.962
+ },
+ {
+  "text": "climbs",
+  "start": 214.973,
+  "end": 215.343
+ },
+ {
+  "text": "north",
+  "start": 215.343,
+  "end": 215.702
+ },
+ {
+  "text": "of",
+  "start": 215.714,
+  "end": 215.806
+ },
+ {
+  "text": "it",
+  "start": 215.818,
+  "end": 216.003
+ },
+ {
+  "text": "Sokcho",
+  "start": 216.173,
+  "end": 216.821
+ },
+ {
+  "text": "now",
+  "start": 216.941,
+  "end": 217.196
+ },
+ {
+  "text": "a",
+  "start": 217.207,
+  "end": 217.277
+ },
+ {
+  "text": "beach",
+  "start": 217.334,
+  "end": 217.624
+ },
+ {
+  "text": "city",
+  "start": 217.624,
+  "end": 217.971
+ },
+ {
+  "text": "in",
+  "start": 217.971,
+  "end": 218.075
+ },
+ {
+  "text": "South",
+  "start": 218.075,
+  "end": 218.376
+ },
+ {
+  "text": "Korea",
+  "start": 218.388,
+  "end": 218.839
+ },
+ {
+  "text": "was",
+  "start": 218.959,
+  "end": 219.109
+ },
+ {
+  "text": "north",
+  "start": 219.11,
+  "end": 219.387
+ },
+ {
+  "text": "of",
+  "start": 219.387,
+  "end": 219.434
+ },
+ {
+  "text": "the",
+  "start": 219.445,
+  "end": 219.515
+ },
+ {
+  "text": "38th",
+  "start": 219.526,
+  "end": 220.082
+ },
+ {
+  "text": "parallel",
+  "start": 220.082,
+  "end": 220.603
+ },
+ {
+  "text": "in 1945",
+  "start": 220.603,
+  "end": 221.76
+ },
+ {
+  "text": "According",
+  "start": 221.88,
+  "end": 222.216
+ },
+ {
+  "text": "to",
+  "start": 222.228,
+  "end": 222.32
+ },
+ {
+  "text": "Korea's",
+  "start": 222.32,
+  "end": 222.795
+ },
+ {
+  "text": "national",
+  "start": 222.806,
+  "end": 223.339
+ },
+ {
+  "text": "encyclopedia",
+  "start": 223.339,
+  "end": 224.195
+ },
+ {
+  "text": "it",
+  "start": 224.315,
+  "end": 224.373
+ },
+ {
+  "text": "was",
+  "start": 224.385,
+  "end": 224.512
+ },
+ {
+  "text": "under",
+  "start": 224.524,
+  "end": 224.744
+ },
+ {
+  "text": "North",
+  "start": 224.744,
+  "end": 224.998
+ },
+ {
+  "text": "Korean",
+  "start": 225.01,
+  "end": 225.392
+ },
+ {
+  "text": "rule",
+  "start": 225.392,
+  "end": 225.739
+ },
+ {
+  "text": "until",
+  "start": 225.859,
+  "end": 226.079
+ },
+ {
+  "text": "South",
+  "start": 226.079,
+  "end": 226.391
+ },
+ {
+  "text": "Korean",
+  "start": 226.391,
+  "end": 226.669
+ },
+ {
+  "text": "troops",
+  "start": 226.669,
+  "end": 227.109
+ },
+ {
+  "text": "took",
+  "start": 227.229,
+  "end": 227.425
+ },
+ {
+  "text": "it",
+  "start": 227.437,
+  "end": 227.495
+ },
+ {
+  "text": "in 1951",
+  "start": 227.495,
+  "end": 228.513
+ },
+ {
+  "text": "Goseong",
+  "start": 228.683,
+  "end": 229.1
+ },
+ {
+  "text": "County",
+  "start": 229.1,
+  "end": 229.586
+ },
+ {
+  "text": "on",
+  "start": 229.706,
+  "end": 229.799
+ },
+ {
+  "text": "the",
+  "start": 229.799,
+  "end": 229.833
+ },
+ {
+  "text": "east",
+  "start": 229.845,
+  "end": 230.088
+ },
+ {
+  "text": "coast",
+  "start": 230.088,
+  "end": 230.516
+ },
+ {
+  "text": "was",
+  "start": 230.636,
+  "end": 230.763
+ },
+ {
+  "text": "also",
+  "start": 230.775,
+  "end": 231.087
+ },
+ {
+  "text": "north",
+  "start": 231.087,
+  "end": 231.434
+ },
+ {
+  "text": "of",
+  "start": 231.446,
+  "end": 231.492
+ },
+ {
+  "text": "the",
+  "start": 231.492,
+  "end": 231.55
+ },
+ {
+  "text": "line",
+  "start": 231.55,
+  "end": 231.897
+ },
+ {
+  "text": "Four",
+  "start": 232.017,
+  "end": 232.156
+ },
+ {
+  "text": "of",
+  "start": 232.156,
+  "end": 232.225
+ },
+ {
+  "text": "its",
+  "start": 232.225,
+  "end": 232.353
+ },
+ {
+  "text": "townships",
+  "start": 232.353,
+  "end": 233.128
+ },
+ {
+  "text": "joined",
+  "start": 233.248,
+  "end": 233.515
+ },
+ {
+  "text": "the",
+  "start": 233.526,
+  "end": 233.584
+ },
+ {
+  "text": "South",
+  "start": 233.584,
+  "end": 233.989
+ },
+ {
+  "text": "in",
+  "start": 233.989,
+  "end": 234.082
+ },
+ {
+  "text": "October 1954",
+  "start": 234.093,
+  "end": 235.656
+ },
+ {
+  "text": "under",
+  "start": 235.776,
+  "end": 235.95
+ },
+ {
+  "text": "a",
+  "start": 235.95,
+  "end": 235.996
+ },
+ {
+  "text": "special",
+  "start": 235.996,
+  "end": 236.436
+ },
+ {
+  "text": "law",
+  "start": 236.436,
+  "end": 236.818
+ },
+ {
+  "text": "for",
+  "start": 236.938,
+  "end": 237.089
+ },
+ {
+  "text": "what",
+  "start": 237.089,
+  "end": 237.228
+ },
+ {
+  "text": "Korea",
+  "start": 237.228,
+  "end": 237.656
+ },
+ {
+  "text": "calls",
+  "start": 237.667,
+  "end": 237.991
+ },
+ {
+  "text": "recovered",
+  "start": 237.992,
+  "end": 238.397
+ },
+ {
+  "text": "areas",
+  "start": 238.397,
+  "end": 238.917
+ },
+ {
+  "text": "So",
+  "start": 239.087,
+  "end": 239.284
+ },
+ {
+  "text": "if",
+  "start": 239.295,
+  "end": 239.365
+ },
+ {
+  "text": "you're",
+  "start": 239.376,
+  "end": 239.446
+ },
+ {
+  "text": "driving",
+  "start": 239.446,
+  "end": 239.805
+ },
+ {
+  "text": "to",
+  "start": 239.816,
+  "end": 239.874
+ },
+ {
+  "text": "the",
+  "start": 239.874,
+  "end": 239.955
+ },
+ {
+  "text": "beach",
+  "start": 239.967,
+  "end": 240.302
+ },
+ {
+  "text": "in",
+  "start": 240.406,
+  "end": 240.545
+ },
+ {
+  "text": "Sokcho",
+  "start": 240.545,
+  "end": 241.24
+ },
+ {
+  "text": "you're",
+  "start": 241.36,
+  "end": 241.452
+ },
+ {
+  "text": "north",
+  "start": 241.452,
+  "end": 241.776
+ },
+ {
+  "text": "of",
+  "start": 241.776,
+  "end": 241.834
+ },
+ {
+  "text": "the",
+  "start": 241.834,
+  "end": 241.904
+ },
+ {
+  "text": "line",
+  "start": 241.904,
+  "end": 242.344
+ },
+ {
+  "text": "that",
+  "start": 242.464,
+  "end": 242.568
+ },
+ {
+  "text": "supposedly",
+  "start": 242.568,
+  "end": 243.181
+ },
+ {
+  "text": "splits",
+  "start": 243.181,
+  "end": 243.54
+ },
+ {
+  "text": "Korea",
+  "start": 243.54,
+  "end": 243.98
+ },
+ {
+  "text": "Bring",
+  "start": 244.15,
+  "end": 244.393
+ },
+ {
+  "text": "sunscreen",
+  "start": 244.393,
+  "end": 245.041
+ },
+ {
+  "text": "Not",
+  "start": 245.161,
+  "end": 245.254
+ },
+ {
+  "text": "a",
+  "start": 245.254,
+  "end": 245.288
+ },
+ {
+  "text": "passport",
+  "start": 245.289,
+  "end": 245.844
+ },
+ {
+  "text": "So",
+  "start": 246.014,
+  "end": 246.129
+ },
+ {
+  "text": "the",
+  "start": 246.129,
+  "end": 246.21
+ },
+ {
+  "text": "real",
+  "start": 246.21,
+  "end": 246.453
+ },
+ {
+  "text": "border",
+  "start": 246.453,
+  "end": 246.824
+ },
+ {
+  "text": "is",
+  "start": 246.944,
+  "end": 247.037
+ },
+ {
+  "text": "the",
+  "start": 247.048,
+  "end": 247.118
+ },
+ {
+  "text": "Military",
+  "start": 247.129,
+  "end": 247.835
+ },
+ {
+  "text": "Demarcation",
+  "start": 247.847,
+  "end": 248.553
+ },
+ {
+  "text": "Line",
+  "start": 248.565,
+  "end": 248.842
+ },
+ {
+  "text": "Simple",
+  "start": 248.962,
+  "end": 249.286
+ },
+ {
+  "text": "right",
+  "start": 249.286,
+  "end": 249.529
+ },
+ {
+  "text": "Not",
+  "start": 249.699,
+  "end": 249.849
+ },
+ {
+  "text": "quite",
+  "start": 249.861,
+  "end": 250.219
+ },
+ {
+  "text": "Because",
+  "start": 250.339,
+  "end": 250.559
+ },
+ {
+  "text": "here's",
+  "start": 250.559,
+  "end": 250.779
+ },
+ {
+  "text": "the",
+  "start": 250.779,
+  "end": 250.86
+ },
+ {
+  "text": "thing",
+  "start": 250.86,
+  "end": 251.092
+ },
+ {
+  "text": "about",
+  "start": 251.092,
+  "end": 251.335
+ },
+ {
+  "text": "that",
+  "start": 251.346,
+  "end": 251.52
+ },
+ {
+  "text": "line",
+  "start": 251.52,
+  "end": 251.809
+ },
+ {
+  "text": "According",
+  "start": 251.979,
+  "end": 252.233
+ },
+ {
+  "text": "to",
+  "start": 252.233,
+  "end": 252.314
+ },
+ {
+  "text": "a",
+  "start": 252.326,
+  "end": 252.395
+ },
+ {
+  "text": "Korea",
+  "start": 252.395,
+  "end": 252.777
+ },
+ {
+  "text": "Herald",
+  "start": 252.777,
+  "end": 253.136
+ },
+ {
+  "text": "column",
+  "start": 253.136,
+  "end": 253.518
+ },
+ {
+  "text": "it",
+  "start": 253.638,
+  "end": 253.684
+ },
+ {
+  "text": "was",
+  "start": 253.684,
+  "end": 253.8
+ },
+ {
+  "text": "drawn",
+  "start": 253.8,
+  "end": 254.182
+ },
+ {
+  "text": "by",
+  "start": 254.182,
+  "end": 254.332
+ },
+ {
+  "text": "hand",
+  "start": 254.332,
+  "end": 254.761
+ },
+ {
+  "text": "on",
+  "start": 254.842,
+  "end": 255.004
+ },
+ {
+  "text": "maps",
+  "start": 255.004,
+  "end": 255.409
+ },
+ {
+  "text": "attached",
+  "start": 255.42,
+  "end": 255.93
+ },
+ {
+  "text": "to",
+  "start": 255.93,
+  "end": 255.999
+ },
+ {
+  "text": "the",
+  "start": 256.011,
+  "end": 256.092
+ },
+ {
+  "text": "armistice",
+  "start": 256.092,
+  "end": 256.566
+ },
+ {
+  "text": "agreement",
+  "start": 256.566,
+  "end": 257.029
+ },
+ {
+  "text": "It",
+  "start": 257.149,
+  "end": 257.287
+ },
+ {
+  "text": "runs",
+  "start": 257.287,
+  "end": 257.565
+ },
+ {
+  "text": "for",
+  "start": 257.577,
+  "end": 257.739
+ },
+ {
+  "text": "about",
+  "start": 257.739,
+  "end": 258.04
+ },
+ {
+  "text": "250",
+  "start": 258.144,
+  "end": 258.885
+ },
+ {
+  "text": "kilometers",
+  "start": 258.885,
+  "end": 259.579
+ },
+ {
+  "text": "To",
+  "start": 259.749,
+  "end": 259.806
+ },
+ {
+  "text": "mark",
+  "start": 259.806,
+  "end": 260.049
+ },
+ {
+  "text": "it",
+  "start": 260.05,
+  "end": 260.096
+ },
+ {
+  "text": "on",
+  "start": 260.096,
+  "end": 260.165
+ },
+ {
+  "text": "the",
+  "start": 260.165,
+  "end": 260.212
+ },
+ {
+  "text": "ground",
+  "start": 260.212,
+  "end": 260.674
+ },
+ {
+  "text": "Korea",
+  "start": 260.794,
+  "end": 261.385
+ },
+ {
+  "text": "JoongAng",
+  "start": 261.505,
+  "end": 262.037
+ },
+ {
+  "text": "Daily",
+  "start": 262.107,
+  "end": 262.385
+ },
+ {
+  "text": "reports",
+  "start": 262.396,
+  "end": 263.033
+ },
+ {
+  "text": "1,292",
+  "start": 263.153,
+  "end": 264.842
+ },
+ {
+  "text": "markers",
+  "start": 264.842,
+  "end": 265.247
+ },
+ {
+  "text": "were",
+  "start": 265.248,
+  "end": 265.352
+ },
+ {
+  "text": "placed",
+  "start": 265.352,
+  "end": 265.699
+ },
+ {
+  "text": "from",
+  "start": 265.71,
+  "end": 265.803
+ },
+ {
+  "text": "the",
+  "start": 265.803,
+  "end": 265.849
+ },
+ {
+  "text": "mouth",
+  "start": 265.861,
+  "end": 266.289
+ },
+ {
+  "text": "of",
+  "start": 266.289,
+  "end": 266.359
+ },
+ {
+  "text": "the",
+  "start": 266.359,
+  "end": 266.416
+ },
+ {
+  "text": "Imjin",
+  "start": 266.428,
+  "end": 266.798
+ },
+ {
+  "text": "River",
+  "start": 266.798,
+  "end": 267.111
+ },
+ {
+  "text": "to",
+  "start": 267.231,
+  "end": 267.323
+ },
+ {
+  "text": "the",
+  "start": 267.323,
+  "end": 267.381
+ },
+ {
+  "text": "east",
+  "start": 267.381,
+  "end": 267.659
+ },
+ {
+  "text": "coast",
+  "start": 267.659,
+  "end": 268.133
+ },
+ {
+  "text": "One",
+  "start": 268.253,
+  "end": 268.473
+ },
+ {
+  "text": "every",
+  "start": 268.593,
+  "end": 268.824
+ },
+ {
+  "text": "200",
+  "start": 268.836,
+  "end": 269.264
+ },
+ {
+  "text": "meters",
+  "start": 269.275,
+  "end": 269.762
+ },
+ {
+  "text": "The",
+  "start": 269.932,
+  "end": 269.989
+ },
+ {
+  "text": "border",
+  "start": 269.989,
+  "end": 270.395
+ },
+ {
+  "text": "is",
+  "start": 270.476,
+  "end": 270.614
+ },
+ {
+  "text": "not",
+  "start": 270.614,
+  "end": 270.788
+ },
+ {
+  "text": "a",
+  "start": 270.788,
+  "end": 270.834
+ },
+ {
+  "text": "wall",
+  "start": 270.846,
+  "end": 271.205
+ },
+ {
+  "text": "It's",
+  "start": 271.325,
+  "end": 271.44
+ },
+ {
+  "text": "the",
+  "start": 271.44,
+  "end": 271.498
+ },
+ {
+  "text": "imaginary",
+  "start": 271.498,
+  "end": 272.274
+ },
+ {
+  "text": "line",
+  "start": 272.274,
+  "end": 272.76
+ },
+ {
+  "text": "joining",
+  "start": 272.88,
+  "end": 273.25
+ },
+ {
+  "text": "those",
+  "start": 273.25,
+  "end": 273.458
+ },
+ {
+  "text": "markers",
+  "start": 273.458,
+  "end": 274.083
+ },
+ {
+  "text": "So",
+  "start": 274.253,
+  "end": 274.368
+ },
+ {
+  "text": "what",
+  "start": 274.368,
+  "end": 274.461
+ },
+ {
+  "text": "happens",
+  "start": 274.461,
+  "end": 274.866
+ },
+ {
+  "text": "when",
+  "start": 274.866,
+  "end": 274.947
+ },
+ {
+  "text": "the",
+  "start": 274.947,
+  "end": 275.005
+ },
+ {
+  "text": "markers",
+  "start": 275.017,
+  "end": 275.433
+ },
+ {
+  "text": "disappear",
+  "start": 275.445,
+  "end": 276.023
+ },
+ {
+  "text": "And",
+  "start": 276.193,
+  "end": 276.262
+ },
+ {
+  "text": "that's",
+  "start": 276.274,
+  "end": 276.47
+ },
+ {
+  "text": "the",
+  "start": 276.482,
+  "end": 276.563
+ },
+ {
+  "text": "problem",
+  "start": 276.563,
+  "end": 277.003
+ },
+ {
+  "text": "So",
+  "start": 277.173,
+  "end": 277.347
+ },
+ {
+  "text": "part",
+  "start": 277.37,
+  "end": 277.613
+ },
+ {
+  "text": "three",
+  "start": 277.613,
+  "end": 278.018
+ },
+ {
+  "text": "Why",
+  "start": 278.138,
+  "end": 278.231
+ },
+ {
+  "text": "can't",
+  "start": 278.231,
+  "end": 278.393
+ },
+ {
+  "text": "anyone",
+  "start": 278.393,
+  "end": 278.601
+ },
+ {
+  "text": "agree",
+  "start": 278.601,
+  "end": 278.879
+ },
+ {
+  "text": "on",
+  "start": 278.879,
+  "end": 278.983
+ },
+ {
+  "text": "it",
+  "start": 278.983,
+  "end": 279.041
+ },
+ {
+  "text": "now",
+  "start": 279.041,
+  "end": 279.365
+ },
+ {
+  "text": "Part",
+  "start": 279.535,
+  "end": 279.65
+ },
+ {
+  "text": "of",
+  "start": 279.65,
+  "end": 279.697
+ },
+ {
+  "text": "the",
+  "start": 279.708,
+  "end": 279.801
+ },
+ {
+  "text": "answer",
+  "start": 279.801,
+  "end": 280.287
+ },
+ {
+  "text": "is",
+  "start": 280.407,
+  "end": 280.488
+ },
+ {
+  "text": "that",
+  "start": 280.488,
+  "end": 280.592
+ },
+ {
+  "text": "the",
+  "start": 280.604,
+  "end": 280.673
+ },
+ {
+  "text": "referees",
+  "start": 280.685,
+  "end": 281.24
+ },
+ {
+  "text": "left",
+  "start": 281.24,
+  "end": 281.692
+ },
+ {
+  "text": "The",
+  "start": 281.862,
+  "end": 281.931
+ },
+ {
+  "text": "armistice",
+  "start": 281.931,
+  "end": 282.568
+ },
+ {
+  "text": "set",
+  "start": 282.688,
+  "end": 282.838
+ },
+ {
+  "text": "up",
+  "start": 282.85,
+  "end": 282.931
+ },
+ {
+  "text": "a",
+  "start": 282.931,
+  "end": 282.977
+ },
+ {
+  "text": "commission",
+  "start": 282.977,
+  "end": 283.613
+ },
+ {
+  "text": "of",
+  "start": 283.625,
+  "end": 283.752
+ },
+ {
+  "text": "neutral",
+  "start": 283.752,
+  "end": 284.192
+ },
+ {
+  "text": "countries",
+  "start": 284.192,
+  "end": 284.748
+ },
+ {
+  "text": "to",
+  "start": 284.868,
+  "end": 284.96
+ },
+ {
+  "text": "watch",
+  "start": 284.972,
+  "end": 285.412
+ },
+ {
+  "text": "over",
+  "start": 285.412,
+  "end": 285.551
+ },
+ {
+  "text": "the",
+  "start": 285.551,
+  "end": 285.609
+ },
+ {
+  "text": "truce",
+  "start": 285.609,
+  "end": 286.176
+ },
+ {
+  "text": "According",
+  "start": 286.296,
+  "end": 286.666
+ },
+ {
+  "text": "to",
+  "start": 286.666,
+  "end": 286.759
+ },
+ {
+  "text": "Korea's",
+  "start": 286.759,
+  "end": 287.234
+ },
+ {
+  "text": "national",
+  "start": 287.234,
+  "end": 287.731
+ },
+ {
+  "text": "encyclopedia",
+  "start": 287.731,
+  "end": 288.541
+ },
+ {
+  "text": "North",
+  "start": 288.661,
+  "end": 288.858
+ },
+ {
+  "text": "Korea",
+  "start": 288.858,
+  "end": 289.321
+ },
+ {
+  "text": "pushed",
+  "start": 289.441,
+  "end": 289.777
+ },
+ {
+  "text": "out",
+  "start": 289.788,
+  "end": 289.95
+ },
+ {
+  "text": "the",
+  "start": 289.95,
+  "end": 290.02
+ },
+ {
+  "text": "Czechoslovak",
+  "start": 290.02,
+  "end": 290.853
+ },
+ {
+  "text": "delegation",
+  "start": 290.865,
+  "end": 291.42
+ },
+ {
+  "text": "in 1993",
+  "start": 291.432,
+  "end": 292.589
+ },
+ {
+  "text": "and",
+  "start": 292.709,
+  "end": 292.837
+ },
+ {
+  "text": "expelled",
+  "start": 292.848,
+  "end": 293.311
+ },
+ {
+  "text": "the",
+  "start": 293.323,
+  "end": 293.404
+ },
+ {
+  "text": "Polish",
+  "start": 293.415,
+  "end": 293.797
+ },
+ {
+  "text": "delegation",
+  "start": 293.797,
+  "end": 294.353
+ },
+ {
+  "text": "in 1995",
+  "start": 294.364,
+  "end": 295.429
+ },
+ {
+  "text": "The",
+  "start": 295.599,
+  "end": 295.657
+ },
+ {
+  "text": "Korea",
+  "start": 295.657,
+  "end": 296.016
+ },
+ {
+  "text": "Herald",
+  "start": 296.027,
+  "end": 296.305
+ },
+ {
+  "text": "column",
+  "start": 296.305,
+  "end": 296.722
+ },
+ {
+  "text": "says",
+  "start": 296.842,
+  "end": 297.05
+ },
+ {
+  "text": "the",
+  "start": 297.05,
+  "end": 297.143
+ },
+ {
+  "text": "armistice's",
+  "start": 297.143,
+  "end": 298.011
+ },
+ {
+  "text": "supervisory",
+  "start": 298.131,
+  "end": 298.93
+ },
+ {
+  "text": "mechanisms",
+  "start": 298.93,
+  "end": 299.578
+ },
+ {
+  "text": "were",
+  "start": 299.636,
+  "end": 299.798
+ },
+ {
+  "text": "weakened",
+  "start": 299.809,
+  "end": 300.272
+ },
+ {
+  "text": "in",
+  "start": 300.272,
+  "end": 300.376
+ },
+ {
+  "text": "the",
+  "start": 300.376,
+  "end": 300.469
+ },
+ {
+  "text": "early",
+  "start": 300.527,
+  "end": 300.77
+ },
+ {
+  "text": "1990s",
+  "start": 300.77,
+  "end": 301.707
+ },
+ {
+  "text": "But",
+  "start": 301.877,
+  "end": 301.934
+ },
+ {
+  "text": "the",
+  "start": 301.934,
+  "end": 302.004
+ },
+ {
+  "text": "bigger",
+  "start": 302.016,
+  "end": 302.259
+ },
+ {
+  "text": "problem",
+  "start": 302.259,
+  "end": 302.733
+ },
+ {
+  "text": "is",
+  "start": 302.853,
+  "end": 302.945
+ },
+ {
+  "text": "the",
+  "start": 302.945,
+  "end": 303.026
+ },
+ {
+  "text": "line",
+  "start": 303.038,
+  "end": 303.327
+ },
+ {
+  "text": "itself",
+  "start": 303.327,
+  "end": 303.94
+ },
+ {
+  "text": "The",
+  "start": 304.11,
+  "end": 304.167
+ },
+ {
+  "text": "Korea",
+  "start": 304.167,
+  "end": 304.526
+ },
+ {
+  "text": "Herald",
+  "start": 304.526,
+  "end": 304.839
+ },
+ {
+  "text": "column",
+  "start": 304.85,
+  "end": 305.279
+ },
+ {
+  "text": "says",
+  "start": 305.399,
+  "end": 305.584
+ },
+ {
+  "text": "the",
+  "start": 305.584,
+  "end": 305.653
+ },
+ {
+  "text": "markers",
+  "start": 305.653,
+  "end": 306.139
+ },
+ {
+  "text": "were",
+  "start": 306.139,
+  "end": 306.232
+ },
+ {
+  "text": "maintained",
+  "start": 306.243,
+  "end": 306.984
+ },
+ {
+  "text": "until 1973",
+  "start": 307.104,
+  "end": 308.4
+ },
+ {
+  "text": "That",
+  "start": 308.52,
+  "end": 308.682
+ },
+ {
+  "text": "year",
+  "start": 308.694,
+  "end": 309.064
+ },
+ {
+  "text": "a",
+  "start": 309.184,
+  "end": 309.219
+ },
+ {
+  "text": "South",
+  "start": 309.23,
+  "end": 309.531
+ },
+ {
+  "text": "Korean",
+  "start": 309.531,
+  "end": 309.797
+ },
+ {
+  "text": "soldier",
+  "start": 309.809,
+  "end": 310.179
+ },
+ {
+  "text": "was",
+  "start": 310.191,
+  "end": 310.318
+ },
+ {
+  "text": "killed",
+  "start": 310.318,
+  "end": 310.619
+ },
+ {
+  "text": "by",
+  "start": 310.619,
+  "end": 310.712
+ },
+ {
+  "text": "North",
+  "start": 310.712,
+  "end": 311.059
+ },
+ {
+  "text": "Korean",
+  "start": 311.059,
+  "end": 311.36
+ },
+ {
+  "text": "gunfire",
+  "start": 311.36,
+  "end": 311.915
+ },
+ {
+  "text": "during",
+  "start": 311.927,
+  "end": 312.182
+ },
+ {
+  "text": "maintenance",
+  "start": 312.193,
+  "end": 312.54
+ },
+ {
+  "text": "work",
+  "start": 312.54,
+  "end": 312.876
+ },
+ {
+  "text": "After",
+  "start": 313.046,
+  "end": 313.266
+ },
+ {
+  "text": "that",
+  "start": 313.266,
+  "end": 313.509
+ },
+ {
+  "text": "the",
+  "start": 313.521,
+  "end": 313.636
+ },
+ {
+  "text": "upkeep",
+  "start": 313.752,
+  "end": 314.099
+ },
+ {
+  "text": "stopped",
+  "start": 314.111,
+  "end": 314.597
+ },
+ {
+  "text": "Today",
+  "start": 314.717,
+  "end": 315.064
+ },
+ {
+  "text": "only",
+  "start": 315.184,
+  "end": 315.439
+ },
+ {
+  "text": "about",
+  "start": 315.439,
+  "end": 315.693
+ },
+ {
+  "text": "200",
+  "start": 315.705,
+  "end": 316.145
+ },
+ {
+  "text": "markers",
+  "start": 316.145,
+  "end": 316.55
+ },
+ {
+  "text": "are",
+  "start": 316.55,
+  "end": 316.642
+ },
+ {
+  "text": "believed",
+  "start": 316.642,
+  "end": 317.256
+ },
+ {
+  "text": "to",
+  "start": 317.376,
+  "end": 317.457
+ },
+ {
+  "text": "be",
+  "start": 317.457,
+  "end": 317.631
+ },
+ {
+  "text": "identifiable",
+  "start": 317.631,
+  "end": 318.418
+ },
+ {
+  "text": "Out",
+  "start": 318.588,
+  "end": 318.715
+ },
+ {
+  "text": "of",
+  "start": 318.727,
+  "end": 318.842
+ },
+ {
+  "text": "1,292",
+  "start": 318.842,
+  "end": 320.972
+ },
+ {
+  "text": "Scattered",
+  "start": 321.092,
+  "end": 321.52
+ },
+ {
+  "text": "across",
+  "start": 321.52,
+  "end": 321.856
+ },
+ {
+  "text": "mountains",
+  "start": 321.868,
+  "end": 322.435
+ },
+ {
+  "text": "valleys",
+  "start": 322.555,
+  "end": 323.145
+ },
+ {
+  "text": "and",
+  "start": 323.157,
+  "end": 323.226
+ },
+ {
+  "text": "marshes",
+  "start": 323.226,
+  "end": 323.84
+ },
+ {
+  "text": "most",
+  "start": 323.96,
+  "end": 324.319
+ },
+ {
+  "text": "of",
+  "start": 324.319,
+  "end": 324.365
+ },
+ {
+  "text": "them",
+  "start": 324.365,
+  "end": 324.481
+ },
+ {
+  "text": "are",
+  "start": 324.481,
+  "end": 324.562
+ },
+ {
+  "text": "gone",
+  "start": 324.573,
+  "end": 324.921
+ },
+ {
+  "text": "So",
+  "start": 325.091,
+  "end": 325.229
+ },
+ {
+  "text": "each",
+  "start": 325.241,
+  "end": 325.403
+ },
+ {
+  "text": "side",
+  "start": 325.415,
+  "end": 325.75
+ },
+ {
+  "text": "reconstructed",
+  "start": 325.762,
+  "end": 326.341
+ },
+ {
+  "text": "the",
+  "start": 326.341,
+  "end": 326.422
+ },
+ {
+  "text": "line",
+  "start": 326.422,
+  "end": 326.804
+ },
+ {
+  "text": "its",
+  "start": 326.924,
+  "end": 327.063
+ },
+ {
+  "text": "own",
+  "start": 327.074,
+  "end": 327.236
+ },
+ {
+  "text": "way",
+  "start": 327.236,
+  "end": 327.607
+ },
+ {
+  "text": "The",
+  "start": 327.777,
+  "end": 327.834
+ },
+ {
+  "text": "Korea",
+  "start": 327.834,
+  "end": 328.159
+ },
+ {
+  "text": "Herald",
+  "start": 328.17,
+  "end": 328.483
+ },
+ {
+  "text": "column",
+  "start": 328.483,
+  "end": 328.876
+ },
+ {
+  "text": "says",
+  "start": 328.996,
+  "end": 329.216
+ },
+ {
+  "text": "South",
+  "start": 329.227,
+  "end": 329.551
+ },
+ {
+  "text": "Korea",
+  "start": 329.563,
+  "end": 330.049
+ },
+ {
+  "text": "and",
+  "start": 330.169,
+  "end": 330.238
+ },
+ {
+  "text": "the",
+  "start": 330.238,
+  "end": 330.284
+ },
+ {
+  "text": "UN",
+  "start": 330.284,
+  "end": 330.666
+ },
+ {
+  "text": "Command",
+  "start": 330.678,
+  "end": 331.234
+ },
+ {
+  "text": "built",
+  "start": 331.315,
+  "end": 331.546
+ },
+ {
+  "text": "working",
+  "start": 331.546,
+  "end": 331.951
+ },
+ {
+  "text": "reference",
+  "start": 331.951,
+  "end": 332.333
+ },
+ {
+  "text": "lines",
+  "start": 332.345,
+  "end": 332.657
+ },
+ {
+  "text": "from",
+  "start": 332.657,
+  "end": 332.819
+ },
+ {
+  "text": "different",
+  "start": 332.889,
+  "end": 333.19
+ },
+ {
+  "text": "mixes",
+  "start": 333.19,
+  "end": 333.572
+ },
+ {
+  "text": "of",
+  "start": 333.583,
+  "end": 333.641
+ },
+ {
+  "text": "armistice",
+  "start": 333.653,
+  "end": 334.104
+ },
+ {
+  "text": "maps",
+  "start": 334.104,
+  "end": 334.497
+ },
+ {
+  "text": "surviving",
+  "start": 334.617,
+  "end": 335.115
+ },
+ {
+  "text": "markers",
+  "start": 335.115,
+  "end": 335.682
+ },
+ {
+  "text": "and",
+  "start": 335.802,
+  "end": 335.918
+ },
+ {
+  "text": "modern",
+  "start": 335.929,
+  "end": 336.253
+ },
+ {
+  "text": "mapping",
+  "start": 336.265,
+  "end": 336.543
+ },
+ {
+  "text": "data",
+  "start": 336.554,
+  "end": 336.936
+ },
+ {
+  "text": "But",
+  "start": 337.106,
+  "end": 337.187
+ },
+ {
+  "text": "whose",
+  "start": 337.187,
+  "end": 337.453
+ },
+ {
+  "text": "reconstruction",
+  "start": 337.465,
+  "end": 338.159
+ },
+ {
+  "text": "is",
+  "start": 338.159,
+  "end": 338.263
+ },
+ {
+  "text": "right",
+  "start": 338.263,
+  "end": 338.634
+ },
+ {
+  "text": "According",
+  "start": 338.804,
+  "end": 339.139
+ },
+ {
+  "text": "to",
+  "start": 339.139,
+  "end": 339.22
+ },
+ {
+  "text": "Seoul",
+  "start": 339.22,
+  "end": 339.683
+ },
+ {
+  "text": "Economic",
+  "start": 339.776,
+  "end": 340.216
+ },
+ {
+  "text": "Daily",
+  "start": 340.216,
+  "end": 340.632
+ },
+ {
+  "text": "the",
+  "start": 340.752,
+  "end": 340.833
+ },
+ {
+  "text": "South",
+  "start": 340.833,
+  "end": 341.111
+ },
+ {
+  "text": "Korean",
+  "start": 341.111,
+  "end": 341.388
+ },
+ {
+  "text": "military",
+  "start": 341.388,
+  "end": 341.921
+ },
+ {
+  "text": "uses",
+  "start": 342.041,
+  "end": 342.469
+ },
+ {
+  "text": "military",
+  "start": 342.469,
+  "end": 343.071
+ },
+ {
+  "text": "maps",
+  "start": 343.071,
+  "end": 343.487
+ },
+ {
+  "text": "made",
+  "start": 343.607,
+  "end": 343.804
+ },
+ {
+  "text": "by",
+  "start": 343.804,
+  "end": 343.931
+ },
+ {
+  "text": "a",
+  "start": 343.931,
+  "end": 343.954
+ },
+ {
+  "text": "U.S.",
+  "start": 343.954,
+  "end": 344.463
+ },
+ {
+  "text": "agency",
+  "start": 344.533,
+  "end": 345.1
+ },
+ {
+  "text": "in 2004",
+  "start": 345.22,
+  "end": 346.157
+ },
+ {
+  "text": "The",
+  "start": 346.327,
+  "end": 346.373
+ },
+ {
+  "text": "UN",
+  "start": 346.373,
+  "end": 346.755
+ },
+ {
+  "text": "Command",
+  "start": 346.755,
+  "end": 347.322
+ },
+ {
+  "text": "uses",
+  "start": 347.442,
+  "end": 347.801
+ },
+ {
+  "text": "coordinates",
+  "start": 347.812,
+  "end": 348.461
+ },
+ {
+  "text": "it",
+  "start": 348.565,
+  "end": 348.785
+ },
+ {
+  "text": "generated",
+  "start": 348.889,
+  "end": 349.386
+ },
+ {
+  "text": "itself",
+  "start": 349.386,
+  "end": 349.919
+ },
+ {
+  "text": "in",
+  "start": 350.039,
+  "end": 350.109
+ },
+ {
+  "text": "a",
+  "start": 350.109,
+  "end": 350.166
+ },
+ {
+  "text": "2016",
+  "start": 350.167,
+  "end": 351.116
+ },
+ {
+  "text": "project",
+  "start": 351.127,
+  "end": 351.66
+ },
+ {
+  "text": "And",
+  "start": 351.83,
+  "end": 351.945
+ },
+ {
+  "text": "North",
+  "start": 351.945,
+  "end": 352.212
+ },
+ {
+  "text": "Korea",
+  "start": 352.212,
+  "end": 352.721
+ },
+ {
+  "text": "uses",
+  "start": 352.825,
+  "end": 353.218
+ },
+ {
+  "text": "its",
+  "start": 353.219,
+  "end": 353.334
+ },
+ {
+  "text": "own",
+  "start": 353.438,
+  "end": 353.647
+ },
+ {
+  "text": "line",
+  "start": 353.647,
+  "end": 354.063
+ },
+ {
+  "text": "connecting",
+  "start": 354.183,
+  "end": 354.588
+ },
+ {
+  "text": "the",
+  "start": 354.588,
+  "end": 354.635
+ },
+ {
+  "text": "markers",
+  "start": 354.646,
+  "end": 355.271
+ },
+ {
+  "text": "Three",
+  "start": 355.441,
+  "end": 355.614
+ },
+ {
+  "text": "lines",
+  "start": 355.614,
+  "end": 356.17
+ },
+ {
+  "text": "One",
+  "start": 356.29,
+  "end": 356.486
+ },
+ {
+  "text": "border",
+  "start": 356.487,
+  "end": 356.892
+ },
+ {
+  "text": "And",
+  "start": 357.012,
+  "end": 357.07
+ },
+ {
+  "text": "they",
+  "start": 357.07,
+  "end": 357.163
+ },
+ {
+  "text": "don't",
+  "start": 357.163,
+  "end": 357.371
+ },
+ {
+  "text": "match",
+  "start": 357.371,
+  "end": 357.788
+ },
+ {
+  "text": "everywhere",
+  "start": 357.908,
+  "end": 358.487
+ },
+ {
+  "text": "So",
+  "start": 358.657,
+  "end": 358.761
+ },
+ {
+  "text": "what",
+  "start": 358.761,
+  "end": 358.842
+ },
+ {
+  "text": "happens",
+  "start": 358.853,
+  "end": 359.224
+ },
+ {
+  "text": "when",
+  "start": 359.224,
+  "end": 359.351
+ },
+ {
+  "text": "soldiers",
+  "start": 359.351,
+  "end": 359.988
+ },
+ {
+  "text": "follow",
+  "start": 359.999,
+  "end": 360.277
+ },
+ {
+  "text": "different",
+  "start": 360.289,
+  "end": 360.589
+ },
+ {
+  "text": "maps",
+  "start": 360.601,
+  "end": 361.11
+ },
+ {
+  "text": "South",
+  "start": 361.28,
+  "end": 361.511
+ },
+ {
+  "text": "Korea's",
+  "start": 361.511,
+  "end": 361.812
+ },
+ {
+  "text": "defense",
+  "start": 361.812,
+  "end": 362.205
+ },
+ {
+  "text": "ministry",
+  "start": 362.217,
+  "end": 362.715
+ },
+ {
+  "text": "says",
+  "start": 362.835,
+  "end": 363.02
+ },
+ {
+  "text": "the",
+  "start": 363.02,
+  "end": 363.124
+ },
+ {
+  "text": "two",
+  "start": 363.124,
+  "end": 363.332
+ },
+ {
+  "text": "Koreas",
+  "start": 363.344,
+  "end": 363.841
+ },
+ {
+  "text": "have",
+  "start": 363.853,
+  "end": 364.038
+ },
+ {
+  "text": "differing",
+  "start": 364.096,
+  "end": 364.374
+ },
+ {
+  "text": "perceptions",
+  "start": 364.374,
+  "end": 365.161
+ },
+ {
+  "text": "of",
+  "start": 365.23,
+  "end": 365.358
+ },
+ {
+  "text": "some",
+  "start": 365.358,
+  "end": 365.659
+ },
+ {
+  "text": "parts",
+  "start": 365.67,
+  "end": 365.96
+ },
+ {
+  "text": "of",
+  "start": 365.96,
+  "end": 365.994
+ },
+ {
+  "text": "the",
+  "start": 366.006,
+  "end": 366.064
+ },
+ {
+  "text": "line",
+  "start": 366.075,
+  "end": 366.388
+ },
+ {
+  "text": "It",
+  "start": 366.508,
+  "end": 366.578
+ },
+ {
+  "text": "says",
+  "start": 366.578,
+  "end": 366.786
+ },
+ {
+  "text": "that",
+  "start": 366.798,
+  "end": 367.029
+ },
+ {
+  "text": "raises",
+  "start": 367.041,
+  "end": 367.388
+ },
+ {
+  "text": "the",
+  "start": 367.388,
+  "end": 367.469
+ },
+ {
+  "text": "possibility",
+  "start": 367.469,
+  "end": 368.348
+ },
+ {
+  "text": "of",
+  "start": 368.468,
+  "end": 368.607
+ },
+ {
+  "text": "accidental",
+  "start": 368.723,
+  "end": 369.197
+ },
+ {
+  "text": "clashes",
+  "start": 369.197,
+  "end": 369.88
+ },
+ {
+  "text": "And",
+  "start": 370.05,
+  "end": 370.107
+ },
+ {
+  "text": "that",
+  "start": 370.107,
+  "end": 370.374
+ },
+ {
+  "text": "risk",
+  "start": 370.374,
+  "end": 370.744
+ },
+ {
+  "text": "is",
+  "start": 370.864,
+  "end": 370.98
+ },
+ {
+  "text": "no",
+  "start": 370.98,
+  "end": 371.258
+ },
+ {
+  "text": "longer",
+  "start": 371.258,
+  "end": 371.605
+ },
+ {
+  "text": "theoretical",
+  "start": 371.605,
+  "end": 372.276
+ },
+ {
+  "text": "Since",
+  "start": 372.446,
+  "end": 372.689
+ },
+ {
+  "text": "April 2024",
+  "start": 372.7,
+  "end": 373.834
+ },
+ {
+  "text": "North",
+  "start": 373.954,
+  "end": 374.197
+ },
+ {
+  "text": "Korea",
+  "start": 374.209,
+  "end": 374.648
+ },
+ {
+  "text": "has",
+  "start": 374.768,
+  "end": 374.93
+ },
+ {
+  "text": "been",
+  "start": 374.93,
+  "end": 375.08
+ },
+ {
+  "text": "fortifying",
+  "start": 375.092,
+  "end": 375.74
+ },
+ {
+  "text": "its",
+  "start": 375.751,
+  "end": 375.867
+ },
+ {
+  "text": "side",
+  "start": 375.879,
+  "end": 376.203
+ },
+ {
+  "text": "of",
+  "start": 376.214,
+  "end": 376.261
+ },
+ {
+  "text": "the",
+  "start": 376.261,
+  "end": 376.319
+ },
+ {
+  "text": "border",
+  "start": 376.319,
+  "end": 376.735
+ },
+ {
+  "text": "According",
+  "start": 376.855,
+  "end": 377.191
+ },
+ {
+  "text": "to",
+  "start": 377.202,
+  "end": 377.318
+ },
+ {
+  "text": "Korea",
+  "start": 377.33,
+  "end": 377.92
+ },
+ {
+  "text": "JoongAng",
+  "start": 378.04,
+  "end": 378.457
+ },
+ {
+  "text": "Daily",
+  "start": 378.469,
+  "end": 378.897
+ },
+ {
+  "text": "the",
+  "start": 379.017,
+  "end": 379.11
+ },
+ {
+  "text": "work",
+  "start": 379.122,
+  "end": 379.33
+ },
+ {
+  "text": "follows",
+  "start": 379.33,
+  "end": 379.735
+ },
+ {
+  "text": "a",
+  "start": 379.735,
+  "end": 379.781
+ },
+ {
+  "text": "set",
+  "start": 379.781,
+  "end": 380.117
+ },
+ {
+  "text": "order",
+  "start": 380.129,
+  "end": 380.476
+ },
+ {
+  "text": "clear",
+  "start": 380.596,
+  "end": 380.839
+ },
+ {
+  "text": "the",
+  "start": 380.839,
+  "end": 380.92
+ },
+ {
+  "text": "land",
+  "start": 380.92,
+  "end": 381.325
+ },
+ {
+  "text": "lay",
+  "start": 381.445,
+  "end": 381.642
+ },
+ {
+  "text": "mines",
+  "start": 381.642,
+  "end": 382.186
+ },
+ {
+  "text": "put",
+  "start": 382.306,
+  "end": 382.422
+ },
+ {
+  "text": "up",
+  "start": 382.422,
+  "end": 382.503
+ },
+ {
+  "text": "triple",
+  "start": 382.503,
+  "end": 382.861
+ },
+ {
+  "text": "fences",
+  "start": 382.861,
+  "end": 383.452
+ },
+ {
+  "text": "build",
+  "start": 383.572,
+  "end": 383.896
+ },
+ {
+  "text": "tactical",
+  "start": 383.907,
+  "end": 384.382
+ },
+ {
+  "text": "roads",
+  "start": 384.382,
+  "end": 384.868
+ },
+ {
+  "text": "South",
+  "start": 385.038,
+  "end": 385.281
+ },
+ {
+  "text": "Korean",
+  "start": 385.292,
+  "end": 385.57
+ },
+ {
+  "text": "lawmakers",
+  "start": 385.582,
+  "end": 386.091
+ },
+ {
+  "text": "were",
+  "start": 386.091,
+  "end": 386.183
+ },
+ {
+  "text": "told",
+  "start": 386.195,
+  "end": 386.473
+ },
+ {
+  "text": "the",
+  "start": 386.484,
+  "end": 386.531
+ },
+ {
+  "text": "North",
+  "start": 386.542,
+  "end": 386.878
+ },
+ {
+  "text": "may",
+  "start": 386.878,
+  "end": 387.086
+ },
+ {
+  "text": "have",
+  "start": 387.086,
+  "end": 387.225
+ },
+ {
+  "text": "laid",
+  "start": 387.225,
+  "end": 387.399
+ },
+ {
+  "text": "about",
+  "start": 387.399,
+  "end": 387.676
+ },
+ {
+  "text": "960,000",
+  "start": 387.688,
+  "end": 389.065
+ },
+ {
+  "text": "landmines",
+  "start": 389.065,
+  "end": 389.725
+ },
+ {
+  "text": "in",
+  "start": 389.845,
+  "end": 389.938
+ },
+ {
+  "text": "the",
+  "start": 389.938,
+  "end": 390.042
+ },
+ {
+  "text": "DMZ",
+  "start": 390.053,
+  "end": 390.563
+ },
+ {
+  "text": "area",
+  "start": 390.563,
+  "end": 390.91
+ },
+ {
+  "text": "since 2024",
+  "start": 391.03,
+  "end": 392.129
+ },
+ {
+  "text": "Military",
+  "start": 392.249,
+  "end": 392.747
+ },
+ {
+  "text": "experts",
+  "start": 392.747,
+  "end": 393.268
+ },
+ {
+  "text": "put",
+  "start": 393.36,
+  "end": 393.534
+ },
+ {
+  "text": "the",
+  "start": 393.546,
+  "end": 393.638
+ },
+ {
+  "text": "total",
+  "start": 393.65,
+  "end": 394.055
+ },
+ {
+  "text": "inside",
+  "start": 394.055,
+  "end": 394.599
+ },
+ {
+  "text": "the",
+  "start": 394.599,
+  "end": 394.668
+ },
+ {
+  "text": "DMZ",
+  "start": 394.668,
+  "end": 395.363
+ },
+ {
+  "text": "at",
+  "start": 395.432,
+  "end": 395.525
+ },
+ {
+  "text": "about",
+  "start": 395.525,
+  "end": 395.826
+ },
+ {
+  "text": "two",
+  "start": 395.837,
+  "end": 396.115
+ },
+ {
+  "text": "million",
+  "start": 396.127,
+  "end": 396.636
+ },
+ {
+  "text": "counting",
+  "start": 396.756,
+  "end": 397.011
+ },
+ {
+  "text": "the",
+  "start": 397.011,
+  "end": 397.08
+ },
+ {
+  "text": "South's",
+  "start": 397.08,
+  "end": 397.439
+ },
+ {
+  "text": "mines",
+  "start": 397.439,
+  "end": 397.752
+ },
+ {
+  "text": "too",
+  "start": 397.763,
+  "end": 398.099
+ },
+ {
+  "text": "In",
+  "start": 398.269,
+  "end": 398.373
+ },
+ {
+  "text": "September",
+  "start": 398.373,
+  "end": 399.021
+ },
+ {
+  "text": "South",
+  "start": 399.141,
+  "end": 399.442
+ },
+ {
+  "text": "Korean",
+  "start": 399.454,
+  "end": 399.755
+ },
+ {
+  "text": "soldiers",
+  "start": 399.755,
+  "end": 400.16
+ },
+ {
+  "text": "were",
+  "start": 400.16,
+  "end": 400.264
+ },
+ {
+  "text": "injured",
+  "start": 400.276,
+  "end": 400.692
+ },
+ {
+  "text": "in",
+  "start": 400.692,
+  "end": 400.796
+ },
+ {
+  "text": "a",
+  "start": 400.797,
+  "end": 400.831
+ },
+ {
+  "text": "North",
+  "start": 400.831,
+  "end": 401.202
+ },
+ {
+  "text": "Korean",
+  "start": 401.202,
+  "end": 401.641
+ },
+ {
+  "text": "landmine",
+  "start": 401.641,
+  "end": 402.07
+ },
+ {
+  "text": "blast",
+  "start": 402.07,
+  "end": 402.59
+ },
+ {
+  "text": "according",
+  "start": 402.71,
+  "end": 403.092
+ },
+ {
+  "text": "to",
+  "start": 403.092,
+  "end": 403.161
+ },
+ {
+  "text": "the",
+  "start": 403.161,
+  "end": 403.231
+ },
+ {
+  "text": "ministry",
+  "start": 403.242,
+  "end": 403.798
+ },
+ {
+  "text": "And",
+  "start": 403.968,
+  "end": 404.049
+ },
+ {
+  "text": "on",
+  "start": 404.049,
+  "end": 404.13
+ },
+ {
+  "text": "the",
+  "start": 404.13,
+  "end": 404.187
+ },
+ {
+  "text": "eastern",
+  "start": 404.187,
+  "end": 404.512
+ },
+ {
+  "text": "front",
+  "start": 404.512,
+  "end": 404.882
+ },
+ {
+  "text": "military",
+  "start": 405.002,
+  "end": 405.465
+ },
+ {
+  "text": "sources",
+  "start": 405.477,
+  "end": 405.917
+ },
+ {
+  "text": "told",
+  "start": 405.928,
+  "end": 406.264
+ },
+ {
+  "text": "Korea",
+  "start": 406.264,
+  "end": 406.738
+ },
+ {
+  "text": "JoongAng",
+  "start": 406.858,
+  "end": 407.286
+ },
+ {
+  "text": "Daily",
+  "start": 407.286,
+  "end": 407.61
+ },
+ {
+  "text": "that",
+  "start": 407.61,
+  "end": 407.726
+ },
+ {
+  "text": "armed",
+  "start": 407.726,
+  "end": 408.038
+ },
+ {
+  "text": "North",
+  "start": 408.05,
+  "end": 408.339
+ },
+ {
+  "text": "Korean",
+  "start": 408.351,
+  "end": 408.652
+ },
+ {
+  "text": "guards",
+  "start": 408.652,
+  "end": 408.987
+ },
+ {
+  "text": "cross",
+  "start": 408.999,
+  "end": 409.381
+ },
+ {
+  "text": "the",
+  "start": 409.393,
+  "end": 409.497
+ },
+ {
+  "text": "line",
+  "start": 409.497,
+  "end": 409.925
+ },
+ {
+  "text": "almost",
+  "start": 410.006,
+  "end": 410.469
+ },
+ {
+  "text": "daily",
+  "start": 410.469,
+  "end": 410.851
+ },
+ {
+  "text": "along",
+  "start": 410.971,
+  "end": 411.318
+ },
+ {
+  "text": "paths",
+  "start": 411.33,
+  "end": 411.793
+ },
+ {
+  "text": "created",
+  "start": 411.793,
+  "end": 412.221
+ },
+ {
+  "text": "by",
+  "start": 412.221,
+  "end": 412.325
+ },
+ {
+  "text": "the",
+  "start": 412.337,
+  "end": 412.406
+ },
+ {
+  "text": "clearing",
+  "start": 412.406,
+  "end": 412.742
+ },
+ {
+  "text": "work",
+  "start": 412.742,
+  "end": 413.089
+ },
+ {
+  "text": "The",
+  "start": 413.209,
+  "end": 413.279
+ },
+ {
+  "text": "South",
+  "start": 413.29,
+  "end": 413.591
+ },
+ {
+  "text": "answers",
+  "start": 413.591,
+  "end": 413.996
+ },
+ {
+  "text": "with",
+  "start": 414.008,
+  "end": 414.147
+ },
+ {
+  "text": "warning",
+  "start": 414.147,
+  "end": 414.471
+ },
+ {
+  "text": "broadcasts",
+  "start": 414.471,
+  "end": 415.212
+ },
+ {
+  "text": "and",
+  "start": 415.293,
+  "end": 415.489
+ },
+ {
+  "text": "warning",
+  "start": 415.489,
+  "end": 415.755
+ },
+ {
+  "text": "shots",
+  "start": 415.755,
+  "end": 416.265
+ },
+ {
+  "text": "Then",
+  "start": 416.435,
+  "end": 416.574
+ },
+ {
+  "text": "in",
+  "start": 416.694,
+  "end": 416.787
+ },
+ {
+  "text": "October",
+  "start": 416.787,
+  "end": 417.331
+ },
+ {
+  "text": "something",
+  "start": 417.342,
+  "end": 417.678
+ },
+ {
+  "text": "new",
+  "start": 417.689,
+  "end": 417.99
+ },
+ {
+  "text": "For",
+  "start": 418.16,
+  "end": 418.217
+ },
+ {
+  "text": "the",
+  "start": 418.217,
+  "end": 418.275
+ },
+ {
+  "text": "first",
+  "start": 418.287,
+  "end": 418.553
+ },
+ {
+  "text": "time",
+  "start": 418.553,
+  "end": 418.889
+ },
+ {
+  "text": "a",
+  "start": 419.009,
+  "end": 419.032
+ },
+ {
+  "text": "North",
+  "start": 419.032,
+  "end": 419.345
+ },
+ {
+  "text": "Korean",
+  "start": 419.356,
+  "end": 419.692
+ },
+ {
+  "text": "fence",
+  "start": 419.704,
+  "end": 420.225
+ },
+ {
+  "text": "appeared",
+  "start": 420.306,
+  "end": 420.687
+ },
+ {
+  "text": "to",
+  "start": 420.687,
+  "end": 420.757
+ },
+ {
+  "text": "sit",
+  "start": 420.769,
+  "end": 421.069
+ },
+ {
+  "text": "south",
+  "start": 421.069,
+  "end": 421.486
+ },
+ {
+  "text": "of",
+  "start": 421.498,
+  "end": 421.544
+ },
+ {
+  "text": "the",
+  "start": 421.556,
+  "end": 421.613
+ },
+ {
+  "text": "line",
+  "start": 421.613,
+  "end": 422.03
+ },
+ {
+  "text": "as",
+  "start": 422.15,
+  "end": 422.277
+ },
+ {
+  "text": "South",
+  "start": 422.289,
+  "end": 422.566
+ },
+ {
+  "text": "Korea",
+  "start": 422.566,
+  "end": 422.844
+ },
+ {
+  "text": "defines",
+  "start": 422.844,
+  "end": 423.307
+ },
+ {
+  "text": "it",
+  "start": 423.307,
+  "end": 423.469
+ },
+ {
+  "text": "Before",
+  "start": 423.589,
+  "end": 423.913
+ },
+ {
+  "text": "that",
+  "start": 423.914,
+  "end": 424.214
+ },
+ {
+  "text": "the",
+  "start": 424.334,
+  "end": 424.427
+ },
+ {
+  "text": "closest",
+  "start": 424.438,
+  "end": 424.924
+ },
+ {
+  "text": "fence",
+  "start": 424.936,
+  "end": 425.283
+ },
+ {
+  "text": "found",
+  "start": 425.295,
+  "end": 425.677
+ },
+ {
+  "text": "was",
+  "start": 425.677,
+  "end": 425.792
+ },
+ {
+  "text": "about",
+  "start": 425.792,
+  "end": 426.059
+ },
+ {
+  "text": "80",
+  "start": 426.179,
+  "end": 426.376
+ },
+ {
+  "text": "meters",
+  "start": 426.376,
+  "end": 426.723
+ },
+ {
+  "text": "north",
+  "start": 426.723,
+  "end": 427.024
+ },
+ {
+  "text": "of",
+  "start": 427.035,
+  "end": 427.116
+ },
+ {
+  "text": "it",
+  "start": 427.116,
+  "end": 427.278
+ },
+ {
+  "text": "South",
+  "start": 427.448,
+  "end": 427.691
+ },
+ {
+  "text": "Korea's",
+  "start": 427.702,
+  "end": 428.015
+ },
+ {
+  "text": "military",
+  "start": 428.026,
+  "end": 428.651
+ },
+ {
+  "text": "said",
+  "start": 428.771,
+  "end": 428.979
+ },
+ {
+  "text": "a",
+  "start": 429.037,
+  "end": 429.106
+ },
+ {
+  "text": "joint",
+  "start": 429.118,
+  "end": 429.453
+ },
+ {
+  "text": "check",
+  "start": 429.454,
+  "end": 429.743
+ },
+ {
+  "text": "with",
+  "start": 429.743,
+  "end": 429.835
+ },
+ {
+  "text": "the",
+  "start": 429.835,
+  "end": 429.893
+ },
+ {
+  "text": "UN",
+  "start": 429.893,
+  "end": 430.241
+ },
+ {
+  "text": "Command",
+  "start": 430.252,
+  "end": 430.704
+ },
+ {
+  "text": "was",
+  "start": 430.715,
+  "end": 430.854
+ },
+ {
+  "text": "needed",
+  "start": 430.866,
+  "end": 431.178
+ },
+ {
+  "text": "to",
+  "start": 431.178,
+  "end": 431.259
+ },
+ {
+  "text": "confirm",
+  "start": 431.271,
+  "end": 431.676
+ },
+ {
+  "text": "it",
+  "start": 431.676,
+  "end": 431.849
+ },
+ {
+  "text": "North",
+  "start": 432.019,
+  "end": 432.204
+ },
+ {
+  "text": "Korea",
+  "start": 432.204,
+  "end": 432.713
+ },
+ {
+  "text": "for",
+  "start": 432.833,
+  "end": 432.972
+ },
+ {
+  "text": "its",
+  "start": 432.972,
+  "end": 433.053
+ },
+ {
+  "text": "part",
+  "start": 433.053,
+  "end": 433.342
+ },
+ {
+  "text": "says",
+  "start": 433.462,
+  "end": 433.636
+ },
+ {
+  "text": "it",
+  "start": 433.636,
+  "end": 433.705
+ },
+ {
+  "text": "will",
+  "start": 433.705,
+  "end": 433.821
+ },
+ {
+  "text": "hold",
+  "start": 433.821,
+  "end": 434.156
+ },
+ {
+  "text": "to",
+  "start": 434.157,
+  "end": 434.226
+ },
+ {
+  "text": "the",
+  "start": 434.226,
+  "end": 434.33
+ },
+ {
+  "text": "line",
+  "start": 434.33,
+  "end": 434.712
+ },
+ {
+  "text": "as",
+  "start": 434.712,
+  "end": 434.828
+ },
+ {
+  "text": "it",
+  "start": 434.828,
+  "end": 434.897
+ },
+ {
+  "text": "defines",
+  "start": 434.909,
+  "end": 435.453
+ },
+ {
+  "text": "it",
+  "start": 435.464,
+  "end": 435.603
+ },
+ {
+  "text": "and",
+  "start": 435.723,
+  "end": 435.804
+ },
+ {
+  "text": "threatens",
+  "start": 435.804,
+  "end": 436.313
+ },
+ {
+  "text": "to",
+  "start": 436.325,
+  "end": 436.406
+ },
+ {
+  "text": "respond",
+  "start": 436.406,
+  "end": 436.985
+ },
+ {
+  "text": "to",
+  "start": 436.996,
+  "end": 437.112
+ },
+ {
+  "text": "any",
+  "start": 437.193,
+  "end": 437.39
+ },
+ {
+  "text": "violation",
+  "start": 437.39,
+  "end": 438.038
+ },
+ {
+  "text": "however",
+  "start": 438.158,
+  "end": 438.505
+ },
+ {
+  "text": "small",
+  "start": 438.505,
+  "end": 438.899
+ },
+ {
+  "text": "So",
+  "start": 439.069,
+  "end": 439.208
+ },
+ {
+  "text": "who",
+  "start": 439.208,
+  "end": 439.335
+ },
+ {
+  "text": "decides",
+  "start": 439.347,
+  "end": 439.821
+ },
+ {
+  "text": "where",
+  "start": 439.822,
+  "end": 439.903
+ },
+ {
+  "text": "the",
+  "start": 439.903,
+  "end": 439.983
+ },
+ {
+  "text": "line",
+  "start": 439.983,
+  "end": 440.261
+ },
+ {
+  "text": "is",
+  "start": 440.261,
+  "end": 440.62
+ },
+ {
+  "text": "The",
+  "start": 440.79,
+  "end": 440.836
+ },
+ {
+  "text": "UN",
+  "start": 440.836,
+  "end": 441.148
+ },
+ {
+  "text": "Command",
+  "start": 441.148,
+  "end": 441.542
+ },
+ {
+  "text": "has",
+  "start": 441.542,
+  "end": 441.692
+ },
+ {
+  "text": "said",
+  "start": 441.704,
+  "end": 441.959
+ },
+ {
+  "text": "North",
+  "start": 441.97,
+  "end": 442.306
+ },
+ {
+  "text": "Korean",
+  "start": 442.306,
+  "end": 442.56
+ },
+ {
+  "text": "construction",
+  "start": 442.56,
+  "end": 443.185
+ },
+ {
+  "text": "is",
+  "start": 443.305,
+  "end": 443.398
+ },
+ {
+  "text": "not",
+  "start": 443.398,
+  "end": 443.71
+ },
+ {
+  "text": "a",
+  "start": 443.71,
+  "end": 443.745
+ },
+ {
+  "text": "violation",
+  "start": 443.745,
+  "end": 444.324
+ },
+ {
+  "text": "of",
+  "start": 444.324,
+  "end": 444.382
+ },
+ {
+  "text": "the",
+  "start": 444.382,
+  "end": 444.451
+ },
+ {
+  "text": "armistice",
+  "start": 444.451,
+  "end": 445.111
+ },
+ {
+  "text": "as",
+  "start": 445.231,
+  "end": 445.381
+ },
+ {
+  "text": "long",
+  "start": 445.393,
+  "end": 445.682
+ },
+ {
+  "text": "as",
+  "start": 445.694,
+  "end": 445.763
+ },
+ {
+  "text": "it",
+  "start": 445.763,
+  "end": 445.833
+ },
+ {
+  "text": "stays",
+  "start": 445.833,
+  "end": 446.226
+ },
+ {
+  "text": "north",
+  "start": 446.226,
+  "end": 446.62
+ },
+ {
+  "text": "of",
+  "start": 446.62,
+  "end": 446.666
+ },
+ {
+  "text": "the",
+  "start": 446.666,
+  "end": 446.724
+ },
+ {
+  "text": "line",
+  "start": 446.736,
+  "end": 447.06
+ },
+ {
+  "text": "Which",
+  "start": 447.23,
+  "end": 447.357
+ },
+ {
+  "text": "works",
+  "start": 447.369,
+  "end": 447.577
+ },
+ {
+  "text": "perfectly",
+  "start": 447.588,
+  "end": 448.283
+ },
+ {
+  "text": "as",
+  "start": 448.403,
+  "end": 448.554
+ },
+ {
+  "text": "long",
+  "start": 448.554,
+  "end": 448.762
+ },
+ {
+  "text": "as",
+  "start": 448.762,
+  "end": 448.855
+ },
+ {
+  "text": "everyone",
+  "start": 448.855,
+  "end": 449.19
+ },
+ {
+  "text": "agrees",
+  "start": 449.19,
+  "end": 449.7
+ },
+ {
+  "text": "where",
+  "start": 449.7,
+  "end": 449.792
+ },
+ {
+  "text": "the",
+  "start": 449.792,
+  "end": 449.862
+ },
+ {
+  "text": "line",
+  "start": 449.862,
+  "end": 450.197
+ },
+ {
+  "text": "is",
+  "start": 450.197,
+  "end": 450.51
+ },
+ {
+  "text": "Korea",
+  "start": 450.68,
+  "end": 451.097
+ },
+ {
+  "text": "JoongAng",
+  "start": 451.178,
+  "end": 451.756
+ },
+ {
+  "text": "Daily",
+  "start": 451.826,
+  "end": 452.115
+ },
+ {
+  "text": "reports",
+  "start": 452.127,
+  "end": 452.601
+ },
+ {
+  "text": "that",
+  "start": 452.601,
+  "end": 452.763
+ },
+ {
+  "text": "this",
+  "start": 452.775,
+  "end": 452.949
+ },
+ {
+  "text": "year",
+  "start": 452.949,
+  "end": 453.168
+ },
+ {
+  "text": "the",
+  "start": 453.168,
+  "end": 453.249
+ },
+ {
+  "text": "South",
+  "start": 453.249,
+  "end": 453.574
+ },
+ {
+  "text": "Korean",
+  "start": 453.574,
+  "end": 453.84
+ },
+ {
+  "text": "military",
+  "start": 453.84,
+  "end": 454.245
+ },
+ {
+  "text": "planned",
+  "start": 454.256,
+  "end": 454.708
+ },
+ {
+  "text": "its",
+  "start": 454.828,
+  "end": 454.967
+ },
+ {
+  "text": "first",
+  "start": 454.978,
+  "end": 455.372
+ },
+ {
+  "text": "on-site",
+  "start": 455.476,
+  "end": 455.962
+ },
+ {
+  "text": "survey",
+  "start": 455.962,
+  "end": 456.599
+ },
+ {
+  "text": "inside",
+  "start": 456.719,
+  "end": 457.321
+ },
+ {
+  "text": "the",
+  "start": 457.321,
+  "end": 457.402
+ },
+ {
+  "text": "DMZ",
+  "start": 457.414,
+  "end": 458.178
+ },
+ {
+  "text": "coordinated",
+  "start": 458.298,
+  "end": 458.83
+ },
+ {
+  "text": "with",
+  "start": 458.842,
+  "end": 458.923
+ },
+ {
+  "text": "the",
+  "start": 458.923,
+  "end": 458.981
+ },
+ {
+  "text": "UN",
+  "start": 458.981,
+  "end": 459.305
+ },
+ {
+  "text": "Command",
+  "start": 459.316,
+  "end": 459.826
+ },
+ {
+  "text": "So",
+  "start": 459.996,
+  "end": 460.123
+ },
+ {
+  "text": "on",
+  "start": 460.123,
+  "end": 460.204
+ },
+ {
+  "text": "October 23",
+  "start": 460.204,
+  "end": 461.176
+ },
+ {
+  "text": "Seoul",
+  "start": 461.296,
+  "end": 461.574
+ },
+ {
+  "text": "proposed",
+  "start": 461.586,
+  "end": 462.118
+ },
+ {
+  "text": "military",
+  "start": 462.118,
+  "end": 462.662
+ },
+ {
+  "text": "talks",
+  "start": 462.662,
+  "end": 462.998
+ },
+ {
+  "text": "to",
+  "start": 462.998,
+  "end": 463.09
+ },
+ {
+  "text": "confirm",
+  "start": 463.102,
+  "end": 463.576
+ },
+ {
+  "text": "the",
+  "start": 463.588,
+  "end": 463.646
+ },
+ {
+  "text": "exact",
+  "start": 463.646,
+  "end": 464.143
+ },
+ {
+  "text": "location",
+  "start": 464.155,
+  "end": 464.641
+ },
+ {
+  "text": "of",
+  "start": 464.641,
+  "end": 464.711
+ },
+ {
+  "text": "the",
+  "start": 464.711,
+  "end": 464.757
+ },
+ {
+  "text": "line",
+  "start": 464.768,
+  "end": 465.104
+ },
+ {
+  "text": "It",
+  "start": 465.224,
+  "end": 465.294
+ },
+ {
+  "text": "was",
+  "start": 465.306,
+  "end": 465.398
+ },
+ {
+  "text": "the",
+  "start": 465.398,
+  "end": 465.468
+ },
+ {
+  "text": "second",
+  "start": 465.468,
+  "end": 465.815
+ },
+ {
+  "text": "such",
+  "start": 465.826,
+  "end": 466.035
+ },
+ {
+  "text": "offer",
+  "start": 466.035,
+  "end": 466.463
+ },
+ {
+  "text": "But",
+  "start": 466.633,
+  "end": 466.737
+ },
+ {
+  "text": "the",
+  "start": 466.737,
+  "end": 466.795
+ },
+ {
+  "text": "hotlines",
+  "start": 466.795,
+  "end": 467.246
+ },
+ {
+  "text": "between",
+  "start": 467.246,
+  "end": 467.524
+ },
+ {
+  "text": "the",
+  "start": 467.524,
+  "end": 467.593
+ },
+ {
+  "text": "two",
+  "start": 467.593,
+  "end": 467.825
+ },
+ {
+  "text": "militaries",
+  "start": 467.825,
+  "end": 468.461
+ },
+ {
+  "text": "have",
+  "start": 468.473,
+  "end": 468.589
+ },
+ {
+  "text": "been",
+  "start": 468.6,
+  "end": 468.751
+ },
+ {
+  "text": "cut",
+  "start": 468.762,
+  "end": 469.075
+ },
+ {
+  "text": "since",
+  "start": 469.195,
+  "end": 469.554
+ },
+ {
+  "text": "April 2023",
+  "start": 469.658,
+  "end": 470.711
+ },
+ {
+  "text": "The",
+  "start": 470.831,
+  "end": 470.889
+ },
+ {
+  "text": "last",
+  "start": 470.889,
+  "end": 471.248
+ },
+ {
+  "text": "general-level",
+  "start": 471.317,
+  "end": 471.803
+ },
+ {
+  "text": "talks",
+  "start": 471.815,
+  "end": 472.15
+ },
+ {
+  "text": "were",
+  "start": 472.15,
+  "end": 472.243
+ },
+ {
+  "text": "in",
+  "start": 472.255,
+  "end": 472.335
+ },
+ {
+  "text": "October 2018",
+  "start": 472.336,
+  "end": 473.933
+ },
+ {
+  "text": "Two",
+  "start": 474.103,
+  "end": 474.265
+ },
+ {
+  "text": "Koreas",
+  "start": 474.276,
+  "end": 474.832
+ },
+ {
+  "text": "One",
+  "start": 474.952,
+  "end": 475.137
+ },
+ {
+  "text": "border",
+  "start": 475.148,
+  "end": 475.542
+ },
+ {
+  "text": "And",
+  "start": 475.662,
+  "end": 475.731
+ },
+ {
+  "text": "no",
+  "start": 475.731,
+  "end": 475.893
+ },
+ {
+  "text": "phone",
+  "start": 475.905,
+  "end": 476.171
+ },
+ {
+  "text": "line",
+  "start": 476.171,
+  "end": 476.379
+ },
+ {
+  "text": "to",
+  "start": 476.379,
+  "end": 476.472
+ },
+ {
+  "text": "ask",
+  "start": 476.484,
+  "end": 476.889
+ },
+ {
+  "text": "where",
+  "start": 476.9,
+  "end": 477.028
+ },
+ {
+  "text": "it",
+  "start": 477.039,
+  "end": 477.097
+ },
+ {
+  "text": "is",
+  "start": 477.097,
+  "end": 477.41
+ },
+ {
+  "text": "So",
+  "start": 477.58,
+  "end": 477.777
+ },
+ {
+  "text": "the",
+  "start": 477.788,
+  "end": 477.869
+ },
+ {
+  "text": "check",
+  "start": 477.869,
+  "end": 478.309
+ },
+ {
+  "text": "Claim",
+  "start": 478.479,
+  "end": 478.872
+ },
+ {
+  "text": "Korea",
+  "start": 478.992,
+  "end": 479.362
+ },
+ {
+  "text": "is",
+  "start": 479.362,
+  "end": 479.478
+ },
+ {
+  "text": "split",
+  "start": 479.489,
+  "end": 479.975
+ },
+ {
+  "text": "at",
+  "start": 480.095,
+  "end": 480.164
+ },
+ {
+  "text": "the",
+  "start": 480.176,
+  "end": 480.257
+ },
+ {
+  "text": "38th",
+  "start": 480.257,
+  "end": 480.893
+ },
+ {
+  "text": "parallel",
+  "start": 480.905,
+  "end": 481.437
+ },
+ {
+  "text": "From 1945 to 1950",
+  "start": 481.607,
+  "end": 483.956
+ },
+ {
+  "text": "True",
+  "start": 484.076,
+  "end": 484.389
+ },
+ {
+  "text": "That",
+  "start": 484.509,
+  "end": 484.59
+ },
+ {
+  "text": "was",
+  "start": 484.59,
+  "end": 484.694
+ },
+ {
+  "text": "the",
+  "start": 484.705,
+  "end": 484.786
+ },
+ {
+  "text": "line",
+  "start": 484.786,
+  "end": 485.145
+ },
+ {
+  "text": "Since",
+  "start": 485.315,
+  "end": 485.488
+ },
+ {
+  "text": "the",
+  "start": 485.5,
+  "end": 485.569
+ },
+ {
+  "text": "1953",
+  "start": 485.569,
+  "end": 486.784
+ },
+ {
+  "text": "armistice",
+  "start": 486.784,
+  "end": 487.514
+ },
+ {
+  "text": "No.",
+  "start": 487.634,
+  "end": 487.911
+ },
+ {
+  "text": "The",
+  "start": 488.031,
+  "end": 488.135
+ },
+ {
+  "text": "border",
+  "start": 488.135,
+  "end": 488.598
+ },
+ {
+  "text": "is",
+  "start": 488.714,
+  "end": 488.829
+ },
+ {
+  "text": "the",
+  "start": 488.829,
+  "end": 488.899
+ },
+ {
+  "text": "Military",
+  "start": 488.899,
+  "end": 489.593
+ },
+ {
+  "text": "Demarcation",
+  "start": 489.605,
+  "end": 490.334
+ },
+ {
+  "text": "Line",
+  "start": 490.334,
+  "end": 490.635
+ },
+ {
+  "text": "and",
+  "start": 490.755,
+  "end": 490.813
+ },
+ {
+  "text": "it",
+  "start": 490.825,
+  "end": 490.894
+ },
+ {
+  "text": "crosses",
+  "start": 490.906,
+  "end": 491.369
+ },
+ {
+  "text": "the",
+  "start": 491.38,
+  "end": 491.473
+ },
+ {
+  "text": "38th",
+  "start": 491.473,
+  "end": 492.133
+ },
+ {
+  "text": "parallel",
+  "start": 492.144,
+  "end": 492.677
+ },
+ {
+  "text": "And",
+  "start": 492.847,
+  "end": 492.928
+ },
+ {
+  "text": "in 2026",
+  "start": 492.928,
+  "end": 494.097
+ },
+ {
+  "text": "even",
+  "start": 494.217,
+  "end": 494.379
+ },
+ {
+  "text": "that",
+  "start": 494.379,
+  "end": 494.564
+ },
+ {
+  "text": "line",
+  "start": 494.564,
+  "end": 494.853
+ },
+ {
+  "text": "has",
+  "start": 494.853,
+  "end": 495.062
+ },
+ {
+  "text": "three",
+  "start": 495.073,
+  "end": 495.455
+ },
+ {
+  "text": "versions",
+  "start": 495.455,
+  "end": 496.092
+ },
+ {
+  "text": "Verdict",
+  "start": 496.262,
+  "end": 496.655
+ },
+ {
+  "text": "outdated",
+  "start": 496.775,
+  "end": 497.319
+ },
+ {
+  "text": "True",
+  "start": 497.439,
+  "end": 497.67
+ },
+ {
+  "text": "for",
+  "start": 497.79,
+  "end": 497.917
+ },
+ {
+  "text": "five",
+  "start": 497.929,
+  "end": 498.207
+ },
+ {
+  "text": "years",
+  "start": 498.207,
+  "end": 498.67
+ },
+ {
+  "text": "Wrong",
+  "start": 498.79,
+  "end": 499.102
+ },
+ {
+  "text": "for",
+  "start": 499.102,
+  "end": 499.218
+ },
+ {
+  "text": "more",
+  "start": 499.23,
+  "end": 499.438
+ },
+ {
+  "text": "than",
+  "start": 499.438,
+  "end": 499.531
+ },
+ {
+  "text": "seventy",
+  "start": 499.531,
+  "end": 500.04
+ },
+ {
+  "text": "Next",
+  "start": 500.21,
+  "end": 500.361
+ },
+ {
+  "text": "time",
+  "start": 500.361,
+  "end": 500.534
+ },
+ {
+  "text": "someone",
+  "start": 500.535,
+  "end": 500.835
+ },
+ {
+  "text": "says",
+  "start": 500.835,
+  "end": 501.055
+ },
+ {
+  "text": "Korea",
+  "start": 501.055,
+  "end": 501.622
+ },
+ {
+  "text": "is",
+  "start": 501.703,
+  "end": 501.831
+ },
+ {
+  "text": "split",
+  "start": 501.831,
+  "end": 502.433
+ },
+ {
+  "text": "at",
+  "start": 502.553,
+  "end": 502.622
+ },
+ {
+  "text": "the",
+  "start": 502.622,
+  "end": 502.692
+ },
+ {
+  "text": "38th",
+  "start": 502.692,
+  "end": 503.27
+ },
+ {
+  "text": "parallel",
+  "start": 503.27,
+  "end": 503.757
+ },
+ {
+  "text": "you",
+  "start": 503.877,
+  "end": 503.935
+ },
+ {
+  "text": "can",
+  "start": 503.947,
+  "end": 504.027
+ },
+ {
+  "text": "tell",
+  "start": 504.039,
+  "end": 504.224
+ },
+ {
+  "text": "them",
+  "start": 504.224,
+  "end": 504.34
+ },
+ {
+  "text": "it's",
+  "start": 504.34,
+  "end": 504.421
+ },
+ {
+  "text": "more",
+  "start": 504.433,
+  "end": 504.595
+ },
+ {
+  "text": "complicated",
+  "start": 504.595,
+  "end": 505.278
+ },
+ {
+  "text": "And",
+  "start": 505.398,
+  "end": 505.525
+ },
+ {
+  "text": "ask",
+  "start": 505.537,
+  "end": 505.757
+ },
+ {
+  "text": "which",
+  "start": 505.757,
+  "end": 505.884
+ },
+ {
+  "text": "version",
+  "start": 505.884,
+  "end": 506.243
+ },
+ {
+  "text": "of",
+  "start": 506.254,
+  "end": 506.312
+ },
+ {
+  "text": "the",
+  "start": 506.324,
+  "end": 506.382
+ },
+ {
+  "text": "border",
+  "start": 506.382,
+  "end": 506.671
+ },
+ {
+  "text": "they",
+  "start": 506.671,
+  "end": 506.787
+ },
+ {
+  "text": "mean",
+  "start": 506.787,
+  "end": 507.146
+ },
+ {
+  "text": "Which",
+  "start": 507.316,
+  "end": 507.489
+ },
+ {
+  "text": "border",
+  "start": 507.501,
+  "end": 507.813
+ },
+ {
+  "text": "surprised",
+  "start": 507.813,
+  "end": 508.311
+ },
+ {
+  "text": "you",
+  "start": 508.311,
+  "end": 508.369
+ },
+ {
+  "text": "the",
+  "start": 508.38,
+  "end": 508.438
+ },
+ {
+  "text": "most",
+  "start": 508.438,
+  "end": 508.913
+ },
+ {
+  "text": "Tell",
+  "start": 509.033,
+  "end": 509.16
+ },
+ {
+  "text": "me",
+  "start": 509.16,
+  "end": 509.299
+ },
+ {
+  "text": "in",
+  "start": 509.299,
+  "end": 509.357
+ },
+ {
+  "text": "the",
+  "start": 509.357,
+  "end": 509.415
+ },
+ {
+  "text": "comments",
+  "start": 509.426,
+  "end": 510.051
+ }
+]
