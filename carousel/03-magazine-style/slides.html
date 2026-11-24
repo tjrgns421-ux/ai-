@@ -2,34 +2,136 @@
 <html lang="ko">
 <head>
 <meta charset="utf-8">
-<title>매거진 스타일 표지</title>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;700;800&display=swap" rel="stylesheet">
+<title>매거진 스타일 명화 캐러셀</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800&display=swap" rel="stylesheet">
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { background: #222; font-family: 'Noto Sans KR', sans-serif; }
   .slide { width: 1080px; height: 1350px; position: relative; overflow: hidden; background: #0b0b0c; margin-bottom: 40px; }
   .slide img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; filter: saturate(.72) contrast(1.05) brightness(.92); }
-  .shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,0) 48%, rgba(0,0,0,.55) 74%, rgba(0,0,0,.82) 100%); }
+  .shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,0) 44%, rgba(0,0,0,.58) 70%, rgba(0,0,0,.86) 100%); }
   .grain { position: absolute; inset: 0; opacity: .08; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); mix-blend-mode: overlay; }
-  .title { position: absolute; left: 44px; right: 60px; bottom: 150px; color: #fff; font-weight: 800; font-size: 66px; line-height: 1.38; letter-spacing: -0.035em; text-shadow: 0 2px 18px rgba(0,0,0,.45); }
+  .text { position: absolute; left: 44px; right: 60px; bottom: 150px; color: #fff; }
+  .title { font-weight: 800; font-size: 66px; line-height: 1.38; letter-spacing: -0.035em; text-shadow: 0 2px 18px rgba(0,0,0,.45); }
+  .note { margin-top: 22px; font-size: 30px; font-weight: 500; line-height: 1.5; letter-spacing: -0.02em; color: rgba(255,255,255,.78); }
   .logo { position: absolute; left: 0; right: 0; bottom: 56px; text-align: center; color: #fff; font-weight: 800; font-size: 26px; letter-spacing: -0.02em; opacity: .95; }
+  /* 흰 배경 글 슬라이드 (레퍼런스의 공지형 장) */
+  .paper { background: #f7f6f3; }
+  .paper .text { top: 50%; bottom: auto; transform: translateY(-50%); left: 64px; right: 64px; color: #111; }
+  .paper .title { text-shadow: none; font-size: 58px; }
+  .paper .list { margin-top: 48px; display: grid; gap: 30px; }
+  .paper .list p { font-size: 36px; line-height: 1.55; font-weight: 500; color: #222; letter-spacing: -0.025em; }
+  .paper .list p span { display: block; font-size: 28px; color: #777; font-weight: 400; }
+  .paper .logo { color: #111; }
 </style>
 </head>
 <body>
 
-<!-- A: 라이트, 촛불 아래 얼굴 클로즈업 -->
+<!-- 1 -->
 <section class="slide">
   <img src="../02-sleep-study-art/img/02-orrery.jpg" style="transform: scale(1.75); transform-origin: 46% 66%;">
   <div class="shade"></div><div class="grain"></div>
-  <div class="title">잠을 줄여 공부하는 사람들은<br>정말 앞서가고 있는가?</div>
+  <div class="text"><div class="title">잠을 줄여 공부하는 사람들은<br>정말 앞서가고 있는가?</div></div>
   <div class="logo">상위1%</div>
 </section>
 
-<!-- B: 페르메이르, 창가의 사람 -->
+<!-- 2 -->
+<section class="slide">
+  <img src="../02-sleep-study-art/img/09-rembrandt.jpg" style="object-position: 40% 50%;">
+  <div class="shade"></div><div class="grain"></div>
+  <div class="text">
+    <div class="title">미국의 한 연구팀이<br>대학생들에게<br>이상한 제안을 했다.</div>
+    <div class="note">피츠버그대 등 공동 연구 · Journal of Political Economy (2026)</div>
+  </div>
+  <div class="logo">상위1%</div>
+</section>
+
+<!-- 3 -->
+<section class="slide">
+  <img src="../02-sleep-study-art/img/03-moneylender.jpg" style="object-position: 50% 30%;">
+  <div class="shade"></div><div class="grain"></div>
+  <div class="text">
+    <div class="title">"7시간만 자면,<br>매일 밤 돈을 줄게."</div>
+    <div class="note">하룻밤 약 5달러, 4주 동안. 참여 학생은 1,100여 명.</div>
+  </div>
+  <div class="logo">상위1%</div>
+</section>
+
+<!-- 4 -->
+<section class="slide">
+  <img src="../02-sleep-study-art/img/04-nightcafe.jpg" style="object-position: 45% 50%;">
+  <div class="shade"></div><div class="grain"></div>
+  <div class="text">
+    <div class="title">실험 전, 학생 절반은<br>새벽 1시가 넘어서야<br>잠들었다.</div>
+    <div class="note">평균 수면 시간은 6.6시간이었다.</div>
+  </div>
+  <div class="logo">상위1%</div>
+</section>
+
+<!-- 5 -->
+<section class="slide">
+  <img src="../02-sleep-study-art/img/05-flamingjune.jpg" style="object-position: 55% 50%;">
+  <div class="shade"></div><div class="grain"></div>
+  <div class="text">
+    <div class="title">돈을 받은 학생들은<br>7시간 이상 잔 날이<br>26% 늘었다.</div>
+    <div class="note">하루 평균 약 19분 더 잤다.</div>
+  </div>
+  <div class="logo">상위1%</div>
+</section>
+
+<!-- 6 -->
+<section class="slide">
+  <img src="../02-sleep-study-art/img/06-athens.jpg" style="object-position: 50% 40%;">
+  <div class="shade"></div><div class="grain"></div>
+  <div class="text">
+    <div class="title">그리고 그 학기,<br>학점이 올랐다.</div>
+    <div class="note">GPA 약 0.08점 상승.</div>
+  </div>
+  <div class="logo">상위1%</div>
+</section>
+
+<!-- 7 -->
 <section class="slide">
   <img src="../02-sleep-study-art/img/07-astronomer.jpg" style="object-position: 40% 50%;">
   <div class="shade"></div><div class="grain"></div>
-  <div class="title">밤새 공부한 너,<br>성실한 게 아니라 손해 본 거다.</div>
+  <div class="text">
+    <div class="title">공부 시간은 그대로였다.<br>밤에 하던 공부를<br>아침으로 옮겼을 뿐.</div>
+  </div>
+  <div class="logo">상위1%</div>
+</section>
+
+<!-- 8 -->
+<section class="slide">
+  <img src="../02-sleep-study-art/img/08-bedroom.jpg" style="object-position: 62% 50%;">
+  <div class="shade"></div><div class="grain"></div>
+  <div class="text">
+    <div class="title">그러니 오늘 밤엔<br>기상 알람 말고<br>취침 알람을 맞춰보자.</div>
+    <div class="note">실험에서도 매일 밤 취침 알림을 보냈다.</div>
+  </div>
+  <div class="logo">상위1%</div>
+</section>
+
+<!-- 9 -->
+<section class="slide paper">
+  <div class="text">
+    <div class="title">물론, 알고 있어야 할 것도 있다.</div>
+    <div class="list">
+      <p>미국 대학생을 대상으로 한 연구다.<span>직장인에게 그대로 적용된다고 볼 수는 없다.</span></p>
+      <p>학점 효과는 두 학기 뒤 사라졌다.<span>다음 학기까지는 유지됐다.</span></p>
+      <p>하지만 잠 습관은 남았다.<span>돈 지급이 끝난 뒤에도 하루 약 8분 더 잤다.</span></p>
+    </div>
+  </div>
+  <div class="logo">상위1%</div>
+</section>
+
+<!-- 10 -->
+<section class="slide">
+  <img src="../02-sleep-study-art/img/10-wanderer.jpg" style="object-position: 50% 30%;">
+  <div class="shade"></div><div class="grain"></div>
+  <div class="text">
+    <div class="title">성실함은<br>버티는 시간이 아니라<br>회복하는 습관이다.</div>
+    <div class="note">저장해두고, 오늘 밤 취침 알람부터.</div>
+  </div>
   <div class="logo">상위1%</div>
 </section>
 
