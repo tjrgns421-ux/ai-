@@ -1,10 +1,11 @@
 import React from "react";
 import { AbsoluteFill, useCurrentFrame } from "remotion";
 import * as THREE from "three";
-import { HutRock, Magnetotail, MoonGlobe, Rover, Stage4, Surface, groundY } from "./Moon3D";
+import { HutRock, Magnetotail, MoonGlobe, Rover, Stage4, Surface, groundY, useMoonPreload } from "./Moon3D";
 const V = (x: number, y: number, z: number) => new THREE.Vector3(x, y, z);
 export const Cm04Test: React.FC = () => {
   const f = useCurrentFrame();
+  useMoonPreload();
   const k = Math.floor(f / 10);
   if (k === 0) return <AbsoluteFill><Stage4 shot={{ pos: V(0, 0, 32), look: V(0, 0, 0), fov: 40 }} sun={[0, 10, 60]}><MoonGlobe rotY={0} /></Stage4></AbsoluteFill>;
   if (k === 1) return <AbsoluteFill><Stage4 shot={{ pos: V(0, 0, 32), look: V(0, 0, 0), fov: 40 }} sun={[0, 10, 60]}><MoonGlobe rotY={Math.PI} /></Stage4></AbsoluteFill>;

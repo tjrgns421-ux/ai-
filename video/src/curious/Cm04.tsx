@@ -6,7 +6,8 @@ import { makeTimeline } from "../sn02/engine";
 import words from "../../public/cm04/narration.words.json";
 import LINES from "../../public/cm04/lines.json";
 import CAPS from "../../public/cm04/caps/captures.json";
-import { HutRock, Magnetotail, MoonGlobe, Rover, Shot4, Stage4, Surface, groundY } from "./Moon3D";
+import { HutRock, Magnetotail, Rover, Shot4, Stage4, Surface, groundY } from "./Moon3D";
+import { Globe2D } from "./Globe2D";
 
 // Curious Minutes ep04 "6 Strange Things Found on the Moon" — list format, a verdict stamp after each mystery.
 const FPS = 30;
@@ -130,17 +131,19 @@ const vary = (shot: (s: number) => Shot4, s: number): Shot4 => {
   return { ...b, pos: b.look.clone().add(off) };
 };
 type ShotFn = (s: number) => Shot4;
-const Globe: React.FC<{ rot: (s: number) => number; dist?: (s: number) => number; side?: number; badge?: string }> = ({ rot, dist = () => 34, side = 0, badge = "NASA LRO MAP · 3D" }) => {
+const STARS2 = Array.from({ length: 260 }, (_, i) => [((Math.sin(i * 91.7) * 0.5 + 0.5) * 1920), ((Math.sin(i * 47.3 + 1) * 0.5 + 0.5) * 1080), 1 + (i % 3)]);
+const Globe: React.FC<{ rot: (s: number) => number; dist?: (s: number) => number; side?: number; badge?: string }> = ({ rot, dist = () => 34, side = 0, badge = "NASA LRO MAP" }) => {
   const s = useCurrentFrame() / FPS;
   const d = dist(s);
   const k = Math.floor(s / CUT) % 4;
-  const ang = [0, -0.45, 0.45, 0][k], dd = [1, 0.9, 0.85, 0.62][k], hh = [0, 3, -3, 4][k];
-  const cam = V(side + Math.sin(ang) * d * dd, hh, Math.cos(ang) * d * dd);
+  // shots: centred, offset left, offset right, close-up
+  const size = (760 * 34) / d * [1, 0.92, 0.92, 1.45][k];
+  const cx = 960 + side * 40 + [0, -330, 330, 0][k];
+  const cy = 540 + [0, 20, -20, 120][k];
   return (
-    <AbsoluteFill>
-      <Stage4 shot={{ pos: cam, look: V(side * 0.6, 0, 0), fov: 40 }} sun={[20, 10, 60]}>
-        <MoonGlobe rotY={rot(s)} />
-      </Stage4>
+    <AbsoluteFill style={{ background: "#020205" }}>
+      {STARS2.map(([x, y, r], i) => <div key={i} style={{ position: "absolute", left: x, top: y, width: r, height: r, borderRadius: r, background: "#FFFFFF", opacity: 0.55 }} />)}
+      <Globe2D rotY={rot(s)} size={size} cx={cx} cy={cy} tilt={[0, 0.08, -0.06, 0.12][k]} />
       <Badge text={badge} color="#9FE3B0" />
     </AbsoluteFill>
   );

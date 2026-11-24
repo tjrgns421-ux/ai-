@@ -12,56 +12,63 @@ const rnd = (i: number) => {
   return s - Math.floor(s);
 };
 
-// Textures: the image is loaded in the DOM first (Remotion waits via delayRender), then wrapped in a THREE.Texture.
-const cache: Record<string, THREE.Texture> = {};
-export const useMoonTextures = () => {
-  const [ready, setReady] = React.useState(() => Boolean(cache.color && cache.dem));
-  const [handle] = React.useState(() => (cache.color && cache.dem ? null : delayRender("moon textures")));
-  React.useEffect(() => {
-    if (ready) return;
-    const once = (path: string) =>
-      new Promise<HTMLImageElement>((res, rej) => {
-        const img = new Image();
-        img.onload = () => img.decode().then(() => res(img), () => res(img));
-        img.onerror = () => rej(new Error("failed to load " + path));
-        img.src = staticFile(path);
-      });
-    const load = async (path: string, srgb: boolean) => {
-      let last: unknown;
-      for (let i = 0; i < 4; i++) {
-        try {
-          const img = await once(path);
-          const t = new THREE.Texture(img);
-          if (srgb) t.colorSpace = THREE.SRGBColorSpace;
-          t.needsUpdate = true;
-          return t;
-        } catch (e) {
-          last = e;
-          await new Promise((r) => setTimeout(r, 400 * (i + 1)));
-        }
-      }
-      throw last;
-    };
-    Promise.all([load("cm04/img/moon_color_4k.jpg", true), load("cm04/img/moon_dem.jpg", false)])
-      .then(([c, d]) => {
-        cache.color = c;
-        cache.dem = d;
-        setReady(true);
-      })
-      .catch((e) => {
-        console.error(e);
-        if (handle !== null) continueRender(handle);
-      });
-  }, [ready, handle]);
-  // release the frame only after React has re-rendered with the textures and the canvas has drawn twice
-  React.useEffect(() => {
-    if (!ready || handle === null) return;
-    let id = requestAnimationFrame(() => (id = requestAnimationFrame(() => continueRender(handle))));
-    return () => cancelAnimationFrame(id);
-  }, [ready, handle]);
-  return ready ? { color: cache.color, dem: cache.dem } : null;
+// Textures: loaded once per browser tab, at the top of the composition (useMoonPreload), which holds
+// every frame with delayRender until both images are decoded. MoonGlobe then reads them from this cache.
+const cache: { color?: THREE.Texture; dem?: THREE.Texture } = {};
+let loading: Promise<void> | null = null;
+const loadImg = (path: string) =>
+  new Promise<HTMLImageElement>((res, rej) => {
+    const img = new Image();
+    img.onload = () => img.decode().then(() => res(img), () => res(img));
+    img.onerror = () => rej(new Error("failed to load " + path));
+    img.src = staticFile(path);
+  });
+const loadTex = async (path: string, srgb: boolean) => {
+  for (let i = 0; ; i++) {
+    try {
+      const t = new THREE.Texture(await loadImg(path));
+      if (srgb) t.colorSpace = THREE.SRGBColorSpace;
+      t.needsUpdate = true;
+      return t;
+    } catch (e) {
+      if (i >= 4) throw e;
+      await new Promise((r) => setTimeout(r, 500 * (i + 1)));
+    }
+  }
 };
-const TexCtx = React.createContext<{ color: THREE.Texture; dem: THREE.Texture } | null>(null);
+const listeners = new Set<() => void>();
+export const preloadMoon = () => {
+  if (!loading)
+    loading = Promise.all([loadTex("cm04/img/moon_color_4k.jpg", true), loadTex("cm04/img/moon_dem.jpg", false)]).then(([c, d]) => {
+      cache.color = c;
+      cache.dem = d;
+      listeners.forEach((l) => l());
+    });
+  return loading;
+};
+const useMoonCache = () =>
+  React.useSyncExternalStore(
+    (cb) => {
+      listeners.add(cb);
+      return () => listeners.delete(cb);
+    },
+    () => cache.color,
+  );
+/** Call once at the top of any composition that shows the Moon globe. */
+export const useMoonPreload = () => {
+  const [handle] = React.useState(() => (cache.color ? null : delayRender("moon textures")));
+  React.useEffect(() => {
+    if (handle === null) return;
+    preloadMoon().then(
+      // give the globes two frames to redraw with the textures before the frame is captured
+      () => setTimeout(() => continueRender(handle), 600),
+      (e) => {
+        console.error(e);
+        continueRender(handle);
+      },
+    );
+  }, [handle]);
+};
 
 export type Shot4 = { pos: THREE.Vector3; look: THREE.Vector3; fov?: number; up?: THREE.Vector3 };
 const Rig: React.FC<{ sh: Shot4 }> = ({ sh }) => {
@@ -97,7 +104,20 @@ const Stars: React.FC = () => {
 
 /** The real Moon: NASA LRO color map with LOLA elevation. `rotY` turns the near side (0) to the far side (PI). */
 export const MoonGlobe: React.FC<{ rotY?: number; pos?: [number, number, number]; radius?: number }> = ({ rotY = 0, pos = [0, 0, 0], radius = 10 }) => {
-  const tex = React.useContext(TexCtx);
+  const loaded = useMoonCache();
+  const { advance } = useThree();
+  const tex = cache.color && cache.dem ? { color: cache.color, dem: cache.dem } : null;
+  // the canvas only draws when Remotion's frame changes; draw once more when the textures arrive
+  React.useEffect(() => {
+    if (!loaded) return;
+    advance(performance.now());
+    const t1 = setTimeout(() => advance(performance.now()), 120);
+    const t2 = setTimeout(() => advance(performance.now()), 300);
+    return () => {
+      clearTimeout(t1);
+      clearTimeout(t2);
+    };
+  }, [loaded, advance]);
   if (!tex)
     return (
       <mesh position={pos}>
@@ -217,21 +237,20 @@ export const Magnetotail: React.FC<{ t: number; moonAngle?: number }> = ({ t, mo
         const pos = base.lerp(moon, Math.max(0, k - 0.6) * 1.6);
         return <mesh key={i} position={pos}><sphereGeometry args={[0.08, 6, 6]} /><meshBasicMaterial color="#FF6B5E" /></mesh>;
       })}
-      <MoonGlobe radius={1.6} pos={[moon.x, moon.y, moon.z]} />
+      <mesh position={[moon.x, moon.y, moon.z]}><sphereGeometry args={[1.6, 48, 32]} /><meshStandardMaterial color="#B9B5AE" roughness={1} /></mesh>
     </>
   );
 };
 
 /** Stage for all ep04 3D scenes. `sun` = direction the light comes from. */
 export const Stage4: React.FC<{ shot: Shot4; children: React.ReactNode; sun?: [number, number, number]; width?: number; height?: number }> = ({ shot, children, sun = [-40, 30, 20], width = 1920, height = 1080 }) => {
-  const tex = useMoonTextures();
   return (
   <ThreeCanvas width={width} height={height} shadows gl={{ antialias: true }} camera={{ fov: shot.fov ?? 40, near: 0.05, far: 2000 }}>
     <Rig sh={shot} />
     <Stars />
     <ambientLight intensity={0.08} />
     <directionalLight position={sun} intensity={3.2} color="#FFF6E8" castShadow shadow-mapSize={[2048, 2048]} shadow-camera-left={-60} shadow-camera-right={60} shadow-camera-top={60} shadow-camera-bottom={-60} />
-    <TexCtx.Provider value={tex}>{children}</TexCtx.Provider>
+    {children}
   </ThreeCanvas>
   );
 };
