@@ -70,7 +70,7 @@ Paste into YouTube Studio → Settings → Channel → Basic info → Keywords (
 "mysteries" "mysteries of the world" "mysteries of the universe" "mysteries of the ocean" "mysteries of the deep" "mysteries of the unknown" "mysteries of antarctica" "mystery science" "unexplained mysteries" "unexplained phenomena" "unexplained things in the ocean" "unexplained things in space" "unsolved mysteries" "solved mysteries" "weird sounds" "strange things found on the moon" "strange things found in the ocean" "curious minutes"
 
 ## Deliverables per episode (from ep06, 2026-11-25)
-- One long-form video (8 min+) AND 5 Shorts cut from it (each under 30 s, its own hook ≥72, title checked with yt-package).
+- One long-form video (8 min+) AND 2 Shorts cut from it (each under 30 s, its own hook ≥72, title checked with yt-package). (Was 5 for ep06; changed to 2 on 2026-11-25.)
 - Each Short = one mystery from the long-form, reusing its narration lines and scenes (re-voiced hook if needed), vertical 1080×1920.
 - Upload info for all 6 posted in chat in Korean with English copy blocks.
 
@@ -80,5 +80,5 @@ Paste into YouTube Studio → Settings → Channel → Basic info → Keywords (
 
 ## Delivery to the user (from ep06, 2026-11-25)
 - One zip per episode: `큐리어스 N화.zip`, made with `tools/youtube/make_zip.py`.
-- Inside: `큐리어스 N화-롱폼.mp4`, `큐리어스 N화-쇼츠1.mp4` … `쇼츠K.mp4`, `업로드정보.md` (long + every Short, English + Korean), `썸네일.png`, `자막/` (.en.srt / .ko.srt).
+- Inside: `큐리어스 N화-롱폼.mp4`, `큐리어스 N화-쇼츠1.mp4`, `큐리어스 N화-쇼츠2.mp4`, `업로드정보.md` (long + every Short, English + Korean), `썸네일.png`, `자막/` (.en.srt / .ko.srt).
 - No 720p preview files. The long-form goes in at upload quality (1080p, x264 CRF 20).
