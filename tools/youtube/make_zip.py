@@ -18,6 +18,7 @@ tmp = Path(tempfile.mkdtemp())
 def body(md: Path) -> str:
     t = md.read_text(encoding="utf-8")
     t = re.sub(r"^# .*\n", "", t, count=1)          # drop the file's own title
+    t = t.replace("thumbnail.png", "썸네일.png")
     t = re.sub(r"^## 자막\n.*?(?=^## |\Z)", "", t, flags=re.S | re.M)  # subtitle paths are internal
     return re.sub(r"^## ", "### ", t, flags=re.M).strip()
 
