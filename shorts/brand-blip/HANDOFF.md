@@ -10,6 +10,7 @@ Curious Minutes 채널(`channels/curious-minutes/`)은 다른 세션에서 작�
 - 실수는 바로 인정. 사용자가 고쳐 달라고 한 부분만 고침.
 - 개인 정보를 외부 요청에 넣지 않음. API 키는 채팅으로 받지 않고 환경의 네트워크 시크릿으로.
 - PR은 요청이 있을 때만.
+- **롱폼 1편을 만들면 그걸 잘라서 쇼츠 5개도 같이 준다** (2026-11-25 사용자 요청). 다시 렌더링하지 않고 `video/tools/reels.py`로 롱폼 mp4에서 잘라 만든다. 쇼츠마다 제목·설명도 같이.
 
 ## 채널
 - 이름 Blip Check, 슬로건 "Korea, checked.", 영어 채널(해외 시청자 대상), 진행 캐릭터 Blip.
@@ -25,7 +26,10 @@ Curious Minutes 채널(`channels/curious-minutes/`)은 다른 세션에서 작�
 | bc01-gpt62-astra-vs-sol | AI 비교 쇼츠 | 완성 |
 | en01, ep01, ep02 | 초기 회차 | 완성 |
 | sn03-north-south-words | 남북한 말 (4:54) | 완성·업로드 |
-| mp01-korea-border | 지도 롱폼 1회: 38선은 국경이 아니다 (영어, 약 8:22) | 대본·출처·캡처 48장 완료, 지도 장면·내레이션 남음 |
+| mp01-korea-border | 지도 롱폼 1회: 38선은 국경이 아니다 (영어, 8:31) | 완성, `post.md` |
+| mp02-china-one-time-zone | 지도 롱폼 2회: 중국은 왜 시간대가 하나? (8:11) | 완성, `post.md`, 릴스 5개 `shorts/reels/reels-2026-11-25.json` |
+| mp03-alaska-russia | 지도 롱폼 3회: 알래스카에서 러시아가 보이나? | 출처·대본 완료(82점), 캡처·영상·쇼츠 5개 남음 |
+| (mp04 후보) | 북한은 정말 밤에 깜깜한가? NASA 야간 사진 | 계획 |
 
 ## 기타
 - 인스타그램 만화·이슈 슬라이드: `insta/` (README 참고)
