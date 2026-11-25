@@ -1,0 +1,85 @@
+For two months this winter, you'd never see sunrise before 10 in Kashgar. One clock for 5,200 km. But is it really one?
+Kashgar is in China's far west. By our calculation, from December 4th to February 5th, its sunrise comes at 10 a.m. or later, Beijing time.
+On the same clock, at China's eastern tip, the sun is up before 7.
+China Daily says the country stretches 5,200 kilometers from east to west.
+So, three questions. What does one clock do to a country this wide? Where did Beijing time actually come from? And does China really run on only one time zone?
+First, the clock.
+Time zones follow the sun. Every 15 degrees of longitude is one hour of sunlight.
+Chinese astronomers noticed this long before time zones existed. According to Xinhua, in 1220, a scholar named Yelu Chucai watched a lunar eclipse in Samarkand and saw it start much earlier than it would have in Kaifeng, back in China.
+He called the gap "distance difference". Today we'd call it a time difference.
+But for most of history, nobody needed a shared clock. Then came trains and telegraphs.
+Xinhua's history says that by 1855, 98 percent of public clocks in Britain had switched to Greenwich time. In 1868, New Zealand became the first place to set its standard time by longitude.
+And in 1884, delegates from 41 countries met in Washington and picked Greenwich as the starting line for the world's time zones.
+Now look at China. By our count from Natural Earth map data, it runs from about 73 to about 135 degrees east. That's roughly 61 degrees. About four hours of sun.
+China Daily puts it this way: when eastern China greets the dawn, people in the west still face four more hours of darkness.
+But the whole country runs on Beijing time.
+So we ran the numbers. We calculated sunrise and sunset with standard solar equations, all in Beijing time.
+On December 21st, in Fuyuan, at China's eastern tip, the sun rises at 6:51 a.m.
+In Kashgar, in the far west, it rises at 10:12 a.m.
+Same day. Same clock. A three hour gap.
+And at the other end of the day, Fuyuan's sun sets at 3:09 in the afternoon. Kashgar's sets at 7:35 p.m.
+Summer flips it. On June 21st, Fuyuan's sun comes up at 3:01 a.m.
+Imagine your alarm going off, and the sun has been up for three hours.
+Meanwhile in Kashgar, solar noon, the moment the sun is highest, lands at about 3 p.m.
+So who decided this? That's where the story gets more interesting than the myth.
+Part two. Where did Beijing time come from?
+The usual version goes like this: in 1949, Mao's new government abolished China's five time zones and put everyone on Beijing time. Clean and simple.
+The real record is messier.
+Xinhua republished a detailed history in 2015, drawing on research by Guo Qingsheng, a senior engineer at China's National Time Service Center.
+Let's start earlier. Around 1902, China's customs service proposed a standard called "coast time," based on 120 degrees east.
+But it only applied at the coastal ports. Inland, the article says, the time zone was never defined.
+Trains needed it most. By 1911, the article says, China already had 9,400 kilometers of railway, and railways run on schedules.
+Then, in 1918, the Central Observatory proposed five time zones. Kunlun in the far west, then Huizang, Longshu, Zhongyuan, and Changbai in the northeast.
+Five zones. That sounds like the system the myth says Mao abolished.
+But the article says that, outside the coast, the five zones were only a plan on paper. The observatory didn't even have a decent telescope or a radio receiver.
+Then came war.
+In 1932, after Japan seized the northeast, the puppet state of Manchukuo was ordered onto Japanese time.
+In 1939, the wartime government met in Chongqing and decided that, for the duration of the war, the whole country would use one time: Longshu time, based on Chongqing's zone.
+So China already tried one time zone. Just not Beijing's.
+And it didn't end neatly either. After the war, the article says, Chongqing, Chengdu and Kunming kept using Longshu time, so passengers flying in from Shanghai had to move their watches an hour when they landed.
+And then, 1949.
+Here's the twist. According to Guo's research, the name "Beijing time" first appears on the radio.
+On September 27, 1949, the day Peiping was renamed Beijing, its national radio station was renamed too. Guo concludes that its time signal most likely became Beijing time that same day.
+The earliest written record he found is from October 7, when a radio station in Xi'an said its schedule followed Beijing time.
+From there, cities switched one by one. Xi'an's city government dropped Longshu time on November 3rd. Chengdu switched in the weeks after December 27th.
+By early 1950, the article says, the whole country used Beijing time, except Xinjiang and Tibet.
+And even then, an official almanac published in 1952 still listed the old five zones.
+One more detail. At first, Beijing time wasn't even a standard time zone. It was Beijing's own local solar time. It only later became the standard for 120 degrees east.
+So the myth checks out halfway. China did end up on one clock after 1949. But it arrived through radio signals and city notices, not one clean decree.
+And why push for one clock at all?
+To be fair, one clock has real advantages. Al Jazeera's report itself notes the practical and economic benefits of a single time zone. One timetable for trains, flights, markets and TV.
+But the report argues the bigger reason was a signal.
+In a 2023 Al Jazeera report, a scholar named Yeh explains that the Chinese state did not fully control China before 1949, and the Communists sought to change that.
+One country. One capital. One time.
+Which brings us to the place where one time never quite worked.
+Part three. Does China really have only one time zone?
+Remember the exception: Xinjiang.
+Xinhua's article says Xinjiang today uses two standards side by side: Urumqi time, based on 90 degrees east, and Beijing time.
+That's two hours apart.
+So a meeting at 10 can mean two different moments, depending on who you ask.
+And you can see why local time sticks. By our calculation, on December 21st, the sun rises in Urumqi at 9:40 a.m. Beijing time. On Urumqi time, that's 7:40. A normal winter morning.
+So which clock would you set your alarm by?
+Al Jazeera spoke to people from Xinjiang who now live in the United States.
+One, Payzulla Zaydun, said that when he was at university in Urumqi in the 1980s and 1990s, some Uyghur students deliberately arrived two hours late for classes listed only in Beijing time.
+He said many local shops in Urumqi also opened and closed on local time.
+But he said that is much harder today. In his words, if you openly challenge Beijing time now, you can be prosecuted for subversion.
+He said his elderly mother, who had never used Beijing time, started using it on the phone with him a few years ago, because she feared the consequences.
+That's his account. We can't independently verify how often that happens.
+Another woman told Al Jazeera that as a child in Kashgar, she watched the summer sun set at about midnight.
+She said it also showed how the authorities want to control everything in Xinjiang, in her words, even our time.
+So we checked that too.
+On June 21st, by our calculation, Kashgar's sun sets at 10:26 p.m. Beijing time. The sky goes fully dark around 11.
+Not quite midnight. But for a kid, close enough.
+And China isn't the only country where clocks are political.
+Al Jazeera notes that when India became independent in 1947, it abolished Mumbai time and Kolkata time and created one Indian time.
+Nepal set its clock to a quarter-hour offset.
+And in 2015, North Korea moved its clocks back half an hour.
+During Sri Lanka's civil war, the government set the country's clocks back half an hour. And in 2023, Russian authorities said the regions of Ukraine that Russia annexed would switch to Moscow time.
+Time zones look like science. They're also politics.
+So, the check.
+Claim: China has only one time zone.
+Officially? True. Beijing time is the national standard.
+On the ground? Not quite. In Xinjiang, two clocks run side by side, two hours apart.
+And the famous story of how it happened, one decree in 1949, turns out to be a lot messier.
+Verdict: half true. One official clock. Two real ones. And a sunrise after 10 a.m.
+Would you want to live in Kashgar, with the sun rising at ten? Or in Fuyuan, with sunrise at three? Tell me in the comments.
