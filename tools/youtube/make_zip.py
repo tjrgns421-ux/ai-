@@ -23,7 +23,7 @@ def body(md: Path) -> str:
     return re.sub(r"^## ", "### ", t, flags=re.M).strip()
 
 parts = [f"# {name} 업로드 정보\n\n파일: {name}-롱폼.mp4, " + ", ".join(f"{name}-쇼츠{i}.mp4" for i in range(1, len(a.shorts) + 1)) +
-         ", 썸네일.png (롱폼용), 자막 폴더 (.en.srt 영어 / .ko.srt 한국어)\n",
+         ", 썸네일.png (롱폼용), 자막 폴더 (" + ("영어 .en.srt / 한국어 .ko.srt" if list((ep / "subs").glob("*.ko.srt")) else "영어 .en.srt") + ")\n",
          f"## {name}-롱폼\n\n" + body(ep / "upload.md")]
 for i in range(1, len(a.shorts) + 1):
     parts.append(f"## {name}-쇼츠{i}\n\n" + body(ep / f"short{i}" / "upload.md"))

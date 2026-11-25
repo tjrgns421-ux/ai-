@@ -72,13 +72,13 @@ Paste into YouTube Studio → Settings → Channel → Basic info → Keywords (
 ## Deliverables per episode (from ep06, 2026-11-25)
 - One long-form video (8 min+) AND 2 Shorts cut from it (each under 30 s, its own hook ≥72, title checked with yt-package). (Was 5 for ep06; changed to 2 on 2026-11-25.)
 - Each Short = one mystery from the long-form, reusing its narration lines and scenes (re-voiced hook if needed), vertical 1080×1920.
-- Upload info for all 6 posted in chat in Korean with English copy blocks.
+- Upload info posted in chat in Korean with English copy blocks (English title/description/tags only).
 
-## Korean localization (from 2026-11-25, for every video incl. Shorts)
+## Korean localization (ep05–ep06 only; DROPPED from ep07 on 2026-11-25: no Korean title/description/subtitles)
 - The video stays English (no burned-in Korean, no dubbing). Add: Korean title + description (YouTube translations), English and Korean .srt subtitles.
 - Files per episode: `script.ko.txt` (one line per script line), `subs/<long|shortN>.<en|ko>.srt` via `video/tools/make_srt.py`, `## 한국어 제목/설명` in each upload.md, `md2spec.py --subs`.
 
 ## Delivery to the user (from ep06, 2026-11-25)
 - One zip per episode: `큐리어스 N화.zip`, made with `tools/youtube/make_zip.py`.
-- Inside: `큐리어스 N화-롱폼.mp4`, `큐리어스 N화-쇼츠1.mp4`, `큐리어스 N화-쇼츠2.mp4`, `업로드정보.md` (long + every Short, English + Korean), `썸네일.png`, `자막/` (.en.srt / .ko.srt).
+- Inside: `큐리어스 N화-롱폼.mp4`, `큐리어스 N화-쇼츠1.mp4`, `큐리어스 N화-쇼츠2.mp4`, `업로드정보.md` (long + every Short, English), `썸네일.png`, `자막/` (.en.srt only).
 - No 720p preview files. The long-form goes in at upload quality (1080p, x264 CRF 20).
