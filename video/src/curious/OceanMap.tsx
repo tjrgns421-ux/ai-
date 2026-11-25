@@ -18,7 +18,7 @@ const grat = geoGraticule10();
 export type Pin = { lon: number; lat: number; label: string; color?: string; ring?: boolean; area?: number; delay?: number; dx?: number; dy?: number };
 export type Route = { pts: [number, number][]; color?: string; label?: string };
 
-export const OceanMap: React.FC<{ rot: (s: number) => [number, number]; pins?: Pin[]; route?: Route; scale?: number; cx?: number; cy?: number; title?: string }> = ({ rot, pins = [], route, scale = 470, cx = 960, cy = 560, title }) => {
+export const OceanMap: React.FC<{ rot: (s: number) => [number, number]; pins?: Pin[]; route?: Route; scale?: number; cx?: number; cy?: number; title?: string; width?: number; height?: number }> = ({ rot, pins = [], route, scale = 470, cx = 960, cy = 560, title, width = 1920, height = 1080 }) => {
   const lf = useCurrentFrame();
   const s = lf / FPS;
   const [lon, lat] = rot(s);
@@ -30,7 +30,7 @@ export const OceanMap: React.FC<{ rot: (s: number) => [number, number]; pins?: P
     return Math.cos(b) * Math.cos(a) * Math.cos(c) + Math.sin(b) * Math.sin(c) > 0;
   };
   return (
-    <svg width={1920} height={1080} style={{ position: "absolute", left: 0, top: 0, background: "#04101C" }}>
+    <svg width={width} height={height} style={{ position: "absolute", left: 0, top: 0, background: "#04101C" }}>
       <defs>
         <radialGradient id="sea" cx="45%" cy="40%" r="65%">
           <stop offset="0%" stopColor="#2A7DB4" />
@@ -70,7 +70,7 @@ export const OceanMap: React.FC<{ rot: (s: number) => [number, number]; pins?: P
           </g>
         );
       })}
-      {title && <text x={960} y={80} textAnchor="middle" fontFamily="Pretendard" fontWeight={900} fontSize={46} fill="#FFFFFF">{title}</text>}
+      {title && <text x={width / 2} y={80} textAnchor="middle" fontFamily="Pretendard" fontWeight={900} fontSize={46} fill="#FFFFFF">{title}</text>}
     </svg>
   );
 };

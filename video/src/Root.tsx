@@ -33,6 +33,7 @@ import { Cm02Full, CM02_FRAMES } from "./curious/Cm02";
 import { CmEp02Thumb } from "./curious/Ep02Thumb";
 import { CmShort2, CMS2_FRAMES } from "./curious/CmShort2";
 import { CmShort4, CMS4_FRAMES } from "./curious/CmShort4";
+import { CmShort5, CMS5_FRAMES } from "./curious/CmShort5";
 import { Cm03Test } from "./curious/Cm03Test";
 import { Cm03Full, CM03_FRAMES } from "./curious/Cm03";
 import { CmEp03Thumb } from "./curious/Ep03Thumb";
@@ -90,6 +91,9 @@ export const RemotionRoot: React.FC = () => {
         <Composition id="Cm03Test" component={Cm03Test} durationInFrames={440} fps={30} width={1920} height={1080} />
         <Composition id="CmShort2" component={CmShort2} durationInFrames={CMS2_FRAMES} fps={30} width={1080} height={1920} />
         <Composition id="CmShort4" component={CmShort4} durationInFrames={CMS4_FRAMES} fps={30} width={1080} height={1920} />
+        <Composition id="CmShort5a" component={CmShort5} defaultProps={{ n: 1 }} durationInFrames={CMS5_FRAMES[0]} fps={30} width={1080} height={1920} />
+        <Composition id="CmShort5b" component={CmShort5} defaultProps={{ n: 2 }} durationInFrames={CMS5_FRAMES[1]} fps={30} width={1080} height={1920} />
+        <Composition id="CmShort5c" component={CmShort5} defaultProps={{ n: 3 }} durationInFrames={CMS5_FRAMES[2]} fps={30} width={1080} height={1920} />
         <Composition id="CmEp02Thumb" component={CmEp02Thumb} durationInFrames={1} fps={30} width={1280} height={720} />
         <Composition id="Cm02Full" component={Cm02Full} durationInFrames={CM02_FRAMES} fps={30} width={1920} height={1080} />
         <Composition id="Cm02Test" component={Cm02Test} durationInFrames={40} fps={30} width={1920} height={1080} />
