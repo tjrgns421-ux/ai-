@@ -1,0 +1,13 @@
+[
+ {"name": "mp03-s1-palin-house", "title": ["Palin never said", "\"from my house\""], "parts": [
+   {"ep": "mp03", "video": "out/mp03/mp03-full.mp4", "from": "First, the line", "to": "SNL producer, Mike Shoemaker"}]},
+ {"name": "mp03-s2-five-numbers", "title": ["6 sources, 5 numbers.", "So we measured it."], "parts": [
+   {"ep": "mp03", "video": "out/mp03/mp03-full.mp4", "from": "And this is where the numbers start", "to": "what it was measuring"}]},
+ {"name": "mp03-s3-tomorrow-island", "title": ["2.4 miles away,", "it's already tomorrow"], "parts": [
+   {"ep": "mp03", "video": "out/mp03/mp03-full.mp4", "from": "That's why Little Diomede got the nickname", "to": "doesn't match the clocks"}]},
+ {"name": "mp03-s4-lynne-cox", "title": ["She swam into", "the Soviet Union"], "parts": [
+   {"ep": "mp03", "video": "out/mp03/mp03-full.mp4", "from": "Then, a swimmer", "to": "how close to each other our peoples live"}]},
+ {"name": "mp03-s5-two-miles-long-way", "title": ["2 miles apart.", "5 days to visit."], "parts": [
+   {"ep": "mp03", "video": "out/mp03/mp03-full.mp4", "from": "Then came the Cold War", "to": "two and a half miles of water"},
+   {"ep": "mp03", "video": "out/mp03/mp03-full.mp4", "from": "When National Geographic visited", "to": "Five days late"}]}
+]

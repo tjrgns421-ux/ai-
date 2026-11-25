@@ -35,6 +35,8 @@ import { Mp01Full, MP01_DURATION } from "./mp01/Mp01";
 import { Mp01Thumb } from "./mp01/Thumb";
 import { Mp02Full, MP02_DURATION } from "./mp02/Mp02";
 import { Mp02Thumb } from "./mp02/Thumb";
+import { Mp03Full, MP03_DURATION } from "./mp03/Mp03";
+import { Mp03Thumb } from "./mp03/Thumb";
 import { Bc01Short, BC01S_DURATION } from "./bc01/Short";
 import { MascotSheet } from "./mascot/Mascots";
 import { PromptMascot } from "./mascot/Prompt";
@@ -67,6 +69,10 @@ export const RemotionRoot: React.FC = () => {
       <Folder name="Mp02">
         <Composition id="Mp02Thumb" component={Mp02Thumb} durationInFrames={1} fps={30} width={1280} height={720} />
         <Composition id="Mp02Full" component={Mp02Full} durationInFrames={MP02_DURATION} fps={30} width={1920} height={1080} />
+      </Folder>
+      <Folder name="Mp03">
+        <Composition id="Mp03Thumb" component={Mp03Thumb} durationInFrames={1} fps={30} width={1280} height={720} />
+        <Composition id="Mp03Full" component={Mp03Full} durationInFrames={MP03_DURATION} fps={30} width={1920} height={1080} />
       </Folder>
       <Folder name="Mp01">
         <Composition id="Mp01Thumb" component={Mp01Thumb} durationInFrames={1} fps={30} width={1280} height={720} />

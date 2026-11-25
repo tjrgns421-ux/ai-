@@ -1,0 +1,7042 @@
+[
+ {
+  "text": "You",
+  "start": 0.05,
+  "end": 0.119
+ },
+ {
+  "text": "know",
+  "start": 0.119,
+  "end": 0.327
+ },
+ {
+  "text": "I",
+  "start": 0.351,
+  "end": 0.478
+ },
+ {
+  "text": "can",
+  "start": 0.489,
+  "end": 0.605
+ },
+ {
+  "text": "see",
+  "start": 0.617,
+  "end": 0.883
+ },
+ {
+  "text": "Russia",
+  "start": 0.883,
+  "end": 1.195
+ },
+ {
+  "text": "from",
+  "start": 1.195,
+  "end": 1.334
+ },
+ {
+  "text": "my",
+  "start": 1.334,
+  "end": 1.473
+ },
+ {
+  "text": "house",
+  "start": 1.473,
+  "end": 2.04
+ },
+ {
+  "text": "Palin",
+  "start": 2.16,
+  "end": 2.484
+ },
+ {
+  "text": "never",
+  "start": 2.496,
+  "end": 2.751
+ },
+ {
+  "text": "said",
+  "start": 2.751,
+  "end": 2.994
+ },
+ {
+  "text": "it",
+  "start": 3.005,
+  "end": 3.075
+ },
+ {
+  "text": "in 2008",
+  "start": 3.086,
+  "end": 4.209
+ },
+ {
+  "text": "But",
+  "start": 4.329,
+  "end": 4.41
+ },
+ {
+  "text": "from",
+  "start": 4.421,
+  "end": 4.56
+ },
+ {
+  "text": "this",
+  "start": 4.56,
+  "end": 4.676
+ },
+ {
+  "text": "Alaskan",
+  "start": 4.688,
+  "end": 5.151
+ },
+ {
+  "text": "island",
+  "start": 5.151,
+  "end": 5.533
+ },
+ {
+  "text": "you",
+  "start": 5.653,
+  "end": 5.826
+ },
+ {
+  "text": "really",
+  "start": 5.826,
+  "end": 6.104
+ },
+ {
+  "text": "can",
+  "start": 6.104,
+  "end": 6.474
+ },
+ {
+  "text": "Is",
+  "start": 6.594,
+  "end": 6.664
+ },
+ {
+  "text": "it",
+  "start": 6.664,
+  "end": 6.733
+ },
+ {
+  "text": "2.4 miles",
+  "start": 6.733,
+  "end": 7.613
+ },
+ {
+  "text": "away",
+  "start": 7.613,
+  "end": 7.949
+ },
+ {
+  "text": "NASA",
+  "start": 8.119,
+  "end": 8.431
+ },
+ {
+  "text": "says",
+  "start": 8.431,
+  "end": 8.732
+ },
+ {
+  "text": "2.4",
+  "start": 8.848,
+  "end": 9.681
+ },
+ {
+  "text": "National",
+  "start": 9.801,
+  "end": 10.149
+ },
+ {
+  "text": "Geographic",
+  "start": 10.149,
+  "end": 10.693
+ },
+ {
+  "text": "says",
+  "start": 10.813,
+  "end": 11.114
+ },
+ {
+  "text": "1.8",
+  "start": 11.114,
+  "end": 12.063
+ },
+ {
+  "text": "The Park",
+  "start": 12.183,
+  "end": 12.414
+ },
+ {
+  "text": "Service",
+  "start": 12.426,
+  "end": 12.819
+ },
+ {
+  "text": "says",
+  "start": 12.939,
+  "end": 13.263
+ },
+ {
+  "text": "2.7",
+  "start": 13.383,
+  "end": 14.298
+ },
+ {
+  "text": "And",
+  "start": 14.418,
+  "end": 14.476
+ },
+ {
+  "text": "across",
+  "start": 14.476,
+  "end": 14.823
+ },
+ {
+  "text": "that",
+  "start": 14.834,
+  "end": 15.008
+ },
+ {
+  "text": "water",
+  "start": 15.02,
+  "end": 15.378
+ },
+ {
+  "text": "it's",
+  "start": 15.498,
+  "end": 15.59
+ },
+ {
+  "text": "already",
+  "start": 15.602,
+  "end": 15.903
+ },
+ {
+  "text": "tomorrow",
+  "start": 15.903,
+  "end": 16.493
+ },
+ {
+  "text": "So",
+  "start": 16.663,
+  "end": 16.825
+ },
+ {
+  "text": "three",
+  "start": 16.836,
+  "end": 17.102
+ },
+ {
+  "text": "questions",
+  "start": 17.102,
+  "end": 17.739
+ },
+ {
+  "text": "Who",
+  "start": 17.859,
+  "end": 17.963
+ },
+ {
+  "text": "actually",
+  "start": 17.963,
+  "end": 18.23
+ },
+ {
+  "text": "said",
+  "start": 18.23,
+  "end": 18.473
+ },
+ {
+  "text": "that",
+  "start": 18.473,
+  "end": 18.635
+ },
+ {
+  "text": "line",
+  "start": 18.646,
+  "end": 18.947
+ },
+ {
+  "text": "How",
+  "start": 19.067,
+  "end": 19.194
+ },
+ {
+  "text": "far",
+  "start": 19.194,
+  "end": 19.391
+ },
+ {
+  "text": "away",
+  "start": 19.403,
+  "end": 19.611
+ },
+ {
+  "text": "is",
+  "start": 19.611,
+  "end": 19.703
+ },
+ {
+  "text": "Russia",
+  "start": 19.703,
+  "end": 20.143
+ },
+ {
+  "text": "really",
+  "start": 20.263,
+  "end": 20.541
+ },
+ {
+  "text": "And",
+  "start": 20.661,
+  "end": 20.765
+ },
+ {
+  "text": "why",
+  "start": 20.765,
+  "end": 20.95
+ },
+ {
+  "text": "couldn't",
+  "start": 20.951,
+  "end": 21.194
+ },
+ {
+  "text": "anyone",
+  "start": 21.251,
+  "end": 21.518
+ },
+ {
+  "text": "cross",
+  "start": 21.529,
+  "end": 22.201
+ },
+ {
+  "text": "for",
+  "start": 22.321,
+  "end": 22.449
+ },
+ {
+  "text": "forty",
+  "start": 22.449,
+  "end": 22.784
+ },
+ {
+  "text": "years",
+  "start": 22.784,
+  "end": 23.34
+ },
+ {
+  "text": "First",
+  "start": 23.51,
+  "end": 23.858
+ },
+ {
+  "text": "the",
+  "start": 23.881,
+  "end": 23.962
+ },
+ {
+  "text": "line",
+  "start": 23.962,
+  "end": 24.297
+ },
+ {
+  "text": "Everyone",
+  "start": 24.417,
+  "end": 24.717
+ },
+ {
+  "text": "remembers",
+  "start": 24.717,
+  "end": 25.146
+ },
+ {
+  "text": "Sarah",
+  "start": 25.238,
+  "end": 25.528
+ },
+ {
+  "text": "Palin",
+  "start": 25.528,
+  "end": 25.991
+ },
+ {
+  "text": "saying",
+  "start": 26.111,
+  "end": 26.458
+ },
+ {
+  "text": "it",
+  "start": 26.458,
+  "end": 26.643
+ },
+ {
+  "text": "We",
+  "start": 26.813,
+  "end": 26.882
+ },
+ {
+  "text": "pulled",
+  "start": 26.882,
+  "end": 27.067
+ },
+ {
+  "text": "the",
+  "start": 27.067,
+  "end": 27.113
+ },
+ {
+  "text": "transcript",
+  "start": 27.125,
+  "end": 27.808
+ },
+ {
+  "text": "On",
+  "start": 27.978,
+  "end": 28.082
+ },
+ {
+  "text": "September 11, 2008",
+  "start": 28.082,
+  "end": 29.91
+ },
+ {
+  "text": "ABC's",
+  "start": 30.03,
+  "end": 30.62
+ },
+ {
+  "text": "Charlie",
+  "start": 30.632,
+  "end": 31.014
+ },
+ {
+  "text": "Gibson",
+  "start": 31.025,
+  "end": 31.465
+ },
+ {
+  "text": "asked",
+  "start": 31.585,
+  "end": 31.839
+ },
+ {
+  "text": "Palin",
+  "start": 31.839,
+  "end": 32.175
+ },
+ {
+  "text": "what",
+  "start": 32.175,
+  "end": 32.337
+ },
+ {
+  "text": "insight",
+  "start": 32.383,
+  "end": 32.835
+ },
+ {
+  "text": "Alaska's",
+  "start": 32.846,
+  "end": 33.344
+ },
+ {
+  "text": "closeness",
+  "start": 33.356,
+  "end": 33.876
+ },
+ {
+  "text": "to",
+  "start": 33.876,
+  "end": 33.957
+ },
+ {
+  "text": "Russia",
+  "start": 33.957,
+  "end": 34.258
+ },
+ {
+  "text": "gave",
+  "start": 34.27,
+  "end": 34.513
+ },
+ {
+  "text": "her",
+  "start": 34.513,
+  "end": 34.756
+ },
+ {
+  "text": "Her",
+  "start": 34.926,
+  "end": 35.064
+ },
+ {
+  "text": "answer",
+  "start": 35.184,
+  "end": 35.624
+ },
+ {
+  "text": "in",
+  "start": 35.744,
+  "end": 35.802
+ },
+ {
+  "text": "the",
+  "start": 35.802,
+  "end": 35.849
+ },
+ {
+  "text": "transcript",
+  "start": 35.849,
+  "end": 36.45
+ },
+ {
+  "text": "from",
+  "start": 36.462,
+  "end": 36.578
+ },
+ {
+  "text": "the",
+  "start": 36.578,
+  "end": 36.636
+ },
+ {
+  "text": "American",
+  "start": 36.647,
+  "end": 37.029
+ },
+ {
+  "text": "Presidency",
+  "start": 37.041,
+  "end": 37.527
+ },
+ {
+  "text": "Project",
+  "start": 37.527,
+  "end": 38.059
+ },
+ {
+  "text": "They're",
+  "start": 38.179,
+  "end": 38.307
+ },
+ {
+  "text": "our",
+  "start": 38.307,
+  "end": 38.399
+ },
+ {
+  "text": "next",
+  "start": 38.411,
+  "end": 38.723
+ },
+ {
+  "text": "door",
+  "start": 38.735,
+  "end": 38.897
+ },
+ {
+  "text": "neighbors",
+  "start": 38.897,
+  "end": 39.452
+ },
+ {
+  "text": "And",
+  "start": 39.572,
+  "end": 39.629
+ },
+ {
+  "text": "you",
+  "start": 39.63,
+  "end": 39.699
+ },
+ {
+  "text": "can",
+  "start": 39.699,
+  "end": 39.792
+ },
+ {
+  "text": "actually",
+  "start": 39.792,
+  "end": 40.035
+ },
+ {
+  "text": "see",
+  "start": 40.035,
+  "end": 40.289
+ },
+ {
+  "text": "Russia",
+  "start": 40.289,
+  "end": 40.636
+ },
+ {
+  "text": "from",
+  "start": 40.636,
+  "end": 40.81
+ },
+ {
+  "text": "land",
+  "start": 40.81,
+  "end": 41.088
+ },
+ {
+  "text": "here",
+  "start": 41.088,
+  "end": 41.308
+ },
+ {
+  "text": "in",
+  "start": 41.319,
+  "end": 41.412
+ },
+ {
+  "text": "Alaska",
+  "start": 41.424,
+  "end": 42.06
+ },
+ {
+  "text": "No",
+  "start": 42.23,
+  "end": 42.345
+ },
+ {
+  "text": "house",
+  "start": 42.357,
+  "end": 42.843
+ },
+ {
+  "text": "Two",
+  "start": 43.013,
+  "end": 43.14
+ },
+ {
+  "text": "days",
+  "start": 43.14,
+  "end": 43.371
+ },
+ {
+  "text": "later",
+  "start": 43.371,
+  "end": 43.719
+ },
+ {
+  "text": "on",
+  "start": 43.839,
+  "end": 43.909
+ },
+ {
+  "text": "the",
+  "start": 43.909,
+  "end": 43.966
+ },
+ {
+  "text": "season",
+  "start": 43.966,
+  "end": 44.314
+ },
+ {
+  "text": "premiere",
+  "start": 44.314,
+  "end": 44.8
+ },
+ {
+  "text": "of",
+  "start": 44.8,
+  "end": 44.869
+ },
+ {
+  "text": "Saturday",
+  "start": 44.881,
+  "end": 45.286
+ },
+ {
+  "text": "Night",
+  "start": 45.297,
+  "end": 45.54
+ },
+ {
+  "text": "Live",
+  "start": 45.54,
+  "end": 45.865
+ },
+ {
+  "text": "Tina",
+  "start": 45.985,
+  "end": 46.298
+ },
+ {
+  "text": "Fey",
+  "start": 46.418,
+  "end": 46.789
+ },
+ {
+  "text": "played",
+  "start": 46.893,
+  "end": 47.228
+ },
+ {
+  "text": "Palin",
+  "start": 47.228,
+  "end": 47.61
+ },
+ {
+  "text": "And",
+  "start": 47.73,
+  "end": 47.881
+ },
+ {
+  "text": "Fey's",
+  "start": 47.881,
+  "end": 48.274
+ },
+ {
+  "text": "Palin",
+  "start": 48.286,
+  "end": 48.691
+ },
+ {
+  "text": "said",
+  "start": 48.702,
+  "end": 49.05
+ },
+ {
+  "text": "And",
+  "start": 49.17,
+  "end": 49.251
+ },
+ {
+  "text": "I",
+  "start": 49.251,
+  "end": 49.344
+ },
+ {
+  "text": "can",
+  "start": 49.344,
+  "end": 49.448
+ },
+ {
+  "text": "see",
+  "start": 49.448,
+  "end": 49.679
+ },
+ {
+  "text": "Russia",
+  "start": 49.679,
+  "end": 50.061
+ },
+ {
+  "text": "from",
+  "start": 50.073,
+  "end": 50.212
+ },
+ {
+  "text": "my",
+  "start": 50.212,
+  "end": 50.351
+ },
+ {
+  "text": "house",
+  "start": 50.351,
+  "end": 50.883
+ },
+ {
+  "text": "Snopes",
+  "start": 51.053,
+  "end": 51.377
+ },
+ {
+  "text": "calls",
+  "start": 51.377,
+  "end": 51.631
+ },
+ {
+  "text": "it",
+  "start": 51.631,
+  "end": 51.678
+ },
+ {
+  "text": "a",
+  "start": 51.678,
+  "end": 51.712
+ },
+ {
+  "text": "line",
+  "start": 51.712,
+  "end": 52.152
+ },
+ {
+  "text": "that",
+  "start": 52.272,
+  "end": 52.376
+ },
+ {
+  "text": "originated",
+  "start": 52.376,
+  "end": 52.966
+ },
+ {
+  "text": "with",
+  "start": 52.978,
+  "end": 53.105
+ },
+ {
+  "text": "an",
+  "start": 53.117,
+  "end": 53.256
+ },
+ {
+  "text": "SNL",
+  "start": 53.267,
+  "end": 53.73
+ },
+ {
+  "text": "spoof",
+  "start": 53.73,
+  "end": 54.228
+ },
+ {
+  "text": "According",
+  "start": 54.348,
+  "end": 54.649
+ },
+ {
+  "text": "to",
+  "start": 54.649,
+  "end": 54.706
+ },
+ {
+  "text": "Wikipedia",
+  "start": 54.706,
+  "end": 55.47
+ },
+ {
+  "text": "it",
+  "start": 55.59,
+  "end": 55.647
+ },
+ {
+  "text": "was",
+  "start": 55.647,
+  "end": 55.81
+ },
+ {
+  "text": "written",
+  "start": 55.81,
+  "end": 56.134
+ },
+ {
+  "text": "by",
+  "start": 56.134,
+  "end": 56.284
+ },
+ {
+  "text": "an",
+  "start": 56.296,
+  "end": 56.377
+ },
+ {
+  "text": "SNL",
+  "start": 56.388,
+  "end": 56.805
+ },
+ {
+  "text": "producer",
+  "start": 56.805,
+  "end": 57.314
+ },
+ {
+  "text": "Mike",
+  "start": 57.434,
+  "end": 57.608
+ },
+ {
+  "text": "Shoemaker",
+  "start": 57.619,
+  "end": 58.256
+ },
+ {
+  "text": "So",
+  "start": 58.426,
+  "end": 58.518
+ },
+ {
+  "text": "the",
+  "start": 58.518,
+  "end": 58.588
+ },
+ {
+  "text": "famous",
+  "start": 58.588,
+  "end": 58.912
+ },
+ {
+  "text": "quote",
+  "start": 58.923,
+  "end": 59.305
+ },
+ {
+  "text": "isn't",
+  "start": 59.425,
+  "end": 59.621
+ },
+ {
+  "text": "hers",
+  "start": 59.621,
+  "end": 60.073
+ },
+ {
+  "text": "But",
+  "start": 60.193,
+  "end": 60.274
+ },
+ {
+  "text": "her",
+  "start": 60.286,
+  "end": 60.459
+ },
+ {
+  "text": "actual",
+  "start": 60.459,
+  "end": 60.83
+ },
+ {
+  "text": "claim",
+  "start": 60.83,
+  "end": 61.269
+ },
+ {
+  "text": "is",
+  "start": 61.389,
+  "end": 61.47
+ },
+ {
+  "text": "a",
+  "start": 61.47,
+  "end": 61.528
+ },
+ {
+  "text": "different",
+  "start": 61.539,
+  "end": 61.828
+ },
+ {
+  "text": "question",
+  "start": 61.829,
+  "end": 62.268
+ },
+ {
+  "text": "Can",
+  "start": 62.388,
+  "end": 62.48
+ },
+ {
+  "text": "you",
+  "start": 62.48,
+  "end": 62.596
+ },
+ {
+  "text": "actually",
+  "start": 62.608,
+  "end": 62.909
+ },
+ {
+  "text": "see",
+  "start": 62.909,
+  "end": 63.152
+ },
+ {
+  "text": "Russia",
+  "start": 63.152,
+  "end": 63.464
+ },
+ {
+  "text": "from",
+  "start": 63.476,
+  "end": 63.661
+ },
+ {
+  "text": "land",
+  "start": 63.661,
+  "end": 64.031
+ },
+ {
+  "text": "in",
+  "start": 64.043,
+  "end": 64.101
+ },
+ {
+  "text": "Alaska",
+  "start": 64.112,
+  "end": 64.726
+ },
+ {
+  "text": "To",
+  "start": 64.896,
+  "end": 64.965
+ },
+ {
+  "text": "answer",
+  "start": 64.965,
+  "end": 65.254
+ },
+ {
+  "text": "that",
+  "start": 65.254,
+  "end": 65.521
+ },
+ {
+  "text": "we",
+  "start": 65.641,
+  "end": 65.756
+ },
+ {
+  "text": "need",
+  "start": 65.756,
+  "end": 65.895
+ },
+ {
+  "text": "a",
+  "start": 65.907,
+  "end": 65.93
+ },
+ {
+  "text": "map",
+  "start": 65.93,
+  "end": 66.289
+ },
+ {
+  "text": "Here's",
+  "start": 66.459,
+  "end": 66.621
+ },
+ {
+  "text": "Alaska",
+  "start": 66.621,
+  "end": 67.223
+ },
+ {
+  "text": "Here's",
+  "start": 67.343,
+  "end": 67.586
+ },
+ {
+  "text": "Russia",
+  "start": 67.586,
+  "end": 68.014
+ },
+ {
+  "text": "Between",
+  "start": 68.134,
+  "end": 68.527
+ },
+ {
+  "text": "them",
+  "start": 68.527,
+  "end": 68.724
+ },
+ {
+  "text": "the",
+  "start": 68.844,
+  "end": 68.925
+ },
+ {
+  "text": "Bering",
+  "start": 68.937,
+  "end": 69.261
+ },
+ {
+  "text": "Strait",
+  "start": 69.261,
+  "end": 69.689
+ },
+ {
+  "text": "At",
+  "start": 69.859,
+  "end": 69.928
+ },
+ {
+  "text": "its",
+  "start": 69.94,
+  "end": 70.055
+ },
+ {
+  "text": "narrowest",
+  "start": 70.055,
+  "end": 70.692
+ },
+ {
+  "text": "NASA",
+  "start": 70.812,
+  "end": 71.24
+ },
+ {
+  "text": "says",
+  "start": 71.333,
+  "end": 71.587
+ },
+ {
+  "text": "about",
+  "start": 71.599,
+  "end": 71.877
+ },
+ {
+  "text": "82",
+  "start": 71.997,
+  "end": 72.437
+ },
+ {
+  "text": "kilometers",
+  "start": 72.448,
+  "end": 73.166
+ },
+ {
+  "text": "or",
+  "start": 73.286,
+  "end": 73.448
+ },
+ {
+  "text": "51 miles",
+  "start": 73.568,
+  "end": 74.703
+ },
+ {
+  "text": "of",
+  "start": 74.823,
+  "end": 74.939
+ },
+ {
+  "text": "water",
+  "start": 74.951,
+  "end": 75.275
+ },
+ {
+  "text": "separate",
+  "start": 75.286,
+  "end": 75.691
+ },
+ {
+  "text": "Cape",
+  "start": 75.749,
+  "end": 75.957
+ },
+ {
+  "text": "Prince",
+  "start": 75.958,
+  "end": 76.224
+ },
+ {
+  "text": "of",
+  "start": 76.224,
+  "end": 76.316
+ },
+ {
+  "text": "Wales",
+  "start": 76.316,
+  "end": 76.756
+ },
+ {
+  "text": "in",
+  "start": 76.837,
+  "end": 76.953
+ },
+ {
+  "text": "Alaska",
+  "start": 76.964,
+  "end": 77.543
+ },
+ {
+  "text": "from",
+  "start": 77.663,
+  "end": 77.813
+ },
+ {
+  "text": "Cape",
+  "start": 77.813,
+  "end": 78.056
+ },
+ {
+  "text": "Dezhnev",
+  "start": 78.056,
+  "end": 78.577
+ },
+ {
+  "text": "in",
+  "start": 78.588,
+  "end": 78.681
+ },
+ {
+  "text": "Russia",
+  "start": 78.681,
+  "end": 79.132
+ },
+ {
+  "text": "The Park",
+  "start": 79.302,
+  "end": 79.568
+ },
+ {
+  "text": "Service",
+  "start": 79.58,
+  "end": 79.95
+ },
+ {
+  "text": "rounds",
+  "start": 79.95,
+  "end": 80.274
+ },
+ {
+  "text": "it",
+  "start": 80.274,
+  "end": 80.344
+ },
+ {
+  "text": "to",
+  "start": 80.355,
+  "end": 80.46
+ },
+ {
+  "text": "about",
+  "start": 80.46,
+  "end": 80.714
+ },
+ {
+  "text": "55 miles",
+  "start": 80.772,
+  "end": 81.987
+ },
+ {
+  "text": "Either",
+  "start": 82.157,
+  "end": 82.366
+ },
+ {
+  "text": "way",
+  "start": 82.366,
+  "end": 82.759
+ },
+ {
+  "text": "too",
+  "start": 82.879,
+  "end": 83.076
+ },
+ {
+  "text": "far",
+  "start": 83.088,
+  "end": 83.331
+ },
+ {
+  "text": "to",
+  "start": 83.331,
+  "end": 83.377
+ },
+ {
+  "text": "see",
+  "start": 83.388,
+  "end": 83.608
+ },
+ {
+  "text": "a",
+  "start": 83.608,
+  "end": 83.643
+ },
+ {
+  "text": "house",
+  "start": 83.643,
+  "end": 84.152
+ },
+ {
+  "text": "But",
+  "start": 84.322,
+  "end": 84.426
+ },
+ {
+  "text": "zoom",
+  "start": 84.437,
+  "end": 84.727
+ },
+ {
+  "text": "in",
+  "start": 84.727,
+  "end": 84.923
+ },
+ {
+  "text": "Right",
+  "start": 85.043,
+  "end": 85.205
+ },
+ {
+  "text": "in",
+  "start": 85.205,
+  "end": 85.251
+ },
+ {
+  "text": "the",
+  "start": 85.251,
+  "end": 85.309
+ },
+ {
+  "text": "middle",
+  "start": 85.309,
+  "end": 85.598
+ },
+ {
+  "text": "of",
+  "start": 85.598,
+  "end": 85.668
+ },
+ {
+  "text": "the",
+  "start": 85.668,
+  "end": 85.726
+ },
+ {
+  "text": "strait",
+  "start": 85.726,
+  "end": 86.2
+ },
+ {
+  "text": "there",
+  "start": 86.32,
+  "end": 86.424
+ },
+ {
+  "text": "are",
+  "start": 86.424,
+  "end": 86.529
+ },
+ {
+  "text": "two",
+  "start": 86.529,
+  "end": 86.818
+ },
+ {
+  "text": "islands",
+  "start": 86.818,
+  "end": 87.397
+ },
+ {
+  "text": "The",
+  "start": 87.567,
+  "end": 87.625
+ },
+ {
+  "text": "small",
+  "start": 87.625,
+  "end": 87.995
+ },
+ {
+  "text": "one",
+  "start": 87.995,
+  "end": 88.273
+ },
+ {
+  "text": "is",
+  "start": 88.377,
+  "end": 88.516
+ },
+ {
+  "text": "Little",
+  "start": 88.528,
+  "end": 88.701
+ },
+ {
+  "text": "Diomede",
+  "start": 88.701,
+  "end": 89.199
+ },
+ {
+  "text": "It",
+  "start": 89.319,
+  "end": 89.376
+ },
+ {
+  "text": "belongs",
+  "start": 89.376,
+  "end": 89.839
+ },
+ {
+  "text": "to",
+  "start": 89.839,
+  "end": 89.932
+ },
+ {
+  "text": "the",
+  "start": 89.932,
+  "end": 89.978
+ },
+ {
+  "text": "United",
+  "start": 89.978,
+  "end": 90.337
+ },
+ {
+  "text": "States",
+  "start": 90.337,
+  "end": 90.916
+ },
+ {
+  "text": "The",
+  "start": 91.086,
+  "end": 91.155
+ },
+ {
+  "text": "big",
+  "start": 91.167,
+  "end": 91.352
+ },
+ {
+  "text": "one",
+  "start": 91.363,
+  "end": 91.549
+ },
+ {
+  "text": "is",
+  "start": 91.56,
+  "end": 91.664
+ },
+ {
+  "text": "Big",
+  "start": 91.711,
+  "end": 91.942
+ },
+ {
+  "text": "Diomede",
+  "start": 91.954,
+  "end": 92.44
+ },
+ {
+  "text": "It",
+  "start": 92.56,
+  "end": 92.617
+ },
+ {
+  "text": "belongs",
+  "start": 92.617,
+  "end": 92.953
+ },
+ {
+  "text": "to",
+  "start": 92.965,
+  "end": 93.046
+ },
+ {
+  "text": "Russia",
+  "start": 93.057,
+  "end": 93.486
+ },
+ {
+  "text": "And",
+  "start": 93.656,
+  "end": 93.737
+ },
+ {
+  "text": "this",
+  "start": 93.749,
+  "end": 93.911
+ },
+ {
+  "text": "is",
+  "start": 93.911,
+  "end": 94.003
+ },
+ {
+  "text": "where",
+  "start": 94.003,
+  "end": 94.107
+ },
+ {
+  "text": "the",
+  "start": 94.119,
+  "end": 94.177
+ },
+ {
+  "text": "numbers",
+  "start": 94.188,
+  "end": 94.605
+ },
+ {
+  "text": "start",
+  "start": 94.617,
+  "end": 94.883
+ },
+ {
+  "text": "to",
+  "start": 94.894,
+  "end": 94.952
+ },
+ {
+  "text": "disagree",
+  "start": 94.952,
+  "end": 95.473
+ },
+ {
+  "text": "NASA's",
+  "start": 95.643,
+  "end": 96.175
+ },
+ {
+  "text": "Earth",
+  "start": 96.222,
+  "end": 96.43
+ },
+ {
+  "text": "Observatory",
+  "start": 96.43,
+  "end": 97.217
+ },
+ {
+  "text": "measuring",
+  "start": 97.337,
+  "end": 97.835
+ },
+ {
+  "text": "from",
+  "start": 97.846,
+  "end": 98.043
+ },
+ {
+  "text": "Landsat",
+  "start": 98.043,
+  "end": 98.645
+ },
+ {
+  "text": "satellite",
+  "start": 98.657,
+  "end": 99.201
+ },
+ {
+  "text": "images",
+  "start": 99.212,
+  "end": 99.698
+ },
+ {
+  "text": "3.8",
+  "start": 99.818,
+  "end": 100.813
+ },
+ {
+  "text": "kilometers",
+  "start": 100.813,
+  "end": 101.531
+ },
+ {
+  "text": "2.4 miles",
+  "start": 101.651,
+  "end": 102.658
+ },
+ {
+  "text": "Slate",
+  "start": 102.828,
+  "end": 103.186
+ },
+ {
+  "text": "in 2008",
+  "start": 103.306,
+  "end": 104.105
+ },
+ {
+  "text": "a",
+  "start": 104.225,
+  "end": 104.26
+ },
+ {
+  "text": "little",
+  "start": 104.271,
+  "end": 104.514
+ },
+ {
+  "text": "less",
+  "start": 104.514,
+  "end": 104.781
+ },
+ {
+  "text": "than",
+  "start": 104.781,
+  "end": 104.931
+ },
+ {
+  "text": "two",
+  "start": 104.943,
+  "end": 105.267
+ },
+ {
+  "text": "and",
+  "start": 105.267,
+  "end": 105.325
+ },
+ {
+  "text": "a",
+  "start": 105.325,
+  "end": 105.348
+ },
+ {
+  "text": "half",
+  "start": 105.359,
+  "end": 105.672
+ },
+ {
+  "text": "miles",
+  "start": 105.683,
+  "end": 106.216
+ },
+ {
+  "text": "The Park",
+  "start": 106.386,
+  "end": 106.664
+ },
+ {
+  "text": "Service's",
+  "start": 106.664,
+  "end": 107.127
+ },
+ {
+  "text": "Alaska",
+  "start": 107.127,
+  "end": 107.578
+ },
+ {
+  "text": "page",
+  "start": 107.578,
+  "end": 108.088
+ },
+ {
+  "text": "about",
+  "start": 108.208,
+  "end": 108.451
+ },
+ {
+  "text": "2.5 miles",
+  "start": 108.463,
+  "end": 109.701
+ },
+ {
+  "text": "Another Park",
+  "start": 109.871,
+  "end": 110.31
+ },
+ {
+  "text": "Service",
+  "start": 110.31,
+  "end": 110.634
+ },
+ {
+  "text": "page",
+  "start": 110.635,
+  "end": 111.121
+ },
+ {
+  "text": "2.7 miles",
+  "start": 111.241,
+  "end": 112.41
+ },
+ {
+  "text": "National",
+  "start": 112.58,
+  "end": 112.915
+ },
+ {
+  "text": "Geographic's",
+  "start": 112.927,
+  "end": 113.633
+ },
+ {
+  "text": "main",
+  "start": 113.753,
+  "end": 114.054
+ },
+ {
+  "text": "text",
+  "start": 114.065,
+  "end": 114.366
+ },
+ {
+  "text": "says",
+  "start": 114.366,
+  "end": 114.76
+ },
+ {
+  "text": "about",
+  "start": 114.88,
+  "end": 115.158
+ },
+ {
+  "text": "two",
+  "start": 115.169,
+  "end": 115.378
+ },
+ {
+  "text": "miles",
+  "start": 115.389,
+  "end": 116.003
+ },
+ {
+  "text": "Its",
+  "start": 116.123,
+  "end": 116.204
+ },
+ {
+  "text": "photo",
+  "start": 116.204,
+  "end": 116.447
+ },
+ {
+  "text": "caption",
+  "start": 116.447,
+  "end": 116.91
+ },
+ {
+  "text": "says",
+  "start": 117.03,
+  "end": 117.285
+ },
+ {
+  "text": "1.8",
+  "start": 117.285,
+  "end": 118.187
+ },
+ {
+  "text": "Six",
+  "start": 118.357,
+  "end": 118.531
+ },
+ {
+  "text": "sources",
+  "start": 118.531,
+  "end": 119.086
+ },
+ {
+  "text": "Five",
+  "start": 119.206,
+  "end": 119.402
+ },
+ {
+  "text": "different",
+  "start": 119.414,
+  "end": 119.669
+ },
+ {
+  "text": "numbers",
+  "start": 119.68,
+  "end": 120.143
+ },
+ {
+  "text": "So",
+  "start": 120.313,
+  "end": 120.405
+ },
+ {
+  "text": "we",
+  "start": 120.405,
+  "end": 120.486
+ },
+ {
+  "text": "measured",
+  "start": 120.498,
+  "end": 120.822
+ },
+ {
+  "text": "it",
+  "start": 120.833,
+  "end": 120.88
+ },
+ {
+  "text": "ourselves",
+  "start": 120.891,
+  "end": 121.563
+ },
+ {
+  "text": "Using",
+  "start": 121.733,
+  "end": 122.01
+ },
+ {
+  "text": "Natural",
+  "start": 122.01,
+  "end": 122.392
+ },
+ {
+  "text": "Earth",
+  "start": 122.392,
+  "end": 122.589
+ },
+ {
+  "text": "map",
+  "start": 122.589,
+  "end": 122.855
+ },
+ {
+  "text": "data",
+  "start": 122.855,
+  "end": 123.202
+ },
+ {
+  "text": "the",
+  "start": 123.322,
+  "end": 123.403
+ },
+ {
+  "text": "closest",
+  "start": 123.414,
+  "end": 123.877
+ },
+ {
+  "text": "points",
+  "start": 123.889,
+  "end": 124.19
+ },
+ {
+  "text": "of",
+  "start": 124.201,
+  "end": 124.259
+ },
+ {
+  "text": "the",
+  "start": 124.259,
+  "end": 124.317
+ },
+ {
+  "text": "two",
+  "start": 124.329,
+  "end": 124.572
+ },
+ {
+  "text": "islands",
+  "start": 124.583,
+  "end": 124.942
+ },
+ {
+  "text": "come",
+  "start": 124.954,
+  "end": 125.104
+ },
+ {
+  "text": "out",
+  "start": 125.104,
+  "end": 125.289
+ },
+ {
+  "text": "about",
+  "start": 125.301,
+  "end": 125.579
+ },
+ {
+  "text": "3.9",
+  "start": 125.699,
+  "end": 126.683
+ },
+ {
+  "text": "kilometers",
+  "start": 126.683,
+  "end": 127.111
+ },
+ {
+  "text": "apart",
+  "start": 127.111,
+  "end": 127.504
+ },
+ {
+  "text": "About",
+  "start": 127.624,
+  "end": 127.844
+ },
+ {
+  "text": "2.45 miles",
+  "start": 127.844,
+  "end": 129.372
+ },
+ {
+  "text": "That's",
+  "start": 129.542,
+  "end": 129.635
+ },
+ {
+  "text": "a",
+  "start": 129.646,
+  "end": 129.693
+ },
+ {
+  "text": "rough",
+  "start": 129.693,
+  "end": 130.028
+ },
+ {
+  "text": "map",
+  "start": 130.028,
+  "end": 130.41
+ },
+ {
+  "text": "built",
+  "start": 130.53,
+  "end": 130.762
+ },
+ {
+  "text": "for",
+  "start": 130.762,
+  "end": 130.854
+ },
+ {
+  "text": "the",
+  "start": 130.854,
+  "end": 130.912
+ },
+ {
+  "text": "whole",
+  "start": 130.912,
+  "end": 131.225
+ },
+ {
+  "text": "world",
+  "start": 131.225,
+  "end": 131.607
+ },
+ {
+  "text": "not",
+  "start": 131.727,
+  "end": 131.97
+ },
+ {
+  "text": "for",
+  "start": 131.982,
+  "end": 132.132
+ },
+ {
+  "text": "two",
+  "start": 132.132,
+  "end": 132.387
+ },
+ {
+  "text": "small",
+  "start": 132.387,
+  "end": 132.734
+ },
+ {
+  "text": "islands",
+  "start": 132.734,
+  "end": 133.255
+ },
+ {
+  "text": "But",
+  "start": 133.375,
+  "end": 133.444
+ },
+ {
+  "text": "it",
+  "start": 133.444,
+  "end": 133.514
+ },
+ {
+  "text": "lands",
+  "start": 133.525,
+  "end": 133.826
+ },
+ {
+  "text": "right",
+  "start": 133.826,
+  "end": 134.046
+ },
+ {
+  "text": "next",
+  "start": 134.046,
+  "end": 134.266
+ },
+ {
+  "text": "to",
+  "start": 134.266,
+  "end": 134.312
+ },
+ {
+  "text": "NASA's",
+  "start": 134.312,
+  "end": 134.694
+ },
+ {
+  "text": "number",
+  "start": 134.694,
+  "end": 135.053
+ },
+ {
+  "text": "So",
+  "start": 135.223,
+  "end": 135.304
+ },
+ {
+  "text": "the",
+  "start": 135.304,
+  "end": 135.373
+ },
+ {
+  "text": "best",
+  "start": 135.373,
+  "end": 135.628
+ },
+ {
+  "text": "answer",
+  "start": 135.639,
+  "end": 136.044
+ },
+ {
+  "text": "is",
+  "start": 136.164,
+  "end": 136.268
+ },
+ {
+  "text": "about",
+  "start": 136.268,
+  "end": 136.557
+ },
+ {
+  "text": "2.4 miles",
+  "start": 136.673,
+  "end": 137.981
+ },
+ {
+  "text": "The",
+  "start": 138.101,
+  "end": 138.159
+ },
+ {
+  "text": "1.8",
+  "start": 138.159,
+  "end": 138.772
+ },
+ {
+  "text": "looks",
+  "start": 138.784,
+  "end": 138.946
+ },
+ {
+  "text": "like",
+  "start": 138.946,
+  "end": 139.073
+ },
+ {
+  "text": "the",
+  "start": 139.073,
+  "end": 139.165
+ },
+ {
+  "text": "odd",
+  "start": 139.165,
+  "end": 139.455
+ },
+ {
+  "text": "one",
+  "start": 139.466,
+  "end": 139.64
+ },
+ {
+  "text": "out",
+  "start": 139.64,
+  "end": 139.941
+ },
+ {
+  "text": "The",
+  "start": 140.061,
+  "end": 140.108
+ },
+ {
+  "text": "2.7",
+  "start": 140.119,
+  "end": 140.802
+ },
+ {
+  "text": "too",
+  "start": 140.802,
+  "end": 141.149
+ },
+ {
+  "text": "We",
+  "start": 141.269,
+  "end": 141.35
+ },
+ {
+  "text": "couldn't",
+  "start": 141.361,
+  "end": 141.593
+ },
+ {
+  "text": "find",
+  "start": 141.593,
+  "end": 142.009
+ },
+ {
+  "text": "what",
+  "start": 142.009,
+  "end": 142.079
+ },
+ {
+  "text": "it",
+  "start": 142.079,
+  "end": 142.113
+ },
+ {
+  "text": "was",
+  "start": 142.125,
+  "end": 142.229
+ },
+ {
+  "text": "measuring",
+  "start": 142.229,
+  "end": 142.704
+ },
+ {
+  "text": "That's",
+  "start": 142.874,
+  "end": 142.989
+ },
+ {
+  "text": "closer",
+  "start": 143.001,
+  "end": 143.441
+ },
+ {
+  "text": "than",
+  "start": 143.452,
+  "end": 143.545
+ },
+ {
+  "text": "a",
+  "start": 143.545,
+  "end": 143.58
+ },
+ {
+  "text": "lot",
+  "start": 143.58,
+  "end": 143.881
+ },
+ {
+  "text": "of",
+  "start": 143.892,
+  "end": 143.962
+ },
+ {
+  "text": "people's",
+  "start": 143.973,
+  "end": 144.297
+ },
+ {
+  "text": "commute",
+  "start": 144.297,
+  "end": 144.725
+ },
+ {
+  "text": "Now",
+  "start": 144.895,
+  "end": 145.057
+ },
+ {
+  "text": "can",
+  "start": 145.069,
+  "end": 145.196
+ },
+ {
+  "text": "you",
+  "start": 145.196,
+  "end": 145.254
+ },
+ {
+  "text": "see",
+  "start": 145.254,
+  "end": 145.439
+ },
+ {
+  "text": "across",
+  "start": 145.451,
+  "end": 146.03
+ },
+ {
+  "text": "According",
+  "start": 146.2,
+  "end": 146.466
+ },
+ {
+  "text": "to",
+  "start": 146.478,
+  "end": 146.524
+ },
+ {
+  "text": "NASA",
+  "start": 146.536,
+  "end": 147.103
+ },
+ {
+  "text": "the",
+  "start": 147.223,
+  "end": 147.281
+ },
+ {
+  "text": "village",
+  "start": 147.281,
+  "end": 147.628
+ },
+ {
+  "text": "on",
+  "start": 147.628,
+  "end": 147.755
+ },
+ {
+  "text": "Little",
+  "start": 147.755,
+  "end": 147.94
+ },
+ {
+  "text": "Diomede",
+  "start": 147.94,
+  "end": 148.507
+ },
+ {
+  "text": "sits",
+  "start": 148.627,
+  "end": 149.055
+ },
+ {
+  "text": "on",
+  "start": 149.067,
+  "end": 149.148
+ },
+ {
+  "text": "the",
+  "start": 149.148,
+  "end": 149.217
+ },
+ {
+  "text": "island's",
+  "start": 149.218,
+  "end": 149.588
+ },
+ {
+  "text": "western",
+  "start": 149.588,
+  "end": 149.947
+ },
+ {
+  "text": "side",
+  "start": 149.947,
+  "end": 150.329
+ },
+ {
+  "text": "Big",
+  "start": 150.449,
+  "end": 150.669
+ },
+ {
+  "text": "Diomede",
+  "start": 150.68,
+  "end": 151.201
+ },
+ {
+  "text": "and",
+  "start": 151.321,
+  "end": 151.472
+ },
+ {
+  "text": "even",
+  "start": 151.588,
+  "end": 151.773
+ },
+ {
+  "text": "the",
+  "start": 151.773,
+  "end": 151.842
+ },
+ {
+  "text": "Russian",
+  "start": 151.842,
+  "end": 152.166
+ },
+ {
+  "text": "mainland",
+  "start": 152.166,
+  "end": 152.803
+ },
+ {
+  "text": "are",
+  "start": 152.923,
+  "end": 153.062
+ },
+ {
+  "text": "visible",
+  "start": 153.062,
+  "end": 153.525
+ },
+ {
+  "text": "from",
+  "start": 153.525,
+  "end": 153.653
+ },
+ {
+  "text": "the",
+  "start": 153.653,
+  "end": 153.699
+ },
+ {
+  "text": "homes",
+  "start": 153.699,
+  "end": 154.301
+ },
+ {
+  "text": "Slate",
+  "start": 154.471,
+  "end": 154.807
+ },
+ {
+  "text": "adds",
+  "start": 154.927,
+  "end": 155.112
+ },
+ {
+  "text": "a",
+  "start": 155.112,
+  "end": 155.158
+ },
+ {
+  "text": "catch",
+  "start": 155.17,
+  "end": 155.644
+ },
+ {
+  "text": "The",
+  "start": 155.764,
+  "end": 155.845
+ },
+ {
+  "text": "islands",
+  "start": 155.845,
+  "end": 156.216
+ },
+ {
+  "text": "are",
+  "start": 156.227,
+  "end": 156.32
+ },
+ {
+  "text": "often",
+  "start": 156.32,
+  "end": 156.702
+ },
+ {
+  "text": "wrapped",
+  "start": 156.702,
+  "end": 157.084
+ },
+ {
+  "text": "in",
+  "start": 157.095,
+  "end": 157.165
+ },
+ {
+  "text": "fog",
+  "start": 157.165,
+  "end": 157.593
+ },
+ {
+  "text": "But",
+  "start": 157.713,
+  "end": 157.783
+ },
+ {
+  "text": "on",
+  "start": 157.783,
+  "end": 157.864
+ },
+ {
+  "text": "a",
+  "start": 157.864,
+  "end": 157.91
+ },
+ {
+  "text": "clear",
+  "start": 157.91,
+  "end": 158.199
+ },
+ {
+  "text": "day",
+  "start": 158.199,
+  "end": 158.581
+ },
+ {
+  "text": "you",
+  "start": 158.701,
+  "end": 158.817
+ },
+ {
+  "text": "can",
+  "start": 158.829,
+  "end": 158.991
+ },
+ {
+  "text": "definitely",
+  "start": 159.111,
+  "end": 159.528
+ },
+ {
+  "text": "see",
+  "start": 159.528,
+  "end": 159.84
+ },
+ {
+  "text": "one",
+  "start": 159.84,
+  "end": 160.153
+ },
+ {
+  "text": "from",
+  "start": 160.153,
+  "end": 160.291
+ },
+ {
+  "text": "the",
+  "start": 160.291,
+  "end": 160.384
+ },
+ {
+  "text": "other",
+  "start": 160.384,
+  "end": 160.731
+ },
+ {
+  "text": "So",
+  "start": 160.901,
+  "end": 161.051
+ },
+ {
+  "text": "Palin's",
+  "start": 161.051,
+  "end": 161.491
+ },
+ {
+  "text": "line",
+  "start": 161.502,
+  "end": 161.896
+ },
+ {
+  "text": "checks",
+  "start": 162.016,
+  "end": 162.317
+ },
+ {
+  "text": "out",
+  "start": 162.329,
+  "end": 162.618
+ },
+ {
+  "text": "From",
+  "start": 162.738,
+  "end": 162.866
+ },
+ {
+  "text": "land",
+  "start": 162.877,
+  "end": 163.12
+ },
+ {
+  "text": "in",
+  "start": 163.12,
+  "end": 163.166
+ },
+ {
+  "text": "Alaska",
+  "start": 163.166,
+  "end": 163.861
+ },
+ {
+  "text": "on",
+  "start": 163.981,
+  "end": 164.096
+ },
+ {
+  "text": "a",
+  "start": 164.096,
+  "end": 164.154
+ },
+ {
+  "text": "clear",
+  "start": 164.154,
+  "end": 164.409
+ },
+ {
+  "text": "day",
+  "start": 164.42,
+  "end": 164.791
+ },
+ {
+  "text": "you",
+  "start": 164.911,
+  "end": 165.004
+ },
+ {
+  "text": "can",
+  "start": 165.004,
+  "end": 165.096
+ },
+ {
+  "text": "see",
+  "start": 165.096,
+  "end": 165.351
+ },
+ {
+  "text": "Russia",
+  "start": 165.351,
+  "end": 165.86
+ },
+ {
+  "text": "But",
+  "start": 166.03,
+  "end": 166.099
+ },
+ {
+  "text": "the",
+  "start": 166.099,
+  "end": 166.169
+ },
+ {
+  "text": "strangest",
+  "start": 166.169,
+  "end": 166.69
+ },
+ {
+  "text": "thing",
+  "start": 166.69,
+  "end": 166.852
+ },
+ {
+  "text": "about",
+  "start": 166.852,
+  "end": 167.141
+ },
+ {
+  "text": "this",
+  "start": 167.141,
+  "end": 167.349
+ },
+ {
+  "text": "view",
+  "start": 167.361,
+  "end": 167.743
+ },
+ {
+  "text": "isn't",
+  "start": 167.863,
+  "end": 168.095
+ },
+ {
+  "text": "the",
+  "start": 168.095,
+  "end": 168.164
+ },
+ {
+  "text": "distance",
+  "start": 168.164,
+  "end": 168.789
+ },
+ {
+  "text": "It's",
+  "start": 168.909,
+  "end": 169.013
+ },
+ {
+  "text": "the",
+  "start": 169.013,
+  "end": 169.105
+ },
+ {
+  "text": "date",
+  "start": 169.105,
+  "end": 169.441
+ },
+ {
+  "text": "Part",
+  "start": 169.611,
+  "end": 169.773
+ },
+ {
+  "text": "two",
+  "start": 169.773,
+  "end": 170.062
+ },
+ {
+  "text": "Yesterday",
+  "start": 170.182,
+  "end": 170.622
+ },
+ {
+  "text": "Island",
+  "start": 170.622,
+  "end": 171.016
+ },
+ {
+  "text": "and",
+  "start": 171.131,
+  "end": 171.259
+ },
+ {
+  "text": "Tomorrow",
+  "start": 171.27,
+  "end": 171.733
+ },
+ {
+  "text": "Island",
+  "start": 171.733,
+  "end": 172.115
+ },
+ {
+  "text": "Where",
+  "start": 172.285,
+  "end": 172.354
+ },
+ {
+  "text": "does",
+  "start": 172.354,
+  "end": 172.458
+ },
+ {
+  "text": "the",
+  "start": 172.458,
+  "end": 172.551
+ },
+ {
+  "text": "border",
+  "start": 172.551,
+  "end": 173.048
+ },
+ {
+  "text": "actually",
+  "start": 173.141,
+  "end": 173.465
+ },
+ {
+  "text": "run",
+  "start": 173.477,
+  "end": 173.801
+ },
+ {
+  "text": "It",
+  "start": 173.971,
+  "end": 174.04
+ },
+ {
+  "text": "was",
+  "start": 174.04,
+  "end": 174.156
+ },
+ {
+  "text": "drawn",
+  "start": 174.156,
+  "end": 174.468
+ },
+ {
+  "text": "in 1867",
+  "start": 174.48,
+  "end": 175.892
+ },
+ {
+  "text": "when",
+  "start": 176.012,
+  "end": 176.093
+ },
+ {
+  "text": "the",
+  "start": 176.093,
+  "end": 176.128
+ },
+ {
+  "text": "United",
+  "start": 176.128,
+  "end": 176.475
+ },
+ {
+  "text": "States",
+  "start": 176.475,
+  "end": 176.892
+ },
+ {
+  "text": "bought",
+  "start": 177.008,
+  "end": 177.216
+ },
+ {
+  "text": "Alaska",
+  "start": 177.216,
+  "end": 177.737
+ },
+ {
+  "text": "from",
+  "start": 177.737,
+  "end": 177.98
+ },
+ {
+  "text": "Russia",
+  "start": 177.991,
+  "end": 178.362
+ },
+ {
+  "text": "for",
+  "start": 178.482,
+  "end": 178.61
+ },
+ {
+  "text": "7.2 million dollars",
+  "start": 178.621,
+  "end": 180.276
+ },
+ {
+  "text": "Here's",
+  "start": 180.446,
+  "end": 180.678
+ },
+ {
+  "text": "the",
+  "start": 180.689,
+  "end": 180.782
+ },
+ {
+  "text": "treaty",
+  "start": 180.793,
+  "end": 181.303
+ },
+ {
+  "text": "from",
+  "start": 181.423,
+  "end": 181.539
+ },
+ {
+  "text": "the",
+  "start": 181.539,
+  "end": 181.597
+ },
+ {
+  "text": "State",
+  "start": 181.597,
+  "end": 181.863
+ },
+ {
+  "text": "Department's",
+  "start": 181.874,
+  "end": 182.442
+ },
+ {
+  "text": "historical",
+  "start": 182.453,
+  "end": 183.032
+ },
+ {
+  "text": "archive",
+  "start": 183.032,
+  "end": 183.634
+ },
+ {
+  "text": "The",
+  "start": 183.804,
+  "end": 183.885
+ },
+ {
+  "text": "western",
+  "start": 183.896,
+  "end": 184.301
+ },
+ {
+  "text": "limit",
+  "start": 184.301,
+  "end": 184.567
+ },
+ {
+  "text": "it",
+  "start": 184.687,
+  "end": 184.768
+ },
+ {
+  "text": "says",
+  "start": 184.768,
+  "end": 185.324
+ },
+ {
+  "text": "passes",
+  "start": 185.444,
+  "end": 185.953
+ },
+ {
+  "text": "through",
+  "start": 185.953,
+  "end": 186.115
+ },
+ {
+  "text": "a",
+  "start": 186.115,
+  "end": 186.185
+ },
+ {
+  "text": "point",
+  "start": 186.185,
+  "end": 186.59
+ },
+ {
+  "text": "in",
+  "start": 186.636,
+  "end": 186.74
+ },
+ {
+  "text": "the",
+  "start": 186.74,
+  "end": 186.868
+ },
+ {
+  "text": "Bering",
+  "start": 186.937,
+  "end": 187.319
+ },
+ {
+  "text": "Strait",
+  "start": 187.319,
+  "end": 187.782
+ },
+ {
+  "text": "on",
+  "start": 187.902,
+  "end": 187.983
+ },
+ {
+  "text": "the",
+  "start": 187.994,
+  "end": 188.052
+ },
+ {
+  "text": "meridian",
+  "start": 188.052,
+  "end": 188.619
+ },
+ {
+  "text": "which",
+  "start": 188.739,
+  "end": 188.901
+ },
+ {
+  "text": "passes",
+  "start": 188.901,
+  "end": 189.445
+ },
+ {
+  "text": "midway",
+  "start": 189.456,
+  "end": 190.0
+ },
+ {
+  "text": "between",
+  "start": 190.012,
+  "end": 190.324
+ },
+ {
+  "text": "the",
+  "start": 190.324,
+  "end": 190.394
+ },
+ {
+  "text": "island",
+  "start": 190.405,
+  "end": 190.753
+ },
+ {
+  "text": "of",
+  "start": 190.753,
+  "end": 190.81
+ },
+ {
+  "text": "Krusenstern",
+  "start": 190.811,
+  "end": 191.424
+ },
+ {
+  "text": "and",
+  "start": 191.544,
+  "end": 191.602
+ },
+ {
+  "text": "the",
+  "start": 191.602,
+  "end": 191.695
+ },
+ {
+  "text": "island",
+  "start": 191.718,
+  "end": 192.112
+ },
+ {
+  "text": "of",
+  "start": 192.112,
+  "end": 192.158
+ },
+ {
+  "text": "Ratmanoff",
+  "start": 192.169,
+  "end": 192.818
+ },
+ {
+  "text": "Krusenstern",
+  "start": 192.988,
+  "end": 193.589
+ },
+ {
+  "text": "is",
+  "start": 193.682,
+  "end": 193.821
+ },
+ {
+  "text": "Little",
+  "start": 193.833,
+  "end": 194.041
+ },
+ {
+  "text": "Diomede",
+  "start": 194.041,
+  "end": 194.608
+ },
+ {
+  "text": "Ratmanoff",
+  "start": 194.728,
+  "end": 195.307
+ },
+ {
+  "text": "is",
+  "start": 195.427,
+  "end": 195.532
+ },
+ {
+  "text": "Big",
+  "start": 195.543,
+  "end": 195.798
+ },
+ {
+  "text": "Diomede",
+  "start": 195.809,
+  "end": 196.307
+ },
+ {
+  "text": "So",
+  "start": 196.477,
+  "end": 196.592
+ },
+ {
+  "text": "the",
+  "start": 196.592,
+  "end": 196.673
+ },
+ {
+  "text": "line",
+  "start": 196.685,
+  "end": 197.032
+ },
+ {
+  "text": "runs",
+  "start": 197.032,
+  "end": 197.379
+ },
+ {
+  "text": "straight",
+  "start": 197.499,
+  "end": 197.95
+ },
+ {
+  "text": "down",
+  "start": 197.962,
+  "end": 198.193
+ },
+ {
+  "text": "the",
+  "start": 198.193,
+  "end": 198.274
+ },
+ {
+  "text": "water",
+  "start": 198.274,
+  "end": 198.564
+ },
+ {
+  "text": "between",
+  "start": 198.564,
+  "end": 198.946
+ },
+ {
+  "text": "them",
+  "start": 198.946,
+  "end": 199.165
+ },
+ {
+  "text": "And",
+  "start": 199.335,
+  "end": 199.381
+ },
+ {
+  "text": "the",
+  "start": 199.393,
+  "end": 199.462
+ },
+ {
+  "text": "International",
+  "start": 199.462,
+  "end": 199.983
+ },
+ {
+  "text": "Date",
+  "start": 199.983,
+  "end": 200.18
+ },
+ {
+  "text": "Line",
+  "start": 200.18,
+  "end": 200.562
+ },
+ {
+  "text": "follows",
+  "start": 200.682,
+  "end": 201.272
+ },
+ {
+  "text": "that",
+  "start": 201.284,
+  "end": 201.481
+ },
+ {
+  "text": "border",
+  "start": 201.481,
+  "end": 201.77
+ },
+ {
+  "text": "here",
+  "start": 201.782,
+  "end": 202.129
+ },
+ {
+  "text": "That's",
+  "start": 202.299,
+  "end": 202.426
+ },
+ {
+  "text": "why",
+  "start": 202.426,
+  "end": 202.542
+ },
+ {
+  "text": "Little",
+  "start": 202.553,
+  "end": 202.738
+ },
+ {
+  "text": "Diomede",
+  "start": 202.75,
+  "end": 203.178
+ },
+ {
+  "text": "got",
+  "start": 203.19,
+  "end": 203.329
+ },
+ {
+  "text": "the",
+  "start": 203.329,
+  "end": 203.387
+ },
+ {
+  "text": "nickname",
+  "start": 203.398,
+  "end": 203.931
+ },
+ {
+  "text": "Yesterday",
+  "start": 204.051,
+  "end": 204.526
+ },
+ {
+  "text": "Island",
+  "start": 204.526,
+  "end": 204.907
+ },
+ {
+  "text": "and",
+  "start": 205.027,
+  "end": 205.131
+ },
+ {
+  "text": "Big",
+  "start": 205.212,
+  "end": 205.397
+ },
+ {
+  "text": "Diomede",
+  "start": 205.409,
+  "end": 205.918
+ },
+ {
+  "text": "Tomorrow",
+  "start": 206.038,
+  "end": 206.408
+ },
+ {
+  "text": "Island",
+  "start": 206.408,
+  "end": 206.767
+ },
+ {
+  "text": "NASA",
+  "start": 206.937,
+  "end": 207.412
+ },
+ {
+  "text": "even",
+  "start": 207.532,
+  "end": 207.787
+ },
+ {
+  "text": "quoted",
+  "start": 207.799,
+  "end": 208.134
+ },
+ {
+  "text": "a",
+  "start": 208.134,
+  "end": 208.157
+ },
+ {
+  "text": "reader",
+  "start": 208.157,
+  "end": 208.563
+ },
+ {
+  "text": "When",
+  "start": 208.683,
+  "end": 208.799
+ },
+ {
+  "text": "you",
+  "start": 208.799,
+  "end": 208.903
+ },
+ {
+  "text": "look",
+  "start": 208.903,
+  "end": 209.065
+ },
+ {
+  "text": "at",
+  "start": 209.065,
+  "end": 209.123
+ },
+ {
+  "text": "the",
+  "start": 209.134,
+  "end": 209.215
+ },
+ {
+  "text": "Big",
+  "start": 209.285,
+  "end": 209.551
+ },
+ {
+  "text": "Diomede",
+  "start": 209.563,
+  "end": 209.968
+ },
+ {
+  "text": "Island",
+  "start": 209.968,
+  "end": 210.315
+ },
+ {
+  "text": "you're",
+  "start": 210.435,
+  "end": 210.516
+ },
+ {
+  "text": "looking",
+  "start": 210.516,
+  "end": 210.828
+ },
+ {
+  "text": "into",
+  "start": 210.828,
+  "end": 210.967
+ },
+ {
+  "text": "the",
+  "start": 210.967,
+  "end": 211.025
+ },
+ {
+  "text": "future",
+  "start": 211.037,
+  "end": 211.662
+ },
+ {
+  "text": "But",
+  "start": 211.832,
+  "end": 211.901
+ },
+ {
+  "text": "how",
+  "start": 211.913,
+  "end": 212.133
+ },
+ {
+  "text": "far",
+  "start": 212.144,
+  "end": 212.514
+ },
+ {
+  "text": "into",
+  "start": 212.514,
+  "end": 212.63
+ },
+ {
+  "text": "the",
+  "start": 212.63,
+  "end": 212.688
+ },
+ {
+  "text": "future",
+  "start": 212.688,
+  "end": 213.186
+ },
+ {
+  "text": "Snopes",
+  "start": 213.356,
+  "end": 213.807
+ },
+ {
+  "text": "and",
+  "start": 213.927,
+  "end": 214.089
+ },
+ {
+  "text": "Wikipedia",
+  "start": 214.089,
+  "end": 214.656
+ },
+ {
+  "text": "say",
+  "start": 214.776,
+  "end": 215.1
+ },
+ {
+  "text": "21 hours",
+  "start": 215.22,
+  "end": 216.157
+ },
+ {
+  "text": "National",
+  "start": 216.277,
+  "end": 216.613
+ },
+ {
+  "text": "Geographic",
+  "start": 216.613,
+  "end": 217.169
+ },
+ {
+  "text": "says",
+  "start": 217.289,
+  "end": 217.775
+ },
+ {
+  "text": "23",
+  "start": 217.879,
+  "end": 218.631
+ },
+ {
+  "text": "So",
+  "start": 218.801,
+  "end": 218.893
+ },
+ {
+  "text": "we",
+  "start": 218.893,
+  "end": 218.963
+ },
+ {
+  "text": "checked",
+  "start": 218.963,
+  "end": 219.183
+ },
+ {
+  "text": "the",
+  "start": 219.194,
+  "end": 219.24
+ },
+ {
+  "text": "clocks",
+  "start": 219.24,
+  "end": 219.819
+ },
+ {
+  "text": "Little",
+  "start": 219.989,
+  "end": 220.151
+ },
+ {
+  "text": "Diomede",
+  "start": 220.151,
+  "end": 220.741
+ },
+ {
+  "text": "runs",
+  "start": 220.861,
+  "end": 221.208
+ },
+ {
+  "text": "on",
+  "start": 221.219,
+  "end": 221.312
+ },
+ {
+  "text": "Alaska",
+  "start": 221.312,
+  "end": 221.717
+ },
+ {
+  "text": "time",
+  "start": 221.717,
+  "end": 222.088
+ },
+ {
+  "text": "In",
+  "start": 222.208,
+  "end": 222.335
+ },
+ {
+  "text": "winter",
+  "start": 222.335,
+  "end": 222.763
+ },
+ {
+  "text": "that's",
+  "start": 222.883,
+  "end": 223.091
+ },
+ {
+  "text": "nine",
+  "start": 223.103,
+  "end": 223.404
+ },
+ {
+  "text": "hours",
+  "start": 223.415,
+  "end": 223.728
+ },
+ {
+  "text": "behind",
+  "start": 223.74,
+  "end": 224.11
+ },
+ {
+  "text": "UTC",
+  "start": 224.11,
+  "end": 224.723
+ },
+ {
+  "text": "Big",
+  "start": 224.843,
+  "end": 225.005
+ },
+ {
+  "text": "Diomede",
+  "start": 225.005,
+  "end": 225.514
+ },
+ {
+  "text": "runs",
+  "start": 225.634,
+  "end": 225.946
+ },
+ {
+  "text": "on",
+  "start": 225.946,
+  "end": 226.108
+ },
+ {
+  "text": "Russia's",
+  "start": 226.12,
+  "end": 226.525
+ },
+ {
+  "text": "Anadyr",
+  "start": 226.536,
+  "end": 227.011
+ },
+ {
+  "text": "time",
+  "start": 227.011,
+  "end": 227.405
+ },
+ {
+  "text": "twelve",
+  "start": 227.525,
+  "end": 227.815
+ },
+ {
+  "text": "hours",
+  "start": 227.815,
+  "end": 228.116
+ },
+ {
+  "text": "ahead",
+  "start": 228.127,
+  "end": 228.474
+ },
+ {
+  "text": "That's",
+  "start": 228.644,
+  "end": 228.782
+ },
+ {
+  "text": "21 hours",
+  "start": 228.783,
+  "end": 229.732
+ },
+ {
+  "text": "In",
+  "start": 229.852,
+  "end": 229.968
+ },
+ {
+  "text": "summer",
+  "start": 229.968,
+  "end": 230.42
+ },
+ {
+  "text": "Alaska",
+  "start": 230.54,
+  "end": 231.037
+ },
+ {
+  "text": "moves",
+  "start": 231.049,
+  "end": 231.419
+ },
+ {
+  "text": "its",
+  "start": 231.431,
+  "end": 231.523
+ },
+ {
+  "text": "clocks",
+  "start": 231.524,
+  "end": 231.824
+ },
+ {
+  "text": "forward",
+  "start": 231.836,
+  "end": 232.218
+ },
+ {
+  "text": "so",
+  "start": 232.338,
+  "end": 232.512
+ },
+ {
+  "text": "it's",
+  "start": 232.512,
+  "end": 232.616
+ },
+ {
+  "text": "20",
+  "start": 232.616,
+  "end": 233.044
+ },
+ {
+  "text": "So",
+  "start": 233.214,
+  "end": 233.329
+ },
+ {
+  "text": "at",
+  "start": 233.329,
+  "end": 233.387
+ },
+ {
+  "text": "noon",
+  "start": 233.387,
+  "end": 233.572
+ },
+ {
+  "text": "on",
+  "start": 233.572,
+  "end": 233.653
+ },
+ {
+  "text": "a",
+  "start": 233.653,
+  "end": 233.677
+ },
+ {
+  "text": "Monday",
+  "start": 233.677,
+  "end": 234.325
+ },
+ {
+  "text": "in",
+  "start": 234.417,
+  "end": 234.556
+ },
+ {
+  "text": "January",
+  "start": 234.556,
+  "end": 235.146
+ },
+ {
+  "text": "on",
+  "start": 235.146,
+  "end": 235.32
+ },
+ {
+  "text": "Little",
+  "start": 235.332,
+  "end": 235.517
+ },
+ {
+  "text": "Diomede",
+  "start": 235.528,
+  "end": 236.061
+ },
+ {
+  "text": "it's",
+  "start": 236.181,
+  "end": 236.285
+ },
+ {
+  "text": "already",
+  "start": 236.296,
+  "end": 236.528
+ },
+ {
+  "text": "9 a.m.",
+  "start": 236.528,
+  "end": 237.199
+ },
+ {
+  "text": "on",
+  "start": 237.303,
+  "end": 237.477
+ },
+ {
+  "text": "Tuesday",
+  "start": 237.489,
+  "end": 238.009
+ },
+ {
+  "text": "across",
+  "start": 238.009,
+  "end": 238.31
+ },
+ {
+  "text": "the",
+  "start": 238.322,
+  "end": 238.391
+ },
+ {
+  "text": "water",
+  "start": 238.403,
+  "end": 238.796
+ },
+ {
+  "text": "National",
+  "start": 238.966,
+  "end": 239.313
+ },
+ {
+  "text": "Geographic's",
+  "start": 239.324,
+  "end": 240.019
+ },
+ {
+  "text": "23",
+  "start": 240.03,
+  "end": 240.817
+ },
+ {
+  "text": "doesn't",
+  "start": 240.937,
+  "end": 241.215
+ },
+ {
+  "text": "match",
+  "start": 241.215,
+  "end": 241.527
+ },
+ {
+  "text": "the",
+  "start": 241.527,
+  "end": 241.597
+ },
+ {
+  "text": "clocks",
+  "start": 241.608,
+  "end": 242.198
+ },
+ {
+  "text": "So",
+  "start": 242.368,
+  "end": 242.46
+ },
+ {
+  "text": "you",
+  "start": 242.46,
+  "end": 242.541
+ },
+ {
+  "text": "can",
+  "start": 242.553,
+  "end": 242.645
+ },
+ {
+  "text": "see",
+  "start": 242.645,
+  "end": 242.9
+ },
+ {
+  "text": "Russia",
+  "start": 242.9,
+  "end": 243.398
+ },
+ {
+  "text": "You",
+  "start": 243.518,
+  "end": 243.576
+ },
+ {
+  "text": "can",
+  "start": 243.576,
+  "end": 243.668
+ },
+ {
+  "text": "see",
+  "start": 243.68,
+  "end": 243.923
+ },
+ {
+  "text": "tomorrow",
+  "start": 243.923,
+  "end": 244.409
+ },
+ {
+  "text": "But",
+  "start": 244.529,
+  "end": 244.599
+ },
+ {
+  "text": "for",
+  "start": 244.599,
+  "end": 244.691
+ },
+ {
+  "text": "most",
+  "start": 244.691,
+  "end": 244.888
+ },
+ {
+  "text": "of",
+  "start": 244.888,
+  "end": 244.911
+ },
+ {
+  "text": "the",
+  "start": 244.923,
+  "end": 244.981
+ },
+ {
+  "text": "last",
+  "start": 244.981,
+  "end": 245.235
+ },
+ {
+  "text": "century",
+  "start": 245.235,
+  "end": 245.768
+ },
+ {
+  "text": "you",
+  "start": 245.888,
+  "end": 245.992
+ },
+ {
+  "text": "couldn't",
+  "start": 246.004,
+  "end": 246.212
+ },
+ {
+  "text": "go",
+  "start": 246.212,
+  "end": 246.362
+ },
+ {
+  "text": "there",
+  "start": 246.363,
+  "end": 246.675
+ },
+ {
+  "text": "Part",
+  "start": 246.845,
+  "end": 247.018
+ },
+ {
+  "text": "three",
+  "start": 247.03,
+  "end": 247.446
+ },
+ {
+  "text": "The",
+  "start": 247.566,
+  "end": 247.647
+ },
+ {
+  "text": "Ice",
+  "start": 247.659,
+  "end": 247.914
+ },
+ {
+  "text": "Curtain",
+  "start": 247.925,
+  "end": 248.33
+ },
+ {
+  "text": "For",
+  "start": 248.5,
+  "end": 248.569
+ },
+ {
+  "text": "a",
+  "start": 248.569,
+  "end": 248.604
+ },
+ {
+  "text": "long",
+  "start": 248.604,
+  "end": 248.928
+ },
+ {
+  "text": "time",
+  "start": 248.928,
+  "end": 249.322
+ },
+ {
+  "text": "the",
+  "start": 249.442,
+  "end": 249.546
+ },
+ {
+  "text": "line",
+  "start": 249.558,
+  "end": 249.824
+ },
+ {
+  "text": "between",
+  "start": 249.824,
+  "end": 250.113
+ },
+ {
+  "text": "the",
+  "start": 250.113,
+  "end": 250.182
+ },
+ {
+  "text": "islands",
+  "start": 250.183,
+  "end": 250.634
+ },
+ {
+  "text": "barely",
+  "start": 250.726,
+  "end": 251.039
+ },
+ {
+  "text": "mattered",
+  "start": 251.039,
+  "end": 251.467
+ },
+ {
+  "text": "According",
+  "start": 251.637,
+  "end": 251.984
+ },
+ {
+  "text": "to",
+  "start": 251.984,
+  "end": 252.042
+ },
+ {
+  "text": "National",
+  "start": 252.042,
+  "end": 252.481
+ },
+ {
+  "text": "Geographic",
+  "start": 252.482,
+  "end": 253.13
+ },
+ {
+  "text": "the",
+  "start": 253.25,
+  "end": 253.308
+ },
+ {
+  "text": "Iñupiat",
+  "start": 253.308,
+  "end": 253.991
+ },
+ {
+  "text": "on",
+  "start": 254.002,
+  "end": 254.164
+ },
+ {
+  "text": "both",
+  "start": 254.268,
+  "end": 254.627
+ },
+ {
+  "text": "islands",
+  "start": 254.627,
+  "end": 255.032
+ },
+ {
+  "text": "were",
+  "start": 255.044,
+  "end": 255.171
+ },
+ {
+  "text": "deeply",
+  "start": 255.275,
+  "end": 255.599
+ },
+ {
+  "text": "connected",
+  "start": 255.611,
+  "end": 256.143
+ },
+ {
+  "text": "They",
+  "start": 256.263,
+  "end": 256.333
+ },
+ {
+  "text": "married",
+  "start": 256.344,
+  "end": 256.703
+ },
+ {
+  "text": "across",
+  "start": 256.703,
+  "end": 257.12
+ },
+ {
+  "text": "the",
+  "start": 257.12,
+  "end": 257.201
+ },
+ {
+  "text": "strait",
+  "start": 257.201,
+  "end": 257.664
+ },
+ {
+  "text": "and",
+  "start": 257.784,
+  "end": 257.865
+ },
+ {
+  "text": "shared",
+  "start": 257.877,
+  "end": 258.236
+ },
+ {
+  "text": "the",
+  "start": 258.236,
+  "end": 258.305
+ },
+ {
+  "text": "same",
+  "start": 258.305,
+  "end": 258.629
+ },
+ {
+  "text": "customs",
+  "start": 258.629,
+  "end": 259.266
+ },
+ {
+  "text": "In",
+  "start": 259.436,
+  "end": 259.586
+ },
+ {
+  "text": "winter",
+  "start": 259.587,
+  "end": 260.13
+ },
+ {
+  "text": "the",
+  "start": 260.25,
+  "end": 260.354
+ },
+ {
+  "text": "water",
+  "start": 260.354,
+  "end": 260.713
+ },
+ {
+  "text": "froze",
+  "start": 260.713,
+  "end": 261.153
+ },
+ {
+  "text": "into",
+  "start": 261.164,
+  "end": 261.396
+ },
+ {
+  "text": "an",
+  "start": 261.396,
+  "end": 261.523
+ },
+ {
+  "text": "ice",
+  "start": 261.535,
+  "end": 261.789
+ },
+ {
+  "text": "bridge",
+  "start": 261.801,
+  "end": 262.264
+ },
+ {
+  "text": "and",
+  "start": 262.384,
+  "end": 262.477
+ },
+ {
+  "text": "people",
+  "start": 262.477,
+  "end": 262.824
+ },
+ {
+  "text": "walked",
+  "start": 262.836,
+  "end": 263.102
+ },
+ {
+  "text": "between",
+  "start": 263.102,
+  "end": 263.356
+ },
+ {
+  "text": "the",
+  "start": 263.368,
+  "end": 263.426
+ },
+ {
+  "text": "islands",
+  "start": 263.426,
+  "end": 263.993
+ },
+ {
+  "text": "One",
+  "start": 264.163,
+  "end": 264.371
+ },
+ {
+  "text": "Little",
+  "start": 264.371,
+  "end": 264.557
+ },
+ {
+  "text": "Diomede",
+  "start": 264.568,
+  "end": 265.147
+ },
+ {
+  "text": "tribal",
+  "start": 265.251,
+  "end": 265.645
+ },
+ {
+  "text": "coordinator",
+  "start": 265.645,
+  "end": 266.246
+ },
+ {
+  "text": "told",
+  "start": 266.366,
+  "end": 266.528
+ },
+ {
+  "text": "the",
+  "start": 266.528,
+  "end": 266.574
+ },
+ {
+  "text": "magazine",
+  "start": 266.574,
+  "end": 267.095
+ },
+ {
+  "text": "her",
+  "start": 267.095,
+  "end": 267.222
+ },
+ {
+  "text": "grandfather",
+  "start": 267.234,
+  "end": 267.917
+ },
+ {
+  "text": "used",
+  "start": 267.917,
+  "end": 268.137
+ },
+ {
+  "text": "to",
+  "start": 268.148,
+  "end": 268.195
+ },
+ {
+  "text": "cross",
+  "start": 268.206,
+  "end": 268.565
+ },
+ {
+  "text": "back",
+  "start": 268.565,
+  "end": 268.901
+ },
+ {
+  "text": "and",
+  "start": 268.912,
+  "end": 268.982
+ },
+ {
+  "text": "forth",
+  "start": 268.982,
+  "end": 269.491
+ },
+ {
+  "text": "all",
+  "start": 269.491,
+  "end": 269.618
+ },
+ {
+  "text": "the",
+  "start": 269.618,
+  "end": 269.664
+ },
+ {
+  "text": "time",
+  "start": 269.664,
+  "end": 270.0
+ },
+ {
+  "text": "Then",
+  "start": 270.17,
+  "end": 270.355
+ },
+ {
+  "text": "came",
+  "start": 270.366,
+  "end": 270.563
+ },
+ {
+  "text": "the",
+  "start": 270.575,
+  "end": 270.633
+ },
+ {
+  "text": "Cold",
+  "start": 270.633,
+  "end": 270.91
+ },
+ {
+  "text": "War",
+  "start": 270.91,
+  "end": 271.234
+ },
+ {
+  "text": "And",
+  "start": 271.354,
+  "end": 271.412
+ },
+ {
+  "text": "the",
+  "start": 271.412,
+  "end": 271.504
+ },
+ {
+  "text": "line",
+  "start": 271.504,
+  "end": 271.805
+ },
+ {
+  "text": "on",
+  "start": 271.805,
+  "end": 271.84
+ },
+ {
+  "text": "the",
+  "start": 271.84,
+  "end": 271.898
+ },
+ {
+  "text": "treaty",
+  "start": 271.898,
+  "end": 272.233
+ },
+ {
+  "text": "map",
+  "start": 272.233,
+  "end": 272.627
+ },
+ {
+  "text": "suddenly",
+  "start": 272.747,
+  "end": 273.129
+ },
+ {
+  "text": "mattered",
+  "start": 273.129,
+  "end": 273.546
+ },
+ {
+  "text": "In 1948",
+  "start": 273.716,
+  "end": 274.781
+ },
+ {
+  "text": "National",
+  "start": 274.901,
+  "end": 275.283
+ },
+ {
+  "text": "Geographic",
+  "start": 275.283,
+  "end": 275.804
+ },
+ {
+  "text": "reports",
+  "start": 275.815,
+  "end": 276.44
+ },
+ {
+  "text": "the",
+  "start": 276.56,
+  "end": 276.676
+ },
+ {
+  "text": "Soviet",
+  "start": 276.676,
+  "end": 277.139
+ },
+ {
+  "text": "government",
+  "start": 277.139,
+  "end": 277.567
+ },
+ {
+  "text": "forcibly",
+  "start": 277.648,
+  "end": 278.273
+ },
+ {
+  "text": "evacuated",
+  "start": 278.354,
+  "end": 279.211
+ },
+ {
+  "text": "Big",
+  "start": 279.211,
+  "end": 279.477
+ },
+ {
+  "text": "Diomede",
+  "start": 279.581,
+  "end": 280.195
+ },
+ {
+  "text": "Its",
+  "start": 280.315,
+  "end": 280.419
+ },
+ {
+  "text": "people",
+  "start": 280.431,
+  "end": 280.766
+ },
+ {
+  "text": "were",
+  "start": 280.766,
+  "end": 280.882
+ },
+ {
+  "text": "moved",
+  "start": 280.882,
+  "end": 281.334
+ },
+ {
+  "text": "to",
+  "start": 281.345,
+  "end": 281.438
+ },
+ {
+  "text": "the",
+  "start": 281.438,
+  "end": 281.507
+ },
+ {
+  "text": "mainland",
+  "start": 281.507,
+  "end": 282.202
+ },
+ {
+  "text": "and",
+  "start": 282.322,
+  "end": 282.403
+ },
+ {
+  "text": "the",
+  "start": 282.403,
+  "end": 282.495
+ },
+ {
+  "text": "island",
+  "start": 282.507,
+  "end": 282.877
+ },
+ {
+  "text": "was",
+  "start": 282.877,
+  "end": 282.993
+ },
+ {
+  "text": "turned",
+  "start": 283.004,
+  "end": 283.271
+ },
+ {
+  "text": "into",
+  "start": 283.271,
+  "end": 283.479
+ },
+ {
+  "text": "a",
+  "start": 283.479,
+  "end": 283.514
+ },
+ {
+  "text": "military",
+  "start": 283.525,
+  "end": 284.058
+ },
+ {
+  "text": "base",
+  "start": 284.069,
+  "end": 284.579
+ },
+ {
+  "text": "The",
+  "start": 284.749,
+  "end": 284.842
+ },
+ {
+  "text": "water",
+  "start": 284.842,
+  "end": 285.143
+ },
+ {
+  "text": "between",
+  "start": 285.143,
+  "end": 285.409
+ },
+ {
+  "text": "the",
+  "start": 285.409,
+  "end": 285.478
+ },
+ {
+  "text": "islands",
+  "start": 285.478,
+  "end": 285.883
+ },
+ {
+  "text": "got",
+  "start": 285.895,
+  "end": 286.034
+ },
+ {
+  "text": "a",
+  "start": 286.034,
+  "end": 286.045
+ },
+ {
+  "text": "new",
+  "start": 286.045,
+  "end": 286.288
+ },
+ {
+  "text": "name",
+  "start": 286.288,
+  "end": 286.682
+ },
+ {
+  "text": "the",
+  "start": 286.802,
+  "end": 286.906
+ },
+ {
+  "text": "Ice",
+  "start": 286.918,
+  "end": 287.195
+ },
+ {
+  "text": "Curtain",
+  "start": 287.207,
+  "end": 287.519
+ },
+ {
+  "text": "Families",
+  "start": 287.689,
+  "end": 288.013
+ },
+ {
+  "text": "were",
+  "start": 288.013,
+  "end": 288.094
+ },
+ {
+  "text": "split",
+  "start": 288.106,
+  "end": 288.464
+ },
+ {
+  "text": "by",
+  "start": 288.476,
+  "end": 288.603
+ },
+ {
+  "text": "two",
+  "start": 288.615,
+  "end": 288.985
+ },
+ {
+  "text": "and",
+  "start": 288.997,
+  "end": 289.055
+ },
+ {
+  "text": "a",
+  "start": 289.055,
+  "end": 289.089
+ },
+ {
+  "text": "half",
+  "start": 289.089,
+  "end": 289.448
+ },
+ {
+  "text": "miles",
+  "start": 289.448,
+  "end": 289.761
+ },
+ {
+  "text": "of",
+  "start": 289.761,
+  "end": 289.819
+ },
+ {
+  "text": "water",
+  "start": 289.83,
+  "end": 290.212
+ },
+ {
+  "text": "For",
+  "start": 290.382,
+  "end": 290.474
+ },
+ {
+  "text": "almost",
+  "start": 290.486,
+  "end": 290.729
+ },
+ {
+  "text": "forty",
+  "start": 290.729,
+  "end": 291.076
+ },
+ {
+  "text": "years",
+  "start": 291.076,
+  "end": 291.504
+ },
+ {
+  "text": "that's",
+  "start": 291.574,
+  "end": 291.713
+ },
+ {
+  "text": "how",
+  "start": 291.713,
+  "end": 291.84
+ },
+ {
+  "text": "it",
+  "start": 291.852,
+  "end": 291.909
+ },
+ {
+  "text": "stayed",
+  "start": 291.909,
+  "end": 292.291
+ },
+ {
+  "text": "So",
+  "start": 292.411,
+  "end": 292.527
+ },
+ {
+  "text": "what",
+  "start": 292.527,
+  "end": 292.631
+ },
+ {
+  "text": "finally",
+  "start": 292.642,
+  "end": 292.99
+ },
+ {
+  "text": "cracked",
+  "start": 292.99,
+  "end": 293.314
+ },
+ {
+  "text": "it",
+  "start": 293.325,
+  "end": 293.464
+ },
+ {
+  "text": "Then",
+  "start": 293.634,
+  "end": 293.946
+ },
+ {
+  "text": "a",
+  "start": 294.066,
+  "end": 294.1
+ },
+ {
+  "text": "swimmer",
+  "start": 294.1,
+  "end": 294.598
+ },
+ {
+  "text": "In 1976",
+  "start": 294.768,
+  "end": 296.018
+ },
+ {
+  "text": "according",
+  "start": 296.099,
+  "end": 296.435
+ },
+ {
+  "text": "to",
+  "start": 296.447,
+  "end": 296.493
+ },
+ {
+  "text": "the",
+  "start": 296.493,
+  "end": 296.586
+ },
+ {
+  "text": "Park",
+  "start": 296.586,
+  "end": 296.817
+ },
+ {
+  "text": "Service",
+  "start": 296.817,
+  "end": 297.338
+ },
+ {
+  "text": "an",
+  "start": 297.458,
+  "end": 297.516
+ },
+ {
+  "text": "American",
+  "start": 297.516,
+  "end": 297.898
+ },
+ {
+  "text": "swimmer",
+  "start": 297.898,
+  "end": 298.326
+ },
+ {
+  "text": "named",
+  "start": 298.446,
+  "end": 298.747
+ },
+ {
+  "text": "Lynne",
+  "start": 298.747,
+  "end": 298.955
+ },
+ {
+  "text": "Cox",
+  "start": 298.966,
+  "end": 299.395
+ },
+ {
+  "text": "came",
+  "start": 299.406,
+  "end": 299.649
+ },
+ {
+  "text": "up",
+  "start": 299.649,
+  "end": 299.8
+ },
+ {
+  "text": "with",
+  "start": 299.811,
+  "end": 299.939
+ },
+ {
+  "text": "an",
+  "start": 299.939,
+  "end": 300.02
+ },
+ {
+  "text": "idea",
+  "start": 300.031,
+  "end": 300.541
+ },
+ {
+  "text": "swim",
+  "start": 300.661,
+  "end": 301.112
+ },
+ {
+  "text": "from",
+  "start": 301.124,
+  "end": 301.332
+ },
+ {
+  "text": "Little",
+  "start": 301.344,
+  "end": 301.575
+ },
+ {
+  "text": "Diomede",
+  "start": 301.575,
+  "end": 302.096
+ },
+ {
+  "text": "to",
+  "start": 302.166,
+  "end": 302.258
+ },
+ {
+  "text": "Big",
+  "start": 302.258,
+  "end": 302.513
+ },
+ {
+  "text": "Diomede",
+  "start": 302.513,
+  "end": 303.022
+ },
+ {
+  "text": "It",
+  "start": 303.192,
+  "end": 303.261
+ },
+ {
+  "text": "took",
+  "start": 303.261,
+  "end": 303.447
+ },
+ {
+  "text": "her",
+  "start": 303.447,
+  "end": 303.586
+ },
+ {
+  "text": "eleven",
+  "start": 303.597,
+  "end": 303.991
+ },
+ {
+  "text": "years",
+  "start": 303.991,
+  "end": 304.535
+ },
+ {
+  "text": "to",
+  "start": 304.655,
+  "end": 304.736
+ },
+ {
+  "text": "get",
+  "start": 304.748,
+  "end": 304.898
+ },
+ {
+  "text": "permission",
+  "start": 304.898,
+  "end": 305.396
+ },
+ {
+  "text": "Would",
+  "start": 305.516,
+  "end": 305.597
+ },
+ {
+  "text": "the",
+  "start": 305.597,
+  "end": 305.654
+ },
+ {
+  "text": "Soviets",
+  "start": 305.654,
+  "end": 306.268
+ },
+ {
+  "text": "even",
+  "start": 306.388,
+  "end": 306.619
+ },
+ {
+  "text": "let",
+  "start": 306.619,
+  "end": 306.7
+ },
+ {
+  "text": "her",
+  "start": 306.7,
+  "end": 306.77
+ },
+ {
+  "text": "land",
+  "start": 306.781,
+  "end": 307.198
+ },
+ {
+  "text": "In 1987",
+  "start": 307.368,
+  "end": 308.421
+ },
+ {
+  "text": "she",
+  "start": 308.541,
+  "end": 308.715
+ },
+ {
+  "text": "flew",
+  "start": 308.715,
+  "end": 309.166
+ },
+ {
+  "text": "to",
+  "start": 309.178,
+  "end": 309.293
+ },
+ {
+  "text": "Little",
+  "start": 309.293,
+  "end": 309.537
+ },
+ {
+  "text": "Diomede",
+  "start": 309.537,
+  "end": 310.081
+ },
+ {
+  "text": "Thirty",
+  "start": 310.201,
+  "end": 310.479
+ },
+ {
+  "text": "hours",
+  "start": 310.479,
+  "end": 310.779
+ },
+ {
+  "text": "before",
+  "start": 310.779,
+  "end": 311.069
+ },
+ {
+  "text": "the",
+  "start": 311.069,
+  "end": 311.127
+ },
+ {
+  "text": "swim",
+  "start": 311.127,
+  "end": 311.52
+ },
+ {
+  "text": "there",
+  "start": 311.64,
+  "end": 311.721
+ },
+ {
+  "text": "was",
+  "start": 311.721,
+  "end": 311.825
+ },
+ {
+  "text": "still",
+  "start": 311.826,
+  "end": 312.057
+ },
+ {
+  "text": "no",
+  "start": 312.057,
+  "end": 312.288
+ },
+ {
+  "text": "word",
+  "start": 312.3,
+  "end": 312.624
+ },
+ {
+  "text": "from",
+  "start": 312.624,
+  "end": 312.74
+ },
+ {
+  "text": "the",
+  "start": 312.751,
+  "end": 312.809
+ },
+ {
+  "text": "Soviet",
+  "start": 312.809,
+  "end": 313.18
+ },
+ {
+  "text": "side",
+  "start": 313.191,
+  "end": 313.62
+ },
+ {
+  "text": "Permission",
+  "start": 313.79,
+  "end": 314.206
+ },
+ {
+  "text": "finally",
+  "start": 314.218,
+  "end": 314.692
+ },
+ {
+  "text": "came",
+  "start": 314.692,
+  "end": 315.005
+ },
+ {
+  "text": "24 hours",
+  "start": 315.109,
+  "end": 315.954
+ },
+ {
+  "text": "before",
+  "start": 315.954,
+  "end": 316.509
+ },
+ {
+  "text": "from",
+  "start": 316.629,
+  "end": 316.803
+ },
+ {
+  "text": "Mikhail",
+  "start": 316.803,
+  "end": 317.277
+ },
+ {
+  "text": "Gorbachev",
+  "start": 317.289,
+  "end": 317.983
+ },
+ {
+  "text": "On",
+  "start": 318.153,
+  "end": 318.291
+ },
+ {
+  "text": "August 7, 1987",
+  "start": 318.303,
+  "end": 320.664
+ },
+ {
+  "text": "she",
+  "start": 320.784,
+  "end": 320.935
+ },
+ {
+  "text": "stepped",
+  "start": 320.946,
+  "end": 321.259
+ },
+ {
+  "text": "into",
+  "start": 321.259,
+  "end": 321.351
+ },
+ {
+  "text": "38",
+  "start": 321.363,
+  "end": 322.023
+ },
+ {
+  "text": "degree",
+  "start": 322.034,
+  "end": 322.404
+ },
+ {
+  "text": "water",
+  "start": 322.404,
+  "end": 322.867
+ },
+ {
+  "text": "She",
+  "start": 323.037,
+  "end": 323.199
+ },
+ {
+  "text": "later",
+  "start": 323.199,
+  "end": 323.627
+ },
+ {
+  "text": "said",
+  "start": 323.747,
+  "end": 323.932
+ },
+ {
+  "text": "her",
+  "start": 323.932,
+  "end": 324.025
+ },
+ {
+  "text": "fingers",
+  "start": 324.025,
+  "end": 324.511
+ },
+ {
+  "text": "turned",
+  "start": 324.523,
+  "end": 324.858
+ },
+ {
+  "text": "grey",
+  "start": 324.858,
+  "end": 325.24
+ },
+ {
+  "text": "like",
+  "start": 325.36,
+  "end": 325.487
+ },
+ {
+  "text": "the",
+  "start": 325.499,
+  "end": 325.58
+ },
+ {
+  "text": "hands",
+  "start": 325.58,
+  "end": 326.054
+ },
+ {
+  "text": "of",
+  "start": 326.055,
+  "end": 326.101
+ },
+ {
+  "text": "a",
+  "start": 326.101,
+  "end": 326.147
+ },
+ {
+  "text": "cadaver",
+  "start": 326.159,
+  "end": 326.714
+ },
+ {
+  "text": "Two",
+  "start": 326.884,
+  "end": 327.08
+ },
+ {
+  "text": "hours",
+  "start": 327.08,
+  "end": 327.428
+ },
+ {
+  "text": "and",
+  "start": 327.428,
+  "end": 327.485
+ },
+ {
+  "text": "five",
+  "start": 327.485,
+  "end": 327.844
+ },
+ {
+  "text": "minutes",
+  "start": 327.844,
+  "end": 328.076
+ },
+ {
+  "text": "later",
+  "start": 328.087,
+  "end": 328.411
+ },
+ {
+  "text": "she",
+  "start": 328.531,
+  "end": 328.739
+ },
+ {
+  "text": "reached",
+  "start": 328.751,
+  "end": 329.11
+ },
+ {
+  "text": "Big",
+  "start": 329.202,
+  "end": 329.469
+ },
+ {
+  "text": "Diomede",
+  "start": 329.48,
+  "end": 329.989
+ },
+ {
+  "text": "She",
+  "start": 330.109,
+  "end": 330.271
+ },
+ {
+  "text": "reached",
+  "start": 330.271,
+  "end": 330.537
+ },
+ {
+  "text": "out",
+  "start": 330.537,
+  "end": 330.826
+ },
+ {
+  "text": "and",
+  "start": 330.946,
+  "end": 331.073
+ },
+ {
+  "text": "two",
+  "start": 331.085,
+  "end": 331.316
+ },
+ {
+  "text": "Russians",
+  "start": 331.328,
+  "end": 331.71
+ },
+ {
+  "text": "in",
+  "start": 331.71,
+  "end": 331.791
+ },
+ {
+  "text": "military",
+  "start": 331.791,
+  "end": 332.254
+ },
+ {
+  "text": "uniform",
+  "start": 332.254,
+  "end": 332.716
+ },
+ {
+  "text": "grabbed",
+  "start": 332.716,
+  "end": 333.052
+ },
+ {
+  "text": "her",
+  "start": 333.064,
+  "end": 333.318
+ },
+ {
+  "text": "Later",
+  "start": 333.488,
+  "end": 333.685
+ },
+ {
+  "text": "that",
+  "start": 333.685,
+  "end": 333.858
+ },
+ {
+  "text": "year",
+  "start": 333.858,
+  "end": 334.182
+ },
+ {
+  "text": "when",
+  "start": 334.302,
+  "end": 334.441
+ },
+ {
+  "text": "Gorbachev",
+  "start": 334.453,
+  "end": 335.043
+ },
+ {
+  "text": "came",
+  "start": 335.043,
+  "end": 335.228
+ },
+ {
+  "text": "to",
+  "start": 335.24,
+  "end": 335.298
+ },
+ {
+  "text": "Washington",
+  "start": 335.298,
+  "end": 335.865
+ },
+ {
+  "text": "to",
+  "start": 335.876,
+  "end": 335.957
+ },
+ {
+  "text": "sign",
+  "start": 335.957,
+  "end": 336.235
+ },
+ {
+  "text": "a",
+  "start": 336.247,
+  "end": 336.27
+ },
+ {
+  "text": "nuclear",
+  "start": 336.27,
+  "end": 336.698
+ },
+ {
+  "text": "weapons",
+  "start": 336.698,
+  "end": 336.987
+ },
+ {
+  "text": "treaty",
+  "start": 336.999,
+  "end": 337.439
+ },
+ {
+  "text": "he",
+  "start": 337.559,
+  "end": 337.651
+ },
+ {
+  "text": "and",
+  "start": 337.663,
+  "end": 337.755
+ },
+ {
+  "text": "Ronald",
+  "start": 337.767,
+  "end": 338.091
+ },
+ {
+  "text": "Reagan",
+  "start": 338.091,
+  "end": 338.427
+ },
+ {
+  "text": "raised",
+  "start": 338.547,
+  "end": 338.744
+ },
+ {
+  "text": "a",
+  "start": 338.756,
+  "end": 338.779
+ },
+ {
+  "text": "glass",
+  "start": 338.779,
+  "end": 339.126
+ },
+ {
+  "text": "to",
+  "start": 339.126,
+  "end": 339.172
+ },
+ {
+  "text": "her",
+  "start": 339.172,
+  "end": 339.485
+ },
+ {
+  "text": "Gorbachev",
+  "start": 339.655,
+  "end": 340.349
+ },
+ {
+  "text": "said",
+  "start": 340.469,
+  "end": 340.666
+ },
+ {
+  "text": "she",
+  "start": 340.666,
+  "end": 340.851
+ },
+ {
+  "text": "proved",
+  "start": 340.851,
+  "end": 341.268
+ },
+ {
+  "text": "by",
+  "start": 341.279,
+  "end": 341.418
+ },
+ {
+  "text": "her",
+  "start": 341.418,
+  "end": 341.534
+ },
+ {
+  "text": "courage",
+  "start": 341.534,
+  "end": 341.893
+ },
+ {
+  "text": "how",
+  "start": 341.893,
+  "end": 342.194
+ },
+ {
+  "text": "close",
+  "start": 342.205,
+  "end": 342.576
+ },
+ {
+  "text": "to",
+  "start": 342.587,
+  "end": 342.668
+ },
+ {
+  "text": "each",
+  "start": 342.668,
+  "end": 342.865
+ },
+ {
+  "text": "other",
+  "start": 342.865,
+  "end": 343.096
+ },
+ {
+  "text": "our",
+  "start": 343.216,
+  "end": 343.308
+ },
+ {
+  "text": "peoples",
+  "start": 343.308,
+  "end": 343.655
+ },
+ {
+  "text": "live",
+  "start": 343.656,
+  "end": 344.061
+ },
+ {
+  "text": "A",
+  "start": 344.231,
+  "end": 344.266
+ },
+ {
+  "text": "year",
+  "start": 344.266,
+  "end": 344.59
+ },
+ {
+  "text": "later",
+  "start": 344.59,
+  "end": 344.972
+ },
+ {
+  "text": "in",
+  "start": 345.092,
+  "end": 345.184
+ },
+ {
+  "text": "June 1988",
+  "start": 345.196,
+  "end": 346.307
+ },
+ {
+  "text": "a",
+  "start": 346.427,
+  "end": 346.462
+ },
+ {
+  "text": "Friendship",
+  "start": 346.462,
+  "end": 346.891
+ },
+ {
+  "text": "Flight",
+  "start": 346.891,
+  "end": 347.307
+ },
+ {
+  "text": "carried",
+  "start": 347.377,
+  "end": 347.666
+ },
+ {
+  "text": "officials",
+  "start": 347.666,
+  "end": 348.314
+ },
+ {
+  "text": "reporters",
+  "start": 348.434,
+  "end": 349.209
+ },
+ {
+  "text": "and",
+  "start": 349.329,
+  "end": 349.468
+ },
+ {
+  "text": "Alaska",
+  "start": 349.48,
+  "end": 349.943
+ },
+ {
+  "text": "Natives",
+  "start": 349.943,
+  "end": 350.244
+ },
+ {
+  "text": "from",
+  "start": 350.244,
+  "end": 350.394
+ },
+ {
+  "text": "Nome",
+  "start": 350.394,
+  "end": 350.649
+ },
+ {
+  "text": "to",
+  "start": 350.66,
+  "end": 350.741
+ },
+ {
+  "text": "Provideniya",
+  "start": 350.753,
+  "end": 351.47
+ },
+ {
+  "text": "in",
+  "start": 351.59,
+  "end": 351.718
+ },
+ {
+  "text": "Russia",
+  "start": 351.729,
+  "end": 352.181
+ },
+ {
+  "text": "The Park",
+  "start": 352.351,
+  "end": 352.652
+ },
+ {
+  "text": "Service",
+  "start": 352.652,
+  "end": 353.08
+ },
+ {
+  "text": "says",
+  "start": 353.2,
+  "end": 353.444
+ },
+ {
+  "text": "it",
+  "start": 353.455,
+  "end": 353.501
+ },
+ {
+  "text": "was",
+  "start": 353.501,
+  "end": 353.606
+ },
+ {
+  "text": "the",
+  "start": 353.617,
+  "end": 353.698
+ },
+ {
+  "text": "first",
+  "start": 353.698,
+  "end": 354.069
+ },
+ {
+  "text": "direct",
+  "start": 354.08,
+  "end": 354.451
+ },
+ {
+  "text": "flight",
+  "start": 354.462,
+  "end": 354.832
+ },
+ {
+  "text": "from",
+  "start": 354.832,
+  "end": 354.983
+ },
+ {
+  "text": "Alaska",
+  "start": 354.983,
+  "end": 355.457
+ },
+ {
+  "text": "to",
+  "start": 355.469,
+  "end": 355.596
+ },
+ {
+  "text": "Russia",
+  "start": 355.596,
+  "end": 356.071
+ },
+ {
+  "text": "in",
+  "start": 356.191,
+  "end": 356.295
+ },
+ {
+  "text": "over",
+  "start": 356.295,
+  "end": 356.481
+ },
+ {
+  "text": "forty",
+  "start": 356.481,
+  "end": 356.724
+ },
+ {
+  "text": "years",
+  "start": 356.735,
+  "end": 357.21
+ },
+ {
+  "text": "So",
+  "start": 357.38,
+  "end": 357.623
+ },
+ {
+  "text": "was",
+  "start": 357.743,
+  "end": 357.835
+ },
+ {
+  "text": "the",
+  "start": 357.836,
+  "end": 357.905
+ },
+ {
+  "text": "curtain",
+  "start": 357.905,
+  "end": 358.171
+ },
+ {
+  "text": "gone",
+  "start": 358.171,
+  "end": 358.414
+ },
+ {
+  "text": "for",
+  "start": 358.414,
+  "end": 358.53
+ },
+ {
+  "text": "good",
+  "start": 358.541,
+  "end": 358.785
+ },
+ {
+  "text": "Not",
+  "start": 358.955,
+  "end": 359.14
+ },
+ {
+  "text": "quite",
+  "start": 359.14,
+  "end": 359.556
+ },
+ {
+  "text": "Part",
+  "start": 359.726,
+  "end": 359.899
+ },
+ {
+  "text": "four",
+  "start": 359.899,
+  "end": 360.258
+ },
+ {
+  "text": "Two",
+  "start": 360.378,
+  "end": 360.517
+ },
+ {
+  "text": "miles",
+  "start": 360.517,
+  "end": 360.957
+ },
+ {
+  "text": "the",
+  "start": 360.969,
+  "end": 361.05
+ },
+ {
+  "text": "long",
+  "start": 361.061,
+  "end": 361.339
+ },
+ {
+  "text": "way",
+  "start": 361.339,
+  "end": 361.617
+ },
+ {
+  "text": "When",
+  "start": 361.787,
+  "end": 361.868
+ },
+ {
+  "text": "National",
+  "start": 361.868,
+  "end": 362.238
+ },
+ {
+  "text": "Geographic",
+  "start": 362.25,
+  "end": 362.932
+ },
+ {
+  "text": "visited",
+  "start": 363.052,
+  "end": 363.538
+ },
+ {
+  "text": "Little",
+  "start": 363.658,
+  "end": 363.843
+ },
+ {
+  "text": "Diomede",
+  "start": 363.844,
+  "end": 364.434
+ },
+ {
+  "text": "five",
+  "start": 364.554,
+  "end": 364.913
+ },
+ {
+  "text": "Russians",
+  "start": 364.913,
+  "end": 365.26
+ },
+ {
+  "text": "who",
+  "start": 365.26,
+  "end": 365.329
+ },
+ {
+  "text": "used",
+  "start": 365.329,
+  "end": 365.538
+ },
+ {
+  "text": "to",
+  "start": 365.538,
+  "end": 365.595
+ },
+ {
+  "text": "live",
+  "start": 365.596,
+  "end": 365.827
+ },
+ {
+  "text": "on",
+  "start": 365.827,
+  "end": 365.977
+ },
+ {
+  "text": "Big",
+  "start": 366.047,
+  "end": 366.255
+ },
+ {
+  "text": "Diomede",
+  "start": 366.255,
+  "end": 366.73
+ },
+ {
+  "text": "were",
+  "start": 366.822,
+  "end": 366.915
+ },
+ {
+  "text": "coming",
+  "start": 366.927,
+  "end": 367.158
+ },
+ {
+  "text": "to",
+  "start": 367.158,
+  "end": 367.193
+ },
+ {
+  "text": "see",
+  "start": 367.193,
+  "end": 367.482
+ },
+ {
+  "text": "their",
+  "start": 367.482,
+  "end": 367.644
+ },
+ {
+  "text": "relatives",
+  "start": 367.656,
+  "end": 368.281
+ },
+ {
+  "text": "The",
+  "start": 368.451,
+  "end": 368.497
+ },
+ {
+  "text": "trip",
+  "start": 368.509,
+  "end": 368.74
+ },
+ {
+  "text": "across",
+  "start": 368.741,
+  "end": 369.111
+ },
+ {
+  "text": "the",
+  "start": 369.111,
+  "end": 369.192
+ },
+ {
+  "text": "water",
+  "start": 369.192,
+  "end": 369.551
+ },
+ {
+  "text": "is",
+  "start": 369.666,
+  "end": 369.747
+ },
+ {
+  "text": "about",
+  "start": 369.747,
+  "end": 370.014
+ },
+ {
+  "text": "two",
+  "start": 370.014,
+  "end": 370.21
+ },
+ {
+  "text": "miles",
+  "start": 370.21,
+  "end": 370.789
+ },
+ {
+  "text": "They",
+  "start": 370.959,
+  "end": 371.029
+ },
+ {
+  "text": "couldn't",
+  "start": 371.029,
+  "end": 371.237
+ },
+ {
+  "text": "take",
+  "start": 371.237,
+  "end": 371.457
+ },
+ {
+  "text": "it",
+  "start": 371.457,
+  "end": 371.619
+ },
+ {
+  "text": "Instead",
+  "start": 371.789,
+  "end": 372.321
+ },
+ {
+  "text": "they",
+  "start": 372.441,
+  "end": 372.58
+ },
+ {
+  "text": "flew",
+  "start": 372.591,
+  "end": 373.031
+ },
+ {
+  "text": "from",
+  "start": 373.031,
+  "end": 373.251
+ },
+ {
+  "text": "Russia",
+  "start": 373.251,
+  "end": 373.54
+ },
+ {
+  "text": "to",
+  "start": 373.54,
+  "end": 373.667
+ },
+ {
+  "text": "Nome",
+  "start": 373.667,
+  "end": 374.096
+ },
+ {
+  "text": "then",
+  "start": 374.216,
+  "end": 374.355
+ },
+ {
+  "text": "on",
+  "start": 374.366,
+  "end": 374.575
+ },
+ {
+  "text": "to",
+  "start": 374.575,
+  "end": 374.679
+ },
+ {
+  "text": "the",
+  "start": 374.69,
+  "end": 374.76
+ },
+ {
+  "text": "Alaskan",
+  "start": 374.76,
+  "end": 375.234
+ },
+ {
+  "text": "town",
+  "start": 375.234,
+  "end": 375.466
+ },
+ {
+  "text": "of",
+  "start": 375.466,
+  "end": 375.547
+ },
+ {
+  "text": "Wales",
+  "start": 375.547,
+  "end": 376.137
+ },
+ {
+  "text": "then",
+  "start": 376.257,
+  "end": 376.431
+ },
+ {
+  "text": "took",
+  "start": 376.443,
+  "end": 376.616
+ },
+ {
+  "text": "a",
+  "start": 376.628,
+  "end": 376.674
+ },
+ {
+  "text": "helicopter",
+  "start": 376.686,
+  "end": 377.311
+ },
+ {
+  "text": "out",
+  "start": 377.311,
+  "end": 377.461
+ },
+ {
+  "text": "to",
+  "start": 377.473,
+  "end": 377.554
+ },
+ {
+  "text": "the",
+  "start": 377.554,
+  "end": 377.646
+ },
+ {
+  "text": "island",
+  "start": 377.658,
+  "end": 378.121
+ },
+ {
+  "text": "Bad",
+  "start": 378.291,
+  "end": 378.499
+ },
+ {
+  "text": "weather",
+  "start": 378.499,
+  "end": 378.708
+ },
+ {
+  "text": "held",
+  "start": 378.708,
+  "end": 378.87
+ },
+ {
+  "text": "them",
+  "start": 378.881,
+  "end": 378.986
+ },
+ {
+  "text": "up",
+  "start": 378.986,
+  "end": 379.182
+ },
+ {
+  "text": "They",
+  "start": 379.302,
+  "end": 379.383
+ },
+ {
+  "text": "landed",
+  "start": 379.395,
+  "end": 379.742
+ },
+ {
+  "text": "five",
+  "start": 379.742,
+  "end": 380.124
+ },
+ {
+  "text": "days",
+  "start": 380.124,
+  "end": 380.529
+ },
+ {
+  "text": "behind",
+  "start": 380.649,
+  "end": 381.008
+ },
+ {
+  "text": "schedule",
+  "start": 381.008,
+  "end": 381.448
+ },
+ {
+  "text": "Two",
+  "start": 381.568,
+  "end": 381.718
+ },
+ {
+  "text": "miles",
+  "start": 381.718,
+  "end": 382.019
+ },
+ {
+  "text": "of",
+  "start": 382.031,
+  "end": 382.077
+ },
+ {
+  "text": "water",
+  "start": 382.077,
+  "end": 382.448
+ },
+ {
+  "text": "Five",
+  "start": 382.568,
+  "end": 382.777
+ },
+ {
+  "text": "days",
+  "start": 382.777,
+  "end": 383.043
+ },
+ {
+  "text": "late",
+  "start": 383.043,
+  "end": 383.344
+ },
+ {
+  "text": "And",
+  "start": 383.514,
+  "end": 383.572
+ },
+ {
+  "text": "the",
+  "start": 383.572,
+  "end": 383.653
+ },
+ {
+  "text": "ice",
+  "start": 383.665,
+  "end": 383.919
+ },
+ {
+  "text": "that",
+  "start": 383.919,
+  "end": 384.023
+ },
+ {
+  "text": "once",
+  "start": 384.023,
+  "end": 384.255
+ },
+ {
+  "text": "connected",
+  "start": 384.255,
+  "end": 384.66
+ },
+ {
+  "text": "the",
+  "start": 384.66,
+  "end": 384.741
+ },
+ {
+  "text": "islands",
+  "start": 384.741,
+  "end": 385.25
+ },
+ {
+  "text": "is",
+  "start": 385.37,
+  "end": 385.624
+ },
+ {
+  "text": "changing",
+  "start": 385.705,
+  "end": 386.157
+ },
+ {
+  "text": "too",
+  "start": 386.168,
+  "end": 386.631
+ },
+ {
+  "text": "Little",
+  "start": 386.801,
+  "end": 386.986
+ },
+ {
+  "text": "Diomede",
+  "start": 386.986,
+  "end": 387.565
+ },
+ {
+  "text": "used",
+  "start": 387.565,
+  "end": 387.785
+ },
+ {
+  "text": "to",
+  "start": 387.785,
+  "end": 387.854
+ },
+ {
+  "text": "carve",
+  "start": 387.866,
+  "end": 388.144
+ },
+ {
+  "text": "a",
+  "start": 388.144,
+  "end": 388.225
+ },
+ {
+  "text": "winter",
+  "start": 388.236,
+  "end": 388.757
+ },
+ {
+  "text": "runway",
+  "start": 388.769,
+  "end": 389.347
+ },
+ {
+  "text": "into",
+  "start": 389.452,
+  "end": 389.613
+ },
+ {
+  "text": "the",
+  "start": 389.613,
+  "end": 389.694
+ },
+ {
+  "text": "sea",
+  "start": 389.695,
+  "end": 390.123
+ },
+ {
+  "text": "ice",
+  "start": 390.134,
+  "end": 390.493
+ },
+ {
+  "text": "for",
+  "start": 390.505,
+  "end": 390.655
+ },
+ {
+  "text": "planes",
+  "start": 390.667,
+  "end": 391.269
+ },
+ {
+  "text": "National",
+  "start": 391.389,
+  "end": 391.736
+ },
+ {
+  "text": "Geographic",
+  "start": 391.736,
+  "end": 392.303
+ },
+ {
+  "text": "says",
+  "start": 392.315,
+  "end": 392.488
+ },
+ {
+  "text": "it",
+  "start": 392.489,
+  "end": 392.569
+ },
+ {
+  "text": "no",
+  "start": 392.581,
+  "end": 392.766
+ },
+ {
+  "text": "longer",
+  "start": 392.766,
+  "end": 393.16
+ },
+ {
+  "text": "has",
+  "start": 393.16,
+  "end": 393.368
+ },
+ {
+  "text": "one",
+  "start": 393.368,
+  "end": 393.669
+ },
+ {
+  "text": "because",
+  "start": 393.789,
+  "end": 394.102
+ },
+ {
+  "text": "the",
+  "start": 394.102,
+  "end": 394.229
+ },
+ {
+  "text": "ice",
+  "start": 394.322,
+  "end": 394.599
+ },
+ {
+  "text": "has",
+  "start": 394.599,
+  "end": 394.703
+ },
+ {
+  "text": "grown",
+  "start": 394.715,
+  "end": 395.132
+ },
+ {
+  "text": "too",
+  "start": 395.132,
+  "end": 395.34
+ },
+ {
+  "text": "thin",
+  "start": 395.34,
+  "end": 395.791
+ },
+ {
+  "text": "Now",
+  "start": 395.961,
+  "end": 396.1
+ },
+ {
+  "text": "the",
+  "start": 396.112,
+  "end": 396.181
+ },
+ {
+  "text": "main",
+  "start": 396.181,
+  "end": 396.459
+ },
+ {
+  "text": "link",
+  "start": 396.47,
+  "end": 396.655
+ },
+ {
+  "text": "to",
+  "start": 396.655,
+  "end": 396.748
+ },
+ {
+  "text": "the",
+  "start": 396.748,
+  "end": 396.806
+ },
+ {
+  "text": "mainland",
+  "start": 396.806,
+  "end": 397.5
+ },
+ {
+  "text": "is",
+  "start": 397.62,
+  "end": 397.713
+ },
+ {
+  "text": "an",
+  "start": 397.724,
+  "end": 397.782
+ },
+ {
+  "text": "occasional",
+  "start": 397.782,
+  "end": 398.222
+ },
+ {
+  "text": "helicopter",
+  "start": 398.222,
+  "end": 398.916
+ },
+ {
+  "text": "So",
+  "start": 399.086,
+  "end": 399.19
+ },
+ {
+  "text": "one",
+  "start": 399.19,
+  "end": 399.387
+ },
+ {
+  "text": "last",
+  "start": 399.387,
+  "end": 399.606
+ },
+ {
+  "text": "check",
+  "start": 399.618,
+  "end": 399.931
+ },
+ {
+  "text": "What",
+  "start": 400.051,
+  "end": 400.109
+ },
+ {
+  "text": "about",
+  "start": 400.109,
+  "end": 400.294
+ },
+ {
+  "text": "the",
+  "start": 400.294,
+  "end": 400.352
+ },
+ {
+  "text": "mainland",
+  "start": 400.352,
+  "end": 400.989
+ },
+ {
+  "text": "Can",
+  "start": 401.109,
+  "end": 401.179
+ },
+ {
+  "text": "you",
+  "start": 401.19,
+  "end": 401.271
+ },
+ {
+  "text": "see",
+  "start": 401.271,
+  "end": 401.433
+ },
+ {
+  "text": "Russia",
+  "start": 401.433,
+  "end": 401.734
+ },
+ {
+  "text": "from",
+  "start": 401.734,
+  "end": 401.885
+ },
+ {
+  "text": "there",
+  "start": 401.885,
+  "end": 402.116
+ },
+ {
+  "text": "Slate",
+  "start": 402.286,
+  "end": 402.645
+ },
+ {
+  "text": "asked",
+  "start": 402.714,
+  "end": 402.957
+ },
+ {
+  "text": "the",
+  "start": 402.957,
+  "end": 403.027
+ },
+ {
+  "text": "station",
+  "start": 403.038,
+  "end": 403.443
+ },
+ {
+  "text": "chief",
+  "start": 403.455,
+  "end": 403.791
+ },
+ {
+  "text": "at",
+  "start": 403.848,
+  "end": 403.941
+ },
+ {
+  "text": "the",
+  "start": 403.953,
+  "end": 404.034
+ },
+ {
+  "text": "Tin",
+  "start": 404.138,
+  "end": 404.462
+ },
+ {
+  "text": "City",
+  "start": 404.462,
+  "end": 404.74
+ },
+ {
+  "text": "radar",
+  "start": 404.74,
+  "end": 405.075
+ },
+ {
+  "text": "site",
+  "start": 405.075,
+  "end": 405.434
+ },
+ {
+  "text": "on",
+  "start": 405.554,
+  "end": 405.705
+ },
+ {
+  "text": "Cape",
+  "start": 405.705,
+  "end": 405.948
+ },
+ {
+  "text": "Prince",
+  "start": 405.948,
+  "end": 406.214
+ },
+ {
+  "text": "of",
+  "start": 406.214,
+  "end": 406.295
+ },
+ {
+  "text": "Wales",
+  "start": 406.306,
+  "end": 406.897
+ },
+ {
+  "text": "the",
+  "start": 407.017,
+  "end": 407.11
+ },
+ {
+  "text": "westernmost",
+  "start": 407.11,
+  "end": 407.723
+ },
+ {
+  "text": "tip",
+  "start": 407.723,
+  "end": 407.966
+ },
+ {
+  "text": "of",
+  "start": 408.086,
+  "end": 408.167
+ },
+ {
+  "text": "mainland",
+  "start": 408.179,
+  "end": 408.734
+ },
+ {
+  "text": "North",
+  "start": 408.734,
+  "end": 408.908
+ },
+ {
+  "text": "America",
+  "start": 408.908,
+  "end": 409.406
+ },
+ {
+  "text": "His",
+  "start": 409.576,
+  "end": 409.692
+ },
+ {
+  "text": "answer",
+  "start": 409.692,
+  "end": 410.097
+ },
+ {
+  "text": "for",
+  "start": 410.217,
+  "end": 410.39
+ },
+ {
+  "text": "roughly",
+  "start": 410.39,
+  "end": 410.657
+ },
+ {
+  "text": "half",
+  "start": 410.657,
+  "end": 410.911
+ },
+ {
+  "text": "the",
+  "start": 410.923,
+  "end": 410.969
+ },
+ {
+  "text": "year",
+  "start": 410.969,
+  "end": 411.316
+ },
+ {
+  "text": "you",
+  "start": 411.436,
+  "end": 411.529
+ },
+ {
+  "text": "can",
+  "start": 411.529,
+  "end": 411.622
+ },
+ {
+  "text": "see",
+  "start": 411.622,
+  "end": 411.842
+ },
+ {
+  "text": "Siberian",
+  "start": 411.853,
+  "end": 412.397
+ },
+ {
+  "text": "mountain",
+  "start": 412.409,
+  "end": 412.71
+ },
+ {
+  "text": "ranges",
+  "start": 412.71,
+  "end": 413.103
+ },
+ {
+  "text": "from",
+  "start": 413.103,
+  "end": 413.219
+ },
+ {
+  "text": "the",
+  "start": 413.219,
+  "end": 413.265
+ },
+ {
+  "text": "highest",
+  "start": 413.277,
+  "end": 413.647
+ },
+ {
+  "text": "part",
+  "start": 413.647,
+  "end": 413.774
+ },
+ {
+  "text": "of",
+  "start": 413.786,
+  "end": 413.821
+ },
+ {
+  "text": "the",
+  "start": 413.821,
+  "end": 413.879
+ },
+ {
+  "text": "site",
+  "start": 413.879,
+  "end": 414.284
+ },
+ {
+  "text": "Not",
+  "start": 414.454,
+  "end": 414.57
+ },
+ {
+  "text": "from",
+  "start": 414.57,
+  "end": 414.662
+ },
+ {
+  "text": "a",
+  "start": 414.662,
+  "end": 414.685
+ },
+ {
+  "text": "house",
+  "start": 414.685,
+  "end": 415.218
+ },
+ {
+  "text": "From",
+  "start": 415.338,
+  "end": 415.442
+ },
+ {
+  "text": "a",
+  "start": 415.442,
+  "end": 415.512
+ },
+ {
+  "text": "radar",
+  "start": 415.512,
+  "end": 415.905
+ },
+ {
+  "text": "station",
+  "start": 415.917,
+  "end": 416.415
+ },
+ {
+  "text": "on",
+  "start": 416.535,
+  "end": 416.639
+ },
+ {
+  "text": "a",
+  "start": 416.65,
+  "end": 416.673
+ },
+ {
+  "text": "mountain",
+  "start": 416.673,
+  "end": 417.067
+ },
+ {
+  "text": "So",
+  "start": 417.237,
+  "end": 417.434
+ },
+ {
+  "text": "the",
+  "start": 417.445,
+  "end": 417.526
+ },
+ {
+  "text": "check",
+  "start": 417.526,
+  "end": 417.966
+ },
+ {
+  "text": "Claim",
+  "start": 418.136,
+  "end": 418.436
+ },
+ {
+  "text": "one",
+  "start": 418.437,
+  "end": 418.703
+ },
+ {
+  "text": "Sarah",
+  "start": 418.823,
+  "end": 419.089
+ },
+ {
+  "text": "Palin",
+  "start": 419.101,
+  "end": 419.494
+ },
+ {
+  "text": "said",
+  "start": 419.494,
+  "end": 419.83
+ },
+ {
+  "text": "I",
+  "start": 419.95,
+  "end": 420.031
+ },
+ {
+  "text": "can",
+  "start": 420.043,
+  "end": 420.159
+ },
+ {
+  "text": "see",
+  "start": 420.159,
+  "end": 420.379
+ },
+ {
+  "text": "Russia",
+  "start": 420.379,
+  "end": 420.714
+ },
+ {
+  "text": "from",
+  "start": 420.714,
+  "end": 420.853
+ },
+ {
+  "text": "my",
+  "start": 420.853,
+  "end": 420.992
+ },
+ {
+  "text": "house",
+  "start": 420.992,
+  "end": 421.525
+ },
+ {
+  "text": "False",
+  "start": 421.695,
+  "end": 422.135
+ },
+ {
+  "text": "That",
+  "start": 422.255,
+  "end": 422.336
+ },
+ {
+  "text": "was",
+  "start": 422.336,
+  "end": 422.44
+ },
+ {
+  "text": "Tina",
+  "start": 422.44,
+  "end": 422.671
+ },
+ {
+  "text": "Fey",
+  "start": 422.671,
+  "end": 422.984
+ },
+ {
+  "text": "on",
+  "start": 422.984,
+  "end": 423.111
+ },
+ {
+  "text": "Saturday",
+  "start": 423.123,
+  "end": 423.516
+ },
+ {
+  "text": "Night",
+  "start": 423.528,
+  "end": 423.736
+ },
+ {
+  "text": "Live",
+  "start": 423.736,
+  "end": 424.13
+ },
+ {
+  "text": "Claim",
+  "start": 424.3,
+  "end": 424.555
+ },
+ {
+  "text": "two",
+  "start": 424.566,
+  "end": 424.937
+ },
+ {
+  "text": "you",
+  "start": 425.057,
+  "end": 425.138
+ },
+ {
+  "text": "can",
+  "start": 425.138,
+  "end": 425.23
+ },
+ {
+  "text": "see",
+  "start": 425.23,
+  "end": 425.496
+ },
+ {
+  "text": "Russia",
+  "start": 425.496,
+  "end": 425.809
+ },
+ {
+  "text": "from",
+  "start": 425.809,
+  "end": 425.971
+ },
+ {
+  "text": "land",
+  "start": 425.971,
+  "end": 426.307
+ },
+ {
+  "text": "in",
+  "start": 426.318,
+  "end": 426.365
+ },
+ {
+  "text": "Alaska",
+  "start": 426.365,
+  "end": 427.013
+ },
+ {
+  "text": "True",
+  "start": 427.183,
+  "end": 427.495
+ },
+ {
+  "text": "From",
+  "start": 427.615,
+  "end": 427.742
+ },
+ {
+  "text": "Little",
+  "start": 427.754,
+  "end": 427.904
+ },
+ {
+  "text": "Diomede",
+  "start": 427.904,
+  "end": 428.448
+ },
+ {
+  "text": "on",
+  "start": 428.568,
+  "end": 428.637
+ },
+ {
+  "text": "a",
+  "start": 428.637,
+  "end": 428.683
+ },
+ {
+  "text": "clear",
+  "start": 428.683,
+  "end": 428.961
+ },
+ {
+  "text": "day",
+  "start": 428.961,
+  "end": 429.181
+ },
+ {
+  "text": "you",
+  "start": 429.193,
+  "end": 429.285
+ },
+ {
+  "text": "can",
+  "start": 429.297,
+  "end": 429.389
+ },
+ {
+  "text": "see",
+  "start": 429.389,
+  "end": 429.679
+ },
+ {
+  "text": "Big",
+  "start": 429.69,
+  "end": 429.98
+ },
+ {
+  "text": "Diomede",
+  "start": 429.98,
+  "end": 430.443
+ },
+ {
+  "text": "And",
+  "start": 430.563,
+  "end": 430.655
+ },
+ {
+  "text": "from",
+  "start": 430.667,
+  "end": 430.782
+ },
+ {
+  "text": "the",
+  "start": 430.782,
+  "end": 430.852
+ },
+ {
+  "text": "top",
+  "start": 430.863,
+  "end": 431.118
+ },
+ {
+  "text": "of",
+  "start": 431.13,
+  "end": 431.211
+ },
+ {
+  "text": "Cape",
+  "start": 431.222,
+  "end": 431.454
+ },
+ {
+  "text": "Prince",
+  "start": 431.454,
+  "end": 431.685
+ },
+ {
+  "text": "of",
+  "start": 431.697,
+  "end": 431.789
+ },
+ {
+  "text": "Wales",
+  "start": 431.789,
+  "end": 432.322
+ },
+ {
+  "text": "Siberia's",
+  "start": 432.442,
+  "end": 433.079
+ },
+ {
+  "text": "mountains",
+  "start": 433.079,
+  "end": 433.461
+ },
+ {
+  "text": "for",
+  "start": 433.553,
+  "end": 433.692
+ },
+ {
+  "text": "part",
+  "start": 433.692,
+  "end": 433.877
+ },
+ {
+  "text": "of",
+  "start": 433.889,
+  "end": 433.923
+ },
+ {
+  "text": "the",
+  "start": 433.923,
+  "end": 433.958
+ },
+ {
+  "text": "year",
+  "start": 433.958,
+  "end": 434.305
+ },
+ {
+  "text": "Claim",
+  "start": 434.475,
+  "end": 434.799
+ },
+ {
+  "text": "three",
+  "start": 434.811,
+  "end": 435.204
+ },
+ {
+  "text": "Russia",
+  "start": 435.324,
+  "end": 435.614
+ },
+ {
+  "text": "is",
+  "start": 435.625,
+  "end": 435.741
+ },
+ {
+  "text": "2.4 miles",
+  "start": 435.741,
+  "end": 436.852
+ },
+ {
+  "text": "from",
+  "start": 436.852,
+  "end": 436.956
+ },
+ {
+  "text": "Alaska",
+  "start": 436.956,
+  "end": 437.535
+ },
+ {
+  "text": "True",
+  "start": 437.705,
+  "end": 438.005
+ },
+ {
+  "text": "NASA's",
+  "start": 438.125,
+  "end": 438.484
+ },
+ {
+  "text": "number",
+  "start": 438.484,
+  "end": 438.727
+ },
+ {
+  "text": "holds",
+  "start": 438.738,
+  "end": 439.004
+ },
+ {
+  "text": "up",
+  "start": 439.004,
+  "end": 439.224
+ },
+ {
+  "text": "The",
+  "start": 439.344,
+  "end": 439.402
+ },
+ {
+  "text": "1.8",
+  "start": 439.402,
+  "end": 439.946
+ },
+ {
+  "text": "doesn't",
+  "start": 439.958,
+  "end": 440.316
+ },
+ {
+  "text": "And",
+  "start": 440.486,
+  "end": 440.578
+ },
+ {
+  "text": "one",
+  "start": 440.578,
+  "end": 440.752
+ },
+ {
+  "text": "bonus",
+  "start": 440.752,
+  "end": 441.307
+ },
+ {
+  "text": "Across",
+  "start": 441.427,
+  "end": 441.763
+ },
+ {
+  "text": "that",
+  "start": 441.763,
+  "end": 441.925
+ },
+ {
+  "text": "water",
+  "start": 441.937,
+  "end": 442.353
+ },
+ {
+  "text": "it",
+  "start": 442.473,
+  "end": 442.577
+ },
+ {
+  "text": "really",
+  "start": 442.577,
+  "end": 442.843
+ },
+ {
+  "text": "is",
+  "start": 442.855,
+  "end": 443.017
+ },
+ {
+  "text": "tomorrow",
+  "start": 443.029,
+  "end": 443.596
+ },
+ {
+  "text": "21 hours",
+  "start": 443.716,
+  "end": 444.41
+ },
+ {
+  "text": "of",
+  "start": 444.41,
+  "end": 444.468
+ },
+ {
+  "text": "tomorrow",
+  "start": 444.468,
+  "end": 444.954
+ },
+ {
+  "text": "in",
+  "start": 444.966,
+  "end": 445.093
+ },
+ {
+  "text": "winter",
+  "start": 445.093,
+  "end": 445.498
+ },
+ {
+  "text": "Two",
+  "start": 445.668,
+  "end": 445.783
+ },
+ {
+  "text": "and",
+  "start": 445.795,
+  "end": 445.841
+ },
+ {
+  "text": "a",
+  "start": 445.841,
+  "end": 445.876
+ },
+ {
+  "text": "half",
+  "start": 445.876,
+  "end": 446.131
+ },
+ {
+  "text": "miles",
+  "start": 446.131,
+  "end": 446.617
+ },
+ {
+  "text": "Almost",
+  "start": 446.737,
+  "end": 446.911
+ },
+ {
+  "text": "a",
+  "start": 446.911,
+  "end": 446.934
+ },
+ {
+  "text": "whole",
+  "start": 446.934,
+  "end": 447.165
+ },
+ {
+  "text": "day",
+  "start": 447.165,
+  "end": 447.512
+ },
+ {
+  "text": "And",
+  "start": 447.632,
+  "end": 447.702
+ },
+ {
+  "text": "for",
+  "start": 447.702,
+  "end": 447.829
+ },
+ {
+  "text": "forty",
+  "start": 447.829,
+  "end": 448.211
+ },
+ {
+  "text": "years",
+  "start": 448.223,
+  "end": 448.755
+ },
+ {
+  "text": "a",
+  "start": 448.875,
+  "end": 448.979
+ },
+ {
+  "text": "wall",
+  "start": 448.979,
+  "end": 449.35
+ },
+ {
+  "text": "made",
+  "start": 449.35,
+  "end": 449.546
+ },
+ {
+  "text": "of",
+  "start": 449.546,
+  "end": 449.627
+ },
+ {
+  "text": "ice",
+  "start": 449.627,
+  "end": 450.113
+ },
+ {
+  "text": "Would",
+  "start": 450.283,
+  "end": 450.387
+ },
+ {
+  "text": "you",
+  "start": 450.387,
+  "end": 450.468
+ },
+ {
+  "text": "live",
+  "start": 450.468,
+  "end": 450.711
+ },
+ {
+  "text": "on",
+  "start": 450.723,
+  "end": 450.85
+ },
+ {
+  "text": "Yesterday",
+  "start": 450.85,
+  "end": 451.417
+ },
+ {
+  "text": "Island",
+  "start": 451.417,
+  "end": 451.788
+ },
+ {
+  "text": "looking",
+  "start": 451.908,
+  "end": 452.128
+ },
+ {
+  "text": "at",
+  "start": 452.128,
+  "end": 452.209
+ },
+ {
+  "text": "tomorrow",
+  "start": 452.22,
+  "end": 452.706
+ },
+ {
+  "text": "every",
+  "start": 452.826,
+  "end": 453.034
+ },
+ {
+  "text": "morning",
+  "start": 453.046,
+  "end": 453.428
+ },
+ {
+  "text": "Tell",
+  "start": 453.548,
+  "end": 453.664
+ },
+ {
+  "text": "me",
+  "start": 453.676,
+  "end": 453.78
+ },
+ {
+  "text": "in",
+  "start": 453.78,
+  "end": 453.838
+ },
+ {
+  "text": "the",
+  "start": 453.838,
+  "end": 453.895
+ },
+ {
+  "text": "comments",
+  "start": 453.895,
+  "end": 454.486
+ }
+]

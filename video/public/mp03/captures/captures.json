@@ -1,0 +1,728 @@
+{
+ "ucsb-palin": {
+  "w": 1464,
+  "h": 170,
+  "source": "The American Presidency Project, ABC interview, Sept 11 2008",
+  "marks": {
+   "you can actually see Russia from land here in Alaska": [
+    {
+     "x": 607,
+     "y": 124,
+     "w": 677,
+     "h": 38
+    }
+   ]
+  }
+ },
+ "snopes-fey": {
+  "w": 1247,
+  "h": 116,
+  "source": "Snopes",
+  "marks": {
+   "did not say 'I can see Russia from my house.'": [
+    {
+     "x": 875,
+     "y": 12,
+     "w": 359,
+     "h": 42
+    },
+    {
+     "x": 12,
+     "y": 70,
+     "w": 400,
+     "h": 42
+    }
+   ],
+   "originated with an SNL spoof": [
+    {
+     "x": 580,
+     "y": 70,
+     "w": 489,
+     "h": 42
+    }
+   ]
+  }
+ },
+ "snopes-twodays": {
+  "w": 1437,
+  "h": 264,
+  "source": "Snopes",
+  "marks": {
+   "Two days later": [
+    {
+     "x": 12,
+     "y": 12,
+     "w": 256,
+     "h": 44
+    }
+   ],
+   "Tina Fey and Amy Poehler": [
+    {
+     "x": 1236,
+     "y": 12,
+     "w": 154,
+     "h": 44
+    },
+    {
+     "x": 12,
+     "y": 80,
+     "w": 305,
+     "h": 44
+    }
+   ]
+  }
+ },
+ "wiki-shoemaker": {
+  "w": 1428,
+  "h": 102,
+  "source": "Wikipedia",
+  "marks": {
+   "written by SNL producer Mike Shoemaker": [
+    {
+     "x": 546,
+     "y": 64,
+     "w": 589,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "nasa-82": {
+  "w": 1350,
+  "h": 160,
+  "source": "NASA Earth Observatory, Jan 27 2018",
+  "marks": {
+   "82 kilometers (51 miles)": [
+    {
+     "x": 688,
+     "y": 65,
+     "w": 352,
+     "h": 38
+    }
+   ]
+  }
+ },
+ "nasa-38": {
+  "w": 1337,
+  "h": 216,
+  "source": "NASA Earth Observatory, Jan 27 2018",
+  "marks": {
+   "3.8 kilometers (2.4 miles)": [
+    {
+     "x": 1049,
+     "y": 12,
+     "w": 276,
+     "h": 38
+    },
+    {
+     "x": 12,
+     "y": 65,
+     "w": 89,
+     "h": 38
+    }
+   ]
+  }
+ },
+ "nasa-homes": {
+  "w": 1351,
+  "h": 160,
+  "source": "NASA Earth Observatory, Jan 27 2018",
+  "marks": {
+   "visible from the homes": [
+    {
+     "x": 212,
+     "y": 118,
+     "w": 336,
+     "h": 38
+    }
+   ]
+  }
+ },
+ "nasa-curtain": {
+  "w": 1349,
+  "h": 162,
+  "source": "NASA Earth Observatory, Jan 27 2018",
+  "marks": {
+   "“ice curtain,”": [
+    {
+     "x": 824,
+     "y": 67,
+     "w": 13,
+     "h": 38
+    },
+    {
+     "x": 838,
+     "y": 65,
+     "w": 159,
+     "h": 40
+    },
+    {
+     "x": 838,
+     "y": 65,
+     "w": 159,
+     "h": 40
+    },
+    {
+     "x": 996,
+     "y": 67,
+     "w": 18,
+     "h": 38
+    }
+   ]
+  }
+ },
+ "nasa-future": {
+  "w": 1308,
+  "h": 216,
+  "source": "NASA Earth Observatory, Jan 27 2018",
+  "marks": {
+   "“Yesterday” and “Tomorrow” islands": [
+    {
+     "x": 1123,
+     "y": 12,
+     "w": 174,
+     "h": 38
+    },
+    {
+     "x": 12,
+     "y": 65,
+     "w": 351,
+     "h": 38
+    }
+   ],
+   "you’re looking into the future!": [
+    {
+     "x": 727,
+     "y": 174,
+     "w": 436,
+     "h": 38
+    }
+   ]
+  }
+ },
+ "nps-55": {
+  "w": 741,
+  "h": 158,
+  "source": "U.S. National Park Service",
+  "marks": {
+   "approximately 55 miles": [
+    {
+     "x": 470,
+     "y": 63,
+     "w": 259,
+     "h": 40
+    },
+    {
+     "x": 12,
+     "y": 114,
+     "w": 78,
+     "h": 40
+    }
+   ]
+  }
+ },
+ "nps-25": {
+  "w": 735,
+  "h": 261,
+  "source": "U.S. National Park Service",
+  "marks": {
+   "only about 2.5 miles wide": [
+    {
+     "x": 45,
+     "y": 63,
+     "w": 381,
+     "h": 40
+    }
+   ]
+  }
+ },
+ "nps-27": {
+  "w": 1500,
+  "h": 184,
+  "source": "U.S. National Park Service",
+  "marks": {
+   "Only 2.7 miles": [
+    {
+     "x": 12,
+     "y": 12,
+     "w": 269,
+     "h": 48
+    }
+   ]
+  }
+ },
+ "slate-25": {
+  "w": 1404,
+  "h": 158,
+  "source": "Slate, Sept 15 2008",
+  "marks": {
+   "a little less than two and a half miles apart": [
+    {
+     "x": 917,
+     "y": 12,
+     "w": 415,
+     "h": 40
+    },
+    {
+     "x": 12,
+     "y": 63,
+     "w": 247,
+     "h": 40
+    }
+   ],
+   "you can definitely see one from the other": [
+    {
+     "x": 825,
+     "y": 63,
+     "w": 567,
+     "h": 40
+    },
+    {
+     "x": 12,
+     "y": 114,
+     "w": 82,
+     "h": 40
+    }
+   ]
+  }
+ },
+ "slate-fog": {
+  "w": 1432,
+  "h": 107,
+  "source": "Slate, Sept 15 2008",
+  "marks": {
+   "persistent fog": [
+    {
+     "x": 829,
+     "y": 12,
+     "w": 222,
+     "h": 40
+    }
+   ]
+  }
+ },
+ "slate-tincity": {
+  "w": 1432,
+  "h": 107,
+  "source": "Slate, Sept 15 2008",
+  "marks": {
+   "for roughly half the year": [
+    {
+     "x": 1114,
+     "y": 12,
+     "w": 306,
+     "h": 40
+    },
+    {
+     "x": 12,
+     "y": 63,
+     "w": 68,
+     "h": 40
+    }
+   ],
+   "Siberian mountain ranges": [
+    {
+     "x": 304,
+     "y": 63,
+     "w": 410,
+     "h": 40
+    }
+   ]
+  }
+ },
+ "ng-2mi": {
+  "w": 1501,
+  "h": 86,
+  "source": "National Geographic",
+  "marks": {
+   "only about two miles to the west": [
+    {
+     "x": 142,
+     "y": 48,
+     "w": 416,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "ng-18": {
+  "w": 1305,
+  "h": 86,
+  "source": "National Geographic",
+  "marks": {
+   "1.8 miles": [
+    {
+     "x": 382,
+     "y": 48,
+     "w": 117,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "ng-23": {
+  "w": 1416,
+  "h": 86,
+  "source": "National Geographic",
+  "marks": {
+   "23-hour time difference": [
+    {
+     "x": 194,
+     "y": 48,
+     "w": 303,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "ng-bridge": {
+  "w": 1507,
+  "h": 122,
+  "source": "National Geographic",
+  "marks": {
+   "ice bridge": [
+    {
+     "x": 108,
+     "y": 48,
+     "w": 127,
+     "h": 34
+    }
+   ],
+   "walk between the islands": [
+    {
+     "x": 136,
+     "y": 84,
+     "w": 321,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "ng-grandfather": {
+  "w": 1473,
+  "h": 122,
+  "source": "National Geographic",
+  "marks": {
+   "cross back and forth between the islands all the time": [
+    {
+     "x": 334,
+     "y": 12,
+     "w": 669,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "ng-1948": {
+  "w": 1494,
+  "h": 122,
+  "source": "National Geographic",
+  "marks": {
+   "forcibly evacuate Big Diomede": [
+    {
+     "x": 12,
+     "y": 48,
+     "w": 401,
+     "h": 34
+    }
+   ],
+   "military base": [
+    {
+     "x": 12,
+     "y": 84,
+     "w": 166,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "ng-longway": {
+  "w": 1507,
+  "h": 194,
+  "source": "National Geographic",
+  "marks": {
+   "Instead of the two-mile journey": [
+    {
+     "x": 929,
+     "y": 48,
+     "w": 401,
+     "h": 34
+    }
+   ],
+   "they’d have to go the long way": [
+    {
+     "x": 12,
+     "y": 84,
+     "w": 396,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "ng-fivedays": {
+  "w": 1443,
+  "h": 86,
+  "source": "National Geographic",
+  "marks": {
+   "five days behind schedule": [
+    {
+     "x": 1220,
+     "y": 12,
+     "w": 212,
+     "h": 34
+    },
+    {
+     "x": 12,
+     "y": 48,
+     "w": 112,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "ng-runway": {
+  "w": 1460,
+  "h": 86,
+  "source": "National Geographic",
+  "marks": {
+   "no longer has an ice runway": [
+    {
+     "x": 649,
+     "y": 12,
+     "w": 360,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "st-treaty": {
+  "w": 1476,
+  "h": 258,
+  "source": "Office of the Historian, U.S. State Dept. (1867 treaty)",
+  "marks": {
+   "midway between the islands of Krusenstera, or Ignalook, and the island of Ratmanoff, or Noonarbook": [
+    {
+     "x": 446,
+     "y": 114,
+     "w": 932,
+     "h": 38
+    },
+    {
+     "x": 12,
+     "y": 165,
+     "w": 518,
+     "h": 38
+    }
+   ]
+  }
+ },
+ "st-72": {
+  "w": 1466,
+  "h": 105,
+  "source": "Office of the Historian, U.S. State Dept.",
+  "marks": {
+   "$7.2 million": [
+    {
+     "x": 303,
+     "y": 63,
+     "w": 169,
+     "h": 38
+    }
+   ]
+  }
+ },
+ "wiki-dateline": {
+  "w": 1461,
+  "h": 102,
+  "source": "Wikipedia",
+  "marks": {
+   "which also defines the International Date Line in that area": [
+    {
+     "x": 770,
+     "y": 12,
+     "w": 324,
+     "h": 34
+    },
+    {
+     "x": 1094,
+     "y": 12,
+     "w": 322,
+     "h": 34
+    },
+    {
+     "x": 1094,
+     "y": 12,
+     "w": 322,
+     "h": 34
+    },
+    {
+     "x": 1416,
+     "y": 12,
+     "w": 34,
+     "h": 34
+    },
+    {
+     "x": 12,
+     "y": 64,
+     "w": 126,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "nps-cox-1976": {
+  "w": 1480,
+  "h": 140,
+  "source": "U.S. National Park Service",
+  "marks": {
+   "in 1976": [
+    {
+     "x": 700,
+     "y": 57,
+     "w": 91,
+     "h": 34
+    }
+   ],
+   "eleven years": [
+    {
+     "x": 999,
+     "y": 57,
+     "w": 168,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "nps-cox-perm": {
+  "w": 1501,
+  "h": 184,
+  "source": "U.S. National Park Service",
+  "marks": {
+   "24 hours before the scheduled time, permission came from President Gorbachev": [
+    {
+     "x": 181,
+     "y": 146,
+     "w": 1069,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "nps-cox-cold": {
+  "w": 1501,
+  "h": 140,
+  "source": "U.S. National Park Service",
+  "marks": {
+   "38° F water": [
+    {
+     "x": 1442,
+     "y": 12,
+     "w": 47,
+     "h": 34
+    },
+    {
+     "x": 12,
+     "y": 57,
+     "w": 99,
+     "h": 34
+    }
+   ],
+   "like the hands of a cadaver": [
+    {
+     "x": 755,
+     "y": 102,
+     "w": 354,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "nps-cox-shore": {
+  "w": 1414,
+  "h": 95,
+  "source": "U.S. National Park Service",
+  "marks": {
+   "two hours and five minutes": [
+    {
+     "x": 166,
+     "y": 12,
+     "w": 358,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "nps-cox-toast": {
+  "w": 1463,
+  "h": 184,
+  "source": "U.S. National Park Service",
+  "marks": {
+   "raised a glass to toast the swimmer": [
+    {
+     "x": 12,
+     "y": 102,
+     "w": 466,
+     "h": 34
+    }
+   ],
+   "how close to each other our peoples live": [
+    {
+     "x": 874,
+     "y": 102,
+     "w": 536,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "nps-flight": {
+  "w": 1289,
+  "h": 210,
+  "source": "U.S. National Park Service",
+  "marks": {
+   "June of 1988": [
+    {
+     "x": 296,
+     "y": 63,
+     "w": 194,
+     "h": 40
+    }
+   ],
+   "for the first time in over forty years": [
+    {
+     "x": 1179,
+     "y": 114,
+     "w": 98,
+     "h": 40
+    },
+    {
+     "x": 12,
+     "y": 166,
+     "w": 413,
+     "h": 40
+    }
+   ]
+  }
+ },
+ "wiki-21": {
+  "w": 782,
+  "h": 258,
+  "source": "Wikipedia",
+  "marks": {
+   "21 hours ahead of Little Diomede (20 in summer)": [
+    {
+     "x": 181,
+     "y": 168,
+     "w": 560,
+     "h": 34
+    },
+    {
+     "x": 12,
+     "y": 220,
+     "w": 126,
+     "h": 34
+    }
+   ]
+  }
+ }
+}

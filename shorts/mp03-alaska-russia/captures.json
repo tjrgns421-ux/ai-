@@ -1,0 +1,361 @@
+[
+ {
+  "name": "ucsb-palin",
+  "url": "https://www.presidency.ucsb.edu/documents/interview-with-charlie-gibson-abc-news-part-1-3",
+  "source": "The American Presidency Project, ABC interview, Sept 11 2008",
+  "find": "GIBSON: What insight into Russian actions",
+  "until": "see Russia from land here in Alaska.",
+  "marks": [
+   "you can actually see Russia from land here in Alaska"
+  ]
+ },
+ {
+  "name": "snopes-fey",
+  "url": "https://www.snopes.com/fact-check/sarah-palin-russia-house/",
+  "source": "Snopes",
+  "find": "2008 GOP vice presidential candidate Sarah Palin did not say",
+  "until": "That line originated with an SNL spoof.",
+  "marks": [
+   "did not say 'I can see Russia from my house.'",
+   "originated with an SNL spoof"
+  ]
+ },
+ {
+  "name": "snopes-twodays",
+  "url": "https://www.snopes.com/fact-check/sarah-palin-russia-house/",
+  "source": "Snopes",
+  "find": "Two days later, on the 2008 season premiere",
+  "until": "a few days earlier with the following exchange:",
+  "marks": [
+   "Two days later",
+   "Tina Fey and Amy Poehler"
+  ],
+  "note": "page was dimmed by an overlay; levels brightened afterwards (text unchanged)"
+ },
+ {
+  "name": "wiki-shoemaker",
+  "url": "https://en.wikipedia.org/wiki/Saturday_Night_Live_parodies_of_Sarah_Palin",
+  "source": "Wikipedia",
+  "find": "A famous line from the sketch",
+  "until": "was written by SNL producer Mike Shoemaker.",
+  "marks": [
+   "written by SNL producer Mike Shoemaker"
+  ],
+  "vw": 1100
+ },
+ {
+  "name": "nasa-82",
+  "url": "https://science.nasa.gov/earth/earth-observatory/yesterday-and-tomorrow-islands-91638/",
+  "source": "NASA Earth Observatory, Jan 27 2018",
+  "find": "At the narrowest part of the Bering Strait",
+  "until": "on mainland Alaska.",
+  "marks": [
+   "82 kilometers (51 miles)"
+  ]
+ },
+ {
+  "name": "nasa-38",
+  "url": "https://science.nasa.gov/earth/earth-observatory/yesterday-and-tomorrow-islands-91638/",
+  "source": "NASA Earth Observatory, Jan 27 2018",
+  "find": "The distance between the two countries is actually much smaller.",
+  "until": "on Landsat 8.",
+  "marks": [
+   "3.8 kilometers (2.4 miles)"
+  ]
+ },
+ {
+  "name": "nasa-homes",
+  "url": "https://science.nasa.gov/earth/earth-observatory/yesterday-and-tomorrow-islands-91638/",
+  "source": "NASA Earth Observatory, Jan 27 2018",
+  "find": "The town is located on a small beach",
+  "until": "are visible from the homes.",
+  "marks": [
+   "visible from the homes"
+  ]
+ },
+ {
+  "name": "nasa-curtain",
+  "url": "https://science.nasa.gov/earth/earth-observatory/yesterday-and-tomorrow-islands-91638/",
+  "source": "NASA Earth Observatory, Jan 27 2018",
+  "find": "The water between the two islands is bisected",
+  "until": "than climate.",
+  "marks": [
+   "\u201cice curtain,\u201d"
+  ]
+ },
+ {
+  "name": "nasa-future",
+  "url": "https://science.nasa.gov/earth/earth-observatory/yesterday-and-tomorrow-islands-91638/",
+  "source": "NASA Earth Observatory, Jan 27 2018",
+  "find": "Another invisible line runs between the islands",
+  "until": "you\u2019re looking into the future!\u201d",
+  "marks": [
+   "\u201cYesterday\u201d and \u201cTomorrow\u201d islands",
+   "you\u2019re looking into the future!"
+  ]
+ },
+ {
+  "name": "nps-55",
+  "url": "https://www.nps.gov/anch/learn/historyculture/how-close-is-alaska-to-russia.htm",
+  "source": "U.S. National Park Service",
+  "find": "The narrowest distance between mainland Russia",
+  "until": "approximately 55 miles.",
+  "marks": [
+   "approximately 55 miles"
+  ]
+ },
+ {
+  "name": "nps-25",
+  "url": "https://www.nps.gov/anch/learn/historyculture/how-close-is-alaska-to-russia.htm",
+  "source": "U.S. National Park Service",
+  "find": "The stretch of water between these two islands",
+  "until": "on this seasonal sea ice.",
+  "marks": [
+   "only about 2.5 miles wide"
+  ]
+ },
+ {
+  "name": "nps-27",
+  "url": "https://www.nps.gov/people/lynne-cox.htm",
+  "source": "U.S. National Park Service",
+  "find": "Only 2.7 miles separate the Little and Big Diomede",
+  "until": "for much of the twentieth century.",
+  "marks": [
+   "Only 2.7 miles"
+  ]
+ },
+ {
+  "name": "slate-25",
+  "url": "https://slate.com/news-and-politics/2008/09/can-you-really-see-russia-from-alaska.html",
+  "source": "Slate, Sept 15 2008",
+  "find": "At their closest, these two islands",
+  "until": "you can definitely see one from the other.",
+  "marks": [
+   "a little less than two and a half miles apart",
+   "you can definitely see one from the other"
+  ]
+ },
+ {
+  "name": "slate-fog",
+  "url": "https://slate.com/news-and-politics/2008/09/can-you-really-see-russia-from-alaska.html",
+  "source": "Slate, Sept 15 2008",
+  "find": "The Diomede Islands are often blanketed",
+  "until": "which makes visibility difficult.",
+  "marks": [
+   "persistent fog"
+  ]
+ },
+ {
+  "name": "slate-tincity",
+  "url": "https://slate.com/news-and-politics/2008/09/can-you-really-see-russia-from-alaska.html",
+  "source": "Slate, Sept 15 2008",
+  "find": "The station chief at Tin City confirms",
+  "until": "from the highest part of the facility.",
+  "marks": [
+   "for roughly half the year",
+   "Siberian mountain ranges"
+  ]
+ },
+ {
+  "name": "ng-2mi",
+  "url": "https://www.nationalgeographic.com/environment/article/little-diomede-alaska-faces-rapid-climate-change-threatens-native-inupiat-community",
+  "source": "National Geographic",
+  "find": "It\u2019s larger sibling, Big Diomede",
+  "until": "only about two miles to the west.",
+  "marks": [
+   "only about two miles to the west"
+  ]
+ },
+ {
+  "name": "ng-18",
+  "url": "https://www.nationalgeographic.com/environment/article/little-diomede-alaska-faces-rapid-climate-change-threatens-native-inupiat-community",
+  "source": "National Geographic",
+  "find": "A view of Big Diomede Island (Russia) from Little Diomede",
+  "until": "the international date line.",
+  "marks": [
+   "1.8 miles"
+  ]
+ },
+ {
+  "name": "ng-23",
+  "url": "https://www.nationalgeographic.com/environment/article/little-diomede-alaska-faces-rapid-climate-change-threatens-native-inupiat-community",
+  "source": "National Geographic",
+  "find": "Although both the border and the international date line",
+  "until": "few actually took notice.",
+  "marks": [
+   "23-hour time difference"
+  ]
+ },
+ {
+  "name": "ng-bridge",
+  "url": "https://www.nationalgeographic.com/environment/article/little-diomede-alaska-faces-rapid-climate-change-threatens-native-inupiat-community",
+  "source": "National Geographic",
+  "find": "In the winter, water would freeze into an ice bridge",
+  "until": "regularly walk between the islands.",
+  "marks": [
+   "ice bridge",
+   "walk between the islands"
+  ]
+ },
+ {
+  "name": "ng-grandfather",
+  "url": "https://www.nationalgeographic.com/environment/article/little-diomede-alaska-faces-rapid-climate-change-threatens-native-inupiat-community",
+  "source": "National Geographic",
+  "find": "\u201cMy grandfather used to cross back and forth",
+  "until": "their cultures blurred into one.",
+  "marks": [
+   "cross back and forth between the islands all the time"
+  ],
+  "redact": [
+   "Frances Ozenna"
+  ]
+ },
+ {
+  "name": "ng-1948",
+  "url": "https://www.nationalgeographic.com/environment/article/little-diomede-alaska-faces-rapid-climate-change-threatens-native-inupiat-community",
+  "source": "National Geographic",
+  "find": "In 1948, as the post-World War II world",
+  "until": "came to be known as the \u201cIce Curtain.\u201d",
+  "marks": [
+   "forcibly evacuate Big Diomede",
+   "military base"
+  ]
+ },
+ {
+  "name": "ng-longway",
+  "url": "https://www.nationalgeographic.com/environment/article/little-diomede-alaska-faces-rapid-climate-change-threatens-native-inupiat-community",
+  "source": "National Geographic",
+  "find": "The plan was for five Russians",
+  "until": "only real link to the mainland.",
+  "marks": [
+   "Instead of the two-mile journey",
+   "they\u2019d have to go the long way"
+  ]
+ },
+ {
+  "name": "ng-fivedays",
+  "url": "https://www.nationalgeographic.com/environment/article/little-diomede-alaska-faces-rapid-climate-change-threatens-native-inupiat-community",
+  "source": "National Geographic",
+  "find": "On July 29th, a welcome break",
+  "until": "five days behind schedule",
+  "marks": [
+   "five days behind schedule"
+  ]
+ },
+ {
+  "name": "ng-runway",
+  "url": "https://www.nationalgeographic.com/environment/article/little-diomede-alaska-faces-rapid-climate-change-threatens-native-inupiat-community",
+  "source": "National Geographic",
+  "find": "One consequence of this change is that the island no longer has an ice runway",
+  "until": "occasional helicopter flight.",
+  "marks": [
+   "no longer has an ice runway"
+  ]
+ },
+ {
+  "name": "st-treaty",
+  "url": "https://history.state.gov/historicaldocuments/frus1867p1/d324",
+  "source": "Office of the Historian, U.S. State Dept. (1867 treaty)",
+  "find": "The western limit within which the territories",
+  "until": "into the same Frozen ocean.",
+  "marks": [
+   "midway between the islands of Krusenstera, or Ignalook, and the island of Ratmanoff, or Noonarbook"
+  ]
+ },
+ {
+  "name": "st-72",
+  "url": "https://history.state.gov/milestones/1866-1898/alaska-purchase",
+  "source": "Office of the Historian, U.S. State Dept.",
+  "find": "on March 30, 1867, agreed to a proposal",
+  "until": "to purchase Alaska for $7.2 million.",
+  "marks": [
+   "$7.2 million"
+  ]
+ },
+ {
+  "name": "wiki-dateline",
+  "url": "https://en.wikipedia.org/wiki/Diomede_Islands",
+  "source": "Wikipedia",
+  "find": "The islands are separated by an international border, which also defines the International Date Line",
+  "until": "at 168\u00b058'37\"W.",
+  "marks": [
+   "which also defines the International Date Line in that area"
+  ],
+  "vw": 1100
+ },
+ {
+  "name": "nps-cox-1976",
+  "url": "https://www.nps.gov/people/lynne-cox.htm",
+  "source": "U.S. National Park Service",
+  "find": "Cox conceived the idea to swim across the Bering Strait",
+  "until": "to bring this dream to the reality.",
+  "marks": [
+   "in 1976",
+   "eleven years"
+  ]
+ },
+ {
+  "name": "nps-cox-perm",
+  "url": "https://www.nps.gov/people/lynne-cox.htm",
+  "source": "U.S. National Park Service",
+  "find": "thirty hours before the scheduled swim",
+  "until": "permission came from President Gorbachev.",
+  "marks": [
+   "24 hours before the scheduled time, permission came from President Gorbachev"
+  ]
+ },
+ {
+  "name": "nps-cox-cold",
+  "url": "https://www.nps.gov/people/lynne-cox.htm",
+  "source": "U.S. National Park Service",
+  "find": "the 38\u00b0 F water took her breath away.",
+  "until": "like the hands of a cadaver.\"",
+  "marks": [
+   "38\u00b0 F water",
+   "like the hands of a cadaver"
+  ]
+ },
+ {
+  "name": "nps-cox-shore",
+  "url": "https://www.nps.gov/people/lynne-cox.htm",
+  "source": "U.S. National Park Service",
+  "find": "When after two hours and five minutes in the water",
+  "until": "two Russians in military in uniform grabbed her.",
+  "marks": [
+   "two hours and five minutes"
+  ]
+ },
+ {
+  "name": "nps-cox-toast",
+  "url": "https://www.nps.gov/people/lynne-cox.htm",
+  "source": "U.S. National Park Service",
+  "find": "When President Gorbachev travelled to Washington",
+  "until": "how close to each other our peoples live,\" Gorbachev said.",
+  "marks": [
+   "raised a glass to toast the swimmer",
+   "how close to each other our peoples live"
+  ]
+ },
+ {
+  "name": "nps-flight",
+  "url": "https://www.nps.gov/articles/000/jim-stimpfle-and-the-melting-of-the-ice-curtain.htm",
+  "source": "U.S. National Park Service",
+  "find": "Soon, Alaska Airlines agreed to a flight of friendship",
+  "until": "for the first time in over forty years.",
+  "marks": [
+   "June of 1988",
+   "for the first time in over forty years"
+  ],
+  "vw": 1100
+ },
+ {
+  "name": "wiki-21",
+  "url": "https://en.wikipedia.org/wiki/Diomede_Islands",
+  "source": "Wikipedia",
+  "find": "Because they are separated by the International Date Line, Big Diomede",
+  "until": "(20 in summer).",
+  "marks": [
+   "21 hours ahead of Little Diomede (20 in summer)"
+  ]
+ }
+]

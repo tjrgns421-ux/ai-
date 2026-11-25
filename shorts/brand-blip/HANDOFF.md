@@ -28,7 +28,7 @@ Curious Minutes 채널(`channels/curious-minutes/`)은 다른 세션에서 작�
 | sn03-north-south-words | 남북한 말 (4:54) | 완성·업로드 |
 | mp01-korea-border | 지도 롱폼 1회: 38선은 국경이 아니다 (영어, 8:31) | 완성, `post.md` |
 | mp02-china-one-time-zone | 지도 롱폼 2회: 중국은 왜 시간대가 하나? (8:11) | 완성, `post.md`, 릴스 5개 `shorts/reels/reels-2026-11-25.json` |
-| mp03-alaska-russia | 지도 롱폼 3회: 알래스카에서 러시아가 보이나? | 출처·대본 완료(82점), 캡처·영상·쇼츠 5개 남음 |
+| mp03-alaska-russia | 지도 롱폼 3회: 알래스카에서 러시아가 보이나? (7:36) | 완성, `post.md`, 쇼츠 5개 `shorts/reels/reels-mp03.json` |
 | (mp04 후보) | 북한은 정말 밤에 깜깜한가? NASA 야간 사진 | 계획 |
 
 ## 기타

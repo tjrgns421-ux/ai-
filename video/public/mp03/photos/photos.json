@@ -1,0 +1,185 @@
+{
+ "village": {
+  "file": "File:Diomedevillage big.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Diomedevillage_big.jpg",
+  "src": "village.jpg",
+  "license": [
+   "Public domain"
+  ],
+  "author": "U.S. government (public domain)",
+  "source": "",
+  "date": "",
+  "pd": true,
+  "w": 600,
+  "h": 392
+ },
+ "village2": {
+  "file": "File:Little Diomede Island village.jpeg",
+  "page": "https://commons.wikimedia.org/wiki/File:Little_Diomede_Island_village.jpeg",
+  "src": "village2.jpg",
+  "license": [
+   "Public domain"
+  ],
+  "author": "Unites States Coast Guard, Petty Officer Richard Brahm",
+  "source": "U.S. Coast Guard photo ID 080825-G-5352B-005 Photo page: [1] Photo description page: [2] U.S. Coast Guard Visual Information Gallery [3]",
+  "date": "25 August 2008",
+  "pd": true,
+  "w": 1920,
+  "h": 1280
+ },
+ "drone": {
+  "file": "File:Little Diomede Island 2018 Drone Photo.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Little_Diomede_Island_2018_Drone_Photo.jpg",
+  "src": "drone.jpg",
+  "license": [
+   "CC BY-SA 4.0"
+  ],
+  "author": "Walter Holt Rose",
+  "source": "Own work",
+  "date": "Taken on 12 June 2018 20:58:19",
+  "pd": false,
+  "w": 1920,
+  "h": 1080
+ },
+ "ld1987": {
+  "file": "File:1987 Little Diomede.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:1987_Little_Diomede.jpg",
+  "src": "ld1987.jpg",
+  "license": [
+   "CC BY-SA 4.0"
+  ],
+  "author": "Lorenz King",
+  "source": "Own work",
+  "date": "28 August 1987",
+  "pd": false,
+  "w": 1920,
+  "h": 1280
+ },
+ "ld2014": {
+  "file": "File:Little Diomede 1 2014-08-17.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Little_Diomede_1_2014-08-17.jpg",
+  "src": "ld2014.jpg",
+  "license": [
+   "CC BY-SA 3.0"
+  ],
+  "author": "Ansgar Walk",
+  "source": "Own work",
+  "date": "17 August 2014",
+  "pd": false,
+  "w": 1920,
+  "h": 1280
+ },
+ "bd1": {
+  "file": "File:Big Diomede 1 2014-08-17.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Big_Diomede_1_2014-08-17.jpg",
+  "src": "bd1.jpg",
+  "license": [
+   "CC BY-SA 3.0"
+  ],
+  "author": "Ansgar Walk",
+  "source": "Own work",
+  "date": "17 August 2014",
+  "pd": false,
+  "w": 1920,
+  "h": 1280
+ },
+ "bd2": {
+  "file": "File:Big Diomede 2 2014-08-17.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Big_Diomede_2_2014-08-17.jpg",
+  "src": "bd2.jpg",
+  "license": [
+   "CC BY-SA 3.0"
+  ],
+  "author": "Ansgar Walk",
+  "source": "Own work",
+  "date": "17 August 2014",
+  "pd": false,
+  "w": 1920,
+  "h": 1281
+ },
+ "bd3": {
+  "file": "File:Big Diomede 3 2014-08-17.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Big_Diomede_3_2014-08-17.jpg",
+  "src": "bd3.jpg",
+  "license": [
+   "CC BY-SA 3.0"
+  ],
+  "author": "Ansgar Walk",
+  "source": "Own work",
+  "date": "17 August 2014",
+  "pd": false,
+  "w": 1920,
+  "h": 1281
+ },
+ "jul2006": {
+  "file": "File:Diomede Islands Bering Sea Jul 2006.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Diomede_Islands_Bering_Sea_Jul_2006.jpg",
+  "src": "jul2006.jpg",
+  "license": [
+   "GFDL",
+   "CC BY 3.0"
+  ],
+  "author": "Dave Cohoe",
+  "source": "en:Diomede Islands Bering Sea Jul 2006.jpg",
+  "date": "16 July 2006",
+  "pd": false,
+  "w": 640,
+  "h": 250
+ },
+ "aster": {
+  "file": "File:Diomede Islands, Bering Strait (ASTER).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Diomede_Islands,_Bering_Strait_(ASTER).jpg",
+  "src": "aster.jpg",
+  "license": [
+   "Public domain"
+  ],
+  "author": "NASA/METI/AIST/Japan Space Systems, and U.S./Japan ASTER Science Team",
+  "source": "Diomede Islands, Bering Strait (direct link) This image or video was catalogued by Jet Propulsion Laboratory of the United States National Aeronautics and Space Administration (NASA) under Photo ID: d",
+  "date": "Taken on 8 July 2000",
+  "pd": true,
+  "w": 900,
+  "h": 720
+ },
+ "kugree": {
+  "file": "File:Old style \"Kugree\" or old Eskimo dwelling native to Little Diomede. USSR's Big Diomede in background - DPLA - 726b6ea10d3691f64a4a414af1fdca8c.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Old_style_%22Kugree%22_or_old_Eskimo_dwelling_native_to_Little_Diomede._USSR's_Big_Diomede_in_background_-_DPLA_-_726b6ea10d3691f64a4a414af1fdca8c.jpg",
+  "src": "kugree.jpg",
+  "license": [
+   "Public domain"
+  ],
+  "author": "Department of the Interior. National Park Service. Alaska Region. (12/2/1980 - 5/1995)",
+  "source": "This file was contributed to Wikimedia Commons by National Archives at Seattle as part of a cooperation project. The donation was facilitated by the Digital Public Library of America, via its partner ",
+  "date": "1972-01-01/1976-12-31",
+  "pd": true,
+  "w": 1920,
+  "h": 1205
+ },
+ "cox": {
+  "file": "File:Lynne Cox.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Lynne_Cox.jpg",
+  "src": "cox.jpg",
+  "license": [
+   "CC BY-SA 2.0"
+  ],
+  "author": "TEDxMonterey",
+  "source": "https://www.flickr.com/photos/50491078@N08/7106611041/",
+  "date": "13 April 2012, 10:51:22",
+  "pd": false,
+  "w": 1920,
+  "h": 2880
+ },
+ "tinnara": {
+  "file": "File:Alaska - Tin City - NARA - 23942595.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Alaska_-_Tin_City_-_NARA_-_23942595.jpg",
+  "src": "tinnara.jpg",
+  "license": [
+   "Public domain"
+  ],
+  "author": "Unknown author or not provided",
+  "source": "U.S. National Archives and Records Administration",
+  "date": "15 September 1941",
+  "pd": true,
+  "w": 1920,
+  "h": 1525
+ }
+}
