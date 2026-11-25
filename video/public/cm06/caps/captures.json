@@ -1,0 +1,284 @@
+{
+ "pyr-rignot": {
+  "w": 1347,
+  "h": 228,
+  "source": "Live Science",
+  "marks": {
+   "This is just a mountain that looks like a pyramid": [
+    {
+     "x": 25,
+     "y": 4,
+     "w": 754,
+     "h": 40
+    }
+   ]
+  }
+ },
+ "pyr-erosion": {
+  "w": 1356,
+  "h": 108,
+  "source": "Live Science",
+  "marks": {
+   "hundreds of millions of years of erosion": [
+    {
+     "x": 12,
+     "y": 64,
+     "w": 626,
+     "h": 40
+    }
+   ]
+  }
+ },
+ "pyr-camp": {
+  "w": 1349,
+  "h": 168,
+  "source": "Live Science",
+  "marks": {
+   "sits just south of the mountain": [
+    {
+     "x": 1079,
+     "y": 4,
+     "w": 258,
+     "h": 40
+    },
+    {
+     "x": 12,
+     "y": 64,
+     "w": 208,
+     "h": 40
+    }
+   ]
+  }
+ },
+ "blood-algae": {
+  "w": 1429,
+  "h": 78,
+  "source": "National Geographic",
+  "marks": {
+   "initially chalked up to red algae": [
+    {
+     "x": 201,
+     "y": 4,
+     "w": 108,
+     "h": 34
+    },
+    {
+     "x": 309,
+     "y": 4,
+     "w": 140,
+     "h": 34
+    },
+    {
+     "x": 309,
+     "y": 4,
+     "w": 140,
+     "h": 34
+    },
+    {
+     "x": 448,
+     "y": 4,
+     "w": 157,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "blood-brine": {
+  "w": 1460,
+  "h": 78,
+  "source": "National Geographic",
+  "marks": {
+   "brine high in iron": [
+    {
+     "x": 492,
+     "y": 40,
+     "w": 223,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "blood-coldest": {
+  "w": 1388,
+  "h": 78,
+  "source": "National Geographic",
+  "marks": {
+   "coldest glacier on Earth with constantly flowing water": [
+    {
+     "x": 1008,
+     "y": 4,
+     "w": 368,
+     "h": 34
+    },
+    {
+     "x": 12,
+     "y": 40,
+     "w": 318,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "poly-wales": {
+  "w": 786,
+  "h": 333,
+  "source": "University of Southampton (2024)",
+  "marks": {
+   "nearly twice the size of Wales": [
+    {
+     "x": 97,
+     "y": 170,
+     "w": 547,
+     "h": 48
+    }
+   ]
+  }
+ },
+ "poly-salt": {
+  "w": 1496,
+  "h": 167,
+  "source": "University of Southampton (2024)",
+  "marks": {
+   "There must be an additional input of salt from somewhere": [
+    {
+     "x": 852,
+     "y": 59,
+     "w": 612,
+     "h": 48
+    },
+    {
+     "x": 12,
+     "y": 115,
+     "w": 434,
+     "h": 48
+    }
+   ]
+  }
+ },
+ "poly-ekman": {
+  "w": 1470,
+  "h": 167,
+  "source": "University of Southampton (2024)",
+  "marks": {
+   "the essential missing ingredient": [
+    {
+     "x": 426,
+     "y": 4,
+     "w": 577,
+     "h": 48
+    }
+   ]
+  }
+ },
+ "piri-mcintosh": {
+  "w": 1285,
+  "h": 250,
+  "source": "Wikipedia (quoting G. McIntosh)",
+  "marks": {
+   "not the most accurate map of the sixteenth century": [
+    {
+     "x": 307,
+     "y": 4,
+     "w": 716,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "vost-claim": {
+  "w": 1432,
+  "h": 78,
+  "source": "National Geographic (2013)",
+  "marks": {
+   "maybe even fish": [
+    {
+     "x": 418,
+     "y": 4,
+     "w": 219,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "vost-doubt": {
+  "w": 1512,
+  "h": 292,
+  "source": "National Geographic (2013)",
+  "marks": {
+   "Nothing like the kind of multicellular life": [
+    {
+     "x": 12,
+     "y": 4,
+     "w": 530,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "vost-time": {
+  "w": 1494,
+  "h": 78,
+  "source": "National Geographic (2013)",
+  "marks": {
+   "time will tell if we're right or we're wrong": [
+    {
+     "x": 135,
+     "y": 40,
+     "w": 536,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "anita-below": {
+  "w": 1217,
+  "h": 310,
+  "source": "Penn State (2025)",
+  "marks": {
+   "appeared to be coming from below the horizon": [
+    {
+     "x": 664,
+     "y": 56,
+     "w": 541,
+     "h": 42
+    },
+    {
+     "x": 12,
+     "y": 108,
+     "w": 173,
+     "h": 42
+    }
+   ]
+  }
+ },
+ "anita-30": {
+  "w": 1181,
+  "h": 102,
+  "source": "Penn State (2025)",
+  "marks": {
+   "like 30 degrees below the surface of the ice": [
+    {
+     "x": 130,
+     "y": 56,
+     "w": 669,
+     "h": 42
+    }
+   ]
+  }
+ },
+ "anita-noexpl": {
+  "w": 1218,
+  "h": 154,
+  "source": "Penn State (2025)",
+  "marks": {
+   "we still don't actually have an explanation": [
+    {
+     "x": 571,
+     "y": 4,
+     "w": 635,
+     "h": 42
+    }
+   ]
+  }
+ }
+}

@@ -68,3 +68,8 @@ into the search bar and keep the dropdown suggestions that match what we make.
 Dropped: songs, movies, TV shows, religion (bible, rosary), true crime, abandoned places, "healing frequency" audio.
 Paste into YouTube Studio → Settings → Channel → Basic info → Keywords (440 of 500 characters):
 "mysteries" "mysteries of the world" "mysteries of the universe" "mysteries of the ocean" "mysteries of the deep" "mysteries of the unknown" "mysteries of antarctica" "mystery science" "unexplained mysteries" "unexplained phenomena" "unexplained things in the ocean" "unexplained things in space" "unsolved mysteries" "solved mysteries" "weird sounds" "strange things found on the moon" "strange things found in the ocean" "curious minutes"
+
+## Deliverables per episode (from ep06, 2026-11-25)
+- One long-form video (8 min+) AND 5 Shorts cut from it (each under 30 s, its own hook ≥72, title checked with yt-package).
+- Each Short = one mystery from the long-form, reusing its narration lines and scenes (re-voiced hook if needed), vertical 1080×1920.
+- Upload info for all 6 posted in chat in Korean with English copy blocks.
