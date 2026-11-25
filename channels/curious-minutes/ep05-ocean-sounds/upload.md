@@ -38,6 +38,22 @@ Sources:
 #science #ocean #mystery
 ```
 
+## 한국어 제목
+```
+바다에서 녹음된 정체불명의 소리 6가지
+```
+
+## 한국어 설명
+```
+1997년, 수중 마이크가 5천 킬로미터 넘게 떨어진 센서들에서도 잡힐 만큼 큰 소리를 녹음했어요. 도대체 뭐였을까요? 바다에서 녹음된 이상한 소리 6가지를 NOAA의 실제 녹음과 함께 듣고, 과학자들이 알아낸 것과 솔직한 판정(해결 / 가장 유력한 추측 / 아직 모름)을 정리했어요.
+
+녹음은 모두 NOAA 자료예요. 대부분 사람 귀에 너무 낮아서 NOAA가 공개한 그대로 10~20배 빠르게 재생했어요. 바이오덕은 원래 속도예요. 3D 장면은 출처를 바탕으로 만든 일러스트이고, 지도 위치는 대략적이에요.
+영상은 영어이고, 한국어 자막을 켤 수 있어요. 출처 목록은 영어 설명에 있어요.
+```
+
+## 자막
+영어·한국어 자막 파일: subs/long.en.srt / .ko.srt
+
 ## 태그
 mysteries of the ocean, unexplained things in the ocean, unexplained sounds in the ocean, strange sounds in the ocean, ocean mysteries, bloop, 52 hertz whale, bio-duck, upsweep, julia sound, NOAA, unexplained mysteries, solved mysteries, loneliest whale
 

@@ -73,3 +73,7 @@ Paste into YouTube Studio → Settings → Channel → Basic info → Keywords (
 - One long-form video (8 min+) AND 5 Shorts cut from it (each under 30 s, its own hook ≥72, title checked with yt-package).
 - Each Short = one mystery from the long-form, reusing its narration lines and scenes (re-voiced hook if needed), vertical 1080×1920.
 - Upload info for all 6 posted in chat in Korean with English copy blocks.
+
+## Korean localization (from 2026-11-25, for every video incl. Shorts)
+- The video stays English (no burned-in Korean, no dubbing). Add: Korean title + description (YouTube translations), English and Korean .srt subtitles.
+- Files per episode: `script.ko.txt` (one line per script line), `subs/<long|shortN>.<en|ko>.srt` via `video/tools/make_srt.py`, `## 한국어 제목/설명` in each upload.md, `md2spec.py --subs`.

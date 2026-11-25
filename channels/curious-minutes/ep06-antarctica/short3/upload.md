@@ -18,6 +18,21 @@ Five more Antarctic mysteries are in the full video on the channel.
 #science #antarctica #ocean
 ```
 
+## 한국어 제목
+```
+웨일스의 거의 두 배, 이 구멍은 왜 열렸을까? #shorts
+```
+
+## 한국어 설명
+```
+2016~2017년, 남극 바다 얼음에 웨일스의 거의 두 배 크기 구멍이 먼바다에 열렸어요. 모드 라이즈라는 해저 산 위였죠. 2024년 과학자들이 빠진 조각을 찾았어요. 해류와 바람이 소금을 더 실어 와서 따뜻한 물이 계속 섞여 올라왔고, 그래서 구멍이 닫히지 않았어요. 판정: 해결.
+
+출처: 사우샘프턴대 (2024), Science Advances. 3D 장면은 일러스트예요. 한국어 자막을 켤 수 있어요.
+```
+
+## 자막
+영어·한국어 자막 파일: ../subs/short3.en.srt / .ko.srt
+
 ## 설정
 - 쇼츠 표지: 첫 화면 "A hole in the sea ice"
 - 관련 동영상: 6화 롱폼 "6 Strange Things Found in Antarctica"

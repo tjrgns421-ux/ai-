@@ -18,6 +18,21 @@ Five more Antarctic mysteries are in the full video on the channel.
 #history #antarctica #maps
 ```
 
+## 한국어 제목
+```
+500년 넘은 지도 속 해안, 어디일까? #shorts
+```
+
+## 한국어 설명
+```
+1513년 피리 레이스 지도에 얼음 없는 남극 해안이 그려져 있다는 주장이 있어요. 1960년대 작가 찰스 햅굿의 주장이에요. 하지만 피리 레이스는 옛 지도들을 바탕으로 그렸고, 아래쪽 해안은 종이 가장자리를 따라 꺾인 남아메리카와 들어맞아요. 판정: 해결.
+
+이미지: 피리 레이스 지도, 1513 (퍼블릭 도메인). 출처: 위키백과 (그레고리 매킨토시 인용). 한국어 자막을 켤 수 있어요.
+```
+
+## 자막
+영어·한국어 자막 파일: ../subs/short4.en.srt / .ko.srt
+
 ## 설정
 - 쇼츠 표지: 첫 화면 "Antarctica on a 1513 map?"
 - 관련 동영상: 6화 롱폼 "6 Strange Things Found in Antarctica"

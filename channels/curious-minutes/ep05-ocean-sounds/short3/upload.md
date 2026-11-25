@@ -19,6 +19,21 @@ Sources: WHOI Oceanus (2005), "A Lone Voice Crying in the Watery Wilderness"; Wa
 #science #ocean #whales
 ```
 
+## 한국어 제목
+```
+고래 한 마리, 52헤르츠, 12년의 추적 #shorts
+```
+
+## 한국어 설명
+```
+1989년 우즈홀 해양연구소가 북태평양에서 52헤르츠로 우는 고래를 들었어요. 대왕고래와 참고래는 15~25헤르츠 정도로 울어요. 캘리포니아부터 알류샨 열도까지 12년 동안 추적했지만, 시즌마다 이런 목소리는 단 하나뿐이었어요. 기형일까, 잡종일까? 확인된 적은 없어요. 판정: 아직 모름.
+
+오디오: NOAA PMEL (공개된 그대로 10배속). 3D 장면은 일러스트예요. 한국어 자막을 켤 수 있어요.
+```
+
+## 자막
+영어·한국어 자막 파일: ../subs/short3.en.srt / .ko.srt
+
 ## 설정
 - 쇼츠 표지: 첫 화면 "What made this call?"
 - 관련 동영상: 5화 롱폼 "6 Strange Sounds Recorded in the Ocean"

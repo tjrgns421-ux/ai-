@@ -21,5 +21,23 @@
  "syntheticMedia": true,
  "privacy": "private",
  "publishAt": null,
- "thumbnail": "thumbnail.png"
+ "thumbnail": "thumbnail.png",
+ "localizations": {
+  "ko": {
+   "title": "남극에서 발견된 이상한 것 6가지",
+   "description": "남극의 피라미드? 피를 흘리는 빙하? 얼음 아래에서 올라오는 신호? 남극에서 발견된 이상한 것 6가지를 과학자들이 실제로 알아낸 것과 솔직한 판정(해결 / 가장 유력한 추측 / 아직 모름)으로 정리했어요.\n\n3D 장면은 출처를 바탕으로 만든 일러스트이고, 지도 위치는 대략적이에요. 사진 출처는 화면에 표시했어요.\n영상은 영어이고, 한국어 자막을 켤 수 있어요. 출처 목록은 영어 설명에 있어요."
+  }
+ },
+ "captions": [
+  {
+   "language": "en",
+   "name": "English",
+   "file": "subs/long.en.srt"
+  },
+  {
+   "language": "ko",
+   "name": "한국어",
+   "file": "subs/long.ko.srt"
+  }
+ ]
 }

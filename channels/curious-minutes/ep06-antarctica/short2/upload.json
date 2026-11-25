@@ -7,5 +7,23 @@
  "madeForKids": false,
  "syntheticMedia": true,
  "privacy": "private",
- "publishAt": null
+ "publishAt": null,
+ "localizations": {
+  "ko": {
+   "title": "영하 17도에서 얼음 밖으로 흐르는 붉은 물 #shorts",
+   "description": "남극 테일러 빙하에서 흘러나오는 피의 폭포. 평균 기온은 영하 17도 정도예요. 레이더로 빙하 아래를 보니 아주 짜고 철분이 많은 물로 가득한 강과 호수가 있었어요. 소금 때문에 얼지 않고, 철이 공기와 만나면 녹처럼 붉어져요. 판정: 해결.\n\n사진: Peter Rejcek / 미국 국립과학재단 (퍼블릭 도메인). 출처: National Geographic. 한국어 자막을 켤 수 있어요."
+  }
+ },
+ "captions": [
+  {
+   "language": "en",
+   "name": "English",
+   "file": "../subs/short2.en.srt"
+  },
+  {
+   "language": "ko",
+   "name": "한국어",
+   "file": "../subs/short2.ko.srt"
+  }
+ ]
 }

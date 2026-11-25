@@ -20,7 +20,9 @@ Files kept OUTSIDE the repo (default folder ~/.yt-upload, change with YT_UPLOAD_
 Spec (upload.json):
   {"title": "...", "description": "...", "tags": ["..."], "category": 28, "language": "en",
    "madeForKids": false, "syntheticMedia": true, "privacy": "private", "publishAt": null,
-   "thumbnail": "thumbnail.png"}          # thumbnail path is relative to the spec file
+   "thumbnail": "thumbnail.png",           # thumbnail path is relative to the spec file
+   "localizations": {"ko": {"title": "...", "description": "..."}},   # optional: shown to Korean-language viewers
+   "captions": [{"language": "en", "name": "English", "file": "subs/long.en.srt"}]}   # optional subtitle files
 Notes:
   - Until Google audits the API project, videos uploaded through it are locked to private.
   - Each upload costs ~1,600 of the project's 10,000 daily quota units (about 6 uploads a day).
@@ -33,7 +35,8 @@ import sys
 import time
 from pathlib import Path
 
-SCOPES = ["https://www.googleapis.com/auth/youtube.upload", "https://www.googleapis.com/auth/youtube.readonly"]
+# youtube.force-ssl is needed to upload subtitle files. Keys made before it was added: run `auth` again.
+SCOPES = ["https://www.googleapis.com/auth/youtube.upload", "https://www.googleapis.com/auth/youtube.readonly", "https://www.googleapis.com/auth/youtube.force-ssl"]
 CHANNELS = {"curious": "Curious Minutes", "blip": "Blip Check", "ci": "Confidence Interval"}
 HOME = Path(os.environ.get("YT_UPLOAD_HOME", Path.home() / ".yt-upload"))
 CATEGORIES = {27: "Education", 28: "Science & Technology", 22: "People & Blogs", 25: "News & Politics"}
@@ -105,6 +108,14 @@ def load_spec(path: Path) -> dict:
         errs.append("tags are over ~500 characters in total")
     if s.get("privacy", "private") not in ("private", "unlisted", "public"):
         errs.append("privacy must be private, unlisted or public")
+    for lang, loc in s.get("localizations", {}).items():
+        if not loc.get("title") or len(loc["title"]) > 100:
+            errs.append(f"localizations.{lang}.title is required and must be at most 100 characters")
+        if "<" in loc.get("description", "") or ">" in loc.get("description", ""):
+            errs.append(f"localizations.{lang}.description must not contain < or >")
+    for c in s.get("captions", []):
+        if not (path.parent / c["file"]).exists():
+            errs.append(f"caption file not found: {c['file']}")
     if s.get("publishAt") and s.get("privacy", "private") != "private":
         errs.append("publishAt (scheduled) needs privacy = private")
     if errs:
@@ -138,12 +149,15 @@ def cmd_upload(a):
     }
     if s.get("publishAt"):
         body["status"]["publishAt"] = s["publishAt"]
+    if s.get("localizations"):
+        body["localizations"] = s["localizations"]
     mb = video.stat().st_size / 1e6
     print(f"Channel : {CHANNELS[a.channel]} ({a.channel})")
     print(f"Video   : {video} ({mb:.0f} MB)")
     print(f"Title   : {s['title']}")
     print(f"Category: {CATEGORIES.get(int(s.get('category', 28)), s.get('category'))} · privacy {body['status']['privacyStatus']}" + (f" · scheduled {s['publishAt']}" if s.get("publishAt") else ""))
     print(f"Tags    : {len(s.get('tags', []))} · thumbnail: {thumb or 'none'} · synthetic media: {body['status']['containsSyntheticMedia']}")
+    print(f"Extra   : translations {', '.join(s.get('localizations', {})) or 'none'} · subtitles {', '.join(c['language'] for c in s.get('captions', [])) or 'none'}")
     if a.dry_run:
         print("Dry run: nothing was uploaded.")
         return
@@ -155,7 +169,7 @@ def cmd_upload(a):
     ch = my_channel(yt).get("snippet", {}).get("title", "?")
     if ch != CHANNELS[a.channel] and not a.yes:
         sys.exit(f"The key for '{a.channel}' belongs to channel '{ch}', not '{CHANNELS[a.channel]}'. Stopping. (--yes to override)")
-    req = yt.videos().insert(part="snippet,status", body=body, media_body=MediaFileUpload(str(video), chunksize=8 * 1024 * 1024, resumable=True))
+    req = yt.videos().insert(part="snippet,status" + (",localizations" if "localizations" in body else ""), body=body, media_body=MediaFileUpload(str(video), chunksize=8 * 1024 * 1024, resumable=True))
     resp, tries = None, 0
     while resp is None:
         try:
@@ -176,6 +190,13 @@ def cmd_upload(a):
             print("Thumbnail set.")
         except HttpError as e:
             print(f"Thumbnail not set ({e.resp.status}). The channel may need phone verification; set it in YouTube Studio.")
+    for c in s.get("captions", []):
+        try:
+            yt.captions().insert(part="snippet", body={"snippet": {"videoId": vid, "language": c["language"], "name": c.get("name", c["language"]), "isDraft": False}},
+                                 media_body=MediaFileUpload(str(spec_path.parent / c["file"]), mimetype="application/octet-stream")).execute()
+            print(f"Subtitles added: {c['language']}")
+        except HttpError as e:
+            print(f"Subtitles {c['language']} not added ({e.resp.status}). Run `auth` again if the key is older than this feature, or add them in YouTube Studio.")
     log = HOME / "uploads.log"
     with log.open("a", encoding="utf-8") as f:
         f.write(json.dumps({"time": time.strftime("%Y-%m-%d %H:%M"), "channel": a.channel, "id": vid, "title": s["title"]}, ensure_ascii=False) + "\n")

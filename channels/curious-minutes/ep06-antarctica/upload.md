@@ -38,6 +38,22 @@ Photos: Blood Falls, Peter Rejcek / U.S. NSF (public domain); Piri Reis map (pub
 #science #antarctica #mystery
 ```
 
+## 한국어 제목
+```
+남극에서 발견된 이상한 것 6가지
+```
+
+## 한국어 설명
+```
+남극의 피라미드? 피를 흘리는 빙하? 얼음 아래에서 올라오는 신호? 남극에서 발견된 이상한 것 6가지를 과학자들이 실제로 알아낸 것과 솔직한 판정(해결 / 가장 유력한 추측 / 아직 모름)으로 정리했어요.
+
+3D 장면은 출처를 바탕으로 만든 일러스트이고, 지도 위치는 대략적이에요. 사진 출처는 화면에 표시했어요.
+영상은 영어이고, 한국어 자막을 켤 수 있어요. 출처 목록은 영어 설명에 있어요.
+```
+
+## 자막
+영어·한국어 자막 파일: subs/long.en.srt / .ko.srt
+
 ## 태그
 mysteries of antarctica, strange things found in antarctica, antarctica mystery explained, antarctica pyramid, blood falls, maud rise polynya, piri reis map, lake vostok, ANITA anomaly, unexplained mysteries, solved mysteries, science mysteries explained
 

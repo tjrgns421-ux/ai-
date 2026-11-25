@@ -59,3 +59,15 @@ python3 tools/youtube/md2spec.py channels/curious-minutes/ep03-roman-dodecahedro
 - **하루 업로드 수**: 프로젝트 하나에 하루 약 6개 (두 채널 합산). 모자라면 채널별로 프로젝트를 나눈다 (client_secret 파일을 채널별로 쓰도록 바꾸면 됨).
 - **커스텀 썸네일**: 채널 전화번호 인증이 되어 있어야 API로 들어간다. 안 되면 스튜디오에서 직접 넣는다.
 - 토큰이 유출되면: Google 계정 → 보안 → 서드파티 앱 액세스에서 `channel-uploader` 권한을 삭제하고 `auth`를 다시 한다.
+
+## 한국어 번역·자막 (2026-11-25 추가)
+- `upload.md`에 `## 한국어 제목` / `## 한국어 설명`이 있으면 업로드할 때 같이 들어간다. 한국어로 유튜브를 보는 사람에게만 한국어 제목이 보이고, 나머지는 영어 그대로다.
+- `--subs` 옵션으로 만든 `upload.json`은 영어·한국어 자막 파일(.srt)도 같이 올린다:
+  ```
+  python3 tools/youtube/md2spec.py channels/curious-minutes/ep06-antarctica/upload.md --category 28 --thumbnail thumbnail.png --subs subs/long
+  ```
+- **자막을 올리려면 권한이 하나 더 필요하다.** 이 기능 전에 `auth`를 했다면 채널마다 한 번 더 한다:
+  ```
+  python3 tools/youtube/yt_upload.py auth --channel curious
+  ```
+- 자막 파일은 `video/tools/make_srt.py`로 만든다 (영어는 단어 타이밍, 한국어는 번역문 한 줄씩).
