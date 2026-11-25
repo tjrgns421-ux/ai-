@@ -1,0 +1,13 @@
+[
+ {"name": "reel1-korea-38th", "title": ["Korea isn't split at", "the 38th parallel"], "parts": [
+   {"ep": "mp01", "video": "out/mp01/mp01-full.mp4", "from": "You think Korea is split", "to": "you'd be in South Korea"},
+   {"ep": "mp01", "video": "out/mp01/mp01-full.mp4", "from": "Now put both lines on the map", "to": "Not a passport"}]},
+ {"name": "reel2-korea-3-versions", "title": ["Korea's border", "has 3 versions"], "parts": [
+   {"ep": "mp01", "video": "out/mp01/mp01-full.mp4", "from": "So each side reconstructed", "to": "possibility of accidental clashes"}]},
+ {"name": "reel3-china-sunrise", "title": ["Same clock.", "A 3-hour sunrise gap."], "parts": [
+   {"ep": "mp02", "video": "out/mp02/mp02-full.mp4", "from": "So we ran the numbers", "to": "lands at about 3 p.m"}]},
+ {"name": "reel4-midnight-sunset", "title": ["Did the sun really", "set at midnight?"], "parts": [
+   {"ep": "mp02", "video": "out/mp02/mp02-full.mp4", "from": "Another woman told Al Jazeera", "to": "close enough"}]},
+ {"name": "reel5-beijing-time", "title": ["How \"Beijing time\"", "really started"], "parts": [
+   {"ep": "mp02", "video": "out/mp02/mp02-full.mp4", "from": "Here's the twist", "to": "not one clean decree"}]}
+]
