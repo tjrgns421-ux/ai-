@@ -1,0 +1,332 @@
+[
+ {
+  "text": "You'd",
+  "start": 0.05,
+  "end": 0.175
+ },
+ {
+  "text": "never",
+  "start": 0.187,
+  "end": 0.425
+ },
+ {
+  "text": "expect",
+  "start": 0.425,
+  "end": 0.8
+ },
+ {
+  "text": "a",
+  "start": 0.8,
+  "end": 0.825
+ },
+ {
+  "text": "map",
+  "start": 0.837,
+  "end": 1.188
+ },
+ {
+  "text": "from 1513",
+  "start": 1.2,
+  "end": 2.45
+ },
+ {
+  "text": "to",
+  "start": 2.57,
+  "end": 2.645
+ },
+ {
+  "text": "show",
+  "start": 2.657,
+  "end": 2.958
+ },
+ {
+  "text": "Antarctica",
+  "start": 2.958,
+  "end": 3.532
+ },
+ {
+  "text": "But",
+  "start": 3.702,
+  "end": 3.79
+ },
+ {
+  "text": "some",
+  "start": 3.79,
+  "end": 3.939
+ },
+ {
+  "text": "say",
+  "start": 3.952,
+  "end": 4.202
+ },
+ {
+  "text": "this",
+  "start": 4.202,
+  "end": 4.352
+ },
+ {
+  "text": "one",
+  "start": 4.352,
+  "end": 4.49
+ },
+ {
+  "text": "does",
+  "start": 4.49,
+  "end": 5.014
+ },
+ {
+  "text": "What",
+  "start": 5.134,
+  "end": 5.221
+ },
+ {
+  "text": "is",
+  "start": 5.221,
+  "end": 5.347
+ },
+ {
+  "text": "it",
+  "start": 5.347,
+  "end": 5.446
+ },
+ {
+  "text": "actually",
+  "start": 5.459,
+  "end": 5.959
+ },
+ {
+  "text": "In",
+  "start": 6.129,
+  "end": 6.192
+ },
+ {
+  "text": "the",
+  "start": 6.205,
+  "end": 6.242
+ },
+ {
+  "text": "1960s",
+  "start": 6.242,
+  "end": 7.33
+ },
+ {
+  "text": "a",
+  "start": 7.45,
+  "end": 7.525
+ },
+ {
+  "text": "writer",
+  "start": 7.525,
+  "end": 7.912
+ },
+ {
+  "text": "claimed",
+  "start": 7.925,
+  "end": 8.25
+ },
+ {
+  "text": "its",
+  "start": 8.25,
+  "end": 8.35
+ },
+ {
+  "text": "bottom",
+  "start": 8.362,
+  "end": 8.738
+ },
+ {
+  "text": "edge",
+  "start": 8.85,
+  "end": 9.175
+ },
+ {
+  "text": "was",
+  "start": 9.175,
+  "end": 9.387
+ },
+ {
+  "text": "Antarctica's",
+  "start": 9.4,
+  "end": 10.162
+ },
+ {
+  "text": "coast",
+  "start": 10.162,
+  "end": 10.65
+ },
+ {
+  "text": "without",
+  "start": 10.77,
+  "end": 11.132
+ },
+ {
+  "text": "ice",
+  "start": 11.132,
+  "end": 11.594
+ },
+ {
+  "text": "But",
+  "start": 11.764,
+  "end": 11.863
+ },
+ {
+  "text": "Piri",
+  "start": 11.863,
+  "end": 12.313
+ },
+ {
+  "text": "Reis",
+  "start": 12.326,
+  "end": 12.726
+ },
+ {
+  "text": "built",
+  "start": 12.738,
+  "end": 13.014
+ },
+ {
+  "text": "it",
+  "start": 13.014,
+  "end": 13.126
+ },
+ {
+  "text": "from",
+  "start": 13.126,
+  "end": 13.314
+ },
+ {
+  "text": "older",
+  "start": 13.401,
+  "end": 13.664
+ },
+ {
+  "text": "maps",
+  "start": 13.664,
+  "end": 14.213
+ },
+ {
+  "text": "And",
+  "start": 14.333,
+  "end": 14.42
+ },
+ {
+  "text": "that",
+  "start": 14.433,
+  "end": 14.621
+ },
+ {
+  "text": "coast",
+  "start": 14.633,
+  "end": 14.983
+ },
+ {
+  "text": "fits",
+  "start": 14.996,
+  "end": 15.271
+ },
+ {
+  "text": "South",
+  "start": 15.283,
+  "end": 15.571
+ },
+ {
+  "text": "America",
+  "start": 15.583,
+  "end": 16.183
+ },
+ {
+  "text": "bent",
+  "start": 16.303,
+  "end": 16.515
+ },
+ {
+  "text": "along",
+  "start": 16.515,
+  "end": 16.828
+ },
+ {
+  "text": "the",
+  "start": 16.828,
+  "end": 16.89
+ },
+ {
+  "text": "page",
+  "start": 16.89,
+  "end": 17.515
+ },
+ {
+  "text": "An",
+  "start": 17.685,
+  "end": 17.785
+ },
+ {
+  "text": "early",
+  "start": 17.785,
+  "end": 18.06
+ },
+ {
+  "text": "map",
+  "start": 18.06,
+  "end": 18.385
+ },
+ {
+  "text": "of",
+  "start": 18.385,
+  "end": 18.448
+ },
+ {
+  "text": "South",
+  "start": 18.448,
+  "end": 18.798
+ },
+ {
+  "text": "America",
+  "start": 18.81,
+  "end": 19.36
+ },
+ {
+  "text": "Solved",
+  "start": 19.48,
+  "end": 19.942
+ },
+ {
+  "text": "Five",
+  "start": 20.112,
+  "end": 20.324
+ },
+ {
+  "text": "more",
+  "start": 20.324,
+  "end": 20.574
+ },
+ {
+  "text": "Antarctic",
+  "start": 20.574,
+  "end": 21.086
+ },
+ {
+  "text": "mysteries",
+  "start": 21.099,
+  "end": 21.711
+ },
+ {
+  "text": "are",
+  "start": 21.831,
+  "end": 22.006
+ },
+ {
+  "text": "on",
+  "start": 22.006,
+  "end": 22.107
+ },
+ {
+  "text": "the",
+  "start": 22.119,
+  "end": 22.169
+ },
+ {
+  "text": "channel",
+  "start": 22.169,
+  "end": 22.632
+ }
+]
