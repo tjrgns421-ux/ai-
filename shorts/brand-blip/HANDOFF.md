@@ -10,12 +10,12 @@ Curious Minutes 채널(`channels/curious-minutes/`)은 다른 세션에서 작�
 - 실수는 바로 인정. 사용자가 고쳐 달라고 한 부분만 고침.
 - 개인 정보를 외부 요청에 넣지 않음. API 키는 채팅으로 받지 않고 환경의 네트워크 시크릿으로.
 - PR은 요청이 있을 때만.
-- **롱폼 1편을 만들면 그걸 잘라서 쇼츠 5개도 같이 준다** (2026-11-25 사용자 요청). 다시 렌더링하지 않고 `video/tools/reels.py`로 롱폼 mp4에서 잘라 만든다. 쇼츠마다 제목·설명도 같이.
+- **롱폼 1편을 만들면 그걸 잘라서 쇼츠 2개도 같이 준다** (2026-11-25 사용자 요청, 처음엔 5개였다가 2개로 변경). 다시 렌더링하지 않고 `video/tools/reels.py`로 롱폼 mp4에서 잘라 만든다. 쇼츠마다 제목·설명도 같이.
 - **완성본은 압축 파일 하나로 준다** (2026-11-25 사용자 요청). 이름 규칙:
   - zip: `블립 N화.zip` (N = 지도 시리즈 회차, mp03 = 3화)
-  - 롱폼 `블립 N화-롱폼.mp4`, 쇼츠 `블립 N화-쇼츠1.mp4` … `쇼츠5.mp4`(reels json 순서대로)
+  - 롱폼 `블립 N화-롱폼.mp4`, 쇼츠 `블립 N화-쇼츠1.mp4`, `블립 N화-쇼츠2.mp4`(reels json 순서대로)
   - 썸네일 `블립 N화-썸네일.png`, 업로드 정보 `블립 N화-업로드정보.md`
-  - 720p 미리보기는 넣지 않는다 (업로드에 안 쓰고 용량만 큼, 2026-11-25 사용자 요청). 압축 파일에는 위 8개 파일만.
+  - 720p 미리보기는 넣지 않는다 (업로드에 안 쓰고 용량만 큼, 2026-11-25 사용자 요청). 압축 파일에는 위 5개 파일만.
 
 ## 채널
 - 이름 Blip Check, 슬로건 "Maps lie. We check." (2026-11-24 변경, 이전 "Korea, checked."), 영어 채널(해외 시청자 대상), 진행 캐릭터 Blip.
@@ -64,7 +64,7 @@ Curious Minutes 채널(`channels/curious-minutes/`)은 다른 세션에서 작�
 7. 장면: `video/src/<회차>/{engine,Visuals,Mp0x,Thumb}.tsx` (mp03 복사해서 시작), `Root.tsx`에 등록. 장면 평균 4초, 지도·사진 클로즈업·캡처를 섞기.
 8. 확인: `node tools/stills.mjs Mp0xFull out/<회차>/stills <프레임...>`으로 장면마다 정지 화면 뽑아 겹침·잘림 확인.
 9. 렌더링: `COMP=Mp0xFull TOTAL=<프레임수> OUT=out/<회차> NAME=<회차>-full bash tools/render-long.sh` (TOTAL = 마지막 단어 끝 × 30 + 45).
-10. 쇼츠 5개: `shorts/reels/reels-<회차>.json` → `python3 tools/reels.py ../shorts/reels/reels-<회차>.json out/reels-<회차> <폰트.ttf>`.
+10. 쇼츠 2개: `shorts/reels/reels-<회차>.json` → `python3 tools/reels.py ../shorts/reels/reels-<회차>.json out/reels-<회차> <폰트.ttf>`.
 11. 업로드 정보: `shorts/<회차>/post.md` (제목·썸네일은 `.claude/skills/yt-package/title.py`로 100점 확인, 설명·챕터·출처·사진 라이선스·태그·고정 댓글·쇼츠 제목).
 
 ## 다음 할 일
