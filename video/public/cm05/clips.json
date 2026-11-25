@@ -1,0 +1,50 @@
+[
+ {
+  "line": 0,
+  "file": "bloop.wav",
+  "at": 1.773,
+  "dur": 6.0
+ },
+ {
+  "line": 13,
+  "file": "bloop.wav",
+  "at": 86.457,
+  "dur": 10.9
+ },
+ {
+  "line": 24,
+  "file": "julia_sound.wav",
+  "at": 154.369,
+  "dur": 10.9
+ },
+ {
+  "line": 25,
+  "file": "noise97139.wav",
+  "at": 174.225,
+  "dur": 8.5
+ },
+ {
+  "line": 33,
+  "file": "bioduck_clip.wav",
+  "at": 221.301,
+  "dur": 10.1
+ },
+ {
+  "line": 44,
+  "file": "whistle16x.wav",
+  "at": 294.051,
+  "dur": 12.5
+ },
+ {
+  "line": 53,
+  "file": "upsweep20x.wav",
+  "at": 349.502,
+  "dur": 12.5
+ },
+ {
+  "line": 63,
+  "file": "ak52_10x.wav",
+  "at": 418.086,
+  "dur": 12.5
+ }
+]
