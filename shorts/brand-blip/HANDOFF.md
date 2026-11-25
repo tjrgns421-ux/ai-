@@ -11,6 +11,7 @@ Curious Minutes 채널(`channels/curious-minutes/`)은 다른 세션에서 작�
 - 개인 정보를 외부 요청에 넣지 않음. API 키는 채팅으로 받지 않고 환경의 네트워크 시크릿으로.
 - PR은 요청이 있을 때만.
 - **롱폼 1편을 만들면 그걸 잘라서 쇼츠 5개도 같이 준다** (2026-11-25 사용자 요청). 다시 렌더링하지 않고 `video/tools/reels.py`로 롱폼 mp4에서 잘라 만든다. 쇼츠마다 제목·설명도 같이.
+- **완성본은 압축 파일 하나로 준다** (2026-11-25 사용자 요청): `<회차>-package.zip` 안에 롱폼(1080p·720p 미리보기), thumbnail.png, post.md, shorts/ 폴더(쇼츠 5개).
 
 ## 채널
 - 이름 Blip Check, 슬로건 "Maps lie. We check." (2026-11-24 변경, 이전 "Korea, checked."), 영어 채널(해외 시청자 대상), 진행 캐릭터 Blip.
