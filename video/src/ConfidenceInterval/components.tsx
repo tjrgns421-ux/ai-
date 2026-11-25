@@ -98,12 +98,19 @@ export const ConfidenceMeter: React.FC<{ s: MeterState; label?: string; width?: 
 
 /* ------------------------------------------------------------------ HypothesisCards */
 
-export const HypothesisCards: React.FC<{ s: MeterState; appear?: number; highlight?: number; width?: number }> = ({ s, appear = -999, highlight = -1, width = 1640 }) => {
+// cols=4 for 16:9, cols=2 for a 2x2 grid on vertical shorts
+export const HypothesisCards: React.FC<{ s: MeterState; appear?: number; highlight?: number; width?: number; cols?: number }> = ({
+  s,
+  appear = -999,
+  highlight = -1,
+  width = 1640,
+  cols = 4,
+}) => {
   const f = useCurrentFrame();
   const gap = 28;
-  const w = (width - gap * 3) / 4;
+  const w = (width - gap * (cols - 1)) / cols;
   return (
-    <div style={{ display: "flex", gap, width, fontFamily: FONT }}>
+    <div style={{ display: "flex", flexWrap: "wrap", gap, width, fontFamily: FONT }}>
       {HYPOTHESES.map((name, i) => {
         const a = interpolate(f, [appear + i * 6, appear + i * 6 + 18], [0, 1], { ...clamp, easing: outExpo });
         const val = s.v[i];
@@ -372,19 +379,20 @@ export type W = { t: string; s: number; e: number };
 export const groupWords = (words: W[], maxWords = 6): W[][] => {
   const out: W[][] = [];
   let cur: W[] = [];
-  for (const w of words) {
+  words.forEach((w, i) => {
     cur.push(w);
     const punct = /[.,:;?!…]$/.test(w.t) || /["”]$/.test(w.t);
-    if (cur.length >= maxWords || (punct && cur.length >= 2) || /[.?!]$/.test(w.t)) {
+    const pause = words[i + 1] ? words[i + 1].s - w.e > 0.3 : false; // break on a spoken pause too
+    if (cur.length >= maxWords || (punct && cur.length >= 2) || /[.?!]$/.test(w.t) || pause) {
       out.push(cur);
       cur = [];
     }
-  }
+  });
   if (cur.length) out.push(cur);
   return out;
 };
 
-export const Captions: React.FC<{ groups: W[][]; fps: number; bottom?: number }> = ({ groups, fps, bottom = 70 }) => {
+export const Captions: React.FC<{ groups: W[][]; fps: number; bottom?: number; size?: number }> = ({ groups, fps, bottom = 70, size = 58 }) => {
   const f = useCurrentFrame();
   const t = f / fps;
   const g = groups.find((gr, i) => t >= gr[0].s - 0.05 && t < Math.min(gr[gr.length - 1].e + 0.35, groups[i + 1]?.[0].s ?? 1e9));
@@ -394,7 +402,7 @@ export const Captions: React.FC<{ groups: W[][]; fps: number; bottom?: number }>
       <span
         style={{
           display: "inline-block",
-          fontSize: 58,
+          fontSize: size,
           fontWeight: 800,
           lineHeight: 1.2,
           color: C.ink,
