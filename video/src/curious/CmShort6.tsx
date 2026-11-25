@@ -150,7 +150,7 @@ const plan = (n: number, L: number[], E: number): { scenes: [number, React.React
       scenes: [
         [0, <Photo src="blood.jpg" credit="Blood Falls · Peter Rejcek / U.S. NSF (public domain)" origin="45% 55%" />],
         [L[1], <Ice shot={(s) => ({ pos: V(-30 + s * 2, 14, 110), look: V(0, 10, 0), fov: 55 })}>{(s) => <><Snowfield /><Range /><BloodGlacier t={s} /></>}</Ice>],
-        [L[2], <Ice shot={(s) => ({ pos: V(10, 8, 40 - s), look: V(0, 8, 0), fov: 60 })}>{(s) => <><Snowfield /><BloodGlacier t={s} /></>}</Ice>],
+        [L[2], <Ice shot={(s) => ({ pos: V(30 - s * 2, 30, 150), look: V(0, 8, 0), fov: 50 })}>{(s) => <><Snowfield /><Range /><BloodGlacier t={s} /></>}</Ice>],
         [L[3], <Photo src="blood.jpg" credit="Blood Falls · Peter Rejcek / U.S. NSF (public domain)" zoom={[1.3, 1.5]} origin="40% 60%" />],
         [L[4], <Ice shot={(s) => ({ pos: V(-40 + s * 2, 20, 130), look: V(0, 10, 0), fov: 55 })}>{(s) => <><Snowfield /><Range /><BloodGlacier t={s} /></>}</Ice>],
       ],

@@ -29,9 +29,9 @@ const Rig: React.FC<{ sh: ShotI; sky: string; fog: string; near: number; far: nu
 export const snowY = (x: number, z: number) => Math.sin(x * 0.03) * 3 + Math.cos(z * 0.025 + 1) * 3 + Math.sin((x - z) * 0.08) * 0.8;
 
 /** Antarctic stage: pale sky, low sun, white fog. */
-export const IceStage: React.FC<{ shot: ShotI; children?: React.ReactNode; width?: number; height?: number; sky?: string; sun?: [number, number, number]; fogFar?: number }> = ({ shot, children, width = 1920, height = 1080, sky = "#A9CFE8", sun = [-120, 60, 80], fogFar = 900 }) => (
+export const IceStage: React.FC<{ shot: ShotI; children?: React.ReactNode; width?: number; height?: number; sky?: string; sun?: [number, number, number]; fogFar?: number }> = ({ shot, children, width = 1920, height = 1080, sky = "#A9CFE8", sun = [-120, 60, 80], fogFar = 2600 }) => (
   <ThreeCanvas width={width} height={height} shadows gl={{ antialias: true }} camera={{ fov: shot.fov ?? 45, near: 0.2, far: 4000 }}>
-    <Rig sh={shot} sky={sky} fog="#DCEBF5" near={200} far={fogFar} />
+    <Rig sh={shot} sky={sky} fog="#DCEBF5" near={700} far={fogFar} />
     <hemisphereLight args={["#EAF6FF", "#7C9BB4", 0.9]} />
     <ambientLight intensity={0.35} />
     <directionalLight position={sun} intensity={2.4} color="#FFF1DC" castShadow shadow-mapSize={[2048, 2048]} shadow-camera-left={-300} shadow-camera-right={300} shadow-camera-top={300} shadow-camera-bottom={-300} />

@@ -13,8 +13,8 @@ export const CmEp06Thumb: React.FC = () => {
   useFonts();
   return (
     <AbsoluteFill style={{ background: "#0B1622" }}>
-      <IceStage width={1280} height={720} sky="#2F5878" sun={[200, 90, 160]} shot={{ pos: new THREE.Vector3(-150, 60, 420), look: new THREE.Vector3(-110, 62, 0), fov: 30 }}>
-        <Snowfield /><Range /><Pyramid />
+      <IceStage width={1280} height={720} sky="#2F5878" sun={[200, 90, 160]} shot={{ pos: new THREE.Vector3(-220, 90, 560), look: new THREE.Vector3(-190, 55, 0), fov: 30 }}>
+        <Snowfield /><Pyramid />
       </IceStage>
       <div style={{ position: "absolute", inset: 0, background: "linear-gradient(90deg, rgba(8,16,26,0.9) 0%, rgba(8,16,26,0.45) 40%, rgba(8,16,26,0) 58%)" }} />
       <div style={{ ...word, left: 44, top: 150, fontSize: 176, color: "#FFFFFF", textShadow: outline(6) }}>NOT A</div>
