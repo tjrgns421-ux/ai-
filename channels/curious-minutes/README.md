@@ -62,8 +62,9 @@ science mysteries, unsolved mysteries, mystery explained, science explained, arc
 | Tunguska, 1908 | best explanation (airburst) | huge visual event, no crater |
 | Fairy circles of Namibia | debated | striking aerials, two competing theories |
 
-## Channel keywords (2026-11-25, from YouTube autocomplete, US/English)
-Seeds: unexplained, unsolved mysteries, science mysteries, strange things found, strange sounds, mystery solved, ocean/space mysteries.
-Kept only suggestions that match what we make (dropped songs, movies, "healing frequency" audio, Google Maps finds).
-Paste into YouTube Studio → Settings → Channel → Basic info → Keywords (477 of 500 characters):
-"unexplained mysteries" "science mysteries explained" "science mysteries solved" "unsolved mysteries solved" "solved mysteries" "strange things found" "strange things found on the moon" "strange things found in the ocean" "strange things found in space" "strange things found on mars" "unexplained sounds" "unexplained sounds in the ocean" "strange sounds from space" "ocean mysteries" "space mysteries explained" "unexplained phenomena" "mysteries explained" "curious minutes"
+## Channel keywords (2026-11-25, YouTube autocomplete, US/English)
+Method: type one head word (mysteries, mystery, unexplained, unsolved, mysterious, strange, weird, solved, "mysteries of", "unexplained things")
+into the search bar and keep the dropdown suggestions that match what we make.
+Dropped: songs, movies, TV shows, religion (bible, rosary), true crime, abandoned places, "healing frequency" audio.
+Paste into YouTube Studio → Settings → Channel → Basic info → Keywords (440 of 500 characters):
+"mysteries" "mysteries of the world" "mysteries of the universe" "mysteries of the ocean" "mysteries of the deep" "mysteries of the unknown" "mysteries of antarctica" "mystery science" "unexplained mysteries" "unexplained phenomena" "unexplained things in the ocean" "unexplained things in space" "unsolved mysteries" "solved mysteries" "weird sounds" "strange things found on the moon" "strange things found in the ocean" "curious minutes"
