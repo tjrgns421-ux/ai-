@@ -1,0 +1,366 @@
+[
+ {
+  "name": "cd-5200",
+  "url": "https://govt.chinadaily.com.cn/a/201812/11/WS5c0ddc16498eefb3fe46e7e1.html",
+  "source": "China Daily (China in brief)",
+  "find": "China stretches from its westernmost point on the Pamir Plateau",
+  "until": "four more hours of darkness.",
+  "marks": [
+   "5200 kilometers to the east",
+   "four more hours of darkness"
+  ]
+ },
+ {
+  "name": "x-1220",
+  "url": "https://www.xinhuanet.com/politics/2015-10/28/c_1116958394.htm",
+  "source": "Xinhua (via Beijing Daily), Oct 28 2015",
+  "find": "元太祖十五年（1220年）",
+  "until": "进而推演出了“里差”的数值。",
+  "marks": [
+   "寻斯干城",
+   "比在开封早了约1更半"
+  ],
+  "vw": 1100,
+  "css": "p, p *{font-size:30px!important;line-height:1.65!important;letter-spacing:0.02em!important}"
+ },
+ {
+  "name": "x-1855",
+  "url": "https://www.xinhuanet.com/politics/2015-10/28/c_1116958394.htm",
+  "source": "Xinhua (via Beijing Daily), Oct 28 2015",
+  "find": "1855年，不列颠岛与爱尔兰98%的公共时钟",
+  "until": "这是第一个将时间统一的国家。",
+  "marks": [
+   "98%"
+  ],
+  "vw": 1100,
+  "css": "p, p *{font-size:30px!important;line-height:1.65!important;letter-spacing:0.02em!important}"
+ },
+ {
+  "name": "x-1868",
+  "url": "https://www.xinhuanet.com/politics/2015-10/28/c_1116958394.htm",
+  "source": "Xinhua (via Beijing Daily), Oct 28 2015",
+  "find": "1868年，新西兰殖民政府",
+  "until": "第一个用经度设定标准时的地区。",
+  "marks": [
+   "第一个用经度设定标准时的地区"
+  ],
+  "vw": 1100,
+  "css": "p, p *{font-size:30px!important;line-height:1.65!important;letter-spacing:0.02em!important}"
+ },
+ {
+  "name": "x-1884",
+  "url": "https://www.xinhuanet.com/politics/2015-10/28/c_1116958394.htm",
+  "source": "Xinhua (via Beijing Daily), Oct 28 2015",
+  "find": "最终在1884年",
+  "until": "建立全球时区的方案。",
+  "marks": [
+   "1884年",
+   "41个国家"
+  ],
+  "vw": 1100,
+  "css": "p, p *{font-size:30px!important;line-height:1.65!important;letter-spacing:0.02em!important}"
+ },
+ {
+  "name": "x-1902",
+  "url": "https://www.xinhuanet.com/politics/2015-10/28/c_1116958394.htm",
+  "source": "Xinhua (via Beijing Daily), Oct 28 2015",
+  "find": "到1902年的时候",
+  "until": "“其时区范围未经规定”。",
+  "marks": [
+   "“海岸时”作为中国的标准时间",
+   "其时区范围未经规定"
+  ],
+  "vw": 1100,
+  "css": "p, p *{font-size:30px!important;line-height:1.65!important;letter-spacing:0.02em!important}"
+ },
+ {
+  "name": "x-rail",
+  "url": "https://www.xinhuanet.com/politics/2015-10/28/c_1116958394.htm",
+  "source": "Xinhua (via Beijing Daily), Oct 28 2015",
+  "find": "到1911年，中国已经出现了9400公里的铁路",
+  "until": "而经营铁路是需要标准时间的。",
+  "marks": [
+   "9400公里的铁路"
+  ],
+  "vw": 1100,
+  "css": "p, p *{font-size:30px!important;line-height:1.65!important;letter-spacing:0.02em!important}"
+ },
+ {
+  "name": "x-1918",
+  "url": "https://www.xinhuanet.com/politics/2015-10/28/c_1116958394.htm",
+  "source": "Xinhua (via Beijing Daily), Oct 28 2015",
+  "find": "到了民国七年即1918年",
+  "until": "包括吉林及黑龙江东部。",
+  "marks": [
+   "五个时区"
+  ],
+  "vw": 1100,
+  "css": "p, p *{font-size:30px!important;line-height:1.65!important;letter-spacing:0.02em!important}"
+ },
+ {
+  "name": "x-paper",
+  "url": "https://www.xinhuanet.com/politics/2015-10/28/c_1116958394.htm",
+  "source": "Xinhua (via Beijing Daily), Oct 28 2015",
+  "find": "作为中央政府专司测时编历机构的中央观象台",
+  "until": "只不过是纸面上的方案。",
+  "marks": [
+   "没有一台好一点儿的望远镜，没有无线电收讯机",
+   "纸面上的方案"
+  ],
+  "vw": 1100,
+  "css": "p, p *{font-size:30px!important;line-height:1.65!important;letter-spacing:0.02em!important}"
+ },
+ {
+  "name": "x-manchukuo",
+  "url": "https://www.xinhuanet.com/politics/2015-10/28/c_1116958394.htm",
+  "source": "Xinhua (via Beijing Daily), Oct 28 2015",
+  "find": "1932年3月1日成立伪满洲国",
+  "until": "东经135度标准时。",
+  "marks": [
+   "日本本土采用的东经135度标准时"
+  ],
+  "vw": 1100,
+  "css": "p, p *{font-size:30px!important;line-height:1.65!important;letter-spacing:0.02em!important}"
+ },
+ {
+  "name": "x-1939",
+  "url": "https://www.xinhuanet.com/politics/2015-10/28/c_1116958394.htm",
+  "source": "Xinhua (via Beijing Daily), Oct 28 2015",
+  "find": "1939年3月9日",
+  "until": "即以陇蜀时区之时刻为标准”。",
+  "marks": [
+   "全国一律暂用一种时刻"
+  ],
+  "vw": 1100,
+  "css": "p, p *{font-size:30px!important;line-height:1.65!important;letter-spacing:0.02em!important}"
+ },
+ {
+  "name": "x-postwar",
+  "url": "https://www.xinhuanet.com/politics/2015-10/28/c_1116958394.htm",
+  "source": "Xinhua (via Beijing Daily), Oct 28 2015",
+  "find": "到了抗战胜利恢复使用中原标准时的时候",
+  "until": "进退一小时”。",
+  "marks": [
+   "需拨动手表，进退一小时"
+  ],
+  "vw": 1100,
+  "css": "p, p *{font-size:30px!important;line-height:1.65!important;letter-spacing:0.02em!important}"
+ },
+ {
+  "name": "x-guo",
+  "url": "https://www.xinhuanet.com/politics/2015-10/28/c_1116958394.htm",
+  "source": "Xinhua (via Beijing Daily), Oct 28 2015",
+  "find": "中国科学院国家授时中心高级工程师郭庆生",
+  "until": "做过如下考证：",
+  "marks": [
+   "中国科学院国家授时中心高级工程师郭庆生"
+  ],
+  "vw": 1100,
+  "css": "p, p *{font-size:30px!important;line-height:1.65!important;letter-spacing:0.02em!important}"
+ },
+ {
+  "name": "x-1949a",
+  "url": "https://www.xinhuanet.com/politics/2015-10/28/c_1116958394.htm",
+  "source": "Xinhua (via Beijing Daily), Oct 28 2015",
+  "find": "1949年9月27日全国政协第一届全体会议",
+  "until": "10月6日的10天之内。",
+  "marks": [
+   "本台时间以北京时间为准"
+  ],
+  "vw": 1100,
+  "css": "p, p *{font-size:30px!important;line-height:1.65!important;letter-spacing:0.02em!important}"
+ },
+ {
+  "name": "x-1949b",
+  "url": "https://www.xinhuanet.com/politics/2015-10/28/c_1116958394.htm",
+  "source": "Xinhua (via Beijing Daily), Oct 28 2015",
+  "find": "1949年9月27日，“北平”改名为“北京”的同一天",
+  "until": "当在1949年9月27日。",
+  "marks": [
+   "笔者推断"
+  ],
+  "vw": 1100,
+  "css": "p, p *{font-size:30px!important;line-height:1.65!important;letter-spacing:0.02em!important}"
+ },
+ {
+  "name": "x-xian",
+  "url": "https://www.xinhuanet.com/politics/2015-10/28/c_1116958394.htm",
+  "source": "Xinhua (via Beijing Daily), Oct 28 2015",
+  "find": "1949年11月2日，西安市政府通知",
+  "until": "也在其后十余天内宣布使用北京时间。",
+  "marks": [
+   "停止使用陇蜀时间，改用北京时间"
+  ],
+  "vw": 1100,
+  "css": "p, p *{font-size:30px!important;line-height:1.65!important;letter-spacing:0.02em!important}"
+ },
+ {
+  "name": "x-1950",
+  "url": "https://www.xinhuanet.com/politics/2015-10/28/c_1116958394.htm",
+  "source": "Xinhua (via Beijing Daily), Oct 28 2015",
+  "find": "1950年初，在新中国成立后的短短几个月内",
+  "until": "两种标准。",
+  "marks": [
+   "除新疆、西藏外",
+   "乌鲁木齐时间（东经90度标准时）和北京时间两种标准"
+  ],
+  "vw": 1100,
+  "css": "p, p *{font-size:30px!important;line-height:1.65!important;letter-spacing:0.02em!important}"
+ },
+ {
+  "name": "x-1952",
+  "url": "https://www.xinhuanet.com/politics/2015-10/28/c_1116958394.htm",
+  "source": "Xinhua (via Beijing Daily), Oct 28 2015",
+  "find": "截止到1952年年底",
+  "until": "甚至连时区名称都照旧。",
+  "marks": [
+   "仍然实行五时区的旧制"
+  ],
+  "vw": 1100,
+  "css": "p, p *{font-size:30px!important;line-height:1.65!important;letter-spacing:0.02em!important}"
+ },
+ {
+  "name": "x-solar",
+  "url": "https://www.xinhuanet.com/politics/2015-10/28/c_1116958394.htm",
+  "source": "Xinhua (via Beijing Daily), Oct 28 2015",
+  "find": "初期使用的“北京时间”不是我们今天理解的北京时间",
+  "until": "东经120度的标准时间了。",
+  "marks": [
+   "北京地方的视太阳时"
+  ],
+  "vw": 1100,
+  "css": "p, p *{font-size:30px!important;line-height:1.65!important;letter-spacing:0.02em!important}"
+ },
+ {
+  "name": "aj-midnight",
+  "url": "https://www.aljazeera.com/news/2023/8/9/conflict-over-the-clock-china-among-countries-where-time-is-political",
+  "source": "Al Jazeera, Aug 9 2023",
+  "find": "When Nuria Shamsed* was a child",
+  "until": "watch the summer sun set at about midnight.",
+  "marks": [
+   "summer sun set at about midnight"
+  ]
+ },
+ {
+  "name": "aj-control",
+  "url": "https://www.aljazeera.com/news/2023/8/9/conflict-over-the-clock-china-among-countries-where-time-is-political",
+  "source": "Al Jazeera, Aug 9 2023",
+  "find": "But at the same time, the phenomenon also shows",
+  "until": "even our time",
+  "marks": [
+   "even our time"
+  ]
+ },
+ {
+  "name": "aj-signal",
+  "url": "https://www.aljazeera.com/news/2023/8/9/conflict-over-the-clock-china-among-countries-where-time-is-political",
+  "source": "Al Jazeera, Aug 9 2023",
+  "find": "Although there are practical and economic advantages",
+  "until": "came to power in 1949.",
+  "marks": [
+   "practical and economic advantages",
+   "more about a signal"
+  ],
+  "css": "video, [class*=video], [class*=player], [class*=Player], iframe{display:none!important}"
+ },
+ {
+  "name": "aj-yeh",
+  "url": "https://www.aljazeera.com/news/2023/8/9/conflict-over-the-clock-china-among-countries-where-time-is-political",
+  "source": "Al Jazeera, Aug 9 2023",
+  "find": "The Chinese state did not exercise full control",
+  "until": "Yeh explains.",
+  "marks": [
+   "did not exercise full control over China before 1949"
+  ]
+ },
+ {
+  "name": "aj-late",
+  "url": "https://www.aljazeera.com/news/2023/8/9/conflict-over-the-clock-china-among-countries-where-time-is-political",
+  "source": "Al Jazeera, Aug 9 2023",
+  "find": "Xinjiang’s provincial capital, Urumqi, is geographically two hours behind Beijing",
+  "until": "listed in Beijing time.",
+  "marks": [
+   "deliberately arrived two hours late"
+  ]
+ },
+ {
+  "name": "aj-shops",
+  "url": "https://www.aljazeera.com/news/2023/8/9/conflict-over-the-clock-china-among-countries-where-time-is-political",
+  "source": "Al Jazeera, Aug 9 2023",
+  "find": "Therefore, many local shops and businesses in Urumqi",
+  "until": "over Beijing time.",
+  "marks": [
+   "opened and closed following a two-hour time difference"
+  ]
+ },
+ {
+  "name": "aj-subversion",
+  "url": "https://www.aljazeera.com/news/2023/8/9/conflict-over-the-clock-china-among-countries-where-time-is-political",
+  "source": "Al Jazeera, Aug 9 2023",
+  "find": "If you openly challenge the Beijing time now",
+  "until": "he says.",
+  "marks": [
+   "prosecuted for subversion"
+  ]
+ },
+ {
+  "name": "aj-mother",
+  "url": "https://www.aljazeera.com/news/2023/8/9/conflict-over-the-clock-china-among-countries-where-time-is-political",
+  "source": "Al Jazeera, Aug 9 2023",
+  "find": "My elderly mother never used Beijing time before",
+  "until": "if she didn’t.",
+  "marks": [
+   "feared the consequences"
+  ]
+ },
+ {
+  "name": "aj-india",
+  "url": "https://www.aljazeera.com/news/2023/8/9/conflict-over-the-clock-china-among-countries-where-time-is-political",
+  "source": "Al Jazeera, Aug 9 2023",
+  "find": "when India gained independence from Britain in 1947",
+  "until": "only official time.",
+  "marks": [
+   "abolished Mumbai time and Kolkata time"
+  ]
+ },
+ {
+  "name": "aj-nk",
+  "url": "https://www.aljazeera.com/news/2023/8/9/conflict-over-the-clock-china-among-countries-where-time-is-political",
+  "source": "Al Jazeera, Aug 9 2023",
+  "find": "In 2015, the North Korean government announced",
+  "until": "back half an hour.",
+  "marks": [
+   "setting clocks back half an hour"
+  ]
+ },
+ {
+  "name": "aj-srilanka",
+  "url": "https://www.aljazeera.com/news/2023/8/9/conflict-over-the-clock-china-among-countries-where-time-is-political",
+  "source": "Al Jazeera, Aug 9 2023",
+  "find": "During the 25-year-long civil war in Sri Lanka",
+  "until": "back half an hour.",
+  "marks": [
+   "back half an hour"
+  ]
+ },
+ {
+  "name": "aj-russia",
+  "url": "https://www.aljazeera.com/news/2023/8/9/conflict-over-the-clock-china-among-countries-where-time-is-political",
+  "source": "Al Jazeera, Aug 9 2023",
+  "find": "In January, Russian authorities announced",
+  "until": "Moscow time",
+  "marks": [
+   "switch from Ukrainian time to Moscow time"
+  ]
+ },
+ {
+  "name": "aj-nepal",
+  "url": "https://www.aljazeera.com/news/2023/8/9/conflict-over-the-clock-china-among-countries-where-time-is-political",
+  "source": "Al Jazeera, Aug 9 2023",
+  "find": "the peak of the sacred Gaurishankar Mountain",
+  "until": "half-hour time zone.",
+  "marks": [
+   "quarter-hour time zone"
+  ]
+ }
+]

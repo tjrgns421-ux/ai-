@@ -40,3 +40,21 @@
 ## 쓰지 않은 것
 - 1986년 신장 시간 민간 사용 승인: 위키백과뿐
 - timeanddate, NTSC(국가시간센터), China Digital Times: 사이트가 자동 접속을 막거나 접속 불가
+
+## 사진 (Wikimedia Commons, 화면 왼쪽 위에 촬영자·라이선스 표시)
+
+| 이름 | 파일 | 촬영/제공 | 라이선스 |
+|---|---|---|---|
+| kashgar | East_gate_of_the_Ancient_City_of_Kashi_(20230923104429).jpg | N509FZ | CC BY-SA 4.0 |
+| kashgar2 | Kashgar_old_town_(3).jpg | Radosław Botev | CC BY 3.0 pl |
+| observatory | Beijing_Ancient_Observatory_2.jpg | Steve46814 | CC BY-SA 4.0 |
+| greenwich | The_Prime_Meridian_line_at_the_Greenwich_Royal_Observatory_-_geograph.org.uk_-_8156662.jpg | Chris Gorringe | CC BY-SA 2.0 |
+| registan | Registan_Samarkand_Uzbekistan.JPG | Stomac | CC BY-SA 2.0 fr |
+| urumqi | Urumqi_panorama.jpg | Michael D. Manning | GFDL, CC BY-SA 3.0, CC BY 2.5 |
+| urumqidusk | Urumqi_partial_panorama_at_dusk.JPG | Ccyber5 | Public domain |
+| fuyuan | The_night_view_of_Fuyuan.jpg | DrTr0jan & MIxa | CC BY-SA 3.0 |
+| ussuri | ウスリー川（中国側）.jpg | Nihongarden | CC BY-SA 3.0 |
+| railway1912 | Luokou_Yellow_River_iron_bridge_of_Tianjin-Pukou_Railway_in_1912.jpg | Unknown author | Public domain |
+| pamir | ISS060-E-80916_-_View_of_China_and_Tajikistan_-_Pamir_Mountains_-_Muztagh_Ata_-_Tashkurgan_(Tashkorgan)_Valley_-_Xiabandi_Reservoir_-_Mount_Lyavirdyr_(Sarikol_Range)_(cropped).jpg | Earth Science and Remote Sensing Unit, NASA Johnson Space Center | Public domain |
+
+지도: Natural Earth 1:10m (퍼블릭 도메인). 낮·밤 표시는 단순화(12월/6월 고정 일출·일몰 근사)이며 화면에 'daylight simplified' 표시. 1918 다섯 시간대는 각 시간대의 기준 경선만 표시.

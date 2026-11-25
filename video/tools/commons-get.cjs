@@ -27,6 +27,7 @@ const { execFileSync } = require("child_process");
       // download through the environment's proxy (curl honours HTTPS_PROXY; the browser request API does not)
       const tmp = path.join(outDir, name + ".tmp");
       const ct = execFileSync("curl", ["-sSL", "--max-time", "120", "-A", "BlipCheckBot/1.0 (video research)", "-o", tmp, "-w", "%{content_type}", url]).toString();
+      if (!ct.startsWith("image/")) { fs.rmSync(tmp, { force: true }); throw new Error("not an image (" + ct + ")"); }
       const ext = ct.includes("png") ? "png" : "jpg";
       const out = path.join(outDir, name + "." + ext);
       fs.renameSync(tmp, out);

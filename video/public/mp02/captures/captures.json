@@ -1,0 +1,598 @@
+{
+ "cd-5200": {
+  "w": 858,
+  "h": 480,
+  "source": "China Daily (China in brief)",
+  "marks": {
+   "5200 kilometers to the east": [
+    {
+     "x": 546,
+     "y": 132,
+     "w": 300,
+     "h": 44
+    },
+    {
+     "x": 12,
+     "y": 192,
+     "w": 121,
+     "h": 44
+    }
+   ],
+   "four more hours of darkness": [
+    {
+     "x": 663,
+     "y": 372,
+     "w": 159,
+     "h": 44
+    },
+    {
+     "x": 12,
+     "y": 432,
+     "w": 282,
+     "h": 44
+    }
+   ]
+  }
+ },
+ "aj-midnight": {
+  "w": 1479,
+  "h": 164,
+  "source": "Al Jazeera, Aug 9 2023",
+  "marks": {
+   "summer sun set at about midnight": [
+    {
+     "x": 1351,
+     "y": 66,
+     "w": 116,
+     "h": 40
+    },
+    {
+     "x": 12,
+     "y": 120,
+     "w": 362,
+     "h": 40
+    }
+   ]
+  }
+ },
+ "aj-control": {
+  "w": 1451,
+  "h": 110,
+  "source": "Al Jazeera, Aug 9 2023",
+  "marks": {
+   "even our time": [
+    {
+     "x": 340,
+     "y": 66,
+     "w": 198,
+     "h": 40
+    }
+   ]
+  }
+ },
+ "aj-signal": {
+  "w": 1444,
+  "h": 164,
+  "source": "Al Jazeera, Aug 9 2023",
+  "marks": {
+   "practical and economic advantages": [
+    {
+     "x": 291,
+     "y": 12,
+     "w": 503,
+     "h": 40
+    }
+   ],
+   "more about a signal": [
+    {
+     "x": 246,
+     "y": 66,
+     "w": 283,
+     "h": 40
+    }
+   ]
+  }
+ },
+ "aj-yeh": {
+  "w": 1466,
+  "h": 110,
+  "source": "Al Jazeera, Aug 9 2023",
+  "marks": {
+   "did not exercise full control over China before 1949": [
+    {
+     "x": 293,
+     "y": 12,
+     "w": 748,
+     "h": 40
+    }
+   ]
+  }
+ },
+ "aj-late": {
+  "w": 1441,
+  "h": 218,
+  "source": "Al Jazeera, Aug 9 2023",
+  "marks": {
+   "deliberately arrived two hours late": [
+    {
+     "x": 250,
+     "y": 120,
+     "w": 494,
+     "h": 40
+    }
+   ]
+  }
+ },
+ "aj-shops": {
+  "w": 1471,
+  "h": 110,
+  "source": "Al Jazeera, Aug 9 2023",
+  "marks": {
+   "opened and closed following a two-hour time difference": [
+    {
+     "x": 878,
+     "y": 12,
+     "w": 581,
+     "h": 40
+    },
+    {
+     "x": 12,
+     "y": 66,
+     "w": 218,
+     "h": 40
+    }
+   ]
+  }
+ },
+ "aj-subversion": {
+  "w": 1377,
+  "h": 56,
+  "source": "Al Jazeera, Aug 9 2023",
+  "marks": {
+   "prosecuted for subversion": [
+    {
+     "x": 845,
+     "y": 12,
+     "w": 372,
+     "h": 40
+    }
+   ]
+  }
+ },
+ "aj-mother": {
+  "w": 1450,
+  "h": 110,
+  "source": "Al Jazeera, Aug 9 2023",
+  "marks": {
+   "feared the consequences": [
+    {
+     "x": 897,
+     "y": 66,
+     "w": 350,
+     "h": 40
+    }
+   ]
+  }
+ },
+ "aj-india": {
+  "w": 1452,
+  "h": 110,
+  "source": "Al Jazeera, Aug 9 2023",
+  "marks": {
+   "abolished Mumbai time and Kolkata time": [
+    {
+     "x": 1037,
+     "y": 12,
+     "w": 403,
+     "h": 40
+    },
+    {
+     "x": 12,
+     "y": 66,
+     "w": 187,
+     "h": 40
+    }
+   ]
+  }
+ },
+ "aj-nk": {
+  "w": 1434,
+  "h": 110,
+  "source": "Al Jazeera, Aug 9 2023",
+  "marks": {
+   "setting clocks back half an hour": [
+    {
+     "x": 12,
+     "y": 66,
+     "w": 455,
+     "h": 40
+    }
+   ]
+  }
+ },
+ "aj-srilanka": {
+  "w": 1480,
+  "h": 110,
+  "source": "Al Jazeera, Aug 9 2023",
+  "marks": {
+   "back half an hour": [
+    {
+     "x": 1013,
+     "y": 66,
+     "w": 249,
+     "h": 40
+    }
+   ]
+  }
+ },
+ "aj-russia": {
+  "w": 1399,
+  "h": 110,
+  "source": "Al Jazeera, Aug 9 2023",
+  "marks": {
+   "switch from Ukrainian time to Moscow time": [
+    {
+     "x": 1214,
+     "y": 12,
+     "w": 173,
+     "h": 40
+    },
+    {
+     "x": 12,
+     "y": 66,
+     "w": 460,
+     "h": 40
+    }
+   ]
+  }
+ },
+ "aj-nepal": {
+  "w": 1481,
+  "h": 218,
+  "source": "Al Jazeera, Aug 9 2023",
+  "marks": {
+   "quarter-hour time zone": [
+    {
+     "x": 731,
+     "y": 66,
+     "w": 329,
+     "h": 40
+    }
+   ]
+  }
+ },
+ "x-1220": {
+  "w": 2192,
+  "h": 478,
+  "source": "Xinhua (via Beijing Daily), Oct 28 2015",
+  "marks": {
+   "寻斯干城": [
+    {
+     "x": 930,
+     "y": 111,
+     "w": 245,
+     "h": 66
+    }
+   ],
+   "比在开封早了约1更半": [
+    {
+     "x": 196,
+     "y": 309,
+     "w": 582,
+     "h": 66
+    }
+   ]
+  }
+ },
+ "x-1855": {
+  "w": 2160,
+  "h": 181,
+  "source": "Xinhua (via Beijing Daily), Oct 28 2015",
+  "marks": {
+   "98%": [
+    {
+     "x": 871,
+     "y": 12,
+     "w": 114,
+     "h": 66
+    }
+   ]
+  }
+ },
+ "x-1868": {
+  "w": 2187,
+  "h": 280,
+  "source": "Xinhua (via Beijing Daily), Oct 28 2015",
+  "marks": {
+   "第一个用经度设定标准时的地区": [
+    {
+     "x": 1787,
+     "y": 111,
+     "w": 367,
+     "h": 66
+    },
+    {
+     "x": 12,
+     "y": 210,
+     "w": 490,
+     "h": 66
+    }
+   ]
+  }
+ },
+ "x-1884": {
+  "w": 2170,
+  "h": 280,
+  "source": "Xinhua (via Beijing Daily), Oct 28 2015",
+  "marks": {
+   "1884年": [
+    {
+     "x": 1052,
+     "y": 12,
+     "w": 186,
+     "h": 66
+    }
+   ],
+   "41个国家": [
+    {
+     "x": 1667,
+     "y": 12,
+     "w": 246,
+     "h": 66
+    }
+   ]
+  }
+ },
+ "x-1902": {
+  "w": 2163,
+  "h": 478,
+  "source": "Xinhua (via Beijing Daily), Oct 28 2015",
+  "marks": {
+   "“海岸时”作为中国的标准时间": [
+    {
+     "x": 1238,
+     "y": 12,
+     "w": 790,
+     "h": 66
+    }
+   ],
+   "其时区范围未经规定": [
+    {
+     "x": 162,
+     "y": 408,
+     "w": 551,
+     "h": 66
+    }
+   ]
+  }
+ },
+ "x-rail": {
+  "w": 2185,
+  "h": 280,
+  "source": "Xinhua (via Beijing Daily), Oct 28 2015",
+  "marks": {
+   "9400公里的铁路": [
+    {
+     "x": 73,
+     "y": 111,
+     "w": 431,
+     "h": 66
+    }
+   ]
+  }
+ },
+ "x-1918": {
+  "w": 2192,
+  "h": 1389,
+  "source": "Xinhua (via Beijing Daily), Oct 28 2015",
+  "marks": {
+   "五个时区": [
+    {
+     "x": 1728,
+     "y": 12,
+     "w": 245,
+     "h": 66
+    }
+   ]
+  }
+ },
+ "x-paper": {
+  "w": 2192,
+  "h": 456,
+  "source": "Xinhua (via Beijing Daily), Oct 28 2015",
+  "marks": {
+   "没有一台好一点儿的望远镜，没有无线电收讯机": [
+    {
+     "x": 1297,
+     "y": 111,
+     "w": 857,
+     "h": 66
+    },
+    {
+     "x": 12,
+     "y": 210,
+     "w": 428,
+     "h": 66
+    }
+   ],
+   "纸面上的方案": [
+    {
+     "x": 1726,
+     "y": 369,
+     "w": 367,
+     "h": 66
+    }
+   ]
+  }
+ },
+ "x-manchukuo": {
+  "w": 2166,
+  "h": 181,
+  "source": "Xinhua (via Beijing Daily), Oct 28 2015",
+  "marks": {
+   "日本本土采用的东经135度标准时": [
+    {
+     "x": 930,
+     "y": 111,
+     "w": 889,
+     "h": 66
+    }
+   ]
+  }
+ },
+ "x-1939": {
+  "w": 2164,
+  "h": 280,
+  "source": "Xinhua (via Beijing Daily), Oct 28 2015",
+  "marks": {
+   "全国一律暂用一种时刻": [
+    {
+     "x": 407,
+     "y": 210,
+     "w": 612,
+     "h": 66
+    }
+   ]
+  }
+ },
+ "x-postwar": {
+  "w": 2188,
+  "h": 280,
+  "source": "Xinhua (via Beijing Daily), Oct 28 2015",
+  "marks": {
+   "需拨动手表，进退一小时": [
+    {
+     "x": 12,
+     "y": 210,
+     "w": 673,
+     "h": 66
+    }
+   ]
+  }
+ },
+ "x-guo": {
+  "w": 2166,
+  "h": 181,
+  "source": "Xinhua (via Beijing Daily), Oct 28 2015",
+  "marks": {
+   "中国科学院国家授时中心高级工程师郭庆生": [
+    {
+     "x": 685,
+     "y": 12,
+     "w": 1163,
+     "h": 66
+    }
+   ]
+  }
+ },
+ "x-1949a": {
+  "w": 2155,
+  "h": 379,
+  "source": "Xinhua (via Beijing Daily), Oct 28 2015",
+  "marks": {
+   "本台时间以北京时间为准": [
+    {
+     "x": 1174,
+     "y": 111,
+     "w": 673,
+     "h": 66
+    }
+   ]
+  }
+ },
+ "x-1949b": {
+  "w": 2190,
+  "h": 478,
+  "source": "Xinhua (via Beijing Daily), Oct 28 2015",
+  "marks": {
+   "笔者推断": [
+    {
+     "x": 991,
+     "y": 309,
+     "w": 245,
+     "h": 66
+    }
+   ]
+  }
+ },
+ "x-xian": {
+  "w": 2166,
+  "h": 379,
+  "source": "Xinhua (via Beijing Daily), Oct 28 2015",
+  "marks": {
+   "停止使用陇蜀时间，改用北京时间": [
+    {
+     "x": 1787,
+     "y": 111,
+     "w": 367,
+     "h": 66
+    },
+    {
+     "x": 12,
+     "y": 210,
+     "w": 551,
+     "h": 66
+    }
+   ]
+  }
+ },
+ "x-1950": {
+  "w": 2168,
+  "h": 280,
+  "source": "Xinhua (via Beijing Daily), Oct 28 2015",
+  "marks": {
+   "除新疆、西藏外": [
+    {
+     "x": 1850,
+     "y": 12,
+     "w": 306,
+     "h": 66
+    },
+    {
+     "x": 12,
+     "y": 111,
+     "w": 122,
+     "h": 66
+    }
+   ],
+   "乌鲁木齐时间（东经90度标准时）和北京时间两种标准": [
+    {
+     "x": 196,
+     "y": 210,
+     "w": 1470,
+     "h": 66
+    }
+   ]
+  }
+ },
+ "x-1952": {
+  "w": 2171,
+  "h": 181,
+  "source": "Xinhua (via Beijing Daily), Oct 28 2015",
+  "marks": {
+   "仍然实行五时区的旧制": [
+    {
+     "x": 624,
+     "y": 111,
+     "w": 612,
+     "h": 66
+    }
+   ]
+  }
+ },
+ "x-solar": {
+  "w": 2160,
+  "h": 280,
+  "source": "Xinhua (via Beijing Daily), Oct 28 2015",
+  "marks": {
+   "北京地方的视太阳时": [
+    {
+     "x": 1175,
+     "y": 111,
+     "w": 551,
+     "h": 66
+    }
+   ]
+  }
+ }
+}

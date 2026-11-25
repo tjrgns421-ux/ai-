@@ -24,6 +24,8 @@ const path = require("path");
   let current = "";
   for (const s of spec) {
     if (s.url !== current) {
+      // vw: viewport width for sites that serve a different (mobile) page at the default 760 px
+      await page.setViewportSize({ width: s.vw || 760, height: 1400 });
       try {
         await page.goto(s.url, { waitUntil: "domcontentloaded", timeout: 60000 });
       } catch (e) {
@@ -33,6 +35,8 @@ const path = require("path");
       }
       await page.waitForTimeout(2500);
       current = s.url;
+      // css: extra styles for pages whose body text is too small to read on screen (e.g. "p{font-size:30px!important}")
+      if (s.css) { await page.addStyleTag({ content: s.css }); await page.waitForTimeout(500); }
     }
     if (s.figure) {
       // image capture: the <figure> (or image) whose caption contains `figure`, with its caption and credit
