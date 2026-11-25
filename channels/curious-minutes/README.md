@@ -77,3 +77,8 @@ Paste into YouTube Studio → Settings → Channel → Basic info → Keywords (
 ## Korean localization (from 2026-11-25, for every video incl. Shorts)
 - The video stays English (no burned-in Korean, no dubbing). Add: Korean title + description (YouTube translations), English and Korean .srt subtitles.
 - Files per episode: `script.ko.txt` (one line per script line), `subs/<long|shortN>.<en|ko>.srt` via `video/tools/make_srt.py`, `## 한국어 제목/설명` in each upload.md, `md2spec.py --subs`.
+
+## Delivery to the user (from ep06, 2026-11-25)
+- One zip per episode: `큐리어스 N화.zip`, made with `tools/youtube/make_zip.py`.
+- Inside: `큐리어스 N화-롱폼.mp4`, `큐리어스 N화-쇼츠1.mp4` … `쇼츠K.mp4`, `업로드정보.md` (long + every Short, English + Korean), `썸네일.png`, `자막/` (.en.srt / .ko.srt).
+- No 720p preview files. The long-form goes in at upload quality (1080p, x264 CRF 20).
