@@ -1,4 +1,4 @@
-# Blip Check 인수인계 (2026-11-20)
+# Blip Check 인수인계 (2026-11-25 갱신)
 
 이 파일은 Blip Check 채널 작업을 새 세션에서 이어가기 위한 메모입니다.
 Curious Minutes 채널(`channels/curious-minutes/`)은 다른 세션에서 작업하므로 건드리지 마세요.
@@ -13,7 +13,7 @@ Curious Minutes 채널(`channels/curious-minutes/`)은 다른 세션에서 작�
 - **롱폼 1편을 만들면 그걸 잘라서 쇼츠 5개도 같이 준다** (2026-11-25 사용자 요청). 다시 렌더링하지 않고 `video/tools/reels.py`로 롱폼 mp4에서 잘라 만든다. 쇼츠마다 제목·설명도 같이.
 
 ## 채널
-- 이름 Blip Check, 슬로건 "Korea, checked.", 영어 채널(해외 시청자 대상), 진행 캐릭터 Blip.
+- 이름 Blip Check, 슬로건 "Maps lie. We check." (2026-11-24 변경, 이전 "Korea, checked."), 영어 채널(해외 시청자 대상), 진행 캐릭터 Blip.
 - 채널 소개·재생목록·프로필·배너: `shorts/brand-blip/korea-channel.md` (2026-11-24 콘셉트 변경: 지도·국경 주장 확인, 영어 롱폼 8분+, 맨 아래 섹션)
 - 대본 규칙: `.claude/skills/shorts-script/SKILL.md` 10–11절, 제목·썸네일: `.claude/skills/yt-package/`
 - 목소리: en-US-AndrewMultilingualNeural, +8%
@@ -41,3 +41,27 @@ Curious Minutes 채널(`channels/curious-minutes/`)은 다른 세션에서 작�
   위키미디어 공용 등 CC·퍼블릭 도메인 사진을 우선 사용(작성자·라이선스 표기). 통신사 사진(연합 등)은 저작권 신고 위험이 있어 기사 화면 캡처 안에서만 짧게.
   사진 서버가 막히면 도구가 서버 주소를 알려 줌 → 허용 목록에 추가 요청.
 - `video/out/`은 git에 저장되지 않음. 완성 영상은 사용자에게 파일로 보내기.
+
+## 로컬에서 이어가기 (2026-11-25)
+- 브랜치: `claude/youthful-fermi-zlq030` (모든 작업 커밋·푸시됨). `git fetch origin claude/youthful-fermi-zlq030 && git checkout claude/youthful-fermi-zlq030`
+- `video/out/`(완성 mp4)은 git에 없음 → 사용자가 받은 파일을 쓰거나 아래 명령으로 다시 렌더링.
+- 준비물: Node + `cd video && npm install`, 지도 도구용 `npm i --no-save world-atlas@2 topojson-client@3 d3-geo@3`, Python `edge-tts`, `astral`, `Pillow`, ffmpeg, Playwright(Chromium).
+- 클라우드 전용 경로는 로컬에 맞게 바꿀 것: 렌더링 브라우저 `/opt/pw-browsers/...chrome-headless-shell`(→ 로컬은 `--browser-executable` 생략 가능, `tools/render-long.sh`·`tools/stills.mjs`의 BROWSER/CH 값 수정), 릴스 폰트 `Pretendard-Black.ttf`(woff2를 fontTools로 ttf 변환해서 경로 지정).
+- 로컬에는 클라우드 네트워크 허용 목록이 없으니 사이트 차단 문제는 줄어듦. YouTube API 키는 로컬 환경 변수로 직접 설정(채팅에 붙이지 말 것).
+
+## 지도 롱폼 만드는 순서 (mp01~mp03에서 굳은 방식)
+1. 주제: `research/yt_outliers.py`(YouTube API)로 같은 분야 잘 된 영상, `research/yt_suggest.py`로 자동완성 키워드 확인.
+2. 출처: 원문을 직접 읽고 `shorts/<회차>/sources.md`에 주장별 출처·상태 표. 한 사람 회상뿐인 건 빼거나 "증언"으로 표시. 직접 계산한 값은 화면에 "Calculated/Measured" 표시.
+3. 대본: `shorts/<회차>/script.txt`, 점수 `python3 .claude/skills/yt-script/scriptscore.py script.txt --target 420-600 --wpm 189`(75+ 목표), 훅은 `hookscore.py`.
+4. 캡처: `shorts/<회차>/captures.json` → `cd video && node tools/capture.cjs ../shorts/<회차>/captures.json public/<회차>/captures`. 사진: `node tools/commons-get.cjs public/<회차>/photos name=File:...`(라이선스 자동 기록, 이후 w/h 추가).
+5. 지도: `tools/korea-map.mjs`, `china-map.mjs`, `bering-map.mjs` 참고해 Natural Earth를 미리 투영한 JSON 생성.
+6. 내레이션: `python3 video/tools/tts_lines.py shorts/<회차>/script.txt video/public/<회차>` (Andrew Multilingual +8%).
+7. 장면: `video/src/<회차>/{engine,Visuals,Mp0x,Thumb}.tsx` (mp03 복사해서 시작), `Root.tsx`에 등록. 장면 평균 4초, 지도·사진 클로즈업·캡처를 섞기.
+8. 확인: `node tools/stills.mjs Mp0xFull out/<회차>/stills <프레임...>`으로 장면마다 정지 화면 뽑아 겹침·잘림 확인.
+9. 렌더링: `COMP=Mp0xFull TOTAL=<프레임수> OUT=out/<회차> NAME=<회차>-full bash tools/render-long.sh` (TOTAL = 마지막 단어 끝 × 30 + 45).
+10. 쇼츠 5개: `shorts/reels/reels-<회차>.json` → `python3 tools/reels.py ../shorts/reels/reels-<회차>.json out/reels-<회차> <폰트.ttf>`.
+11. 업로드 정보: `shorts/<회차>/post.md` (제목·썸네일은 `.claude/skills/yt-package/title.py`로 100점 확인, 설명·챕터·출처·사진 라이선스·태그·고정 댓글·쇼츠 제목).
+
+## 다음 할 일
+- mp04 후보: "Is North Korea Really Dark at Night? 1 City, Checked" + 썸네일 "PYONGYANG GLOWS?"(98점). NASA 야간 위성 사진(퍼블릭 도메인) 활용. 출처 조사부터.
+- mp03 업로드: 롱폼 먼저, 쇼츠는 하루 1~2개씩.
