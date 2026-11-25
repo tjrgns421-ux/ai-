@@ -61,3 +61,9 @@ science mysteries, unsolved mysteries, mystery explained, science explained, arc
 | The Wow! signal (1977) | still unknown, natural explanations proposed | famous; must not imply aliens |
 | Tunguska, 1908 | best explanation (airburst) | huge visual event, no crater |
 | Fairy circles of Namibia | debated | striking aerials, two competing theories |
+
+## Channel keywords (2026-11-25, from YouTube autocomplete, US/English)
+Seeds: unexplained, unsolved mysteries, science mysteries, strange things found, strange sounds, mystery solved, ocean/space mysteries.
+Kept only suggestions that match what we make (dropped songs, movies, "healing frequency" audio, Google Maps finds).
+Paste into YouTube Studio → Settings → Channel → Basic info → Keywords (477 of 500 characters):
+"unexplained mysteries" "science mysteries explained" "science mysteries solved" "unsolved mysteries solved" "solved mysteries" "strange things found" "strange things found on the moon" "strange things found in the ocean" "strange things found in space" "strange things found on mars" "unexplained sounds" "unexplained sounds in the ocean" "strange sounds from space" "ocean mysteries" "space mysteries explained" "unexplained phenomena" "mysteries explained" "curious minutes"
