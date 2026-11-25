@@ -101,7 +101,7 @@ export const ChinaCam: React.FC<{
         return (
           <div key={p.at + p.label} style={{ position: "absolute", left: sx(pt) - 13, top: sy(pt) - 13, ...pop(lf, p.d, 0.3) }}>
             <div style={{ width: 26, height: 26, borderRadius: 13, background: col, border: `5px solid ${BG}`, boxShadow: `0 0 0 4px ${col}` }} />
-            <div style={{ position: "absolute", left: 38, top: -12, fontFamily: "Pretendard", fontWeight: 900, fontSize: 34, color: INK, background: "rgba(10,11,13,0.85)", padding: "4px 12px", borderRadius: 8, whiteSpace: "nowrap" }}>
+            <div style={{ position: "absolute", ...(sx(pt) > W - 420 ? { right: 38 } : { left: 38 }), top: -12, fontFamily: "Pretendard", fontWeight: 900, fontSize: 34, color: INK, background: "rgba(10,11,13,0.85)", padding: "4px 12px", borderRadius: 8, whiteSpace: "nowrap", textAlign: sx(pt) > W - 420 ? "right" : "left" }}>
               {p.label}{p.sub && <div style={{ fontSize: 26, color: col }}>{p.sub}</div>}
             </div>
           </div>
