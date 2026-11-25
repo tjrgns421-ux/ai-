@@ -39,7 +39,7 @@ Sources:
 ```
 
 ## 태그
-ocean sounds, bloop, unexplained sounds, 52 hertz whale, bio-duck, upsweep, julia sound, ocean mysteries, NOAA, hydrophone, icequake, science mysteries, loneliest whale
+mysteries of the ocean, unexplained things in the ocean, unexplained sounds in the ocean, strange sounds in the ocean, ocean mysteries, bloop, 52 hertz whale, bio-duck, upsweep, julia sound, NOAA, unexplained mysteries, solved mysteries, loneliest whale
 
 ## 설정
 - 카테고리: Science & Technology / 아동용 아님 / 변경된 콘텐츠: 예 (합성 음성)
