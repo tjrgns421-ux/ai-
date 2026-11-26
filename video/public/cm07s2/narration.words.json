@@ -1,0 +1,362 @@
+[
+ {
+  "text": "You'd",
+  "start": 0.05,
+  "end": 0.187
+ },
+ {
+  "text": "never",
+  "start": 0.187,
+  "end": 0.487
+ },
+ {
+  "text": "expect",
+  "start": 0.5,
+  "end": 0.9
+ },
+ {
+  "text": "a",
+  "start": 0.9,
+  "end": 0.938
+ },
+ {
+  "text": "visitor",
+  "start": 0.938,
+  "end": 1.475
+ },
+ {
+  "text": "from",
+  "start": 1.475,
+  "end": 1.613
+ },
+ {
+  "text": "another",
+  "start": 1.613,
+  "end": 1.888
+ },
+ {
+  "text": "star",
+  "start": 1.888,
+  "end": 2.412
+ },
+ {
+  "text": "But",
+  "start": 2.582,
+  "end": 2.669
+ },
+ {
+  "text": "in 2017",
+  "start": 2.669,
+  "end": 4.031
+ },
+ {
+  "text": "one",
+  "start": 4.151,
+  "end": 4.438
+ },
+ {
+  "text": "raced",
+  "start": 4.45,
+  "end": 4.738
+ },
+ {
+  "text": "past",
+  "start": 4.738,
+  "end": 5.075
+ },
+ {
+  "text": "the",
+  "start": 5.075,
+  "end": 5.151
+ },
+ {
+  "text": "Sun",
+  "start": 5.151,
+  "end": 5.538
+ },
+ {
+  "text": "and",
+  "start": 5.658,
+  "end": 5.733
+ },
+ {
+  "text": "sped",
+  "start": 5.745,
+  "end": 6.071
+ },
+ {
+  "text": "up",
+  "start": 6.071,
+  "end": 6.333
+ },
+ {
+  "text": "What",
+  "start": 6.453,
+  "end": 6.515
+ },
+ {
+  "text": "was",
+  "start": 6.515,
+  "end": 6.653
+ },
+ {
+  "text": "it",
+  "start": 6.653,
+  "end": 6.778
+ },
+ {
+  "text": "actually",
+  "start": 6.803,
+  "end": 7.303
+ },
+ {
+  "text": "Comets",
+  "start": 7.473,
+  "end": 7.798
+ },
+ {
+  "text": "speed",
+  "start": 7.811,
+  "end": 8.086
+ },
+ {
+  "text": "up",
+  "start": 8.086,
+  "end": 8.26
+ },
+ {
+  "text": "by",
+  "start": 8.273,
+  "end": 8.385
+ },
+ {
+  "text": "releasing",
+  "start": 8.385,
+  "end": 8.835
+ },
+ {
+  "text": "gas",
+  "start": 8.848,
+  "end": 9.46
+ },
+ {
+  "text": "But",
+  "start": 9.58,
+  "end": 9.68
+ },
+ {
+  "text": "ʻOumuamua",
+  "start": 9.68,
+  "end": 10.381
+ },
+ {
+  "text": "had",
+  "start": 10.393,
+  "end": 10.668
+ },
+ {
+  "text": "no",
+  "start": 10.68,
+  "end": 11.093
+ },
+ {
+  "text": "visible",
+  "start": 11.093,
+  "end": 11.556
+ },
+ {
+  "text": "cloud",
+  "start": 11.556,
+  "end": 12.043
+ },
+ {
+  "text": "and",
+  "start": 12.13,
+  "end": 12.306
+ },
+ {
+  "text": "no",
+  "start": 12.306,
+  "end": 12.481
+ },
+ {
+  "text": "tail",
+  "start": 12.493,
+  "end": 12.943
+ },
+ {
+  "text": "In 2023",
+  "start": 13.113,
+  "end": 14.151
+ },
+ {
+  "text": "scientists",
+  "start": 14.271,
+  "end": 14.858
+ },
+ {
+  "text": "suggested",
+  "start": 14.858,
+  "end": 15.596
+ },
+ {
+  "text": "trapped",
+  "start": 15.596,
+  "end": 16.021
+ },
+ {
+  "text": "hydrogen",
+  "start": 16.034,
+  "end": 16.546
+ },
+ {
+  "text": "made",
+  "start": 16.666,
+  "end": 16.854
+ },
+ {
+  "text": "by",
+  "start": 16.867,
+  "end": 17.029
+ },
+ {
+  "text": "cosmic",
+  "start": 17.041,
+  "end": 17.629
+ },
+ {
+  "text": "rays",
+  "start": 17.642,
+  "end": 18.154
+ },
+ {
+  "text": "in",
+  "start": 18.154,
+  "end": 18.267
+ },
+ {
+  "text": "its",
+  "start": 18.279,
+  "end": 18.442
+ },
+ {
+  "text": "ice",
+  "start": 18.454,
+  "end": 18.942
+ },
+ {
+  "text": "gave",
+  "start": 19.062,
+  "end": 19.262
+ },
+ {
+  "text": "it",
+  "start": 19.262,
+  "end": 19.325
+ },
+ {
+  "text": "a",
+  "start": 19.325,
+  "end": 19.375
+ },
+ {
+  "text": "gentle",
+  "start": 19.375,
+  "end": 19.75
+ },
+ {
+  "text": "push",
+  "start": 19.75,
+  "end": 20.275
+ },
+ {
+  "text": "Best",
+  "start": 20.445,
+  "end": 20.632
+ },
+ {
+  "text": "guess",
+  "start": 20.632,
+  "end": 21.045
+ },
+ {
+  "text": "It's",
+  "start": 21.165,
+  "end": 21.265
+ },
+ {
+  "text": "long",
+  "start": 21.265,
+  "end": 21.528
+ },
+ {
+  "text": "gone",
+  "start": 21.528,
+  "end": 21.89
+ },
+ {
+  "text": "so",
+  "start": 22.01,
+  "end": 22.11
+ },
+ {
+  "text": "we",
+  "start": 22.11,
+  "end": 22.223
+ },
+ {
+  "text": "can't",
+  "start": 22.223,
+  "end": 22.473
+ },
+ {
+  "text": "check",
+  "start": 22.473,
+  "end": 22.91
+ },
+ {
+  "text": "Five",
+  "start": 23.08,
+  "end": 23.342
+ },
+ {
+  "text": "more",
+  "start": 23.342,
+  "end": 23.579
+ },
+ {
+  "text": "solar",
+  "start": 23.579,
+  "end": 23.942
+ },
+ {
+  "text": "system",
+  "start": 23.954,
+  "end": 24.279
+ },
+ {
+  "text": "mysteries",
+  "start": 24.279,
+  "end": 24.805
+ },
+ {
+  "text": "are",
+  "start": 24.925,
+  "end": 25.087
+ },
+ {
+  "text": "on",
+  "start": 25.087,
+  "end": 25.187
+ },
+ {
+  "text": "the",
+  "start": 25.187,
+  "end": 25.237
+ },
+ {
+  "text": "channel",
+  "start": 25.237,
+  "end": 25.725
+ }
+]

@@ -1,0 +1,184 @@
+{
+ "face-shadow": {
+  "w": 1389,
+  "h": 99,
+  "source": "NASA (Viking 1 caption, 1976)",
+  "marks": {
+   "formed by shadows giving the illusion of eyes, nose and mouth": [
+    {
+     "x": 429,
+     "y": 57,
+     "w": 924,
+     "h": 38
+    }
+   ]
+  }
+ },
+ "face-hill": {
+  "w": 865,
+  "h": 302,
+  "source": "Wikipedia, quoting NASA",
+  "marks": {
+   "a natural looking Martian hill": [
+    {
+     "x": 291,
+     "y": 160,
+     "w": 398,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "iap-runaway": {
+  "w": 1344,
+  "h": 152,
+  "source": "NASA (2007)",
+  "marks": {
+   "bizarre \"runaway\" process": [
+    {
+     "x": 75,
+     "y": 57,
+     "w": 388,
+     "h": 38
+    }
+   ]
+  }
+ },
+ "iap-dust": {
+  "w": 1335,
+  "h": 152,
+  "source": "NASA (2007)",
+  "marks": {
+   "hits Iapetus head-on": [
+    {
+     "x": 1210,
+     "y": 4,
+     "w": 55,
+     "h": 38
+    },
+    {
+     "x": 12,
+     "y": 57,
+     "w": 240,
+     "h": 38
+    }
+   ]
+  }
+ },
+ "hex-lab": {
+  "w": 1380,
+  "h": 99,
+  "source": "NASA",
+  "marks": {
+   "duplicated the hexagon in a laboratory": [
+    {
+     "x": 552,
+     "y": 4,
+     "w": 570,
+     "h": 38
+    }
+   ]
+  }
+ },
+ "hex-why": {
+  "w": 1407,
+  "h": 152,
+  "source": "NASA",
+  "marks": {
+   "only in the north, not in the south": [
+    {
+     "x": 356,
+     "y": 57,
+     "w": 487,
+     "h": 38
+    }
+   ],
+   "why it’s so long-lived": [
+    {
+     "x": 778,
+     "y": 110,
+     "w": 306,
+     "h": 38
+    }
+   ]
+  }
+ },
+ "oum-nature": {
+  "w": 1473,
+  "h": 122,
+  "source": "Bergner & Seligman, Nature (2023), arXiv",
+  "marks": {
+   "release of entrapped molecular hydrogen": [
+    {
+     "x": 556,
+     "y": 46,
+     "w": 496,
+     "h": 30
+    }
+   ]
+  }
+ },
+ "meth-salt": {
+  "w": 1294,
+  "h": 152,
+  "source": "NASA (2021)",
+  "marks": {
+   "a pinch of salt diluted in an Olympic-size swimming pool": [
+    {
+     "x": 743,
+     "y": 57,
+     "w": 539,
+     "h": 38
+    },
+    {
+     "x": 12,
+     "y": 110,
+     "w": 289,
+     "h": 38
+    }
+   ]
+  }
+ },
+ "meth-shock": {
+  "w": 1221,
+  "h": 99,
+  "source": "NASA (2021)",
+  "marks": {
+   "I was definitely shocked": [
+    {
+     "x": 987,
+     "y": 4,
+     "w": 222,
+     "h": 38
+    },
+    {
+     "x": 12,
+     "y": 57,
+     "w": 124,
+     "h": 38
+    }
+   ]
+  }
+ },
+ "venus-calib": {
+  "w": 1399,
+  "h": 146,
+  "source": "Wikipedia",
+  "marks": {
+   "20 times below original estimate": [
+    {
+     "x": 1264,
+     "y": 56,
+     "w": 121,
+     "h": 34
+    },
+    {
+     "x": 12,
+     "y": 108,
+     "w": 326,
+     "h": 34
+    }
+   ]
+  }
+ }
+}
