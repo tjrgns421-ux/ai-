@@ -1,0 +1,156 @@
+[
+ {
+  "text": "And",
+  "start": 0.1,
+  "end": 0.306,
+  "display": "And",
+  "break": false
+ },
+ {
+  "text": "notice",
+  "start": 0.318,
+  "end": 0.658,
+  "display": "notice",
+  "break": false
+ },
+ {
+  "text": "that",
+  "start": 0.67,
+  "end": 0.804,
+  "display": "that",
+  "break": false
+ },
+ {
+  "text": "this",
+  "start": 0.816,
+  "end": 0.974,
+  "display": "this",
+  "break": false
+ },
+ {
+  "text": "is",
+  "start": 0.986,
+  "end": 1.071,
+  "display": "is",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 1.083,
+  "end": 1.156,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "most",
+  "start": 1.168,
+  "end": 1.423,
+  "display": "most",
+  "break": false
+ },
+ {
+  "text": "likely",
+  "start": 1.435,
+  "end": 1.799,
+  "display": "likely",
+  "break": false
+ },
+ {
+  "text": "single",
+  "start": 1.811,
+  "end": 2.163,
+  "display": "single",
+  "break": false
+ },
+ {
+  "text": "answer",
+  "start": 2.175,
+  "end": 2.564,
+  "display": "answer,",
+  "break": true
+ },
+ {
+  "text": "but",
+  "start": 2.6,
+  "end": 2.746,
+  "display": "but",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 2.758,
+  "end": 2.831,
+  "display": "it",
+  "break": false
+ },
+ {
+  "text": "is",
+  "start": 2.843,
+  "end": 2.916,
+  "display": "is",
+  "break": false
+ },
+ {
+  "text": "not",
+  "start": 2.928,
+  "end": 3.158,
+  "display": "not",
+  "break": false
+ },
+ {
+  "text": "more",
+  "start": 3.17,
+  "end": 3.365,
+  "display": "more",
+  "break": false
+ },
+ {
+  "text": "likely",
+  "start": 3.377,
+  "end": 3.789,
+  "display": "likely",
+  "break": false
+ },
+ {
+  "text": "than",
+  "start": 3.801,
+  "end": 3.996,
+  "display": "than",
+  "break": false
+ },
+ {
+  "text": "all",
+  "start": 4.008,
+  "end": 4.238,
+  "display": "all",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 4.25,
+  "end": 4.372,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "others",
+  "start": 4.384,
+  "end": 4.712,
+  "display": "others",
+  "break": false
+ },
+ {
+  "text": "put",
+  "start": 4.724,
+  "end": 4.906,
+  "display": "put",
+  "break": false
+ },
+ {
+  "text": "together",
+  "start": 4.918,
+  "end": 5.391,
+  "display": "together.",
+  "break": true
+ }
+]

@@ -1,0 +1,170 @@
+[
+ {
+  "text": "Two",
+  "start": 0.1,
+  "end": 0.476,
+  "display": "Two",
+  "break": false
+ },
+ {
+  "text": "if",
+  "start": 0.695,
+  "end": 0.828,
+  "display": "if",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 0.84,
+  "end": 0.901,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "document",
+  "start": 0.913,
+  "end": 1.314,
+  "display": "document",
+  "break": false
+ },
+ {
+  "text": "turns",
+  "start": 1.326,
+  "end": 1.714,
+  "display": "turns",
+  "break": false
+ },
+ {
+  "text": "up",
+  "start": 1.726,
+  "end": 1.896,
+  "display": "up",
+  "break": false
+ },
+ {
+  "text": "that",
+  "start": 1.908,
+  "end": 2.042,
+  "display": "that",
+  "break": false
+ },
+ {
+  "text": "proves",
+  "start": 2.054,
+  "end": 2.382,
+  "display": "proves",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 2.394,
+  "end": 2.454,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "prince",
+  "start": 2.466,
+  "end": 2.782,
+  "display": "prince",
+  "break": false
+ },
+ {
+  "text": "alive",
+  "start": 2.794,
+  "end": 3.207,
+  "display": "alive,",
+  "break": true
+ },
+ {
+  "text": "written",
+  "start": 3.413,
+  "end": 3.583,
+  "display": "written",
+  "break": false
+ },
+ {
+  "text": "by",
+  "start": 3.595,
+  "end": 3.716,
+  "display": "by",
+  "break": false
+ },
+ {
+  "text": "someone",
+  "start": 3.729,
+  "end": 4.081,
+  "display": "someone",
+  "break": false
+ },
+ {
+  "text": "with",
+  "start": 4.093,
+  "end": 4.25,
+  "display": "with",
+  "break": false
+ },
+ {
+  "text": "no",
+  "start": 4.263,
+  "end": 4.493,
+  "display": "no",
+  "break": false
+ },
+ {
+  "text": "reason",
+  "start": 4.505,
+  "end": 4.845,
+  "display": "reason",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 4.857,
+  "end": 4.979,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "lie",
+  "start": 4.991,
+  "end": 5.391,
+  "display": "lie,",
+  "break": true
+ },
+ {
+  "text": "survival",
+  "start": 5.513,
+  "end": 6.01,
+  "display": "survival",
+  "break": false
+ },
+ {
+  "text": "should",
+  "start": 6.022,
+  "end": 6.204,
+  "display": "should",
+  "break": false
+ },
+ {
+  "text": "jump",
+  "start": 6.216,
+  "end": 6.471,
+  "display": "jump",
+  "break": false
+ },
+ {
+  "text": "past",
+  "start": 6.484,
+  "end": 6.787,
+  "display": "past",
+  "break": false
+ },
+ {
+  "text": "fifty",
+  "start": 6.799,
+  "end": 7.212,
+  "display": "fifty.",
+  "break": true
+ }
+]

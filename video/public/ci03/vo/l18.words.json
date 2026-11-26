@@ -1,0 +1,149 @@
+[
+ {
+  "text": "That's",
+  "start": 0.1,
+  "end": 0.379,
+  "display": "That's",
+  "break": false
+ },
+ {
+  "text": "not",
+  "start": 0.391,
+  "end": 0.549,
+  "display": "not",
+  "break": false
+ },
+ {
+  "text": "proof",
+  "start": 0.561,
+  "end": 0.889,
+  "display": "proof.",
+  "break": true
+ },
+ {
+  "text": "Absence",
+  "start": 1.239,
+  "end": 1.737,
+  "display": "Absence",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 1.749,
+  "end": 1.846,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "evidence",
+  "start": 1.858,
+  "end": 2.198,
+  "display": "evidence",
+  "break": false
+ },
+ {
+  "text": "never",
+  "start": 2.21,
+  "end": 2.453,
+  "display": "never",
+  "break": false
+ },
+ {
+  "text": "is",
+  "start": 2.465,
+  "end": 2.781,
+  "display": "is.",
+  "break": true
+ },
+ {
+  "text": "But",
+  "start": 3.133,
+  "end": 3.29,
+  "display": "But",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 3.302,
+  "end": 3.351,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "king",
+  "start": 3.363,
+  "end": 3.557,
+  "display": "king",
+  "break": false
+ },
+ {
+  "text": "with",
+  "start": 3.569,
+  "end": 3.727,
+  "display": "with",
+  "break": false
+ },
+ {
+  "text": "two",
+  "start": 3.739,
+  "end": 3.933,
+  "display": "two",
+  "break": false
+ },
+ {
+  "text": "living",
+  "start": 3.946,
+  "end": 4.225,
+  "display": "living",
+  "break": false
+ },
+ {
+  "text": "nephews",
+  "start": 4.237,
+  "end": 4.674,
+  "display": "nephews",
+  "break": false
+ },
+ {
+  "text": "had",
+  "start": 4.686,
+  "end": 4.916,
+  "display": "had",
+  "break": false
+ },
+ {
+  "text": "every",
+  "start": 4.953,
+  "end": 5.232,
+  "display": "every",
+  "break": false
+ },
+ {
+  "text": "reason",
+  "start": 5.244,
+  "end": 5.669,
+  "display": "reason",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 5.681,
+  "end": 5.802,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "produce",
+  "start": 5.815,
+  "end": 6.142,
+  "display": "produce",
+  "break": false
+ },
+ {
+  "text": "them",
+  "start": 6.154,
+  "end": 6.397,
+  "display": "them.",
+  "break": true
+ }
+]

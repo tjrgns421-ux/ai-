@@ -1,0 +1,303 @@
+[
+ {
+  "text": "So",
+  "start": 0.1,
+  "end": 0.367,
+  "display": "So",
+  "break": false
+ },
+ {
+  "text": "here",
+  "start": 0.379,
+  "end": 0.561,
+  "display": "here",
+  "break": false
+ },
+ {
+  "text": "are",
+  "start": 0.573,
+  "end": 0.646,
+  "display": "are",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 0.658,
+  "end": 0.731,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "four",
+  "start": 0.743,
+  "end": 1.01,
+  "display": "four",
+  "break": false
+ },
+ {
+  "text": "explanations",
+  "start": 1.022,
+  "end": 1.848,
+  "display": "explanations.",
+  "break": true
+ },
+ {
+  "text": "One",
+  "start": 2.198,
+  "end": 2.55,
+  "display": "One",
+  "break": false
+ },
+ {
+  "text": "Richard",
+  "start": 2.866,
+  "end": 3.12,
+  "display": "Richard",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 3.133,
+  "end": 3.205,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "Third",
+  "start": 3.217,
+  "end": 3.557,
+  "display": "Third",
+  "break": false
+ },
+ {
+  "text": "had",
+  "start": 3.569,
+  "end": 3.727,
+  "display": "had",
+  "break": false
+ },
+ {
+  "text": "them",
+  "start": 3.739,
+  "end": 3.861,
+  "display": "them",
+  "break": false
+ },
+ {
+  "text": "killed",
+  "start": 3.873,
+  "end": 4.225,
+  "display": "killed.",
+  "break": true
+ },
+ {
+  "text": "Two",
+  "start": 4.577,
+  "end": 4.941,
+  "display": "Two",
+  "break": false
+ },
+ {
+  "text": "someone",
+  "start": 5.135,
+  "end": 5.45,
+  "display": "someone",
+  "break": false
+ },
+ {
+  "text": "else",
+  "start": 5.463,
+  "end": 5.657,
+  "display": "else",
+  "break": false
+ },
+ {
+  "text": "did",
+  "start": 5.669,
+  "end": 5.924,
+  "display": "did,",
+  "break": true
+ },
+ {
+  "text": "like",
+  "start": 6.045,
+  "end": 6.215,
+  "display": "like",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 6.227,
+  "end": 6.312,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "Duke",
+  "start": 6.324,
+  "end": 6.543,
+  "display": "Duke",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 6.555,
+  "end": 6.652,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "Buckingham",
+  "start": 6.664,
+  "end": 7.222,
+  "display": "Buckingham,",
+  "break": true
+ },
+ {
+  "text": "or",
+  "start": 7.344,
+  "end": 7.453,
+  "display": "or",
+  "break": false
+ },
+ {
+  "text": "later",
+  "start": 7.465,
+  "end": 7.756,
+  "display": "later",
+  "break": false
+ },
+ {
+  "text": "Henry",
+  "start": 7.768,
+  "end": 8.072,
+  "display": "Henry",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 8.084,
+  "end": 8.181,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "Seventh",
+  "start": 8.193,
+  "end": 8.618,
+  "display": "Seventh.",
+  "break": true
+ },
+ {
+  "text": "Three",
+  "start": 8.97,
+  "end": 9.346,
+  "display": "Three",
+  "break": false
+ },
+ {
+  "text": "they",
+  "start": 9.407,
+  "end": 9.54,
+  "display": "they",
+  "break": false
+ },
+ {
+  "text": "died",
+  "start": 9.552,
+  "end": 9.795,
+  "display": "died",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 9.807,
+  "end": 9.88,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "illness",
+  "start": 9.892,
+  "end": 10.244,
+  "display": "illness,",
+  "break": true
+ },
+ {
+  "text": "and",
+  "start": 10.268,
+  "end": 10.414,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "nobody",
+  "start": 10.426,
+  "end": 10.766,
+  "display": "nobody",
+  "break": false
+ },
+ {
+  "text": "admitted",
+  "start": 10.778,
+  "end": 11.057,
+  "display": "admitted",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 11.069,
+  "end": 11.191,
+  "display": "it.",
+  "break": true
+ },
+ {
+  "text": "Four",
+  "start": 11.543,
+  "end": 11.967,
+  "display": "Four",
+  "break": false
+ },
+ {
+  "text": "at",
+  "start": 12.052,
+  "end": 12.137,
+  "display": "at",
+  "break": false
+ },
+ {
+  "text": "least",
+  "start": 12.149,
+  "end": 12.392,
+  "display": "least",
+  "break": false
+ },
+ {
+  "text": "one",
+  "start": 12.404,
+  "end": 12.55,
+  "display": "one",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 12.562,
+  "end": 12.611,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "them",
+  "start": 12.623,
+  "end": 12.732,
+  "display": "them",
+  "break": false
+ },
+ {
+  "text": "survived",
+  "start": 12.744,
+  "end": 13.29,
+  "display": "survived.",
+  "break": true
+ }
+]

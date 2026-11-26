@@ -1,0 +1,37 @@
+[
+ {
+  "text": "They",
+  "start": 0.1,
+  "end": 0.27,
+  "display": "They",
+  "break": false
+ },
+ {
+  "text": "died",
+  "start": 0.282,
+  "end": 0.513,
+  "display": "died",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 0.525,
+  "end": 0.598,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "illness",
+  "start": 0.61,
+  "end": 1.034,
+  "display": "illness",
+  "break": false
+ },
+ {
+  "text": "twelve",
+  "start": 1.071,
+  "end": 1.459,
+  "display": "twelve.",
+  "break": true
+ }
+]

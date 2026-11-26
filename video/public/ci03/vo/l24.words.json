@@ -1,0 +1,135 @@
+[
+ {
+  "text": "Still",
+  "start": 0.1,
+  "end": 0.585,
+  "display": "Still,",
+  "break": true
+ },
+ {
+  "text": "a",
+  "start": 0.658,
+  "end": 0.695,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "child's",
+  "start": 0.707,
+  "end": 1.107,
+  "display": "child's",
+  "break": false
+ },
+ {
+  "text": "skeleton",
+  "start": 1.119,
+  "end": 1.617,
+  "display": "skeleton",
+  "break": false
+ },
+ {
+  "text": "is",
+  "start": 1.629,
+  "end": 1.799,
+  "display": "is",
+  "break": false
+ },
+ {
+  "text": "not",
+  "start": 1.811,
+  "end": 2.078,
+  "display": "not",
+  "break": false
+ },
+ {
+  "text": "easy",
+  "start": 2.115,
+  "end": 2.406,
+  "display": "easy",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 2.418,
+  "end": 2.527,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "come",
+  "start": 2.539,
+  "end": 2.782,
+  "display": "come",
+  "break": false
+ },
+ {
+  "text": "by",
+  "start": 2.794,
+  "end": 2.988,
+  "display": "by",
+  "break": false
+ },
+ {
+  "text": "under",
+  "start": 3.001,
+  "end": 3.268,
+  "display": "under",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 3.28,
+  "end": 3.34,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "royal",
+  "start": 3.352,
+  "end": 3.656,
+  "display": "royal",
+  "break": false
+ },
+ {
+  "text": "fortress",
+  "start": 3.668,
+  "end": 4.238,
+  "display": "fortress.",
+  "break": true
+ },
+ {
+  "text": "Richard",
+  "start": 4.589,
+  "end": 4.953,
+  "display": "Richard",
+  "break": false
+ },
+ {
+  "text": "goes",
+  "start": 4.965,
+  "end": 5.208,
+  "display": "goes",
+  "break": false
+ },
+ {
+  "text": "up",
+  "start": 5.22,
+  "end": 5.402,
+  "display": "up,",
+  "break": true
+ },
+ {
+  "text": "a",
+  "start": 5.499,
+  "end": 5.56,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "little",
+  "start": 5.572,
+  "end": 5.887,
+  "display": "little.",
+  "break": true
+ }
+]

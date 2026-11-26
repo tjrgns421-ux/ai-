@@ -1,0 +1,170 @@
+[
+ {
+  "text": "My",
+  "start": 0.1,
+  "end": 0.294,
+  "display": "My",
+  "break": false
+ },
+ {
+  "text": "question",
+  "start": 0.306,
+  "end": 0.792,
+  "display": "question",
+  "break": false
+ },
+ {
+  "text": "is",
+  "start": 0.804,
+  "end": 0.95,
+  "display": "is",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 0.962,
+  "end": 1.047,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "one",
+  "start": 1.059,
+  "end": 1.435,
+  "display": "one",
+  "break": false
+ },
+ {
+  "text": "everybody",
+  "start": 1.447,
+  "end": 1.896,
+  "display": "everybody",
+  "break": false
+ },
+ {
+  "text": "asks",
+  "start": 1.908,
+  "end": 2.406,
+  "display": "asks.",
+  "break": true
+ },
+ {
+  "text": "Did",
+  "start": 2.756,
+  "end": 2.987,
+  "display": "Did",
+  "break": false
+ },
+ {
+  "text": "Richard",
+  "start": 2.999,
+  "end": 3.315,
+  "display": "Richard",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 3.327,
+  "end": 3.4,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "Third",
+  "start": 3.412,
+  "end": 3.679,
+  "display": "Third",
+  "break": false
+ },
+ {
+  "text": "do",
+  "start": 3.691,
+  "end": 3.824,
+  "display": "do",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 3.836,
+  "end": 3.97,
+  "display": "it?",
+  "break": true
+ },
+ {
+  "text": "With",
+  "start": 4.322,
+  "end": 4.528,
+  "display": "With",
+  "break": false
+ },
+ {
+  "text": "no",
+  "start": 4.54,
+  "end": 4.734,
+  "display": "no",
+  "break": false
+ },
+ {
+  "text": "evidence",
+  "start": 4.747,
+  "end": 5.147,
+  "display": "evidence",
+  "break": false
+ },
+ {
+  "text": "at",
+  "start": 5.159,
+  "end": 5.256,
+  "display": "at",
+  "break": false
+ },
+ {
+  "text": "all",
+  "start": 5.268,
+  "end": 5.535,
+  "display": "all,",
+  "break": true
+ },
+ {
+  "text": "each",
+  "start": 5.608,
+  "end": 5.766,
+  "display": "each",
+  "break": false
+ },
+ {
+  "text": "option",
+  "start": 5.778,
+  "end": 6.13,
+  "display": "option",
+  "break": false
+ },
+ {
+  "text": "starts",
+  "start": 6.142,
+  "end": 6.531,
+  "display": "starts",
+  "break": false
+ },
+ {
+  "text": "at",
+  "start": 6.543,
+  "end": 6.652,
+  "display": "at",
+  "break": false
+ },
+ {
+  "text": "twenty-five",
+  "start": 6.664,
+  "end": 7.21,
+  "display": "twenty-five",
+  "break": false
+ },
+ {
+  "text": "percent",
+  "start": 7.222,
+  "end": 7.635,
+  "display": "percent.",
+  "break": true
+ }
+]

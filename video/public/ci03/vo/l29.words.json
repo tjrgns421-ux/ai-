@@ -1,0 +1,107 @@
+[
+ {
+  "text": "That",
+  "start": 0.1,
+  "end": 0.331,
+  "display": "That",
+  "break": false
+ },
+ {
+  "text": "makes",
+  "start": 0.343,
+  "end": 0.549,
+  "display": "makes",
+  "break": false
+ },
+ {
+  "text": "More's",
+  "start": 0.561,
+  "end": 0.828,
+  "display": "More's",
+  "break": false
+ },
+ {
+  "text": "details",
+  "start": 0.84,
+  "end": 1.326,
+  "display": "details",
+  "break": false
+ },
+ {
+  "text": "more",
+  "start": 1.338,
+  "end": 1.593,
+  "display": "more",
+  "break": false
+ },
+ {
+  "text": "believable",
+  "start": 1.605,
+  "end": 2.139,
+  "display": "believable.",
+  "break": true
+ },
+ {
+  "text": "Not",
+  "start": 2.489,
+  "end": 2.756,
+  "display": "Not",
+  "break": false
+ },
+ {
+  "text": "proven",
+  "start": 2.768,
+  "end": 3.133,
+  "display": "proven.",
+  "break": true
+ },
+ {
+  "text": "More",
+  "start": 3.484,
+  "end": 3.703,
+  "display": "More",
+  "break": false
+ },
+ {
+  "text": "believable",
+  "start": 3.715,
+  "end": 4.237,
+  "display": "believable.",
+  "break": true
+ },
+ {
+  "text": "Richard",
+  "start": 4.589,
+  "end": 4.989,
+  "display": "Richard",
+  "break": false
+ },
+ {
+  "text": "gets",
+  "start": 5.001,
+  "end": 5.208,
+  "display": "gets",
+  "break": false
+ },
+ {
+  "text": "his",
+  "start": 5.22,
+  "end": 5.366,
+  "display": "his",
+  "break": false
+ },
+ {
+  "text": "biggest",
+  "start": 5.378,
+  "end": 5.693,
+  "display": "biggest",
+  "break": false
+ },
+ {
+  "text": "move",
+  "start": 5.705,
+  "end": 6.033,
+  "display": "move.",
+  "break": true
+ }
+]

@@ -1,0 +1,65 @@
+[
+ {
+  "text": "Evidence",
+  "start": 0.1,
+  "end": 0.537,
+  "display": "Evidence",
+  "break": false
+ },
+ {
+  "text": "six",
+  "start": 0.549,
+  "end": 0.865,
+  "display": "six",
+  "break": false
+ },
+ {
+  "text": "is",
+  "start": 0.901,
+  "end": 1.059,
+  "display": "is",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 1.071,
+  "end": 1.119,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "single",
+  "start": 1.132,
+  "end": 1.483,
+  "display": "single",
+  "break": false
+ },
+ {
+  "text": "line",
+  "start": 1.496,
+  "end": 1.823,
+  "display": "line",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 1.835,
+  "end": 1.969,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 1.981,
+  "end": 2.042,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "will",
+  "start": 2.054,
+  "end": 2.333,
+  "display": "will.",
+  "break": true
+ }
+]

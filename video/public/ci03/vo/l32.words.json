@@ -1,0 +1,240 @@
+[
+ {
+  "text": "The",
+  "start": 0.1,
+  "end": 0.258,
+  "display": "The",
+  "break": false
+ },
+ {
+  "text": "strongest",
+  "start": 0.27,
+  "end": 0.78,
+  "display": "strongest",
+  "break": false
+ },
+ {
+  "text": "is",
+  "start": 0.792,
+  "end": 0.913,
+  "display": "is",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 0.925,
+  "end": 0.974,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "statement",
+  "start": 0.986,
+  "end": 1.483,
+  "display": "statement",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 1.496,
+  "end": 1.593,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 1.605,
+  "end": 1.69,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "Gelderland",
+  "start": 1.702,
+  "end": 2.309,
+  "display": "Gelderland",
+  "break": false
+ },
+ {
+  "text": "archives",
+  "start": 2.321,
+  "end": 2.964,
+  "display": "archives,",
+  "break": true
+ },
+ {
+  "text": "linked",
+  "start": 3.037,
+  "end": 3.255,
+  "display": "linked",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 3.267,
+  "end": 3.352,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 3.365,
+  "end": 3.401,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "young",
+  "start": 3.413,
+  "end": 3.692,
+  "display": "young",
+  "break": false
+ },
+ {
+  "text": "man",
+  "start": 3.704,
+  "end": 3.935,
+  "display": "man",
+  "break": false
+ },
+ {
+  "text": "who",
+  "start": 3.947,
+  "end": 4.093,
+  "display": "who",
+  "break": false
+ },
+ {
+  "text": "called",
+  "start": 4.105,
+  "end": 4.384,
+  "display": "called",
+  "break": false
+ },
+ {
+  "text": "himself",
+  "start": 4.396,
+  "end": 4.821,
+  "display": "himself",
+  "break": false
+ },
+ {
+  "text": "Richard",
+  "start": 4.833,
+  "end": 5.246,
+  "display": "Richard,",
+  "break": true
+ },
+ {
+  "text": "Duke",
+  "start": 5.331,
+  "end": 5.537,
+  "display": "Duke",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 5.549,
+  "end": 5.61,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "York",
+  "start": 5.622,
+  "end": 5.974,
+  "display": "York.",
+  "break": true
+ },
+ {
+  "text": "History",
+  "start": 6.324,
+  "end": 6.798,
+  "display": "History",
+  "break": false
+ },
+ {
+  "text": "remembers",
+  "start": 6.81,
+  "end": 7.259,
+  "display": "remembers",
+  "break": false
+ },
+ {
+  "text": "him",
+  "start": 7.271,
+  "end": 7.404,
+  "display": "him",
+  "break": false
+ },
+ {
+  "text": "as",
+  "start": 7.429,
+  "end": 7.562,
+  "display": "as",
+  "break": false
+ },
+ {
+  "text": "Perkin",
+  "start": 7.574,
+  "end": 7.938,
+  "display": "Perkin",
+  "break": false
+ },
+ {
+  "text": "Warbeck",
+  "start": 7.95,
+  "end": 8.412,
+  "display": "Warbeck,",
+  "break": true
+ },
+ {
+  "text": "the",
+  "start": 8.448,
+  "end": 8.545,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "pretender",
+  "start": 8.557,
+  "end": 8.958,
+  "display": "pretender",
+  "break": false
+ },
+ {
+  "text": "Henry",
+  "start": 8.97,
+  "end": 9.358,
+  "display": "Henry",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 9.37,
+  "end": 9.455,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "Seventh",
+  "start": 9.467,
+  "end": 9.88,
+  "display": "Seventh",
+  "break": false
+ },
+ {
+  "text": "executed",
+  "start": 9.916,
+  "end": 10.475,
+  "display": "executed",
+  "break": false
+ },
+ {
+  "text": "in 1499",
+  "start": 10.487,
+  "end": 11.882,
+  "display": "in 1499.",
+  "break": true
+ }
+]

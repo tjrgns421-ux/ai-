@@ -91,3 +91,10 @@ export const ShortFrame: React.FC<{ t: ShortTiming; audio: string; scenes: Short
     </AbsoluteFill>
   );
 };
+
+// scale a 16:9-sized scene (1920x1080 layout) down to fit the 1080-wide vertical frame
+export const Fit: React.FC<{ s: number; children: React.ReactNode }> = ({ s, children }) => (
+  <AbsoluteFill style={{ justifyContent: "center", alignItems: "center" }}>
+    <div style={{ width: 1920, height: 1080, transform: `scale(${s})`, position: "relative", flexShrink: 0 }}>{children}</div>
+  </AbsoluteFill>
+);

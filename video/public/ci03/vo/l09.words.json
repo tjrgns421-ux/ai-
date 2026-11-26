@@ -1,0 +1,65 @@
+[
+ {
+  "text": "Let's",
+  "start": 0.1,
+  "end": 0.367,
+  "display": "Let's",
+  "break": false
+ },
+ {
+  "text": "start",
+  "start": 0.379,
+  "end": 0.598,
+  "display": "start",
+  "break": false
+ },
+ {
+  "text": "with",
+  "start": 0.61,
+  "end": 0.707,
+  "display": "with",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 0.719,
+  "end": 0.828,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "only",
+  "start": 0.865,
+  "end": 1.217,
+  "display": "only",
+  "break": false
+ },
+ {
+  "text": "eyewitness-level",
+  "start": 1.229,
+  "end": 2.03,
+  "display": "eyewitness-level",
+  "break": false
+ },
+ {
+  "text": "report",
+  "start": 2.042,
+  "end": 2.406,
+  "display": "report",
+  "break": false
+ },
+ {
+  "text": "we",
+  "start": 2.418,
+  "end": 2.503,
+  "display": "we",
+  "break": false
+ },
+ {
+  "text": "have",
+  "start": 2.515,
+  "end": 2.843,
+  "display": "have.",
+  "break": true
+ }
+]

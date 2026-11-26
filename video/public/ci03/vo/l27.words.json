@@ -1,0 +1,156 @@
+[
+ {
+  "text": "More",
+  "start": 0.1,
+  "end": 0.391,
+  "display": "More",
+  "break": false
+ },
+ {
+  "text": "wrote",
+  "start": 0.403,
+  "end": 0.646,
+  "display": "wrote",
+  "break": false
+ },
+ {
+  "text": "under",
+  "start": 0.658,
+  "end": 0.84,
+  "display": "under",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 0.852,
+  "end": 0.937,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "Tudors",
+  "start": 0.95,
+  "end": 1.399,
+  "display": "Tudors,",
+  "break": true
+ },
+ {
+  "text": "who",
+  "start": 1.423,
+  "end": 1.544,
+  "display": "who",
+  "break": false
+ },
+ {
+  "text": "had",
+  "start": 1.556,
+  "end": 1.775,
+  "display": "had",
+  "break": false
+ },
+ {
+  "text": "every",
+  "start": 1.811,
+  "end": 2.115,
+  "display": "every",
+  "break": false
+ },
+ {
+  "text": "reason",
+  "start": 2.127,
+  "end": 2.491,
+  "display": "reason",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 2.503,
+  "end": 2.624,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "blacken",
+  "start": 2.636,
+  "end": 3.025,
+  "display": "blacken",
+  "break": false
+ },
+ {
+  "text": "Richard",
+  "start": 3.037,
+  "end": 3.437,
+  "display": "Richard.",
+  "break": true
+ },
+ {
+  "text": "For",
+  "start": 3.788,
+  "end": 3.982,
+  "display": "For",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 3.994,
+  "end": 4.055,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "long",
+  "start": 4.067,
+  "end": 4.298,
+  "display": "long",
+  "break": false
+ },
+ {
+  "text": "time",
+  "start": 4.31,
+  "end": 4.674,
+  "display": "time,",
+  "break": true
+ },
+ {
+  "text": "historians",
+  "start": 4.698,
+  "end": 5.341,
+  "display": "historians",
+  "break": false
+ },
+ {
+  "text": "treated",
+  "start": 5.353,
+  "end": 5.693,
+  "display": "treated",
+  "break": false
+ },
+ {
+  "text": "his",
+  "start": 5.705,
+  "end": 5.839,
+  "display": "his",
+  "break": false
+ },
+ {
+  "text": "account",
+  "start": 5.851,
+  "end": 6.312,
+  "display": "account",
+  "break": false
+ },
+ {
+  "text": "as",
+  "start": 6.324,
+  "end": 6.421,
+  "display": "as",
+  "break": false
+ },
+ {
+  "text": "propaganda",
+  "start": 6.434,
+  "end": 7.113,
+  "display": "propaganda.",
+  "break": true
+ }
+]

@@ -1,0 +1,191 @@
+[
+ {
+  "text": "Mancini",
+  "start": 0.1,
+  "end": 0.658,
+  "display": "Mancini",
+  "break": false
+ },
+ {
+  "text": "wrote",
+  "start": 0.67,
+  "end": 0.95,
+  "display": "wrote",
+  "break": false
+ },
+ {
+  "text": "that",
+  "start": 0.962,
+  "end": 1.083,
+  "display": "that",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 1.095,
+  "end": 1.18,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "boys",
+  "start": 1.192,
+  "end": 1.568,
+  "display": "boys",
+  "break": false
+ },
+ {
+  "text": "were",
+  "start": 1.581,
+  "end": 1.678,
+  "display": "were",
+  "break": false
+ },
+ {
+  "text": "moved",
+  "start": 1.69,
+  "end": 1.969,
+  "display": "moved",
+  "break": false
+ },
+ {
+  "text": "further",
+  "start": 1.981,
+  "end": 2.369,
+  "display": "further",
+  "break": false
+ },
+ {
+  "text": "inside",
+  "start": 2.382,
+  "end": 2.818,
+  "display": "inside",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 2.831,
+  "end": 2.903,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "Tower",
+  "start": 2.916,
+  "end": 3.377,
+  "display": "Tower,",
+  "break": true
+ },
+ {
+  "text": "and",
+  "start": 3.486,
+  "end": 3.583,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "seen",
+  "start": 3.595,
+  "end": 3.862,
+  "display": "seen",
+  "break": false
+ },
+ {
+  "text": "less",
+  "start": 3.874,
+  "end": 4.166,
+  "display": "less",
+  "break": false
+ },
+ {
+  "text": "and",
+  "start": 4.178,
+  "end": 4.372,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "less",
+  "start": 4.384,
+  "end": 4.602,
+  "display": "less",
+  "break": false
+ },
+ {
+  "text": "behind",
+  "start": 4.615,
+  "end": 5.015,
+  "display": "behind",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 5.027,
+  "end": 5.1,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "bars",
+  "start": 5.112,
+  "end": 5.464,
+  "display": "bars",
+  "break": false
+ },
+ {
+  "text": "and",
+  "start": 5.476,
+  "end": 5.61,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "windows",
+  "start": 5.622,
+  "end": 6.071,
+  "display": "windows,",
+  "break": true
+ },
+ {
+  "text": "until",
+  "start": 6.119,
+  "end": 6.399,
+  "display": "until",
+  "break": false
+ },
+ {
+  "text": "they",
+  "start": 6.411,
+  "end": 6.508,
+  "display": "they",
+  "break": false
+ },
+ {
+  "text": "stopped",
+  "start": 6.52,
+  "end": 6.884,
+  "display": "stopped",
+  "break": false
+ },
+ {
+  "text": "appearing",
+  "start": 6.896,
+  "end": 7.284,
+  "display": "appearing",
+  "break": false
+ },
+ {
+  "text": "at",
+  "start": 7.297,
+  "end": 7.382,
+  "display": "at",
+  "break": false
+ },
+ {
+  "text": "all",
+  "start": 7.394,
+  "end": 7.661,
+  "display": "all.",
+  "break": true
+ }
+]

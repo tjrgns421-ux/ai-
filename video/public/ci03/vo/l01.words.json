@@ -1,0 +1,191 @@
+[
+ {
+  "text": "Before",
+  "start": 0.1,
+  "end": 0.5,
+  "display": "Before",
+  "break": false
+ },
+ {
+  "text": "you",
+  "start": 0.513,
+  "end": 0.61,
+  "display": "you",
+  "break": false
+ },
+ {
+  "text": "decide",
+  "start": 0.622,
+  "end": 1.059,
+  "display": "decide",
+  "break": false
+ },
+ {
+  "text": "Richard",
+  "start": 1.071,
+  "end": 1.423,
+  "display": "Richard",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 1.435,
+  "end": 1.508,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "Third",
+  "start": 1.52,
+  "end": 1.884,
+  "display": "Third",
+  "break": false
+ },
+ {
+  "text": "murdered",
+  "start": 1.896,
+  "end": 2.236,
+  "display": "murdered",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 2.248,
+  "end": 2.333,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "Princes",
+  "start": 2.345,
+  "end": 2.782,
+  "display": "Princes",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 2.794,
+  "end": 2.952,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 2.964,
+  "end": 3.049,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "Tower",
+  "start": 3.061,
+  "end": 3.534,
+  "display": "Tower,",
+  "break": true
+ },
+ {
+  "text": "you",
+  "start": 3.571,
+  "end": 3.692,
+  "display": "you",
+  "break": false
+ },
+ {
+  "text": "should",
+  "start": 3.704,
+  "end": 3.899,
+  "display": "should",
+  "break": false
+ },
+ {
+  "text": "know",
+  "start": 3.911,
+  "end": 4.093,
+  "display": "know",
+  "break": false
+ },
+ {
+  "text": "what",
+  "start": 4.105,
+  "end": 4.263,
+  "display": "what",
+  "break": false
+ },
+ {
+  "text": "one",
+  "start": 4.275,
+  "end": 4.517,
+  "display": "one",
+  "break": false
+ },
+ {
+  "text": "gold",
+  "start": 4.53,
+  "end": 4.821,
+  "display": "gold",
+  "break": false
+ },
+ {
+  "text": "chain",
+  "start": 4.833,
+  "end": 5.27,
+  "display": "chain",
+  "break": false
+ },
+ {
+  "text": "and",
+  "start": 5.282,
+  "end": 5.452,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "one",
+  "start": 5.464,
+  "end": 5.683,
+  "display": "one",
+  "break": false
+ },
+ {
+  "text": "Dutch",
+  "start": 5.695,
+  "end": 5.937,
+  "display": "Dutch",
+  "break": false
+ },
+ {
+  "text": "archive",
+  "start": 5.962,
+  "end": 6.447,
+  "display": "archive",
+  "break": false
+ },
+ {
+  "text": "did",
+  "start": 6.459,
+  "end": 6.617,
+  "display": "did",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 6.629,
+  "end": 6.714,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "my",
+  "start": 6.726,
+  "end": 6.86,
+  "display": "my",
+  "break": false
+ },
+ {
+  "text": "number",
+  "start": 6.872,
+  "end": 7.297,
+  "display": "number.",
+  "break": true
+ }
+]

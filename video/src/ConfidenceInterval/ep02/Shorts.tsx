@@ -1,7 +1,6 @@
 import React from "react";
-import { AbsoluteFill } from "remotion";
 import { ArchivalPan, CitationTag, MeterKey, TextCard } from "../components";
-import { EndCard, ShortFrame, ShortMeta, ShortScene, ShortTiming, VBoard, shortFrames, wordAt } from "../Short";
+import { EndCard, Fit, ShortFrame, ShortMeta, ShortScene, ShortTiming, VBoard, shortFrames, wordAt } from "../Short";
 import { NAMES, QUESTION } from "./Ep02";
 import { Carved, Hammerscale, Signal } from "./Scenes";
 import S1 from "./short1.json";
@@ -13,13 +12,6 @@ const T2 = S2 as ShortTiming;
 export const CI02S1_FRAMES = shortFrames(T1);
 export const CI02S2_FRAMES = shortFrames(T2);
 const IMG = (n: string) => `ci02/img/${n}.jpg`;
-
-// scale a 16:9-sized scene down to fit the 1080-wide frame
-const Fit: React.FC<{ s: number; children: React.ReactNode }> = ({ s, children }) => (
-  <AbsoluteFill style={{ justifyContent: "center", alignItems: "center" }}>
-    <div style={{ width: 1920, height: 1080, transform: `scale(${s})`, position: "relative", flexShrink: 0 }}>{children}</div>
-  </AbsoluteFill>
-);
 
 /* ---------------- Short 1: one carved word */
 const w1 = wordAt(T1);

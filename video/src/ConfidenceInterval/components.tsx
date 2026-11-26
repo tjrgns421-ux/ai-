@@ -503,3 +503,34 @@ export const HearsayChain: React.FC<{ hops: { who: string; what: string }[]; at?
     </AbsoluteFill>
   );
 };
+
+/* ------------------------------------------------------------------ KnownUnknown */
+
+// Two columns: what a piece of evidence establishes vs what it cannot. Rows appear in turn.
+export const KnownUnknown: React.FC<{ title?: string; known: string[]; unknown: string[]; at?: number; split?: number }> = ({ title, known, unknown, at = 0, split = 60 }) => {
+  const f = useCurrentFrame() - at;
+  const row = (txt: string, d: number, ok: boolean) => {
+    const a = interpolate(f, [d, d + 12], [0, 1], { ...clamp, easing: outExpo });
+    return (
+      <div key={txt} style={{ display: "flex", gap: 20, alignItems: "baseline", opacity: a, translate: `0 ${(1 - a) * 20}px` }}>
+        <span style={{ color: ok ? C.amber : C.dim, fontSize: 46, fontWeight: 900, width: 40 }}>{ok ? "✓" : "?"}</span>
+        <span style={{ color: ok ? C.ink : C.sub, fontSize: 46, fontWeight: 800 }}>{txt}</span>
+      </div>
+    );
+  };
+  return (
+    <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", paddingBottom: 150, fontFamily: FONT }}>
+      {title && <div style={{ color: C.sub, fontSize: 30, fontWeight: 800, letterSpacing: 4, marginBottom: 50 }}>{title}</div>}
+      <div style={{ display: "flex", gap: 120 }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: 26, width: 640 }}>
+          <div style={{ color: C.amber, fontSize: 28, fontWeight: 800, letterSpacing: 4 }}>WHAT IT SHOWS</div>
+          {known.map((k, i) => row(k, 10 + i * 18, true))}
+        </div>
+        <div style={{ display: "flex", flexDirection: "column", gap: 26, width: 640 }}>
+          <div style={{ color: C.dim, fontSize: 28, fontWeight: 800, letterSpacing: 4 }}>WHAT IT CAN&apos;T</div>
+          {unknown.map((k, i) => row(k, split + i * 18, false))}
+        </div>
+      </div>
+    </AbsoluteFill>
+  );
+};

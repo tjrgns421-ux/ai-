@@ -1,0 +1,191 @@
+[
+ {
+  "text": "The",
+  "start": 0.1,
+  "end": 0.258,
+  "display": "The",
+  "break": false
+ },
+ {
+  "text": "simplest",
+  "start": 0.27,
+  "end": 0.683,
+  "display": "simplest",
+  "break": false
+ },
+ {
+  "text": "way",
+  "start": 0.695,
+  "end": 0.816,
+  "display": "way",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 0.828,
+  "end": 0.913,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "kill",
+  "start": 0.925,
+  "end": 1.168,
+  "display": "kill",
+  "break": false
+ },
+ {
+  "text": "that",
+  "start": 1.18,
+  "end": 1.386,
+  "display": "that",
+  "break": false
+ },
+ {
+  "text": "rumor",
+  "start": 1.399,
+  "end": 1.738,
+  "display": "rumor",
+  "break": false
+ },
+ {
+  "text": "would",
+  "start": 1.75,
+  "end": 1.86,
+  "display": "would",
+  "break": false
+ },
+ {
+  "text": "have",
+  "start": 1.872,
+  "end": 2.017,
+  "display": "have",
+  "break": false
+ },
+ {
+  "text": "been",
+  "start": 2.03,
+  "end": 2.212,
+  "display": "been",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 2.224,
+  "end": 2.345,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "show",
+  "start": 2.357,
+  "end": 2.661,
+  "display": "show",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 2.673,
+  "end": 2.77,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "boys",
+  "start": 2.782,
+  "end": 3.134,
+  "display": "boys",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 3.146,
+  "end": 3.255,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "public",
+  "start": 3.267,
+  "end": 3.729,
+  "display": "public.",
+  "break": true
+ },
+ {
+  "text": "Richard",
+  "start": 4.079,
+  "end": 4.48,
+  "display": "Richard",
+  "break": false
+ },
+ {
+  "text": "never",
+  "start": 4.492,
+  "end": 4.722,
+  "display": "never",
+  "break": false
+ },
+ {
+  "text": "did",
+  "start": 4.734,
+  "end": 4.989,
+  "display": "did.",
+  "break": true
+ },
+ {
+  "text": "Not",
+  "start": 5.341,
+  "end": 5.608,
+  "display": "Not",
+  "break": false
+ },
+ {
+  "text": "once",
+  "start": 5.62,
+  "end": 5.887,
+  "display": "once,",
+  "break": true
+ },
+ {
+  "text": "for",
+  "start": 5.912,
+  "end": 6.045,
+  "display": "for",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 6.057,
+  "end": 6.142,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "rest",
+  "start": 6.154,
+  "end": 6.446,
+  "display": "rest",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 6.458,
+  "end": 6.518,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "his",
+  "start": 6.531,
+  "end": 6.676,
+  "display": "his",
+  "break": false
+ },
+ {
+  "text": "reign",
+  "start": 6.688,
+  "end": 6.98,
+  "display": "reign.",
+  "break": true
+ }
+]

@@ -1,0 +1,86 @@
+[
+ {
+  "text": "Evidence",
+  "start": 0.1,
+  "end": 0.549,
+  "display": "Evidence",
+  "break": false
+ },
+ {
+  "text": "four",
+  "start": 0.561,
+  "end": 0.877,
+  "display": "four",
+  "break": false
+ },
+ {
+  "text": "is",
+  "start": 0.889,
+  "end": 1.071,
+  "display": "is",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 1.083,
+  "end": 1.168,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "story",
+  "start": 1.18,
+  "end": 1.593,
+  "display": "story",
+  "break": false
+ },
+ {
+  "text": "everyone",
+  "start": 1.605,
+  "end": 1.993,
+  "display": "everyone",
+  "break": false
+ },
+ {
+  "text": "knows",
+  "start": 2.005,
+  "end": 2.369,
+  "display": "knows,",
+  "break": true
+ },
+ {
+  "text": "and",
+  "start": 2.394,
+  "end": 2.551,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "where",
+  "start": 2.564,
+  "end": 2.709,
+  "display": "where",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 2.721,
+  "end": 2.794,
+  "display": "it",
+  "break": false
+ },
+ {
+  "text": "came",
+  "start": 2.806,
+  "end": 3.013,
+  "display": "came",
+  "break": false
+ },
+ {
+  "text": "from",
+  "start": 3.025,
+  "end": 3.328,
+  "display": "from.",
+  "break": true
+ }
+]

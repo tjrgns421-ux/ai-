@@ -1,0 +1,198 @@
+[
+ {
+  "text": "In 2023",
+  "start": 0.1,
+  "end": 1.156,
+  "display": "In 2023,",
+  "break": true
+ },
+ {
+  "text": "writer",
+  "start": 1.253,
+  "end": 1.52,
+  "display": "writer",
+  "break": false
+ },
+ {
+  "text": "Philippa",
+  "start": 1.532,
+  "end": 1.896,
+  "display": "Philippa",
+  "break": false
+ },
+ {
+  "text": "Langley",
+  "start": 1.908,
+  "end": 2.321,
+  "display": "Langley",
+  "break": false
+ },
+ {
+  "text": "published",
+  "start": 2.333,
+  "end": 2.831,
+  "display": "published",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 2.843,
+  "end": 2.928,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "results",
+  "start": 2.94,
+  "end": 3.437,
+  "display": "results",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 3.45,
+  "end": 3.522,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 3.534,
+  "end": 3.571,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "years-long",
+  "start": 3.583,
+  "end": 4.153,
+  "display": "years-long",
+  "break": false
+ },
+ {
+  "text": "search",
+  "start": 4.166,
+  "end": 4.457,
+  "display": "search",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 4.469,
+  "end": 4.554,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "European",
+  "start": 4.566,
+  "end": 5.161,
+  "display": "European",
+  "break": false
+ },
+ {
+  "text": "archives",
+  "start": 5.173,
+  "end": 5.78,
+  "display": "archives.",
+  "break": true
+ },
+ {
+  "text": "She",
+  "start": 6.13,
+  "end": 6.421,
+  "display": "She",
+  "break": false
+ },
+ {
+  "text": "argues",
+  "start": 6.434,
+  "end": 6.87,
+  "display": "argues",
+  "break": false
+ },
+ {
+  "text": "that",
+  "start": 6.883,
+  "end": 7.016,
+  "display": "that",
+  "break": false
+ },
+ {
+  "text": "documents",
+  "start": 7.028,
+  "end": 7.538,
+  "display": "documents",
+  "break": false
+ },
+ {
+  "text": "from",
+  "start": 7.55,
+  "end": 7.671,
+  "display": "from",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 7.684,
+  "end": 7.732,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "Netherlands",
+  "start": 7.744,
+  "end": 8.278,
+  "display": "Netherlands",
+  "break": false
+ },
+ {
+  "text": "and",
+  "start": 8.29,
+  "end": 8.436,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "elsewhere",
+  "start": 8.448,
+  "end": 8.897,
+  "display": "elsewhere",
+  "break": false
+ },
+ {
+  "text": "show",
+  "start": 8.934,
+  "end": 9.176,
+  "display": "show",
+  "break": false
+ },
+ {
+  "text": "both",
+  "start": 9.188,
+  "end": 9.455,
+  "display": "both",
+  "break": false
+ },
+ {
+  "text": "princes",
+  "start": 9.467,
+  "end": 9.856,
+  "display": "princes",
+  "break": false
+ },
+ {
+  "text": "alive",
+  "start": 9.868,
+  "end": 10.268,
+  "display": "alive",
+  "break": false
+ },
+ {
+  "text": "after 1485",
+  "start": 10.341,
+  "end": 11.919,
+  "display": "after 1485.",
+  "break": true
+ }
+]

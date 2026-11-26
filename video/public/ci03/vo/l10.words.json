@@ -1,0 +1,233 @@
+[
+ {
+  "text": "An",
+  "start": 0.1,
+  "end": 0.282,
+  "display": "An",
+  "break": false
+ },
+ {
+  "text": "Italian",
+  "start": 0.294,
+  "end": 0.792,
+  "display": "Italian",
+  "break": false
+ },
+ {
+  "text": "visitor",
+  "start": 0.804,
+  "end": 1.277,
+  "display": "visitor,",
+  "break": true
+ },
+ {
+  "text": "Dominic",
+  "start": 1.338,
+  "end": 1.75,
+  "display": "Dominic",
+  "break": false
+ },
+ {
+  "text": "Mancini",
+  "start": 1.763,
+  "end": 2.309,
+  "display": "Mancini,",
+  "break": true
+ },
+ {
+  "text": "was",
+  "start": 2.345,
+  "end": 2.503,
+  "display": "was",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 2.515,
+  "end": 2.636,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "London",
+  "start": 2.649,
+  "end": 3.0,
+  "display": "London",
+  "break": false
+ },
+ {
+  "text": "that",
+  "start": 3.013,
+  "end": 3.17,
+  "display": "that",
+  "break": false
+ },
+ {
+  "text": "summer",
+  "start": 3.183,
+  "end": 3.595,
+  "display": "summer.",
+  "break": true
+ },
+ {
+  "text": "He",
+  "start": 3.946,
+  "end": 4.128,
+  "display": "He",
+  "break": false
+ },
+ {
+  "text": "left",
+  "start": 4.14,
+  "end": 4.382,
+  "display": "left",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 4.395,
+  "end": 4.504,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "July 1483",
+  "start": 4.516,
+  "end": 6.021,
+  "display": "July 1483",
+  "break": false
+ },
+ {
+  "text": "and",
+  "start": 6.033,
+  "end": 6.191,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "wrote",
+  "start": 6.203,
+  "end": 6.385,
+  "display": "wrote",
+  "break": false
+ },
+ {
+  "text": "his",
+  "start": 6.397,
+  "end": 6.555,
+  "display": "his",
+  "break": false
+ },
+ {
+  "text": "report",
+  "start": 6.567,
+  "end": 6.955,
+  "display": "report",
+  "break": false
+ },
+ {
+  "text": "by",
+  "start": 6.967,
+  "end": 7.089,
+  "display": "by",
+  "break": false
+ },
+ {
+  "text": "December",
+  "start": 7.101,
+  "end": 7.635,
+  "display": "December.",
+  "break": true
+ },
+ {
+  "text": "It",
+  "start": 7.987,
+  "end": 8.145,
+  "display": "It",
+  "break": false
+ },
+ {
+  "text": "was",
+  "start": 8.157,
+  "end": 8.29,
+  "display": "was",
+  "break": false
+ },
+ {
+  "text": "lost",
+  "start": 8.302,
+  "end": 8.594,
+  "display": "lost",
+  "break": false
+ },
+ {
+  "text": "for",
+  "start": 8.606,
+  "end": 8.727,
+  "display": "for",
+  "break": false
+ },
+ {
+  "text": "centuries",
+  "start": 8.739,
+  "end": 9.322,
+  "display": "centuries,",
+  "break": true
+ },
+ {
+  "text": "and",
+  "start": 9.358,
+  "end": 9.492,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "found",
+  "start": 9.504,
+  "end": 9.807,
+  "display": "found",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 9.819,
+  "end": 9.904,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 9.916,
+  "end": 9.953,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "library",
+  "start": 9.965,
+  "end": 10.511,
+  "display": "library",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 10.523,
+  "end": 10.645,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "Lille",
+  "start": 10.657,
+  "end": 10.912,
+  "display": "Lille",
+  "break": false
+ },
+ {
+  "text": "in 1934",
+  "start": 10.936,
+  "end": 12.21,
+  "display": "in 1934.",
+  "break": true
+ }
+]

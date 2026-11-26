@@ -1,0 +1,212 @@
+[
+ {
+  "text": "Their",
+  "start": 0.1,
+  "end": 0.331,
+  "display": "Their",
+  "break": false
+ },
+ {
+  "text": "uncle",
+  "start": 0.343,
+  "end": 0.707,
+  "display": "uncle,",
+  "break": true
+ },
+ {
+  "text": "Richard",
+  "start": 0.852,
+  "end": 1.265,
+  "display": "Richard,",
+  "break": true
+ },
+ {
+  "text": "Duke",
+  "start": 1.35,
+  "end": 1.556,
+  "display": "Duke",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 1.568,
+  "end": 1.641,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "Gloucester",
+  "start": 1.653,
+  "end": 2.212,
+  "display": "Gloucester,",
+  "break": true
+ },
+ {
+  "text": "became",
+  "start": 2.26,
+  "end": 2.624,
+  "display": "became",
+  "break": false
+ },
+ {
+  "text": "Lord",
+  "start": 2.636,
+  "end": 2.94,
+  "display": "Lord",
+  "break": false
+ },
+ {
+  "text": "Protector",
+  "start": 2.952,
+  "end": 3.51,
+  "display": "Protector.",
+  "break": true
+ },
+ {
+  "text": "Within",
+  "start": 3.861,
+  "end": 4.249,
+  "display": "Within",
+  "break": false
+ },
+ {
+  "text": "weeks",
+  "start": 4.261,
+  "end": 4.637,
+  "display": "weeks,",
+  "break": true
+ },
+ {
+  "text": "the",
+  "start": 4.686,
+  "end": 4.795,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "boys",
+  "start": 4.807,
+  "end": 5.171,
+  "display": "boys",
+  "break": false
+ },
+ {
+  "text": "were",
+  "start": 5.184,
+  "end": 5.317,
+  "display": "were",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 5.329,
+  "end": 5.438,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 5.45,
+  "end": 5.548,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "Tower",
+  "start": 5.56,
+  "end": 5.936,
+  "display": "Tower",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 5.948,
+  "end": 6.057,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "London",
+  "start": 6.069,
+  "end": 6.47,
+  "display": "London,",
+  "break": true
+ },
+ {
+  "text": "which",
+  "start": 6.518,
+  "end": 6.664,
+  "display": "which",
+  "break": false
+ },
+ {
+  "text": "was",
+  "start": 6.676,
+  "end": 6.822,
+  "display": "was",
+  "break": false
+ },
+ {
+  "text": "then",
+  "start": 6.834,
+  "end": 6.992,
+  "display": "then",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 7.004,
+  "end": 7.052,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "royal",
+  "start": 7.065,
+  "end": 7.465,
+  "display": "royal",
+  "break": false
+ },
+ {
+  "text": "residence",
+  "start": 7.477,
+  "end": 7.963,
+  "display": "residence",
+  "break": false
+ },
+ {
+  "text": "as",
+  "start": 7.975,
+  "end": 8.133,
+  "display": "as",
+  "break": false
+ },
+ {
+  "text": "well",
+  "start": 8.145,
+  "end": 8.412,
+  "display": "well",
+  "break": false
+ },
+ {
+  "text": "as",
+  "start": 8.424,
+  "end": 8.521,
+  "display": "as",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 8.533,
+  "end": 8.582,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "prison",
+  "start": 8.594,
+  "end": 9.018,
+  "display": "prison.",
+  "break": true
+ }
+]

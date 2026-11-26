@@ -1,0 +1,205 @@
+[
+ {
+  "text": "But",
+  "start": 0.1,
+  "end": 0.27,
+  "display": "But",
+  "break": false
+ },
+ {
+  "text": "that's",
+  "start": 0.282,
+  "end": 0.476,
+  "display": "that's",
+  "break": false
+ },
+ {
+  "text": "all",
+  "start": 0.488,
+  "end": 0.61,
+  "display": "all",
+  "break": false
+ },
+ {
+  "text": "they",
+  "start": 0.622,
+  "end": 0.719,
+  "display": "they",
+  "break": false
+ },
+ {
+  "text": "could",
+  "start": 0.731,
+  "end": 0.852,
+  "display": "could",
+  "break": false
+ },
+ {
+  "text": "say",
+  "start": 0.865,
+  "end": 1.18,
+  "display": "say.",
+  "break": true
+ },
+ {
+  "text": "They",
+  "start": 1.531,
+  "end": 1.7,
+  "display": "They",
+  "break": false
+ },
+ {
+  "text": "couldn't",
+  "start": 1.713,
+  "end": 2.004,
+  "display": "couldn't",
+  "break": false
+ },
+ {
+  "text": "determine",
+  "start": 2.016,
+  "end": 2.465,
+  "display": "determine",
+  "break": false
+ },
+ {
+  "text": "sex",
+  "start": 2.477,
+  "end": 2.95,
+  "display": "sex.",
+  "break": true
+ },
+ {
+  "text": "They",
+  "start": 3.302,
+  "end": 3.46,
+  "display": "They",
+  "break": false
+ },
+ {
+  "text": "couldn't",
+  "start": 3.472,
+  "end": 3.8,
+  "display": "couldn't",
+  "break": false
+ },
+ {
+  "text": "determine",
+  "start": 3.812,
+  "end": 4.285,
+  "display": "determine",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 4.298,
+  "end": 4.383,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "century",
+  "start": 4.395,
+  "end": 4.916,
+  "display": "century.",
+  "break": true
+ },
+ {
+  "text": "And",
+  "start": 5.268,
+  "end": 5.535,
+  "display": "And",
+  "break": false
+ },
+ {
+  "text": "every",
+  "start": 5.548,
+  "end": 5.802,
+  "display": "every",
+  "break": false
+ },
+ {
+  "text": "request",
+  "start": 5.815,
+  "end": 6.203,
+  "display": "request",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 6.215,
+  "end": 6.276,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "test",
+  "start": 6.288,
+  "end": 6.591,
+  "display": "test",
+  "break": false
+ },
+ {
+  "text": "them",
+  "start": 6.603,
+  "end": 6.737,
+  "display": "them",
+  "break": false
+ },
+ {
+  "text": "with",
+  "start": 6.749,
+  "end": 6.919,
+  "display": "with",
+  "break": false
+ },
+ {
+  "text": "modern",
+  "start": 6.931,
+  "end": 7.271,
+  "display": "modern",
+  "break": false
+ },
+ {
+  "text": "methods",
+  "start": 7.283,
+  "end": 7.696,
+  "display": "methods,",
+  "break": true
+ },
+ {
+  "text": "including",
+  "start": 7.732,
+  "end": 8.205,
+  "display": "including",
+  "break": false
+ },
+ {
+  "text": "DNA",
+  "start": 8.217,
+  "end": 8.703,
+  "display": "DNA,",
+  "break": true
+ },
+ {
+  "text": "has",
+  "start": 8.885,
+  "end": 9.031,
+  "display": "has",
+  "break": false
+ },
+ {
+  "text": "been",
+  "start": 9.043,
+  "end": 9.2,
+  "display": "been",
+  "break": false
+ },
+ {
+  "text": "refused",
+  "start": 9.213,
+  "end": 9.795,
+  "display": "refused.",
+  "break": true
+ }
+]

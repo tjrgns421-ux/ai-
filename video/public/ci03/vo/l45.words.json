@@ -1,0 +1,163 @@
+[
+ {
+  "text": "Which",
+  "start": 0.1,
+  "end": 0.367,
+  "display": "Which",
+  "break": false
+ },
+ {
+  "text": "means",
+  "start": 0.379,
+  "end": 0.646,
+  "display": "means",
+  "break": false
+ },
+ {
+  "text": "I'm",
+  "start": 0.658,
+  "end": 0.804,
+  "display": "I'm",
+  "break": false
+ },
+ {
+  "text": "about",
+  "start": 0.816,
+  "end": 1.047,
+  "display": "about",
+  "break": false
+ },
+ {
+  "text": "forty-nine",
+  "start": 1.059,
+  "end": 1.617,
+  "display": "forty-nine",
+  "break": false
+ },
+ {
+  "text": "percent",
+  "start": 1.629,
+  "end": 2.03,
+  "display": "percent",
+  "break": false
+ },
+ {
+  "text": "sure",
+  "start": 2.042,
+  "end": 2.394,
+  "display": "sure",
+  "break": false
+ },
+ {
+  "text": "Richard",
+  "start": 2.406,
+  "end": 2.733,
+  "display": "Richard",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 2.746,
+  "end": 2.818,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "Third",
+  "start": 2.831,
+  "end": 3.207,
+  "display": "Third",
+  "break": false
+ },
+ {
+  "text": "had",
+  "start": 3.219,
+  "end": 3.377,
+  "display": "had",
+  "break": false
+ },
+ {
+  "text": "his",
+  "start": 3.389,
+  "end": 3.522,
+  "display": "his",
+  "break": false
+ },
+ {
+  "text": "nephews",
+  "start": 3.534,
+  "end": 4.032,
+  "display": "nephews",
+  "break": false
+ },
+ {
+  "text": "killed",
+  "start": 4.044,
+  "end": 4.384,
+  "display": "killed.",
+  "break": true
+ },
+ {
+  "text": "With",
+  "start": 4.734,
+  "end": 4.977,
+  "display": "With",
+  "break": false
+ },
+ {
+  "text": "honest",
+  "start": 5.001,
+  "end": 5.341,
+  "display": "honest",
+  "break": false
+ },
+ {
+  "text": "error",
+  "start": 5.353,
+  "end": 5.535,
+  "display": "error",
+  "break": false
+ },
+ {
+  "text": "bars",
+  "start": 5.548,
+  "end": 5.863,
+  "display": "bars,",
+  "break": true
+ },
+ {
+  "text": "somewhere",
+  "start": 5.924,
+  "end": 6.3,
+  "display": "somewhere",
+  "break": false
+ },
+ {
+  "text": "between",
+  "start": 6.312,
+  "end": 6.664,
+  "display": "between",
+  "break": false
+ },
+ {
+  "text": "thirty-five",
+  "start": 6.676,
+  "end": 7.368,
+  "display": "thirty-five",
+  "break": false
+ },
+ {
+  "text": "and",
+  "start": 7.404,
+  "end": 7.514,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "sixty-three",
+  "start": 7.526,
+  "end": 8.242,
+  "display": "sixty-three.",
+  "break": true
+ }
+]

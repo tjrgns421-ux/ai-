@@ -1,0 +1,240 @@
+[
+ {
+  "text": "In 2024",
+  "start": 0.1,
+  "end": 1.216,
+  "display": "In 2024,",
+  "break": true
+ },
+ {
+  "text": "Tim",
+  "start": 1.301,
+  "end": 1.508,
+  "display": "Tim",
+  "break": false
+ },
+ {
+  "text": "Thornton",
+  "start": 1.52,
+  "end": 1.945,
+  "display": "Thornton",
+  "break": false
+ },
+ {
+  "text": "published",
+  "start": 1.957,
+  "end": 2.382,
+  "display": "published",
+  "break": false
+ },
+ {
+  "text": "another",
+  "start": 2.394,
+  "end": 2.685,
+  "display": "another",
+  "break": false
+ },
+ {
+  "text": "find",
+  "start": 2.697,
+  "end": 3.134,
+  "display": "find.",
+  "break": true
+ },
+ {
+  "text": "A",
+  "start": 3.484,
+  "end": 3.654,
+  "display": "A",
+  "break": false
+ },
+ {
+  "text": "London",
+  "start": 3.667,
+  "end": 3.994,
+  "display": "London",
+  "break": false
+ },
+ {
+  "text": "widow",
+  "start": 4.006,
+  "end": 4.298,
+  "display": "widow",
+  "break": false
+ },
+ {
+  "text": "named",
+  "start": 4.31,
+  "end": 4.649,
+  "display": "named",
+  "break": false
+ },
+ {
+  "text": "Margaret",
+  "start": 4.662,
+  "end": 5.05,
+  "display": "Margaret",
+  "break": false
+ },
+ {
+  "text": "Capell",
+  "start": 5.062,
+  "end": 5.499,
+  "display": "Capell",
+  "break": false
+ },
+ {
+  "text": "left",
+  "start": 5.511,
+  "end": 5.73,
+  "display": "left",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 5.778,
+  "end": 5.827,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "gold",
+  "start": 5.839,
+  "end": 6.154,
+  "display": "gold",
+  "break": false
+ },
+ {
+  "text": "chain",
+  "start": 6.167,
+  "end": 6.494,
+  "display": "chain",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 6.506,
+  "end": 6.615,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "her",
+  "start": 6.628,
+  "end": 6.749,
+  "display": "her",
+  "break": false
+ },
+ {
+  "text": "son",
+  "start": 6.761,
+  "end": 7.113,
+  "display": "son",
+  "break": false
+ },
+ {
+  "text": "in 1516",
+  "start": 7.125,
+  "end": 8.375,
+  "display": "in 1516.",
+  "break": true
+ },
+ {
+  "text": "Her",
+  "start": 8.727,
+  "end": 8.933,
+  "display": "Her",
+  "break": false
+ },
+ {
+  "text": "will",
+  "start": 8.946,
+  "end": 9.055,
+  "display": "will",
+  "break": false
+ },
+ {
+  "text": "describes",
+  "start": 9.067,
+  "end": 9.589,
+  "display": "describes",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 9.601,
+  "end": 9.747,
+  "display": "it",
+  "break": false
+ },
+ {
+  "text": "as",
+  "start": 9.759,
+  "end": 9.856,
+  "display": "as",
+  "break": false
+ },
+ {
+  "text": "having",
+  "start": 9.868,
+  "end": 10.196,
+  "display": "having",
+  "break": false
+ },
+ {
+  "text": "belonged",
+  "start": 10.208,
+  "end": 10.572,
+  "display": "belonged",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 10.584,
+  "end": 10.669,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 10.681,
+  "end": 10.742,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "young",
+  "start": 10.754,
+  "end": 11.045,
+  "display": "young",
+  "break": false
+ },
+ {
+  "text": "king",
+  "start": 11.057,
+  "end": 11.433,
+  "display": "king,",
+  "break": true
+ },
+ {
+  "text": "Edward",
+  "start": 11.518,
+  "end": 11.785,
+  "display": "Edward",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 11.798,
+  "end": 11.87,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "Fifth",
+  "start": 11.883,
+  "end": 12.319,
+  "display": "Fifth.",
+  "break": true
+ }
+]
