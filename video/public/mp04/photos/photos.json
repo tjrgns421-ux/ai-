@@ -1,0 +1,128 @@
+{
+ "juche": {
+  "file": "File:Juche tower at night.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Juche_tower_at_night.jpg",
+  "src": "juche.jpg",
+  "license": [
+   "CC BY-SA 4.0"
+  ],
+  "author": "David Clayton Ellsworth",
+  "source": "http://ellsworth.ca/dprk/2014-03/",
+  "date": "30 March 2014, 20:32:06",
+  "pd": false,
+  "w": 600,
+  "h": 800
+ },
+ "juche2": {
+  "file": "File:Tower of Juche - 04 - View from Kim Il-sung Square at night.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Tower_of_Juche_-_04_-_View_from_Kim_Il-sung_Square_at_night.jpg",
+  "src": "juche2.jpg",
+  "license": [
+   "CC BY-SA 4.0"
+  ],
+  "author": "Jan Engelhardt",
+  "source": "https://inai.de/images/2019_pyongyang_sights/",
+  "date": "3 August 2019, 20:52:38",
+  "pd": false,
+  "w": 1920,
+  "h": 1080
+ },
+ "skyline": {
+  "file": "File:Pyongyang Skyline - 01.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Pyongyang_Skyline_-_01.jpg",
+  "src": "skyline.jpg",
+  "license": [
+   "CC BY-SA 4.0"
+  ],
+  "author": "Jan Engelhardt",
+  "source": "https://inai.de/images/2019_pyongyang_city/",
+  "date": "15 July 2019, 17:23:08",
+  "pd": false,
+  "w": 1920,
+  "h": 661
+ },
+ "skyline2": {
+  "file": "File:Skyline of Pyongyang 13.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Skyline_of_Pyongyang_13.JPG",
+  "src": "skyline2.jpg",
+  "license": [
+   "CC BY-SA 3.0"
+  ],
+  "author": "Nicor",
+  "source": "Own work",
+  "date": "4 August 2012, 16:55:05",
+  "pd": false,
+  "w": 1920,
+  "h": 2580
+ },
+ "wonsan": {
+  "file": "File:Evening in Wonsan DPRK (14650111619).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Evening_in_Wonsan_DPRK_(14650111619).jpg",
+  "src": "wonsan.jpg",
+  "license": [
+   "CC BY-SA 2.0"
+  ],
+  "author": "Clay Gilliland",
+  "source": "Evening in Wonsan DPRK",
+  "date": "27 June 2014, 20:56",
+  "pd": false,
+  "w": 1920,
+  "h": 1440
+ },
+ "wonsan2": {
+  "file": "File:Wonsan City - 01 - Panorama.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Wonsan_City_-_01_-_Panorama.jpg",
+  "src": "wonsan2.jpg",
+  "license": [
+   "CC BY-SA 4.0"
+  ],
+  "author": "Jan Engelhardt",
+  "source": "https://inai.de/images/2019_wonsan/",
+  "date": "20 July 2019, 14:59:12",
+  "pd": false,
+  "w": 1920,
+  "h": 400
+ },
+ "mirae": {
+  "file": "File:Mirae Street - 09.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Mirae_Street_-_09.jpg",
+  "src": "mirae.jpg",
+  "license": [
+   "CC BY-SA 4.0"
+  ],
+  "author": "Jan Engelhardt",
+  "source": "https://inai.de/images/2019_pyongyang_city/",
+  "date": "8 August 2019, 19:43:24",
+  "pd": false,
+  "w": 1920,
+  "h": 1080
+ },
+ "mirae2": {
+  "file": "File:Mirae Scientists Street - Nordkorea 2015 - Pj\u00f6ngjang (22971791331).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Mirae_Scientists_Street_-_Nordkorea_2015_-_Pj%C3%B6ngjang_(22971791331).jpg",
+  "src": "mirae2.jpg",
+  "license": [
+   "CC BY-SA 2.0"
+  ],
+  "author": "Uwe Brodrecht",
+  "source": "0488 - Nordkorea 2015 - Pj\u00f6ngjang",
+  "date": "9 October 2015, 00:34",
+  "pd": false,
+  "w": 1920,
+  "h": 1254
+ },
+ "sinuiju": {
+  "file": "File:Sinuiju.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Sinuiju.jpg",
+  "src": "sinuiju.jpg",
+  "license": [
+   "CC BY-SA 4.0"
+  ],
+  "author": "Christophe95",
+  "source": "Own work",
+  "date": "13 October 2018, 15:31:06",
+  "pd": false,
+  "w": 1920,
+  "h": 1440
+ }
+}

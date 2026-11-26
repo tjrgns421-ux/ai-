@@ -34,6 +34,7 @@ Curious Minutes 채널(`channels/curious-minutes/`)은 다른 세션에서 작�
 | mp01-korea-border | 지도 롱폼 1회: 38선은 국경이 아니다 (영어, 8:31) | 완성, `post.md` |
 | mp02-china-one-time-zone | 지도 롱폼 2회: 중국은 왜 시간대가 하나? (8:11) | 완성, `post.md`, 릴스 5개 `shorts/reels/reels-2026-11-25.json` |
 | mp03-alaska-russia | 지도 롱폼 3회: 알래스카에서 러시아가 보이나? (7:36) | 완성, `post.md`, 쇼츠 5개 `shorts/reels/reels-mp03.json` |
+| mp04-north-korea-night | 지도 롱폼 4회: 북한은 정말 밤에 깜깜한가? (5:59) | 완성, `post.md`, 쇼츠 2개 `shorts/reels/reels-mp04.json`, 측정 `research/nk_night_lights.py` |
 | (mp04 후보) | 북한은 정말 밤에 깜깜한가? NASA 야간 사진 | 계획 |
 
 ## 기타
@@ -68,5 +69,5 @@ Curious Minutes 채널(`channels/curious-minutes/`)은 다른 세션에서 작�
 11. 업로드 정보: `shorts/<회차>/post.md` (제목·썸네일은 `.claude/skills/yt-package/title.py`로 100점 확인, 설명·챕터·출처·사진 라이선스·태그·고정 댓글·쇼츠 제목).
 
 ## 다음 할 일
-- mp04 후보: "Is North Korea Really Dark at Night? 1 City, Checked" + 썸네일 "PYONGYANG GLOWS?"(98점). NASA 야간 위성 사진(퍼블릭 도메인) 활용. 출처 조사부터.
+- mp05 후보: 메르카토르 지도·아프리카 실제 크기 (`research/2026-11-26-mp04-topics.md`).
 - mp03 업로드: 롱폼 먼저, 쇼츠는 하루 1~2개씩.

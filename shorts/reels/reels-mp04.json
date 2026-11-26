@@ -1,0 +1,8 @@
+[
+ {"name": "mp04-s1-two-lights", "title": ["Only 2 lights in North Korea.", "What is in Yangdok?"], "parts": [
+   {"ep": "mp04", "video": "out/mp04/mp04-full.mp4", "from": "In January 2024, another astronaut", "to": "home to a brand new spa"}]},
+ {"name": "mp04-s2-brighter", "title": ["North Korea at night", "is getting brighter"], "parts": [
+   {"ep": "mp04", "video": "out/mp04/mp04-full.mp4", "from": "Here's 2012", "to": "four to five times bigger than in 2012"},
+   {"ep": "mp04", "video": "out/mp04/mp04-full.mp4", "from": "Pyongyang got 116.5 percent brighter", "to": "More than double"},
+   {"ep": "mp04", "video": "out/mp04/mp04-full.mp4", "from": "The study's answer points north", "to": "The UN cap is 500,000"}]}
+]

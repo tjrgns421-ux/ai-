@@ -1,0 +1,270 @@
+[
+ {
+  "name": "npr-rumsfeld",
+  "url": "https://www.npr.org/sections/thetwo-way/2011/12/19/143960966/kim-jong-ils-legacy-north-korea-is-dark",
+  "source": "NPR, Dec 19 2011",
+  "find": "\"If you look at a picture from the sky of the Korean Peninsula at night,\" said Rumsfeld.",
+  "until": "North Korea is dark.\"",
+  "marks": [
+   "North Korea is dark."
+  ]
+ },
+ {
+  "name": "npr-2002",
+  "url": "https://www.npr.org/sections/thetwo-way/2014/02/26/282909885/north-koreas-still-in-the-dark-as-photos-from-space-show",
+  "source": "NPR, Feb 26 2014",
+  "find": "In 2002, as Eyder has said",
+  "until": "how in-the-dark the communist nation was.",
+  "marks": [
+   "In 2002"
+  ]
+ },
+ {
+  "name": "nasa-dark",
+  "url": "https://science.nasa.gov/earth/earth-observatory/the-koreas-at-night-83182/",
+  "source": "NASA Earth Observatory, Feb 2014",
+  "find": "North Korea is almost completely dark compared",
+  "until": "the smaller towns in South Korea.",
+  "marks": [
+   "almost completely dark",
+   "a patch of water joining the Yellow Sea to the Sea of Japan",
+   "appears like a small island",
+   "equivalent to the smaller towns in South Korea"
+  ]
+ },
+ {
+  "name": "nasa-kwh",
+  "url": "https://science.nasa.gov/earth/earth-observatory/the-koreas-at-night-83182/",
+  "source": "NASA Earth Observatory, Feb 2014",
+  "find": "But the coast of North Korea is difficult to detect.",
+  "until": "North Korea at 739 kilowatt hours.",
+  "marks": [
+   "the coast of North Korea is difficult to detect",
+   "10,162 kilowatt hours",
+   "739 kilowatt hours"
+  ]
+ },
+ {
+  "name": "kt-42",
+  "url": "file:///tmp/claude-0/-home-user-ai-/b568ecbf-2ce3-5546-a89c-ee30092bad39/scratchpad/mp04/p11.html",
+  "source": "The Korea Times, Jan 12 2026",
+  "find": "South Korea's statistics agency said electricity generation",
+  "until": "what South Korea generated that year.",
+  "marks": [
+   "25.3 billion kilowatt hours",
+   "only 4.2 percent"
+  ],
+  "note": "saved copy of the article page (site blank in headless browser)"
+ },
+ {
+  "name": "ng-1990s",
+  "url": "https://www.nationalgeographic.com/pages/article/140226-north-korea-satellite-photos-darkness-energy",
+  "source": "National Geographic, Feb 2014",
+  "find": "Since the mid-1990s, when fuel stopped flowing",
+  "until": "has descended into darkness.",
+  "marks": [
+   "Since the mid-1990s"
+  ]
+ },
+ {
+  "name": "ng-juche",
+  "url": "https://www.nationalgeographic.com/pages/article/140226-north-korea-satellite-photos-darkness-energy",
+  "source": "National Geographic, Feb 2014",
+  "find": "Still, some parts of North Korea never go dark.",
+  "until": "at the center of Pyongyang.",
+  "marks": [
+   "never go dark",
+   "Juche Tower"
+  ]
+ },
+ {
+  "name": "ja-watt",
+  "url": "https://www.koreajoongangdaily.com/korea/bright-lights-red-city-north-korean-leader-kim-keeps-pyongyang-lit-while-the-rest-of-the-country-remains-in-darkness/12512080",
+  "source": "Korea JoongAng Daily, June 7 2026",
+  "find": "\u201cLet us conserve even a single watt of electricity",
+  "until": "discipline.\u201d",
+  "marks": [
+   "conserve even a single watt of electricity"
+  ]
+ },
+ {
+  "name": "ja-blackout",
+  "url": "https://www.koreajoongangdaily.com/korea/bright-lights-red-city-north-korean-leader-kim-keeps-pyongyang-lit-while-the-rest-of-the-country-remains-in-darkness/12512080",
+  "source": "Korea JoongAng Daily, June 7 2026",
+  "find": "During the winter of 2014 and 2015",
+  "until": "blackout crises in years.",
+  "marks": [
+   "one of its worst blackout crises in years"
+  ]
+ },
+ {
+  "name": "nasa-two",
+  "url": "https://science.nasa.gov/earth/earth-observatory/the-korean-peninsula-at-night-153325/",
+  "source": "NASA Earth Observatory, 2024",
+  "find": "Only two small clusters of lights are easily visible in North Korea",
+  "until": "in the country\u2019s center.",
+  "marks": [
+   "Only two small clusters of lights",
+   "Yangd\u014fk"
+  ]
+ },
+ {
+  "name": "kt-yangdok",
+  "url": "file:///tmp/claude-0/-home-user-ai-/b568ecbf-2ce3-5546-a89c-ee30092bad39/scratchpad/mp04/p22.html",
+  "source": "The Korea Times, Jan 10 2020",
+  "find": "North Korea began operations of a new spa resort",
+  "until": "crippling its economy.",
+  "marks": [
+   "began operations of a new spa resort"
+  ],
+  "note": "saved copy of the article page (site blank in headless browser)"
+ },
+ {
+  "name": "kt-yangdok2",
+  "url": "file:///tmp/claude-0/-home-user-ai-/b568ecbf-2ce3-5546-a89c-ee30092bad39/scratchpad/mp04/p22.html",
+  "source": "The Korea Times, Jan 10 2020",
+  "find": "Kim visited the spa resort multiple times last year",
+  "until": "tourism industry.",
+  "marks": [
+   "multiple times"
+  ],
+  "note": "saved copy of the article page (site blank in headless browser)"
+ },
+ {
+  "name": "ja-study",
+  "url": "https://www.koreajoongangdaily.com/korea/bright-lights-red-city-north-korean-leader-kim-keeps-pyongyang-lit-while-the-rest-of-the-country-remains-in-darkness/12512080",
+  "source": "Korea JoongAng Daily, June 7 2026",
+  "find": "A joint research team led by professors Kim Ji-hee",
+  "until": "North Korea\u2019s cities, counties and districts.",
+  "marks": [
+   "KAIST",
+   "Max Planck Institute"
+  ]
+ },
+ {
+  "name": "ja-259",
+  "url": "https://www.koreajoongangdaily.com/korea/bright-lights-red-city-north-korean-leader-kim-keeps-pyongyang-lit-while-the-rest-of-the-country-remains-in-darkness/12512080",
+  "source": "Korea JoongAng Daily, June 7 2026",
+  "find": "Using satellite imagery, the research team tracked",
+  "until": "by an average of 25.9 percent during that period.",
+  "marks": [
+   "178 cities, counties and districts",
+   "25.9 percent"
+  ]
+ },
+ {
+  "name": "ja-pyongyang",
+  "url": "https://www.koreajoongangdaily.com/korea/bright-lights-red-city-north-korean-leader-kim-keeps-pyongyang-lit-while-the-rest-of-the-country-remains-in-darkness/12512080",
+  "source": "Korea JoongAng Daily, June 7 2026",
+  "find": "The brightest place was Pyongyang.",
+  "until": "it became 116.5 percent brighter.",
+  "marks": [
+   "nearly nine times",
+   "116.5 percent brighter"
+  ]
+ },
+ {
+  "name": "dnk-24",
+  "url": "https://www.dailynk.com/english/satellite-images-show-pyongyang-glowing-outskirts-dark/",
+  "source": "Daily NK, Aug 5 2026",
+  "find": "I compared monthly average nighttime light data from April 2020 and April 2026.",
+  "until": "Pyongyang\u2019s lit area grew by about 2.4 times",
+  "marks": [
+   "about 2.4 times"
+  ]
+ },
+ {
+  "name": "ja-russia",
+  "url": "https://www.koreajoongangdaily.com/korea/bright-lights-red-city-north-korean-leader-kim-keeps-pyongyang-lit-while-the-rest-of-the-country-remains-in-darkness/12512080",
+  "source": "Korea JoongAng Daily, June 7 2026",
+  "find": "The rise in North Korea\u2019s nighttime brightness appears closely tied",
+  "until": "starting in mid-2022.",
+  "marks": [
+   "supplying weapons to Russia starting in mid-2022"
+  ]
+ },
+ {
+  "name": "ja-barrels",
+  "url": "https://www.koreajoongangdaily.com/korea/bright-lights-red-city-north-korean-leader-kim-keeps-pyongyang-lit-while-the-rest-of-the-country-remains-in-darkness/12512080",
+  "source": "Korea JoongAng Daily, June 7 2026",
+  "find": "According to intelligence authorities, Russia is estimated",
+  "until": "limiting annual deliveries to 500,000 barrels.",
+  "marks": [
+   "1.5 million barrels",
+   "500,000 barrels"
+  ]
+ },
+ {
+  "name": "ja-coincidence",
+  "url": "https://www.koreajoongangdaily.com/korea/bright-lights-red-city-north-korean-leader-kim-keeps-pyongyang-lit-while-the-rest-of-the-country-remains-in-darkness/12512080",
+  "source": "Korea JoongAng Daily, June 7 2026",
+  "find": "While it cannot be conclusively stated",
+  "until": "visibly deepened their alignment.",
+  "marks": [
+   "cannot be conclusively stated",
+   "difficult to view as a coincidence"
+  ]
+ },
+ {
+  "name": "ja-wonsan",
+  "url": "https://www.koreajoongangdaily.com/korea/bright-lights-red-city-north-korean-leader-kim-keeps-pyongyang-lit-while-the-rest-of-the-country-remains-in-darkness/12512080",
+  "source": "Korea JoongAng Daily, June 7 2026",
+  "find": "The city recording the second-largest increase in brightness was Wonsan",
+  "until": "with a 197.3 percent increase.",
+  "marks": [
+   "Wonsan",
+   "197.3 percent"
+  ]
+ },
+ {
+  "name": "ja-sinuiju",
+  "url": "https://www.koreajoongangdaily.com/korea/bright-lights-red-city-north-korean-leader-kim-keeps-pyongyang-lit-while-the-rest-of-the-country-remains-in-darkness/12512080",
+  "source": "Korea JoongAng Daily, June 7 2026",
+  "find": "Sinuiju in North Pyongan Province ranked third",
+  "until": "an increase of 99.2 percent.",
+  "marks": [
+   "ranked third",
+   "99.2 percent"
+  ]
+ },
+ {
+  "name": "ja-kusong",
+  "url": "https://www.koreajoongangdaily.com/korea/bright-lights-red-city-north-korean-leader-kim-keeps-pyongyang-lit-while-the-rest-of-the-country-remains-in-darkness/12512080",
+  "source": "Korea JoongAng Daily, June 7 2026",
+  "find": "One example is Kusong in North Pyongan Province, which ranked eighth",
+  "until": "between 2022 and 2025.",
+  "marks": [
+   "ranked eighth"
+  ]
+ },
+ {
+  "name": "ja-pipeline",
+  "url": "https://www.koreajoongangdaily.com/korea/bright-lights-red-city-north-korean-leader-kim-keeps-pyongyang-lit-while-the-rest-of-the-country-remains-in-darkness/12512080",
+  "source": "Korea JoongAng Daily, June 7 2026",
+  "find": "In particular, nighttime illumination patterns from 2022 to 2025",
+  "until": "the regime\u2019s primary center of consumption.",
+  "marks": [
+   "\u201celectricity dictatorship pipeline,\u201d"
+  ]
+ },
+ {
+  "name": "ja-seoul",
+  "url": "https://www.koreajoongangdaily.com/korea/bright-lights-red-city-north-korean-leader-kim-keeps-pyongyang-lit-while-the-rest-of-the-country-remains-in-darkness/12512080",
+  "source": "Korea JoongAng Daily, June 7 2026",
+  "find": "As of 2024, Seoul",
+  "until": "making it 14.3 times brighter than Pyongyang.",
+  "marks": [
+   "14.3 times brighter than Pyongyang"
+  ]
+ },
+ {
+  "name": "ja-yeongyang",
+  "url": "https://www.koreajoongangdaily.com/korea/bright-lights-red-city-north-korean-leader-kim-keeps-pyongyang-lit-while-the-rest-of-the-country-remains-in-darkness/12512080",
+  "source": "Korea JoongAng Daily, June 7 2026",
+  "find": "Pyongyang, at 12,794.04, was the only North Korean region",
+  "until": "brighter than Yeongyang.",
+  "marks": [
+   "the only North Korean region brighter than Yeongyang"
+  ]
+ }
+]
