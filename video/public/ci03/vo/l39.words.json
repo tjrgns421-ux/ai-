@@ -1,0 +1,142 @@
+[
+ {
+  "text": "That",
+  "start": 0.1,
+  "end": 0.306,
+  "display": "That",
+  "break": false
+ },
+ {
+  "text": "nudges",
+  "start": 0.318,
+  "end": 0.67,
+  "display": "nudges",
+  "break": false
+ },
+ {
+  "text": "Richard",
+  "start": 0.683,
+  "end": 1.01,
+  "display": "Richard",
+  "break": false
+ },
+ {
+  "text": "up",
+  "start": 1.022,
+  "end": 1.204,
+  "display": "up,",
+  "break": true
+ },
+ {
+  "text": "and",
+  "start": 1.265,
+  "end": 1.423,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "widens",
+  "start": 1.435,
+  "end": 1.872,
+  "display": "widens",
+  "break": false
+ },
+ {
+  "text": "my",
+  "start": 1.884,
+  "end": 2.042,
+  "display": "my",
+  "break": false
+ },
+ {
+  "text": "uncertainty",
+  "start": 2.054,
+  "end": 2.588,
+  "display": "uncertainty,",
+  "break": true
+ },
+ {
+  "text": "because",
+  "start": 2.612,
+  "end": 2.891,
+  "display": "because",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 2.903,
+  "end": 2.976,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "newest",
+  "start": 2.988,
+  "end": 3.401,
+  "display": "newest",
+  "break": false
+ },
+ {
+  "text": "evidence",
+  "start": 3.413,
+  "end": 3.814,
+  "display": "evidence",
+  "break": false
+ },
+ {
+  "text": "on",
+  "start": 3.826,
+  "end": 3.996,
+  "display": "on",
+  "break": false
+ },
+ {
+  "text": "both",
+  "start": 4.008,
+  "end": 4.275,
+  "display": "both",
+  "break": false
+ },
+ {
+  "text": "sides",
+  "start": 4.287,
+  "end": 4.76,
+  "display": "sides",
+  "break": false
+ },
+ {
+  "text": "is",
+  "start": 4.784,
+  "end": 4.942,
+  "display": "is",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 4.954,
+  "end": 5.015,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "hardest",
+  "start": 5.027,
+  "end": 5.452,
+  "display": "hardest",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 5.464,
+  "end": 5.549,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "check",
+  "start": 5.561,
+  "end": 5.913,
+  "display": "check.",
+  "break": true
+ }
+]

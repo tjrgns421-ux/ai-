@@ -1,0 +1,37 @@
+[
+ {
+  "text": "Someone",
+  "start": 0.1,
+  "end": 0.537,
+  "display": "Someone",
+  "break": false
+ },
+ {
+  "text": "else",
+  "start": 0.549,
+  "end": 0.755,
+  "display": "else",
+  "break": false
+ },
+ {
+  "text": "did",
+  "start": 0.767,
+  "end": 0.901,
+  "display": "did",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 0.913,
+  "end": 1.034,
+  "display": "it",
+  "break": false
+ },
+ {
+  "text": "eighteen",
+  "start": 1.362,
+  "end": 1.884,
+  "display": "eighteen.",
+  "break": true
+ }
+]

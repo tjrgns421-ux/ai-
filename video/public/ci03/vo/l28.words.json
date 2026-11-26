@@ -1,0 +1,275 @@
+[
+ {
+  "text": "But",
+  "start": 0.1,
+  "end": 0.27,
+  "display": "But",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 0.282,
+  "end": 0.355,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 0.367,
+  "end": 0.416,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "paper",
+  "start": 0.428,
+  "end": 0.755,
+  "display": "paper",
+  "break": false
+ },
+ {
+  "text": "published",
+  "start": 0.767,
+  "end": 1.18,
+  "display": "published",
+  "break": false
+ },
+ {
+  "text": "in 2021",
+  "start": 1.192,
+  "end": 2.272,
+  "display": "in 2021,",
+  "break": true
+ },
+ {
+  "text": "historian",
+  "start": 2.394,
+  "end": 2.988,
+  "display": "historian",
+  "break": false
+ },
+ {
+  "text": "Tim",
+  "start": 3.001,
+  "end": 3.255,
+  "display": "Tim",
+  "break": false
+ },
+ {
+  "text": "Thornton",
+  "start": 3.267,
+  "end": 3.704,
+  "display": "Thornton",
+  "break": false
+ },
+ {
+  "text": "showed",
+  "start": 3.716,
+  "end": 4.044,
+  "display": "showed",
+  "break": false
+ },
+ {
+  "text": "that",
+  "start": 4.056,
+  "end": 4.202,
+  "display": "that",
+  "break": false
+ },
+ {
+  "text": "two",
+  "start": 4.214,
+  "end": 4.408,
+  "display": "two",
+  "break": false
+ },
+ {
+  "text": "men",
+  "start": 4.42,
+  "end": 4.675,
+  "display": "men",
+  "break": false
+ },
+ {
+  "text": "who",
+  "start": 4.687,
+  "end": 4.833,
+  "display": "who",
+  "break": false
+ },
+ {
+  "text": "were",
+  "start": 4.845,
+  "end": 4.954,
+  "display": "were",
+  "break": false
+ },
+ {
+  "text": "probably",
+  "start": 4.966,
+  "end": 5.44,
+  "display": "probably",
+  "break": false
+ },
+ {
+  "text": "Forest's",
+  "start": 5.452,
+  "end": 6.022,
+  "display": "Forest's",
+  "break": false
+ },
+ {
+  "text": "sons",
+  "start": 6.047,
+  "end": 6.423,
+  "display": "sons",
+  "break": false
+ },
+ {
+  "text": "were",
+  "start": 6.435,
+  "end": 6.629,
+  "display": "were",
+  "break": false
+ },
+ {
+  "text": "at",
+  "start": 6.641,
+  "end": 6.714,
+  "display": "at",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 6.726,
+  "end": 6.811,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "Tudor court",
+  "start": 6.823,
+  "end": 7.454,
+  "display": "Tudor court",
+  "break": false
+ },
+ {
+  "text": "at",
+  "start": 7.466,
+  "end": 7.576,
+  "display": "at",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 7.588,
+  "end": 7.661,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "same",
+  "start": 7.673,
+  "end": 7.988,
+  "display": "same",
+  "break": false
+ },
+ {
+  "text": "time",
+  "start": 8.001,
+  "end": 8.255,
+  "display": "time",
+  "break": false
+ },
+ {
+  "text": "as",
+  "start": 8.267,
+  "end": 8.377,
+  "display": "as",
+  "break": false
+ },
+ {
+  "text": "More",
+  "start": 8.389,
+  "end": 8.704,
+  "display": "More.",
+  "break": true
+ },
+ {
+  "text": "More",
+  "start": 9.055,
+  "end": 9.249,
+  "display": "More",
+  "break": false
+ },
+ {
+  "text": "may",
+  "start": 9.261,
+  "end": 9.383,
+  "display": "may",
+  "break": false
+ },
+ {
+  "text": "have",
+  "start": 9.395,
+  "end": 9.528,
+  "display": "have",
+  "break": false
+ },
+ {
+  "text": "heard",
+  "start": 9.54,
+  "end": 9.734,
+  "display": "heard",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 9.747,
+  "end": 9.819,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "story",
+  "start": 9.832,
+  "end": 10.196,
+  "display": "story",
+  "break": false
+ },
+ {
+  "text": "from",
+  "start": 10.208,
+  "end": 10.366,
+  "display": "from",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 10.378,
+  "end": 10.463,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "killers'",
+  "start": 10.475,
+  "end": 10.863,
+  "display": "killers'",
+  "break": false
+ },
+ {
+  "text": "own",
+  "start": 10.887,
+  "end": 11.033,
+  "display": "own",
+  "break": false
+ },
+ {
+  "text": "families",
+  "start": 11.045,
+  "end": 11.628,
+  "display": "families.",
+  "break": true
+ }
+]

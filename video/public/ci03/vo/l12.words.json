@@ -1,0 +1,163 @@
+[
+ {
+  "text": "He",
+  "start": 0.1,
+  "end": 0.318,
+  "display": "He",
+  "break": false
+ },
+ {
+  "text": "also",
+  "start": 0.331,
+  "end": 0.634,
+  "display": "also",
+  "break": false
+ },
+ {
+  "text": "reported",
+  "start": 0.646,
+  "end": 1.156,
+  "display": "reported,",
+  "break": true
+ },
+ {
+  "text": "from",
+  "start": 1.192,
+  "end": 1.374,
+  "display": "from",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 1.386,
+  "end": 1.435,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "young",
+  "start": 1.447,
+  "end": 1.726,
+  "display": "young",
+  "break": false
+ },
+ {
+  "text": "king's",
+  "start": 1.738,
+  "end": 2.042,
+  "display": "king's",
+  "break": false
+ },
+ {
+  "text": "own",
+  "start": 2.054,
+  "end": 2.248,
+  "display": "own",
+  "break": false
+ },
+ {
+  "text": "doctor",
+  "start": 2.26,
+  "end": 2.733,
+  "display": "doctor,",
+  "break": true
+ },
+ {
+  "text": "that",
+  "start": 2.782,
+  "end": 3.061,
+  "display": "that",
+  "break": false
+ },
+ {
+  "text": "Edward",
+  "start": 3.073,
+  "end": 3.413,
+  "display": "Edward",
+  "break": false
+ },
+ {
+  "text": "was",
+  "start": 3.425,
+  "end": 3.607,
+  "display": "was",
+  "break": false
+ },
+ {
+  "text": "making",
+  "start": 3.619,
+  "end": 3.923,
+  "display": "making",
+  "break": false
+ },
+ {
+  "text": "confession",
+  "start": 3.935,
+  "end": 4.578,
+  "display": "confession",
+  "break": false
+ },
+ {
+  "text": "every",
+  "start": 4.59,
+  "end": 4.809,
+  "display": "every",
+  "break": false
+ },
+ {
+  "text": "day",
+  "start": 4.821,
+  "end": 5.136,
+  "display": "day,",
+  "break": true
+ },
+ {
+  "text": "because",
+  "start": 5.197,
+  "end": 5.476,
+  "display": "because",
+  "break": false
+ },
+ {
+  "text": "he",
+  "start": 5.488,
+  "end": 5.585,
+  "display": "he",
+  "break": false
+ },
+ {
+  "text": "believed",
+  "start": 5.598,
+  "end": 6.047,
+  "display": "believed",
+  "break": false
+ },
+ {
+  "text": "death",
+  "start": 6.059,
+  "end": 6.265,
+  "display": "death",
+  "break": false
+ },
+ {
+  "text": "was",
+  "start": 6.277,
+  "end": 6.423,
+  "display": "was",
+  "break": false
+ },
+ {
+  "text": "facing",
+  "start": 6.435,
+  "end": 6.787,
+  "display": "facing",
+  "break": false
+ },
+ {
+  "text": "him",
+  "start": 6.799,
+  "end": 6.993,
+  "display": "him.",
+  "break": true
+ }
+]

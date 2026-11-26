@@ -1,0 +1,310 @@
+[
+ {
+  "text": "Here's",
+  "start": 0.1,
+  "end": 0.367,
+  "display": "Here's",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 0.379,
+  "end": 0.464,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "problem",
+  "start": 0.476,
+  "end": 0.925,
+  "display": "problem.",
+  "break": true
+ },
+ {
+  "text": "A",
+  "start": 1.276,
+  "end": 1.446,
+  "display": "A",
+  "break": false
+ },
+ {
+  "text": "document",
+  "start": 1.458,
+  "end": 1.858,
+  "display": "document",
+  "break": false
+ },
+ {
+  "text": "saying",
+  "start": 1.87,
+  "end": 2.234,
+  "display": "saying",
+  "break": false
+ },
+ {
+  "text": "I",
+  "start": 2.247,
+  "end": 2.404,
+  "display": "I",
+  "break": false
+ },
+ {
+  "text": "am",
+  "start": 2.417,
+  "end": 2.538,
+  "display": "am",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 2.55,
+  "end": 2.635,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "prince",
+  "start": 2.647,
+  "end": 2.987,
+  "display": "prince",
+  "break": false
+ },
+ {
+  "text": "is",
+  "start": 2.999,
+  "end": 3.133,
+  "display": "is",
+  "break": false
+ },
+ {
+  "text": "exactly",
+  "start": 3.145,
+  "end": 3.666,
+  "display": "exactly",
+  "break": false
+ },
+ {
+  "text": "what",
+  "start": 3.679,
+  "end": 3.885,
+  "display": "what",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 3.897,
+  "end": 3.933,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "pretender",
+  "start": 3.946,
+  "end": 4.395,
+  "display": "pretender",
+  "break": false
+ },
+ {
+  "text": "would",
+  "start": 4.407,
+  "end": 4.54,
+  "display": "would",
+  "break": false
+ },
+ {
+  "text": "produce",
+  "start": 4.552,
+  "end": 5.086,
+  "display": "produce.",
+  "break": true
+ },
+ {
+  "text": "And",
+  "start": 5.438,
+  "end": 5.645,
+  "display": "And",
+  "break": false
+ },
+ {
+  "text": "three",
+  "start": 5.657,
+  "end": 5.887,
+  "display": "three",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 5.899,
+  "end": 5.972,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 5.984,
+  "end": 6.069,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "Dutch",
+  "start": 6.082,
+  "end": 6.336,
+  "display": "Dutch",
+  "break": false
+ },
+ {
+  "text": "researchers",
+  "start": 6.349,
+  "end": 6.967,
+  "display": "researchers",
+  "break": false
+ },
+ {
+  "text": "who",
+  "start": 6.98,
+  "end": 7.089,
+  "display": "who",
+  "break": false
+ },
+ {
+  "text": "found",
+  "start": 7.101,
+  "end": 7.441,
+  "display": "found",
+  "break": false
+ },
+ {
+  "text": "material",
+  "start": 7.453,
+  "end": 7.926,
+  "display": "material",
+  "break": false
+ },
+ {
+  "text": "for",
+  "start": 7.938,
+  "end": 8.072,
+  "display": "for",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 8.084,
+  "end": 8.169,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "project",
+  "start": 8.181,
+  "end": 8.703,
+  "display": "project",
+  "break": false
+ },
+ {
+  "text": "later",
+  "start": 8.715,
+  "end": 9.006,
+  "display": "later",
+  "break": false
+ },
+ {
+  "text": "said",
+  "start": 9.018,
+  "end": 9.285,
+  "display": "said",
+  "break": false
+ },
+ {
+  "text": "publicly",
+  "start": 9.298,
+  "end": 9.856,
+  "display": "publicly",
+  "break": false
+ },
+ {
+  "text": "that",
+  "start": 9.868,
+  "end": 10.026,
+  "display": "that",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 10.038,
+  "end": 10.123,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "documents",
+  "start": 10.135,
+  "end": 10.645,
+  "display": "documents",
+  "break": false
+ },
+ {
+  "text": "are",
+  "start": 10.657,
+  "end": 10.972,
+  "display": "are",
+  "break": false
+ },
+ {
+  "text": "open",
+  "start": 10.984,
+  "end": 11.215,
+  "display": "open",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 11.227,
+  "end": 11.361,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "other",
+  "start": 11.373,
+  "end": 11.628,
+  "display": "other",
+  "break": false
+ },
+ {
+  "text": "interpretations",
+  "start": 11.64,
+  "end": 12.574,
+  "display": "interpretations,",
+  "break": true
+ },
+ {
+  "text": "and",
+  "start": 12.611,
+  "end": 12.781,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "are",
+  "start": 12.793,
+  "end": 12.902,
+  "display": "are",
+  "break": false
+ },
+ {
+  "text": "not",
+  "start": 12.914,
+  "end": 13.169,
+  "display": "not",
+  "break": false
+ },
+ {
+  "text": "proof",
+  "start": 13.181,
+  "end": 13.533,
+  "display": "proof.",
+  "break": true
+ }
+]

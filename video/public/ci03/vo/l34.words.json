@@ -1,0 +1,100 @@
+[
+ {
+  "text": "It's",
+  "start": 0.1,
+  "end": 0.306,
+  "display": "It's",
+  "break": false
+ },
+ {
+  "text": "real",
+  "start": 0.318,
+  "end": 0.525,
+  "display": "real",
+  "break": false
+ },
+ {
+  "text": "archival",
+  "start": 0.537,
+  "end": 0.998,
+  "display": "archival",
+  "break": false
+ },
+ {
+  "text": "work",
+  "start": 1.01,
+  "end": 1.289,
+  "display": "work,",
+  "break": true
+ },
+ {
+  "text": "and",
+  "start": 1.338,
+  "end": 1.447,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 1.459,
+  "end": 1.544,
+  "display": "it",
+  "break": false
+ },
+ {
+  "text": "isn't",
+  "start": 1.556,
+  "end": 1.763,
+  "display": "isn't",
+  "break": false
+ },
+ {
+  "text": "nothing",
+  "start": 1.775,
+  "end": 2.102,
+  "display": "nothing.",
+  "break": true
+ },
+ {
+  "text": "Survival",
+  "start": 2.453,
+  "end": 3.011,
+  "display": "Survival",
+  "break": false
+ },
+ {
+  "text": "goes",
+  "start": 3.023,
+  "end": 3.278,
+  "display": "goes",
+  "break": false
+ },
+ {
+  "text": "up",
+  "start": 3.29,
+  "end": 3.472,
+  "display": "up.",
+  "break": true
+ },
+ {
+  "text": "Richard",
+  "start": 3.824,
+  "end": 4.2,
+  "display": "Richard",
+  "break": false
+ },
+ {
+  "text": "comes",
+  "start": 4.213,
+  "end": 4.455,
+  "display": "comes",
+  "break": false
+ },
+ {
+  "text": "down",
+  "start": 4.467,
+  "end": 4.807,
+  "display": "down.",
+  "break": true
+ }
+]

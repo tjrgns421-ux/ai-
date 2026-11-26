@@ -1,0 +1,44 @@
+[
+ {
+  "text": "Richard",
+  "start": 0.1,
+  "end": 0.464,
+  "display": "Richard",
+  "break": false
+ },
+ {
+  "text": "goes",
+  "start": 0.476,
+  "end": 0.731,
+  "display": "goes",
+  "break": false
+ },
+ {
+  "text": "up",
+  "start": 0.743,
+  "end": 0.925,
+  "display": "up.",
+  "break": true
+ },
+ {
+  "text": "Survival",
+  "start": 1.276,
+  "end": 1.798,
+  "display": "Survival",
+  "break": false
+ },
+ {
+  "text": "goes",
+  "start": 1.81,
+  "end": 2.04,
+  "display": "goes",
+  "break": false
+ },
+ {
+  "text": "down",
+  "start": 2.052,
+  "end": 2.38,
+  "display": "down.",
+  "break": true
+ }
+]

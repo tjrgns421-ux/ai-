@@ -1,0 +1,191 @@
+[
+ {
+  "text": "If",
+  "start": 0.1,
+  "end": 0.27,
+  "display": "If",
+  "break": false
+ },
+ {
+  "text": "you",
+  "start": 0.282,
+  "end": 0.367,
+  "display": "you",
+  "break": false
+ },
+ {
+  "text": "know",
+  "start": 0.379,
+  "end": 0.525,
+  "display": "know",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 0.537,
+  "end": 0.585,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "piece",
+  "start": 0.598,
+  "end": 0.84,
+  "display": "piece",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 0.852,
+  "end": 0.949,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "evidence",
+  "start": 0.962,
+  "end": 1.289,
+  "display": "evidence",
+  "break": false
+ },
+ {
+  "text": "I",
+  "start": 1.301,
+  "end": 1.338,
+  "display": "I",
+  "break": false
+ },
+ {
+  "text": "missed",
+  "start": 1.35,
+  "end": 1.666,
+  "display": "missed,",
+  "break": true
+ },
+ {
+  "text": "put",
+  "start": 1.714,
+  "end": 1.884,
+  "display": "put",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 1.896,
+  "end": 1.969,
+  "display": "it",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 1.981,
+  "end": 2.054,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 2.066,
+  "end": 2.139,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "comments",
+  "start": 2.151,
+  "end": 2.685,
+  "display": "comments.",
+  "break": true
+ },
+ {
+  "text": "If",
+  "start": 3.035,
+  "end": 3.205,
+  "display": "If",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 3.217,
+  "end": 3.29,
+  "display": "it",
+  "break": false
+ },
+ {
+  "text": "changes",
+  "start": 3.302,
+  "end": 3.691,
+  "display": "changes",
+  "break": false
+ },
+ {
+  "text": "my",
+  "start": 3.703,
+  "end": 3.824,
+  "display": "my",
+  "break": false
+ },
+ {
+  "text": "number",
+  "start": 3.836,
+  "end": 4.237,
+  "display": "number,",
+  "break": true
+ },
+ {
+  "text": "I'll",
+  "start": 4.31,
+  "end": 4.395,
+  "display": "I'll",
+  "break": false
+ },
+ {
+  "text": "post",
+  "start": 4.407,
+  "end": 4.698,
+  "display": "post",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 4.71,
+  "end": 4.807,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "update",
+  "start": 4.819,
+  "end": 5.256,
+  "display": "update",
+  "break": false
+ },
+ {
+  "text": "and",
+  "start": 5.268,
+  "end": 5.39,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "say",
+  "start": 5.402,
+  "end": 5.62,
+  "display": "say",
+  "break": false
+ },
+ {
+  "text": "exactly",
+  "start": 5.633,
+  "end": 6.13,
+  "display": "exactly",
+  "break": false
+ },
+ {
+  "text": "why",
+  "start": 6.142,
+  "end": 6.434,
+  "display": "why.",
+  "break": true
+ }
+]

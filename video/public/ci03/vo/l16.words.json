@@ -1,0 +1,212 @@
+[
+ {
+  "text": "By",
+  "start": 0.1,
+  "end": 0.27,
+  "display": "By",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 0.282,
+  "end": 0.403,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "autumn",
+  "start": 0.416,
+  "end": 0.695,
+  "display": "autumn",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 0.707,
+  "end": 0.792,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "1483",
+  "start": 0.804,
+  "end": 1.92,
+  "display": "1483,",
+  "break": true
+ },
+ {
+  "text": "rebels",
+  "start": 1.981,
+  "end": 2.284,
+  "display": "rebels",
+  "break": false
+ },
+ {
+  "text": "were",
+  "start": 2.297,
+  "end": 2.479,
+  "display": "were",
+  "break": false
+ },
+ {
+  "text": "already",
+  "start": 2.491,
+  "end": 2.831,
+  "display": "already",
+  "break": false
+ },
+ {
+  "text": "saying",
+  "start": 2.843,
+  "end": 3.182,
+  "display": "saying",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 3.195,
+  "end": 3.28,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "princes",
+  "start": 3.292,
+  "end": 3.716,
+  "display": "princes",
+  "break": false
+ },
+ {
+  "text": "were",
+  "start": 3.729,
+  "end": 3.838,
+  "display": "were",
+  "break": false
+ },
+ {
+  "text": "dead",
+  "start": 3.85,
+  "end": 4.141,
+  "display": "dead.",
+  "break": true
+ },
+ {
+  "text": "That",
+  "start": 4.492,
+  "end": 4.698,
+  "display": "That",
+  "break": false
+ },
+ {
+  "text": "October",
+  "start": 4.71,
+  "end": 5.232,
+  "display": "October,",
+  "break": true
+ },
+ {
+  "text": "a",
+  "start": 5.329,
+  "end": 5.366,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "rebellion",
+  "start": 5.378,
+  "end": 5.912,
+  "display": "rebellion",
+  "break": false
+ },
+ {
+  "text": "broke",
+  "start": 5.924,
+  "end": 6.203,
+  "display": "broke",
+  "break": false
+ },
+ {
+  "text": "out",
+  "start": 6.227,
+  "end": 6.458,
+  "display": "out",
+  "break": false
+ },
+ {
+  "text": "against",
+  "start": 6.47,
+  "end": 6.798,
+  "display": "against",
+  "break": false
+ },
+ {
+  "text": "Richard",
+  "start": 6.81,
+  "end": 7.234,
+  "display": "Richard,",
+  "break": true
+ },
+ {
+  "text": "led",
+  "start": 7.319,
+  "end": 7.501,
+  "display": "led",
+  "break": false
+ },
+ {
+  "text": "by",
+  "start": 7.514,
+  "end": 7.635,
+  "display": "by",
+  "break": false
+ },
+ {
+  "text": "his",
+  "start": 7.647,
+  "end": 7.817,
+  "display": "his",
+  "break": false
+ },
+ {
+  "text": "former",
+  "start": 7.829,
+  "end": 8.217,
+  "display": "former",
+  "break": false
+ },
+ {
+  "text": "ally",
+  "start": 8.23,
+  "end": 8.569,
+  "display": "ally,",
+  "break": true
+ },
+ {
+  "text": "the",
+  "start": 8.642,
+  "end": 8.764,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "Duke",
+  "start": 8.776,
+  "end": 8.994,
+  "display": "Duke",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 9.006,
+  "end": 9.115,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "Buckingham",
+  "start": 9.128,
+  "end": 9.686,
+  "display": "Buckingham.",
+  "break": true
+ }
+]

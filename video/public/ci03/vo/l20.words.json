@@ -1,0 +1,30 @@
+[
+ {
+  "text": "Evidence",
+  "start": 0.1,
+  "end": 0.573,
+  "display": "Evidence",
+  "break": false
+ },
+ {
+  "text": "three",
+  "start": 0.585,
+  "end": 0.937,
+  "display": "three",
+  "break": false
+ },
+ {
+  "text": "is",
+  "start": 0.95,
+  "end": 1.071,
+  "display": "is",
+  "break": false
+ },
+ {
+  "text": "bones",
+  "start": 1.083,
+  "end": 1.581,
+  "display": "bones.",
+  "break": true
+ }
+]

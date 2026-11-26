@@ -1,0 +1,261 @@
+[
+ {
+  "text": "Around",
+  "start": 0.1,
+  "end": 0.525,
+  "display": "Around",
+  "break": false
+ },
+ {
+  "text": "1513",
+  "start": 0.537,
+  "end": 1.581,
+  "display": "1513,",
+  "break": true
+ },
+ {
+  "text": "Thomas",
+  "start": 1.726,
+  "end": 2.115,
+  "display": "Thomas",
+  "break": false
+ },
+ {
+  "text": "More",
+  "start": 2.127,
+  "end": 2.369,
+  "display": "More",
+  "break": false
+ },
+ {
+  "text": "wrote",
+  "start": 2.382,
+  "end": 2.649,
+  "display": "wrote",
+  "break": false
+ },
+ {
+  "text": "that",
+  "start": 2.661,
+  "end": 2.867,
+  "display": "that",
+  "break": false
+ },
+ {
+  "text": "Richard",
+  "start": 2.879,
+  "end": 3.304,
+  "display": "Richard",
+  "break": false
+ },
+ {
+  "text": "ordered",
+  "start": 3.316,
+  "end": 3.644,
+  "display": "ordered",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 3.656,
+  "end": 3.716,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "murder",
+  "start": 3.729,
+  "end": 4.129,
+  "display": "murder,",
+  "break": true
+ },
+ {
+  "text": "carried",
+  "start": 4.202,
+  "end": 4.554,
+  "display": "carried",
+  "break": false
+ },
+ {
+  "text": "out",
+  "start": 4.566,
+  "end": 4.736,
+  "display": "out",
+  "break": false
+ },
+ {
+  "text": "by",
+  "start": 4.748,
+  "end": 4.882,
+  "display": "by",
+  "break": false
+ },
+ {
+  "text": "two",
+  "start": 4.894,
+  "end": 5.112,
+  "display": "two",
+  "break": false
+ },
+ {
+  "text": "men",
+  "start": 5.124,
+  "end": 5.416,
+  "display": "men,",
+  "break": true
+ },
+ {
+  "text": "Miles",
+  "start": 5.67,
+  "end": 6.059,
+  "display": "Miles",
+  "break": false
+ },
+ {
+  "text": "Forest",
+  "start": 6.071,
+  "end": 6.568,
+  "display": "Forest",
+  "break": false
+ },
+ {
+  "text": "and",
+  "start": 6.593,
+  "end": 6.714,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "John",
+  "start": 6.726,
+  "end": 7.042,
+  "display": "John",
+  "break": false
+ },
+ {
+  "text": "Dighton",
+  "start": 7.054,
+  "end": 7.442,
+  "display": "Dighton,",
+  "break": true
+ },
+ {
+  "text": "and",
+  "start": 7.479,
+  "end": 7.588,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "arranged",
+  "start": 7.6,
+  "end": 8.085,
+  "display": "arranged",
+  "break": false
+ },
+ {
+  "text": "by",
+  "start": 8.098,
+  "end": 8.267,
+  "display": "by",
+  "break": false
+ },
+ {
+  "text": "James",
+  "start": 8.28,
+  "end": 8.632,
+  "display": "James",
+  "break": false
+ },
+ {
+  "text": "Tyrrell",
+  "start": 8.644,
+  "end": 9.093,
+  "display": "Tyrrell.",
+  "break": true
+ },
+ {
+  "text": "And",
+  "start": 9.443,
+  "end": 9.625,
+  "display": "And",
+  "break": false
+ },
+ {
+  "text": "that",
+  "start": 9.637,
+  "end": 9.747,
+  "display": "that",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 9.759,
+  "end": 9.832,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "bodies",
+  "start": 9.844,
+  "end": 10.232,
+  "display": "bodies",
+  "break": false
+ },
+ {
+  "text": "were",
+  "start": 10.244,
+  "end": 10.378,
+  "display": "were",
+  "break": false
+ },
+ {
+  "text": "buried",
+  "start": 10.39,
+  "end": 10.766,
+  "display": "buried",
+  "break": false
+ },
+ {
+  "text": "at",
+  "start": 10.778,
+  "end": 10.851,
+  "display": "at",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 10.863,
+  "end": 10.936,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "foot",
+  "start": 10.948,
+  "end": 11.191,
+  "display": "foot",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 11.203,
+  "end": 11.276,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 11.288,
+  "end": 11.336,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "stair",
+  "start": 11.349,
+  "end": 11.725,
+  "display": "stair.",
+  "break": true
+ }
+]

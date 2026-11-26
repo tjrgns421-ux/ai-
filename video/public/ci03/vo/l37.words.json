@@ -1,0 +1,121 @@
+[
+ {
+  "text": "Margaret's",
+  "start": 0.1,
+  "end": 0.573,
+  "display": "Margaret's",
+  "break": false
+ },
+ {
+  "text": "sister",
+  "start": 0.585,
+  "end": 0.962,
+  "display": "sister",
+  "break": false
+ },
+ {
+  "text": "was",
+  "start": 0.974,
+  "end": 1.156,
+  "display": "was",
+  "break": false
+ },
+ {
+  "text": "married",
+  "start": 1.168,
+  "end": 1.581,
+  "display": "married",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 1.593,
+  "end": 1.702,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "James",
+  "start": 1.714,
+  "end": 2.115,
+  "display": "James",
+  "break": false
+ },
+ {
+  "text": "Tyrrell",
+  "start": 2.127,
+  "end": 2.551,
+  "display": "Tyrrell,",
+  "break": true
+ },
+ {
+  "text": "the",
+  "start": 2.576,
+  "end": 2.697,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "man",
+  "start": 2.709,
+  "end": 2.94,
+  "display": "man",
+  "break": false
+ },
+ {
+  "text": "More",
+  "start": 2.952,
+  "end": 3.158,
+  "display": "More",
+  "break": false
+ },
+ {
+  "text": "names",
+  "start": 3.17,
+  "end": 3.583,
+  "display": "names",
+  "break": false
+ },
+ {
+  "text": "as",
+  "start": 3.595,
+  "end": 3.716,
+  "display": "as",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 3.729,
+  "end": 3.814,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "organizer",
+  "start": 3.826,
+  "end": 4.578,
+  "display": "organizer",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 4.59,
+  "end": 4.675,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 4.687,
+  "end": 4.748,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "murder",
+  "start": 4.76,
+  "end": 5.161,
+  "display": "murder.",
+  "break": true
+ }
+]

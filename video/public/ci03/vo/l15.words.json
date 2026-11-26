@@ -1,0 +1,44 @@
+[
+ {
+  "text": "Evidence",
+  "start": 0.1,
+  "end": 0.549,
+  "display": "Evidence",
+  "break": false
+ },
+ {
+  "text": "two",
+  "start": 0.561,
+  "end": 0.889,
+  "display": "two",
+  "break": false
+ },
+ {
+  "text": "is",
+  "start": 0.913,
+  "end": 1.083,
+  "display": "is",
+  "break": false
+ },
+ {
+  "text": "what",
+  "start": 1.095,
+  "end": 1.241,
+  "display": "what",
+  "break": false
+ },
+ {
+  "text": "didn't",
+  "start": 1.253,
+  "end": 1.52,
+  "display": "didn't",
+  "break": false
+ },
+ {
+  "text": "happen",
+  "start": 1.532,
+  "end": 1.92,
+  "display": "happen.",
+  "break": true
+ }
+]

@@ -1,0 +1,142 @@
+[
+ {
+  "text": "Three",
+  "start": 0.1,
+  "end": 0.5,
+  "display": "Three",
+  "break": false
+ },
+ {
+  "text": "if",
+  "start": 0.61,
+  "end": 0.731,
+  "display": "if",
+  "break": false
+ },
+ {
+  "text": "those",
+  "start": 0.743,
+  "end": 0.925,
+  "display": "those",
+  "break": false
+ },
+ {
+  "text": "same",
+  "start": 0.937,
+  "end": 1.168,
+  "display": "same",
+  "break": false
+ },
+ {
+  "text": "bones",
+  "start": 1.18,
+  "end": 1.532,
+  "display": "bones",
+  "break": false
+ },
+ {
+  "text": "match",
+  "start": 1.544,
+  "end": 1.872,
+  "display": "match",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 1.884,
+  "end": 1.981,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "family",
+  "start": 1.993,
+  "end": 2.418,
+  "display": "family",
+  "break": false
+ },
+ {
+  "text": "line",
+  "start": 2.43,
+  "end": 2.782,
+  "display": "line",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 2.794,
+  "end": 2.916,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "Edward",
+  "start": 2.976,
+  "end": 3.28,
+  "display": "Edward",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 3.292,
+  "end": 3.365,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "Fourth",
+  "start": 3.377,
+  "end": 3.777,
+  "display": "Fourth,",
+  "break": true
+ },
+ {
+  "text": "this",
+  "start": 3.838,
+  "end": 4.008,
+  "display": "this",
+  "break": false
+ },
+ {
+  "text": "stops",
+  "start": 4.02,
+  "end": 4.36,
+  "display": "stops",
+  "break": false
+ },
+ {
+  "text": "being",
+  "start": 4.372,
+  "end": 4.602,
+  "display": "being",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 4.615,
+  "end": 4.651,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "mystery",
+  "start": 4.663,
+  "end": 5.161,
+  "display": "mystery",
+  "break": false
+ },
+ {
+  "text": "almost",
+  "start": 5.173,
+  "end": 5.561,
+  "display": "almost",
+  "break": false
+ },
+ {
+  "text": "overnight",
+  "start": 5.598,
+  "end": 6.022,
+  "display": "overnight.",
+  "break": true
+ }
+]

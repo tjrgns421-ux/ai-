@@ -1,0 +1,212 @@
+[
+ {
+  "text": "King",
+  "start": 0.1,
+  "end": 0.379,
+  "display": "King",
+  "break": false
+ },
+ {
+  "text": "Charles",
+  "start": 0.391,
+  "end": 0.755,
+  "display": "Charles",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 0.767,
+  "end": 0.852,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "Second",
+  "start": 0.865,
+  "end": 1.253,
+  "display": "Second",
+  "break": false
+ },
+ {
+  "text": "had",
+  "start": 1.265,
+  "end": 1.459,
+  "display": "had",
+  "break": false
+ },
+ {
+  "text": "them",
+  "start": 1.471,
+  "end": 1.581,
+  "display": "them",
+  "break": false
+ },
+ {
+  "text": "buried",
+  "start": 1.593,
+  "end": 1.957,
+  "display": "buried",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 1.969,
+  "end": 2.127,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "Westminster",
+  "start": 2.139,
+  "end": 2.843,
+  "display": "Westminster",
+  "break": false
+ },
+ {
+  "text": "Abbey",
+  "start": 2.855,
+  "end": 3.146,
+  "display": "Abbey",
+  "break": false
+ },
+ {
+  "text": "as",
+  "start": 3.158,
+  "end": 3.328,
+  "display": "as",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 3.34,
+  "end": 3.437,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "princes",
+  "start": 3.45,
+  "end": 3.959,
+  "display": "princes.",
+  "break": true
+ },
+ {
+  "text": "In 1933",
+  "start": 4.31,
+  "end": 5.499,
+  "display": "In 1933,",
+  "break": true
+ },
+ {
+  "text": "the",
+  "start": 5.548,
+  "end": 5.645,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "bones",
+  "start": 5.657,
+  "end": 5.997,
+  "display": "bones",
+  "break": false
+ },
+ {
+  "text": "were",
+  "start": 6.009,
+  "end": 6.13,
+  "display": "were",
+  "break": false
+ },
+ {
+  "text": "examined",
+  "start": 6.142,
+  "end": 6.664,
+  "display": "examined.",
+  "break": true
+ },
+ {
+  "text": "The",
+  "start": 7.016,
+  "end": 7.174,
+  "display": "The",
+  "break": false
+ },
+ {
+  "text": "examiners",
+  "start": 7.186,
+  "end": 7.768,
+  "display": "examiners",
+  "break": false
+ },
+ {
+  "text": "said",
+  "start": 7.781,
+  "end": 7.987,
+  "display": "said",
+  "break": false
+ },
+ {
+  "text": "they",
+  "start": 7.999,
+  "end": 8.096,
+  "display": "they",
+  "break": false
+ },
+ {
+  "text": "were",
+  "start": 8.108,
+  "end": 8.23,
+  "display": "were",
+  "break": false
+ },
+ {
+  "text": "two",
+  "start": 8.242,
+  "end": 8.509,
+  "display": "two",
+  "break": false
+ },
+ {
+  "text": "children",
+  "start": 8.521,
+  "end": 8.994,
+  "display": "children",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 9.006,
+  "end": 9.091,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "about",
+  "start": 9.103,
+  "end": 9.37,
+  "display": "about",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 9.383,
+  "end": 9.455,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "right",
+  "start": 9.48,
+  "end": 9.722,
+  "display": "right",
+  "break": false
+ },
+ {
+  "text": "ages",
+  "start": 9.747,
+  "end": 10.183,
+  "display": "ages.",
+  "break": true
+ }
+]

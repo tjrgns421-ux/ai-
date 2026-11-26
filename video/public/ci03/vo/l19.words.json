@@ -1,0 +1,128 @@
+[
+ {
+  "text": "Richard",
+  "start": 0.1,
+  "end": 0.476,
+  "display": "Richard",
+  "break": false
+ },
+ {
+  "text": "rises",
+  "start": 0.488,
+  "end": 0.828,
+  "display": "rises",
+  "break": false
+ },
+ {
+  "text": "again",
+  "start": 0.84,
+  "end": 1.229,
+  "display": "again.",
+  "break": true
+ },
+ {
+  "text": "Illness",
+  "start": 1.579,
+  "end": 1.931,
+  "display": "Illness",
+  "break": false
+ },
+ {
+  "text": "drops",
+  "start": 1.943,
+  "end": 2.319,
+  "display": "drops,",
+  "break": true
+ },
+ {
+  "text": "because",
+  "start": 2.344,
+  "end": 2.635,
+  "display": "because",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 2.647,
+  "end": 2.683,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "natural",
+  "start": 2.696,
+  "end": 3.132,
+  "display": "natural",
+  "break": false
+ },
+ {
+  "text": "death",
+  "start": 3.145,
+  "end": 3.4,
+  "display": "death",
+  "break": false
+ },
+ {
+  "text": "would",
+  "start": 3.412,
+  "end": 3.509,
+  "display": "would",
+  "break": false
+ },
+ {
+  "text": "have",
+  "start": 3.521,
+  "end": 3.654,
+  "display": "have",
+  "break": false
+ },
+ {
+  "text": "been",
+  "start": 3.667,
+  "end": 3.788,
+  "display": "been",
+  "break": false
+ },
+ {
+  "text": "safer",
+  "start": 3.8,
+  "end": 4.261,
+  "display": "safer",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 4.273,
+  "end": 4.407,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "announce",
+  "start": 4.419,
+  "end": 4.844,
+  "display": "announce",
+  "break": false
+ },
+ {
+  "text": "than",
+  "start": 4.856,
+  "end": 5.001,
+  "display": "than",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 5.014,
+  "end": 5.038,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "mystery",
+  "start": 5.05,
+  "end": 5.511,
+  "display": "mystery.",
+  "break": true
+ }
+]

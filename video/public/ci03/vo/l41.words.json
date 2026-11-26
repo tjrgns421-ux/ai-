@@ -1,0 +1,51 @@
+[
+ {
+  "text": "Richard",
+  "start": 0.1,
+  "end": 0.476,
+  "display": "Richard",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 0.488,
+  "end": 0.561,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "Third",
+  "start": 0.573,
+  "end": 0.998,
+  "display": "Third",
+  "break": false
+ },
+ {
+  "text": "ordered",
+  "start": 1.01,
+  "end": 1.277,
+  "display": "ordered",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 1.289,
+  "end": 1.411,
+  "display": "it",
+  "break": false
+ },
+ {
+  "text": "forty-nine",
+  "start": 1.52,
+  "end": 2.017,
+  "display": "forty-nine",
+  "break": false
+ },
+ {
+  "text": "percent",
+  "start": 2.03,
+  "end": 2.491,
+  "display": "percent.",
+  "break": true
+ }
+]

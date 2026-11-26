@@ -1,0 +1,37 @@
+[
+ {
+  "text": "At",
+  "start": 0.1,
+  "end": 0.294,
+  "display": "At",
+  "break": false
+ },
+ {
+  "text": "least",
+  "start": 0.306,
+  "end": 0.537,
+  "display": "least",
+  "break": false
+ },
+ {
+  "text": "one",
+  "start": 0.549,
+  "end": 0.731,
+  "display": "one",
+  "break": false
+ },
+ {
+  "text": "survived",
+  "start": 0.743,
+  "end": 1.277,
+  "display": "survived",
+  "break": false
+ },
+ {
+  "text": "twenty-one",
+  "start": 1.374,
+  "end": 1.908,
+  "display": "twenty-one.",
+  "break": true
+ }
+]

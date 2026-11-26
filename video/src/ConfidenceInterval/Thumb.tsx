@@ -8,7 +8,7 @@ export const CiThumb: React.FC<{ img: string; num: string; word: string; fill: n
   useFonts();
   return (
     <AbsoluteFill style={{ background: C.bg }}>
-      <Img src={staticFile(img)} style={{ position: "absolute", right: -40, top: -60, height: 860, filter: "sepia(0.25) contrast(1.15) brightness(0.95)", ...imgStyle }} />
+      <Img src={staticFile(img)} style={{ position: "absolute", right: -40, top: -60, height: 860, filter: "sepia(0.25) contrast(1.15) brightness(0.95)", WebkitMaskImage: "linear-gradient(90deg, transparent 0%, black 30%)", maskImage: "linear-gradient(90deg, transparent 0%, black 30%)", ...imgStyle }} />
       <AbsoluteFill style={{ background: "linear-gradient(90deg, #141413 32%, rgba(20,20,19,0.55) 62%, rgba(20,20,19,0.15) 100%)" }} />
       <AbsoluteFill style={{ background: "radial-gradient(ellipse at 75% 45%, rgba(20,20,19,0) 30%, rgba(20,20,19,0.9) 95%)" }} />
       <div style={{ position: "absolute", left: 70, top: 150, fontFamily: FONT, fontWeight: 900, fontSize: 200, lineHeight: 0.9, color: C.ink, letterSpacing: -6 }}>
@@ -27,3 +27,4 @@ export const CiThumb: React.FC<{ img: string; num: string; word: string; fill: n
 };
 
 export const Ci02Thumb: React.FC = () => <CiThumb img="ci02/img/ruins.jpg" num="60%" word="ALIVE" fill={60} band={[45, 74]} imgStyle={{ top: -40, height: 980 }} />;
+export const Ci03Thumb: React.FC = () => <CiThumb img="ci03/img/millais.jpg" num="49%" word="GUILTY" fill={49} band={[35, 63]} imgStyle={{ top: -120, height: 1060, right: -120 }} />;

@@ -1,0 +1,177 @@
+[
+ {
+  "text": "So",
+  "start": 0.1,
+  "end": 0.561,
+  "display": "So.",
+  "break": true
+ },
+ {
+  "text": "After",
+  "start": 0.912,
+  "end": 1.288,
+  "display": "After",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 1.3,
+  "end": 1.385,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "eyewitness",
+  "start": 1.397,
+  "end": 1.895,
+  "display": "eyewitness",
+  "break": false
+ },
+ {
+  "text": "report",
+  "start": 1.907,
+  "end": 2.356,
+  "display": "report,",
+  "break": true
+ },
+ {
+  "text": "the",
+  "start": 2.38,
+  "end": 2.477,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "missing",
+  "start": 2.489,
+  "end": 2.793,
+  "display": "missing",
+  "break": false
+ },
+ {
+  "text": "proof",
+  "start": 2.805,
+  "end": 3.072,
+  "display": "proof",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 3.084,
+  "end": 3.205,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "life",
+  "start": 3.217,
+  "end": 3.569,
+  "display": "life,",
+  "break": true
+ },
+ {
+  "text": "the",
+  "start": 3.654,
+  "end": 3.764,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "bones",
+  "start": 3.776,
+  "end": 4.273,
+  "display": "bones,",
+  "break": true
+ },
+ {
+  "text": "Thomas",
+  "start": 4.37,
+  "end": 4.747,
+  "display": "Thomas",
+  "break": false
+ },
+ {
+  "text": "More's",
+  "start": 4.759,
+  "end": 5.038,
+  "display": "More's",
+  "break": false
+ },
+ {
+  "text": "sources",
+  "start": 5.05,
+  "end": 5.596,
+  "display": "sources,",
+  "break": true
+ },
+ {
+  "text": "the",
+  "start": 5.681,
+  "end": 5.815,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "Dutch",
+  "start": 5.827,
+  "end": 6.094,
+  "display": "Dutch",
+  "break": false
+ },
+ {
+  "text": "documents",
+  "start": 6.106,
+  "end": 6.725,
+  "display": "documents,",
+  "break": true
+ },
+ {
+  "text": "and",
+  "start": 6.785,
+  "end": 6.895,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 6.907,
+  "end": 6.98,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "chain",
+  "start": 6.992,
+  "end": 7.392,
+  "display": "chain,",
+  "break": true
+ },
+ {
+  "text": "here's",
+  "start": 7.514,
+  "end": 7.744,
+  "display": "here's",
+  "break": false
+ },
+ {
+  "text": "where",
+  "start": 7.756,
+  "end": 7.89,
+  "display": "where",
+  "break": false
+ },
+ {
+  "text": "I",
+  "start": 7.902,
+  "end": 7.963,
+  "display": "I",
+  "break": false
+ },
+ {
+  "text": "land",
+  "start": 7.975,
+  "end": 8.375,
+  "display": "land.",
+  "break": true
+ }
+]

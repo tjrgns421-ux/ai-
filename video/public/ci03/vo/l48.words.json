@@ -1,0 +1,254 @@
+[
+ {
+  "text": "One",
+  "start": 0.1,
+  "end": 0.476,
+  "display": "One",
+  "break": false
+ },
+ {
+  "text": "if",
+  "start": 0.707,
+  "end": 0.804,
+  "display": "if",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 0.816,
+  "end": 0.901,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "bones",
+  "start": 0.913,
+  "end": 1.265,
+  "display": "bones",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 1.277,
+  "end": 1.423,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "Westminster",
+  "start": 1.435,
+  "end": 2.09,
+  "display": "Westminster",
+  "break": false
+ },
+ {
+  "text": "Abbey",
+  "start": 2.102,
+  "end": 2.406,
+  "display": "Abbey",
+  "break": false
+ },
+ {
+  "text": "are",
+  "start": 2.418,
+  "end": 2.551,
+  "display": "are",
+  "break": false
+ },
+ {
+  "text": "ever",
+  "start": 2.564,
+  "end": 2.746,
+  "display": "ever",
+  "break": false
+ },
+ {
+  "text": "tested",
+  "start": 2.758,
+  "end": 3.231,
+  "display": "tested,",
+  "break": true
+ },
+ {
+  "text": "and",
+  "start": 3.292,
+  "end": 3.437,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "turn",
+  "start": 3.45,
+  "end": 3.729,
+  "display": "turn",
+  "break": false
+ },
+ {
+  "text": "out",
+  "start": 3.741,
+  "end": 3.923,
+  "display": "out",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 3.935,
+  "end": 4.02,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "be",
+  "start": 4.032,
+  "end": 4.129,
+  "display": "be",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 4.141,
+  "end": 4.226,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "wrong",
+  "start": 4.238,
+  "end": 4.517,
+  "display": "wrong",
+  "break": false
+ },
+ {
+  "text": "age",
+  "start": 4.53,
+  "end": 4.857,
+  "display": "age,",
+  "break": true
+ },
+ {
+  "text": "the",
+  "start": 4.906,
+  "end": 5.027,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "wrong",
+  "start": 5.039,
+  "end": 5.306,
+  "display": "wrong",
+  "break": false
+ },
+ {
+  "text": "century",
+  "start": 5.318,
+  "end": 5.865,
+  "display": "century,",
+  "break": true
+ },
+ {
+  "text": "or",
+  "start": 5.949,
+  "end": 6.095,
+  "display": "or",
+  "break": false
+ },
+ {
+  "text": "not",
+  "start": 6.107,
+  "end": 6.338,
+  "display": "not",
+  "break": false
+ },
+ {
+  "text": "related",
+  "start": 6.35,
+  "end": 6.714,
+  "display": "related",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 6.726,
+  "end": 6.835,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "each",
+  "start": 6.848,
+  "end": 6.993,
+  "display": "each",
+  "break": false
+ },
+ {
+  "text": "other",
+  "start": 7.005,
+  "end": 7.26,
+  "display": "other,",
+  "break": true
+ },
+ {
+  "text": "Richard",
+  "start": 7.527,
+  "end": 7.855,
+  "display": "Richard",
+  "break": false
+ },
+ {
+  "text": "loses",
+  "start": 7.867,
+  "end": 8.219,
+  "display": "loses",
+  "break": false
+ },
+ {
+  "text": "most",
+  "start": 8.231,
+  "end": 8.547,
+  "display": "most",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 8.559,
+  "end": 8.644,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "what",
+  "start": 8.656,
+  "end": 8.777,
+  "display": "what",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 8.789,
+  "end": 8.862,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "bones",
+  "start": 8.874,
+  "end": 9.202,
+  "display": "bones",
+  "break": false
+ },
+ {
+  "text": "gave",
+  "start": 9.214,
+  "end": 9.408,
+  "display": "gave",
+  "break": false
+ },
+ {
+  "text": "him",
+  "start": 9.42,
+  "end": 9.615,
+  "display": "him.",
+  "break": true
+ }
+]

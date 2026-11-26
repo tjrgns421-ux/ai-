@@ -1,0 +1,156 @@
+[
+ {
+  "text": "Mancini",
+  "start": 0.1,
+  "end": 0.646,
+  "display": "Mancini",
+  "break": false
+ },
+ {
+  "text": "doesn't",
+  "start": 0.658,
+  "end": 0.937,
+  "display": "doesn't",
+  "break": false
+ },
+ {
+  "text": "say",
+  "start": 0.95,
+  "end": 1.144,
+  "display": "say",
+  "break": false
+ },
+ {
+  "text": "they",
+  "start": 1.156,
+  "end": 1.277,
+  "display": "they",
+  "break": false
+ },
+ {
+  "text": "were",
+  "start": 1.289,
+  "end": 1.399,
+  "display": "were",
+  "break": false
+ },
+ {
+  "text": "killed",
+  "start": 1.411,
+  "end": 1.763,
+  "display": "killed.",
+  "break": true
+ },
+ {
+  "text": "He",
+  "start": 2.113,
+  "end": 2.271,
+  "display": "He",
+  "break": false
+ },
+ {
+  "text": "says",
+  "start": 2.283,
+  "end": 2.501,
+  "display": "says",
+  "break": false
+ },
+ {
+  "text": "he",
+  "start": 2.514,
+  "end": 2.599,
+  "display": "he",
+  "break": false
+ },
+ {
+  "text": "doesn't",
+  "start": 2.611,
+  "end": 2.878,
+  "display": "doesn't",
+  "break": false
+ },
+ {
+  "text": "know",
+  "start": 2.89,
+  "end": 3.157,
+  "display": "know.",
+  "break": true
+ },
+ {
+  "text": "But",
+  "start": 3.509,
+  "end": 3.679,
+  "display": "But",
+  "break": false
+ },
+ {
+  "text": "this",
+  "start": 3.691,
+  "end": 3.836,
+  "display": "this",
+  "break": false
+ },
+ {
+  "text": "is",
+  "start": 3.849,
+  "end": 3.933,
+  "display": "is",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 3.946,
+  "end": 4.006,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "contemporary",
+  "start": 4.018,
+  "end": 4.734,
+  "display": "contemporary,",
+  "break": true
+ },
+ {
+  "text": "with",
+  "start": 4.759,
+  "end": 4.941,
+  "display": "with",
+  "break": false
+ },
+ {
+  "text": "no",
+  "start": 4.953,
+  "end": 5.135,
+  "display": "no",
+  "break": false
+ },
+ {
+  "text": "Tudor",
+  "start": 5.147,
+  "end": 5.487,
+  "display": "Tudor",
+  "break": false
+ },
+ {
+  "text": "king",
+  "start": 5.499,
+  "end": 5.73,
+  "display": "king",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 5.742,
+  "end": 5.839,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "please",
+  "start": 5.851,
+  "end": 6.3,
+  "display": "please.",
+  "break": true
+ }
+]

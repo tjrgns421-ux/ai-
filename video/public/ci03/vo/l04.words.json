@@ -1,0 +1,177 @@
+[
+ {
+  "text": "In",
+  "start": 0.1,
+  "end": 0.343,
+  "display": "In",
+  "break": false
+ },
+ {
+  "text": "April 1483",
+  "start": 0.367,
+  "end": 1.763,
+  "display": "April 1483,",
+  "break": true
+ },
+ {
+  "text": "King",
+  "start": 1.811,
+  "end": 2.054,
+  "display": "King",
+  "break": false
+ },
+ {
+  "text": "Edward",
+  "start": 2.066,
+  "end": 2.382,
+  "display": "Edward",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 2.394,
+  "end": 2.467,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "Fourth",
+  "start": 2.479,
+  "end": 2.794,
+  "display": "Fourth",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 2.806,
+  "end": 2.928,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "England",
+  "start": 2.952,
+  "end": 3.243,
+  "display": "England",
+  "break": false
+ },
+ {
+  "text": "died",
+  "start": 3.255,
+  "end": 3.559,
+  "display": "died.",
+  "break": true
+ },
+ {
+  "text": "His",
+  "start": 3.909,
+  "end": 4.164,
+  "display": "His",
+  "break": false
+ },
+ {
+  "text": "heir",
+  "start": 4.176,
+  "end": 4.298,
+  "display": "heir",
+  "break": false
+ },
+ {
+  "text": "was",
+  "start": 4.31,
+  "end": 4.431,
+  "display": "was",
+  "break": false
+ },
+ {
+  "text": "his",
+  "start": 4.443,
+  "end": 4.577,
+  "display": "his",
+  "break": false
+ },
+ {
+  "text": "twelve-year-old",
+  "start": 4.589,
+  "end": 5.268,
+  "display": "twelve-year-old",
+  "break": false
+ },
+ {
+  "text": "son",
+  "start": 5.281,
+  "end": 5.584,
+  "display": "son,",
+  "break": true
+ },
+ {
+  "text": "now",
+  "start": 5.717,
+  "end": 5.948,
+  "display": "now",
+  "break": false
+ },
+ {
+  "text": "Edward",
+  "start": 5.96,
+  "end": 6.215,
+  "display": "Edward",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 6.227,
+  "end": 6.3,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "Fifth",
+  "start": 6.312,
+  "end": 6.725,
+  "display": "Fifth.",
+  "break": true
+ },
+ {
+  "text": "His",
+  "start": 7.077,
+  "end": 7.295,
+  "display": "His",
+  "break": false
+ },
+ {
+  "text": "younger",
+  "start": 7.307,
+  "end": 7.586,
+  "display": "younger",
+  "break": false
+ },
+ {
+  "text": "brother",
+  "start": 7.599,
+  "end": 7.926,
+  "display": "brother,",
+  "break": true
+ },
+ {
+  "text": "Richard",
+  "start": 7.999,
+  "end": 8.387,
+  "display": "Richard,",
+  "break": true
+ },
+ {
+  "text": "was",
+  "start": 8.424,
+  "end": 8.569,
+  "display": "was",
+  "break": false
+ },
+ {
+  "text": "nine",
+  "start": 8.582,
+  "end": 8.933,
+  "display": "nine.",
+  "break": true
+ }
+]

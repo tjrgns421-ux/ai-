@@ -1,0 +1,205 @@
+[
+ {
+  "text": "A",
+  "start": 0.1,
+  "end": 0.27,
+  "display": "A",
+  "break": false
+ },
+ {
+  "text": "boy",
+  "start": 0.282,
+  "end": 0.452,
+  "display": "boy",
+  "break": false
+ },
+ {
+  "text": "king's",
+  "start": 0.464,
+  "end": 0.719,
+  "display": "king's",
+  "break": false
+ },
+ {
+  "text": "chain",
+  "start": 0.731,
+  "end": 1.144,
+  "display": "chain,",
+  "break": true
+ },
+ {
+  "text": "in",
+  "start": 1.18,
+  "end": 1.301,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 1.314,
+  "end": 1.386,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "family",
+  "start": 1.399,
+  "end": 1.872,
+  "display": "family",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 1.884,
+  "end": 1.945,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 1.957,
+  "end": 2.017,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "man",
+  "start": 2.03,
+  "end": 2.26,
+  "display": "man",
+  "break": false
+ },
+ {
+  "text": "accused",
+  "start": 2.272,
+  "end": 2.636,
+  "display": "accused",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 2.649,
+  "end": 2.733,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "killing",
+  "start": 2.746,
+  "end": 3.049,
+  "display": "killing",
+  "break": false
+ },
+ {
+  "text": "him",
+  "start": 3.061,
+  "end": 3.267,
+  "display": "him.",
+  "break": true
+ },
+ {
+  "text": "It's",
+  "start": 3.618,
+  "end": 3.836,
+  "display": "It's",
+  "break": false
+ },
+ {
+  "text": "suggestive",
+  "start": 3.849,
+  "end": 4.443,
+  "display": "suggestive.",
+  "break": true
+ },
+ {
+  "text": "But",
+  "start": 4.795,
+  "end": 4.977,
+  "display": "But",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 4.989,
+  "end": 5.062,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "chain",
+  "start": 5.074,
+  "end": 5.329,
+  "display": "chain",
+  "break": false
+ },
+ {
+  "text": "itself",
+  "start": 5.341,
+  "end": 5.705,
+  "display": "itself",
+  "break": false
+ },
+ {
+  "text": "is",
+  "start": 5.717,
+  "end": 5.827,
+  "display": "is",
+  "break": false
+ },
+ {
+  "text": "lost",
+  "start": 5.839,
+  "end": 6.251,
+  "display": "lost,",
+  "break": true
+ },
+ {
+  "text": "and",
+  "start": 6.3,
+  "end": 6.409,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "we",
+  "start": 6.421,
+  "end": 6.518,
+  "display": "we",
+  "break": false
+ },
+ {
+  "text": "don't",
+  "start": 6.531,
+  "end": 6.725,
+  "display": "don't",
+  "break": false
+ },
+ {
+  "text": "know",
+  "start": 6.737,
+  "end": 6.846,
+  "display": "know",
+  "break": false
+ },
+ {
+  "text": "how",
+  "start": 6.858,
+  "end": 7.065,
+  "display": "how",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 7.077,
+  "end": 7.137,
+  "display": "it",
+  "break": false
+ },
+ {
+  "text": "travelled",
+  "start": 7.149,
+  "end": 7.647,
+  "display": "travelled.",
+  "break": true
+ }
+]

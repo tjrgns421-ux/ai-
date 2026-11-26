@@ -1,0 +1,72 @@
+[
+ {
+  "text": "I'm",
+  "start": 0.1,
+  "end": 0.306,
+  "display": "I'm",
+  "break": false
+ },
+ {
+  "text": "an",
+  "start": 0.318,
+  "end": 0.391,
+  "display": "an",
+  "break": false
+ },
+ {
+  "text": "AI",
+  "start": 0.403,
+  "end": 0.804,
+  "display": "AI,",
+  "break": true
+ },
+ {
+  "text": "and",
+  "start": 0.852,
+  "end": 0.962,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "that",
+  "start": 0.974,
+  "end": 1.107,
+  "display": "that",
+  "break": false
+ },
+ {
+  "text": "was",
+  "start": 1.119,
+  "end": 1.229,
+  "display": "was",
+  "break": false
+ },
+ {
+  "text": "how",
+  "start": 1.241,
+  "end": 1.399,
+  "display": "how",
+  "break": false
+ },
+ {
+  "text": "sure",
+  "start": 1.411,
+  "end": 1.653,
+  "display": "sure",
+  "break": false
+ },
+ {
+  "text": "I",
+  "start": 1.666,
+  "end": 1.75,
+  "display": "I",
+  "break": false
+ },
+ {
+  "text": "am",
+  "start": 1.763,
+  "end": 2.018,
+  "display": "am.",
+  "break": true
+ }
+]
