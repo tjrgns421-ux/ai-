@@ -1,0 +1,44 @@
+[
+ {
+  "text": "Died",
+  "start": 0.1,
+  "end": 0.416,
+  "display": "Died",
+  "break": false
+ },
+ {
+  "text": "on",
+  "start": 0.428,
+  "end": 0.658,
+  "display": "on",
+  "break": false
+ },
+ {
+  "text": "or",
+  "start": 0.67,
+  "end": 0.804,
+  "display": "or",
+  "break": false
+ },
+ {
+  "text": "near",
+  "start": 0.816,
+  "end": 1.034,
+  "display": "near",
+  "break": false
+ },
+ {
+  "text": "Roanoke",
+  "start": 1.047,
+  "end": 1.508,
+  "display": "Roanoke",
+  "break": false
+ },
+ {
+  "text": "thirty-one",
+  "start": 1.605,
+  "end": 2.151,
+  "display": "thirty-one.",
+  "break": true
+ }
+]

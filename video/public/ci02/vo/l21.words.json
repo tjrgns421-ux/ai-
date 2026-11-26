@@ -1,0 +1,261 @@
+[
+ {
+  "text": "A",
+  "start": 0.1,
+  "end": 0.27,
+  "display": "A",
+  "break": false
+ },
+ {
+  "text": "drought",
+  "start": 0.282,
+  "end": 0.573,
+  "display": "drought",
+  "break": false
+ },
+ {
+  "text": "means",
+  "start": 0.585,
+  "end": 0.84,
+  "display": "means",
+  "break": false
+ },
+ {
+  "text": "failed",
+  "start": 0.852,
+  "end": 1.18,
+  "display": "failed",
+  "break": false
+ },
+ {
+  "text": "crops",
+  "start": 1.192,
+  "end": 1.617,
+  "display": "crops,",
+  "break": true
+ },
+ {
+  "text": "for",
+  "start": 1.641,
+  "end": 1.799,
+  "display": "for",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 1.811,
+  "end": 1.896,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "English",
+  "start": 1.92,
+  "end": 2.357,
+  "display": "English",
+  "break": false
+ },
+ {
+  "text": "and",
+  "start": 2.418,
+  "end": 2.503,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "for",
+  "start": 2.515,
+  "end": 2.649,
+  "display": "for",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 2.661,
+  "end": 2.733,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "people",
+  "start": 2.746,
+  "end": 3.073,
+  "display": "people",
+  "break": false
+ },
+ {
+  "text": "they",
+  "start": 3.085,
+  "end": 3.182,
+  "display": "they",
+  "break": false
+ },
+ {
+  "text": "depended",
+  "start": 3.195,
+  "end": 3.68,
+  "display": "depended",
+  "break": false
+ },
+ {
+  "text": "on",
+  "start": 3.692,
+  "end": 3.85,
+  "display": "on",
+  "break": false
+ },
+ {
+  "text": "for",
+  "start": 3.862,
+  "end": 4.008,
+  "display": "for",
+  "break": false
+ },
+ {
+  "text": "food",
+  "start": 4.02,
+  "end": 4.36,
+  "display": "food.",
+  "break": true
+ },
+ {
+  "text": "A",
+  "start": 4.71,
+  "end": 4.88,
+  "display": "A",
+  "break": false
+ },
+ {
+  "text": "colony",
+  "start": 4.892,
+  "end": 5.305,
+  "display": "colony",
+  "break": false
+ },
+ {
+  "text": "that",
+  "start": 5.317,
+  "end": 5.463,
+  "display": "that",
+  "break": false
+ },
+ {
+  "text": "came",
+  "start": 5.475,
+  "end": 5.73,
+  "display": "came",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 5.742,
+  "end": 5.827,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "be",
+  "start": 5.839,
+  "end": 6.009,
+  "display": "be",
+  "break": false
+ },
+ {
+  "text": "resupplied",
+  "start": 6.021,
+  "end": 6.725,
+  "display": "resupplied,",
+  "break": true
+ },
+ {
+  "text": "during",
+  "start": 6.834,
+  "end": 7.101,
+  "display": "during",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 7.113,
+  "end": 7.198,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "worst",
+  "start": 7.21,
+  "end": 7.538,
+  "display": "worst",
+  "break": false
+ },
+ {
+  "text": "drought",
+  "start": 7.55,
+  "end": 7.853,
+  "display": "drought",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 7.866,
+  "end": 8.084,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "eight",
+  "start": 8.108,
+  "end": 8.266,
+  "display": "eight",
+  "break": false
+ },
+ {
+  "text": "centuries",
+  "start": 8.278,
+  "end": 8.849,
+  "display": "centuries,",
+  "break": true
+ },
+ {
+  "text": "is",
+  "start": 8.885,
+  "end": 9.031,
+  "display": "is",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 9.043,
+  "end": 9.103,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "colony",
+  "start": 9.116,
+  "end": 9.662,
+  "display": "colony",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 9.674,
+  "end": 9.783,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "serious",
+  "start": 9.795,
+  "end": 10.244,
+  "display": "serious",
+  "break": false
+ },
+ {
+  "text": "trouble",
+  "start": 10.256,
+  "end": 10.632,
+  "display": "trouble.",
+  "break": true
+ }
+]

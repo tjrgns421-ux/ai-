@@ -1,20 +1,18 @@
-"""Join per-line TTS clips (video/public/ci01/vo/lNN.mp3) into one narration track with
+"""Join per-line TTS clips (video/public/ciNN/vo/lNN.mp3) into one narration track with
 deliberate gaps, and write timing.json (absolute start of every line + per-word timings).
-Run from repo root: python3 channels/confidence-interval/ep01-voynich/tools/build_narration.py"""
-import json, subprocess
+Usage (repo root): python3 channels/confidence-interval/tools/build_narration.py <episode dir> <ciNN>
+Pauses come from <episode dir>/gaps.json: {"after line N": seconds}; default 0.45 s."""
+import json, subprocess, sys
 from pathlib import Path
 
-VO = Path("video/public/ci01/vo")
-LEAD = 1.2  # silence before the first line (f1r fades in)
-# extra pause AFTER line N (1-based). Default gap 0.45 s.
-GAP = {2: 1.6, 3: 1.4, 5: 1.4, 9: 0.8, 10: 2.6, 11: 1.6, 15: 0.8, 16: 2.6, 17: 0.9,
-       19: 0.7, 20: 0.9, 21: 2.6, 22: 1.6, 23: 0.8, 24: 1.4, 26: 2.6, 27: 0.9, 29: 2.6, 30: 0.8,
-       31: 2.6, 32: 0.9, 34: 3.0, 36: 3.2, 37: 1.6, 38: 0.9, 39: 0.9, 40: 0.9, 41: 1.2, 42: 2.6,
-       43: 0.9, 44: 1.0, 45: 1.0, 46: 2.2, 47: 1.0}
+EP, ID = Path(sys.argv[1]), sys.argv[2]
+VO = Path(f"video/public/{ID}/vo")
+LEAD = 1.2  # silence before the first line
+GAP = {int(k): v for k, v in json.loads((EP / "gaps.json").read_text()).items()} if (EP / "gaps.json").exists() else {}
 TAIL = 6.0  # end screen
 
 import re
-SCRIPT = Path("channels/confidence-interval/ep01-voynich/script.txt").read_text().strip().split("\n")
+SCRIPT = (EP / "script.txt").read_text().strip().split("\n")
 norm = lambda x: re.sub(r"[^a-z0-9]", "", x.lower())
 
 def punctuate(words, line):
@@ -43,7 +41,8 @@ total = lines[-1]["start"] + lines[-1]["dur"] + TAIL
 mix = ";".join(filt) + ";" + "".join(f"[a{i}]" for i in range(1, len(files) + 1)) + \
       f"amix=inputs={len(files)}:normalize=0,apad,atrim=0:{total:.3f}[o]"
 subprocess.run(["ffmpeg", "-v", "error", "-y", *inputs, "-filter_complex", mix, "-map", "[o]",
-                "-ar", "44100", "-c:a", "libmp3lame", "-q:a", "2", "video/public/ci01/narration.mp3"], check=True)
-Path("video/src/ConfidenceInterval/ep01").mkdir(parents=True, exist_ok=True)
-Path("video/src/ConfidenceInterval/ep01/timing.json").write_text(json.dumps({"total": round(total, 3), "lines": lines}))
+                "-ar", "44100", "-c:a", "libmp3lame", "-q:a", "2", f"video/public/{ID}/narration.mp3"], check=True)
+OUTD = Path(f"video/src/ConfidenceInterval/ep{ID[2:]}")
+OUTD.mkdir(parents=True, exist_ok=True)
+(OUTD / "timing.json").write_text(json.dumps({"total": round(total, 3), "lines": lines}))
 print(f"{len(files)} lines, total {total:.1f}s ({int(total//60)}:{int(total%60):02d})")

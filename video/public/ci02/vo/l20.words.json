@@ -1,0 +1,142 @@
+[
+ {
+  "text": "The",
+  "start": 0.1,
+  "end": 0.27,
+  "display": "The",
+  "break": false
+ },
+ {
+  "text": "result",
+  "start": 0.282,
+  "end": 0.719,
+  "display": "result",
+  "break": false
+ },
+ {
+  "text": "1587 to 1589",
+  "start": 0.84,
+  "end": 3.304,
+  "display": "1587 to 1589",
+  "break": false
+ },
+ {
+  "text": "was",
+  "start": 3.328,
+  "end": 3.51,
+  "display": "was",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 3.522,
+  "end": 3.619,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "worst",
+  "start": 3.632,
+  "end": 3.971,
+  "display": "worst",
+  "break": false
+ },
+ {
+  "text": "three-year",
+  "start": 3.983,
+  "end": 4.445,
+  "display": "three-year",
+  "break": false
+ },
+ {
+  "text": "drought",
+  "start": 4.457,
+  "end": 4.809,
+  "display": "drought",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 4.821,
+  "end": 4.991,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "that",
+  "start": 5.003,
+  "end": 5.161,
+  "display": "that",
+  "break": false
+ },
+ {
+  "text": "entire",
+  "start": 5.173,
+  "end": 5.61,
+  "display": "entire",
+  "break": false
+ },
+ {
+  "text": "record",
+  "start": 5.622,
+  "end": 5.974,
+  "display": "record.",
+  "break": true
+ },
+ {
+  "text": "The",
+  "start": 6.324,
+  "end": 6.482,
+  "display": "The",
+  "break": false
+ },
+ {
+  "text": "colonists",
+  "start": 6.494,
+  "end": 7.028,
+  "display": "colonists",
+  "break": false
+ },
+ {
+  "text": "arrived",
+  "start": 7.04,
+  "end": 7.489,
+  "display": "arrived",
+  "break": false
+ },
+ {
+  "text": "at",
+  "start": 7.501,
+  "end": 7.599,
+  "display": "at",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 7.611,
+  "end": 7.683,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "start",
+  "start": 7.696,
+  "end": 7.95,
+  "display": "start",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 7.963,
+  "end": 8.035,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 8.048,
+  "end": 8.157,
+  "display": "it.",
+  "break": true
+ }
+]

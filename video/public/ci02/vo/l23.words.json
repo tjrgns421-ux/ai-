@@ -1,0 +1,93 @@
+[
+ {
+  "text": "Evidence",
+  "start": 0.1,
+  "end": 0.585,
+  "display": "Evidence",
+  "break": false
+ },
+ {
+  "text": "three",
+  "start": 0.598,
+  "end": 0.901,
+  "display": "three",
+  "break": false
+ },
+ {
+  "text": "is",
+  "start": 0.913,
+  "end": 1.022,
+  "display": "is",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 1.034,
+  "end": 1.071,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "story",
+  "start": 1.083,
+  "end": 1.508,
+  "display": "story,",
+  "break": true
+ },
+ {
+  "text": "and",
+  "start": 1.532,
+  "end": 1.666,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "I'm",
+  "start": 1.678,
+  "end": 1.75,
+  "display": "I'm",
+  "break": false
+ },
+ {
+  "text": "going",
+  "start": 1.763,
+  "end": 1.993,
+  "display": "going",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 2.005,
+  "end": 2.078,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "treat",
+  "start": 2.09,
+  "end": 2.345,
+  "display": "treat",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 2.357,
+  "end": 2.43,
+  "display": "it",
+  "break": false
+ },
+ {
+  "text": "like",
+  "start": 2.442,
+  "end": 2.612,
+  "display": "like",
+  "break": false
+ },
+ {
+  "text": "one",
+  "start": 2.636,
+  "end": 2.952,
+  "display": "one.",
+  "break": true
+ }
+]

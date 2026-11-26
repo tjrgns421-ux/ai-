@@ -1,0 +1,324 @@
+[
+ {
+  "text": "So",
+  "start": 0.1,
+  "end": 0.367,
+  "display": "So",
+  "break": false
+ },
+ {
+  "text": "here",
+  "start": 0.379,
+  "end": 0.561,
+  "display": "here",
+  "break": false
+ },
+ {
+  "text": "are",
+  "start": 0.573,
+  "end": 0.646,
+  "display": "are",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 0.658,
+  "end": 0.731,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "four",
+  "start": 0.743,
+  "end": 1.01,
+  "display": "four",
+  "break": false
+ },
+ {
+  "text": "explanations",
+  "start": 1.022,
+  "end": 1.848,
+  "display": "explanations.",
+  "break": true
+ },
+ {
+  "text": "One",
+  "start": 2.198,
+  "end": 2.574,
+  "display": "One",
+  "break": false
+ },
+ {
+  "text": "they",
+  "start": 2.708,
+  "end": 2.841,
+  "display": "they",
+  "break": false
+ },
+ {
+  "text": "joined",
+  "start": 2.853,
+  "end": 3.133,
+  "display": "joined",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 3.145,
+  "end": 3.217,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "Croatoan",
+  "start": 3.23,
+  "end": 3.727,
+  "display": "Croatoan",
+  "break": false
+ },
+ {
+  "text": "people",
+  "start": 3.739,
+  "end": 4.152,
+  "display": "people",
+  "break": false
+ },
+ {
+  "text": "on",
+  "start": 4.164,
+  "end": 4.249,
+  "display": "on",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 4.261,
+  "end": 4.358,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "island",
+  "start": 4.37,
+  "end": 4.759,
+  "display": "island",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 4.771,
+  "end": 4.88,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 4.892,
+  "end": 4.977,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "south",
+  "start": 4.989,
+  "end": 5.438,
+  "display": "south,",
+  "break": true
+ },
+ {
+  "text": "today's",
+  "start": 5.487,
+  "end": 5.827,
+  "display": "today's",
+  "break": false
+ },
+ {
+  "text": "Hatteras",
+  "start": 5.839,
+  "end": 6.373,
+  "display": "Hatteras.",
+  "break": true
+ },
+ {
+  "text": "Two",
+  "start": 6.725,
+  "end": 7.137,
+  "display": "Two",
+  "break": false
+ },
+ {
+  "text": "they",
+  "start": 7.259,
+  "end": 7.38,
+  "display": "they",
+  "break": false
+ },
+ {
+  "text": "moved",
+  "start": 7.392,
+  "end": 7.659,
+  "display": "moved",
+  "break": false
+ },
+ {
+  "text": "inland",
+  "start": 7.671,
+  "end": 8.096,
+  "display": "inland,",
+  "break": true
+ },
+ {
+  "text": "toward",
+  "start": 8.157,
+  "end": 8.399,
+  "display": "toward",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 8.412,
+  "end": 8.472,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "mainland",
+  "start": 8.484,
+  "end": 9.018,
+  "display": "mainland.",
+  "break": true
+ },
+ {
+  "text": "Three",
+  "start": 9.37,
+  "end": 9.722,
+  "display": "Three",
+  "break": false
+ },
+ {
+  "text": "they",
+  "start": 9.795,
+  "end": 9.929,
+  "display": "they",
+  "break": false
+ },
+ {
+  "text": "died",
+  "start": 9.941,
+  "end": 10.329,
+  "display": "died,",
+  "break": true
+ },
+ {
+  "text": "from",
+  "start": 10.414,
+  "end": 10.535,
+  "display": "from",
+  "break": false
+ },
+ {
+  "text": "hunger",
+  "start": 10.548,
+  "end": 10.997,
+  "display": "hunger,",
+  "break": true
+ },
+ {
+  "text": "disease",
+  "start": 11.082,
+  "end": 11.591,
+  "display": "disease",
+  "break": false
+ },
+ {
+  "text": "or",
+  "start": 11.603,
+  "end": 11.749,
+  "display": "or",
+  "break": false
+ },
+ {
+  "text": "attack",
+  "start": 11.761,
+  "end": 12.137,
+  "display": "attack.",
+  "break": true
+ },
+ {
+  "text": "Four",
+  "start": 12.489,
+  "end": 12.89,
+  "display": "Four",
+  "break": false
+ },
+ {
+  "text": "they",
+  "start": 12.95,
+  "end": 13.06,
+  "display": "they",
+  "break": false
+ },
+ {
+  "text": "tried",
+  "start": 13.072,
+  "end": 13.339,
+  "display": "tried",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 13.351,
+  "end": 13.424,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "sail",
+  "start": 13.436,
+  "end": 13.715,
+  "display": "sail",
+  "break": false
+ },
+ {
+  "text": "home",
+  "start": 13.727,
+  "end": 14.055,
+  "display": "home,",
+  "break": true
+ },
+ {
+  "text": "and",
+  "start": 14.14,
+  "end": 14.249,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "were",
+  "start": 14.261,
+  "end": 14.37,
+  "display": "were",
+  "break": false
+ },
+ {
+  "text": "lost",
+  "start": 14.383,
+  "end": 14.698,
+  "display": "lost",
+  "break": false
+ },
+ {
+  "text": "at",
+  "start": 14.71,
+  "end": 14.783,
+  "display": "at",
+  "break": false
+ },
+ {
+  "text": "sea",
+  "start": 14.795,
+  "end": 15.123,
+  "display": "sea.",
+  "break": true
+ }
+]

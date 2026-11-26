@@ -1,0 +1,44 @@
+[
+ {
+  "text": "Evidence",
+  "start": 0.1,
+  "end": 0.549,
+  "display": "Evidence",
+  "break": false
+ },
+ {
+  "text": "two",
+  "start": 0.561,
+  "end": 0.889,
+  "display": "two",
+  "break": false
+ },
+ {
+  "text": "is",
+  "start": 0.901,
+  "end": 1.083,
+  "display": "is",
+  "break": false
+ },
+ {
+  "text": "written",
+  "start": 1.095,
+  "end": 1.301,
+  "display": "written",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 1.314,
+  "end": 1.447,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "trees",
+  "start": 1.459,
+  "end": 1.957,
+  "display": "trees.",
+  "break": true
+ }
+]

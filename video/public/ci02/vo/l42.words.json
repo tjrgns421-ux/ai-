@@ -1,0 +1,23 @@
+[
+ {
+  "text": "Moved",
+  "start": 0.1,
+  "end": 0.403,
+  "display": "Moved",
+  "break": false
+ },
+ {
+  "text": "inland",
+  "start": 0.416,
+  "end": 0.816,
+  "display": "inland",
+  "break": false
+ },
+ {
+  "text": "twenty-three",
+  "start": 0.998,
+  "end": 1.581,
+  "display": "twenty-three.",
+  "break": true
+ }
+]

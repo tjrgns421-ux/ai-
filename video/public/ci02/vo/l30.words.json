@@ -1,0 +1,121 @@
+[
+ {
+  "text": "It's",
+  "start": 0.1,
+  "end": 0.318,
+  "display": "It's",
+  "break": false
+ },
+ {
+  "text": "suggestive",
+  "start": 0.331,
+  "end": 0.925,
+  "display": "suggestive.",
+  "break": true
+ },
+ {
+  "text": "A",
+  "start": 1.276,
+  "end": 1.446,
+  "display": "A",
+  "break": false
+ },
+ {
+  "text": "hidden",
+  "start": 1.458,
+  "end": 1.737,
+  "display": "hidden",
+  "break": false
+ },
+ {
+  "text": "mark",
+  "start": 1.749,
+  "end": 2.016,
+  "display": "mark",
+  "break": false
+ },
+ {
+  "text": "on",
+  "start": 2.028,
+  "end": 2.089,
+  "display": "on",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 2.101,
+  "end": 2.186,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "governor's",
+  "start": 2.198,
+  "end": 2.683,
+  "display": "governor's",
+  "break": false
+ },
+ {
+  "text": "own",
+  "start": 2.696,
+  "end": 2.902,
+  "display": "own",
+  "break": false
+ },
+ {
+  "text": "map",
+  "start": 2.914,
+  "end": 3.23,
+  "display": "map,",
+  "break": true
+ },
+ {
+  "text": "and",
+  "start": 3.302,
+  "end": 3.484,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "English",
+  "start": 3.497,
+  "end": 3.824,
+  "display": "English",
+  "break": false
+ },
+ {
+  "text": "material",
+  "start": 3.836,
+  "end": 4.383,
+  "display": "material",
+  "break": false
+ },
+ {
+  "text": "right",
+  "start": 4.395,
+  "end": 4.601,
+  "display": "right",
+  "break": false
+ },
+ {
+  "text": "where",
+  "start": 4.613,
+  "end": 4.734,
+  "display": "where",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 4.747,
+  "end": 4.819,
+  "display": "it",
+  "break": false
+ },
+ {
+  "text": "points",
+  "start": 4.832,
+  "end": 5.329,
+  "display": "points.",
+  "break": true
+ }
+]

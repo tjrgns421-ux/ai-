@@ -1,0 +1,191 @@
+[
+ {
+  "text": "That",
+  "start": 0.1,
+  "end": 0.294,
+  "display": "That",
+  "break": false
+ },
+ {
+  "text": "is",
+  "start": 0.306,
+  "end": 0.379,
+  "display": "is",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 0.391,
+  "end": 0.476,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "single",
+  "start": 0.488,
+  "end": 0.84,
+  "display": "single",
+  "break": false
+ },
+ {
+  "text": "best",
+  "start": 0.852,
+  "end": 1.107,
+  "display": "best",
+  "break": false
+ },
+ {
+  "text": "clue",
+  "start": 1.119,
+  "end": 1.338,
+  "display": "clue",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 1.35,
+  "end": 1.484,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "this",
+  "start": 1.496,
+  "end": 1.629,
+  "display": "this",
+  "break": false
+ },
+ {
+  "text": "whole",
+  "start": 1.641,
+  "end": 1.86,
+  "display": "whole",
+  "break": false
+ },
+ {
+  "text": "story",
+  "start": 1.872,
+  "end": 2.297,
+  "display": "story,",
+  "break": true
+ },
+ {
+  "text": "and",
+  "start": 2.357,
+  "end": 2.479,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 2.491,
+  "end": 2.564,
+  "display": "it",
+  "break": false
+ },
+ {
+  "text": "comes",
+  "start": 2.576,
+  "end": 2.806,
+  "display": "comes",
+  "break": false
+ },
+ {
+  "text": "from",
+  "start": 2.818,
+  "end": 2.952,
+  "display": "from",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 2.964,
+  "end": 3.025,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "man",
+  "start": 3.037,
+  "end": 3.304,
+  "display": "man",
+  "break": false
+ },
+ {
+  "text": "who",
+  "start": 3.316,
+  "end": 3.45,
+  "display": "who",
+  "break": false
+ },
+ {
+  "text": "was",
+  "start": 3.462,
+  "end": 3.619,
+  "display": "was",
+  "break": false
+ },
+ {
+  "text": "there",
+  "start": 3.632,
+  "end": 3.911,
+  "display": "there.",
+  "break": true
+ },
+ {
+  "text": "An",
+  "start": 4.261,
+  "end": 4.528,
+  "display": "An",
+  "break": false
+ },
+ {
+  "text": "orderly",
+  "start": 4.54,
+  "end": 4.904,
+  "display": "orderly",
+  "break": false
+ },
+ {
+  "text": "move",
+  "start": 4.917,
+  "end": 5.244,
+  "display": "move,",
+  "break": true
+ },
+ {
+  "text": "with",
+  "start": 5.293,
+  "end": 5.438,
+  "display": "with",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 5.45,
+  "end": 5.511,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "destination",
+  "start": 5.523,
+  "end": 6.179,
+  "display": "destination",
+  "break": false
+ },
+ {
+  "text": "written",
+  "start": 6.191,
+  "end": 6.385,
+  "display": "written",
+  "break": false
+ },
+ {
+  "text": "down",
+  "start": 6.397,
+  "end": 6.749,
+  "display": "down.",
+  "break": true
+ }
+]

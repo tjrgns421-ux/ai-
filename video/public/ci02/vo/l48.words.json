@@ -1,0 +1,135 @@
+[
+ {
+  "text": "One",
+  "start": 0.1,
+  "end": 0.488,
+  "display": "One",
+  "break": false
+ },
+ {
+  "text": "if",
+  "start": 0.61,
+  "end": 0.719,
+  "display": "if",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 0.731,
+  "end": 0.792,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "hammerscale",
+  "start": 0.804,
+  "end": 1.471,
+  "display": "hammerscale",
+  "break": false
+ },
+ {
+  "text": "is",
+  "start": 1.484,
+  "end": 1.629,
+  "display": "is",
+  "break": false
+ },
+ {
+  "text": "published",
+  "start": 1.641,
+  "end": 2.2,
+  "display": "published",
+  "break": false
+ },
+ {
+  "text": "and",
+  "start": 2.236,
+  "end": 2.309,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 2.321,
+  "end": 2.43,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "dates",
+  "start": 2.442,
+  "end": 2.733,
+  "display": "dates",
+  "break": false
+ },
+ {
+  "text": "don't",
+  "start": 2.746,
+  "end": 2.952,
+  "display": "don't",
+  "break": false
+ },
+ {
+  "text": "hold",
+  "start": 2.964,
+  "end": 3.34,
+  "display": "hold,",
+  "break": true
+ },
+ {
+  "text": "Croatoan",
+  "start": 3.377,
+  "end": 3.899,
+  "display": "Croatoan",
+  "break": false
+ },
+ {
+  "text": "loses",
+  "start": 3.911,
+  "end": 4.275,
+  "display": "loses",
+  "break": false
+ },
+ {
+  "text": "most",
+  "start": 4.287,
+  "end": 4.602,
+  "display": "most",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 4.615,
+  "end": 4.7,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "what",
+  "start": 4.712,
+  "end": 4.857,
+  "display": "what",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 4.869,
+  "end": 4.93,
+  "display": "it",
+  "break": false
+ },
+ {
+  "text": "just",
+  "start": 4.942,
+  "end": 5.161,
+  "display": "just",
+  "break": false
+ },
+ {
+  "text": "gained",
+  "start": 5.173,
+  "end": 5.537,
+  "display": "gained.",
+  "break": true
+ }
+]

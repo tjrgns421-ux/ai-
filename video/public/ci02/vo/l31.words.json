@@ -1,0 +1,205 @@
+[
+ {
+  "text": "But",
+  "start": 0.1,
+  "end": 0.294,
+  "display": "But",
+  "break": false
+ },
+ {
+  "text": "English",
+  "start": 0.306,
+  "end": 0.634,
+  "display": "English",
+  "break": false
+ },
+ {
+  "text": "pots",
+  "start": 0.646,
+  "end": 0.95,
+  "display": "pots",
+  "break": false
+ },
+ {
+  "text": "also",
+  "start": 0.962,
+  "end": 1.253,
+  "display": "also",
+  "break": false
+ },
+ {
+  "text": "travelled",
+  "start": 1.265,
+  "end": 1.666,
+  "display": "travelled",
+  "break": false
+ },
+ {
+  "text": "by",
+  "start": 1.678,
+  "end": 1.799,
+  "display": "by",
+  "break": false
+ },
+ {
+  "text": "trade",
+  "start": 1.811,
+  "end": 2.224,
+  "display": "trade.",
+  "break": true
+ },
+ {
+  "text": "A",
+  "start": 2.574,
+  "end": 2.72,
+  "display": "A",
+  "break": false
+ },
+ {
+  "text": "few",
+  "start": 2.732,
+  "end": 2.926,
+  "display": "few",
+  "break": false
+ },
+ {
+  "text": "sherds",
+  "start": 2.938,
+  "end": 3.302,
+  "display": "sherds",
+  "break": false
+ },
+ {
+  "text": "can't",
+  "start": 3.315,
+  "end": 3.557,
+  "display": "can't",
+  "break": false
+ },
+ {
+  "text": "tell",
+  "start": 3.569,
+  "end": 3.764,
+  "display": "tell",
+  "break": false
+ },
+ {
+  "text": "you",
+  "start": 3.776,
+  "end": 3.933,
+  "display": "you",
+  "break": false
+ },
+ {
+  "text": "whether",
+  "start": 3.946,
+  "end": 4.237,
+  "display": "whether",
+  "break": false
+ },
+ {
+  "text": "colonists",
+  "start": 4.249,
+  "end": 4.807,
+  "display": "colonists",
+  "break": false
+ },
+ {
+  "text": "lived",
+  "start": 4.819,
+  "end": 5.05,
+  "display": "lived",
+  "break": false
+ },
+ {
+  "text": "there",
+  "start": 5.062,
+  "end": 5.329,
+  "display": "there,",
+  "break": true
+ },
+ {
+  "text": "or",
+  "start": 5.402,
+  "end": 5.584,
+  "display": "or",
+  "break": false
+ },
+ {
+  "text": "whether",
+  "start": 5.596,
+  "end": 5.827,
+  "display": "whether",
+  "break": false
+ },
+ {
+  "text": "someone",
+  "start": 5.839,
+  "end": 6.166,
+  "display": "someone",
+  "break": false
+ },
+ {
+  "text": "just",
+  "start": 6.179,
+  "end": 6.385,
+  "display": "just",
+  "break": false
+ },
+ {
+  "text": "traded",
+  "start": 6.397,
+  "end": 6.725,
+  "display": "traded",
+  "break": false
+ },
+ {
+  "text": "for",
+  "start": 6.737,
+  "end": 6.883,
+  "display": "for",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 6.895,
+  "end": 6.943,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "jar",
+  "start": 6.955,
+  "end": 7.307,
+  "display": "jar.",
+  "break": true
+ },
+ {
+  "text": "Inland",
+  "start": 7.659,
+  "end": 8.072,
+  "display": "Inland",
+  "break": false
+ },
+ {
+  "text": "moves",
+  "start": 8.084,
+  "end": 8.351,
+  "display": "moves",
+  "break": false
+ },
+ {
+  "text": "up",
+  "start": 8.363,
+  "end": 8.533,
+  "display": "up,",
+  "break": true
+ },
+ {
+  "text": "carefully",
+  "start": 8.569,
+  "end": 9.055,
+  "display": "carefully.",
+  "break": true
+ }
+]

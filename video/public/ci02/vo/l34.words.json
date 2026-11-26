@@ -1,0 +1,219 @@
+[
+ {
+  "text": "And",
+  "start": 0.1,
+  "end": 0.306,
+  "display": "And",
+  "break": false
+ },
+ {
+  "text": "in 2025",
+  "start": 0.318,
+  "end": 1.374,
+  "display": "in 2025,",
+  "break": true
+ },
+ {
+  "text": "they",
+  "start": 1.399,
+  "end": 1.581,
+  "display": "they",
+  "break": false
+ },
+ {
+  "text": "announced",
+  "start": 1.593,
+  "end": 1.981,
+  "display": "announced",
+  "break": false
+ },
+ {
+  "text": "something",
+  "start": 1.993,
+  "end": 2.321,
+  "display": "something",
+  "break": false
+ },
+ {
+  "text": "different",
+  "start": 2.333,
+  "end": 2.685,
+  "display": "different.",
+  "break": true
+ },
+ {
+  "text": "Hammerscale",
+  "start": 3.035,
+  "end": 3.776,
+  "display": "Hammerscale.",
+  "break": true
+ },
+ {
+  "text": "Tiny",
+  "start": 4.128,
+  "end": 4.48,
+  "display": "Tiny",
+  "break": false
+ },
+ {
+  "text": "flakes",
+  "start": 4.492,
+  "end": 4.844,
+  "display": "flakes",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 4.856,
+  "end": 4.941,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "iron",
+  "start": 4.965,
+  "end": 5.353,
+  "display": "iron",
+  "break": false
+ },
+ {
+  "text": "that",
+  "start": 5.366,
+  "end": 5.523,
+  "display": "that",
+  "break": false
+ },
+ {
+  "text": "fly",
+  "start": 5.535,
+  "end": 5.875,
+  "display": "fly",
+  "break": false
+ },
+ {
+  "text": "off",
+  "start": 5.887,
+  "end": 6.069,
+  "display": "off",
+  "break": false
+ },
+ {
+  "text": "when",
+  "start": 6.082,
+  "end": 6.191,
+  "display": "when",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 6.203,
+  "end": 6.251,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "blacksmith",
+  "start": 6.264,
+  "end": 6.773,
+  "display": "blacksmith",
+  "break": false
+ },
+ {
+  "text": "works",
+  "start": 6.785,
+  "end": 7.089,
+  "display": "works",
+  "break": false
+ },
+ {
+  "text": "hot",
+  "start": 7.101,
+  "end": 7.38,
+  "display": "hot",
+  "break": false
+ },
+ {
+  "text": "metal",
+  "start": 7.392,
+  "end": 7.744,
+  "display": "metal,",
+  "break": true
+ },
+ {
+  "text": "found",
+  "start": 7.781,
+  "end": 8.084,
+  "display": "found",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 8.096,
+  "end": 8.181,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "quantity",
+  "start": 8.193,
+  "end": 8.739,
+  "display": "quantity,",
+  "break": true
+ },
+ {
+  "text": "in",
+  "start": 8.788,
+  "end": 8.909,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "soil",
+  "start": 8.921,
+  "end": 9.249,
+  "display": "soil",
+  "break": false
+ },
+ {
+  "text": "they",
+  "start": 9.261,
+  "end": 9.383,
+  "display": "they",
+  "break": false
+ },
+ {
+  "text": "date",
+  "start": 9.395,
+  "end": 9.698,
+  "display": "date",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 9.71,
+  "end": 9.844,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 9.856,
+  "end": 9.953,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "right",
+  "start": 9.977,
+  "end": 10.171,
+  "display": "right",
+  "break": false
+ },
+ {
+  "text": "period",
+  "start": 10.184,
+  "end": 10.754,
+  "display": "period.",
+  "break": true
+ }
+]

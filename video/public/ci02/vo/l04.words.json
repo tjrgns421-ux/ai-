@@ -1,0 +1,205 @@
+[
+ {
+  "text": "In 1587",
+  "start": 0.1,
+  "end": 1.362,
+  "display": "In 1587,",
+  "break": true
+ },
+ {
+  "text": "about",
+  "start": 1.386,
+  "end": 1.593,
+  "display": "about",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 1.605,
+  "end": 1.641,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "hundred",
+  "start": 1.653,
+  "end": 2.066,
+  "display": "hundred",
+  "break": false
+ },
+ {
+  "text": "and",
+  "start": 2.078,
+  "end": 2.212,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "fifteen",
+  "start": 2.224,
+  "end": 2.782,
+  "display": "fifteen",
+  "break": false
+ },
+ {
+  "text": "English",
+  "start": 2.806,
+  "end": 3.146,
+  "display": "English",
+  "break": false
+ },
+ {
+  "text": "men",
+  "start": 3.158,
+  "end": 3.45,
+  "display": "men,",
+  "break": true
+ },
+ {
+  "text": "women",
+  "start": 3.704,
+  "end": 4.068,
+  "display": "women",
+  "break": false
+ },
+ {
+  "text": "and",
+  "start": 4.081,
+  "end": 4.202,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "children",
+  "start": 4.214,
+  "end": 4.639,
+  "display": "children",
+  "break": false
+ },
+ {
+  "text": "landed",
+  "start": 4.651,
+  "end": 5.027,
+  "display": "landed",
+  "break": false
+ },
+ {
+  "text": "on",
+  "start": 5.039,
+  "end": 5.246,
+  "display": "on",
+  "break": false
+ },
+ {
+  "text": "Roanoke",
+  "start": 5.258,
+  "end": 5.695,
+  "display": "Roanoke",
+  "break": false
+ },
+ {
+  "text": "Island",
+  "start": 5.767,
+  "end": 6.107,
+  "display": "Island,",
+  "break": true
+ },
+ {
+  "text": "off",
+  "start": 6.192,
+  "end": 6.411,
+  "display": "off",
+  "break": false
+ },
+ {
+  "text": "what",
+  "start": 6.423,
+  "end": 6.556,
+  "display": "what",
+  "break": false
+ },
+ {
+  "text": "is",
+  "start": 6.568,
+  "end": 6.666,
+  "display": "is",
+  "break": false
+ },
+ {
+  "text": "now",
+  "start": 6.678,
+  "end": 6.884,
+  "display": "now",
+  "break": false
+ },
+ {
+  "text": "North",
+  "start": 6.896,
+  "end": 7.175,
+  "display": "North",
+  "break": false
+ },
+ {
+  "text": "Carolina",
+  "start": 7.187,
+  "end": 7.782,
+  "display": "Carolina.",
+  "break": true
+ },
+ {
+  "text": "Their",
+  "start": 8.133,
+  "end": 8.339,
+  "display": "Their",
+  "break": false
+ },
+ {
+  "text": "governor",
+  "start": 8.351,
+  "end": 8.727,
+  "display": "governor",
+  "break": false
+ },
+ {
+  "text": "was",
+  "start": 8.739,
+  "end": 8.909,
+  "display": "was",
+  "break": false
+ },
+ {
+  "text": "an",
+  "start": 8.921,
+  "end": 9.079,
+  "display": "an",
+  "break": false
+ },
+ {
+  "text": "artist",
+  "start": 9.091,
+  "end": 9.455,
+  "display": "artist",
+  "break": false
+ },
+ {
+  "text": "named",
+  "start": 9.467,
+  "end": 9.71,
+  "display": "named",
+  "break": false
+ },
+ {
+  "text": "John",
+  "start": 9.722,
+  "end": 10.038,
+  "display": "John",
+  "break": false
+ },
+ {
+  "text": "White",
+  "start": 10.05,
+  "end": 10.378,
+  "display": "White.",
+  "break": true
+ }
+]

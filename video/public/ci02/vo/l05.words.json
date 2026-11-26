@@ -1,0 +1,149 @@
+[
+ {
+  "text": "A",
+  "start": 0.1,
+  "end": 0.246,
+  "display": "A",
+  "break": false
+ },
+ {
+  "text": "few",
+  "start": 0.258,
+  "end": 0.476,
+  "display": "few",
+  "break": false
+ },
+ {
+  "text": "weeks",
+  "start": 0.488,
+  "end": 0.767,
+  "display": "weeks",
+  "break": false
+ },
+ {
+  "text": "later",
+  "start": 0.78,
+  "end": 1.168,
+  "display": "later,",
+  "break": true
+ },
+ {
+  "text": "White's",
+  "start": 1.241,
+  "end": 1.496,
+  "display": "White's",
+  "break": false
+ },
+ {
+  "text": "daughter",
+  "start": 1.508,
+  "end": 1.823,
+  "display": "daughter",
+  "break": false
+ },
+ {
+  "text": "gave",
+  "start": 1.835,
+  "end": 2.102,
+  "display": "gave",
+  "break": false
+ },
+ {
+  "text": "birth",
+  "start": 2.115,
+  "end": 2.406,
+  "display": "birth",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 2.418,
+  "end": 2.515,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 2.527,
+  "end": 2.6,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "girl",
+  "start": 2.612,
+  "end": 2.988,
+  "display": "girl,",
+  "break": true
+ },
+ {
+  "text": "Virginia",
+  "start": 3.085,
+  "end": 3.522,
+  "display": "Virginia",
+  "break": false
+ },
+ {
+  "text": "Dare",
+  "start": 3.534,
+  "end": 3.874,
+  "display": "Dare,",
+  "break": true
+ },
+ {
+  "text": "the",
+  "start": 3.971,
+  "end": 4.068,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "first",
+  "start": 4.081,
+  "end": 4.433,
+  "display": "first",
+  "break": false
+ },
+ {
+  "text": "English",
+  "start": 4.469,
+  "end": 4.821,
+  "display": "English",
+  "break": false
+ },
+ {
+  "text": "child",
+  "start": 4.833,
+  "end": 5.234,
+  "display": "child",
+  "break": false
+ },
+ {
+  "text": "born",
+  "start": 5.246,
+  "end": 5.513,
+  "display": "born",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 5.525,
+  "end": 5.67,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 5.683,
+  "end": 5.743,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "Americas",
+  "start": 5.755,
+  "end": 6.386,
+  "display": "Americas.",
+  "break": true
+ }
+]

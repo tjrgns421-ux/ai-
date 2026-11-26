@@ -1,0 +1,191 @@
+[
+ {
+  "text": "Their",
+  "start": 0.1,
+  "end": 0.318,
+  "display": "Their",
+  "break": false
+ },
+ {
+  "text": "argument",
+  "start": 0.331,
+  "end": 0.792,
+  "display": "argument",
+  "break": false
+ },
+ {
+  "text": "is",
+  "start": 0.804,
+  "end": 0.937,
+  "display": "is",
+  "break": false
+ },
+ {
+  "text": "simple",
+  "start": 0.95,
+  "end": 1.35,
+  "display": "simple.",
+  "break": true
+ },
+ {
+  "text": "The",
+  "start": 1.7,
+  "end": 1.858,
+  "display": "The",
+  "break": false
+ },
+ {
+  "text": "Croatoan",
+  "start": 1.87,
+  "end": 2.368,
+  "display": "Croatoan",
+  "break": false
+ },
+ {
+  "text": "didn't",
+  "start": 2.38,
+  "end": 2.623,
+  "display": "didn't",
+  "break": false
+ },
+ {
+  "text": "forge",
+  "start": 2.635,
+  "end": 2.938,
+  "display": "forge",
+  "break": false
+ },
+ {
+  "text": "iron",
+  "start": 2.963,
+  "end": 3.302,
+  "display": "iron.",
+  "break": true
+ },
+ {
+  "text": "English",
+  "start": 3.654,
+  "end": 4.043,
+  "display": "English",
+  "break": false
+ },
+ {
+  "text": "settlers",
+  "start": 4.055,
+  "end": 4.492,
+  "display": "settlers",
+  "break": false
+ },
+ {
+  "text": "would",
+  "start": 4.504,
+  "end": 4.625,
+  "display": "would",
+  "break": false
+ },
+ {
+  "text": "have",
+  "start": 4.637,
+  "end": 4.904,
+  "display": "have.",
+  "break": true
+ },
+ {
+  "text": "Trade",
+  "start": 5.256,
+  "end": 5.657,
+  "display": "Trade",
+  "break": false
+ },
+ {
+  "text": "can",
+  "start": 5.669,
+  "end": 5.79,
+  "display": "can",
+  "break": false
+ },
+ {
+  "text": "explain",
+  "start": 5.802,
+  "end": 6.179,
+  "display": "explain",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 6.191,
+  "end": 6.239,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "sword",
+  "start": 6.251,
+  "end": 6.628,
+  "display": "sword.",
+  "break": true
+ },
+ {
+  "text": "It's",
+  "start": 6.98,
+  "end": 7.186,
+  "display": "It's",
+  "break": false
+ },
+ {
+  "text": "harder",
+  "start": 7.198,
+  "end": 7.477,
+  "display": "harder",
+  "break": false
+ },
+ {
+  "text": "for",
+  "start": 7.489,
+  "end": 7.611,
+  "display": "for",
+  "break": false
+ },
+ {
+  "text": "trade",
+  "start": 7.623,
+  "end": 7.926,
+  "display": "trade",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 7.938,
+  "end": 8.023,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "explain",
+  "start": 8.035,
+  "end": 8.484,
+  "display": "explain",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 8.497,
+  "end": 8.545,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "blacksmith's",
+  "start": 8.557,
+  "end": 9.067,
+  "display": "blacksmith's",
+  "break": false
+ },
+ {
+  "text": "workshop",
+  "start": 9.079,
+  "end": 9.528,
+  "display": "workshop.",
+  "break": true
+ }
+]

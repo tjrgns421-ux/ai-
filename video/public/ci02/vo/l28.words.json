@@ -1,0 +1,359 @@
+[
+ {
+  "text": "In 2012",
+  "start": 0.1,
+  "end": 1.241,
+  "display": "In 2012,",
+  "break": true
+ },
+ {
+  "text": "researchers",
+  "start": 1.35,
+  "end": 1.969,
+  "display": "researchers",
+  "break": false
+ },
+ {
+  "text": "at",
+  "start": 1.981,
+  "end": 2.066,
+  "display": "at",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 2.078,
+  "end": 2.151,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "British",
+  "start": 2.163,
+  "end": 2.503,
+  "display": "British",
+  "break": false
+ },
+ {
+  "text": "Museum",
+  "start": 2.515,
+  "end": 3.073,
+  "display": "Museum",
+  "break": false
+ },
+ {
+  "text": "looked",
+  "start": 3.085,
+  "end": 3.304,
+  "display": "looked",
+  "break": false
+ },
+ {
+  "text": "again",
+  "start": 3.365,
+  "end": 3.753,
+  "display": "again",
+  "break": false
+ },
+ {
+  "text": "at",
+  "start": 3.765,
+  "end": 3.862,
+  "display": "at",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 3.874,
+  "end": 3.911,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "map",
+  "start": 3.923,
+  "end": 4.202,
+  "display": "map",
+  "break": false
+ },
+ {
+  "text": "John",
+  "start": 4.214,
+  "end": 4.578,
+  "display": "John",
+  "break": false
+ },
+ {
+  "text": "White",
+  "start": 4.59,
+  "end": 4.845,
+  "display": "White",
+  "break": false
+ },
+ {
+  "text": "drew",
+  "start": 4.857,
+  "end": 5.076,
+  "display": "drew",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 5.1,
+  "end": 5.197,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 5.209,
+  "end": 5.282,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "region",
+  "start": 5.294,
+  "end": 5.658,
+  "display": "region.",
+  "break": true
+ },
+ {
+  "text": "Two",
+  "start": 6.009,
+  "end": 6.239,
+  "display": "Two",
+  "break": false
+ },
+ {
+  "text": "small",
+  "start": 6.251,
+  "end": 6.567,
+  "display": "small",
+  "break": false
+ },
+ {
+  "text": "paper",
+  "start": 6.579,
+  "end": 6.883,
+  "display": "paper",
+  "break": false
+ },
+ {
+  "text": "patches",
+  "start": 6.895,
+  "end": 7.307,
+  "display": "patches",
+  "break": false
+ },
+ {
+  "text": "had",
+  "start": 7.319,
+  "end": 7.465,
+  "display": "had",
+  "break": false
+ },
+ {
+  "text": "been",
+  "start": 7.477,
+  "end": 7.599,
+  "display": "been",
+  "break": false
+ },
+ {
+  "text": "glued",
+  "start": 7.611,
+  "end": 7.987,
+  "display": "glued",
+  "break": false
+ },
+ {
+  "text": "onto",
+  "start": 7.999,
+  "end": 8.278,
+  "display": "onto",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 8.29,
+  "end": 8.412,
+  "display": "it.",
+  "break": true
+ },
+ {
+  "text": "Under",
+  "start": 8.764,
+  "end": 9.067,
+  "display": "Under",
+  "break": false
+ },
+ {
+  "text": "one",
+  "start": 9.079,
+  "end": 9.213,
+  "display": "one",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 9.225,
+  "end": 9.298,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "them",
+  "start": 9.31,
+  "end": 9.504,
+  "display": "them,",
+  "break": true
+ },
+ {
+  "text": "seen",
+  "start": 9.528,
+  "end": 9.783,
+  "display": "seen",
+  "break": false
+ },
+ {
+  "text": "with",
+  "start": 9.795,
+  "end": 9.953,
+  "display": "with",
+  "break": false
+ },
+ {
+  "text": "light",
+  "start": 9.965,
+  "end": 10.183,
+  "display": "light",
+  "break": false
+ },
+ {
+  "text": "from",
+  "start": 10.196,
+  "end": 10.353,
+  "display": "from",
+  "break": false
+ },
+ {
+  "text": "behind",
+  "start": 10.366,
+  "end": 10.875,
+  "display": "behind,",
+  "break": true
+ },
+ {
+  "text": "was",
+  "start": 10.912,
+  "end": 11.082,
+  "display": "was",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 11.094,
+  "end": 11.13,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "hidden",
+  "start": 11.142,
+  "end": 11.446,
+  "display": "hidden",
+  "break": false
+ },
+ {
+  "text": "symbol",
+  "start": 11.458,
+  "end": 11.834,
+  "display": "symbol",
+  "break": false
+ },
+ {
+  "text": "what",
+  "start": 11.895,
+  "end": 12.052,
+  "display": "what",
+  "break": false
+ },
+ {
+  "text": "looks",
+  "start": 12.065,
+  "end": 12.259,
+  "display": "looks",
+  "break": false
+ },
+ {
+  "text": "like",
+  "start": 12.271,
+  "end": 12.429,
+  "display": "like",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 12.441,
+  "end": 12.501,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "fort",
+  "start": 12.514,
+  "end": 12.902,
+  "display": "fort,",
+  "break": true
+ },
+ {
+  "text": "inland",
+  "start": 13.023,
+  "end": 13.484,
+  "display": "inland,",
+  "break": true
+ },
+ {
+  "text": "at",
+  "start": 13.569,
+  "end": 13.679,
+  "display": "at",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 13.691,
+  "end": 13.751,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "head",
+  "start": 13.764,
+  "end": 13.97,
+  "display": "head",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 13.982,
+  "end": 14.103,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "Albemarle",
+  "start": 14.128,
+  "end": 14.613,
+  "display": "Albemarle",
+  "break": false
+ },
+ {
+  "text": "Sound",
+  "start": 14.625,
+  "end": 15.074,
+  "display": "Sound.",
+  "break": true
+ }
+]

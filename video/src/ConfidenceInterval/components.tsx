@@ -99,19 +99,20 @@ export const ConfidenceMeter: React.FC<{ s: MeterState; label?: string; width?: 
 /* ------------------------------------------------------------------ HypothesisCards */
 
 // cols=4 for 16:9, cols=2 for a 2x2 grid on vertical shorts
-export const HypothesisCards: React.FC<{ s: MeterState; appear?: number; highlight?: number; width?: number; cols?: number }> = ({
+export const HypothesisCards: React.FC<{ s: MeterState; appear?: number; highlight?: number; width?: number; cols?: number; names?: readonly string[] }> = ({
   s,
   appear = -999,
   highlight = -1,
   width = 1640,
   cols = 4,
+  names = HYPOTHESES,
 }) => {
   const f = useCurrentFrame();
   const gap = 28;
   const w = (width - gap * (cols - 1)) / cols;
   return (
     <div style={{ display: "flex", flexWrap: "wrap", gap, width, fontFamily: FONT }}>
-      {HYPOTHESES.map((name, i) => {
+      {names.map((name, i) => {
         const a = interpolate(f, [appear + i * 6, appear + i * 6 + 18], [0, 1], { ...clamp, easing: outExpo });
         const val = s.v[i];
         const dead = val < 3;
@@ -263,11 +264,12 @@ export const Timeline: React.FC<{
   band?: { a: number; b: number; label: string; at?: number };
   marks?: Mark[];
   width?: number;
-}> = ({ from = 1300, to = 2000, band, marks = [], width = 1600 }) => {
+  step?: number;
+}> = ({ from = 1300, to = 2000, band, marks = [], width = 1600, step = 100 }) => {
   const f = useCurrentFrame();
   const x = (y: number) => ((y - from) / (to - from)) * width;
   const ticks = [];
-  for (let y = from; y <= to; y += 100) ticks.push(y);
+  for (let y = from; y <= to; y += step) ticks.push(y);
   const ba = band ? interpolate(f, [band.at ?? 0, (band.at ?? 0) + 10], [0, 1], { ...clamp, easing: Easing.bezier(0.34, 1.56, 0.64, 1) }) : 0;
   return (
     <div style={{ position: "relative", width, height: 360, fontFamily: FONT }}>
@@ -415,5 +417,89 @@ export const Captions: React.FC<{ groups: W[][]; fps: number; bottom?: number; s
         {g.map((w) => w.t).join(" ")}
       </span>
     </div>
+  );
+};
+
+/* ------------------------------------------------------------------ BarChart with highlight band */
+
+// Yearly series as thin bars around a baseline (e.g. a tree-ring rainfall index); `band` highlights a span.
+export const BarChart: React.FC<{
+  data: [number, number][]; // [x, value] (value may be negative)
+  band?: { a: number; b: number; label: string; at?: number };
+  at?: number;
+  w?: number;
+  h?: number;
+  yLabel?: string;
+  note?: string;
+}> = ({ data, band, at = 0, w = 1500, h = 520, yLabel, note }) => {
+  const f = useCurrentFrame() - at;
+  const xs = data.map((d) => d[0]);
+  const x0 = Math.min(...xs);
+  const x1 = Math.max(...xs);
+  const m = Math.max(...data.map((d) => Math.abs(d[1])));
+  const X = (x: number) => 60 + ((x - x0) / (x1 - x0)) * (w - 120);
+  const Y = (v: number) => h / 2 - (v / m) * (h / 2 - 40);
+  const grow = interpolate(f, [0, 40], [0, 1], { ...clamp, easing: outExpo });
+  const ba = band ? interpolate(f, [(band.at ?? 50) , (band.at ?? 50) + 12], [0, 1], clamp) : 0;
+  const bw = Math.max(3, (w - 120) / data.length - 1);
+  const ticks = xs.filter((x) => x % 100 === 0);
+  return (
+    <svg width={w} height={h + 60} style={{ fontFamily: FONT, overflow: "visible" }}>
+      {band && <rect x={X(band.a) - bw} y={10} width={X(band.b) - X(band.a) + bw * 2} height={h - 20} fill={C.amberSoft} stroke={C.amber} strokeWidth={3} opacity={ba} />}
+      <line x1={40} x2={w - 40} y1={h / 2} y2={h / 2} stroke={C.dim} strokeWidth={2} />
+      {data.map(([x, v]) => {
+        const hot = band && x >= band.a && x <= band.b;
+        const y = Y(v * grow);
+        return <rect key={x} x={X(x) - bw / 2} width={bw} y={Math.min(y, h / 2)} height={Math.abs(y - h / 2)} fill={hot ? C.amber : v < 0 ? "#8C7A5E" : C.sub} opacity={hot ? 1 : 0.75} />;
+      })}
+      {ticks.map((t) => (
+        <text key={t} x={X(t)} y={h + 40} fill={C.sub} fontSize={26} fontWeight={700} textAnchor="middle">
+          {t}
+        </text>
+      ))}
+      {band && (
+        <text x={X(band.b) + 24} y={50} fill={C.amber} fontSize={34} fontWeight={900} opacity={ba}>
+          {band.label}
+        </text>
+      )}
+      {yLabel && (
+        <text x={50} y={34} fill={C.sub} fontSize={24} fontWeight={700}>
+          {yLabel}
+        </text>
+      )}
+      {note && (
+        <text x={w - 40} y={34} fill={C.dim} fontSize={20} textAnchor="end">
+          {note}
+        </text>
+      )}
+    </svg>
+  );
+};
+
+/* ------------------------------------------------------------------ HearsayChain */
+
+// How far a claim is from the event: event → witness → ... → writer. Each hop appears in turn.
+export const HearsayChain: React.FC<{ hops: { who: string; what: string }[]; at?: number; per?: number; verdict?: string }> = ({ hops, at = 0, per = 30, verdict }) => {
+  const f = useCurrentFrame() - at;
+  return (
+    <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", paddingBottom: 150, fontFamily: FONT }}>
+      <div style={{ display: "flex", alignItems: "center", gap: 24 }}>
+        {hops.map((h, i) => {
+          const a = interpolate(f, [i * per, i * per + 14], [0, 1], { ...clamp, easing: outExpo });
+          return (
+            <React.Fragment key={i}>
+              {i > 0 && <div style={{ color: C.amber, fontSize: 60, fontWeight: 900, opacity: a }}>→</div>}
+              <div style={{ width: 330, padding: "26px 24px", background: C.bg2, border: `2px solid ${i === 0 ? C.amber : C.line}`, borderRadius: 14, opacity: a, translate: `0 ${(1 - a) * 30}px` }}>
+                <div style={{ color: i === 0 ? C.amber : C.ink, fontSize: 40, fontWeight: 900 }}>{h.who}</div>
+                <div style={{ color: C.sub, fontSize: 26, marginTop: 10, lineHeight: 1.3 }}>{h.what}</div>
+              </div>
+            </React.Fragment>
+          );
+        })}
+      </div>
+      {verdict && (
+        <div style={{ marginTop: 60, color: C.ink, fontSize: 44, fontWeight: 800, opacity: interpolate(f, [hops.length * per + 10, hops.length * per + 24], [0, 1], clamp) }}>{verdict}</div>
+      )}
+    </AbsoluteFill>
   );
 };

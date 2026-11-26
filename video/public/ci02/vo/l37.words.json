@@ -1,0 +1,58 @@
+[
+ {
+  "text": "But",
+  "start": 0.1,
+  "end": 0.27,
+  "display": "But",
+  "break": false
+ },
+ {
+  "text": "I",
+  "start": 0.282,
+  "end": 0.318,
+  "display": "I",
+  "break": false
+ },
+ {
+  "text": "have",
+  "start": 0.331,
+  "end": 0.476,
+  "display": "have",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 0.488,
+  "end": 0.561,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "argue",
+  "start": 0.573,
+  "end": 0.925,
+  "display": "argue",
+  "break": false
+ },
+ {
+  "text": "against",
+  "start": 0.937,
+  "end": 1.253,
+  "display": "against",
+  "break": false
+ },
+ {
+  "text": "myself",
+  "start": 1.265,
+  "end": 1.653,
+  "display": "myself",
+  "break": false
+ },
+ {
+  "text": "again",
+  "start": 1.666,
+  "end": 2.054,
+  "display": "again.",
+  "break": true
+ }
+]

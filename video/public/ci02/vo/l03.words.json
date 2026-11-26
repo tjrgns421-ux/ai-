@@ -1,0 +1,247 @@
+[
+ {
+  "text": "Here's",
+  "start": 0.1,
+  "end": 0.367,
+  "display": "Here's",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 0.379,
+  "end": 0.476,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "deal",
+  "start": 0.488,
+  "end": 0.743,
+  "display": "deal.",
+  "break": true
+ },
+ {
+  "text": "There",
+  "start": 1.094,
+  "end": 1.264,
+  "display": "There",
+  "break": false
+ },
+ {
+  "text": "are",
+  "start": 1.276,
+  "end": 1.349,
+  "display": "are",
+  "break": false
+ },
+ {
+  "text": "four",
+  "start": 1.361,
+  "end": 1.652,
+  "display": "four",
+  "break": false
+ },
+ {
+  "text": "real",
+  "start": 1.664,
+  "end": 1.87,
+  "display": "real",
+  "break": false
+ },
+ {
+  "text": "explanations",
+  "start": 1.883,
+  "end": 2.599,
+  "display": "explanations",
+  "break": false
+ },
+ {
+  "text": "for",
+  "start": 2.611,
+  "end": 2.756,
+  "display": "for",
+  "break": false
+ },
+ {
+  "text": "what",
+  "start": 2.768,
+  "end": 2.938,
+  "display": "what",
+  "break": false
+ },
+ {
+  "text": "happened",
+  "start": 2.95,
+  "end": 3.327,
+  "display": "happened",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 3.339,
+  "end": 3.436,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "these",
+  "start": 3.448,
+  "end": 3.654,
+  "display": "these",
+  "break": false
+ },
+ {
+  "text": "people",
+  "start": 3.667,
+  "end": 4.031,
+  "display": "people.",
+  "break": true
+ },
+ {
+  "text": "By",
+  "start": 4.383,
+  "end": 4.565,
+  "display": "By",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 4.577,
+  "end": 4.686,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "end",
+  "start": 4.698,
+  "end": 4.88,
+  "display": "end",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 4.892,
+  "end": 4.953,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "this",
+  "start": 4.965,
+  "end": 5.111,
+  "display": "this",
+  "break": false
+ },
+ {
+  "text": "video",
+  "start": 5.123,
+  "end": 5.523,
+  "display": "video,",
+  "break": true
+ },
+ {
+  "text": "each",
+  "start": 5.56,
+  "end": 5.717,
+  "display": "each",
+  "break": false
+ },
+ {
+  "text": "one",
+  "start": 5.73,
+  "end": 5.948,
+  "display": "one",
+  "break": false
+ },
+ {
+  "text": "gets",
+  "start": 5.96,
+  "end": 6.166,
+  "display": "gets",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 6.179,
+  "end": 6.227,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "number",
+  "start": 6.239,
+  "end": 6.64,
+  "display": "number,",
+  "break": true
+ },
+ {
+  "text": "and",
+  "start": 6.725,
+  "end": 6.81,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "you'll",
+  "start": 6.822,
+  "end": 6.98,
+  "display": "you'll",
+  "break": false
+ },
+ {
+  "text": "see",
+  "start": 6.992,
+  "end": 7.174,
+  "display": "see",
+  "break": false
+ },
+ {
+  "text": "exactly",
+  "start": 7.186,
+  "end": 7.744,
+  "display": "exactly",
+  "break": false
+ },
+ {
+  "text": "which",
+  "start": 7.756,
+  "end": 7.975,
+  "display": "which",
+  "break": false
+ },
+ {
+  "text": "piece",
+  "start": 7.987,
+  "end": 8.266,
+  "display": "piece",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 8.278,
+  "end": 8.387,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "evidence",
+  "start": 8.448,
+  "end": 8.812,
+  "display": "evidence",
+  "break": false
+ },
+ {
+  "text": "moved",
+  "start": 8.824,
+  "end": 9.091,
+  "display": "moved",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 9.103,
+  "end": 9.213,
+  "display": "it.",
+  "break": true
+ }
+]

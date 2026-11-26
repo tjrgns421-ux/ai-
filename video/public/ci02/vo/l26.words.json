@@ -1,0 +1,177 @@
+[
+ {
+  "text": "So",
+  "start": 0.1,
+  "end": 0.355,
+  "display": "So",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 0.367,
+  "end": 0.44,
+  "display": "it",
+  "break": false
+ },
+ {
+  "text": "moves",
+  "start": 0.452,
+  "end": 0.67,
+  "display": "moves",
+  "break": false
+ },
+ {
+  "text": "my",
+  "start": 0.683,
+  "end": 0.78,
+  "display": "my",
+  "break": false
+ },
+ {
+  "text": "number",
+  "start": 0.792,
+  "end": 1.107,
+  "display": "number",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 1.119,
+  "end": 1.18,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "little",
+  "start": 1.192,
+  "end": 1.508,
+  "display": "little,",
+  "break": true
+ },
+ {
+  "text": "toward",
+  "start": 1.544,
+  "end": 1.799,
+  "display": "toward",
+  "break": false
+ },
+ {
+  "text": "died",
+  "start": 1.811,
+  "end": 2.139,
+  "display": "died.",
+  "break": true
+ },
+ {
+  "text": "Not",
+  "start": 2.489,
+  "end": 2.756,
+  "display": "Not",
+  "break": false
+ },
+ {
+  "text": "much",
+  "start": 2.768,
+  "end": 3.12,
+  "display": "much.",
+  "break": true
+ },
+ {
+  "text": "A",
+  "start": 3.472,
+  "end": 3.642,
+  "display": "A",
+  "break": false
+ },
+ {
+  "text": "secondhand",
+  "start": 3.654,
+  "end": 4.249,
+  "display": "secondhand",
+  "break": false
+ },
+ {
+  "text": "claim",
+  "start": 4.261,
+  "end": 4.601,
+  "display": "claim",
+  "break": false
+ },
+ {
+  "text": "from",
+  "start": 4.613,
+  "end": 4.771,
+  "display": "from",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 4.783,
+  "end": 4.819,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "man",
+  "start": 4.832,
+  "end": 5.135,
+  "display": "man",
+  "break": false
+ },
+ {
+  "text": "with",
+  "start": 5.147,
+  "end": 5.329,
+  "display": "with",
+  "break": false
+ },
+ {
+  "text": "reasons",
+  "start": 5.341,
+  "end": 5.802,
+  "display": "reasons",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 5.815,
+  "end": 5.9,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "justify",
+  "start": 5.912,
+  "end": 6.543,
+  "display": "justify",
+  "break": false
+ },
+ {
+  "text": "war",
+  "start": 6.555,
+  "end": 6.883,
+  "display": "war",
+  "break": false
+ },
+ {
+  "text": "is",
+  "start": 6.895,
+  "end": 7.089,
+  "display": "is",
+  "break": false
+ },
+ {
+  "text": "weak",
+  "start": 7.101,
+  "end": 7.344,
+  "display": "weak",
+  "break": false
+ },
+ {
+  "text": "evidence",
+  "start": 7.368,
+  "end": 7.841,
+  "display": "evidence.",
+  "break": true
+ }
+]

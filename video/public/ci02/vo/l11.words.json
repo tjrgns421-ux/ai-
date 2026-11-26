@@ -1,0 +1,51 @@
+[
+ {
+  "text": "Let's",
+  "start": 0.1,
+  "end": 0.391,
+  "display": "Let's",
+  "break": false
+ },
+ {
+  "text": "begin",
+  "start": 0.403,
+  "end": 0.695,
+  "display": "begin",
+  "break": false
+ },
+ {
+  "text": "with",
+  "start": 0.707,
+  "end": 0.84,
+  "display": "with",
+  "break": false
+ },
+ {
+  "text": "what",
+  "start": 0.852,
+  "end": 1.01,
+  "display": "what",
+  "break": false
+ },
+ {
+  "text": "White",
+  "start": 1.022,
+  "end": 1.265,
+  "display": "White",
+  "break": false
+ },
+ {
+  "text": "actually",
+  "start": 1.301,
+  "end": 1.702,
+  "display": "actually",
+  "break": false
+ },
+ {
+  "text": "found",
+  "start": 1.714,
+  "end": 2.163,
+  "display": "found.",
+  "break": true
+ }
+]

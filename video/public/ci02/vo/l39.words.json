@@ -1,0 +1,100 @@
+[
+ {
+  "text": "That",
+  "start": 0.1,
+  "end": 0.294,
+  "display": "That",
+  "break": false
+ },
+ {
+  "text": "doesn't",
+  "start": 0.306,
+  "end": 0.537,
+  "display": "doesn't",
+  "break": false
+ },
+ {
+  "text": "flip",
+  "start": 0.549,
+  "end": 0.731,
+  "display": "flip",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 0.743,
+  "end": 0.828,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "evidence",
+  "start": 0.84,
+  "end": 1.362,
+  "display": "evidence.",
+  "break": true
+ },
+ {
+  "text": "It",
+  "start": 1.713,
+  "end": 1.883,
+  "display": "It",
+  "break": false
+ },
+ {
+  "text": "means",
+  "start": 1.895,
+  "end": 2.113,
+  "display": "means",
+  "break": false
+ },
+ {
+  "text": "I",
+  "start": 2.125,
+  "end": 2.21,
+  "display": "I",
+  "break": false
+ },
+ {
+  "text": "should",
+  "start": 2.222,
+  "end": 2.404,
+  "display": "should",
+  "break": false
+ },
+ {
+  "text": "be",
+  "start": 2.417,
+  "end": 2.501,
+  "display": "be",
+  "break": false
+ },
+ {
+  "text": "less",
+  "start": 2.514,
+  "end": 2.72,
+  "display": "less",
+  "break": false
+ },
+ {
+  "text": "sure",
+  "start": 2.732,
+  "end": 2.938,
+  "display": "sure",
+  "break": false
+ },
+ {
+  "text": "about",
+  "start": 2.95,
+  "end": 3.181,
+  "display": "about",
+  "break": false
+ },
+ {
+  "text": "everything",
+  "start": 3.193,
+  "end": 3.606,
+  "display": "everything.",
+  "break": true
+ }
+]

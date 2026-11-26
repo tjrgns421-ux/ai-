@@ -1,0 +1,233 @@
+[
+ {
+  "text": "Before",
+  "start": 0.1,
+  "end": 0.476,
+  "display": "Before",
+  "break": false
+ },
+ {
+  "text": "he",
+  "start": 0.488,
+  "end": 0.585,
+  "display": "he",
+  "break": false
+ },
+ {
+  "text": "left",
+  "start": 0.598,
+  "end": 0.974,
+  "display": "left,",
+  "break": true
+ },
+ {
+  "text": "White",
+  "start": 1.034,
+  "end": 1.216,
+  "display": "White",
+  "break": false
+ },
+ {
+  "text": "had",
+  "start": 1.229,
+  "end": 1.35,
+  "display": "had",
+  "break": false
+ },
+ {
+  "text": "agreed",
+  "start": 1.362,
+  "end": 1.799,
+  "display": "agreed",
+  "break": false
+ },
+ {
+  "text": "on",
+  "start": 1.811,
+  "end": 1.92,
+  "display": "on",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 1.933,
+  "end": 1.969,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "signal",
+  "start": 1.981,
+  "end": 2.382,
+  "display": "signal.",
+  "break": true
+ },
+ {
+  "text": "If",
+  "start": 2.732,
+  "end": 2.914,
+  "display": "If",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 2.926,
+  "end": 3.011,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "colonists",
+  "start": 3.023,
+  "end": 3.557,
+  "display": "colonists",
+  "break": false
+ },
+ {
+  "text": "moved",
+  "start": 3.569,
+  "end": 3.958,
+  "display": "moved,",
+  "break": true
+ },
+ {
+  "text": "they",
+  "start": 3.994,
+  "end": 4.128,
+  "display": "they",
+  "break": false
+ },
+ {
+  "text": "would",
+  "start": 4.14,
+  "end": 4.261,
+  "display": "would",
+  "break": false
+ },
+ {
+  "text": "carve",
+  "start": 4.273,
+  "end": 4.565,
+  "display": "carve",
+  "break": false
+ },
+ {
+  "text": "where",
+  "start": 4.577,
+  "end": 4.71,
+  "display": "where",
+  "break": false
+ },
+ {
+  "text": "they",
+  "start": 4.722,
+  "end": 4.807,
+  "display": "they",
+  "break": false
+ },
+ {
+  "text": "went",
+  "start": 4.819,
+  "end": 5.086,
+  "display": "went.",
+  "break": true
+ },
+ {
+  "text": "If",
+  "start": 5.438,
+  "end": 5.62,
+  "display": "If",
+  "break": false
+ },
+ {
+  "text": "they",
+  "start": 5.633,
+  "end": 5.717,
+  "display": "they",
+  "break": false
+ },
+ {
+  "text": "left",
+  "start": 5.73,
+  "end": 5.984,
+  "display": "left",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 5.997,
+  "end": 6.069,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "distress",
+  "start": 6.082,
+  "end": 6.603,
+  "display": "distress,",
+  "break": true
+ },
+ {
+  "text": "they",
+  "start": 6.628,
+  "end": 6.761,
+  "display": "they",
+  "break": false
+ },
+ {
+  "text": "would",
+  "start": 6.773,
+  "end": 6.907,
+  "display": "would",
+  "break": false
+ },
+ {
+  "text": "add",
+  "start": 6.919,
+  "end": 7.04,
+  "display": "add",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 7.052,
+  "end": 7.101,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "cross",
+  "start": 7.113,
+  "end": 7.647,
+  "display": "cross.",
+  "break": true
+ },
+ {
+  "text": "There",
+  "start": 7.999,
+  "end": 8.193,
+  "display": "There",
+  "break": false
+ },
+ {
+  "text": "was",
+  "start": 8.205,
+  "end": 8.327,
+  "display": "was",
+  "break": false
+ },
+ {
+  "text": "no",
+  "start": 8.339,
+  "end": 8.497,
+  "display": "no",
+  "break": false
+ },
+ {
+  "text": "cross",
+  "start": 8.509,
+  "end": 9.043,
+  "display": "cross.",
+  "break": true
+ }
+]
