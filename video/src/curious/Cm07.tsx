@@ -186,7 +186,7 @@ const Dishes: React.FC = () => {
           </g>
         ))}
         <rect x={0} y={900} width={1920} height={180} fill="#3A3028" />
-        <text x={960} y={1000} textAnchor="middle" fontFamily="Pretendard" fontWeight={900} fontSize={44} fill="#FFFFFF">radio telescopes on Earth (ALMA, JCMT) → Venus</text>
+        <text x={700} y={140} textAnchor="middle" fontFamily="Pretendard" fontWeight={900} fontSize={44} fill="#FFFFFF">radio telescopes on Earth (ALMA, JCMT) → Venus</text>
       </svg>
       <Badge text="ILLUSTRATION" />
     </AbsoluteFill>

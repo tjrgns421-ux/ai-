@@ -80,10 +80,13 @@ export const TEX = {
   saturn: () => canvas((g) => {
     const bands = ["#E3CFA0", "#D7BE88", "#C9AA74", "#E8D6AC", "#BFA06A", "#DCC596", "#CDB07C"];
     for (let y = 0; y < H; y += 6) { g.fillStyle = bands[Math.floor((y / 6 + Math.sin(y * 0.05) * 2) % bands.length + bands.length) % bands.length]; g.fillRect(0, y, W, 6); }
-    // north polar hexagon: a six-lobed band near 78°N, darker bluish cap inside
-    g.fillStyle = "#7C8C94"; g.fillRect(0, 0, W, latY(80));
-    g.strokeStyle = "#5E6E78"; g.lineWidth = 8; g.beginPath();
-    for (let x = 0; x <= W; x += 4) { const lon = (x / W) * Math.PI * 2; const y = latY(77 + 2.2 * Math.cos(6 * lon)); x === 0 ? g.moveTo(x, y) : g.lineTo(x, y); }
+    // north polar hexagon: straight-sided hexagon around the pole (radius ~13° of latitude), darker cap inside
+    const hexLat = (lon: number) => { const th = ((lon % (Math.PI / 3)) + Math.PI / 3) % (Math.PI / 3) - Math.PI / 6; return 90 - (13 * Math.cos(Math.PI / 6)) / Math.cos(th); };
+    g.fillStyle = "#7C8C94"; g.beginPath(); g.moveTo(0, 0);
+    for (let x = 0; x <= W; x += 2) g.lineTo(x, latY(hexLat((x / W) * Math.PI * 2)));
+    g.lineTo(W, 0); g.closePath(); g.fill();
+    g.strokeStyle = "#4E5E68"; g.lineWidth = 6; g.beginPath();
+    for (let x = 0; x <= W; x += 2) { const y = latY(hexLat((x / W) * Math.PI * 2)); x === 0 ? g.moveTo(x, y) : g.lineTo(x, y); }
     g.stroke();
   }),
   iapetus: () => canvas((g) => {
