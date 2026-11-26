@@ -11,7 +11,7 @@ for ((a=0; a<TOTAL; a+=STEP)); do
   echo "file '$(basename $p)'" >> $PARTS/list.txt
   if [ -s $p.done ]; then echo "건너뜀 $a-$b"; continue; fi
   echo "$(date +%H:%M) 렌더링 $a-$b / $TOTAL"
-  npx remotion render $COMP $p --frames=$a-$b --muted --concurrency=4 --browser-executable=$BROWSER --log=error
+  npx remotion render $COMP $p --frames=$a-$b --muted --concurrency=4 --bundle-cache=false --browser-executable=$BROWSER --log=error
   echo ok > $p.done
 done
 echo "$(date +%H:%M) 이어 붙이는 중"

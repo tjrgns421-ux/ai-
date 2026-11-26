@@ -10,7 +10,7 @@ import { MarsStage, Methane, Oumuamua, Orbiter, Planet, Saturn, ShotS, SpaceStag
 
 // Curious Minutes ep07 "6 Strange Things Found in Our Solar System" — list format, a verdict after each.
 const FPS = 30;
-const INK = "#14151B", YEL = "#FFD23F", RED = "#FF3B30", GRN = "#2FBF71", ORG = "#FFB020", CYAN = "#7FE3FF";
+const INK = "#14151B", YEL = "#FFD23F", RED = "#FF3B30", GRN = "#2FBF71", ORG = "#FFB020";
 const cl = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 const ease = Easing.inOut(Easing.cubic);
 const out = Easing.out(Easing.cubic);
@@ -221,7 +221,7 @@ const DayNight: React.FC = () => {
           const x = (i * 137) % 1920, y = day ? 120 + ((i * 53) % 680) : 760 + ((i * 29) % 60);
           return <circle key={i} cx={x} cy={y} r={day ? 4 : 7} fill="#9AF0C8" opacity={day ? 0.35 : 0.85} />;
         })}
-        <text x={960} y={120} textAnchor="middle" fontFamily="Pretendard" fontWeight={900} fontSize={60} fill={day ? INK : "#FFFFFF"}>{day ? "DAY: mixed high and thin → orbiter sees nothing" : "NIGHT: calm air, methane builds up near the ground"}</text>
+        <text x={960} y={210} textAnchor="middle" fontFamily="Pretendard" fontWeight={900} fontSize={56} fill={day ? INK : "#FFFFFF"}>{day ? "DAY: mixed high and thin → orbiter sees nothing" : "NIGHT: calm air, methane builds up near the ground"}</text>
       </svg>
       <Badge text="ILLUSTRATION · based on NASA (2021)" />
     </AbsoluteFill>
@@ -307,7 +307,7 @@ const Scoreboard: React.FC = () => {
 // ---------------- the edit ----------------
 const MarsGlobe = (s: number) => <><Planet tex="mars" r={10} spin={s * 0.08} /><Orbiter pos={[13, 3, 6]} rot={s * 0.2} /></>;
 const SatSys = (s: number) => <Saturn spin={s * 0.15} />;
-const IapG = (s: number) => <Planet tex="iapetus" r={8} spin={-Math.PI / 2 + s * 0.12} />;
+const IapG = (s: number) => <Planet tex="iapetus" r={8} spin={0.6 + s * 0.12} />;
 const VenusG = (s: number) => <Planet tex="venus" r={10} spin={s * 0.05} rough={0.7} />;
 const OumG = (s: number) => <Oumuamua t={s} />;
 const C_VIK = "Viking 1 Orbiter, July 1976 · NASA/JPL (public domain)";
@@ -334,21 +334,21 @@ const SCENES: [number, React.ReactNode][] = [
   [S(23), <Loop />],
   [S(25), <Space shot={orbit(24, 2, 3, 0.1, 40)}>{IapG}</Space>],
   [S(26), <Photo src="iapetus.png" credit="Iapetus, equatorial ridge on the edge · NASA/JPL/SSI (public domain)" zoom={[1.5, 1.7]} origin="80% 50%" />],
-  [S(28), <Photo src="saturn_hex.jpg" credit="Saturn, July 2013 · NASA/JPL-Caltech/Space Science Institute (public domain)" />],
+  [S(28), <Photo src="saturn_hex.jpg" credit="Saturn, July 2013 · NASA/JPL-Caltech/SSI, processed by Kevin Gill (CC BY 2.0)" />],
   [S(29), <Space shot={(s) => ({ pos: V(0.01, 70 - s, 8), look: V(0, 0, 0), fov: 40 })} still>{(s) => <Saturn spin={s * 0.2} tilt={0} />}</Space>],
   [S(31), <Space shot={orbit(90, 30, 2, 0.05, 40)} sun={[100, -40, 0]}>{SatSys}</Space>],
-  [S(33), <Photo src="saturn_hex.jpg" credit="Saturn, July 2013 · NASA/JPL-Caltech/SSI (public domain)" zoom={[1.5, 1.7]} origin="50% 20%" />],
+  [S(33), <Photo src="saturn_hex.jpg" credit="Saturn, July 2013 · NASA/JPL-Caltech/SSI, processed by Kevin Gill (CC BY 2.0)" zoom={[1.5, 1.7]} origin="50% 20%" />],
   [S(35), <Space shot={(s) => ({ pos: V(10, 60, 20), look: V(0, 10, 0), fov: 40 })} still>{(s) => <Saturn spin={s * 0.25} tilt={0} />}</Space>],
   [S(36), <Tank />],
   [S(37), <Space shot={orbit(80, -10, 0, 0.05, 40)}>{SatSys}</Space>],
-  [S(38), <Photo src="saturn_hex.jpg" credit="Saturn, July 2013 · NASA/JPL-Caltech/SSI (public domain)" />],
-  [S(40), <Photo src="oum_real.jpg" credit="ʻOumuamua (centre dot) seen by the William Herschel Telescope, Oct 2017 · CC BY 4.0 (Wikimedia Commons)" />],
+  [S(38), <Photo src="saturn_hex.jpg" credit="Saturn, July 2013 · NASA/JPL-Caltech/SSI, processed by Kevin Gill (CC BY 2.0)" />],
+  [S(40), <Photo src="oum_real.jpg" credit="ʻOumuamua (centre dot), William Herschel Telescope, Oct 2017 · A. Fitzsimmons (QUB) / Isaac Newton Group, public domain" />],
   [S(42), <Path />],
-  [S(43), <Photo src="oum_art.jpg" credit="ARTIST'S IMPRESSION · ESO/M. Kornmesser, CC BY 4.0 (shape not known)" badge="ARTIST'S IMPRESSION" fit="cover" />],
+  [S(43), <Photo src="oum_art.jpg" credit="ARTIST'S IMPRESSION · ESO/M. Kornmesser (derivative: nagualdesign), CC BY-SA 4.0 · real shape not known" badge="ARTIST'S IMPRESSION" fit="cover" />],
   [S(44), <Space shot={orbit(22, 3, 0, 0.1, 40)}>{OumG}</Space>],
   [S(45), <Path push />],
   [S(47), <Space shot={orbit(24, 4, 1, 0.1, 40)}>{OumG}</Space>],
-  [S(48), <Photo src="oum_art.jpg" credit="ARTIST'S IMPRESSION · ESO/M. Kornmesser, CC BY 4.0" badge="ARTIST'S IMPRESSION" fit="cover" zoom={[1.2, 1.35]} />],
+  [S(48), <Photo src="oum_art.jpg" credit="ARTIST'S IMPRESSION · ESO/M. Kornmesser (deriv. nagualdesign), CC BY-SA 4.0" badge="ARTIST'S IMPRESSION" fit="cover" zoom={[1.2, 1.35]} />],
   [S(50), <Space shot={orbit(22, 3, 2, 0.1, 40)}>{(s) => <Oumuamua t={s} gas={1} />}</Space>],
   [S(52), <Space shot={orbit(40, 8, 3, 0.06, 40)}>{(s) => <Oumuamua t={s} gas={0.6} />}</Space>],
   [S(54), <Space shot={orbit(30, 8, 0.6, 0.06, 40)}>{MarsGlobe}</Space>],

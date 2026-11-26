@@ -39,7 +39,7 @@ const Stars: React.FC = () => {
 };
 
 /** Space stage: black sky, stars, the Sun as a directional light from `sun`. */
-export const SpaceStage: React.FC<{ shot: ShotS; children?: React.ReactNode; width?: number; height?: number; sun?: [number, number, number]; ambient?: number }> = ({ shot, children, width = 1920, height = 1080, sun = [-100, 30, 60], ambient = 0.12 }) => (
+export const SpaceStage: React.FC<{ shot: ShotS; children?: React.ReactNode; width?: number; height?: number; sun?: [number, number, number]; ambient?: number }> = ({ shot, children, width = 1920, height = 1080, sun = [-60, 40, 120], ambient = 0.22 }) => (
   <ThreeCanvas width={width} height={height} gl={{ antialias: true }} camera={{ fov: shot.fov ?? 40, near: 0.05, far: 5000 }}>
     <Rig sh={shot} bg="#020207" />
     <Stars />

@@ -13,7 +13,7 @@ In 2017, ʻOumuamua became the first object confirmed to come from interstellar 
 
 Five more solar system mysteries are in the full video on the channel.
 
-Images: William Herschel Telescope image (CC BY 4.0); artist's impression ESO/M. Kornmesser (CC BY 4.0). 3D scenes are illustrations.
+Images: ʻOumuamua seen by the William Herschel Telescope, A. Fitzsimmons (QUB), public domain; artist's impression ESO/M. Kornmesser (derivative: nagualdesign), CC BY-SA 4.0. 3D scenes are illustrations.
 Sources: Bergner & Seligman, Nature (2023), arXiv:2303.13698; Wikipedia, "1I/ʻOumuamua"
 
 #space #oumuamua #mystery

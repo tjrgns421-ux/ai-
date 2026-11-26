@@ -11,7 +11,7 @@ import l2 from "../../public/cm07s2/lines.json";
 
 // Curious Minutes ep07 Shorts (9:16, under 30 s), cut from the long-form: 1 the face on Mars · 2 ʻOumuamua.
 const FPS = 30;
-const INK = "#14151B", YEL = "#FFD23F", RED = "#FF3B30", GRN = "#2FBF71", CYAN = "#7FE3FF";
+const INK = "#14151B", YEL = "#FFD23F", RED = "#FF3B30", GRN = "#2FBF71";
 const cl = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 const out = Easing.out(Easing.cubic);
 const V = (x: number, y: number, z: number) => new THREE.Vector3(x, y, z);
@@ -134,8 +134,8 @@ const plan = (n: number, L: number[], E: number): { scenes: [number, React.React
   return {
     scenes: [
       [0, <Space shot={orbit(22, 3, 0, 0.12)}>{(s) => <Oumuamua t={s} />}</Space>],
-      [L[1], <Photo src="oum_real.jpg" credit="ʻOumuamua (centre), William Herschel Telescope, Oct 2017 · CC BY 4.0" zoom={[1.2, 1.4]} />],
-      [L[2], <Photo src="oum_art.jpg" credit="ARTIST'S IMPRESSION · ESO/M. Kornmesser, CC BY 4.0" />],
+      [L[1], <Photo src="oum_real.jpg" credit="ʻOumuamua (centre), William Herschel Telescope, Oct 2017 · A. Fitzsimmons (QUB), public domain" zoom={[1.2, 1.4]} />],
+      [L[2], <Photo src="oum_art.jpg" credit="ARTIST'S IMPRESSION · ESO/M. Kornmesser (deriv. nagualdesign), CC BY-SA 4.0" />],
       [L[3], <Space shot={orbit(24, 4, 2, 0.12)}>{(s) => <Oumuamua t={s} gas={1} />}</Space>],
       [L[4], <Space shot={orbit(40, 8, 3, 0.08)}>{(s) => <Oumuamua t={s} gas={0.5} />}</Space>],
     ],
