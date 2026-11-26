@@ -35,7 +35,6 @@ Curious Minutes 채널(`channels/curious-minutes/`)은 다른 세션에서 작�
 | mp02-china-one-time-zone | 지도 롱폼 2회: 중국은 왜 시간대가 하나? (8:11) | 완성, `post.md`, 릴스 5개 `shorts/reels/reels-2026-11-25.json` |
 | mp03-alaska-russia | 지도 롱폼 3회: 알래스카에서 러시아가 보이나? (7:36) | 완성, `post.md`, 쇼츠 5개 `shorts/reels/reels-mp03.json` |
 | mp04-north-korea-night | 지도 롱폼 4회: 북한은 정말 밤에 깜깜한가? (5:59) | 완성, `post.md`, 쇼츠 2개 `shorts/reels/reels-mp04.json`, 측정 `research/nk_night_lights.py` |
-| (mp04 후보) | 북한은 정말 밤에 깜깜한가? NASA 야간 사진 | 계획 |
 
 ## 기타
 - 인스타그램 만화·이슈 슬라이드: `insta/` (README 참고)
