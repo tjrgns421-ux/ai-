@@ -1,0 +1,107 @@
+[
+ {
+  "text": "When",
+  "start": 0.1,
+  "end": 0.331,
+  "display": "When",
+  "break": false
+ },
+ {
+  "text": "White",
+  "start": 0.343,
+  "end": 0.61,
+  "display": "White",
+  "break": false
+ },
+ {
+  "text": "finally",
+  "start": 0.622,
+  "end": 1.071,
+  "display": "finally",
+  "break": false
+ },
+ {
+  "text": "returned",
+  "start": 1.083,
+  "end": 1.532,
+  "display": "returned",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 1.544,
+  "end": 1.763,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "August 1590",
+  "start": 1.775,
+  "end": 2.988,
+  "display": "August 1590,",
+  "break": true
+ },
+ {
+  "text": "on",
+  "start": 3.061,
+  "end": 3.183,
+  "display": "on",
+  "break": false
+ },
+ {
+  "text": "his",
+  "start": 3.195,
+  "end": 3.34,
+  "display": "his",
+  "break": false
+ },
+ {
+  "text": "granddaughter's",
+  "start": 3.352,
+  "end": 4.008,
+  "display": "granddaughter's",
+  "break": false
+ },
+ {
+  "text": "third",
+  "start": 4.02,
+  "end": 4.396,
+  "display": "third",
+  "break": false
+ },
+ {
+  "text": "birthday",
+  "start": 4.408,
+  "end": 4.845,
+  "display": "birthday,",
+  "break": true
+ },
+ {
+  "text": "the",
+  "start": 4.882,
+  "end": 4.979,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "settlement",
+  "start": 4.991,
+  "end": 5.476,
+  "display": "settlement",
+  "break": false
+ },
+ {
+  "text": "was",
+  "start": 5.488,
+  "end": 5.695,
+  "display": "was",
+  "break": false
+ },
+ {
+  "text": "empty",
+  "start": 5.707,
+  "end": 6.059,
+  "display": "empty.",
+  "break": true
+ }
+]

@@ -1,0 +1,72 @@
+[
+ {
+  "text": "Evidence",
+  "start": 0.1,
+  "end": 0.537,
+  "display": "Evidence",
+  "break": false
+ },
+ {
+  "text": "five",
+  "start": 0.549,
+  "end": 0.877,
+  "display": "five",
+  "break": false
+ },
+ {
+  "text": "is",
+  "start": 0.889,
+  "end": 0.998,
+  "display": "is",
+  "break": false
+ },
+ {
+  "text": "on",
+  "start": 1.01,
+  "end": 1.156,
+  "display": "on",
+  "break": false
+ },
+ {
+  "text": "Hatteras",
+  "start": 1.168,
+  "end": 1.629,
+  "display": "Hatteras",
+  "break": false
+ },
+ {
+  "text": "itself",
+  "start": 1.641,
+  "end": 2.139,
+  "display": "itself,",
+  "break": true
+ },
+ {
+  "text": "the",
+  "start": 2.175,
+  "end": 2.309,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "old",
+  "start": 2.321,
+  "end": 2.539,
+  "display": "old",
+  "break": false
+ },
+ {
+  "text": "Croatoan",
+  "start": 2.551,
+  "end": 3.025,
+  "display": "Croatoan",
+  "break": false
+ },
+ {
+  "text": "island",
+  "start": 3.037,
+  "end": 3.425,
+  "display": "island.",
+  "break": true
+ }
+]

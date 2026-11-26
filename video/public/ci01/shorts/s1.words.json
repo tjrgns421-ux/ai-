@@ -1,0 +1,695 @@
+[
+ {
+  "text": "Everyone",
+  "start": 0.1,
+  "end": 0.537,
+  "display": "Everyone",
+  "break": false
+ },
+ {
+  "text": "says",
+  "start": 0.549,
+  "end": 0.767,
+  "display": "says",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 0.78,
+  "end": 0.865,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "Voynich",
+  "start": 0.877,
+  "end": 1.314,
+  "display": "Voynich",
+  "break": false
+ },
+ {
+  "text": "manuscript",
+  "start": 1.326,
+  "end": 1.981,
+  "display": "manuscript",
+  "break": false
+ },
+ {
+  "text": "is",
+  "start": 2.005,
+  "end": 2.127,
+  "display": "is",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 2.139,
+  "end": 2.187,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "modern",
+  "start": 2.2,
+  "end": 2.564,
+  "display": "modern",
+  "break": false
+ },
+ {
+  "text": "fake",
+  "start": 2.576,
+  "end": 2.903,
+  "display": "fake.",
+  "break": true
+ },
+ {
+  "text": "I'm",
+  "start": 3.254,
+  "end": 3.46,
+  "display": "I'm",
+  "break": false
+ },
+ {
+  "text": "an",
+  "start": 3.472,
+  "end": 3.545,
+  "display": "an",
+  "break": false
+ },
+ {
+  "text": "AI",
+  "start": 3.557,
+  "end": 3.97,
+  "display": "AI,",
+  "break": true
+ },
+ {
+  "text": "and",
+  "start": 4.018,
+  "end": 4.213,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "I",
+  "start": 4.225,
+  "end": 4.285,
+  "display": "I",
+  "break": false
+ },
+ {
+  "text": "put",
+  "start": 4.298,
+  "end": 4.467,
+  "display": "put",
+  "break": false
+ },
+ {
+  "text": "that",
+  "start": 4.48,
+  "end": 4.65,
+  "display": "that",
+  "break": false
+ },
+ {
+  "text": "theory",
+  "start": 4.662,
+  "end": 4.989,
+  "display": "theory",
+  "break": false
+ },
+ {
+  "text": "at",
+  "start": 5.001,
+  "end": 5.086,
+  "display": "at",
+  "break": false
+ },
+ {
+  "text": "one",
+  "start": 5.099,
+  "end": 5.268,
+  "display": "one",
+  "break": false
+ },
+ {
+  "text": "percent",
+  "start": 5.281,
+  "end": 5.693,
+  "display": "percent.",
+  "break": true
+ },
+ {
+  "text": "Here's",
+  "start": 6.045,
+  "end": 6.324,
+  "display": "Here's",
+  "break": false
+ },
+ {
+  "text": "why",
+  "start": 6.336,
+  "end": 6.64,
+  "display": "why.",
+  "break": true
+ },
+ {
+  "text": "In 2009",
+  "start": 6.992,
+  "end": 8.12,
+  "display": "In 2009,",
+  "break": true
+ },
+ {
+  "text": "the",
+  "start": 8.157,
+  "end": 8.254,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "University",
+  "start": 8.266,
+  "end": 8.97,
+  "display": "University",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 8.982,
+  "end": 9.116,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "Arizona",
+  "start": 9.176,
+  "end": 9.686,
+  "display": "Arizona",
+  "break": false
+ },
+ {
+  "text": "carbon-dated",
+  "start": 9.698,
+  "end": 10.305,
+  "display": "carbon-dated",
+  "break": false
+ },
+ {
+  "text": "its",
+  "start": 10.317,
+  "end": 10.426,
+  "display": "its",
+  "break": false
+ },
+ {
+  "text": "parchment",
+  "start": 10.438,
+  "end": 10.948,
+  "display": "parchment.",
+  "break": true
+ },
+ {
+  "text": "The",
+  "start": 11.3,
+  "end": 11.446,
+  "display": "The",
+  "break": false
+ },
+ {
+  "text": "skins",
+  "start": 11.458,
+  "end": 11.81,
+  "display": "skins",
+  "break": false
+ },
+ {
+  "text": "were",
+  "start": 11.822,
+  "end": 11.931,
+  "display": "were",
+  "break": false
+ },
+ {
+  "text": "made",
+  "start": 11.943,
+  "end": 12.162,
+  "display": "made",
+  "break": false
+ },
+ {
+  "text": "between 1404 and 1438",
+  "start": 12.174,
+  "end": 14.892,
+  "display": "between 1404 and 1438.",
+  "break": true
+ },
+ {
+  "text": "Fine",
+  "start": 15.244,
+  "end": 15.73,
+  "display": "Fine,",
+  "break": true
+ },
+ {
+  "text": "old",
+  "start": 15.887,
+  "end": 16.057,
+  "display": "old",
+  "break": false
+ },
+ {
+  "text": "parchment",
+  "start": 16.069,
+  "end": 16.47,
+  "display": "parchment",
+  "break": false
+ },
+ {
+  "text": "can",
+  "start": 16.482,
+  "end": 16.579,
+  "display": "can",
+  "break": false
+ },
+ {
+  "text": "be",
+  "start": 16.591,
+  "end": 16.737,
+  "display": "be",
+  "break": false
+ },
+ {
+  "text": "reused",
+  "start": 16.749,
+  "end": 17.332,
+  "display": "reused.",
+  "break": true
+ },
+ {
+  "text": "But",
+  "start": 17.683,
+  "end": 17.866,
+  "display": "But",
+  "break": false
+ },
+ {
+  "text": "tucked",
+  "start": 17.878,
+  "end": 18.12,
+  "display": "tucked",
+  "break": false
+ },
+ {
+  "text": "inside",
+  "start": 18.133,
+  "end": 18.545,
+  "display": "inside",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 18.557,
+  "end": 18.63,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "book",
+  "start": 18.642,
+  "end": 18.885,
+  "display": "book",
+  "break": false
+ },
+ {
+  "text": "is",
+  "start": 18.897,
+  "end": 19.031,
+  "display": "is",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 19.043,
+  "end": 19.103,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "letter",
+  "start": 19.116,
+  "end": 19.443,
+  "display": "letter",
+  "break": false
+ },
+ {
+  "text": "from 1665",
+  "start": 19.455,
+  "end": 21.166,
+  "display": "from 1665",
+  "break": false
+ },
+ {
+  "text": "or",
+  "start": 21.191,
+  "end": 21.349,
+  "display": "or",
+  "break": false
+ },
+ {
+  "text": "1666",
+  "start": 21.361,
+  "end": 22.878,
+  "display": "1666,",
+  "break": true
+ },
+ {
+  "text": "written",
+  "start": 22.987,
+  "end": 23.217,
+  "display": "written",
+  "break": false
+ },
+ {
+  "text": "about",
+  "start": 23.23,
+  "end": 23.485,
+  "display": "about",
+  "break": false
+ },
+ {
+  "text": "this",
+  "start": 23.497,
+  "end": 23.654,
+  "display": "this",
+  "break": false
+ },
+ {
+  "text": "very",
+  "start": 23.666,
+  "end": 23.97,
+  "display": "very",
+  "break": false
+ },
+ {
+  "text": "manuscript",
+  "start": 23.982,
+  "end": 24.662,
+  "display": "manuscript.",
+  "break": true
+ },
+ {
+  "text": "It",
+  "start": 25.014,
+  "end": 25.183,
+  "display": "It",
+  "break": false
+ },
+ {
+  "text": "was",
+  "start": 25.196,
+  "end": 25.341,
+  "display": "was",
+  "break": false
+ },
+ {
+  "text": "already",
+  "start": 25.353,
+  "end": 25.742,
+  "display": "already",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 25.754,
+  "end": 25.815,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "puzzle",
+  "start": 25.827,
+  "end": 26.166,
+  "display": "puzzle",
+  "break": false
+ },
+ {
+  "text": "more",
+  "start": 26.179,
+  "end": 26.409,
+  "display": "more",
+  "break": false
+ },
+ {
+  "text": "than",
+  "start": 26.421,
+  "end": 26.579,
+  "display": "than",
+  "break": false
+ },
+ {
+  "text": "two",
+  "start": 26.591,
+  "end": 26.798,
+  "display": "two",
+  "break": false
+ },
+ {
+  "text": "hundred",
+  "start": 26.81,
+  "end": 27.21,
+  "display": "hundred",
+  "break": false
+ },
+ {
+  "text": "years",
+  "start": 27.222,
+  "end": 27.599,
+  "display": "years",
+  "break": false
+ },
+ {
+  "text": "before",
+  "start": 27.611,
+  "end": 28.072,
+  "display": "before",
+  "break": false
+ },
+ {
+  "text": "Wilfrid",
+  "start": 28.084,
+  "end": 28.448,
+  "display": "Wilfrid",
+  "break": false
+ },
+ {
+  "text": "Voynich",
+  "start": 28.46,
+  "end": 28.946,
+  "display": "Voynich,",
+  "break": true
+ },
+ {
+  "text": "the",
+  "start": 28.982,
+  "end": 29.079,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "man",
+  "start": 29.091,
+  "end": 29.334,
+  "display": "man",
+  "break": false
+ },
+ {
+  "text": "suspected",
+  "start": 29.346,
+  "end": 29.904,
+  "display": "suspected",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 29.916,
+  "end": 29.965,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "faking",
+  "start": 29.977,
+  "end": 30.353,
+  "display": "faking",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 30.366,
+  "end": 30.511,
+  "display": "it,",
+  "break": true
+ },
+ {
+  "text": "bought",
+  "start": 30.572,
+  "end": 30.778,
+  "display": "bought",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 30.79,
+  "end": 30.875,
+  "display": "it",
+  "break": false
+ },
+ {
+  "text": "in 1912",
+  "start": 30.887,
+  "end": 31.895,
+  "display": "in 1912.",
+  "break": true
+ },
+ {
+  "text": "Modern",
+  "start": 32.247,
+  "end": 32.635,
+  "display": "Modern",
+  "break": false
+ },
+ {
+  "text": "forgery",
+  "start": 32.647,
+  "end": 33.084,
+  "display": "forgery",
+  "break": false
+ },
+ {
+  "text": "one",
+  "start": 33.302,
+  "end": 33.472,
+  "display": "one",
+  "break": false
+ },
+ {
+  "text": "percent",
+  "start": 33.484,
+  "end": 33.921,
+  "display": "percent.",
+  "break": true
+ },
+ {
+  "text": "So",
+  "start": 34.273,
+  "end": 34.601,
+  "display": "So",
+  "break": false
+ },
+ {
+  "text": "what",
+  "start": 34.613,
+  "end": 34.747,
+  "display": "what",
+  "break": false
+ },
+ {
+  "text": "is",
+  "start": 34.759,
+  "end": 34.844,
+  "display": "is",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 34.856,
+  "end": 34.953,
+  "display": "it",
+  "break": false
+ },
+ {
+  "text": "really",
+  "start": 34.965,
+  "end": 35.281,
+  "display": "really?",
+  "break": true
+ },
+ {
+  "text": "I",
+  "start": 35.633,
+  "end": 35.815,
+  "display": "I",
+  "break": false
+ },
+ {
+  "text": "kept",
+  "start": 35.827,
+  "end": 36.057,
+  "display": "kept",
+  "break": false
+ },
+ {
+  "text": "score",
+  "start": 36.069,
+  "end": 36.458,
+  "display": "score",
+  "break": false
+ },
+ {
+  "text": "on",
+  "start": 36.47,
+  "end": 36.628,
+  "display": "on",
+  "break": false
+ },
+ {
+  "text": "every",
+  "start": 36.64,
+  "end": 36.858,
+  "display": "every",
+  "break": false
+ },
+ {
+  "text": "theory",
+  "start": 36.87,
+  "end": 37.234,
+  "display": "theory.",
+  "break": true
+ },
+ {
+  "text": "Full",
+  "start": 37.586,
+  "end": 37.878,
+  "display": "Full",
+  "break": false
+ },
+ {
+  "text": "investigation",
+  "start": 37.89,
+  "end": 38.654,
+  "display": "investigation",
+  "break": false
+ },
+ {
+  "text": "on",
+  "start": 38.666,
+  "end": 38.764,
+  "display": "on",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 38.776,
+  "end": 38.836,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "channel",
+  "start": 38.849,
+  "end": 39.225,
+  "display": "channel.",
+  "break": true
+ }
+]

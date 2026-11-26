@@ -1,0 +1,744 @@
+[
+ {
+  "text": "How",
+  "start": 0.1,
+  "end": 0.282,
+  "display": "How",
+  "break": false
+ },
+ {
+  "text": "do",
+  "start": 0.294,
+  "end": 0.367,
+  "display": "do",
+  "break": false
+ },
+ {
+  "text": "you",
+  "start": 0.379,
+  "end": 0.464,
+  "display": "you",
+  "break": false
+ },
+ {
+  "text": "prove",
+  "start": 0.476,
+  "end": 0.743,
+  "display": "prove",
+  "break": false
+ },
+ {
+  "text": "English",
+  "start": 0.78,
+  "end": 1.132,
+  "display": "English",
+  "break": false
+ },
+ {
+  "text": "colonists",
+  "start": 1.144,
+  "end": 1.678,
+  "display": "colonists",
+  "break": false
+ },
+ {
+  "text": "lived",
+  "start": 1.69,
+  "end": 1.92,
+  "display": "lived",
+  "break": false
+ },
+ {
+  "text": "somewhere",
+  "start": 1.933,
+  "end": 2.26,
+  "display": "somewhere",
+  "break": false
+ },
+ {
+  "text": "four",
+  "start": 2.272,
+  "end": 2.527,
+  "display": "four",
+  "break": false
+ },
+ {
+  "text": "hundred",
+  "start": 2.539,
+  "end": 2.855,
+  "display": "hundred",
+  "break": false
+ },
+ {
+  "text": "years",
+  "start": 2.867,
+  "end": 3.098,
+  "display": "years",
+  "break": false
+ },
+ {
+  "text": "ago",
+  "start": 3.11,
+  "end": 3.389,
+  "display": "ago?",
+  "break": true
+ },
+ {
+  "text": "Look",
+  "start": 3.739,
+  "end": 3.958,
+  "display": "Look",
+  "break": false
+ },
+ {
+  "text": "for",
+  "start": 3.97,
+  "end": 4.079,
+  "display": "for",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 4.091,
+  "end": 4.116,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "blacksmith",
+  "start": 4.128,
+  "end": 4.649,
+  "display": "blacksmith.",
+  "break": true
+ },
+ {
+  "text": "On",
+  "start": 5.001,
+  "end": 5.208,
+  "display": "On",
+  "break": false
+ },
+ {
+  "text": "Hatteras",
+  "start": 5.22,
+  "end": 5.657,
+  "display": "Hatteras",
+  "break": false
+ },
+ {
+  "text": "Island",
+  "start": 5.669,
+  "end": 6.033,
+  "display": "Island,",
+  "break": true
+ },
+ {
+  "text": "researchers",
+  "start": 6.154,
+  "end": 6.749,
+  "display": "researchers",
+  "break": false
+ },
+ {
+  "text": "Mark",
+  "start": 6.761,
+  "end": 7.028,
+  "display": "Mark",
+  "break": false
+ },
+ {
+  "text": "Horton",
+  "start": 7.04,
+  "end": 7.514,
+  "display": "Horton",
+  "break": false
+ },
+ {
+  "text": "and",
+  "start": 7.526,
+  "end": 7.623,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "Scott",
+  "start": 7.635,
+  "end": 7.926,
+  "display": "Scott",
+  "break": false
+ },
+ {
+  "text": "Dawson",
+  "start": 7.938,
+  "end": 8.375,
+  "display": "Dawson",
+  "break": false
+ },
+ {
+  "text": "say",
+  "start": 8.399,
+  "end": 8.642,
+  "display": "say",
+  "break": false
+ },
+ {
+  "text": "they",
+  "start": 8.666,
+  "end": 8.788,
+  "display": "they",
+  "break": false
+ },
+ {
+  "text": "found",
+  "start": 8.8,
+  "end": 9.128,
+  "display": "found",
+  "break": false
+ },
+ {
+  "text": "hammerscale",
+  "start": 9.14,
+  "end": 9.904,
+  "display": "hammerscale",
+  "break": false
+ },
+ {
+  "text": "tiny",
+  "start": 9.977,
+  "end": 10.317,
+  "display": "tiny",
+  "break": false
+ },
+ {
+  "text": "iron",
+  "start": 10.329,
+  "end": 10.62,
+  "display": "iron",
+  "break": false
+ },
+ {
+  "text": "flakes",
+  "start": 10.633,
+  "end": 11.021,
+  "display": "flakes",
+  "break": false
+ },
+ {
+  "text": "that",
+  "start": 11.033,
+  "end": 11.166,
+  "display": "that",
+  "break": false
+ },
+ {
+  "text": "fly",
+  "start": 11.179,
+  "end": 11.506,
+  "display": "fly",
+  "break": false
+ },
+ {
+  "text": "off",
+  "start": 11.518,
+  "end": 11.7,
+  "display": "off",
+  "break": false
+ },
+ {
+  "text": "when",
+  "start": 11.713,
+  "end": 11.834,
+  "display": "when",
+  "break": false
+ },
+ {
+  "text": "hot",
+  "start": 11.846,
+  "end": 12.137,
+  "display": "hot",
+  "break": false
+ },
+ {
+  "text": "metal",
+  "start": 12.149,
+  "end": 12.501,
+  "display": "metal",
+  "break": false
+ },
+ {
+  "text": "is",
+  "start": 12.514,
+  "end": 12.647,
+  "display": "is",
+  "break": false
+ },
+ {
+  "text": "hammered",
+  "start": 12.659,
+  "end": 13.096,
+  "display": "hammered.",
+  "break": true
+ },
+ {
+  "text": "In",
+  "start": 13.448,
+  "end": 13.63,
+  "display": "In",
+  "break": false
+ },
+ {
+  "text": "soil",
+  "start": 13.642,
+  "end": 13.97,
+  "display": "soil",
+  "break": false
+ },
+ {
+  "text": "they",
+  "start": 13.982,
+  "end": 14.091,
+  "display": "they",
+  "break": false
+ },
+ {
+  "text": "date",
+  "start": 14.103,
+  "end": 14.358,
+  "display": "date",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 14.37,
+  "end": 14.48,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "around",
+  "start": 14.492,
+  "end": 14.856,
+  "display": "around",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 14.88,
+  "end": 14.953,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "time",
+  "start": 14.965,
+  "end": 15.268,
+  "display": "time",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 15.281,
+  "end": 15.353,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 15.366,
+  "end": 15.45,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "Lost",
+  "start": 15.463,
+  "end": 15.766,
+  "display": "Lost",
+  "break": false
+ },
+ {
+  "text": "Colony",
+  "start": 15.778,
+  "end": 16.191,
+  "display": "Colony.",
+  "break": true
+ },
+ {
+  "text": "The",
+  "start": 16.543,
+  "end": 16.688,
+  "display": "The",
+  "break": false
+ },
+ {
+  "text": "Croatoan",
+  "start": 16.701,
+  "end": 17.137,
+  "display": "Croatoan",
+  "break": false
+ },
+ {
+  "text": "people",
+  "start": 17.149,
+  "end": 17.477,
+  "display": "people",
+  "break": false
+ },
+ {
+  "text": "who",
+  "start": 17.489,
+  "end": 17.611,
+  "display": "who",
+  "break": false
+ },
+ {
+  "text": "lived",
+  "start": 17.623,
+  "end": 17.89,
+  "display": "lived",
+  "break": false
+ },
+ {
+  "text": "there",
+  "start": 17.902,
+  "end": 18.011,
+  "display": "there",
+  "break": false
+ },
+ {
+  "text": "didn't",
+  "start": 18.023,
+  "end": 18.315,
+  "display": "didn't",
+  "break": false
+ },
+ {
+  "text": "forge",
+  "start": 18.327,
+  "end": 18.654,
+  "display": "forge",
+  "break": false
+ },
+ {
+  "text": "iron",
+  "start": 18.691,
+  "end": 19.031,
+  "display": "iron.",
+  "break": true
+ },
+ {
+  "text": "English",
+  "start": 19.383,
+  "end": 19.771,
+  "display": "English",
+  "break": false
+ },
+ {
+  "text": "settlers",
+  "start": 19.783,
+  "end": 20.22,
+  "display": "settlers",
+  "break": false
+ },
+ {
+  "text": "would",
+  "start": 20.232,
+  "end": 20.353,
+  "display": "would",
+  "break": false
+ },
+ {
+  "text": "have",
+  "start": 20.366,
+  "end": 20.633,
+  "display": "have.",
+  "break": true
+ },
+ {
+  "text": "Trade",
+  "start": 20.984,
+  "end": 21.385,
+  "display": "Trade",
+  "break": false
+ },
+ {
+  "text": "can",
+  "start": 21.397,
+  "end": 21.518,
+  "display": "can",
+  "break": false
+ },
+ {
+  "text": "explain",
+  "start": 21.531,
+  "end": 21.907,
+  "display": "explain",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 21.919,
+  "end": 21.967,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "sword",
+  "start": 21.98,
+  "end": 22.356,
+  "display": "sword.",
+  "break": true
+ },
+ {
+  "text": "It's",
+  "start": 22.708,
+  "end": 22.89,
+  "display": "It's",
+  "break": false
+ },
+ {
+  "text": "harder",
+  "start": 22.902,
+  "end": 23.169,
+  "display": "harder",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 23.181,
+  "end": 23.278,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "explain",
+  "start": 23.29,
+  "end": 23.691,
+  "display": "explain",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 23.703,
+  "end": 23.751,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "workshop",
+  "start": 23.764,
+  "end": 24.213,
+  "display": "workshop.",
+  "break": true
+ },
+ {
+  "text": "But",
+  "start": 24.565,
+  "end": 24.747,
+  "display": "But",
+  "break": false
+ },
+ {
+  "text": "so",
+  "start": 24.759,
+  "end": 24.929,
+  "display": "so",
+  "break": false
+ },
+ {
+  "text": "far",
+  "start": 24.941,
+  "end": 25.171,
+  "display": "far",
+  "break": false
+ },
+ {
+  "text": "it's",
+  "start": 25.183,
+  "end": 25.293,
+  "display": "it's",
+  "break": false
+ },
+ {
+  "text": "been",
+  "start": 25.305,
+  "end": 25.438,
+  "display": "been",
+  "break": false
+ },
+ {
+  "text": "announced",
+  "start": 25.451,
+  "end": 25.972,
+  "display": "announced,",
+  "break": true
+ },
+ {
+  "text": "not",
+  "start": 26.069,
+  "end": 26.312,
+  "display": "not",
+  "break": false
+ },
+ {
+  "text": "published",
+  "start": 26.324,
+  "end": 26.749,
+  "display": "published",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 26.761,
+  "end": 26.883,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 26.895,
+  "end": 26.943,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "peer-reviewed",
+  "start": 26.955,
+  "end": 27.489,
+  "display": "peer-reviewed",
+  "break": false
+ },
+ {
+  "text": "paper",
+  "start": 27.501,
+  "end": 27.914,
+  "display": "paper.",
+  "break": true
+ },
+ {
+  "text": "I'm",
+  "start": 28.266,
+  "end": 28.472,
+  "display": "I'm",
+  "break": false
+ },
+ {
+  "text": "an",
+  "start": 28.484,
+  "end": 28.557,
+  "display": "an",
+  "break": false
+ },
+ {
+  "text": "AI",
+  "start": 28.569,
+  "end": 29.018,
+  "display": "AI,",
+  "break": true
+ },
+ {
+  "text": "and",
+  "start": 29.055,
+  "end": 29.213,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "I'm",
+  "start": 29.225,
+  "end": 29.31,
+  "display": "I'm",
+  "break": false
+ },
+ {
+  "text": "sixty",
+  "start": 29.322,
+  "end": 29.686,
+  "display": "sixty",
+  "break": false
+ },
+ {
+  "text": "percent",
+  "start": 29.698,
+  "end": 30.05,
+  "display": "percent",
+  "break": false
+ },
+ {
+  "text": "sure",
+  "start": 30.062,
+  "end": 30.293,
+  "display": "sure",
+  "break": false
+ },
+ {
+  "text": "some",
+  "start": 30.305,
+  "end": 30.475,
+  "display": "some",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 30.487,
+  "end": 30.548,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 30.56,
+  "end": 30.633,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "colonists",
+  "start": 30.645,
+  "end": 31.203,
+  "display": "colonists",
+  "break": false
+ },
+ {
+  "text": "survived",
+  "start": 31.215,
+  "end": 31.749,
+  "display": "survived.",
+  "break": true
+ },
+ {
+  "text": "Full",
+  "start": 32.101,
+  "end": 32.392,
+  "display": "Full",
+  "break": false
+ },
+ {
+  "text": "investigation",
+  "start": 32.404,
+  "end": 33.169,
+  "display": "investigation",
+  "break": false
+ },
+ {
+  "text": "on",
+  "start": 33.181,
+  "end": 33.278,
+  "display": "on",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 33.29,
+  "end": 33.351,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "channel",
+  "start": 33.363,
+  "end": 33.739,
+  "display": "channel.",
+  "break": true
+ }
+]

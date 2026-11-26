@@ -1,0 +1,394 @@
+[
+ {
+  "text": "As",
+  "start": 0.1,
+  "end": 0.343,
+  "display": "As",
+  "break": false
+ },
+ {
+  "text": "far",
+  "start": 0.355,
+  "end": 0.549,
+  "display": "far",
+  "break": false
+ },
+ {
+  "text": "as",
+  "start": 0.561,
+  "end": 0.658,
+  "display": "as",
+  "break": false
+ },
+ {
+  "text": "I",
+  "start": 0.67,
+  "end": 0.731,
+  "display": "I",
+  "break": false
+ },
+ {
+  "text": "could",
+  "start": 0.743,
+  "end": 0.901,
+  "display": "could",
+  "break": false
+ },
+ {
+  "text": "find",
+  "start": 0.913,
+  "end": 1.35,
+  "display": "find,",
+  "break": true
+ },
+ {
+  "text": "the",
+  "start": 1.386,
+  "end": 1.483,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "hammerscale",
+  "start": 1.496,
+  "end": 2.151,
+  "display": "hammerscale",
+  "break": false
+ },
+ {
+  "text": "results",
+  "start": 2.163,
+  "end": 2.551,
+  "display": "results",
+  "break": false
+ },
+ {
+  "text": "have",
+  "start": 2.564,
+  "end": 2.709,
+  "display": "have",
+  "break": false
+ },
+ {
+  "text": "been",
+  "start": 2.721,
+  "end": 2.855,
+  "display": "been",
+  "break": false
+ },
+ {
+  "text": "announced",
+  "start": 2.867,
+  "end": 3.268,
+  "display": "announced",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 3.28,
+  "end": 3.377,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 3.389,
+  "end": 3.486,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "public",
+  "start": 3.498,
+  "end": 3.935,
+  "display": "public",
+  "break": false
+ },
+ {
+  "text": "and",
+  "start": 3.971,
+  "end": 4.056,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 4.068,
+  "end": 4.141,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "press",
+  "start": 4.153,
+  "end": 4.59,
+  "display": "press,",
+  "break": true
+ },
+ {
+  "text": "not",
+  "start": 4.627,
+  "end": 4.894,
+  "display": "not",
+  "break": false
+ },
+ {
+  "text": "yet",
+  "start": 4.906,
+  "end": 5.112,
+  "display": "yet",
+  "break": false
+ },
+ {
+  "text": "laid",
+  "start": 5.124,
+  "end": 5.367,
+  "display": "laid",
+  "break": false
+ },
+ {
+  "text": "out",
+  "start": 5.379,
+  "end": 5.537,
+  "display": "out",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 5.549,
+  "end": 5.707,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 5.719,
+  "end": 5.767,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "peer-reviewed",
+  "start": 5.78,
+  "end": 6.338,
+  "display": "peer-reviewed",
+  "break": false
+ },
+ {
+  "text": "paper",
+  "start": 6.35,
+  "end": 6.775,
+  "display": "paper.",
+  "break": true
+ },
+ {
+  "text": "Other",
+  "start": 7.125,
+  "end": 7.489,
+  "display": "Other",
+  "break": false
+ },
+ {
+  "text": "archaeologists",
+  "start": 7.501,
+  "end": 8.363,
+  "display": "archaeologists,",
+  "break": true
+ },
+ {
+  "text": "including",
+  "start": 8.424,
+  "end": 8.849,
+  "display": "including",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 8.861,
+  "end": 8.933,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "Site",
+  "start": 8.946,
+  "end": 9.261,
+  "display": "Site",
+  "break": false
+ },
+ {
+  "text": "X",
+  "start": 9.298,
+  "end": 9.504,
+  "display": "X",
+  "break": false
+ },
+ {
+  "text": "team",
+  "start": 9.516,
+  "end": 9.832,
+  "display": "team,",
+  "break": true
+ },
+ {
+  "text": "think",
+  "start": 9.929,
+  "end": 10.171,
+  "display": "think",
+  "break": false
+ },
+ {
+  "text": "large",
+  "start": 10.184,
+  "end": 10.535,
+  "display": "large",
+  "break": false
+ },
+ {
+  "text": "numbers",
+  "start": 10.548,
+  "end": 10.936,
+  "display": "numbers",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 10.948,
+  "end": 11.069,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "colonists",
+  "start": 11.082,
+  "end": 11.725,
+  "display": "colonists",
+  "break": false
+ },
+ {
+  "text": "arriving",
+  "start": 11.761,
+  "end": 12.21,
+  "display": "arriving",
+  "break": false
+ },
+ {
+  "text": "on",
+  "start": 12.222,
+  "end": 12.319,
+  "display": "on",
+  "break": false
+ },
+ {
+  "text": "Hatteras",
+  "start": 12.332,
+  "end": 12.902,
+  "display": "Hatteras",
+  "break": false
+ },
+ {
+  "text": "during",
+  "start": 12.914,
+  "end": 13.133,
+  "display": "during",
+  "break": false
+ },
+ {
+  "text": "that",
+  "start": 13.145,
+  "end": 13.278,
+  "display": "that",
+  "break": false
+ },
+ {
+  "text": "drought",
+  "start": 13.29,
+  "end": 13.679,
+  "display": "drought",
+  "break": false
+ },
+ {
+  "text": "is",
+  "start": 13.691,
+  "end": 13.824,
+  "display": "is",
+  "break": false
+ },
+ {
+  "text": "hard",
+  "start": 13.836,
+  "end": 14.128,
+  "display": "hard",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 14.14,
+  "end": 14.225,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "believe",
+  "start": 14.237,
+  "end": 14.674,
+  "display": "believe.",
+  "break": true
+ },
+ {
+  "text": "And",
+  "start": 15.026,
+  "end": 15.244,
+  "display": "And",
+  "break": false
+ },
+ {
+  "text": "dating",
+  "start": 15.256,
+  "end": 15.535,
+  "display": "dating",
+  "break": false
+ },
+ {
+  "text": "soil",
+  "start": 15.548,
+  "end": 15.851,
+  "display": "soil",
+  "break": false
+ },
+ {
+  "text": "layers",
+  "start": 15.863,
+  "end": 16.191,
+  "display": "layers",
+  "break": false
+ },
+ {
+  "text": "is",
+  "start": 16.203,
+  "end": 16.324,
+  "display": "is",
+  "break": false
+ },
+ {
+  "text": "not",
+  "start": 16.336,
+  "end": 16.591,
+  "display": "not",
+  "break": false
+ },
+ {
+  "text": "dating",
+  "start": 16.603,
+  "end": 16.895,
+  "display": "dating",
+  "break": false
+ },
+ {
+  "text": "people",
+  "start": 16.907,
+  "end": 17.295,
+  "display": "people.",
+  "break": true
+ }
+]

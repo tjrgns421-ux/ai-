@@ -1,0 +1,275 @@
+[
+ {
+  "text": "Twenty",
+  "start": 0.1,
+  "end": 0.428,
+  "display": "Twenty",
+  "break": false
+ },
+ {
+  "text": "years",
+  "start": 0.44,
+  "end": 0.695,
+  "display": "years",
+  "break": false
+ },
+ {
+  "text": "later",
+  "start": 0.707,
+  "end": 1.071,
+  "display": "later,",
+  "break": true
+ },
+ {
+  "text": "the",
+  "start": 1.095,
+  "end": 1.229,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "English",
+  "start": 1.253,
+  "end": 1.629,
+  "display": "English",
+  "break": false
+ },
+ {
+  "text": "came",
+  "start": 1.641,
+  "end": 1.86,
+  "display": "came",
+  "break": false
+ },
+ {
+  "text": "back",
+  "start": 1.872,
+  "end": 2.102,
+  "display": "back",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 2.115,
+  "end": 2.187,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 2.2,
+  "end": 2.297,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "region",
+  "start": 2.309,
+  "end": 2.77,
+  "display": "region",
+  "break": false
+ },
+ {
+  "text": "and",
+  "start": 2.782,
+  "end": 2.891,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "founded",
+  "start": 2.903,
+  "end": 3.28,
+  "display": "founded",
+  "break": false
+ },
+ {
+  "text": "Jamestown",
+  "start": 3.292,
+  "end": 3.923,
+  "display": "Jamestown.",
+  "break": true
+ },
+ {
+  "text": "A",
+  "start": 4.273,
+  "end": 4.443,
+  "display": "A",
+  "break": false
+ },
+ {
+  "text": "colonial",
+  "start": 4.455,
+  "end": 4.965,
+  "display": "colonial",
+  "break": false
+ },
+ {
+  "text": "official",
+  "start": 4.977,
+  "end": 5.378,
+  "display": "official",
+  "break": false
+ },
+ {
+  "text": "named",
+  "start": 5.39,
+  "end": 5.693,
+  "display": "named",
+  "break": false
+ },
+ {
+  "text": "William",
+  "start": 5.705,
+  "end": 6.082,
+  "display": "William",
+  "break": false
+ },
+ {
+  "text": "Strachey",
+  "start": 6.094,
+  "end": 6.518,
+  "display": "Strachey",
+  "break": false
+ },
+ {
+  "text": "wrote",
+  "start": 6.531,
+  "end": 6.834,
+  "display": "wrote",
+  "break": false
+ },
+ {
+  "text": "that",
+  "start": 6.846,
+  "end": 6.98,
+  "display": "that",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 6.992,
+  "end": 7.077,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "powerful",
+  "start": 7.089,
+  "end": 7.623,
+  "display": "powerful",
+  "break": false
+ },
+ {
+  "text": "leader",
+  "start": 7.635,
+  "end": 7.938,
+  "display": "leader",
+  "break": false
+ },
+ {
+  "text": "Powhatan",
+  "start": 7.95,
+  "end": 8.521,
+  "display": "Powhatan",
+  "break": false
+ },
+ {
+  "text": "claimed",
+  "start": 8.533,
+  "end": 8.946,
+  "display": "claimed",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 8.958,
+  "end": 9.043,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "have",
+  "start": 9.055,
+  "end": 9.225,
+  "display": "have",
+  "break": false
+ },
+ {
+  "text": "killed",
+  "start": 9.237,
+  "end": 9.577,
+  "display": "killed",
+  "break": false
+ },
+ {
+  "text": "English",
+  "start": 9.601,
+  "end": 9.965,
+  "display": "English",
+  "break": false
+ },
+ {
+  "text": "people",
+  "start": 9.977,
+  "end": 10.329,
+  "display": "people",
+  "break": false
+ },
+ {
+  "text": "living",
+  "start": 10.341,
+  "end": 10.62,
+  "display": "living",
+  "break": false
+ },
+ {
+  "text": "among",
+  "start": 10.633,
+  "end": 10.863,
+  "display": "among",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 10.875,
+  "end": 10.948,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "Chesapeake",
+  "start": 10.96,
+  "end": 11.628,
+  "display": "Chesapeake,",
+  "break": true
+ },
+ {
+  "text": "just",
+  "start": 11.7,
+  "end": 11.931,
+  "display": "just",
+  "break": false
+ },
+ {
+  "text": "before",
+  "start": 11.943,
+  "end": 12.295,
+  "display": "before",
+  "break": false
+ },
+ {
+  "text": "Jamestown",
+  "start": 12.307,
+  "end": 12.987,
+  "display": "Jamestown",
+  "break": false
+ },
+ {
+  "text": "arrived",
+  "start": 12.999,
+  "end": 13.448,
+  "display": "arrived.",
+  "break": true
+ }
+]

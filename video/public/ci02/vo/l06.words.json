@@ -1,0 +1,114 @@
+[
+ {
+  "text": "Then",
+  "start": 0.1,
+  "end": 0.367,
+  "display": "Then",
+  "break": false
+ },
+ {
+  "text": "White",
+  "start": 0.379,
+  "end": 0.622,
+  "display": "White",
+  "break": false
+ },
+ {
+  "text": "sailed",
+  "start": 0.634,
+  "end": 0.95,
+  "display": "sailed",
+  "break": false
+ },
+ {
+  "text": "back",
+  "start": 0.962,
+  "end": 1.192,
+  "display": "back",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 1.204,
+  "end": 1.289,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "England",
+  "start": 1.301,
+  "end": 1.702,
+  "display": "England",
+  "break": false
+ },
+ {
+  "text": "for",
+  "start": 1.714,
+  "end": 1.872,
+  "display": "for",
+  "break": false
+ },
+ {
+  "text": "supplies",
+  "start": 1.884,
+  "end": 2.515,
+  "display": "supplies.",
+  "break": true
+ },
+ {
+  "text": "He",
+  "start": 2.866,
+  "end": 3.035,
+  "display": "He",
+  "break": false
+ },
+ {
+  "text": "planned",
+  "start": 3.048,
+  "end": 3.315,
+  "display": "planned",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 3.327,
+  "end": 3.375,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "be",
+  "start": 3.387,
+  "end": 3.484,
+  "display": "be",
+  "break": false
+ },
+ {
+  "text": "gone",
+  "start": 3.497,
+  "end": 3.691,
+  "display": "gone",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 3.703,
+  "end": 3.751,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "few",
+  "start": 3.764,
+  "end": 3.946,
+  "display": "few",
+  "break": false
+ },
+ {
+  "text": "months",
+  "start": 3.958,
+  "end": 4.37,
+  "display": "months.",
+  "break": true
+ }
+]

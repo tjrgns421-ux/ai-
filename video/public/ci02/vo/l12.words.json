@@ -1,0 +1,184 @@
+[
+ {
+  "text": "The",
+  "start": 0.1,
+  "end": 0.246,
+  "display": "The",
+  "break": false
+ },
+ {
+  "text": "houses",
+  "start": 0.258,
+  "end": 0.646,
+  "display": "houses",
+  "break": false
+ },
+ {
+  "text": "had",
+  "start": 0.658,
+  "end": 0.792,
+  "display": "had",
+  "break": false
+ },
+ {
+  "text": "been",
+  "start": 0.804,
+  "end": 0.925,
+  "display": "been",
+  "break": false
+ },
+ {
+  "text": "taken",
+  "start": 0.937,
+  "end": 1.289,
+  "display": "taken",
+  "break": false
+ },
+ {
+  "text": "down",
+  "start": 1.301,
+  "end": 1.617,
+  "display": "down,",
+  "break": true
+ },
+ {
+  "text": "not",
+  "start": 1.75,
+  "end": 1.933,
+  "display": "not",
+  "break": false
+ },
+ {
+  "text": "burned",
+  "start": 1.945,
+  "end": 2.297,
+  "display": "burned.",
+  "break": true
+ },
+ {
+  "text": "A",
+  "start": 2.647,
+  "end": 2.817,
+  "display": "A",
+  "break": false
+ },
+ {
+  "text": "palisade",
+  "start": 2.829,
+  "end": 3.351,
+  "display": "palisade",
+  "break": false
+ },
+ {
+  "text": "had",
+  "start": 3.363,
+  "end": 3.509,
+  "display": "had",
+  "break": false
+ },
+ {
+  "text": "been",
+  "start": 3.521,
+  "end": 3.654,
+  "display": "been",
+  "break": false
+ },
+ {
+  "text": "built",
+  "start": 3.667,
+  "end": 3.958,
+  "display": "built.",
+  "break": true
+ },
+ {
+  "text": "Some",
+  "start": 4.31,
+  "end": 4.589,
+  "display": "Some",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 4.601,
+  "end": 4.698,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "White's",
+  "start": 4.71,
+  "end": 4.989,
+  "display": "White's",
+  "break": false
+ },
+ {
+  "text": "own",
+  "start": 5.001,
+  "end": 5.147,
+  "display": "own",
+  "break": false
+ },
+ {
+  "text": "chests",
+  "start": 5.159,
+  "end": 5.548,
+  "display": "chests",
+  "break": false
+ },
+ {
+  "text": "had",
+  "start": 5.56,
+  "end": 5.693,
+  "display": "had",
+  "break": false
+ },
+ {
+  "text": "been",
+  "start": 5.705,
+  "end": 5.839,
+  "display": "been",
+  "break": false
+ },
+ {
+  "text": "buried",
+  "start": 5.851,
+  "end": 6.251,
+  "display": "buried,",
+  "break": true
+ },
+ {
+  "text": "then",
+  "start": 6.349,
+  "end": 6.579,
+  "display": "then",
+  "break": false
+ },
+ {
+  "text": "dug",
+  "start": 6.591,
+  "end": 6.883,
+  "display": "dug",
+  "break": false
+ },
+ {
+  "text": "up",
+  "start": 6.895,
+  "end": 7.077,
+  "display": "up",
+  "break": false
+ },
+ {
+  "text": "and",
+  "start": 7.101,
+  "end": 7.21,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "scattered",
+  "start": 7.222,
+  "end": 7.683,
+  "display": "scattered.",
+  "break": true
+ }
+]

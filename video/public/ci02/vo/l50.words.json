@@ -1,0 +1,198 @@
+[
+ {
+  "text": "Three",
+  "start": 0.1,
+  "end": 0.476,
+  "display": "Three",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 0.683,
+  "end": 0.731,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "DNA",
+  "start": 0.743,
+  "end": 1.168,
+  "display": "DNA",
+  "break": false
+ },
+ {
+  "text": "link",
+  "start": 1.18,
+  "end": 1.483,
+  "display": "link",
+  "break": false
+ },
+ {
+  "text": "between",
+  "start": 1.496,
+  "end": 1.823,
+  "display": "between",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 1.835,
+  "end": 1.896,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "colonist's",
+  "start": 1.908,
+  "end": 2.527,
+  "display": "colonist's",
+  "break": false
+ },
+ {
+  "text": "family",
+  "start": 2.539,
+  "end": 2.916,
+  "display": "family",
+  "break": false
+ },
+ {
+  "text": "line",
+  "start": 2.928,
+  "end": 3.292,
+  "display": "line",
+  "break": false
+ },
+ {
+  "text": "and",
+  "start": 3.304,
+  "end": 3.401,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 3.413,
+  "end": 3.45,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "Native",
+  "start": 3.462,
+  "end": 3.789,
+  "display": "Native",
+  "break": false
+ },
+ {
+  "text": "descendant",
+  "start": 3.801,
+  "end": 4.311,
+  "display": "descendant",
+  "break": false
+ },
+ {
+  "text": "would",
+  "start": 4.323,
+  "end": 4.445,
+  "display": "would",
+  "break": false
+ },
+ {
+  "text": "make",
+  "start": 4.457,
+  "end": 4.687,
+  "display": "make",
+  "break": false
+ },
+ {
+  "text": "all",
+  "start": 4.76,
+  "end": 4.942,
+  "display": "all",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 4.954,
+  "end": 5.015,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "this",
+  "start": 5.027,
+  "end": 5.173,
+  "display": "this",
+  "break": false
+ },
+ {
+  "text": "obsolete",
+  "start": 5.197,
+  "end": 5.84,
+  "display": "obsolete",
+  "break": false
+ },
+ {
+  "text": "overnight",
+  "start": 5.889,
+  "end": 6.289,
+  "display": "overnight.",
+  "break": true
+ },
+ {
+  "text": "People",
+  "start": 6.64,
+  "end": 7.004,
+  "display": "People",
+  "break": false
+ },
+ {
+  "text": "are",
+  "start": 7.016,
+  "end": 7.101,
+  "display": "are",
+  "break": false
+ },
+ {
+  "text": "looking",
+  "start": 7.113,
+  "end": 7.417,
+  "display": "looking.",
+  "break": true
+ },
+ {
+  "text": "Nobody",
+  "start": 7.768,
+  "end": 8.181,
+  "display": "Nobody",
+  "break": false
+ },
+ {
+  "text": "has",
+  "start": 8.193,
+  "end": 8.315,
+  "display": "has",
+  "break": false
+ },
+ {
+  "text": "shown",
+  "start": 8.327,
+  "end": 8.618,
+  "display": "shown",
+  "break": false
+ },
+ {
+  "text": "one",
+  "start": 8.63,
+  "end": 8.824,
+  "display": "one",
+  "break": false
+ },
+ {
+  "text": "yet",
+  "start": 8.836,
+  "end": 9.043,
+  "display": "yet.",
+  "break": true
+ }
+]

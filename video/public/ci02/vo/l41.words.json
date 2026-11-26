@@ -1,0 +1,37 @@
+[
+ {
+  "text": "Joined",
+  "start": 0.1,
+  "end": 0.44,
+  "display": "Joined",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 0.452,
+  "end": 0.513,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "Croatoan",
+  "start": 0.525,
+  "end": 1.022,
+  "display": "Croatoan",
+  "break": false
+ },
+ {
+  "text": "thirty-seven",
+  "start": 1.168,
+  "end": 1.702,
+  "display": "thirty-seven",
+  "break": false
+ },
+ {
+  "text": "percent",
+  "start": 1.714,
+  "end": 2.115,
+  "display": "percent.",
+  "break": true
+ }
+]

@@ -52,6 +52,10 @@ import { Sn02Cover, Sn02Thumb } from "./sn02/Thumb";
 import { Bc01Short, BC01S_DURATION } from "./bc01/Short";
 import { Ci01Full, CI01_FRAMES } from "./ConfidenceInterval/ep01/Ep01";
 import { Ci01Thumb } from "./ConfidenceInterval/ep01/Thumb";
+import { Ci02Full, CI02_FRAMES } from "./ConfidenceInterval/ep02/Ep02";
+import { Ci02Short1, Ci02Short2, CI02S1_FRAMES, CI02S2_FRAMES } from "./ConfidenceInterval/ep02/Shorts";
+import { Ci02Thumb } from "./ConfidenceInterval/Thumb";
+import { Ci01Short1, Ci01Short2, CI01S1_FRAMES, CI01S2_FRAMES } from "./ConfidenceInterval/ep01/Shorts";
 import { MascotSheet } from "./mascot/Mascots";
 import { PromptMascot } from "./mascot/Prompt";
 
@@ -62,6 +66,12 @@ export const RemotionRoot: React.FC = () => {
     <>
       <Folder name="ConfidenceInterval">
         <Composition id="Ci01Full" component={Ci01Full} durationInFrames={CI01_FRAMES} fps={30} width={1920} height={1080} />
+        <Composition id="Ci01Short1" component={Ci01Short1} durationInFrames={CI01S1_FRAMES} fps={30} width={1080} height={1920} />
+        <Composition id="Ci01Short2" component={Ci01Short2} durationInFrames={CI01S2_FRAMES} fps={30} width={1080} height={1920} />
+        <Composition id="Ci02Full" component={Ci02Full} durationInFrames={CI02_FRAMES} fps={30} width={1920} height={1080} />
+        <Composition id="Ci02Short1" component={Ci02Short1} durationInFrames={CI02S1_FRAMES} fps={30} width={1080} height={1920} />
+        <Composition id="Ci02Short2" component={Ci02Short2} durationInFrames={CI02S2_FRAMES} fps={30} width={1080} height={1920} />
+        <Composition id="Ci02Thumb" component={Ci02Thumb} durationInFrames={1} fps={30} width={1280} height={720} />
         <Composition id="Ci01Thumb" component={Ci01Thumb} durationInFrames={1} fps={30} width={1280} height={720} />
       </Folder>
       <Folder name="Mascot">

@@ -1,0 +1,156 @@
+[
+ {
+  "text": "He",
+  "start": 0.1,
+  "end": 0.258,
+  "display": "He",
+  "break": false
+ },
+ {
+  "text": "was",
+  "start": 0.27,
+  "end": 0.391,
+  "display": "was",
+  "break": false
+ },
+ {
+  "text": "gone",
+  "start": 0.403,
+  "end": 0.67,
+  "display": "gone",
+  "break": false
+ },
+ {
+  "text": "three",
+  "start": 0.695,
+  "end": 0.95,
+  "display": "three",
+  "break": false
+ },
+ {
+  "text": "years",
+  "start": 0.962,
+  "end": 1.435,
+  "display": "years.",
+  "break": true
+ },
+ {
+  "text": "England",
+  "start": 1.785,
+  "end": 2.186,
+  "display": "England",
+  "break": false
+ },
+ {
+  "text": "was",
+  "start": 2.198,
+  "end": 2.368,
+  "display": "was",
+  "break": false
+ },
+ {
+  "text": "at",
+  "start": 2.38,
+  "end": 2.514,
+  "display": "at",
+  "break": false
+ },
+ {
+  "text": "war",
+  "start": 2.526,
+  "end": 2.732,
+  "display": "war",
+  "break": false
+ },
+ {
+  "text": "with",
+  "start": 2.744,
+  "end": 2.866,
+  "display": "with",
+  "break": false
+ },
+ {
+  "text": "Spain",
+  "start": 2.878,
+  "end": 3.302,
+  "display": "Spain,",
+  "break": true
+ },
+ {
+  "text": "the",
+  "start": 3.436,
+  "end": 3.582,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "Armada",
+  "start": 3.594,
+  "end": 4.031,
+  "display": "Armada",
+  "break": false
+ },
+ {
+  "text": "was",
+  "start": 4.043,
+  "end": 4.188,
+  "display": "was",
+  "break": false
+ },
+ {
+  "text": "coming",
+  "start": 4.2,
+  "end": 4.625,
+  "display": "coming,",
+  "break": true
+ },
+ {
+  "text": "and",
+  "start": 4.674,
+  "end": 4.832,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "every",
+  "start": 4.844,
+  "end": 5.05,
+  "display": "every",
+  "break": false
+ },
+ {
+  "text": "ship",
+  "start": 5.062,
+  "end": 5.305,
+  "display": "ship",
+  "break": false
+ },
+ {
+  "text": "was",
+  "start": 5.317,
+  "end": 5.45,
+  "display": "was",
+  "break": false
+ },
+ {
+  "text": "needed",
+  "start": 5.463,
+  "end": 5.766,
+  "display": "needed",
+  "break": false
+ },
+ {
+  "text": "at",
+  "start": 5.778,
+  "end": 5.863,
+  "display": "at",
+  "break": false
+ },
+ {
+  "text": "home",
+  "start": 5.875,
+  "end": 6.191,
+  "display": "home.",
+  "break": true
+ }
+]

@@ -1,0 +1,177 @@
+[
+ {
+  "text": "And",
+  "start": 0.1,
+  "end": 0.294,
+  "display": "And",
+  "break": false
+ },
+ {
+  "text": "notice",
+  "start": 0.306,
+  "end": 0.585,
+  "display": "notice",
+  "break": false
+ },
+ {
+  "text": "something",
+  "start": 0.598,
+  "end": 0.962,
+  "display": "something.",
+  "break": true
+ },
+ {
+  "text": "These",
+  "start": 1.312,
+  "end": 1.567,
+  "display": "These",
+  "break": false
+ },
+ {
+  "text": "options",
+  "start": 1.579,
+  "end": 2.016,
+  "display": "options",
+  "break": false
+ },
+ {
+  "text": "aren't",
+  "start": 2.028,
+  "end": 2.271,
+  "display": "aren't",
+  "break": false
+ },
+ {
+  "text": "exclusive",
+  "start": 2.283,
+  "end": 2.89,
+  "display": "exclusive.",
+  "break": true
+ },
+ {
+  "text": "A",
+  "start": 3.242,
+  "end": 3.4,
+  "display": "A",
+  "break": false
+ },
+ {
+  "text": "hundred",
+  "start": 3.412,
+  "end": 3.751,
+  "display": "hundred",
+  "break": false
+ },
+ {
+  "text": "and",
+  "start": 3.764,
+  "end": 3.873,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "fifteen",
+  "start": 3.885,
+  "end": 4.322,
+  "display": "fifteen",
+  "break": false
+ },
+ {
+  "text": "people",
+  "start": 4.334,
+  "end": 4.686,
+  "display": "people",
+  "break": false
+ },
+ {
+  "text": "could",
+  "start": 4.698,
+  "end": 4.844,
+  "display": "could",
+  "break": false
+ },
+ {
+  "text": "have",
+  "start": 4.856,
+  "end": 4.965,
+  "display": "have",
+  "break": false
+ },
+ {
+  "text": "split",
+  "start": 4.977,
+  "end": 5.268,
+  "display": "split",
+  "break": false
+ },
+ {
+  "text": "up",
+  "start": 5.281,
+  "end": 5.45,
+  "display": "up.",
+  "break": true
+ },
+ {
+  "text": "My",
+  "start": 5.802,
+  "end": 5.96,
+  "display": "My",
+  "break": false
+ },
+ {
+  "text": "numbers",
+  "start": 5.972,
+  "end": 6.336,
+  "display": "numbers",
+  "break": false
+ },
+ {
+  "text": "are",
+  "start": 6.349,
+  "end": 6.433,
+  "display": "are",
+  "break": false
+ },
+ {
+  "text": "about",
+  "start": 6.446,
+  "end": 6.664,
+  "display": "about",
+  "break": false
+ },
+ {
+  "text": "where",
+  "start": 6.676,
+  "end": 6.798,
+  "display": "where",
+  "break": false
+ },
+ {
+  "text": "most",
+  "start": 6.81,
+  "end": 7.089,
+  "display": "most",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 7.101,
+  "end": 7.149,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "them",
+  "start": 7.162,
+  "end": 7.271,
+  "display": "them",
+  "break": false
+ },
+ {
+  "text": "went",
+  "start": 7.283,
+  "end": 7.514,
+  "display": "went.",
+  "break": true
+ }
+]

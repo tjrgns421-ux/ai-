@@ -1,0 +1,261 @@
+[
+ {
+  "text": "For",
+  "start": 0.1,
+  "end": 0.282,
+  "display": "For",
+  "break": false
+ },
+ {
+  "text": "more",
+  "start": 0.294,
+  "end": 0.476,
+  "display": "more",
+  "break": false
+ },
+ {
+  "text": "than",
+  "start": 0.488,
+  "end": 0.598,
+  "display": "than",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 0.61,
+  "end": 0.67,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "decade",
+  "start": 0.683,
+  "end": 1.156,
+  "display": "decade,",
+  "break": true
+ },
+ {
+  "text": "archaeologist",
+  "start": 1.265,
+  "end": 2.005,
+  "display": "archaeologist",
+  "break": false
+ },
+ {
+  "text": "Mark",
+  "start": 2.017,
+  "end": 2.248,
+  "display": "Mark",
+  "break": false
+ },
+ {
+  "text": "Horton",
+  "start": 2.26,
+  "end": 2.758,
+  "display": "Horton",
+  "break": false
+ },
+ {
+  "text": "and",
+  "start": 2.77,
+  "end": 2.903,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "local",
+  "start": 2.916,
+  "end": 3.219,
+  "display": "local",
+  "break": false
+ },
+ {
+  "text": "researcher",
+  "start": 3.231,
+  "end": 3.741,
+  "display": "researcher",
+  "break": false
+ },
+ {
+  "text": "Scott",
+  "start": 3.753,
+  "end": 4.044,
+  "display": "Scott",
+  "break": false
+ },
+ {
+  "text": "Dawson",
+  "start": 4.056,
+  "end": 4.493,
+  "display": "Dawson",
+  "break": false
+ },
+ {
+  "text": "have",
+  "start": 4.505,
+  "end": 4.663,
+  "display": "have",
+  "break": false
+ },
+ {
+  "text": "been",
+  "start": 4.675,
+  "end": 4.809,
+  "display": "been",
+  "break": false
+ },
+ {
+  "text": "digging",
+  "start": 4.821,
+  "end": 5.1,
+  "display": "digging",
+  "break": false
+ },
+ {
+  "text": "there",
+  "start": 5.112,
+  "end": 5.355,
+  "display": "there.",
+  "break": true
+ },
+ {
+  "text": "They've",
+  "start": 5.705,
+  "end": 5.924,
+  "display": "They've",
+  "break": false
+ },
+ {
+  "text": "reported",
+  "start": 5.936,
+  "end": 6.373,
+  "display": "reported",
+  "break": false
+ },
+ {
+  "text": "English",
+  "start": 6.385,
+  "end": 6.761,
+  "display": "English",
+  "break": false
+ },
+ {
+  "text": "objects",
+  "start": 6.798,
+  "end": 7.344,
+  "display": "objects",
+  "break": false
+ },
+ {
+  "text": "mixed",
+  "start": 7.356,
+  "end": 7.623,
+  "display": "mixed",
+  "break": false
+ },
+ {
+  "text": "into",
+  "start": 7.635,
+  "end": 7.829,
+  "display": "into",
+  "break": false
+ },
+ {
+  "text": "Native",
+  "start": 7.841,
+  "end": 8.157,
+  "display": "Native",
+  "break": false
+ },
+ {
+  "text": "village",
+  "start": 8.169,
+  "end": 8.472,
+  "display": "village",
+  "break": false
+ },
+ {
+  "text": "layers",
+  "start": 8.484,
+  "end": 8.885,
+  "display": "layers",
+  "break": false
+ },
+ {
+  "text": "parts",
+  "start": 8.946,
+  "end": 9.249,
+  "display": "parts",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 9.261,
+  "end": 9.334,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "guns",
+  "start": 9.346,
+  "end": 9.747,
+  "display": "guns,",
+  "break": true
+ },
+ {
+  "text": "a",
+  "start": 9.832,
+  "end": 9.88,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "piece",
+  "start": 9.892,
+  "end": 10.147,
+  "display": "piece",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 10.159,
+  "end": 10.22,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 10.232,
+  "end": 10.281,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "sword",
+  "start": 10.293,
+  "end": 10.693,
+  "display": "sword,",
+  "break": true
+ },
+ {
+  "text": "a",
+  "start": 10.936,
+  "end": 10.96,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "writing",
+  "start": 10.972,
+  "end": 11.288,
+  "display": "writing",
+  "break": false
+ },
+ {
+  "text": "slate",
+  "start": 11.3,
+  "end": 11.616,
+  "display": "slate.",
+  "break": true
+ }
+]

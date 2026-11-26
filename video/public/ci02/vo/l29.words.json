@@ -1,0 +1,205 @@
+[
+ {
+  "text": "An",
+  "start": 0.1,
+  "end": 0.343,
+  "display": "An",
+  "break": false
+ },
+ {
+  "text": "archaeology",
+  "start": 0.355,
+  "end": 0.974,
+  "display": "archaeology",
+  "break": false
+ },
+ {
+  "text": "group",
+  "start": 0.986,
+  "end": 1.289,
+  "display": "group,",
+  "break": true
+ },
+ {
+  "text": "the",
+  "start": 1.326,
+  "end": 1.435,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "First",
+  "start": 1.447,
+  "end": 1.763,
+  "display": "First",
+  "break": false
+ },
+ {
+  "text": "Colony",
+  "start": 1.775,
+  "end": 2.151,
+  "display": "Colony",
+  "break": false
+ },
+ {
+  "text": "Foundation",
+  "start": 2.163,
+  "end": 2.843,
+  "display": "Foundation,",
+  "break": true
+ },
+ {
+  "text": "went",
+  "start": 2.928,
+  "end": 3.11,
+  "display": "went",
+  "break": false
+ },
+ {
+  "text": "digging",
+  "start": 3.122,
+  "end": 3.389,
+  "display": "digging",
+  "break": false
+ },
+ {
+  "text": "near",
+  "start": 3.401,
+  "end": 3.583,
+  "display": "near",
+  "break": false
+ },
+ {
+  "text": "that",
+  "start": 3.595,
+  "end": 3.765,
+  "display": "that",
+  "break": false
+ },
+ {
+  "text": "spot",
+  "start": 3.777,
+  "end": 4.165,
+  "display": "spot.",
+  "break": true
+ },
+ {
+  "text": "By 2015",
+  "start": 4.516,
+  "end": 5.9,
+  "display": "By 2015,",
+  "break": true
+ },
+ {
+  "text": "they",
+  "start": 5.948,
+  "end": 6.082,
+  "display": "they",
+  "break": false
+ },
+ {
+  "text": "had",
+  "start": 6.094,
+  "end": 6.251,
+  "display": "had",
+  "break": false
+ },
+ {
+  "text": "found",
+  "start": 6.264,
+  "end": 6.555,
+  "display": "found",
+  "break": false
+ },
+ {
+  "text": "English",
+  "start": 6.579,
+  "end": 6.943,
+  "display": "English",
+  "break": false
+ },
+ {
+  "text": "pottery",
+  "start": 6.955,
+  "end": 7.404,
+  "display": "pottery",
+  "break": false
+ },
+ {
+  "text": "from",
+  "start": 7.417,
+  "end": 7.623,
+  "display": "from",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 7.635,
+  "end": 7.744,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "right",
+  "start": 7.756,
+  "end": 7.999,
+  "display": "right",
+  "break": false
+ },
+ {
+  "text": "period",
+  "start": 8.011,
+  "end": 8.436,
+  "display": "period",
+  "break": false
+ },
+ {
+  "text": "at",
+  "start": 8.448,
+  "end": 8.557,
+  "display": "at",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 8.569,
+  "end": 8.618,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "place",
+  "start": 8.63,
+  "end": 8.958,
+  "display": "place",
+  "break": false
+ },
+ {
+  "text": "they",
+  "start": 8.97,
+  "end": 9.079,
+  "display": "they",
+  "break": false
+ },
+ {
+  "text": "call",
+  "start": 9.091,
+  "end": 9.346,
+  "display": "call",
+  "break": false
+ },
+ {
+  "text": "Site",
+  "start": 9.358,
+  "end": 9.649,
+  "display": "Site",
+  "break": false
+ },
+ {
+  "text": "X",
+  "start": 9.674,
+  "end": 9.977,
+  "display": "X.",
+  "break": true
+ }
+]

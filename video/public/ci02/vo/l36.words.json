@@ -1,0 +1,107 @@
+[
+ {
+  "text": "This",
+  "start": 0.1,
+  "end": 0.318,
+  "display": "This",
+  "break": false
+ },
+ {
+  "text": "is",
+  "start": 0.331,
+  "end": 0.403,
+  "display": "is",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 0.416,
+  "end": 0.5,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "biggest",
+  "start": 0.513,
+  "end": 0.865,
+  "display": "biggest",
+  "break": false
+ },
+ {
+  "text": "single",
+  "start": 0.877,
+  "end": 1.241,
+  "display": "single",
+  "break": false
+ },
+ {
+  "text": "move",
+  "start": 1.253,
+  "end": 1.532,
+  "display": "move",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 1.544,
+  "end": 1.617,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 1.629,
+  "end": 1.702,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "video",
+  "start": 1.714,
+  "end": 2.139,
+  "display": "video.",
+  "break": true
+ },
+ {
+  "text": "Croatoan",
+  "start": 2.489,
+  "end": 2.987,
+  "display": "Croatoan",
+  "break": false
+ },
+ {
+  "text": "goes",
+  "start": 2.999,
+  "end": 3.254,
+  "display": "goes",
+  "break": false
+ },
+ {
+  "text": "up",
+  "start": 3.266,
+  "end": 3.448,
+  "display": "up.",
+  "break": true
+ },
+ {
+  "text": "Died",
+  "start": 3.8,
+  "end": 4.055,
+  "display": "Died",
+  "break": false
+ },
+ {
+  "text": "comes",
+  "start": 4.067,
+  "end": 4.31,
+  "display": "comes",
+  "break": false
+ },
+ {
+  "text": "down",
+  "start": 4.322,
+  "end": 4.662,
+  "display": "down.",
+  "break": true
+ }
+]

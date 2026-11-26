@@ -1,0 +1,107 @@
+[
+ {
+  "text": "That's",
+  "start": 0.1,
+  "end": 0.367,
+  "display": "That's",
+  "break": false
+ },
+ {
+  "text": "real",
+  "start": 0.379,
+  "end": 0.573,
+  "display": "real",
+  "break": false
+ },
+ {
+  "text": "evidence",
+  "start": 0.585,
+  "end": 0.986,
+  "display": "evidence,",
+  "break": true
+ },
+ {
+  "text": "and",
+  "start": 1.01,
+  "end": 1.132,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 1.144,
+  "end": 1.229,
+  "display": "it",
+  "break": false
+ },
+ {
+  "text": "points",
+  "start": 1.241,
+  "end": 1.532,
+  "display": "points",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 1.544,
+  "end": 1.629,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "other",
+  "start": 1.641,
+  "end": 1.86,
+  "display": "other",
+  "break": false
+ },
+ {
+  "text": "way",
+  "start": 1.872,
+  "end": 2.078,
+  "display": "way.",
+  "break": true
+ },
+ {
+  "text": "Died",
+  "start": 2.429,
+  "end": 2.72,
+  "display": "Died",
+  "break": false
+ },
+ {
+  "text": "climbs",
+  "start": 2.732,
+  "end": 3.217,
+  "display": "climbs.",
+  "break": true
+ },
+ {
+  "text": "Both",
+  "start": 3.569,
+  "end": 3.849,
+  "display": "Both",
+  "break": false
+ },
+ {
+  "text": "survival",
+  "start": 3.861,
+  "end": 4.395,
+  "display": "survival",
+  "break": false
+ },
+ {
+  "text": "options",
+  "start": 4.407,
+  "end": 4.807,
+  "display": "options",
+  "break": false
+ },
+ {
+  "text": "drop",
+  "start": 4.819,
+  "end": 5.111,
+  "display": "drop.",
+  "break": true
+ }
+]

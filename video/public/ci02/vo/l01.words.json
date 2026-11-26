@@ -1,0 +1,177 @@
+[
+ {
+  "text": "Before",
+  "start": 0.1,
+  "end": 0.513,
+  "display": "Before",
+  "break": false
+ },
+ {
+  "text": "you",
+  "start": 0.525,
+  "end": 0.622,
+  "display": "you",
+  "break": false
+ },
+ {
+  "text": "believe",
+  "start": 0.634,
+  "end": 0.962,
+  "display": "believe",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 0.974,
+  "end": 1.047,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "Roanoke",
+  "start": 1.059,
+  "end": 1.52,
+  "display": "Roanoke",
+  "break": false
+ },
+ {
+  "text": "colonists",
+  "start": 1.532,
+  "end": 2.127,
+  "display": "colonists",
+  "break": false
+ },
+ {
+  "text": "simply",
+  "start": 2.139,
+  "end": 2.491,
+  "display": "simply",
+  "break": false
+ },
+ {
+  "text": "vanished",
+  "start": 2.503,
+  "end": 2.988,
+  "display": "vanished,",
+  "break": true
+ },
+ {
+  "text": "you",
+  "start": 3.049,
+  "end": 3.158,
+  "display": "you",
+  "break": false
+ },
+ {
+  "text": "should",
+  "start": 3.17,
+  "end": 3.365,
+  "display": "should",
+  "break": false
+ },
+ {
+  "text": "know",
+  "start": 3.377,
+  "end": 3.547,
+  "display": "know",
+  "break": false
+ },
+ {
+  "text": "what",
+  "start": 3.559,
+  "end": 3.729,
+  "display": "what",
+  "break": false
+ },
+ {
+  "text": "one",
+  "start": 3.741,
+  "end": 3.996,
+  "display": "one",
+  "break": false
+ },
+ {
+  "text": "carved",
+  "start": 4.008,
+  "end": 4.372,
+  "display": "carved",
+  "break": false
+ },
+ {
+  "text": "word",
+  "start": 4.384,
+  "end": 4.724,
+  "display": "word",
+  "break": false
+ },
+ {
+  "text": "and",
+  "start": 4.736,
+  "end": 5.015,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "one",
+  "start": 5.027,
+  "end": 5.246,
+  "display": "one",
+  "break": false
+ },
+ {
+  "text": "pile",
+  "start": 5.27,
+  "end": 5.646,
+  "display": "pile",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 5.658,
+  "end": 5.767,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "iron",
+  "start": 5.792,
+  "end": 6.132,
+  "display": "iron",
+  "break": false
+ },
+ {
+  "text": "flakes",
+  "start": 6.144,
+  "end": 6.496,
+  "display": "flakes",
+  "break": false
+ },
+ {
+  "text": "did",
+  "start": 6.508,
+  "end": 6.653,
+  "display": "did",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 6.666,
+  "end": 6.75,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "my",
+  "start": 6.763,
+  "end": 6.872,
+  "display": "my",
+  "break": false
+ },
+ {
+  "text": "number",
+  "start": 6.884,
+  "end": 7.309,
+  "display": "number.",
+  "break": true
+ }
+]

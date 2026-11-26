@@ -1,0 +1,674 @@
+[
+ {
+  "text": "In 1590",
+  "start": 0.1,
+  "end": 1.083,
+  "display": "In 1590,",
+  "break": true
+ },
+ {
+  "text": "a",
+  "start": 1.119,
+  "end": 1.192,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "governor",
+  "start": 1.204,
+  "end": 1.629,
+  "display": "governor",
+  "break": false
+ },
+ {
+  "text": "came",
+  "start": 1.641,
+  "end": 1.896,
+  "display": "came",
+  "break": false
+ },
+ {
+  "text": "back",
+  "start": 1.908,
+  "end": 2.175,
+  "display": "back",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 2.187,
+  "end": 2.272,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "his",
+  "start": 2.284,
+  "end": 2.43,
+  "display": "his",
+  "break": false
+ },
+ {
+  "text": "colony",
+  "start": 2.442,
+  "end": 2.952,
+  "display": "colony",
+  "break": false
+ },
+ {
+  "text": "and",
+  "start": 2.964,
+  "end": 3.098,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "found",
+  "start": 3.11,
+  "end": 3.401,
+  "display": "found",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 3.413,
+  "end": 3.498,
+  "display": "it",
+  "break": false
+ },
+ {
+  "text": "empty",
+  "start": 3.51,
+  "end": 3.85,
+  "display": "empty.",
+  "break": true
+ },
+ {
+  "text": "Just",
+  "start": 4.2,
+  "end": 4.504,
+  "display": "Just",
+  "break": false
+ },
+ {
+  "text": "one",
+  "start": 4.516,
+  "end": 4.71,
+  "display": "one",
+  "break": false
+ },
+ {
+  "text": "word",
+  "start": 4.722,
+  "end": 5.038,
+  "display": "word,",
+  "break": true
+ },
+ {
+  "text": "carved",
+  "start": 5.099,
+  "end": 5.402,
+  "display": "carved",
+  "break": false
+ },
+ {
+  "text": "into",
+  "start": 5.414,
+  "end": 5.633,
+  "display": "into",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 5.645,
+  "end": 5.705,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "post",
+  "start": 5.717,
+  "end": 6.154,
+  "display": "post",
+  "break": false
+ },
+ {
+  "text": "CROATOAN",
+  "start": 6.227,
+  "end": 6.773,
+  "display": "CROATOAN.",
+  "break": true
+ },
+ {
+  "text": "Before",
+  "start": 7.125,
+  "end": 7.489,
+  "display": "Before",
+  "break": false
+ },
+ {
+  "text": "he",
+  "start": 7.501,
+  "end": 7.574,
+  "display": "he",
+  "break": false
+ },
+ {
+  "text": "left",
+  "start": 7.586,
+  "end": 7.963,
+  "display": "left,",
+  "break": true
+ },
+ {
+  "text": "they",
+  "start": 8.035,
+  "end": 8.169,
+  "display": "they",
+  "break": false
+ },
+ {
+  "text": "had",
+  "start": 8.181,
+  "end": 8.327,
+  "display": "had",
+  "break": false
+ },
+ {
+  "text": "agreed",
+  "start": 8.339,
+  "end": 8.788,
+  "display": "agreed",
+  "break": false
+ },
+ {
+  "text": "on",
+  "start": 8.8,
+  "end": 8.921,
+  "display": "on",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 8.934,
+  "end": 8.97,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "signal",
+  "start": 8.982,
+  "end": 9.383,
+  "display": "signal.",
+  "break": true
+ },
+ {
+  "text": "If",
+  "start": 9.734,
+  "end": 9.929,
+  "display": "If",
+  "break": false
+ },
+ {
+  "text": "they",
+  "start": 9.941,
+  "end": 10.026,
+  "display": "they",
+  "break": false
+ },
+ {
+  "text": "moved",
+  "start": 10.038,
+  "end": 10.39,
+  "display": "moved,",
+  "break": true
+ },
+ {
+  "text": "carve",
+  "start": 10.414,
+  "end": 10.657,
+  "display": "carve",
+  "break": false
+ },
+ {
+  "text": "where",
+  "start": 10.669,
+  "end": 10.96,
+  "display": "where.",
+  "break": true
+ },
+ {
+  "text": "If",
+  "start": 11.312,
+  "end": 11.506,
+  "display": "If",
+  "break": false
+ },
+ {
+  "text": "they",
+  "start": 11.518,
+  "end": 11.616,
+  "display": "they",
+  "break": false
+ },
+ {
+  "text": "were",
+  "start": 11.628,
+  "end": 11.761,
+  "display": "were",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 11.773,
+  "end": 11.87,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "danger",
+  "start": 11.883,
+  "end": 12.368,
+  "display": "danger,",
+  "break": true
+ },
+ {
+  "text": "add",
+  "start": 12.441,
+  "end": 12.514,
+  "display": "add",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 12.526,
+  "end": 12.574,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "cross",
+  "start": 12.586,
+  "end": 13.12,
+  "display": "cross.",
+  "break": true
+ },
+ {
+  "text": "There",
+  "start": 13.472,
+  "end": 13.666,
+  "display": "There",
+  "break": false
+ },
+ {
+  "text": "was",
+  "start": 13.679,
+  "end": 13.8,
+  "display": "was",
+  "break": false
+ },
+ {
+  "text": "no",
+  "start": 13.812,
+  "end": 13.97,
+  "display": "no",
+  "break": false
+ },
+ {
+  "text": "cross",
+  "start": 13.982,
+  "end": 14.516,
+  "display": "cross.",
+  "break": true
+ },
+ {
+  "text": "An",
+  "start": 14.868,
+  "end": 15.135,
+  "display": "An",
+  "break": false
+ },
+ {
+  "text": "orderly",
+  "start": 15.147,
+  "end": 15.511,
+  "display": "orderly",
+  "break": false
+ },
+ {
+  "text": "move",
+  "start": 15.523,
+  "end": 15.851,
+  "display": "move,",
+  "break": true
+ },
+ {
+  "text": "with",
+  "start": 15.899,
+  "end": 16.045,
+  "display": "with",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 16.057,
+  "end": 16.118,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "destination",
+  "start": 16.13,
+  "end": 16.785,
+  "display": "destination",
+  "break": false
+ },
+ {
+  "text": "written",
+  "start": 16.798,
+  "end": 16.992,
+  "display": "written",
+  "break": false
+ },
+ {
+  "text": "down",
+  "start": 17.004,
+  "end": 17.356,
+  "display": "down.",
+  "break": true
+ },
+ {
+  "text": "Croatoan",
+  "start": 17.708,
+  "end": 18.217,
+  "display": "Croatoan",
+  "break": false
+ },
+ {
+  "text": "was",
+  "start": 18.23,
+  "end": 18.387,
+  "display": "was",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 18.399,
+  "end": 18.497,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "island",
+  "start": 18.509,
+  "end": 18.885,
+  "display": "island",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 18.897,
+  "end": 18.994,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 19.006,
+  "end": 19.091,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "south",
+  "start": 19.103,
+  "end": 19.528,
+  "display": "south,",
+  "break": true
+ },
+ {
+  "text": "today's",
+  "start": 19.565,
+  "end": 19.917,
+  "display": "today's",
+  "break": false
+ },
+ {
+  "text": "Hatteras",
+  "start": 19.929,
+  "end": 20.475,
+  "display": "Hatteras.",
+  "break": true
+ },
+ {
+  "text": "He",
+  "start": 20.827,
+  "end": 20.984,
+  "display": "He",
+  "break": false
+ },
+ {
+  "text": "never",
+  "start": 20.997,
+  "end": 21.251,
+  "display": "never",
+  "break": false
+ },
+ {
+  "text": "made",
+  "start": 21.264,
+  "end": 21.446,
+  "display": "made",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 21.458,
+  "end": 21.518,
+  "display": "it",
+  "break": false
+ },
+ {
+  "text": "there",
+  "start": 21.531,
+  "end": 21.773,
+  "display": "there.",
+  "break": true
+ },
+ {
+  "text": "A",
+  "start": 22.125,
+  "end": 22.295,
+  "display": "A",
+  "break": false
+ },
+ {
+  "text": "storm",
+  "start": 22.307,
+  "end": 22.635,
+  "display": "storm",
+  "break": false
+ },
+ {
+  "text": "turned",
+  "start": 22.647,
+  "end": 22.914,
+  "display": "turned",
+  "break": false
+ },
+ {
+  "text": "his",
+  "start": 22.926,
+  "end": 23.035,
+  "display": "his",
+  "break": false
+ },
+ {
+  "text": "ships",
+  "start": 23.048,
+  "end": 23.327,
+  "display": "ships",
+  "break": false
+ },
+ {
+  "text": "back",
+  "start": 23.339,
+  "end": 23.569,
+  "display": "back",
+  "break": false
+ },
+ {
+  "text": "to",
+  "start": 23.606,
+  "end": 23.679,
+  "display": "to",
+  "break": false
+ },
+ {
+  "text": "England",
+  "start": 23.691,
+  "end": 24.116,
+  "display": "England.",
+  "break": true
+ },
+ {
+  "text": "I'm",
+  "start": 24.467,
+  "end": 24.674,
+  "display": "I'm",
+  "break": false
+ },
+ {
+  "text": "an",
+  "start": 24.686,
+  "end": 24.747,
+  "display": "an",
+  "break": false
+ },
+ {
+  "text": "AI",
+  "start": 24.759,
+  "end": 25.171,
+  "display": "AI,",
+  "break": true
+ },
+ {
+  "text": "and",
+  "start": 25.232,
+  "end": 25.353,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "that",
+  "start": 25.366,
+  "end": 25.499,
+  "display": "that",
+  "break": false
+ },
+ {
+  "text": "one",
+  "start": 25.511,
+  "end": 25.717,
+  "display": "one",
+  "break": false
+ },
+ {
+  "text": "word",
+  "start": 25.73,
+  "end": 25.985,
+  "display": "word",
+  "break": false
+ },
+ {
+  "text": "moved",
+  "start": 25.997,
+  "end": 26.227,
+  "display": "moved",
+  "break": false
+ },
+ {
+  "text": "my",
+  "start": 26.239,
+  "end": 26.336,
+  "display": "my",
+  "break": false
+ },
+ {
+  "text": "number",
+  "start": 26.349,
+  "end": 26.664,
+  "display": "number",
+  "break": false
+ },
+ {
+  "text": "more",
+  "start": 26.676,
+  "end": 26.895,
+  "display": "more",
+  "break": false
+ },
+ {
+  "text": "than",
+  "start": 26.907,
+  "end": 27.04,
+  "display": "than",
+  "break": false
+ },
+ {
+  "text": "almost",
+  "start": 27.052,
+  "end": 27.404,
+  "display": "almost",
+  "break": false
+ },
+ {
+  "text": "anything",
+  "start": 27.441,
+  "end": 27.768,
+  "display": "anything",
+  "break": false
+ },
+ {
+  "text": "else",
+  "start": 27.781,
+  "end": 28.096,
+  "display": "else.",
+  "break": true
+ },
+ {
+  "text": "Full",
+  "start": 28.448,
+  "end": 28.739,
+  "display": "Full",
+  "break": false
+ },
+ {
+  "text": "investigation",
+  "start": 28.751,
+  "end": 29.516,
+  "display": "investigation",
+  "break": false
+ },
+ {
+  "text": "on",
+  "start": 29.528,
+  "end": 29.625,
+  "display": "on",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 29.637,
+  "end": 29.698,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "channel",
+  "start": 29.71,
+  "end": 30.086,
+  "display": "channel.",
+  "break": true
+ }
+]

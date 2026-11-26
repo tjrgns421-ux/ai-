@@ -1,0 +1,149 @@
+[
+ {
+  "text": "Croatoan",
+  "start": 0.1,
+  "end": 0.598,
+  "display": "Croatoan",
+  "break": false
+ },
+ {
+  "text": "goes",
+  "start": 0.61,
+  "end": 0.865,
+  "display": "goes",
+  "break": false
+ },
+ {
+  "text": "up",
+  "start": 0.877,
+  "end": 1.059,
+  "display": "up.",
+  "break": true
+ },
+ {
+  "text": "Lost",
+  "start": 1.409,
+  "end": 1.81,
+  "display": "Lost",
+  "break": false
+ },
+ {
+  "text": "at",
+  "start": 1.822,
+  "end": 1.882,
+  "display": "at",
+  "break": false
+ },
+ {
+  "text": "sea",
+  "start": 1.895,
+  "end": 2.077,
+  "display": "sea",
+  "break": false
+ },
+ {
+  "text": "goes",
+  "start": 2.089,
+  "end": 2.368,
+  "display": "goes",
+  "break": false
+ },
+ {
+  "text": "down",
+  "start": 2.38,
+  "end": 2.732,
+  "display": "down,",
+  "break": true
+ },
+ {
+  "text": "because",
+  "start": 2.768,
+  "end": 3.048,
+  "display": "because",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 3.06,
+  "end": 3.12,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "group",
+  "start": 3.133,
+  "end": 3.46,
+  "display": "group",
+  "break": false
+ },
+ {
+  "text": "writing",
+  "start": 3.472,
+  "end": 3.812,
+  "display": "writing",
+  "break": false
+ },
+ {
+  "text": "down",
+  "start": 3.824,
+  "end": 4.067,
+  "display": "down",
+  "break": false
+ },
+ {
+  "text": "an",
+  "start": 4.079,
+  "end": 4.2,
+  "display": "an",
+  "break": false
+ },
+ {
+  "text": "address",
+  "start": 4.213,
+  "end": 4.649,
+  "display": "address",
+  "break": false
+ },
+ {
+  "text": "was",
+  "start": 4.662,
+  "end": 4.819,
+  "display": "was",
+  "break": false
+ },
+ {
+  "text": "not",
+  "start": 4.832,
+  "end": 5.086,
+  "display": "not",
+  "break": false
+ },
+ {
+  "text": "planning",
+  "start": 5.099,
+  "end": 5.475,
+  "display": "planning",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 5.487,
+  "end": 5.548,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "desperate",
+  "start": 5.56,
+  "end": 5.972,
+  "display": "desperate",
+  "break": false
+ },
+ {
+  "text": "voyage",
+  "start": 5.984,
+  "end": 6.409,
+  "display": "voyage.",
+  "break": true
+ }
+]

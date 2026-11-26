@@ -1,0 +1,247 @@
+[
+ {
+  "text": "In 1998",
+  "start": 0.1,
+  "end": 1.277,
+  "display": "In 1998,",
+  "break": true
+ },
+ {
+  "text": "a",
+  "start": 1.338,
+  "end": 1.399,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "team",
+  "start": 1.411,
+  "end": 1.641,
+  "display": "team",
+  "break": false
+ },
+ {
+  "text": "led",
+  "start": 1.653,
+  "end": 1.823,
+  "display": "led",
+  "break": false
+ },
+ {
+  "text": "by",
+  "start": 1.835,
+  "end": 1.969,
+  "display": "by",
+  "break": false
+ },
+ {
+  "text": "David",
+  "start": 1.981,
+  "end": 2.357,
+  "display": "David",
+  "break": false
+ },
+ {
+  "text": "Stahle",
+  "start": 2.369,
+  "end": 2.831,
+  "display": "Stahle",
+  "break": false
+ },
+ {
+  "text": "published",
+  "start": 2.843,
+  "end": 3.316,
+  "display": "published",
+  "break": false
+ },
+ {
+  "text": "a",
+  "start": 3.34,
+  "end": 3.377,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "study",
+  "start": 3.389,
+  "end": 3.814,
+  "display": "study",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 3.826,
+  "end": 3.947,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 3.959,
+  "end": 4.044,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "journal",
+  "start": 4.056,
+  "end": 4.36,
+  "display": "journal",
+  "break": false
+ },
+ {
+  "text": "Science",
+  "start": 4.372,
+  "end": 4.894,
+  "display": "Science.",
+  "break": true
+ },
+ {
+  "text": "They",
+  "start": 5.244,
+  "end": 5.414,
+  "display": "They",
+  "break": false
+ },
+ {
+  "text": "measured",
+  "start": 5.426,
+  "end": 5.875,
+  "display": "measured",
+  "break": false
+ },
+ {
+  "text": "growth",
+  "start": 5.887,
+  "end": 6.239,
+  "display": "growth",
+  "break": false
+ },
+ {
+  "text": "rings",
+  "start": 6.251,
+  "end": 6.494,
+  "display": "rings",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 6.506,
+  "end": 6.749,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "ancient",
+  "start": 6.785,
+  "end": 7.162,
+  "display": "ancient",
+  "break": false
+ },
+ {
+  "text": "bald",
+  "start": 7.174,
+  "end": 7.477,
+  "display": "bald",
+  "break": false
+ },
+ {
+  "text": "cypress",
+  "start": 7.489,
+  "end": 7.938,
+  "display": "cypress",
+  "break": false
+ },
+ {
+  "text": "trees",
+  "start": 7.95,
+  "end": 8.302,
+  "display": "trees",
+  "break": false
+ },
+ {
+  "text": "in",
+  "start": 8.315,
+  "end": 8.46,
+  "display": "in",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 8.472,
+  "end": 8.545,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "region",
+  "start": 8.557,
+  "end": 8.97,
+  "display": "region,",
+  "break": true
+ },
+ {
+  "text": "a",
+  "start": 9.055,
+  "end": 9.079,
+  "display": "a",
+  "break": false
+ },
+ {
+  "text": "record",
+  "start": 9.091,
+  "end": 9.419,
+  "display": "record",
+  "break": false
+ },
+ {
+  "text": "of",
+  "start": 9.431,
+  "end": 9.504,
+  "display": "of",
+  "break": false
+ },
+ {
+  "text": "rainfall",
+  "start": 9.516,
+  "end": 10.074,
+  "display": "rainfall",
+  "break": false
+ },
+ {
+  "text": "going",
+  "start": 10.086,
+  "end": 10.353,
+  "display": "going",
+  "break": false
+ },
+ {
+  "text": "back",
+  "start": 10.366,
+  "end": 10.705,
+  "display": "back",
+  "break": false
+ },
+ {
+  "text": "eight",
+  "start": 10.863,
+  "end": 11.021,
+  "display": "eight",
+  "break": false
+ },
+ {
+  "text": "hundred",
+  "start": 11.033,
+  "end": 11.361,
+  "display": "hundred",
+  "break": false
+ },
+ {
+  "text": "years",
+  "start": 11.373,
+  "end": 11.81,
+  "display": "years.",
+  "break": true
+ }
+]

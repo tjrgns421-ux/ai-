@@ -1,0 +1,254 @@
+[
+ {
+  "text": "If",
+  "start": 0.1,
+  "end": 0.294,
+  "display": "If",
+  "break": false
+ },
+ {
+  "text": "that's",
+  "start": 0.306,
+  "end": 0.5,
+  "display": "that's",
+  "break": false
+ },
+ {
+  "text": "true",
+  "start": 0.513,
+  "end": 0.84,
+  "display": "true,",
+  "break": true
+ },
+ {
+  "text": "at",
+  "start": 0.877,
+  "end": 1.022,
+  "display": "at",
+  "break": false
+ },
+ {
+  "text": "least",
+  "start": 1.034,
+  "end": 1.253,
+  "display": "least",
+  "break": false
+ },
+ {
+  "text": "some",
+  "start": 1.265,
+  "end": 1.374,
+  "display": "some",
+  "break": false
+ },
+ {
+  "text": "colonists",
+  "start": 1.386,
+  "end": 1.945,
+  "display": "colonists",
+  "break": false
+ },
+ {
+  "text": "survived",
+  "start": 1.957,
+  "end": 2.454,
+  "display": "survived",
+  "break": false
+ },
+ {
+  "text": "for",
+  "start": 2.466,
+  "end": 2.6,
+  "display": "for",
+  "break": false
+ },
+ {
+  "text": "twenty",
+  "start": 2.612,
+  "end": 2.903,
+  "display": "twenty",
+  "break": false
+ },
+ {
+  "text": "years",
+  "start": 2.916,
+  "end": 3.316,
+  "display": "years,",
+  "break": true
+ },
+ {
+  "text": "and",
+  "start": 3.34,
+  "end": 3.449,
+  "display": "and",
+  "break": false
+ },
+ {
+  "text": "then",
+  "start": 3.462,
+  "end": 3.632,
+  "display": "then",
+  "break": false
+ },
+ {
+  "text": "died",
+  "start": 3.644,
+  "end": 3.911,
+  "display": "died",
+  "break": false
+ },
+ {
+  "text": "violently",
+  "start": 3.923,
+  "end": 4.493,
+  "display": "violently.",
+  "break": true
+ },
+ {
+  "text": "But",
+  "start": 4.844,
+  "end": 5.038,
+  "display": "But",
+  "break": false
+ },
+ {
+  "text": "Strachey",
+  "start": 5.05,
+  "end": 5.414,
+  "display": "Strachey",
+  "break": false
+ },
+ {
+  "text": "didn't",
+  "start": 5.426,
+  "end": 5.62,
+  "display": "didn't",
+  "break": false
+ },
+ {
+  "text": "see",
+  "start": 5.633,
+  "end": 5.815,
+  "display": "see",
+  "break": false
+ },
+ {
+  "text": "it",
+  "start": 5.827,
+  "end": 5.948,
+  "display": "it.",
+  "break": true
+ },
+ {
+  "text": "He's",
+  "start": 6.3,
+  "end": 6.555,
+  "display": "He's",
+  "break": false
+ },
+ {
+  "text": "reporting",
+  "start": 6.567,
+  "end": 6.968,
+  "display": "reporting",
+  "break": false
+ },
+ {
+  "text": "what",
+  "start": 6.98,
+  "end": 7.101,
+  "display": "what",
+  "break": false
+ },
+ {
+  "text": "he",
+  "start": 7.113,
+  "end": 7.222,
+  "display": "he",
+  "break": false
+ },
+ {
+  "text": "was",
+  "start": 7.234,
+  "end": 7.38,
+  "display": "was",
+  "break": false
+ },
+ {
+  "text": "told",
+  "start": 7.392,
+  "end": 7.708,
+  "display": "told",
+  "break": false
+ },
+ {
+  "text": "about",
+  "start": 7.72,
+  "end": 7.938,
+  "display": "about",
+  "break": false
+ },
+ {
+  "text": "what",
+  "start": 7.95,
+  "end": 8.108,
+  "display": "what",
+  "break": false
+ },
+ {
+  "text": "Powhatan",
+  "start": 8.12,
+  "end": 8.569,
+  "display": "Powhatan",
+  "break": false
+ },
+ {
+  "text": "said",
+  "start": 8.582,
+  "end": 8.885,
+  "display": "said.",
+  "break": true
+ },
+ {
+  "text": "That's",
+  "start": 9.237,
+  "end": 9.516,
+  "display": "That's",
+  "break": false
+ },
+ {
+  "text": "two",
+  "start": 9.528,
+  "end": 9.686,
+  "display": "two",
+  "break": false
+ },
+ {
+  "text": "steps",
+  "start": 9.698,
+  "end": 10.001,
+  "display": "steps",
+  "break": false
+ },
+ {
+  "text": "from",
+  "start": 10.014,
+  "end": 10.159,
+  "display": "from",
+  "break": false
+ },
+ {
+  "text": "the",
+  "start": 10.171,
+  "end": 10.232,
+  "display": "the",
+  "break": false
+ },
+ {
+  "text": "event",
+  "start": 10.244,
+  "end": 10.56,
+  "display": "event.",
+  "break": true
+ }
+]

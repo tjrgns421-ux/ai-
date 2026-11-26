@@ -1,0 +1,30 @@
+[
+ {
+  "text": "Lost",
+  "start": 0.1,
+  "end": 0.525,
+  "display": "Lost",
+  "break": false
+ },
+ {
+  "text": "at",
+  "start": 0.537,
+  "end": 0.622,
+  "display": "at",
+  "break": false
+ },
+ {
+  "text": "sea",
+  "start": 0.634,
+  "end": 0.913,
+  "display": "sea",
+  "break": false
+ },
+ {
+  "text": "nine",
+  "start": 1.132,
+  "end": 1.471,
+  "display": "nine.",
+  "break": true
+ }
+]
