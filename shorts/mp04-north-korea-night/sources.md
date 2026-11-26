@@ -1,7 +1,7 @@
 # mp04 Is North Korea really dark at night? — 출처 (원문 대조, 2026-11-26)
 
 대본 점수(scriptscore.py --target 330-600 --wpm 189): 훅 72, 전체 84 STRONG, 약 1,080단어 ≈ 5:45.
-제목 후보: `Is North Korea Really Dark at Night? 1 City, Checked` + 썸네일 `PYONGYANG GLOWS?` (98점) — 대본 확정 후 다시 확인.
+제목 추천: `North Korea at Night: What Changed After 2022?` + 썸네일 `PYONGYANG GLOWS` (100점, 자동완성 "north korea at night"). 이전 안 `Is North Korea Really Dark at Night? 1 City, Checked` + `PYONGYANG GLOWS?` 98점. 측정 코드 `research/nk_night_lights.py`.
 
 | 대본 속 주장 | 출처 | 상태 |
 |---|---|---|
