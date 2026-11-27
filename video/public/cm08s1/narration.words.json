@@ -1,0 +1,357 @@
+[
+ {
+  "text": "You'd",
+  "start": 0.05,
+  "end": 0.175
+ },
+ {
+  "text": "never",
+  "start": 0.175,
+  "end": 0.45
+ },
+ {
+  "text": "expect",
+  "start": 0.45,
+  "end": 0.862
+ },
+ {
+  "text": "a",
+  "start": 0.862,
+  "end": 0.925
+ },
+ {
+  "text": "golden",
+  "start": 1.045,
+  "end": 1.483
+ },
+ {
+  "text": "orb",
+  "start": 1.558,
+  "end": 1.92
+ },
+ {
+  "text": "on",
+  "start": 1.92,
+  "end": 1.995
+ },
+ {
+  "text": "the",
+  "start": 2.007,
+  "end": 2.057
+ },
+ {
+  "text": "seafloor",
+  "start": 2.057,
+  "end": 2.733
+ },
+ {
+  "text": "But",
+  "start": 2.903,
+  "end": 2.991
+ },
+ {
+  "text": "in 2023",
+  "start": 3.003,
+  "end": 4.078
+ },
+ {
+  "text": "NOAA",
+  "start": 4.198,
+  "end": 4.536
+ },
+ {
+  "text": "found",
+  "start": 4.536,
+  "end": 4.973
+ },
+ {
+  "text": "one",
+  "start": 4.973,
+  "end": 5.448
+ },
+ {
+  "text": "two",
+  "start": 5.568,
+  "end": 5.78
+ },
+ {
+  "text": "miles",
+  "start": 5.78,
+  "end": 6.168
+ },
+ {
+  "text": "deep",
+  "start": 6.18,
+  "end": 6.58
+ },
+ {
+  "text": "What",
+  "start": 6.7,
+  "end": 6.775
+ },
+ {
+  "text": "was",
+  "start": 6.775,
+  "end": 6.912
+ },
+ {
+  "text": "it",
+  "start": 6.912,
+  "end": 7.025
+ },
+ {
+  "text": "actually",
+  "start": 7.037,
+  "end": 7.475
+ },
+ {
+  "text": "Scientists",
+  "start": 7.645,
+  "end": 8.233
+ },
+ {
+  "text": "guessed",
+  "start": 8.233,
+  "end": 8.533
+ },
+ {
+  "text": "a",
+  "start": 8.533,
+  "end": 8.57
+ },
+ {
+  "text": "sponge",
+  "start": 8.57,
+  "end": 9.257
+ },
+ {
+  "text": "a",
+  "start": 9.377,
+  "end": 9.452
+ },
+ {
+  "text": "coral",
+  "start": 9.452,
+  "end": 10.002
+ },
+ {
+  "text": "even",
+  "start": 10.122,
+  "end": 10.284
+ },
+ {
+  "text": "an",
+  "start": 10.284,
+  "end": 10.372
+ },
+ {
+  "text": "egg",
+  "start": 10.372,
+  "end": 10.522
+ },
+ {
+  "text": "case",
+  "start": 10.534,
+  "end": 11.122
+ },
+ {
+  "text": "On",
+  "start": 11.242,
+  "end": 11.341
+ },
+ {
+  "text": "the",
+  "start": 11.354,
+  "end": 11.404
+ },
+ {
+  "text": "ship",
+  "start": 11.416,
+  "end": 11.817
+ },
+ {
+  "text": "they",
+  "start": 11.937,
+  "end": 12.05
+ },
+ {
+  "text": "could",
+  "start": 12.05,
+  "end": 12.175
+ },
+ {
+  "text": "only",
+  "start": 12.187,
+  "end": 12.425
+ },
+ {
+  "text": "say",
+  "start": 12.425,
+  "end": 12.787
+ },
+ {
+  "text": "it",
+  "start": 12.787,
+  "end": 12.85
+ },
+ {
+  "text": "was",
+  "start": 12.862,
+  "end": 12.975
+ },
+ {
+  "text": "biological",
+  "start": 12.987,
+  "end": 13.888
+ },
+ {
+  "text": "In 2026",
+  "start": 14.058,
+  "end": 15.233
+ },
+ {
+  "text": "lab",
+  "start": 15.353,
+  "end": 15.741
+ },
+ {
+  "text": "tests",
+  "start": 15.754,
+  "end": 16.166
+ },
+ {
+  "text": "and",
+  "start": 16.179,
+  "end": 16.329
+ },
+ {
+  "text": "DNA",
+  "start": 16.329,
+  "end": 16.941
+ },
+ {
+  "text": "gave",
+  "start": 17.061,
+  "end": 17.324
+ },
+ {
+  "text": "the",
+  "start": 17.324,
+  "end": 17.424
+ },
+ {
+  "text": "answer",
+  "start": 17.424,
+  "end": 17.874
+ },
+ {
+  "text": "part",
+  "start": 17.994,
+  "end": 18.182
+ },
+ {
+  "text": "of",
+  "start": 18.182,
+  "end": 18.231
+ },
+ {
+  "text": "the",
+  "start": 18.244,
+  "end": 18.319
+ },
+ {
+  "text": "base",
+  "start": 18.331,
+  "end": 18.744
+ },
+ {
+  "text": "of",
+  "start": 18.744,
+  "end": 18.807
+ },
+ {
+  "text": "a",
+  "start": 18.807,
+  "end": 18.882
+ },
+ {
+  "text": "giant",
+  "start": 18.882,
+  "end": 19.432
+ },
+ {
+  "text": "deep-sea",
+  "start": 19.444,
+  "end": 20.019
+ },
+ {
+  "text": "anemone",
+  "start": 20.139,
+  "end": 20.601
+ },
+ {
+  "text": "Not",
+  "start": 20.771,
+  "end": 20.946
+ },
+ {
+  "text": "an",
+  "start": 20.946,
+  "end": 21.046
+ },
+ {
+  "text": "egg",
+  "start": 21.046,
+  "end": 21.321
+ },
+ {
+  "text": "Solved",
+  "start": 21.441,
+  "end": 21.941
+ },
+ {
+  "text": "Five",
+  "start": 22.111,
+  "end": 22.348
+ },
+ {
+  "text": "more",
+  "start": 22.36,
+  "end": 22.585
+ },
+ {
+  "text": "deep",
+  "start": 22.698,
+  "end": 22.923
+ },
+ {
+  "text": "sea",
+  "start": 22.923,
+  "end": 23.123
+ },
+ {
+  "text": "mysteries",
+  "start": 23.123,
+  "end": 23.773
+ },
+ {
+  "text": "are",
+  "start": 23.893,
+  "end": 24.03
+ },
+ {
+  "text": "on",
+  "start": 24.043,
+  "end": 24.118
+ },
+ {
+  "text": "the",
+  "start": 24.118,
+  "end": 24.168
+ },
+ {
+  "text": "channel",
+  "start": 24.168,
+  "end": 24.606
+ }
+]

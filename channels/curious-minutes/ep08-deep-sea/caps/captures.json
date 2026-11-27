@@ -1,0 +1,161 @@
+{
+ "orb-yellow": {
+  "w": 1460,
+  "h": 107,
+  "source": "NOAA Ocean Exploration (2023)",
+  "marks": {
+   "a “yellow hat.”": [
+    {
+     "x": 1101,
+     "y": 55,
+     "w": 209,
+     "h": 48
+    }
+   ]
+  }
+ },
+ "orb-bio": {
+  "w": 1445,
+  "h": 148,
+  "source": "NOAA Ocean Exploration (2023)",
+  "marks": {
+   "biological in origin": [
+    {
+     "x": 40,
+     "y": 100,
+     "w": 247,
+     "h": 44
+    }
+   ]
+  }
+ },
+ "orb-anemone": {
+  "w": 1457,
+  "h": 100,
+  "source": "NOAA Ocean Exploration (2026)",
+  "marks": {
+   "base of a giant deep-sea anemone": [
+    {
+     "x": 12,
+     "y": 52,
+     "w": 455,
+     "h": 44
+    }
+   ]
+  }
+ },
+ "holes-human": {
+  "w": 1450,
+  "h": 107,
+  "source": "NOAA Ocean Exploration (2022)",
+  "marks": {
+   "look almost human made": [
+    {
+     "x": 238,
+     "y": 4,
+     "w": 366,
+     "h": 48
+    }
+   ]
+  }
+ },
+ "holes-noclue": {
+  "w": 1301,
+  "h": 87,
+  "source": "NOAA Ocean Exploration (2022)",
+  "marks": {
+   "revealed no clues": [
+    {
+     "x": 527,
+     "y": 43,
+     "w": 203,
+     "h": 40
+    }
+   ]
+  }
+ },
+ "squid-kraken": {
+  "w": 981,
+  "h": 198,
+  "source": "Wikipedia",
+  "marks": {
+   "Norse legend of the kraken": [
+    {
+     "x": 569,
+     "y": 56,
+     "w": 85,
+     "h": 34
+    },
+    {
+     "x": 654,
+     "y": 56,
+     "w": 194,
+     "h": 34
+    },
+    {
+     "x": 12,
+     "y": 108,
+     "w": 96,
+     "h": 34
+    },
+    {
+     "x": 12,
+     "y": 108,
+     "w": 96,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "dark-thermo": {
+  "w": 1383,
+  "h": 228,
+  "source": "Live Science",
+  "marks": {
+   "fundamentally at odds with thermodynamics": [
+    {
+     "x": 255,
+     "y": 124,
+     "w": 700,
+     "h": 40
+    }
+   ]
+  }
+ },
+ "dark-evidence": {
+  "w": 1399,
+  "h": 228,
+  "source": "Live Science",
+  "marks": {
+   "more than enough evidence": [
+    {
+     "x": 807,
+     "y": 4,
+     "w": 446,
+     "h": 40
+    }
+   ]
+  }
+ },
+ "giant-why": {
+  "w": 690,
+  "h": 302,
+  "source": "Wikipedia",
+  "marks": {
+   "colder temperature, food scarcity, reduced predation pressure": [
+    {
+     "x": 206,
+     "y": 108,
+     "w": 473,
+     "h": 34
+    },
+    {
+     "x": 12,
+     "y": 160,
+     "w": 391,
+     "h": 34
+    }
+   ]
+  }
+ }
+}
