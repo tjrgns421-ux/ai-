@@ -1,0 +1,811 @@
+1
+00:00:00,050 --> 00:00:02,883
+You'd never expect a golden orb on the seafloor.
+
+2
+00:00:02,903 --> 00:00:05,760
+But in 2023, NOAA found one, two
+
+3
+00:00:05,780 --> 00:00:07,625
+miles deep. What was it, actually?
+
+4
+00:00:07,645 --> 00:00:09,325
+That's the first of six strange
+
+5
+00:00:09,345 --> 00:00:11,195
+things found in the deep sea.
+
+6
+00:00:11,215 --> 00:00:12,377
+For each one, we'll look at what
+
+7
+00:00:12,397 --> 00:00:14,134
+was actually found, and give an honest
+
+8
+00:00:14,154 --> 00:00:17,364
+verdict: solved, best guess, or still unknown.
+
+9
+00:00:17,384 --> 00:00:18,980
+Number one: the golden orb.
+
+10
+00:00:19,000 --> 00:00:22,796
+On the thirtieth of August, 2023, NOAA's ship Okeanos
+
+11
+00:00:22,816 --> 00:00:25,716
+Explorer was exploring a small underwater mountain in the
+
+12
+00:00:25,736 --> 00:00:29,005
+Gulf of Alaska, using a remotely operated robot.
+
+13
+00:00:29,025 --> 00:00:33,138
+About 3,300 meters down, on a rocky ledge among
+
+14
+00:00:33,158 --> 00:00:36,840
+white sponges, the cameras found something nobody expected.
+
+15
+00:00:36,860 --> 00:00:40,043
+A smooth, gold, dome-shaped object, a little over
+
+16
+00:00:40,063 --> 00:00:43,408
+10 centimeters across, stuck tightly to the rock.
+
+17
+00:00:43,428 --> 00:00:45,390
+It had a small hole near its base,
+
+18
+00:00:45,410 --> 00:00:48,048
+and the inside was the same golden color.
+
+19
+00:00:48,068 --> 00:00:49,910
+One videographer on board first
+
+20
+00:00:49,930 --> 00:00:51,156
+called it a yellow hat.
+
+21
+00:00:51,176 --> 00:00:53,502
+Scientists watching live were stumped. Was it
+
+22
+00:00:53,522 --> 00:00:55,950
+a dead sponge? Coral? An egg case?
+
+23
+00:00:55,970 --> 00:00:57,312
+The internet called it the golden
+
+24
+00:00:57,332 --> 00:00:58,989
+orb, or even the golden egg.
+
+25
+00:00:59,009 --> 00:01:00,701
+The robot sucked it up with a sampling
+
+26
+00:01:00,721 --> 00:01:02,555
+tube and brought it to the ship. But
+
+27
+00:01:02,575 --> 00:01:04,925
+even there, the team could only say one
+
+28
+00:01:04,945 --> 00:01:07,278
+thing for sure: it was biological.
+
+29
+00:01:07,298 --> 00:01:10,460
+The expedition coordinator said: it serves as a reminder
+
+30
+00:01:10,480 --> 00:01:12,956
+of how little we know about our own planet.
+
+31
+00:01:12,976 --> 00:01:15,156
+The orb was sent to NOAA Fisheries'
+
+32
+00:01:15,176 --> 00:01:18,677
+National Systematics Laboratory, at the Smithsonian's National
+
+33
+00:01:18,697 --> 00:01:21,066
+Museum of Natural History in Washington.
+
+34
+00:01:21,086 --> 00:01:22,954
+Scientists looked at its cells under
+
+35
+00:01:22,974 --> 00:01:25,219
+the microscope, and read its DNA.
+
+36
+00:01:25,239 --> 00:01:28,658
+They found special stinging cells called spirocysts,
+
+37
+00:01:28,678 --> 00:01:30,928
+which only one group of animals has.
+
+38
+00:01:30,948 --> 00:01:32,611
+And the DNA was almost
+
+39
+00:01:32,631 --> 00:01:34,926
+identical to a known species.
+
+40
+00:01:34,946 --> 00:01:37,046
+That species had been seen alive before.
+
+41
+00:01:37,066 --> 00:01:40,699
+In 2016, an Okeanos Explorer expedition near
+
+42
+00:01:40,719 --> 00:01:43,770
+the Mariana Islands photographed a live one.
+
+43
+00:01:43,790 --> 00:01:46,453
+And in April 2026, about two and a half
+
+44
+00:01:46,473 --> 00:01:49,605
+years after it was found, NOAA announced the answer.
+
+45
+00:01:49,625 --> 00:01:51,293
+The orb was once part of the base of
+
+46
+00:01:51,313 --> 00:01:55,733
+a giant deep-sea anemone, a species called Relicanthus daphneae.
+
+47
+00:01:55,753 --> 00:01:58,398
+The part that holds the animal to the rock.
+
+48
+00:01:58,418 --> 00:01:59,964
+Not an egg. Not an alien. Just
+
+49
+00:01:59,984 --> 00:02:02,234
+the leftover foot of a sea anemone.
+
+50
+00:02:02,254 --> 00:02:05,132
+Verdict: solved. It was part of a deep-sea anemone.
+
+51
+00:02:05,152 --> 00:02:07,222
+Number two: the holes in the seafloor.
+
+52
+00:02:07,242 --> 00:02:10,763
+In 2022, NOAA explored the Mid-Atlantic Ridge,
+
+53
+00:02:10,783 --> 00:02:13,445
+a huge underwater mountain range running down
+
+54
+00:02:13,465 --> 00:02:15,127
+the middle of the Atlantic Ocean.
+
+55
+00:02:15,147 --> 00:02:18,199
+On three separate dives, the robot's cameras
+
+56
+00:02:18,219 --> 00:02:20,518
+showed something strange in the sediment.
+
+57
+00:02:20,538 --> 00:02:23,258
+Lines of holes. Dozens of them, in fairly
+
+58
+00:02:23,278 --> 00:02:27,592
+straight rows, across an otherwise flat, sandy seafloor.
+
+59
+00:02:27,612 --> 00:02:31,382
+The first set was about 2,540 meters deep.
+
+60
+00:02:31,402 --> 00:02:34,547
+NOAA's own words: the holes look almost human made.
+
+61
+00:02:34,567 --> 00:02:36,567
+But the little piles of sediment around
+
+62
+00:02:36,587 --> 00:02:38,899
+them suggest something dug them out.
+
+63
+00:02:38,919 --> 00:02:41,244
+These holes aren't new. Similar holes had been reported
+
+64
+00:02:41,264 --> 00:02:44,297
+from the region before, as far back as 2004.
+
+65
+00:02:44,317 --> 00:02:45,869
+No one has seen what makes them. The
+
+66
+00:02:45,889 --> 00:02:48,322
+robot couldn't peek inside or poke them. On
+
+67
+00:02:48,342 --> 00:02:50,378
+a later dive, it sucked up sediment from
+
+68
+00:02:50,398 --> 00:02:52,731
+fresher holes. It gave no clues.
+
+69
+00:02:52,751 --> 00:02:55,252
+Scientists who studied the earlier holes think
+
+70
+00:02:55,272 --> 00:02:57,171
+an animal may have dug them, either
+
+71
+00:02:57,191 --> 00:02:59,029
+living in the sediment, or feeding from
+
+72
+00:02:59,049 --> 00:03:01,482
+the surface. They call them life traces.
+
+73
+00:03:01,502 --> 00:03:03,052
+Is it an animal burrowing? Something
+
+74
+00:03:03,072 --> 00:03:05,867
+feeding as it moves? Nobody knows.
+
+75
+00:03:05,887 --> 00:03:08,478
+Verdict: still unknown. Something digs them.
+
+76
+00:03:08,498 --> 00:03:09,560
+We just haven't caught it.
+
+77
+00:03:09,580 --> 00:03:11,574
+Number three: the real kraken.
+
+78
+00:03:11,594 --> 00:03:14,189
+For centuries, sailors told stories about
+
+79
+00:03:14,209 --> 00:03:17,072
+giant sea monsters with long arms.
+
+80
+00:03:17,092 --> 00:03:18,843
+In Norse legend, the kraken was a
+
+81
+00:03:18,863 --> 00:03:21,571
+tentacled monster as large as an island,
+
+82
+00:03:21,591 --> 00:03:23,178
+able to drag ships under.
+
+83
+00:03:23,198 --> 00:03:24,540
+The legend may have grown from
+
+84
+00:03:24,560 --> 00:03:26,556
+a real animal: the giant squid.
+
+85
+00:03:26,576 --> 00:03:29,701
+Giant squid can reach around twelve meters long,
+
+86
+00:03:29,721 --> 00:03:32,346
+counting their long feeding tentacles. And they have
+
+87
+00:03:32,366 --> 00:03:35,641
+the largest eyes of almost any living animal,
+
+88
+00:03:35,661 --> 00:03:38,424
+up to at least 27 centimeters across.
+
+89
+00:03:38,444 --> 00:03:40,781
+For a long time, scientists only knew
+
+90
+00:03:40,801 --> 00:03:42,518
+them from dead bodies washed up on
+
+91
+00:03:42,538 --> 00:03:44,414
+beaches or caught in nets.
+
+92
+00:03:44,434 --> 00:03:48,212
+Then, in 2004, a Japanese team led by Tsunemi
+
+93
+00:03:48,232 --> 00:03:51,672
+Kubodera lowered a baited camera deep into the Pacific.
+
+94
+00:03:51,692 --> 00:03:54,200
+And for the first time, they photographed a live
+
+95
+00:03:54,220 --> 00:03:56,370
+giant squid in its natural home.
+
+96
+00:03:56,390 --> 00:04:00,027
+In July 2012, a team finally filmed one
+
+97
+00:04:00,047 --> 00:04:02,694
+alive in the deep, swimming in the dark.
+
+98
+00:04:02,714 --> 00:04:04,439
+The monster turned out to be real.
+
+99
+00:04:04,459 --> 00:04:06,121
+Just not as large as an island.
+
+100
+00:04:06,141 --> 00:04:08,422
+Verdict: solved. The kraken was probably
+
+101
+00:04:08,442 --> 00:04:10,576
+the giant squid, a real animal.
+
+102
+00:04:10,596 --> 00:04:12,691
+Number four: the milky seas.
+
+103
+00:04:12,711 --> 00:04:16,080
+For hundreds of years, sailors described something eerie. At
+
+104
+00:04:16,100 --> 00:04:18,632
+night, the sea around their ship would glow, a
+
+105
+00:04:18,652 --> 00:04:21,614
+steady pale light stretching to the horizon.
+
+106
+00:04:21,634 --> 00:04:23,380
+Jules Verne even wrote about it. In
+
+107
+00:04:23,400 --> 00:04:25,761
+Twenty Thousand Leagues Under the Seas, his
+
+108
+00:04:25,781 --> 00:04:28,251
+ship sails through a sea of milk.
+
+109
+00:04:28,271 --> 00:04:33,278
+Between 1915 and 1993, there were 235 recorded sightings,
+
+110
+00:04:33,298 --> 00:04:35,886
+many of them in the northwestern Indian Ocean.
+
+111
+00:04:35,906 --> 00:04:37,806
+But nobody could study it properly. You
+
+112
+00:04:37,826 --> 00:04:38,843
+can't plan to be in the right
+
+113
+00:04:38,863 --> 00:04:40,151
+place on the right night.
+
+114
+00:04:40,171 --> 00:04:43,367
+In 1985, a research ship got lucky. It
+
+115
+00:04:43,387 --> 00:04:45,755
+sailed into a milky sea in the Arabian
+
+116
+00:04:45,775 --> 00:04:49,803
+Sea, took water samples, and found glowing bacteria.
+
+117
+00:04:49,823 --> 00:04:51,028
+Then scientists found a new
+
+118
+00:04:51,048 --> 00:04:52,930
+way to look: from space.
+
+119
+00:04:52,950 --> 00:04:56,063
+In 2005, Steven Miller and his team matched
+
+120
+00:04:56,083 --> 00:04:59,453
+satellite images from 1995 with a ship's report.
+
+121
+00:04:59,473 --> 00:05:03,773
+The glowing patch was about 15,400 square kilometers,
+
+122
+00:05:03,793 --> 00:05:05,705
+roughly the size of Connecticut.
+
+123
+00:05:05,725 --> 00:05:08,901
+Newer satellites have since spotted more events, including
+
+124
+00:05:08,921 --> 00:05:12,304
+one huge glow south of Java in 2009.
+
+125
+00:05:12,324 --> 00:05:15,074
+Miller's team found a dozen milky seas between
+
+126
+00:05:15,094 --> 00:05:19,252
+2012 and 2021. But satellites can only see
+
+127
+00:05:19,272 --> 00:05:22,248
+them on dark nights, because moonlight is hundreds
+
+128
+00:05:22,268 --> 00:05:23,930
+of times brighter than the glow.
+
+129
+00:05:23,950 --> 00:05:26,807
+The leading explanation is bacteria. When enough of
+
+130
+00:05:26,827 --> 00:05:28,902
+them gather together, they all switch on their
+
+131
+00:05:28,922 --> 00:05:31,612
+light at once. One idea is that they're
+
+132
+00:05:31,632 --> 00:05:33,456
+feeding on a bloom of algae.
+
+133
+00:05:33,476 --> 00:05:36,577
+But that 1985 voyage is still the only time
+
+134
+00:05:36,597 --> 00:05:39,847
+scientists have sampled a milky sea up close.
+
+135
+00:05:39,867 --> 00:05:42,907
+Verdict: best guess. Probably glowing bacteria, but
+
+136
+00:05:42,927 --> 00:05:44,910
+we've barely seen it up close.
+
+137
+00:05:44,930 --> 00:05:46,763
+Number five: dark oxygen.
+
+138
+00:05:46,783 --> 00:05:49,529
+On Earth, almost all oxygen comes from living
+
+139
+00:05:49,549 --> 00:05:52,232
+things that use sunlight, like plants and algae.
+
+140
+00:05:52,252 --> 00:05:54,127
+So in 2024, a study in the
+
+141
+00:05:54,147 --> 00:05:56,867
+journal Nature Geoscience made a stunning claim.
+
+142
+00:05:56,887 --> 00:05:59,737
+On the deep seafloor between Mexico and Hawaii, there
+
+143
+00:05:59,757 --> 00:06:03,289
+are metal lumps the size of potatoes, called nodules.
+
+144
+00:06:03,309 --> 00:06:05,977
+The team measured oxygen in sealed chambers on the
+
+145
+00:06:05,997 --> 00:06:08,454
+seafloor. Instead of going down, it went up.
+
+146
+00:06:08,474 --> 00:06:10,275
+Over two days, it rose to more
+
+147
+00:06:10,295 --> 00:06:12,607
+than three times the starting level.
+
+148
+00:06:12,627 --> 00:06:15,332
+They suggested the metal nodules act a bit
+
+149
+00:06:15,352 --> 00:06:18,527
+like batteries, splitting seawater to make oxygen in
+
+150
+00:06:18,547 --> 00:06:20,968
+total darkness. They called it dark oxygen.
+
+151
+00:06:20,988 --> 00:06:22,463
+If it's true, it would change our
+
+152
+00:06:22,483 --> 00:06:25,046
+understanding of where oxygen comes from.
+
+153
+00:06:25,066 --> 00:06:27,067
+But other scientists pushed back hard. In December
+
+154
+00:06:27,087 --> 00:06:30,261
+2025, critics argued in another journal that the
+
+155
+00:06:30,281 --> 00:06:34,201
+idea is fundamentally at odds with thermodynamics.
+
+156
+00:06:34,221 --> 00:06:36,208
+They suggested the oxygen might have come
+
+157
+00:06:36,228 --> 00:06:39,552
+from air trapped inside the measuring equipment.
+
+158
+00:06:39,572 --> 00:06:41,848
+The original team says they have more than
+
+159
+00:06:41,868 --> 00:06:44,463
+enough evidence, and they plan to send robots
+
+160
+00:06:44,483 --> 00:06:46,577
+back to the seafloor to check.
+
+161
+00:06:46,597 --> 00:06:48,784
+This matters beyond science. Companies want to
+
+162
+00:06:48,804 --> 00:06:51,562
+mine those same nodules for their metals.
+
+163
+00:06:51,582 --> 00:06:54,809
+Verdict: still unknown. The claim is disputed,
+
+164
+00:06:54,829 --> 00:06:56,441
+and new measurements are on the way.
+
+165
+00:06:56,461 --> 00:06:58,755
+Number six: the giants of the deep.
+
+166
+00:06:58,775 --> 00:07:01,200
+In the deep sea, many animals grow much
+
+167
+00:07:01,220 --> 00:07:04,003
+larger than their relatives in shallow water.
+
+168
+00:07:04,023 --> 00:07:06,823
+There are giant isopods, relatives of the little
+
+169
+00:07:06,843 --> 00:07:09,451
+pill bugs in your garden, but far bigger.
+
+170
+00:07:09,471 --> 00:07:11,709
+There's the giant phantom jelly, the giant
+
+171
+00:07:11,729 --> 00:07:14,279
+sea spider, and squid like the colossal
+
+172
+00:07:14,299 --> 00:07:16,868
+squid, which can reach around fourteen meters.
+
+173
+00:07:16,888 --> 00:07:19,708
+Scientists call this deep-sea gigantism.
+
+174
+00:07:19,728 --> 00:07:20,678
+But why does it happen?
+
+175
+00:07:20,698 --> 00:07:23,667
+There are several ideas. Cold water slows
+
+176
+00:07:23,687 --> 00:07:26,049
+animals down, and cold-water animals tend to
+
+177
+00:07:26,069 --> 00:07:28,002
+grow bigger and live longer.
+
+178
+00:07:28,022 --> 00:07:30,579
+Colder temperatures may lead to bigger cells
+
+179
+00:07:30,599 --> 00:07:32,549
+and longer lives, and both can add
+
+180
+00:07:32,569 --> 00:07:33,894
+up to a larger body.
+
+181
+00:07:33,914 --> 00:07:36,376
+Food is scarce in the deep, and bigger bodies
+
+182
+00:07:36,396 --> 00:07:39,428
+can travel farther and survive longer between meals.
+
+183
+00:07:39,448 --> 00:07:42,068
+There may be fewer predators. And cold water
+
+184
+00:07:42,088 --> 00:07:44,758
+can hold more oxygen, which large bodies need.
+
+185
+00:07:44,778 --> 00:07:46,710
+The problem is the deep sea is
+
+186
+00:07:46,730 --> 00:07:48,143
+very hard to study. Most of it
+
+187
+00:07:48,163 --> 00:07:49,713
+has never been seen at all.
+
+188
+00:07:49,733 --> 00:07:51,565
+Verdict: best guess. Several good
+
+189
+00:07:51,585 --> 00:07:53,981
+ideas, but no single answer.
+
+190
+00:07:54,001 --> 00:07:55,559
+So, let's check the scoreboard.
+
+191
+00:07:55,579 --> 00:07:58,930
+The golden orb: solved. Part of a deep-sea anemone.
+
+192
+00:07:58,950 --> 00:08:01,414
+The holes in the seafloor: still unknown.
+
+193
+00:08:01,434 --> 00:08:03,724
+The kraken: solved. The giant squid.
+
+194
+00:08:03,744 --> 00:08:07,023
+The milky seas: best guess. Glowing bacteria.
+
+195
+00:08:07,043 --> 00:08:09,094
+Dark oxygen: still unknown.
+
+196
+00:08:09,114 --> 00:08:11,208
+The giants of the deep: best guess.
+
+197
+00:08:11,228 --> 00:08:13,860
+Two solved, two best guesses, and two we still
+
+198
+00:08:13,880 --> 00:08:16,430
+can't explain. Most of the deep sea has never
+
+199
+00:08:16,450 --> 00:08:19,195
+been seen, and it still has plenty of secrets.
+
+200
+00:08:19,215 --> 00:08:21,565
+NOAA images are credited on screen. The 3D
+
+201
+00:08:21,585 --> 00:08:24,373
+scenes are illustrations based on the sources.
+
+202
+00:08:24,393 --> 00:08:25,956
+Which one surprised you the most?
+
+203
+00:08:25,976 --> 00:08:27,126
+Tell me in the comments.

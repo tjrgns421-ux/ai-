@@ -1,5 +1,4 @@
 import React, { useMemo } from "react";
-import * as THREE from "three";
 import { floorY } from "./Ocean3D";
 
 // Curious Minutes ep08: the deep sea. Pieces placed inside OceanStage (Ocean3D). All ILLUSTRATIONS.
@@ -47,9 +46,8 @@ export const HoleLines: React.FC<{ x?: number; z?: number }> = ({ x = 0, z = 0 }
   }, []);
   return (
     <group position={[x, 0, z]}>
-      <mesh position={[0, floorY(x, z) + 0.05, 0]} rotation={[-Math.PI / 2, 0, 0]}><circleGeometry args={[22, 48]} /><meshStandardMaterial color="#8E8878" roughness={1} /></mesh>
       {holes.map(([hx, hz], i) => (
-        <group key={i} position={[hx, floorY(x, z) + 0.08, hz]}>
+        <group key={i} position={[hx, floorY(x + hx, z + hz) + 0.1, hz]}>
           <mesh rotation={[-Math.PI / 2, 0, 0]}><ringGeometry args={[0.3, 0.55, 18]} /><meshStandardMaterial color="#A49D8A" /></mesh>
           <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0.01, 0]}><circleGeometry args={[0.3, 16]} /><meshBasicMaterial color="#1A1712" /></mesh>
         </group>

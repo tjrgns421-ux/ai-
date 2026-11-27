@@ -76,7 +76,7 @@ const Deep: React.FC<{ shot: ShotFn; children: (s: number) => React.ReactNode; b
   const s = useCurrentFrame() / FPS;
   return (
     <AbsoluteFill>
-      <OceanStage shot={shot(s)} t={s} width={1080} height={1920}>{children(s)}</OceanStage>
+      <OceanStage shot={shot(s)} t={s} width={1080} height={1920} deep>{children(s)}</OceanStage>
       <Badge text={badge} />
     </AbsoluteFill>
   );

@@ -16,7 +16,7 @@ export const floorY = (x: number, z: number) =>
   -2 + Math.sin(x * 0.07) * 2.2 + Math.cos(z * 0.09 + 1) * 1.8 + Math.sin((x + z) * 0.21) * 0.6;
 
 export type ShotO = { pos: THREE.Vector3; look: THREE.Vector3; fov?: number; up?: THREE.Vector3 };
-const Rig: React.FC<{ sh: ShotO; above: boolean; t: number }> = ({ sh, above }) => {
+const Rig: React.FC<{ sh: ShotO; above: boolean; t: number; deep?: boolean }> = ({ sh, above, deep }) => {
   const { camera, scene } = useThree();
   camera.up.copy(sh.up ?? new THREE.Vector3(0, 1, 0));
   camera.position.copy(sh.pos);
@@ -29,6 +29,11 @@ const Rig: React.FC<{ sh: ShotO; above: boolean; t: number }> = ({ sh, above }) 
   // depth tint: darker the deeper the camera is
   const depth = Math.max(0, Math.min(1, (SURF - sh.pos.y) / 45));
   const col = above ? new THREE.Color("#8EC9EA") : new THREE.Color("#0E5A86").lerp(new THREE.Color("#031627"), depth);
+  if (deep) {
+    scene.background = new THREE.Color("#01060C");
+    scene.fog = new THREE.FogExp2(0x01060c, 0.025);
+    return null;
+  }
   scene.background = col;
   scene.fog = above ? new THREE.Fog("#BFE1F2", 120, 700) : new THREE.FogExp2(col.getHex(), 0.009 + depth * 0.006);
   return null;
@@ -115,14 +120,23 @@ const Floor: React.FC = () => {
 };
 
 /** Underwater stage. Children are placed in world units: seafloor ≈ y 0, surface at y = SURF. */
-export const OceanStage: React.FC<{ shot: ShotO; t: number; children?: React.ReactNode; width?: number; height?: number; floor?: boolean }> = ({ shot, t, children, width = 1920, height = 1080, floor = true }) => (
+export const OceanStage: React.FC<{ shot: ShotO; t: number; children?: React.ReactNode; width?: number; height?: number; floor?: boolean; deep?: boolean }> = ({ shot, t, children, width = 1920, height = 1080, floor = true, deep = false }) => (
   <ThreeCanvas width={width} height={height} gl={{ antialias: true }} camera={{ fov: shot.fov ?? 45, near: 0.1, far: 3000 }}>
-    <Rig sh={shot} above={false} t={t} />
-    <ambientLight intensity={0.55} color="#7FB6D6" />
-    <hemisphereLight args={["#BFE9FF", "#0B2233", 0.9]} />
-    <directionalLight position={[20, 80, 10]} intensity={1.6} color="#E6F7FF" />
-    <SurfaceFromBelow t={t} />
-    <Shafts t={t} />
+    <Rig sh={shot} above={false} t={t} deep={deep} />
+    {deep ? (
+      <>
+        <ambientLight intensity={0.3} color="#4A6A8A" />
+        <pointLight position={[shot.pos.x, shot.pos.y + 1, shot.pos.z]} intensity={420} distance={90} decay={1.5} color="#DDEBFF" />
+      </>
+    ) : (
+      <>
+        <ambientLight intensity={0.55} color="#7FB6D6" />
+        <hemisphereLight args={["#BFE9FF", "#0B2233", 0.9]} />
+        <directionalLight position={[20, 80, 10]} intensity={1.6} color="#E6F7FF" />
+        <SurfaceFromBelow t={t} />
+        <Shafts t={t} />
+      </>
+    )}
     <Snow t={t} />
     {floor && <Floor />}
     {children}

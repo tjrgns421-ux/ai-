@@ -6,7 +6,7 @@ import { makeTimeline } from "../sn02/engine";
 import words from "../../public/cm08/narration.words.json";
 import LINES from "../../public/cm08/lines.json";
 import CAPS from "../../public/cm08/caps/captures.json";
-import { OceanStage, ShotO, SURF, floorY } from "./Ocean3D";
+import { OceanStage, ShotO, floorY } from "./Ocean3D";
 import { Chamber, GiantSquid, GoldenOrb, HoleLines, Isopod, Nodules, ROV } from "./Deep3D";
 
 // Curious Minutes ep08 "6 Strange Things Found in the Deep Sea" — list format, a verdict after each.
@@ -149,7 +149,7 @@ const Deep: React.FC<{ shot: ShotFn; children: (s: number) => React.ReactNode; b
   const s = useCurrentFrame() / FPS;
   return (
     <AbsoluteFill>
-      <OceanStage shot={still ? shot(s) : vary(shot, s)} t={s}>{children(s)}</OceanStage>
+      <OceanStage shot={still ? shot(s) : vary(shot, s)} t={s} deep>{children(s)}</OceanStage>
       <Badge text={badge} />
     </AbsoluteFill>
   );
@@ -167,10 +167,10 @@ const MilkySea: React.FC<{ orbit?: boolean }> = ({ orbit: fromSpace }) => {
     return (
       <AbsoluteFill style={{ background: "#05060C" }}>
         <svg width={1920} height={1080}>
-          <defs><radialGradient id="mg" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stopColor="#CFE8FF" stopOpacity={0.85 * k} /><stop offset="1" stopColor="#CFE8FF" stopOpacity="0" /></radialGradient></defs>
+          <defs><radialGradient id="mg" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stopColor="#E4F2FF" stopOpacity={0.35 + 0.6 * k} /><stop offset="1" stopColor="#CFE8FF" stopOpacity="0" /></radialGradient></defs>
           <path d="M 0 0 L 620 0 Q 760 300 640 520 Q 560 700 700 1080 L 0 1080 Z" fill="#1A1A1A" />
           <ellipse cx={1180} cy={560} rx={430} ry={260} fill="url(#mg)" />
-          <text x={1180} y={920} textAnchor="middle" fontFamily="Pretendard" fontWeight={900} fontSize={44} fill="#FFFFFF">≈ 15,400 km² · about the size of Connecticut</text>
+          <text x={1180} y={180} textAnchor="middle" fontFamily="Pretendard" fontWeight={900} fontSize={44} fill="#FFFFFF">≈ 15,400 km² · about the size of Connecticut</text>
           <text x={300} y={200} textAnchor="middle" fontFamily="Pretendard" fontWeight={800} fontSize={34} fill="#FFFFFF" opacity={0.7}>land</text>
         </svg>
         <Badge text="ILLUSTRATION · satellite view at night (Wikipedia)" />
@@ -198,7 +198,7 @@ const Quorum: React.FC = () => {
     <AbsoluteFill style={{ background: "#050812" }}>
       <svg width={1920} height={1080}>
         {Array.from({ length: n }, (_, i) => <circle key={i} cx={360 + ((i * 97) % 1200)} cy={180 + ((i * 61) % 700)} r={10} fill={on ? "#BFE8FF" : "#3A4A5A"} style={{ filter: on ? "drop-shadow(0 0 10px #BFE8FF)" : undefined }} />)}
-        <text x={960} y={1010} textAnchor="middle" fontFamily="Pretendard" fontWeight={900} fontSize={44} fill="#FFFFFF">{on ? "enough bacteria → they all light up" : "bacteria gathering…"}</text>
+        <text x={960} y={200} textAnchor="middle" fontFamily="Pretendard" fontWeight={900} fontSize={48} fill="#FFFFFF">{on ? "enough bacteria → they all light up" : "bacteria gathering…"}</text>
       </svg>
       <Badge text="ILLUSTRATION · based on Miller et al. (2021)" />
     </AbsoluteFill>
@@ -275,11 +275,11 @@ const SCENES: [number, React.ReactNode][] = [
   [S(29), <Deep shot={(s) => ({ pos: V(0.01, floorY(0, 0) + 26 - s * 0.6, 0.01), look: V(0, 0, 0), up: V(0, 0, -1), fov: 50 })} still>{() => <HoleLines />}</Deep>],
   [S(30), <Deep shot={orbit(10, 3, [0, floorY(0, 0), 0], 0.6, 0.07)}>{(s) => <><HoleLines /><ROV x={-3} y={floorY(0, 0) + 2.5} z={2} t={s} /></>}</Deep>],
   [S(32), <Photo src="holes_sets.jpg" credit="NOAA Ocean Exploration, Voyage to the Ridge 2022 (public domain)" fit="cover" zoom={[1.2, 1.35]} />],
-  [S(34), <Deep shot={(s) => ({ pos: V(-30 + s, squidY + 4, 26), look: V(-6 + s, squidY, 0), fov: 50 })}>{SquidScene}</Deep>],
+  [S(34), <Deep shot={(s) => ({ pos: V(-12 + s * 0.8, squidY + 2, 13), look: V(-6 + s * 0.8, squidY, 0), fov: 50 })}>{SquidScene}</Deep>],
   [S(37), <Photo src="squid.jpg" credit="Giant squid, Ranheim, Norway · NTNU Vitenskapsmuseet, CC BY 2.0 (Wikimedia Commons)" fit="cover" />],
-  [S(38), <Deep shot={orbit(16, 2, [-6, squidY, 0], 0.4, 0.06)}>{SquidScene}</Deep>],
-  [S(40), <Deep shot={(s) => ({ pos: V(4, squidY + 1, 8), look: V(-2 + s * 0.8, squidY, 0), fov: 45 })} still>{(s) => <>{SquidScene(s)}<mesh position={[4, squidY, 0]}><boxGeometry args={[0.8, 0.8, 0.8]} /><meshStandardMaterial color="#333" /></mesh><pointLight position={[4, squidY, 0]} intensity={30} distance={20} color="#FFF6DA" /></>}</Deep>],
-  [S(42), <Deep shot={orbit(22, 4, [-4, squidY, 0], 2, 0.05)}>{SquidScene}</Deep>],
+  [S(38), <Deep shot={orbit(12, 2, [-4, squidY, 0], 0.4, 0.06)}>{SquidScene}</Deep>],
+  [S(40), <Deep shot={(s) => ({ pos: V(-1 + s * 0.8, squidY + 1.5, 11), look: V(-9 + s * 0.8, squidY, 0), fov: 50 })} still>{(s) => <>{SquidScene(s)}<mesh position={[4, squidY, 0]}><boxGeometry args={[0.8, 0.8, 0.8]} /><meshStandardMaterial color="#333" /></mesh><pointLight position={[4, squidY, 0]} intensity={30} distance={20} color="#FFF6DA" /></>}</Deep>],
+  [S(42), <Deep shot={orbit(13, 3, [-2, squidY, 0], 2, 0.05)}>{SquidScene}</Deep>],
   [S(44), <MilkySea />],
   [S(47), <MilkySea orbit />],
   [S(48), <MilkySea />],
@@ -296,7 +296,7 @@ const SCENES: [number, React.ReactNode][] = [
   [S(70), <Deep shot={orbit(10, 2, [0, floorY(0, 0), 0], 0.4, 0.07)}>{(s) => <Isopod x={-2} z={0} t={s} scale={1.6} />}</Deep>],
   [S(71), <Photo src="isopod.jpg" credit="Giant isopod (Bathynomus giganteus) · Eric Polk, CC BY-SA 4.0 (Wikimedia Commons)" />],
   [S(72), <SizeUp />],
-  [S(73), <Deep shot={(s) => ({ pos: V(-30 + s, squidY + 2, 24), look: V(-6 + s, squidY, 0), fov: 50 })}>{SquidScene}</Deep>],
+  [S(73), <Deep shot={(s) => ({ pos: V(-12 + s * 0.8, squidY + 2, 13), look: V(-6 + s * 0.8, squidY, 0), fov: 50 })}>{SquidScene}</Deep>],
   [S(74), <Deep shot={orbit(8, 1, [0, floorY(0, 0), 0], 1.8, 0.08)} still>{(s) => <Isopod x={-2} z={0} t={s} scale={1.6} />}</Deep>],
   [S(75), <Ideas />],
   [S(79), <Deep shot={(s) => ({ pos: V(-20 + s, 4, 20), look: V(0, 2, 0), fov: 55 })}>{(s) => <><Isopod x={-4} z={2} t={s} scale={1.4} /><GoldenOrb x={8} z={-6} scale={0.7} /></>}</Deep>],
