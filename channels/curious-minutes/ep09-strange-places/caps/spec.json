@@ -1,0 +1,10 @@
+[
+ {"name":"stones-ice","url":"https://en.wikipedia.org/wiki/Sailing_stones","find":"Instead, rocks move when large ice sheets","until":"during sunny mornings.","marks":["ice sheets a few millimeters thick"],"source":"Wikipedia"},
+ {"name":"stones-dec","url":"https://en.wikipedia.org/wiki/Sailing_stones","find":"The largest rock movement the research team witnessed","until":"in multiple movement events.","marks":["involved more than 60 rocks"],"source":"Wikipedia"},
+ {"name":"richat-nasa","url":"https://earthobservatory.nasa.gov/images/2561/richat-structure-mauritania","find":"Initially interpreted as a meteorite","until":"laid bare by","marks":["symmetrical uplift"],"source":"NASA Earth Observatory"},
+ {"name":"richat-atlantis","url":"https://en.wikipedia.org/wiki/Richat_Structure","find":"The Richat Structure has been the subject of unsubstantiated fringe claims","until":"in the works of Plato.","marks":["unsubstantiated fringe claims"],"source":"Wikipedia"},
+ {"name":"hillier-pink","url":"https://en.wikipedia.org/wiki/Lake_Hillier","find":"The vibrant colour is permanent","until":"Dunaliella salina","marks":["does not alter when the water is taken in a container"],"source":"Wikipedia"},
+ {"name":"darvaza-records","url":"https://en.wikipedia.org/wiki/Darvaza_gas_crater","find":"The early years of the crater's history are still being determined.","until":"or inaccessible.","marks":["absent from the archives, classified, or inaccessible"],"source":"Wikipedia"},
+ {"name":"fairy-none","url":"https://en.wikipedia.org/wiki/Fairy_circle_(arid_grass_formation)","find":"Studies have proposed various hypotheses about their origins","until":"how they are formed.","marks":["none have conclusively proven how they are formed"],"source":"Wikipedia"},
+ {"name":"hess-noconsensus","url":"https://en.wikipedia.org/wiki/Hessdalen_lights","find":"Despite ongoing research, there is no consensus","until":"the phenomenon.","marks":["there is no consensus"],"source":"Wikipedia"}
+]

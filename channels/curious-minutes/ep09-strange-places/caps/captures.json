@@ -1,0 +1,74 @@
+{
+ "richat-nasa": {
+  "w": 1319,
+  "h": 152,
+  "source": "NASA Earth Observatory",
+  "marks": {
+   "symmetrical uplift": [
+    {
+     "x": 185,
+     "y": 110,
+     "w": 271,
+     "h": 38
+    }
+   ]
+  }
+ },
+ "richat-atlantis": {
+  "w": 1420,
+  "h": 94,
+  "source": "Wikipedia",
+  "marks": {
+   "unsubstantiated fringe claims": [
+    {
+     "x": 654,
+     "y": 4,
+     "w": 235,
+     "h": 34
+    },
+    {
+     "x": 889,
+     "y": 4,
+     "w": 180,
+     "h": 34
+    },
+    {
+     "x": 889,
+     "y": 4,
+     "w": 180,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "darvaza-records": {
+  "w": 1377,
+  "h": 105,
+  "source": "Wikipedia",
+  "marks": {
+   "absent from the archives, classified, or inaccessible": [
+    {
+     "x": 12,
+     "y": 67,
+     "w": 729,
+     "h": 34
+    }
+   ]
+  }
+ },
+ "hillier-pink": {
+  "w": 762,
+  "h": 94,
+  "source": "Wikipedia",
+  "marks": {
+   "does not alter when the water is taken in a container": [
+    {
+     "x": 12,
+     "y": 56,
+     "w": 738,
+     "h": 34
+    }
+   ]
+  }
+ }
+}
