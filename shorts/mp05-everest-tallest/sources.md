@@ -1,5 +1,6 @@
 # mp05 Is Everest really the tallest mountain? — 출처 (원문 대조, 2026-11-28)
 
+대본 점수(scriptscore.py --target 330-600 --wpm 189): 훅 65, 전체 87 STRONG, 971단어 ≈ 5:08.
 제목 후보: `Is Everest Really the Tallest Mountain? 3 Rulers, Checked` + 썸네일 `2 MOUNTAINS BEAT IT` (98점). 자동완성 "is everest really the tallest mountain".
 
 | 대본 속 주장 | 출처 | 상태 |
@@ -7,7 +8,7 @@
 | 2020 중국·네팔 공동 발표 8,848.86m, 네팔 기존치보다 약간 높고 중국 기존치보다 약 4m 높음(신화 인용) | Al Jazeera 2020-12-08 | 확인 |
 | 네팔은 1950년대 초 인도측량국의 8,848m를 공식 높이로 인정해 옴 | 같은 기사 | 확인 |
 | 2015 지진·온난화로 높이 변화 추측, 네팔이 처음 독자 측정, 2019 네팔 팀·2020 중국 팀 정상 | 같은 기사 | 확인 |
-| 1849~50 평원의 관측소(약 110마일)에서 관측, 낮은 봉우리에 가려 눈에 띄지 않음, 당시 칸첸중가가 최고봉이라 여겨짐, Peak XV | Himalayan Journal 17, "Mount Everest — its name and height" | 확인 |
+| 1849~50 평원의 관측소(약 110마일)에서 관측, 낮은 봉우리에 가려 눈에 띄지 않음, 당시 칸첸중가가 최고봉이라 여겨짐, Peak XV | Himalayan Journal vol. 17 (1952), B. L. Gulatee, "Mount Everest — its name and height" (himalayanclub.org) | 확인 |
 | 6개 관측소 값 28,991.6 / 29,005.3 / 29,001.8 / 28,998.6 / 29,026.1 / 28,990.4 ft, 평균 29,002 ft | 같은 글 | 확인 |
 | 굴절 보정이 1,375 ft | 같은 글 | 확인 |
 | 1852년 계산으로 최고봉임을 알게 됨, 1865년에야 29,002 ft 수치를 신뢰할 만하다고 채택, 1843년 은퇴한 조지 에베레스트 이름 | 같은 글 | 확인 |
