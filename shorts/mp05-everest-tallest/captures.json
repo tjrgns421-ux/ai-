@@ -1,0 +1,244 @@
+[
+ {
+  "name": "aj-8848",
+  "url": "https://www.aljazeera.com/news/2020/12/8/mt-everest-nepal-china-announce-revised-height-at-8848-metres",
+  "source": "Al Jazeera, Dec 8 2020",
+  "find": "The new official height is 8,848.86 metres",
+  "until": "about four metres higher than China\u2019s.",
+  "marks": [
+   "8,848.86 metres",
+   "about four metres higher than China\u2019s"
+  ]
+ },
+ {
+  "name": "aj-1950s",
+  "url": "https://www.aljazeera.com/news/2020/12/8/mt-everest-nepal-china-announce-revised-height-at-8848-metres",
+  "source": "Al Jazeera, Dec 8 2020",
+  "find": "Nepal earlier recognised 8,848 metres",
+  "until": "had come up with different figures.",
+  "marks": [
+   "Survey of India in the early 1950s"
+  ]
+ },
+ {
+  "name": "aj-2015",
+  "url": "https://www.aljazeera.com/news/2020/12/8/mt-everest-nepal-china-announce-revised-height-at-8848-metres",
+  "source": "Al Jazeera, Dec 8 2020",
+  "find": "The new height would be based on trigonometric and GPS measurements",
+  "until": "a possible change in height due to global warming and a 2015 earthquake.",
+  "nth": 1,
+  "marks": [
+   "May 2019",
+   "a 2015 earthquake"
+  ]
+ },
+ {
+  "name": "hj-hidden",
+  "url": "https://www.himalayanclub.org/hj/17/14/mount-everest-its-name-and-height/",
+  "source": "Himalayan Journal vol. 17 (1952), B. L. Gulatee",
+  "find": "The Himalayan peaks in Nepal were observed by surveyors in 1849-55",
+  "until": "the highest mountain in the world.",
+  "marks": [
+   "about 100 miles or so away",
+   "hidden by lower peaks",
+   "Kanchenjunga was the highest mountain in the world"
+  ]
+ },
+ {
+  "name": "hj-peakxv",
+  "url": "https://www.himalayanclub.org/hj/17/14/mount-everest-its-name-and-height/",
+  "source": "Himalayan Journal vol. 17 (1952), B. L. Gulatee",
+  "find": "Thus when Mount Everest and Gauri Sankar were first observed",
+  "until": "Peak XV and Peak XX respectively.",
+  "marks": [
+   "Peak XV"
+  ]
+ },
+ {
+  "name": "hj-six",
+  "url": "https://www.himalayanclub.org/hj/17/14/mount-everest-its-name-and-height/",
+  "source": "Himalayan Journal vol. 17 (1952), B. L. Gulatee",
+  "find": "The heights of Mount Everest as computed from these stations",
+  "until": "the figure adopted up to the present time.",
+  "marks": [
+   "28991-6, 29005-3, 29001-8, 28998-6, 29026-1, and 28990-4 feet",
+   "The mean of these is 29,002 feet"
+  ]
+ },
+ {
+  "name": "hj-1375",
+  "url": "https://www.himalayanclub.org/hj/17/14/mount-everest-its-name-and-height/",
+  "source": "Himalayan Journal vol. 17 (1952), B. L. Gulatee",
+  "find": "It might be of interest to record here",
+  "until": "as much as 1,375 feet.",
+  "marks": [
+   "1,375 feet"
+  ]
+ },
+ {
+  "name": "hj-1852",
+  "url": "https://www.himalayanclub.org/hj/17/14/mount-everest-its-name-and-height/",
+  "source": "Himalayan Journal vol. 17 (1952), B. L. Gulatee",
+  "find": "The observations to Mount Everest were taken in 1849 and 1850",
+  "until": "sufficiently reliable to be accepted.",
+  "marks": [
+   "1852",
+   "1865"
+  ]
+ },
+ {
+  "name": "hj-name",
+  "url": "https://www.himalayanclub.org/hj/17/14/mount-everest-its-name-and-height/",
+  "source": "Himalayan Journal vol. 17 (1952), B. L. Gulatee",
+  "find": "finally decided to name it after Sir George Everest",
+  "until": "Geodetic Survey of India.",
+  "marks": [
+   "Sir George Everest",
+   "retired in 1843"
+  ]
+ },
+ {
+  "name": "npr-29035",
+  "url": "https://www.npr.org/2007/04/07/9428163/the-highest-spot-on-earth",
+  "source": "NPR, Apr 7 2007",
+  "find": "Well, we all know that Mount Everest, at 29,035 feet above sea level",
+  "until": "for a long, long time",
+  "marks": [
+   "29,035 feet"
+  ]
+ },
+ {
+  "name": "npr-15",
+  "url": "https://www.npr.org/2007/04/07/9428163/the-highest-spot-on-earth",
+  "source": "NPR, Apr 7 2007",
+  "find": "According to Senne, Chimborazo is 1.5 miles higher than Everest!",
+  "marks": [
+   "1.5 miles higher"
+  ]
+ },
+ {
+  "name": "noaa-everest",
+  "url": "https://oceanservice.noaa.gov/facts/highestpoint.html",
+  "source": "NOAA Ocean Service",
+  "find": "Mount Everest, located in Nepal and Tibet",
+  "until": "not the farthest point from Earth\u2019s center.",
+  "marks": [
+   "the highest point above global mean sea level",
+   "not the farthest point from Earth\u2019s center"
+  ],
+  "css": "img{display:none!important}"
+ },
+ {
+  "name": "noaa-chimb",
+  "url": "https://oceanservice.noaa.gov/facts/highestpoint.html",
+  "source": "NOAA Ocean Service",
+  "find": "Earth is not a perfect sphere",
+  "until": "the closest point on Earth to the stars.",
+  "marks": [
+   "one degree south of the Equator",
+   "over 2,072 meters farther from the center of the Earth",
+   "the closest point on Earth to the stars"
+  ],
+  "css": "img{display:none!important}"
+ },
+ {
+  "name": "noaa-mauna",
+  "url": "https://oceanservice.noaa.gov/facts/highestpoint.html",
+  "source": "NOAA Ocean Service",
+  "find": "You may be surprised to learn that Everest is not the tallest mountain",
+  "until": "from base to peak.",
+  "nth": 1,
+  "marks": [
+   "Everest is not the tallest mountain on Earth",
+   "more than 10,210 meters from base to peak"
+  ],
+  "css": "img{display:none!important}"
+ },
+ {
+  "name": "wiki-base",
+  "url": "https://en.wikipedia.org/wiki/Mauna_Kea",
+  "source": "Wikipedia, \"Mauna Kea\"",
+  "find": "Unlike prominence, base is loosely defined",
+  "until": "(to the root of the mountain deep underground).",
+  "marks": [
+   "base is loosely defined",
+   "32,696 ft (9,966 m)",
+   "56,447 ft (17,205 m)"
+  ],
+  "vw": 1100
+ },
+ {
+  "name": "wiki-depress",
+  "url": "https://en.wikipedia.org/wiki/Mauna_Kea",
+  "source": "Wikipedia, \"Mauna Kea\"",
+  "find": "so massive that it and its neighbor, Mauna Loa, depress the ocean crust",
+  "until": "by 3.7 mi (6 km).",
+  "marks": [
+   "depress the ocean crust beneath it by 3.7 mi (6 km)"
+  ],
+  "vw": 1100
+ },
+ {
+  "name": "wiki-4207",
+  "url": "https://en.wikipedia.org/wiki/Mauna_Kea",
+  "source": "Wikipedia, \"Mauna Kea\"",
+  "find": "It stands 13,803 ft (4,207.3 m) above sea level",
+  "until": "in the state of Hawaii.",
+  "marks": [
+   "13,803 ft (4,207.3 m) above sea level"
+  ],
+  "vw": 1100
+ },
+ {
+  "name": "wiki-2168",
+  "url": "https://en.wikipedia.org/wiki/Summits_farthest_from_the_Earth%27s_center",
+  "source": "Wikipedia, \"Summits farthest from the Earth's center\"",
+  "find": "Because of the equatorial bulge, the summit of Mount Chimborazo",
+  "until": "than the summit of Everest.",
+  "marks": [
+   "2,168 m (7,113 ft)"
+  ]
+ },
+ {
+  "name": "loc-2163",
+  "url": "https://blogs.loc.gov/maps/2020/11/extremities-of-the-earth-farthest-point-from-the-center-of-the-earth/",
+  "source": "Library of Congress, Worlds Revealed (2020)",
+  "find": "Mount Chimborazo, while not even close to the tallest mountain",
+  "until": "than the summit of Mount Everest!",
+  "marks": [
+   "7,096 ft (2,163 m)"
+  ]
+ },
+ {
+  "name": "loc-believed",
+  "url": "https://blogs.loc.gov/maps/2020/11/extremities-of-the-earth-farthest-point-from-the-center-of-the-earth/",
+  "source": "Library of Congress, Worlds Revealed (2020)",
+  "find": "Until the 19th century, it was believed by many",
+  "until": "the highest mountain in the world",
+  "marks": [
+   "believed by many that Mount Chimborazo was the highest mountain in the world"
+  ]
+ },
+ {
+  "name": "loc-humboldt",
+  "url": "https://blogs.loc.gov/maps/2020/11/extremities-of-the-earth-farthest-point-from-the-center-of-the-earth/",
+  "source": "Library of Congress, Worlds Revealed (2020)",
+  "find": "The explorers were able to reach 19,286 feet",
+  "until": "due to altitude sickness.",
+  "marks": [
+   "19,286 feet",
+   "stopping 1,000 feet short"
+  ]
+ },
+ {
+  "name": "loc-whymper",
+  "url": "https://blogs.loc.gov/maps/2020/11/extremities-of-the-earth-farthest-point-from-the-center-of-the-earth/",
+  "source": "Library of Congress, Worlds Revealed (2020)",
+  "find": "78 years later in 1880, Edward Whymper",
+  "until": "becoming the first to record this achievement.",
+  "marks": [
+   "1880, Edward Whymper",
+   "the first to record this achievement"
+  ]
+ }
+]

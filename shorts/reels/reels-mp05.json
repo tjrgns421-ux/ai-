@@ -1,0 +1,7 @@
+[
+ {"name": "mp05-s1-six-answers", "title": ["Everest, measured from 6 stations:", "6 different answers"], "parts": [
+   {"ep": "mp05", "video": "out/mp05/mp05-full.mp4", "from": "In 1849 and 1850, British surveyors", "to": "was 1,375 feet"}]},
+ {"name": "mp05-s2-closest-to-stars", "title": ["The closest point to the stars", "isn't Everest"], "parts": [
+   {"ep": "mp05", "video": "out/mp05/mp05-full.mp4", "from": "The Earth isn't a perfect ball", "to": "closest point on Earth to the stars"},
+   {"ep": "mp05", "video": "out/mp05/mp05-full.mp4", "from": "So we did the math ourselves", "to": "The difference: about 2,080 meters"}]}
+]

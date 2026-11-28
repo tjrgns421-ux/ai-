@@ -1,0 +1,52 @@
+{
+ "everest": {
+  "file": "File:Mount Everest as seen from Drukair2 PLW edit.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg",
+  "src": "everest.jpg",
+  "license": [
+   "CC BY-SA 2.0"
+  ],
+  "author": "Mount_Everest_as_seen_from_Drukair2.jpg: shrimpo1967 derivative work: Papa Lima Whiskey 2 (talk)",
+  "source": "This file was derived from: Mount Everest as seen from Drukair2.jpg:",
+  "date": "3 February 2012, 11:18 (UTC)",
+  "pd": false,
+  "w": 1920,
+  "h": 1044
+ },
+ "everest3": {
+  "file": "File:Sunset view of Everest.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Sunset_view_of_Everest.jpg",
+  "src": "everest3.jpg",
+  "license": [
+   "CC BY-SA 4.0"
+  ],
+  "author": "Nir B. Gurung",
+  "source": "Own work",
+  "date": "14 December 2022, 17:13:31",
+  "pd": false,
+  "w": 1920,
+  "h": 1280
+ },
+ "mauna": {
+  "file": "mauna_weld.png",
+  "src": "mauna.jpg",
+  "license": [
+   "Public domain"
+  ],
+  "author": "NASA GIBS, Landsat WELD true color (NASA/USGS)",
+  "via": "satellite",
+  "w": 1600,
+  "h": 1200
+ },
+ "chimb": {
+  "file": "chimb_weld.png",
+  "src": "chimb.jpg",
+  "license": [
+   "Public domain"
+  ],
+  "author": "NASA GIBS, Landsat WELD true color (NASA/USGS)",
+  "via": "satellite",
+  "w": 1600,
+  "h": 1200
+ }
+}

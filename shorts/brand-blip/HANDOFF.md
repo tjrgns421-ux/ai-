@@ -35,6 +35,7 @@ Curious Minutes 채널(`channels/curious-minutes/`)은 다른 세션에서 작�
 | mp02-china-one-time-zone | 지도 롱폼 2회: 중국은 왜 시간대가 하나? (8:11) | 완성, `post.md`, 릴스 5개 `shorts/reels/reels-2026-11-25.json` |
 | mp03-alaska-russia | 지도 롱폼 3회: 알래스카에서 러시아가 보이나? (7:36) | 완성, `post.md`, 쇼츠 5개 `shorts/reels/reels-mp03.json` |
 | mp04-north-korea-night | 지도 롱폼 4회: 북한은 정말 밤에 깜깜한가? (5:59) | 완성, `post.md`, 쇼츠 2개 `shorts/reels/reels-mp04.json`, 측정 `research/nk_night_lights.py` |
+| mp05-everest-tallest | 지도 롱폼 5회: 에베레스트는 정말 가장 높은가? (5:48) | 완성, `post.md`, 쇼츠 2개 `shorts/reels/reels-mp05.json` |
 
 ## 기타
 - 인스타그램 만화·이슈 슬라이드: `insta/` (README 참고)
@@ -68,5 +69,5 @@ Curious Minutes 채널(`channels/curious-minutes/`)은 다른 세션에서 작�
 11. 업로드 정보: `shorts/<회차>/post.md` (제목·썸네일은 `.claude/skills/yt-package/title.py`로 100점 확인, 설명·챕터·출처·사진 라이선스·태그·고정 댓글·쇼츠 제목).
 
 ## 다음 할 일
-- mp05 후보: 메르카토르 지도·아프리카 실제 크기 (`research/2026-11-26-mp04-topics.md`).
+- 다음 후보: 그린란드·메르카토르 지도 (`research/2026-11-28-mp05-topics.md`).
 - mp03 업로드: 롱폼 먼저, 쇼츠는 하루 1~2개씩.

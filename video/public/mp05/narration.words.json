@@ -1,0 +1,4617 @@
+[
+ {
+  "text": "You",
+  "start": 0.05,
+  "end": 0.188
+ },
+ {
+  "text": "learned",
+  "start": 0.189,
+  "end": 0.455
+ },
+ {
+  "text": "Everest",
+  "start": 0.466,
+  "end": 1.022
+ },
+ {
+  "text": "is",
+  "start": 1.142,
+  "end": 1.223
+ },
+ {
+  "text": "the",
+  "start": 1.223,
+  "end": 1.293
+ },
+ {
+  "text": "tallest",
+  "start": 1.293,
+  "end": 1.813
+ },
+ {
+  "text": "at",
+  "start": 1.933,
+  "end": 2.06
+ },
+ {
+  "text": "8,849",
+  "start": 2.18,
+  "end": 4.032
+ },
+ {
+  "text": "meters",
+  "start": 4.032,
+  "end": 4.553
+ },
+ {
+  "text": "NOAA",
+  "start": 4.673,
+  "end": 4.835
+ },
+ {
+  "text": "says",
+  "start": 4.835,
+  "end": 5.043
+ },
+ {
+  "text": "it's",
+  "start": 5.055,
+  "end": 5.147
+ },
+ {
+  "text": "not",
+  "start": 5.147,
+  "end": 5.483
+ },
+ {
+  "text": "And",
+  "start": 5.603,
+  "end": 5.661
+ },
+ {
+  "text": "it's",
+  "start": 5.661,
+  "end": 5.765
+ },
+ {
+  "text": "never",
+  "start": 5.765,
+  "end": 6.008
+ },
+ {
+  "text": "been",
+  "start": 6.02,
+  "end": 6.135
+ },
+ {
+  "text": "the",
+  "start": 6.135,
+  "end": 6.205
+ },
+ {
+  "text": "closest",
+  "start": 6.205,
+  "end": 6.772
+ },
+ {
+  "text": "to",
+  "start": 6.772,
+  "end": 6.83
+ },
+ {
+  "text": "the",
+  "start": 6.83,
+  "end": 6.899
+ },
+ {
+  "text": "stars",
+  "start": 6.911,
+  "end": 7.478
+ },
+ {
+  "text": "So",
+  "start": 7.598,
+  "end": 7.771
+ },
+ {
+  "text": "which",
+  "start": 7.891,
+  "end": 8.064
+ },
+ {
+  "text": "mountain",
+  "start": 8.064,
+  "end": 8.319
+ },
+ {
+  "text": "wins",
+  "start": 8.33,
+  "end": 8.805
+ },
+ {
+  "text": "It",
+  "start": 8.975,
+  "end": 9.032
+ },
+ {
+  "text": "depends",
+  "start": 9.044,
+  "end": 9.322
+ },
+ {
+  "text": "on",
+  "start": 9.322,
+  "end": 9.391
+ },
+ {
+  "text": "the",
+  "start": 9.391,
+  "end": 9.438
+ },
+ {
+  "text": "ruler",
+  "start": 9.438,
+  "end": 9.889
+ },
+ {
+  "text": "So",
+  "start": 10.009,
+  "end": 10.09
+ },
+ {
+  "text": "we",
+  "start": 10.091,
+  "end": 10.16
+ },
+ {
+  "text": "checked",
+  "start": 10.16,
+  "end": 10.415
+ },
+ {
+  "text": "three",
+  "start": 10.426,
+  "end": 10.797
+ },
+ {
+  "text": "of",
+  "start": 10.797,
+  "end": 10.889
+ },
+ {
+  "text": "them",
+  "start": 10.901,
+  "end": 11.121
+ },
+ {
+  "text": "So",
+  "start": 11.291,
+  "end": 11.615
+ },
+ {
+  "text": "three",
+  "start": 11.735,
+  "end": 12.024
+ },
+ {
+  "text": "questions",
+  "start": 12.024,
+  "end": 12.638
+ },
+ {
+  "text": "How",
+  "start": 12.758,
+  "end": 12.862
+ },
+ {
+  "text": "tall",
+  "start": 12.862,
+  "end": 13.163
+ },
+ {
+  "text": "is",
+  "start": 13.175,
+  "end": 13.29
+ },
+ {
+  "text": "Everest",
+  "start": 13.302,
+  "end": 13.881
+ },
+ {
+  "text": "really",
+  "start": 14.001,
+  "end": 14.314
+ },
+ {
+  "text": "Which",
+  "start": 14.434,
+  "end": 14.561
+ },
+ {
+  "text": "mountain",
+  "start": 14.561,
+  "end": 14.955
+ },
+ {
+  "text": "beats",
+  "start": 15.075,
+  "end": 15.376
+ },
+ {
+  "text": "it",
+  "start": 15.387,
+  "end": 15.468
+ },
+ {
+  "text": "from",
+  "start": 15.468,
+  "end": 15.607
+ },
+ {
+  "text": "the",
+  "start": 15.607,
+  "end": 15.665
+ },
+ {
+  "text": "bottom",
+  "start": 15.677,
+  "end": 16.036
+ },
+ {
+  "text": "And",
+  "start": 16.156,
+  "end": 16.271
+ },
+ {
+  "text": "which",
+  "start": 16.271,
+  "end": 16.433
+ },
+ {
+  "text": "one",
+  "start": 16.433,
+  "end": 16.734
+ },
+ {
+  "text": "beats",
+  "start": 16.854,
+  "end": 17.178
+ },
+ {
+  "text": "it",
+  "start": 17.19,
+  "end": 17.294
+ },
+ {
+  "text": "from",
+  "start": 17.294,
+  "end": 17.421
+ },
+ {
+  "text": "the",
+  "start": 17.421,
+  "end": 17.479
+ },
+ {
+  "text": "center",
+  "start": 17.491,
+  "end": 17.791
+ },
+ {
+  "text": "of",
+  "start": 17.791,
+  "end": 17.838
+ },
+ {
+  "text": "the",
+  "start": 17.838,
+  "end": 17.907
+ },
+ {
+  "text": "Earth",
+  "start": 17.907,
+  "end": 18.278
+ },
+ {
+  "text": "First",
+  "start": 18.448,
+  "end": 18.876
+ },
+ {
+  "text": "the",
+  "start": 18.996,
+  "end": 19.077
+ },
+ {
+  "text": "number",
+  "start": 19.089,
+  "end": 19.367
+ },
+ {
+  "text": "itself",
+  "start": 19.367,
+  "end": 19.957
+ },
+ {
+  "text": "In 2020",
+  "start": 20.127,
+  "end": 20.798
+ },
+ {
+  "text": "China",
+  "start": 20.918,
+  "end": 21.243
+ },
+ {
+  "text": "and",
+  "start": 21.254,
+  "end": 21.312
+ },
+ {
+  "text": "Nepal",
+  "start": 21.312,
+  "end": 21.763
+ },
+ {
+  "text": "announced",
+  "start": 21.883,
+  "end": 22.335
+ },
+ {
+  "text": "Everest's",
+  "start": 22.404,
+  "end": 22.89
+ },
+ {
+  "text": "new",
+  "start": 22.96,
+  "end": 23.261
+ },
+ {
+  "text": "official",
+  "start": 23.272,
+  "end": 23.805
+ },
+ {
+  "text": "height",
+  "start": 23.805,
+  "end": 24.129
+ },
+ {
+  "text": "together",
+  "start": 24.187,
+  "end": 24.638
+ },
+ {
+  "text": "8,848.86",
+  "start": 24.758,
+  "end": 27.316
+ },
+ {
+  "text": "meters",
+  "start": 27.327,
+  "end": 27.813
+ },
+ {
+  "text": "According",
+  "start": 27.983,
+  "end": 28.26
+ },
+ {
+  "text": "to",
+  "start": 28.272,
+  "end": 28.318
+ },
+ {
+  "text": "Al",
+  "start": 28.318,
+  "end": 28.527
+ },
+ {
+  "text": "Jazeera",
+  "start": 28.527,
+  "end": 29.071
+ },
+ {
+  "text": "that",
+  "start": 29.191,
+  "end": 29.307
+ },
+ {
+  "text": "was",
+  "start": 29.319,
+  "end": 29.423
+ },
+ {
+  "text": "a",
+  "start": 29.423,
+  "end": 29.458
+ },
+ {
+  "text": "little",
+  "start": 29.458,
+  "end": 29.735
+ },
+ {
+  "text": "higher",
+  "start": 29.735,
+  "end": 30.083
+ },
+ {
+  "text": "than",
+  "start": 30.083,
+  "end": 30.175
+ },
+ {
+  "text": "Nepal's",
+  "start": 30.175,
+  "end": 30.638
+ },
+ {
+  "text": "old",
+  "start": 30.65,
+  "end": 30.87
+ },
+ {
+  "text": "figure",
+  "start": 30.881,
+  "end": 31.309
+ },
+ {
+  "text": "and",
+  "start": 31.429,
+  "end": 31.499
+ },
+ {
+  "text": "about",
+  "start": 31.619,
+  "end": 31.862
+ },
+ {
+  "text": "four",
+  "start": 31.874,
+  "end": 32.221
+ },
+ {
+  "text": "meters",
+  "start": 32.221,
+  "end": 32.522
+ },
+ {
+  "text": "higher",
+  "start": 32.533,
+  "end": 32.788
+ },
+ {
+  "text": "than",
+  "start": 32.788,
+  "end": 32.892
+ },
+ {
+  "text": "China's",
+  "start": 32.892,
+  "end": 33.413
+ },
+ {
+  "text": "Wait",
+  "start": 33.583,
+  "end": 33.883
+ },
+ {
+  "text": "Four",
+  "start": 34.003,
+  "end": 34.084
+ },
+ {
+  "text": "meters",
+  "start": 34.095,
+  "end": 34.616
+ },
+ {
+  "text": "For",
+  "start": 34.736,
+  "end": 34.794
+ },
+ {
+  "text": "the",
+  "start": 34.805,
+  "end": 34.852
+ },
+ {
+  "text": "most",
+  "start": 34.852,
+  "end": 35.06
+ },
+ {
+  "text": "famous",
+  "start": 35.072,
+  "end": 35.43
+ },
+ {
+  "text": "mountain",
+  "start": 35.43,
+  "end": 35.708
+ },
+ {
+  "text": "on",
+  "start": 35.72,
+  "end": 35.847
+ },
+ {
+  "text": "Earth",
+  "start": 35.847,
+  "end": 36.206
+ },
+ {
+  "text": "Measuring",
+  "start": 36.376,
+  "end": 36.792
+ },
+ {
+  "text": "it",
+  "start": 36.792,
+  "end": 36.862
+ },
+ {
+  "text": "has",
+  "start": 36.862,
+  "end": 37.058
+ },
+ {
+  "text": "never",
+  "start": 37.07,
+  "end": 37.406
+ },
+ {
+  "text": "been",
+  "start": 37.406,
+  "end": 37.533
+ },
+ {
+  "text": "simple",
+  "start": 37.533,
+  "end": 37.973
+ },
+ {
+  "text": "Let's",
+  "start": 38.093,
+  "end": 38.185
+ },
+ {
+  "text": "go",
+  "start": 38.185,
+  "end": 38.289
+ },
+ {
+  "text": "back",
+  "start": 38.289,
+  "end": 38.521
+ },
+ {
+  "text": "to",
+  "start": 38.521,
+  "end": 38.579
+ },
+ {
+  "text": "the",
+  "start": 38.579,
+  "end": 38.648
+ },
+ {
+  "text": "start",
+  "start": 38.648,
+  "end": 39.053
+ },
+ {
+  "text": "In 1849 and 1850",
+  "start": 39.223,
+  "end": 41.711
+ },
+ {
+  "text": "British",
+  "start": 41.831,
+  "end": 42.097
+ },
+ {
+  "text": "surveyors",
+  "start": 42.097,
+  "end": 42.537
+ },
+ {
+  "text": "in",
+  "start": 42.537,
+  "end": 42.607
+ },
+ {
+  "text": "India",
+  "start": 42.664,
+  "end": 43.0
+ },
+ {
+  "text": "measured",
+  "start": 43.012,
+  "end": 43.336
+ },
+ {
+  "text": "a",
+  "start": 43.336,
+  "end": 43.382
+ },
+ {
+  "text": "peak",
+  "start": 43.394,
+  "end": 43.764
+ },
+ {
+  "text": "they",
+  "start": 43.884,
+  "end": 43.988
+ },
+ {
+  "text": "called",
+  "start": 43.988,
+  "end": 44.243
+ },
+ {
+  "text": "Peak",
+  "start": 44.254,
+  "end": 44.521
+ },
+ {
+  "text": "XV",
+  "start": 44.532,
+  "end": 45.146
+ },
+ {
+  "text": "They",
+  "start": 45.316,
+  "end": 45.374
+ },
+ {
+  "text": "weren't",
+  "start": 45.374,
+  "end": 45.536
+ },
+ {
+  "text": "anywhere",
+  "start": 45.617,
+  "end": 45.964
+ },
+ {
+  "text": "near",
+  "start": 45.964,
+  "end": 46.265
+ },
+ {
+  "text": "it",
+  "start": 46.277,
+  "end": 46.427
+ },
+ {
+  "text": "According",
+  "start": 46.547,
+  "end": 46.905
+ },
+ {
+  "text": "to",
+  "start": 46.905,
+  "end": 46.963
+ },
+ {
+  "text": "the",
+  "start": 46.963,
+  "end": 47.033
+ },
+ {
+  "text": "Himalayan",
+  "start": 47.033,
+  "end": 47.438
+ },
+ {
+  "text": "Journal",
+  "start": 47.438,
+  "end": 47.808
+ },
+ {
+  "text": "they",
+  "start": 47.928,
+  "end": 48.043
+ },
+ {
+  "text": "observed",
+  "start": 48.043,
+  "end": 48.587
+ },
+ {
+  "text": "it",
+  "start": 48.599,
+  "end": 48.703
+ },
+ {
+  "text": "from",
+  "start": 48.703,
+  "end": 48.865
+ },
+ {
+  "text": "stations",
+  "start": 48.877,
+  "end": 49.432
+ },
+ {
+  "text": "on",
+  "start": 49.432,
+  "end": 49.502
+ },
+ {
+  "text": "the",
+  "start": 49.502,
+  "end": 49.56
+ },
+ {
+  "text": "plains",
+  "start": 49.56,
+  "end": 50.185
+ },
+ {
+  "text": "about",
+  "start": 50.305,
+  "end": 50.595
+ },
+ {
+  "text": "110 miles",
+  "start": 50.606,
+  "end": 51.44
+ },
+ {
+  "text": "away",
+  "start": 51.44,
+  "end": 51.81
+ },
+ {
+  "text": "From",
+  "start": 51.98,
+  "end": 52.119
+ },
+ {
+  "text": "there",
+  "start": 52.13,
+  "end": 52.454
+ },
+ {
+  "text": "Peak",
+  "start": 52.574,
+  "end": 52.794
+ },
+ {
+  "text": "XV",
+  "start": 52.806,
+  "end": 53.327
+ },
+ {
+  "text": "didn't",
+  "start": 53.442,
+  "end": 53.639
+ },
+ {
+  "text": "even",
+  "start": 53.639,
+  "end": 53.79
+ },
+ {
+  "text": "look",
+  "start": 53.79,
+  "end": 53.894
+ },
+ {
+  "text": "special",
+  "start": 53.894,
+  "end": 54.472
+ },
+ {
+  "text": "It",
+  "start": 54.592,
+  "end": 54.639
+ },
+ {
+  "text": "was",
+  "start": 54.639,
+  "end": 54.766
+ },
+ {
+  "text": "hidden",
+  "start": 54.777,
+  "end": 55.02
+ },
+ {
+  "text": "behind",
+  "start": 55.02,
+  "end": 55.402
+ },
+ {
+  "text": "lower",
+  "start": 55.402,
+  "end": 55.657
+ },
+ {
+  "text": "peaks",
+  "start": 55.657,
+  "end": 56.213
+ },
+ {
+  "text": "At",
+  "start": 56.333,
+  "end": 56.414
+ },
+ {
+  "text": "the",
+  "start": 56.414,
+  "end": 56.484
+ },
+ {
+  "text": "time",
+  "start": 56.484,
+  "end": 56.947
+ },
+ {
+  "text": "people",
+  "start": 57.067,
+  "end": 57.321
+ },
+ {
+  "text": "believed",
+  "start": 57.321,
+  "end": 57.645
+ },
+ {
+  "text": "Kanchenjunga",
+  "start": 57.645,
+  "end": 58.409
+ },
+ {
+  "text": "was",
+  "start": 58.529,
+  "end": 58.702
+ },
+ {
+  "text": "the",
+  "start": 58.714,
+  "end": 58.806
+ },
+ {
+  "text": "highest",
+  "start": 58.806,
+  "end": 59.316
+ },
+ {
+  "text": "mountain",
+  "start": 59.327,
+  "end": 59.663
+ },
+ {
+  "text": "in",
+  "start": 59.675,
+  "end": 59.732
+ },
+ {
+  "text": "the",
+  "start": 59.732,
+  "end": 59.79
+ },
+ {
+  "text": "world",
+  "start": 59.802,
+  "end": 60.195
+ },
+ {
+  "text": "Six",
+  "start": 60.365,
+  "end": 60.573
+ },
+ {
+  "text": "stations",
+  "start": 60.573,
+  "end": 61.024
+ },
+ {
+  "text": "measured",
+  "start": 61.036,
+  "end": 61.441
+ },
+ {
+  "text": "it",
+  "start": 61.453,
+  "end": 61.638
+ },
+ {
+  "text": "And",
+  "start": 61.758,
+  "end": 61.804
+ },
+ {
+  "text": "they",
+  "start": 61.804,
+  "end": 61.897
+ },
+ {
+  "text": "got",
+  "start": 61.897,
+  "end": 62.047
+ },
+ {
+  "text": "six",
+  "start": 62.047,
+  "end": 62.336
+ },
+ {
+  "text": "different",
+  "start": 62.336,
+  "end": 62.603
+ },
+ {
+  "text": "answers",
+  "start": 62.614,
+  "end": 63.135
+ },
+ {
+  "text": "28,991 feet",
+  "start": 63.305,
+  "end": 66.14
+ },
+ {
+  "text": "29,005",
+  "start": 66.26,
+  "end": 67.73
+ },
+ {
+  "text": "29,001",
+  "start": 67.85,
+  "end": 69.065
+ },
+ {
+  "text": "28,998",
+  "start": 69.185,
+  "end": 71.546
+ },
+ {
+  "text": "29,026",
+  "start": 71.666,
+  "end": 73.484
+ },
+ {
+  "text": "And",
+  "start": 73.604,
+  "end": 73.696
+ },
+ {
+  "text": "28,990",
+  "start": 73.696,
+  "end": 75.849
+ },
+ {
+  "text": "The",
+  "start": 76.019,
+  "end": 76.076
+ },
+ {
+  "text": "surveyors",
+  "start": 76.076,
+  "end": 76.632
+ },
+ {
+  "text": "took",
+  "start": 76.632,
+  "end": 76.84
+ },
+ {
+  "text": "the",
+  "start": 76.852,
+  "end": 76.979
+ },
+ {
+  "text": "average",
+  "start": 76.991,
+  "end": 77.57
+ },
+ {
+  "text": "29,002 feet",
+  "start": 77.69,
+  "end": 79.403
+ },
+ {
+  "text": "And",
+  "start": 79.573,
+  "end": 79.631
+ },
+ {
+  "text": "here's",
+  "start": 79.631,
+  "end": 79.874
+ },
+ {
+  "text": "the",
+  "start": 79.874,
+  "end": 79.932
+ },
+ {
+  "text": "hard",
+  "start": 79.932,
+  "end": 80.152
+ },
+ {
+  "text": "part",
+  "start": 80.152,
+  "end": 80.453
+ },
+ {
+  "text": "The",
+  "start": 80.573,
+  "end": 80.631
+ },
+ {
+  "text": "air",
+  "start": 80.642,
+  "end": 80.851
+ },
+ {
+  "text": "bends",
+  "start": 80.851,
+  "end": 81.105
+ },
+ {
+  "text": "light",
+  "start": 81.105,
+  "end": 81.418
+ },
+ {
+  "text": "For",
+  "start": 81.538,
+  "end": 81.7
+ },
+ {
+  "text": "Everest",
+  "start": 81.712,
+  "end": 82.36
+ },
+ {
+  "text": "the",
+  "start": 82.48,
+  "end": 82.584
+ },
+ {
+  "text": "journal",
+  "start": 82.596,
+  "end": 82.92
+ },
+ {
+  "text": "says",
+  "start": 82.92,
+  "end": 83.371
+ },
+ {
+  "text": "the",
+  "start": 83.491,
+  "end": 83.606
+ },
+ {
+  "text": "correction",
+  "start": 83.606,
+  "end": 84.046
+ },
+ {
+  "text": "for",
+  "start": 84.046,
+  "end": 84.127
+ },
+ {
+  "text": "that",
+  "start": 84.139,
+  "end": 84.359
+ },
+ {
+  "text": "bending",
+  "start": 84.359,
+  "end": 84.694
+ },
+ {
+  "text": "was",
+  "start": 84.752,
+  "end": 84.903
+ },
+ {
+  "text": "1,375 feet",
+  "start": 84.903,
+  "end": 87.171
+ },
+ {
+  "text": "It",
+  "start": 87.341,
+  "end": 87.398
+ },
+ {
+  "text": "took",
+  "start": 87.41,
+  "end": 87.56
+ },
+ {
+  "text": "until 1852",
+  "start": 87.56,
+  "end": 89.135
+ },
+ {
+  "text": "to",
+  "start": 89.255,
+  "end": 89.371
+ },
+ {
+  "text": "see",
+  "start": 89.382,
+  "end": 89.834
+ },
+ {
+  "text": "that",
+  "start": 89.845,
+  "end": 90.053
+ },
+ {
+  "text": "Peak",
+  "start": 90.065,
+  "end": 90.32
+ },
+ {
+  "text": "XV",
+  "start": 90.331,
+  "end": 90.933
+ },
+ {
+  "text": "was",
+  "start": 91.053,
+  "end": 91.215
+ },
+ {
+  "text": "higher",
+  "start": 91.215,
+  "end": 91.689
+ },
+ {
+  "text": "than",
+  "start": 91.689,
+  "end": 91.874
+ },
+ {
+  "text": "anything",
+  "start": 91.944,
+  "end": 92.291
+ },
+ {
+  "text": "else",
+  "start": 92.291,
+  "end": 92.476
+ },
+ {
+  "text": "measured",
+  "start": 92.476,
+  "end": 92.858
+ },
+ {
+  "text": "Only",
+  "start": 92.978,
+  "end": 93.175
+ },
+ {
+  "text": "in 1865",
+  "start": 93.187,
+  "end": 94.332
+ },
+ {
+  "text": "was",
+  "start": 94.344,
+  "end": 94.483
+ },
+ {
+  "text": "the",
+  "start": 94.494,
+  "end": 94.564
+ },
+ {
+  "text": "figure",
+  "start": 94.564,
+  "end": 94.911
+ },
+ {
+  "text": "accepted",
+  "start": 94.911,
+  "end": 95.501
+ },
+ {
+  "text": "as",
+  "start": 95.621,
+  "end": 95.795
+ },
+ {
+  "text": "reliable",
+  "start": 95.806,
+  "end": 96.443
+ },
+ {
+  "text": "And",
+  "start": 96.563,
+  "end": 96.621
+ },
+ {
+  "text": "the",
+  "start": 96.621,
+  "end": 96.702
+ },
+ {
+  "text": "peak",
+  "start": 96.714,
+  "end": 97.003
+ },
+ {
+  "text": "was",
+  "start": 97.015,
+  "end": 97.211
+ },
+ {
+  "text": "named",
+  "start": 97.211,
+  "end": 97.64
+ },
+ {
+  "text": "after",
+  "start": 97.651,
+  "end": 97.917
+ },
+ {
+  "text": "Sir",
+  "start": 97.917,
+  "end": 98.299
+ },
+ {
+  "text": "George",
+  "start": 98.419,
+  "end": 98.825
+ },
+ {
+  "text": "Everest",
+  "start": 98.945,
+  "end": 99.547
+ },
+ {
+  "text": "who",
+  "start": 99.667,
+  "end": 99.725
+ },
+ {
+  "text": "had",
+  "start": 99.725,
+  "end": 99.841
+ },
+ {
+  "text": "retired",
+  "start": 99.852,
+  "end": 100.361
+ },
+ {
+  "text": "from",
+  "start": 100.373,
+  "end": 100.477
+ },
+ {
+  "text": "the",
+  "start": 100.477,
+  "end": 100.524
+ },
+ {
+  "text": "survey",
+  "start": 100.535,
+  "end": 100.882
+ },
+ {
+  "text": "years",
+  "start": 100.894,
+  "end": 101.253
+ },
+ {
+  "text": "earlier",
+  "start": 101.253,
+  "end": 101.716
+ },
+ {
+  "text": "Then",
+  "start": 101.886,
+  "end": 102.186
+ },
+ {
+  "text": "in",
+  "start": 102.306,
+  "end": 102.399
+ },
+ {
+  "text": "the",
+  "start": 102.399,
+  "end": 102.48
+ },
+ {
+  "text": "early",
+  "start": 102.491,
+  "end": 102.711
+ },
+ {
+  "text": "1950s",
+  "start": 102.711,
+  "end": 103.788
+ },
+ {
+  "text": "the",
+  "start": 103.908,
+  "end": 104.013
+ },
+ {
+  "text": "Survey",
+  "start": 104.013,
+  "end": 104.499
+ },
+ {
+  "text": "of",
+  "start": 104.499,
+  "end": 104.568
+ },
+ {
+  "text": "India",
+  "start": 104.58,
+  "end": 104.915
+ },
+ {
+  "text": "came",
+  "start": 104.927,
+  "end": 105.17
+ },
+ {
+  "text": "up",
+  "start": 105.17,
+  "end": 105.297
+ },
+ {
+  "text": "with",
+  "start": 105.297,
+  "end": 105.436
+ },
+ {
+  "text": "8,848",
+  "start": 105.556,
+  "end": 107.35
+ },
+ {
+  "text": "meters",
+  "start": 107.35,
+  "end": 107.836
+ },
+ {
+  "text": "That",
+  "start": 107.956,
+  "end": 108.072
+ },
+ {
+  "text": "number",
+  "start": 108.072,
+  "end": 108.303
+ },
+ {
+  "text": "stuck",
+  "start": 108.303,
+  "end": 108.604
+ },
+ {
+  "text": "for",
+  "start": 108.604,
+  "end": 108.743
+ },
+ {
+  "text": "decades",
+  "start": 108.743,
+  "end": 109.438
+ },
+ {
+  "text": "But",
+  "start": 109.608,
+  "end": 109.666
+ },
+ {
+  "text": "not",
+  "start": 109.666,
+  "end": 109.909
+ },
+ {
+  "text": "everywhere",
+  "start": 109.909,
+  "end": 110.453
+ },
+ {
+  "text": "In 2007",
+  "start": 110.573,
+  "end": 111.742
+ },
+ {
+  "text": "NPR",
+  "start": 111.862,
+  "end": 112.487
+ },
+ {
+  "text": "said",
+  "start": 112.607,
+  "end": 112.884
+ },
+ {
+  "text": "Everest",
+  "start": 112.896,
+  "end": 113.417
+ },
+ {
+  "text": "was",
+  "start": 113.428,
+  "end": 113.544
+ },
+ {
+  "text": "29,035 feet",
+  "start": 113.544,
+  "end": 115.709
+ },
+ {
+  "text": "That's",
+  "start": 115.829,
+  "end": 115.933
+ },
+ {
+  "text": "about",
+  "start": 115.933,
+  "end": 116.153
+ },
+ {
+  "text": "8,850",
+  "start": 116.273,
+  "end": 117.917
+ },
+ {
+  "text": "meters",
+  "start": 117.917,
+  "end": 118.472
+ },
+ {
+  "text": "And",
+  "start": 118.642,
+  "end": 118.746
+ },
+ {
+  "text": "after",
+  "start": 118.746,
+  "end": 119.035
+ },
+ {
+  "text": "a",
+  "start": 119.035,
+  "end": 119.139
+ },
+ {
+  "text": "big",
+  "start": 119.22,
+  "end": 119.51
+ },
+ {
+  "text": "earthquake",
+  "start": 119.614,
+  "end": 120.158
+ },
+ {
+  "text": "in 2015",
+  "start": 120.169,
+  "end": 121.327
+ },
+ {
+  "text": "Al",
+  "start": 121.447,
+  "end": 121.644
+ },
+ {
+  "text": "Jazeera",
+  "start": 121.644,
+  "end": 122.049
+ },
+ {
+  "text": "reports",
+  "start": 122.049,
+  "end": 122.674
+ },
+ {
+  "text": "people",
+  "start": 122.794,
+  "end": 123.13
+ },
+ {
+  "text": "wondered",
+  "start": 123.142,
+  "end": 123.5
+ },
+ {
+  "text": "if",
+  "start": 123.5,
+  "end": 123.581
+ },
+ {
+  "text": "the",
+  "start": 123.593,
+  "end": 123.651
+ },
+ {
+  "text": "mountain",
+  "start": 123.651,
+  "end": 124.021
+ },
+ {
+  "text": "had",
+  "start": 124.021,
+  "end": 124.16
+ },
+ {
+  "text": "changed",
+  "start": 124.16,
+  "end": 124.53
+ },
+ {
+  "text": "height",
+  "start": 124.53,
+  "end": 124.901
+ },
+ {
+  "text": "Nepal",
+  "start": 125.071,
+  "end": 125.441
+ },
+ {
+  "text": "sent",
+  "start": 125.441,
+  "end": 125.672
+ },
+ {
+  "text": "its",
+  "start": 125.684,
+  "end": 125.811
+ },
+ {
+  "text": "own",
+  "start": 125.931,
+  "end": 126.174
+ },
+ {
+  "text": "team",
+  "start": 126.174,
+  "end": 126.648
+ },
+ {
+  "text": "to",
+  "start": 126.718,
+  "end": 126.822
+ },
+ {
+  "text": "the",
+  "start": 126.822,
+  "end": 126.903
+ },
+ {
+  "text": "summit",
+  "start": 126.903,
+  "end": 127.215
+ },
+ {
+  "text": "in 2019",
+  "start": 127.227,
+  "end": 128.28
+ },
+ {
+  "text": "the",
+  "start": 128.4,
+  "end": 128.481
+ },
+ {
+  "text": "first",
+  "start": 128.493,
+  "end": 128.736
+ },
+ {
+  "text": "time",
+  "start": 128.747,
+  "end": 128.979
+ },
+ {
+  "text": "it",
+  "start": 128.99,
+  "end": 129.071
+ },
+ {
+  "text": "measured",
+  "start": 129.083,
+  "end": 129.476
+ },
+ {
+  "text": "the",
+  "start": 129.476,
+  "end": 129.523
+ },
+ {
+  "text": "mountain",
+  "start": 129.523,
+  "end": 129.951
+ },
+ {
+  "text": "on",
+  "start": 129.962,
+  "end": 130.09
+ },
+ {
+  "text": "its",
+  "start": 130.101,
+  "end": 130.229
+ },
+ {
+  "text": "own",
+  "start": 130.229,
+  "end": 130.472
+ },
+ {
+  "text": "China",
+  "start": 130.592,
+  "end": 130.858
+ },
+ {
+  "text": "sent",
+  "start": 130.858,
+  "end": 131.112
+ },
+ {
+  "text": "one",
+  "start": 131.112,
+  "end": 131.448
+ },
+ {
+  "text": "in 2020",
+  "start": 131.568,
+  "end": 132.332
+ },
+ {
+  "text": "Result",
+  "start": 132.502,
+  "end": 132.861
+ },
+ {
+  "text": "8,848.86",
+  "start": 132.981,
+  "end": 135.7
+ },
+ {
+  "text": "meters",
+  "start": 135.7,
+  "end": 136.187
+ },
+ {
+  "text": "Settled",
+  "start": 136.307,
+  "end": 136.666
+ },
+ {
+  "text": "at",
+  "start": 136.689,
+  "end": 136.794
+ },
+ {
+  "text": "least",
+  "start": 136.805,
+  "end": 136.979
+ },
+ {
+  "text": "for",
+  "start": 136.979,
+  "end": 137.06
+ },
+ {
+  "text": "now",
+  "start": 137.071,
+  "end": 137.43
+ },
+ {
+  "text": "So",
+  "start": 137.6,
+  "end": 137.843
+ },
+ {
+  "text": "Everest",
+  "start": 137.854,
+  "end": 138.444
+ },
+ {
+  "text": "is",
+  "start": 138.564,
+  "end": 138.633
+ },
+ {
+  "text": "the",
+  "start": 138.645,
+  "end": 138.714
+ },
+ {
+  "text": "highest",
+  "start": 138.715,
+  "end": 139.143
+ },
+ {
+  "text": "point",
+  "start": 139.143,
+  "end": 139.548
+ },
+ {
+  "text": "above",
+  "start": 139.668,
+  "end": 139.923
+ },
+ {
+  "text": "sea",
+  "start": 139.923,
+  "end": 140.131
+ },
+ {
+  "text": "level",
+  "start": 140.143,
+  "end": 140.559
+ },
+ {
+  "text": "NOAA",
+  "start": 140.679,
+  "end": 140.899
+ },
+ {
+  "text": "agrees",
+  "start": 140.911,
+  "end": 141.478
+ },
+ {
+  "text": "But",
+  "start": 141.648,
+  "end": 141.879
+ },
+ {
+  "text": "highest",
+  "start": 141.999,
+  "end": 142.601
+ },
+ {
+  "text": "and",
+  "start": 142.721,
+  "end": 142.917
+ },
+ {
+  "text": "tallest",
+  "start": 142.929,
+  "end": 143.496
+ },
+ {
+  "text": "aren't",
+  "start": 143.508,
+  "end": 143.704
+ },
+ {
+  "text": "the",
+  "start": 143.704,
+  "end": 143.762
+ },
+ {
+  "text": "same",
+  "start": 143.762,
+  "end": 144.04
+ },
+ {
+  "text": "question",
+  "start": 144.04,
+  "end": 144.515
+ },
+ {
+  "text": "Part",
+  "start": 144.685,
+  "end": 144.859
+ },
+ {
+  "text": "two",
+  "start": 144.859,
+  "end": 145.16
+ },
+ {
+  "text": "From",
+  "start": 145.28,
+  "end": 145.384
+ },
+ {
+  "text": "the",
+  "start": 145.384,
+  "end": 145.442
+ },
+ {
+  "text": "bottom",
+  "start": 145.454,
+  "end": 145.801
+ },
+ {
+  "text": "What",
+  "start": 145.971,
+  "end": 146.052
+ },
+ {
+  "text": "if",
+  "start": 146.052,
+  "end": 146.11
+ },
+ {
+  "text": "you",
+  "start": 146.121,
+  "end": 146.19
+ },
+ {
+  "text": "measure",
+  "start": 146.202,
+  "end": 146.48
+ },
+ {
+  "text": "a",
+  "start": 146.48,
+  "end": 146.515
+ },
+ {
+  "text": "mountain",
+  "start": 146.515,
+  "end": 146.92
+ },
+ {
+  "text": "from",
+  "start": 146.92,
+  "end": 147.059
+ },
+ {
+  "text": "its",
+  "start": 147.059,
+  "end": 147.151
+ },
+ {
+  "text": "base",
+  "start": 147.163,
+  "end": 147.614
+ },
+ {
+  "text": "not",
+  "start": 147.734,
+  "end": 147.942
+ },
+ {
+  "text": "from",
+  "start": 147.942,
+  "end": 148.07
+ },
+ {
+  "text": "the",
+  "start": 148.07,
+  "end": 148.139
+ },
+ {
+  "text": "sea",
+  "start": 148.139,
+  "end": 148.521
+ },
+ {
+  "text": "NOAA's",
+  "start": 148.691,
+  "end": 149.004
+ },
+ {
+  "text": "answer",
+  "start": 149.004,
+  "end": 149.409
+ },
+ {
+  "text": "the",
+  "start": 149.529,
+  "end": 149.599
+ },
+ {
+  "text": "tallest",
+  "start": 149.61,
+  "end": 149.992
+ },
+ {
+  "text": "mountain",
+  "start": 150.004,
+  "end": 150.235
+ },
+ {
+  "text": "on",
+  "start": 150.235,
+  "end": 150.374
+ },
+ {
+  "text": "Earth",
+  "start": 150.386,
+  "end": 150.687
+ },
+ {
+  "text": "is",
+  "start": 150.802,
+  "end": 150.941
+ },
+ {
+  "text": "Mauna",
+  "start": 150.941,
+  "end": 151.393
+ },
+ {
+  "text": "Kea",
+  "start": 151.393,
+  "end": 151.774
+ },
+ {
+  "text": "a",
+  "start": 151.894,
+  "end": 151.964
+ },
+ {
+  "text": "volcano",
+  "start": 151.964,
+  "end": 152.693
+ },
+ {
+  "text": "in",
+  "start": 152.705,
+  "end": 152.786
+ },
+ {
+  "text": "Hawaii",
+  "start": 152.786,
+  "end": 153.341
+ },
+ {
+  "text": "Above",
+  "start": 153.511,
+  "end": 153.765
+ },
+ {
+  "text": "the",
+  "start": 153.777,
+  "end": 153.846
+ },
+ {
+  "text": "water",
+  "start": 153.846,
+  "end": 154.275
+ },
+ {
+  "text": "it's",
+  "start": 154.395,
+  "end": 154.5
+ },
+ {
+  "text": "only",
+  "start": 154.511,
+  "end": 154.754
+ },
+ {
+  "text": "about",
+  "start": 154.754,
+  "end": 154.997
+ },
+ {
+  "text": "4,200",
+  "start": 154.997,
+  "end": 156.131
+ },
+ {
+  "text": "meters",
+  "start": 156.143,
+  "end": 156.629
+ },
+ {
+  "text": "But",
+  "start": 156.799,
+  "end": 156.88
+ },
+ {
+  "text": "it",
+  "start": 156.88,
+  "end": 156.949
+ },
+ {
+  "text": "starts",
+  "start": 156.961,
+  "end": 157.273
+ },
+ {
+  "text": "deep",
+  "start": 157.319,
+  "end": 157.62
+ },
+ {
+  "text": "under",
+  "start": 157.74,
+  "end": 157.891
+ },
+ {
+  "text": "the",
+  "start": 157.891,
+  "end": 157.96
+ },
+ {
+  "text": "Pacific",
+  "start": 157.972,
+  "end": 158.562
+ },
+ {
+  "text": "NOAA",
+  "start": 158.682,
+  "end": 158.972
+ },
+ {
+  "text": "says",
+  "start": 159.092,
+  "end": 159.323
+ },
+ {
+  "text": "it",
+  "start": 159.323,
+  "end": 159.427
+ },
+ {
+  "text": "rises",
+  "start": 159.439,
+  "end": 159.902
+ },
+ {
+  "text": "more",
+  "start": 159.902,
+  "end": 160.226
+ },
+ {
+  "text": "than",
+  "start": 160.226,
+  "end": 160.388
+ },
+ {
+  "text": "10,210",
+  "start": 160.481,
+  "end": 161.95
+ },
+ {
+  "text": "meters",
+  "start": 161.962,
+  "end": 162.263
+ },
+ {
+  "text": "from",
+  "start": 162.275,
+  "end": 162.425
+ },
+ {
+  "text": "base",
+  "start": 162.425,
+  "end": 162.853
+ },
+ {
+  "text": "to",
+  "start": 162.865,
+  "end": 162.946
+ },
+ {
+  "text": "peak",
+  "start": 162.957,
+  "end": 163.374
+ },
+ {
+  "text": "That's",
+  "start": 163.544,
+  "end": 163.671
+ },
+ {
+  "text": "more",
+  "start": 163.683,
+  "end": 163.868
+ },
+ {
+  "text": "than",
+  "start": 163.868,
+  "end": 163.96
+ },
+ {
+  "text": "a",
+  "start": 163.96,
+  "end": 164.018
+ },
+ {
+  "text": "kilometer",
+  "start": 164.018,
+  "end": 164.562
+ },
+ {
+  "text": "taller",
+  "start": 164.574,
+  "end": 164.956
+ },
+ {
+  "text": "than",
+  "start": 164.956,
+  "end": 165.083
+ },
+ {
+  "text": "Everest's",
+  "start": 165.094,
+  "end": 165.615
+ },
+ {
+  "text": "8,849",
+  "start": 165.735,
+  "end": 167.68
+ },
+ {
+  "text": "So",
+  "start": 167.85,
+  "end": 168.081
+ },
+ {
+  "text": "Everest",
+  "start": 168.201,
+  "end": 168.618
+ },
+ {
+  "text": "loses",
+  "start": 168.618,
+  "end": 169.185
+ },
+ {
+  "text": "Not",
+  "start": 169.305,
+  "end": 169.432
+ },
+ {
+  "text": "so",
+  "start": 169.432,
+  "end": 169.664
+ },
+ {
+  "text": "fast",
+  "start": 169.675,
+  "end": 170.219
+ },
+ {
+  "text": "Here's",
+  "start": 170.389,
+  "end": 170.574
+ },
+ {
+  "text": "the",
+  "start": 170.585,
+  "end": 170.655
+ },
+ {
+  "text": "catch",
+  "start": 170.667,
+  "end": 171.118
+ },
+ {
+  "text": "Where",
+  "start": 171.238,
+  "end": 171.377
+ },
+ {
+  "text": "exactly",
+  "start": 171.377,
+  "end": 172.094
+ },
+ {
+  "text": "is",
+  "start": 172.214,
+  "end": 172.353
+ },
+ {
+  "text": "the",
+  "start": 172.353,
+  "end": 172.468
+ },
+ {
+  "text": "base",
+  "start": 172.572,
+  "end": 172.897
+ },
+ {
+  "text": "of",
+  "start": 172.908,
+  "end": 172.943
+ },
+ {
+  "text": "a",
+  "start": 172.943,
+  "end": 172.978
+ },
+ {
+  "text": "mountain",
+  "start": 172.989,
+  "end": 173.44
+ },
+ {
+  "text": "According",
+  "start": 173.61,
+  "end": 174.003
+ },
+ {
+  "text": "to",
+  "start": 174.003,
+  "end": 174.096
+ },
+ {
+  "text": "Wikipedia's",
+  "start": 174.096,
+  "end": 174.779
+ },
+ {
+  "text": "summary",
+  "start": 174.779,
+  "end": 175.23
+ },
+ {
+  "text": "of",
+  "start": 175.23,
+  "end": 175.299
+ },
+ {
+  "text": "the",
+  "start": 175.299,
+  "end": 175.357
+ },
+ {
+  "text": "sources",
+  "start": 175.357,
+  "end": 175.994
+ },
+ {
+  "text": "the",
+  "start": 176.114,
+  "end": 176.218
+ },
+ {
+  "text": "answers",
+  "start": 176.218,
+  "end": 176.612
+ },
+ {
+  "text": "range",
+  "start": 176.612,
+  "end": 176.959
+ },
+ {
+  "text": "from",
+  "start": 176.959,
+  "end": 177.098
+ },
+ {
+  "text": "9,966",
+  "start": 177.098,
+  "end": 178.926
+ },
+ {
+  "text": "meters",
+  "start": 178.938,
+  "end": 179.366
+ },
+ {
+  "text": "measured",
+  "start": 179.486,
+  "end": 179.833
+ },
+ {
+  "text": "to",
+  "start": 179.833,
+  "end": 179.891
+ },
+ {
+  "text": "the",
+  "start": 179.891,
+  "end": 180.03
+ },
+ {
+  "text": "deepest",
+  "start": 180.15,
+  "end": 180.521
+ },
+ {
+  "text": "point",
+  "start": 180.521,
+  "end": 180.833
+ },
+ {
+  "text": "of",
+  "start": 180.845,
+  "end": 180.903
+ },
+ {
+  "text": "the",
+  "start": 180.903,
+  "end": 180.96
+ },
+ {
+  "text": "trench",
+  "start": 180.96,
+  "end": 181.354
+ },
+ {
+  "text": "around",
+  "start": 181.435,
+  "end": 181.713
+ },
+ {
+  "text": "Hawaii",
+  "start": 181.713,
+  "end": 182.222
+ },
+ {
+  "text": "to",
+  "start": 182.342,
+  "end": 182.423
+ },
+ {
+  "text": "17,205",
+  "start": 182.423,
+  "end": 184.136
+ },
+ {
+  "text": "meters",
+  "start": 184.136,
+  "end": 184.611
+ },
+ {
+  "text": "measured",
+  "start": 184.731,
+  "end": 185.125
+ },
+ {
+  "text": "to",
+  "start": 185.125,
+  "end": 185.183
+ },
+ {
+  "text": "the",
+  "start": 185.183,
+  "end": 185.264
+ },
+ {
+  "text": "root",
+  "start": 185.275,
+  "end": 185.588
+ },
+ {
+  "text": "of",
+  "start": 185.703,
+  "end": 185.796
+ },
+ {
+  "text": "the",
+  "start": 185.796,
+  "end": 185.866
+ },
+ {
+  "text": "mountain",
+  "start": 185.877,
+  "end": 186.398
+ },
+ {
+  "text": "deep",
+  "start": 186.479,
+  "end": 186.699
+ },
+ {
+  "text": "underground",
+  "start": 186.78,
+  "end": 187.335
+ },
+ {
+  "text": "And",
+  "start": 187.505,
+  "end": 187.632
+ },
+ {
+  "text": "Mauna",
+  "start": 187.632,
+  "end": 187.933
+ },
+ {
+  "text": "Kea",
+  "start": 187.933,
+  "end": 188.384
+ },
+ {
+  "text": "is",
+  "start": 188.504,
+  "end": 188.642
+ },
+ {
+  "text": "so",
+  "start": 188.654,
+  "end": 188.99
+ },
+ {
+  "text": "heavy",
+  "start": 188.99,
+  "end": 189.429
+ },
+ {
+  "text": "that",
+  "start": 189.441,
+  "end": 189.742
+ },
+ {
+  "text": "together",
+  "start": 189.862,
+  "end": 190.244
+ },
+ {
+  "text": "with",
+  "start": 190.244,
+  "end": 190.348
+ },
+ {
+  "text": "its",
+  "start": 190.36,
+  "end": 190.475
+ },
+ {
+  "text": "neighbor",
+  "start": 190.475,
+  "end": 190.753
+ },
+ {
+  "text": "Mauna",
+  "start": 190.753,
+  "end": 191.077
+ },
+ {
+  "text": "Loa",
+  "start": 191.077,
+  "end": 191.471
+ },
+ {
+  "text": "it",
+  "start": 191.591,
+  "end": 191.683
+ },
+ {
+  "text": "pushes",
+  "start": 191.695,
+  "end": 192.019
+ },
+ {
+  "text": "the",
+  "start": 192.019,
+  "end": 192.123
+ },
+ {
+  "text": "ocean",
+  "start": 192.181,
+  "end": 192.54
+ },
+ {
+  "text": "floor",
+  "start": 192.54,
+  "end": 192.852
+ },
+ {
+  "text": "down",
+  "start": 192.864,
+  "end": 193.199
+ },
+ {
+  "text": "by",
+  "start": 193.199,
+  "end": 193.384
+ },
+ {
+  "text": "about",
+  "start": 193.384,
+  "end": 193.616
+ },
+ {
+  "text": "six",
+  "start": 193.628,
+  "end": 193.894
+ },
+ {
+  "text": "kilometers",
+  "start": 193.905,
+  "end": 194.588
+ },
+ {
+  "text": "So",
+  "start": 194.758,
+  "end": 195.128
+ },
+ {
+  "text": "tallest",
+  "start": 195.248,
+  "end": 195.722
+ },
+ {
+  "text": "depends",
+  "start": 195.734,
+  "end": 196.035
+ },
+ {
+  "text": "on",
+  "start": 196.035,
+  "end": 196.139
+ },
+ {
+  "text": "where",
+  "start": 196.139,
+  "end": 196.231
+ },
+ {
+  "text": "you",
+  "start": 196.231,
+  "end": 196.301
+ },
+ {
+  "text": "start",
+  "start": 196.301,
+  "end": 196.555
+ },
+ {
+  "text": "counting",
+  "start": 196.567,
+  "end": 196.96
+ },
+ {
+  "text": "Using",
+  "start": 197.08,
+  "end": 197.335
+ },
+ {
+  "text": "NOAA's",
+  "start": 197.346,
+  "end": 197.682
+ },
+ {
+  "text": "figure",
+  "start": 197.693,
+  "end": 198.133
+ },
+ {
+  "text": "Mauna",
+  "start": 198.253,
+  "end": 198.519
+ },
+ {
+  "text": "Kea",
+  "start": 198.519,
+  "end": 198.832
+ },
+ {
+  "text": "wins",
+  "start": 198.832,
+  "end": 199.422
+ },
+ {
+  "text": "And",
+  "start": 199.592,
+  "end": 199.626
+ },
+ {
+  "text": "there's",
+  "start": 199.626,
+  "end": 199.742
+ },
+ {
+  "text": "a",
+  "start": 199.742,
+  "end": 199.788
+ },
+ {
+  "text": "third",
+  "start": 199.8,
+  "end": 200.251
+ },
+ {
+  "text": "ruler",
+  "start": 200.251,
+  "end": 200.668
+ },
+ {
+  "text": "Part",
+  "start": 200.838,
+  "end": 200.988
+ },
+ {
+  "text": "three",
+  "start": 201.0,
+  "end": 201.393
+ },
+ {
+  "text": "From",
+  "start": 201.513,
+  "end": 201.594
+ },
+ {
+  "text": "the",
+  "start": 201.595,
+  "end": 201.652
+ },
+ {
+  "text": "center",
+  "start": 201.664,
+  "end": 202.011
+ },
+ {
+  "text": "of",
+  "start": 202.011,
+  "end": 202.081
+ },
+ {
+  "text": "the",
+  "start": 202.092,
+  "end": 202.162
+ },
+ {
+  "text": "Earth",
+  "start": 202.162,
+  "end": 202.52
+ },
+ {
+  "text": "The",
+  "start": 202.69,
+  "end": 202.759
+ },
+ {
+  "text": "Earth",
+  "start": 202.759,
+  "end": 202.968
+ },
+ {
+  "text": "isn't",
+  "start": 202.968,
+  "end": 203.13
+ },
+ {
+  "text": "a",
+  "start": 203.13,
+  "end": 203.165
+ },
+ {
+  "text": "perfect",
+  "start": 203.165,
+  "end": 203.616
+ },
+ {
+  "text": "ball",
+  "start": 203.616,
+  "end": 203.952
+ },
+ {
+  "text": "It",
+  "start": 204.072,
+  "end": 204.141
+ },
+ {
+  "text": "spins",
+  "start": 204.141,
+  "end": 204.754
+ },
+ {
+  "text": "and",
+  "start": 204.754,
+  "end": 204.835
+ },
+ {
+  "text": "it",
+  "start": 204.835,
+  "end": 204.997
+ },
+ {
+  "text": "bulges",
+  "start": 205.009,
+  "end": 205.414
+ },
+ {
+  "text": "at",
+  "start": 205.414,
+  "end": 205.472
+ },
+ {
+  "text": "the",
+  "start": 205.472,
+  "end": 205.541
+ },
+ {
+  "text": "equator",
+  "start": 205.541,
+  "end": 206.097
+ },
+ {
+  "text": "Sea",
+  "start": 206.267,
+  "end": 206.452
+ },
+ {
+  "text": "level",
+  "start": 206.452,
+  "end": 206.753
+ },
+ {
+  "text": "at",
+  "start": 206.753,
+  "end": 206.811
+ },
+ {
+  "text": "the",
+  "start": 206.811,
+  "end": 206.88
+ },
+ {
+  "text": "equator",
+  "start": 206.892,
+  "end": 207.493
+ },
+ {
+  "text": "is",
+  "start": 207.609,
+  "end": 207.713
+ },
+ {
+  "text": "about",
+  "start": 207.713,
+  "end": 207.98
+ },
+ {
+  "text": "21",
+  "start": 207.98,
+  "end": 208.489
+ },
+ {
+  "text": "kilometers",
+  "start": 208.489,
+  "end": 209.033
+ },
+ {
+  "text": "farther",
+  "start": 209.044,
+  "end": 209.484
+ },
+ {
+  "text": "from",
+  "start": 209.484,
+  "end": 209.635
+ },
+ {
+  "text": "Earth's",
+  "start": 209.635,
+  "end": 209.831
+ },
+ {
+  "text": "center",
+  "start": 209.843,
+  "end": 210.156
+ },
+ {
+  "text": "than",
+  "start": 210.276,
+  "end": 210.392
+ },
+ {
+  "text": "sea",
+  "start": 210.403,
+  "end": 210.693
+ },
+ {
+  "text": "level",
+  "start": 210.693,
+  "end": 211.086
+ },
+ {
+  "text": "at",
+  "start": 211.086,
+  "end": 211.156
+ },
+ {
+  "text": "the",
+  "start": 211.167,
+  "end": 211.225
+ },
+ {
+  "text": "poles",
+  "start": 211.225,
+  "end": 211.827
+ },
+ {
+  "text": "That's",
+  "start": 211.947,
+  "end": 212.063
+ },
+ {
+  "text": "by",
+  "start": 212.063,
+  "end": 212.179
+ },
+ {
+  "text": "the",
+  "start": 212.19,
+  "end": 212.271
+ },
+ {
+  "text": "standard",
+  "start": 212.271,
+  "end": 212.642
+ },
+ {
+  "text": "model",
+  "start": 212.653,
+  "end": 213.035
+ },
+ {
+  "text": "of",
+  "start": 213.047,
+  "end": 213.116
+ },
+ {
+  "text": "the",
+  "start": 213.116,
+  "end": 213.186
+ },
+ {
+  "text": "Earth's",
+  "start": 213.186,
+  "end": 213.475
+ },
+ {
+  "text": "shape",
+  "start": 213.475,
+  "end": 213.892
+ },
+ {
+  "text": "So",
+  "start": 214.062,
+  "end": 214.177
+ },
+ {
+  "text": "a",
+  "start": 214.177,
+  "end": 214.2
+ },
+ {
+  "text": "mountain",
+  "start": 214.201,
+  "end": 214.501
+ },
+ {
+  "text": "near",
+  "start": 214.513,
+  "end": 214.744
+ },
+ {
+  "text": "the",
+  "start": 214.744,
+  "end": 214.814
+ },
+ {
+  "text": "equator",
+  "start": 214.814,
+  "end": 215.404
+ },
+ {
+  "text": "gets",
+  "start": 215.524,
+  "end": 215.686
+ },
+ {
+  "text": "a",
+  "start": 215.698,
+  "end": 215.721
+ },
+ {
+  "text": "head",
+  "start": 215.721,
+  "end": 215.952
+ },
+ {
+  "text": "start",
+  "start": 215.952,
+  "end": 216.311
+ },
+ {
+  "text": "Meet",
+  "start": 216.481,
+  "end": 216.701
+ },
+ {
+  "text": "Chimborazo",
+  "start": 216.712,
+  "end": 217.604
+ },
+ {
+  "text": "a",
+  "start": 217.724,
+  "end": 217.782
+ },
+ {
+  "text": "volcano",
+  "start": 217.793,
+  "end": 218.557
+ },
+ {
+  "text": "in",
+  "start": 218.569,
+  "end": 218.685
+ },
+ {
+  "text": "Ecuador",
+  "start": 218.696,
+  "end": 219.252
+ },
+ {
+  "text": "just",
+  "start": 219.372,
+  "end": 219.569
+ },
+ {
+  "text": "one",
+  "start": 219.581,
+  "end": 219.812
+ },
+ {
+  "text": "degree",
+  "start": 219.812,
+  "end": 220.171
+ },
+ {
+  "text": "south",
+  "start": 220.171,
+  "end": 220.53
+ },
+ {
+  "text": "of",
+  "start": 220.53,
+  "end": 220.576
+ },
+ {
+  "text": "the",
+  "start": 220.576,
+  "end": 220.622
+ },
+ {
+  "text": "equator",
+  "start": 220.622,
+  "end": 221.166
+ },
+ {
+  "text": "It's",
+  "start": 221.336,
+  "end": 221.463
+ },
+ {
+  "text": "6,263",
+  "start": 221.463,
+  "end": 223.535
+ },
+ {
+  "text": "meters",
+  "start": 223.547,
+  "end": 224.114
+ },
+ {
+  "text": "above",
+  "start": 224.234,
+  "end": 224.546
+ },
+ {
+  "text": "sea",
+  "start": 224.546,
+  "end": 224.754
+ },
+ {
+  "text": "level",
+  "start": 224.754,
+  "end": 225.16
+ },
+ {
+  "text": "More",
+  "start": 225.28,
+  "end": 225.454
+ },
+ {
+  "text": "than",
+  "start": 225.454,
+  "end": 225.57
+ },
+ {
+  "text": "two",
+  "start": 225.57,
+  "end": 225.801
+ },
+ {
+  "text": "and",
+  "start": 225.813,
+  "end": 225.859
+ },
+ {
+  "text": "a",
+  "start": 225.859,
+  "end": 225.894
+ },
+ {
+  "text": "half",
+  "start": 225.894,
+  "end": 226.206
+ },
+ {
+  "text": "kilometers",
+  "start": 226.206,
+  "end": 226.854
+ },
+ {
+  "text": "lower",
+  "start": 226.901,
+  "end": 227.329
+ },
+ {
+  "text": "than",
+  "start": 227.341,
+  "end": 227.456
+ },
+ {
+  "text": "Everest",
+  "start": 227.468,
+  "end": 228.081
+ },
+ {
+  "text": "But",
+  "start": 228.251,
+  "end": 228.366
+ },
+ {
+  "text": "measured",
+  "start": 228.366,
+  "end": 228.725
+ },
+ {
+  "text": "from",
+  "start": 228.725,
+  "end": 228.829
+ },
+ {
+  "text": "the",
+  "start": 228.829,
+  "end": 228.887
+ },
+ {
+  "text": "center",
+  "start": 228.887,
+  "end": 229.188
+ },
+ {
+  "text": "of",
+  "start": 229.188,
+  "end": 229.234
+ },
+ {
+  "text": "the",
+  "start": 229.234,
+  "end": 229.315
+ },
+ {
+  "text": "Earth",
+  "start": 229.315,
+  "end": 229.709
+ },
+ {
+  "text": "NOAA",
+  "start": 229.829,
+  "end": 230.223
+ },
+ {
+  "text": "says",
+  "start": 230.223,
+  "end": 230.57
+ },
+ {
+  "text": "Chimborazo's",
+  "start": 230.674,
+  "end": 231.403
+ },
+ {
+  "text": "summit",
+  "start": 231.415,
+  "end": 231.727
+ },
+ {
+  "text": "is",
+  "start": 231.847,
+  "end": 231.94
+ },
+ {
+  "text": "more",
+  "start": 231.951,
+  "end": 232.241
+ },
+ {
+  "text": "than",
+  "start": 232.241,
+  "end": 232.356
+ },
+ {
+  "text": "2,072",
+  "start": 232.356,
+  "end": 233.433
+ },
+ {
+  "text": "meters",
+  "start": 233.433,
+  "end": 233.873
+ },
+ {
+  "text": "farther",
+  "start": 233.942,
+  "end": 234.405
+ },
+ {
+  "text": "out",
+  "start": 234.417,
+  "end": 234.671
+ },
+ {
+  "text": "than",
+  "start": 234.683,
+  "end": 234.822
+ },
+ {
+  "text": "Everest's",
+  "start": 234.833,
+  "end": 235.47
+ },
+ {
+  "text": "NOAA",
+  "start": 235.64,
+  "end": 235.895
+ },
+ {
+  "text": "calls",
+  "start": 235.906,
+  "end": 236.219
+ },
+ {
+  "text": "it",
+  "start": 236.219,
+  "end": 236.288
+ },
+ {
+  "text": "the",
+  "start": 236.288,
+  "end": 236.358
+ },
+ {
+  "text": "closest",
+  "start": 236.369,
+  "end": 236.867
+ },
+ {
+  "text": "point",
+  "start": 236.878,
+  "end": 237.168
+ },
+ {
+  "text": "on",
+  "start": 237.168,
+  "end": 237.341
+ },
+ {
+  "text": "Earth",
+  "start": 237.353,
+  "end": 237.642
+ },
+ {
+  "text": "to",
+  "start": 237.642,
+  "end": 237.723
+ },
+ {
+  "text": "the",
+  "start": 237.723,
+  "end": 237.793
+ },
+ {
+  "text": "stars",
+  "start": 237.804,
+  "end": 238.36
+ },
+ {
+  "text": "And",
+  "start": 238.53,
+  "end": 238.587
+ },
+ {
+  "text": "again",
+  "start": 238.599,
+  "end": 239.016
+ },
+ {
+  "text": "the",
+  "start": 239.136,
+  "end": 239.228
+ },
+ {
+  "text": "sources",
+  "start": 239.228,
+  "end": 239.657
+ },
+ {
+  "text": "disagree",
+  "start": 239.668,
+  "end": 240.212
+ },
+ {
+  "text": "on",
+  "start": 240.224,
+  "end": 240.328
+ },
+ {
+  "text": "how",
+  "start": 240.328,
+  "end": 240.467
+ },
+ {
+  "text": "much",
+  "start": 240.467,
+  "end": 240.64
+ },
+ {
+  "text": "farther",
+  "start": 240.652,
+  "end": 241.15
+ },
+ {
+  "text": "NOAA",
+  "start": 241.32,
+  "end": 241.69
+ },
+ {
+  "text": "over",
+  "start": 241.81,
+  "end": 242.053
+ },
+ {
+  "text": "2,072",
+  "start": 242.053,
+  "end": 243.245
+ },
+ {
+  "text": "meters",
+  "start": 243.245,
+  "end": 243.824
+ },
+ {
+  "text": "The",
+  "start": 243.944,
+  "end": 244.002
+ },
+ {
+  "text": "Library",
+  "start": 244.002,
+  "end": 244.442
+ },
+ {
+  "text": "of",
+  "start": 244.454,
+  "end": 244.523
+ },
+ {
+  "text": "Congress",
+  "start": 244.523,
+  "end": 245.194
+ },
+ {
+  "text": "2,163",
+  "start": 245.314,
+  "end": 246.911
+ },
+ {
+  "text": "meters",
+  "start": 246.911,
+  "end": 247.444
+ },
+ {
+  "text": "Wikipedia",
+  "start": 247.564,
+  "end": 248.293
+ },
+ {
+  "text": "2,168",
+  "start": 248.413,
+  "end": 249.871
+ },
+ {
+  "text": "meters",
+  "start": 249.871,
+  "end": 250.346
+ },
+ {
+  "text": "And",
+  "start": 250.466,
+  "end": 250.639
+ },
+ {
+  "text": "NPR",
+  "start": 250.651,
+  "end": 251.334
+ },
+ {
+  "text": "in 2007",
+  "start": 251.454,
+  "end": 252.646
+ },
+ {
+  "text": "quoted",
+  "start": 252.766,
+  "end": 253.055
+ },
+ {
+  "text": "a",
+  "start": 253.055,
+  "end": 253.101
+ },
+ {
+  "text": "figure",
+  "start": 253.101,
+  "end": 253.564
+ },
+ {
+  "text": "of",
+  "start": 253.564,
+  "end": 253.68
+ },
+ {
+  "text": "1.5 miles",
+  "start": 253.68,
+  "end": 255.115
+ },
+ {
+  "text": "That's",
+  "start": 255.235,
+  "end": 255.362
+ },
+ {
+  "text": "about",
+  "start": 255.362,
+  "end": 255.594
+ },
+ {
+  "text": "2,400",
+  "start": 255.606,
+  "end": 256.855
+ },
+ {
+  "text": "meters",
+  "start": 256.856,
+  "end": 257.365
+ },
+ {
+  "text": "So",
+  "start": 257.535,
+  "end": 257.627
+ },
+ {
+  "text": "we",
+  "start": 257.627,
+  "end": 257.685
+ },
+ {
+  "text": "did",
+  "start": 257.697,
+  "end": 257.789
+ },
+ {
+  "text": "the",
+  "start": 257.789,
+  "end": 257.824
+ },
+ {
+  "text": "math",
+  "start": 257.824,
+  "end": 258.136
+ },
+ {
+  "text": "ourselves",
+  "start": 258.136,
+  "end": 258.785
+ },
+ {
+  "text": "We",
+  "start": 258.955,
+  "end": 259.047
+ },
+ {
+  "text": "used",
+  "start": 259.047,
+  "end": 259.255
+ },
+ {
+  "text": "the",
+  "start": 259.256,
+  "end": 259.336
+ },
+ {
+  "text": "standard",
+  "start": 259.348,
+  "end": 259.811
+ },
+ {
+  "text": "shape",
+  "start": 259.811,
+  "end": 260.124
+ },
+ {
+  "text": "of",
+  "start": 260.124,
+  "end": 260.193
+ },
+ {
+  "text": "the",
+  "start": 260.193,
+  "end": 260.262
+ },
+ {
+  "text": "Earth",
+  "start": 260.274,
+  "end": 260.633
+ },
+ {
+  "text": "that",
+  "start": 260.644,
+  "end": 260.853
+ },
+ {
+  "text": "GPS",
+  "start": 260.864,
+  "end": 261.501
+ },
+ {
+  "text": "uses",
+  "start": 261.501,
+  "end": 261.975
+ },
+ {
+  "text": "and",
+  "start": 262.095,
+  "end": 262.187
+ },
+ {
+  "text": "the",
+  "start": 262.187,
+  "end": 262.292
+ },
+ {
+  "text": "official",
+  "start": 262.303,
+  "end": 262.824
+ },
+ {
+  "text": "heights",
+  "start": 262.824,
+  "end": 263.148
+ },
+ {
+  "text": "of",
+  "start": 263.16,
+  "end": 263.252
+ },
+ {
+  "text": "both",
+  "start": 263.252,
+  "end": 263.472
+ },
+ {
+  "text": "summits",
+  "start": 263.472,
+  "end": 264.028
+ },
+ {
+  "text": "Everest's",
+  "start": 264.198,
+  "end": 264.615
+ },
+ {
+  "text": "summit",
+  "start": 264.626,
+  "end": 265.008
+ },
+ {
+  "text": "about",
+  "start": 265.128,
+  "end": 265.371
+ },
+ {
+  "text": "6,382.3",
+  "start": 265.371,
+  "end": 268.241
+ },
+ {
+  "text": "kilometers",
+  "start": 268.241,
+  "end": 268.762
+ },
+ {
+  "text": "from",
+  "start": 268.762,
+  "end": 268.878
+ },
+ {
+  "text": "the",
+  "start": 268.878,
+  "end": 268.936
+ },
+ {
+  "text": "center",
+  "start": 268.936,
+  "end": 269.353
+ },
+ {
+  "text": "Chimborazo's",
+  "start": 269.523,
+  "end": 270.275
+ },
+ {
+  "text": "summit",
+  "start": 270.275,
+  "end": 270.692
+ },
+ {
+  "text": "about",
+  "start": 270.812,
+  "end": 271.031
+ },
+ {
+  "text": "6,384.4",
+  "start": 271.031,
+  "end": 273.879
+ },
+ {
+  "text": "kilometers",
+  "start": 273.89,
+  "end": 274.573
+ },
+ {
+  "text": "The",
+  "start": 274.743,
+  "end": 274.813
+ },
+ {
+  "text": "difference",
+  "start": 274.824,
+  "end": 275.391
+ },
+ {
+  "text": "about",
+  "start": 275.511,
+  "end": 275.777
+ },
+ {
+  "text": "2,080",
+  "start": 275.789,
+  "end": 276.761
+ },
+ {
+  "text": "meters",
+  "start": 276.761,
+  "end": 277.34
+ },
+ {
+  "text": "That's",
+  "start": 277.51,
+  "end": 277.66
+ },
+ {
+  "text": "close",
+  "start": 277.66,
+  "end": 277.961
+ },
+ {
+  "text": "to",
+  "start": 277.973,
+  "end": 278.065
+ },
+ {
+  "text": "NOAA's",
+  "start": 278.065,
+  "end": 278.401
+ },
+ {
+  "text": "number",
+  "start": 278.401,
+  "end": 278.783
+ },
+ {
+  "text": "It's",
+  "start": 278.903,
+  "end": 278.973
+ },
+ {
+  "text": "a",
+  "start": 278.973,
+  "end": 279.007
+ },
+ {
+  "text": "simple",
+  "start": 279.007,
+  "end": 279.331
+ },
+ {
+  "text": "calculation",
+  "start": 279.343,
+  "end": 280.014
+ },
+ {
+  "text": "so",
+  "start": 280.134,
+  "end": 280.434
+ },
+ {
+  "text": "a",
+  "start": 280.516,
+  "end": 280.562
+ },
+ {
+  "text": "few",
+  "start": 280.573,
+  "end": 280.955
+ },
+ {
+  "text": "tens",
+  "start": 280.955,
+  "end": 281.233
+ },
+ {
+  "text": "of",
+  "start": 281.233,
+  "end": 281.279
+ },
+ {
+  "text": "meters",
+  "start": 281.279,
+  "end": 281.719
+ },
+ {
+  "text": "either",
+  "start": 281.839,
+  "end": 282.059
+ },
+ {
+  "text": "way",
+  "start": 282.059,
+  "end": 282.383
+ },
+ {
+  "text": "But",
+  "start": 282.503,
+  "end": 282.561
+ },
+ {
+  "text": "the",
+  "start": 282.561,
+  "end": 282.654
+ },
+ {
+  "text": "answer",
+  "start": 282.665,
+  "end": 282.978
+ },
+ {
+  "text": "doesn't",
+  "start": 282.978,
+  "end": 283.302
+ },
+ {
+  "text": "change",
+  "start": 283.302,
+  "end": 283.846
+ },
+ {
+  "text": "Chimborazo",
+  "start": 284.016,
+  "end": 284.617
+ },
+ {
+  "text": "is",
+  "start": 284.629,
+  "end": 284.745
+ },
+ {
+  "text": "farther",
+  "start": 284.756,
+  "end": 285.138
+ },
+ {
+  "text": "out",
+  "start": 285.138,
+  "end": 285.393
+ },
+ {
+  "text": "By",
+  "start": 285.513,
+  "end": 285.605
+ },
+ {
+  "text": "about",
+  "start": 285.605,
+  "end": 285.895
+ },
+ {
+  "text": "two",
+  "start": 285.895,
+  "end": 286.149
+ },
+ {
+  "text": "kilometers",
+  "start": 286.149,
+  "end": 286.89
+ },
+ {
+  "text": "Here's",
+  "start": 287.06,
+  "end": 287.222
+ },
+ {
+  "text": "the",
+  "start": 287.222,
+  "end": 287.303
+ },
+ {
+  "text": "fun",
+  "start": 287.315,
+  "end": 287.662
+ },
+ {
+  "text": "part",
+  "start": 287.674,
+  "end": 288.009
+ },
+ {
+  "text": "People",
+  "start": 288.129,
+  "end": 288.337
+ },
+ {
+  "text": "used",
+  "start": 288.337,
+  "end": 288.511
+ },
+ {
+  "text": "to",
+  "start": 288.511,
+  "end": 288.58
+ },
+ {
+  "text": "think",
+  "start": 288.592,
+  "end": 288.846
+ },
+ {
+  "text": "Chimborazo",
+  "start": 288.858,
+  "end": 289.668
+ },
+ {
+  "text": "was",
+  "start": 289.749,
+  "end": 289.946
+ },
+ {
+  "text": "the",
+  "start": 289.946,
+  "end": 290.027
+ },
+ {
+  "text": "highest",
+  "start": 290.027,
+  "end": 290.49
+ },
+ {
+  "text": "mountain",
+  "start": 290.49,
+  "end": 290.802
+ },
+ {
+  "text": "in",
+  "start": 290.814,
+  "end": 290.872
+ },
+ {
+  "text": "the",
+  "start": 290.872,
+  "end": 290.93
+ },
+ {
+  "text": "world",
+  "start": 290.941,
+  "end": 291.358
+ },
+ {
+  "text": "According",
+  "start": 291.528,
+  "end": 291.805
+ },
+ {
+  "text": "to",
+  "start": 291.805,
+  "end": 291.852
+ },
+ {
+  "text": "the",
+  "start": 291.852,
+  "end": 291.944
+ },
+ {
+  "text": "Library",
+  "start": 291.956,
+  "end": 292.407
+ },
+ {
+  "text": "of",
+  "start": 292.419,
+  "end": 292.511
+ },
+ {
+  "text": "Congress",
+  "start": 292.511,
+  "end": 293.217
+ },
+ {
+  "text": "Alexander",
+  "start": 293.337,
+  "end": 293.928
+ },
+ {
+  "text": "von",
+  "start": 294.048,
+  "end": 294.361
+ },
+ {
+  "text": "Humboldt",
+  "start": 294.372,
+  "end": 294.812
+ },
+ {
+  "text": "tried",
+  "start": 294.932,
+  "end": 295.175
+ },
+ {
+  "text": "to",
+  "start": 295.175,
+  "end": 295.221
+ },
+ {
+  "text": "climb",
+  "start": 295.222,
+  "end": 295.522
+ },
+ {
+  "text": "it",
+  "start": 295.522,
+  "end": 295.603
+ },
+ {
+  "text": "in 1802",
+  "start": 295.615,
+  "end": 296.853
+ },
+ {
+  "text": "He",
+  "start": 296.973,
+  "end": 297.043
+ },
+ {
+  "text": "reached",
+  "start": 297.043,
+  "end": 297.297
+ },
+ {
+  "text": "19,286 feet",
+  "start": 297.402,
+  "end": 299.983
+ },
+ {
+  "text": "higher",
+  "start": 300.103,
+  "end": 300.415
+ },
+ {
+  "text": "than",
+  "start": 300.427,
+  "end": 300.612
+ },
+ {
+  "text": "any",
+  "start": 300.728,
+  "end": 300.959
+ },
+ {
+  "text": "European",
+  "start": 300.959,
+  "end": 301.48
+ },
+ {
+  "text": "had",
+  "start": 301.48,
+  "end": 301.596
+ },
+ {
+  "text": "gone",
+  "start": 301.596,
+  "end": 301.781
+ },
+ {
+  "text": "before",
+  "start": 301.781,
+  "end": 302.244
+ },
+ {
+  "text": "and",
+  "start": 302.364,
+  "end": 302.433
+ },
+ {
+  "text": "still",
+  "start": 302.433,
+  "end": 302.723
+ },
+ {
+  "text": "fell",
+  "start": 302.723,
+  "end": 302.966
+ },
+ {
+  "text": "about",
+  "start": 302.977,
+  "end": 303.197
+ },
+ {
+  "text": "a",
+  "start": 303.197,
+  "end": 303.232
+ },
+ {
+  "text": "thousand",
+  "start": 303.244,
+  "end": 303.788
+ },
+ {
+  "text": "feet",
+  "start": 303.799,
+  "end": 304.019
+ },
+ {
+  "text": "short",
+  "start": 304.031,
+  "end": 304.389
+ },
+ {
+  "text": "The",
+  "start": 304.559,
+  "end": 304.64
+ },
+ {
+  "text": "first",
+  "start": 304.64,
+  "end": 304.964
+ },
+ {
+  "text": "recorded",
+  "start": 304.975,
+  "end": 305.369
+ },
+ {
+  "text": "ascent",
+  "start": 305.369,
+  "end": 305.797
+ },
+ {
+  "text": "came",
+  "start": 305.809,
+  "end": 306.028
+ },
+ {
+  "text": "in 1880",
+  "start": 306.028,
+  "end": 306.978
+ },
+ {
+  "text": "by",
+  "start": 307.098,
+  "end": 307.295
+ },
+ {
+  "text": "Edward",
+  "start": 307.387,
+  "end": 307.7
+ },
+ {
+  "text": "Whymper",
+  "start": 307.7,
+  "end": 308.14
+ },
+ {
+  "text": "It",
+  "start": 308.31,
+  "end": 308.402
+ },
+ {
+  "text": "lost",
+  "start": 308.402,
+  "end": 308.634
+ },
+ {
+  "text": "the",
+  "start": 308.634,
+  "end": 308.703
+ },
+ {
+  "text": "title",
+  "start": 308.715,
+  "end": 309.027
+ },
+ {
+  "text": "of",
+  "start": 309.039,
+  "end": 309.097
+ },
+ {
+  "text": "highest",
+  "start": 309.097,
+  "end": 309.641
+ },
+ {
+  "text": "But",
+  "start": 309.761,
+  "end": 309.83
+ },
+ {
+  "text": "it",
+  "start": 309.83,
+  "end": 309.9
+ },
+ {
+  "text": "kept",
+  "start": 309.9,
+  "end": 310.108
+ },
+ {
+  "text": "a",
+  "start": 310.12,
+  "end": 310.154
+ },
+ {
+  "text": "stranger",
+  "start": 310.155,
+  "end": 310.583
+ },
+ {
+  "text": "one",
+  "start": 310.583,
+  "end": 310.826
+ },
+ {
+  "text": "So",
+  "start": 310.996,
+  "end": 311.193
+ },
+ {
+  "text": "the",
+  "start": 311.204,
+  "end": 311.285
+ },
+ {
+  "text": "check",
+  "start": 311.285,
+  "end": 311.725
+ },
+ {
+  "text": "Claim",
+  "start": 311.895,
+  "end": 312.219
+ },
+ {
+  "text": "one",
+  "start": 312.219,
+  "end": 312.485
+ },
+ {
+  "text": "Everest",
+  "start": 312.605,
+  "end": 313.16
+ },
+ {
+  "text": "is",
+  "start": 313.28,
+  "end": 313.349
+ },
+ {
+  "text": "the",
+  "start": 313.349,
+  "end": 313.419
+ },
+ {
+  "text": "highest",
+  "start": 313.419,
+  "end": 313.974
+ },
+ {
+  "text": "mountain",
+  "start": 313.986,
+  "end": 314.542
+ },
+ {
+  "text": "above",
+  "start": 314.623,
+  "end": 314.935
+ },
+ {
+  "text": "sea",
+  "start": 314.947,
+  "end": 315.155
+ },
+ {
+  "text": "level",
+  "start": 315.155,
+  "end": 315.56
+ },
+ {
+  "text": "True",
+  "start": 315.73,
+  "end": 316.03
+ },
+ {
+  "text": "8,848.86",
+  "start": 316.15,
+  "end": 319.263
+ },
+ {
+  "text": "meters",
+  "start": 319.275,
+  "end": 319.807
+ },
+ {
+  "text": "by",
+  "start": 319.927,
+  "end": 320.066
+ },
+ {
+  "text": "the",
+  "start": 320.078,
+  "end": 320.159
+ },
+ {
+  "text": "2020",
+  "start": 320.159,
+  "end": 320.703
+ },
+ {
+  "text": "joint",
+  "start": 320.715,
+  "end": 320.981
+ },
+ {
+  "text": "measurement",
+  "start": 320.981,
+  "end": 321.478
+ },
+ {
+  "text": "Claim",
+  "start": 321.648,
+  "end": 321.914
+ },
+ {
+  "text": "two",
+  "start": 321.914,
+  "end": 322.284
+ },
+ {
+  "text": "Everest",
+  "start": 322.404,
+  "end": 322.948
+ },
+ {
+  "text": "is",
+  "start": 323.068,
+  "end": 323.137
+ },
+ {
+  "text": "the",
+  "start": 323.149,
+  "end": 323.241
+ },
+ {
+  "text": "tallest",
+  "start": 323.242,
+  "end": 323.704
+ },
+ {
+  "text": "mountain",
+  "start": 323.716,
+  "end": 323.971
+ },
+ {
+  "text": "on",
+  "start": 323.971,
+  "end": 324.098
+ },
+ {
+  "text": "Earth",
+  "start": 324.11,
+  "end": 324.491
+ },
+ {
+  "text": "False",
+  "start": 324.661,
+  "end": 325.09
+ },
+ {
+  "text": "by",
+  "start": 325.21,
+  "end": 325.326
+ },
+ {
+  "text": "NOAA's",
+  "start": 325.338,
+  "end": 325.685
+ },
+ {
+  "text": "definition",
+  "start": 325.685,
+  "end": 326.252
+ },
+ {
+  "text": "Mauna",
+  "start": 326.372,
+  "end": 326.603
+ },
+ {
+  "text": "Kea",
+  "start": 326.615,
+  "end": 327.02
+ },
+ {
+  "text": "is",
+  "start": 327.14,
+  "end": 327.255
+ },
+ {
+  "text": "taller",
+  "start": 327.255,
+  "end": 327.66
+ },
+ {
+  "text": "from",
+  "start": 327.66,
+  "end": 327.799
+ },
+ {
+  "text": "base",
+  "start": 327.811,
+  "end": 328.135
+ },
+ {
+  "text": "to",
+  "start": 328.135,
+  "end": 328.216
+ },
+ {
+  "text": "peak",
+  "start": 328.228,
+  "end": 328.644
+ },
+ {
+  "text": "Claim",
+  "start": 328.814,
+  "end": 329.114
+ },
+ {
+  "text": "three",
+  "start": 329.115,
+  "end": 329.554
+ },
+ {
+  "text": "the",
+  "start": 329.674,
+  "end": 329.755
+ },
+ {
+  "text": "top",
+  "start": 329.755,
+  "end": 329.974
+ },
+ {
+  "text": "of",
+  "start": 329.986,
+  "end": 330.079
+ },
+ {
+  "text": "Everest",
+  "start": 330.079,
+  "end": 330.646
+ },
+ {
+  "text": "is",
+  "start": 330.762,
+  "end": 330.854
+ },
+ {
+  "text": "the",
+  "start": 330.866,
+  "end": 330.958
+ },
+ {
+  "text": "closest",
+  "start": 330.958,
+  "end": 331.56
+ },
+ {
+  "text": "you",
+  "start": 331.56,
+  "end": 331.63
+ },
+ {
+  "text": "can",
+  "start": 331.63,
+  "end": 331.711
+ },
+ {
+  "text": "get",
+  "start": 331.711,
+  "end": 331.85
+ },
+ {
+  "text": "to",
+  "start": 331.861,
+  "end": 331.907
+ },
+ {
+  "text": "space",
+  "start": 331.907,
+  "end": 332.544
+ },
+ {
+  "text": "False",
+  "start": 332.714,
+  "end": 333.154
+ },
+ {
+  "text": "Chimborazo's",
+  "start": 333.274,
+  "end": 333.864
+ },
+ {
+  "text": "summit",
+  "start": 333.876,
+  "end": 334.2
+ },
+ {
+  "text": "is",
+  "start": 334.293,
+  "end": 334.397
+ },
+ {
+  "text": "about",
+  "start": 334.397,
+  "end": 334.663
+ },
+ {
+  "text": "two",
+  "start": 334.663,
+  "end": 334.86
+ },
+ {
+  "text": "kilometers",
+  "start": 334.871,
+  "end": 335.439
+ },
+ {
+  "text": "farther",
+  "start": 335.531,
+  "end": 336.052
+ },
+ {
+  "text": "from",
+  "start": 336.064,
+  "end": 336.202
+ },
+ {
+  "text": "Earth's",
+  "start": 336.202,
+  "end": 336.399
+ },
+ {
+  "text": "center",
+  "start": 336.411,
+  "end": 336.77
+ },
+ {
+  "text": "Verdict",
+  "start": 336.94,
+  "end": 337.345
+ },
+ {
+  "text": "Everest",
+  "start": 337.465,
+  "end": 338.009
+ },
+ {
+  "text": "is",
+  "start": 338.129,
+  "end": 338.21
+ },
+ {
+  "text": "the",
+  "start": 338.222,
+  "end": 338.291
+ },
+ {
+  "text": "highest",
+  "start": 338.291,
+  "end": 338.905
+ },
+ {
+  "text": "It",
+  "start": 339.025,
+  "end": 339.059
+ },
+ {
+  "text": "is",
+  "start": 339.059,
+  "end": 339.14
+ },
+ {
+  "text": "not",
+  "start": 339.14,
+  "end": 339.36
+ },
+ {
+  "text": "the",
+  "start": 339.372,
+  "end": 339.441
+ },
+ {
+  "text": "tallest",
+  "start": 339.441,
+  "end": 340.043
+ },
+ {
+  "text": "And",
+  "start": 340.163,
+  "end": 340.233
+ },
+ {
+  "text": "it",
+  "start": 340.233,
+  "end": 340.279
+ },
+ {
+  "text": "is",
+  "start": 340.279,
+  "end": 340.36
+ },
+ {
+  "text": "not",
+  "start": 340.36,
+  "end": 340.603
+ },
+ {
+  "text": "the",
+  "start": 340.614,
+  "end": 340.696
+ },
+ {
+  "text": "farthest",
+  "start": 340.696,
+  "end": 341.32
+ },
+ {
+  "text": "out",
+  "start": 341.32,
+  "end": 341.633
+ },
+ {
+  "text": "Three",
+  "start": 341.803,
+  "end": 342.023
+ },
+ {
+  "text": "rulers",
+  "start": 342.023,
+  "end": 342.591
+ },
+ {
+  "text": "Three",
+  "start": 342.711,
+  "end": 342.942
+ },
+ {
+  "text": "winners",
+  "start": 342.942,
+  "end": 343.463
+ },
+ {
+  "text": "Which",
+  "start": 343.633,
+  "end": 343.772
+ },
+ {
+  "text": "ruler",
+  "start": 343.772,
+  "end": 343.98
+ },
+ {
+  "text": "do",
+  "start": 343.98,
+  "end": 344.027
+ },
+ {
+  "text": "you",
+  "start": 344.038,
+  "end": 344.189
+ },
+ {
+  "text": "think",
+  "start": 344.189,
+  "end": 344.524
+ },
+ {
+  "text": "is",
+  "start": 344.536,
+  "end": 344.617
+ },
+ {
+  "text": "the",
+  "start": 344.629,
+  "end": 344.686
+ },
+ {
+  "text": "fair",
+  "start": 344.686,
+  "end": 344.999
+ },
+ {
+  "text": "one",
+  "start": 344.999,
+  "end": 345.207
+ },
+ {
+  "text": "Tell",
+  "start": 345.327,
+  "end": 345.431
+ },
+ {
+  "text": "me",
+  "start": 345.443,
+  "end": 345.523
+ },
+ {
+  "text": "in",
+  "start": 345.523,
+  "end": 345.581
+ },
+ {
+  "text": "the",
+  "start": 345.581,
+  "end": 345.639
+ },
+ {
+  "text": "comments",
+  "start": 345.639,
+  "end": 346.218
+ }
+]
