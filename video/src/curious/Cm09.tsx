@@ -185,7 +185,7 @@ const TwoCamps: React.FC = () => {
           const x = 200 + (i as number) * 800;
           return <g key={i as number} opacity={on}><rect x={x} y={300} width={720} height={420} rx={30} fill="#FFFFFF" /><text x={x + 360} y={470} textAnchor="middle" fontFamily="Pretendard" fontWeight={900} fontSize={76} fill={INK}>{t as string}</text><text x={x + 360} y={560} textAnchor="middle" fontFamily="Pretendard" fontWeight={800} fontSize={30} fill={INK} opacity={0.7}>{sub as string}</text></g>;
         })}
-        <text x={960} y={200} textAnchor="middle" fontFamily="Pretendard" fontWeight={900} fontSize={56} fill={YEL}>two main camps (Wikipedia)</text>
+        <text x={960} y={830} textAnchor="middle" fontFamily="Pretendard" fontWeight={900} fontSize={56} fill={YEL}>two main camps (Wikipedia)</text>
       </svg>
     </AbsoluteFill>
   );
@@ -283,7 +283,7 @@ const SCENES: [number, React.ReactNode][] = [
   [S(64), <Land shot={orbit(220, 60, [0, 30, 0], 1, 0.04)} night>{(s) => <Valley t={s} lights={2} />}</Land>],
   [S(66), <Ideas />],
   [S(67), <Land shot={(s) => ({ pos: V(-120 + s * 3, 26, 140), look: V(0, 40, 0), fov: 45 })} night>{(s) => <Valley t={s} lights={4} />}</Land>],
-  [S(69), <Land shot={orbit(90, 30, [0, 0, 0], 0, 0.04)}>{PL}</Land>],
+  [S(69), <Land shot={orbit(220, 60, [0, 30, 0], 2, 0.03)} night>{(s) => <Valley t={s} lights={2} />}</Land>],
   [S(76), <Land shot={(s) => ({ pos: V(-160 + s * 3, 30, 160), look: V(0, 40, 0), fov: 45 })} night>{(s) => <Valley t={s} />}</Land>],
 ];
 const OVER: [number, number, React.ReactNode][] = [
